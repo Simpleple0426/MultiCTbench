@@ -1,0 +1,1009 @@
+[
+    {
+        "question_id": 1,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.13476v1\\chart1.jpg",
+            "table1": "2509.13476v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of DeepGGL, DeepGGLs, DeepGGLm, and DeepGGLl on CASF 2016 and CASF 2013 datasets",
+            "table1": "Performance comparison of DeepGGL and state-of-the-art SFs on CASF-2013 benchmark"
+        },
+        "question":"Based on Table 1 and Chart 1, identify the dataset that is shared by both the table and the chart. Respond only with the name of the dataset.",
+        "question_type": "perceptual",
+        "answer": "CASF-2013",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 2,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.14029v1\\chart1.jpg",
+            "table1": "2509.14029v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Micro accuracy (a) and Macro accuracy (b) of the models as a function of the pruning fraction",
+            "table1": ": Results of the model quantization. FP32 denotes the single-precision floating point format, whereas I8 denotes the signed 8-bit integer format. The bold numbers in the model size column indicate the compression factors of the quantised models."
+        },
+        "question":"Do Chart 1 and Table 1 involve exactly the same set of models? If yes, return the model name in this format, [model1, model2, model3]. If no, report no. Respond only with the list or no.",
+        "question_type": "perceptual",
+        "answer": "[ResNet18, ResNeXt101, ViT]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.14029v1\\chart1.jpg",
+            "table1": "2509.14029v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Micro accuracy (a) and Macro accuracy (b) of the models as a function of the pruning fraction",
+            "table1": ": Results of the model quantization. FP32 denotes the single-precision floating point format, whereas I8 denotes the signed 8-bit integer format. The bold numbers in the model size column indicate the compression factors of the quantised models."
+        },
+        "question":"Considering both pruning (Chart 1) and quantization (Table 1), which model exhibits the smallest overall performance degradation? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "ResNet18",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.20542v1\\chart1.jpg",
+            "table1": "2509.20542v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Fraction of samples with RMSD < ϵ for different ϵ values (DB5.5 Test Set, 24 Samples, Excluding 1N2C)",
+            "table1": "DB5.5 Test Set Evaluation Top-1 Results: Model Comparison."
+        },
+        "question":"Which model in Chart 1 exhibits the most dispersed distribution? Report the model name and the std of cRMSD and iRMSD in this format, [model name, std1, std2]. Respond only with the list.",
+        "question_type": "reasoning",
+        "answer": "[DiffDock-PP, 5.3, 6.4]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.20542v1\\chart1.jpg",
+            "table1": "2509.20542v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Fraction of samples with RMSD < ϵ for different ϵ values (DB5.5 Test Set, 24 Samples, Excluding 1N2C)",
+            "table1": "DB5.5 Test Set Evaluation Top-1 Results: Model Comparison."
+        },
+        "question":"Which curve in Chart 1 shows the steepest rise? Report the model represented by the curve and the runtime of this model in this format, [model name, runtime]. Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": "[GeoDock, 2,24]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 6,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.23254v1\\chart1.jpg",
+            "table1": "2509.23254v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Phylogenetic tree of antigens in the AACDB 3674 dataset, with six clusters obtained",
+            "table1": "Distribution of validation samples across clusters for each fold."
+        },
+        "question":"By comparing cluster totals from Chart 1 with the summed validation samples across all folds in Table 1, which cluster doesn't show exact consistency? If such a cluster exists, respond only with the cluster. Else, respond no.",
+        "question_type": "reasoning",
+        "answer": "no",
+        "answer_type": "text"
+    },
+
+
+    {
+        "question_id": 7,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.11188v1\\chart1.jpg",
+            "table1": "2510.11188v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of human evaluation results. Left: Absolute human rating scores (0–5) for zero-shot model outputs (dark bars) and model outputs with adaptive context exposure (light bars) on three datasets. Right: Pairwise win/lose proportions comparing outputs with and without adaptive context exposure. Each comparison is based on 8 randomly selected cases per subset (48 cases in total across six subsets)",
+            "table1": "Comparison of different approaches in protein question answering. “Fun.”, “Des.”, “Dom.”, and “Cat.” denote the 4 protein-oriented tasks in the Mol-Instructions dataset [11]: protein function prediction (Fun.), general textual description generation (Des.), domain/motif recognition (Dom.), and catalytic activity prediction (Cat.). △ Gain shows the percentage performance increase. ◇ indicates LLMs augmented with our adaptive context construction method. Metric: ROUGE-L."
+        },
+        "question":"Which model shows both a largest human-rating improvement in Chart 1 and a positive Δ Gain in Table 1 on Protein2Text-QA? Respond only with the model name，the value of improvement in chart1 and the Δ Gaini in table1 in this format, [model name, value1, value2]. Respond only with the list.",
+        "question_type": "reasoning",
+        "answer": "[Qwen3-14B, 1.00, 4.91]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.21161v2\\chart1.jpg",
+            "table1": "2510.21161v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "RiboPO improves both sampling efficiency and the quality distribution of generated sequences. Pass@k performance shows RiboPO consistently dominates gRNAde across all sample sizes k, with the largest gains at the small-k screening regime crucial for practical applications.",
+            "table1": "Table 2: Pass@k results for generating a sequence with RMSD < 12 A, pLDDT ˚ > 0.50, TM-score > 0.05, and MFE < −4.0 kcal/mol (T = 0.5). RiboPO demonstrates superior sampling efficiency with Multi-round RiboPO achieving the best performance."
+        },
+        "question":"Referring to Chart 1 and Table 1, what is the pass@k value for the red curve at k=32? Respond only with a number.",
+        "question_type": "perceptual",
+        "answer": 0.769,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 9,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.21161v2\\chart1.jpg",
+            "table1": "2510.21161v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "RiboPO improves both sampling efficiency and the quality distribution of generated sequences. Pass@k performance shows RiboPO consistently dominates gRNAde across all sample sizes k, with the largest gains at the small-k screening regime crucial for practical applications.",
+            "table1": "Table 2: Pass@k results for generating a sequence with RMSD < 12 A, pLDDT ˚ > 0.50, TM-score > 0.05, and MFE < −4.0 kcal/mol (T = 0.5). RiboPO demonstrates superior sampling efficiency with Multi-round RiboPO achieving the best performance."
+        },
+        "question":"In chart1, when k equals a certain value, the gap between any two curves is maximized. Using Table 1, calculate the specific difference. Respond only with a positive number.",
+        "question_type": "reasoning",
+        "answer": 0.154,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.25132v1\\chart1.jpg",
+            "table1": "2510.25132v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of kcat distribution.",
+            "table1": "Ablating EnzyControl’s components. Green denotes relative performance change."
+        },
+        "question":"Which rows in Table 1 corresponds to the “No EnzyAdapter” setting shown in chart1? Provide the row numbers in this format, [num1, num2, ..].  Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": [2, 4],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 11,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2503.13399v1\\chart1.jpg",
+            "table1": "2503.13399v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Composition of scientific MLLM benchmarks regarding estimated Bloom’s taxonomy [11]. Higher levels are more cognitively challenging. MicroVQA has more questions at higher levels compared to other benchmarks, for example, MMMU [87] and ScienceQA [53], while perception-driven medical benchmarks like OmniMedVQA are at lower levels.",
+            "table1": "Comparing scientific multimodal benchmarks close to MicroVQA for in terms of reasoning level or difficulty beyond college level. We show difficulty level, scientific domain, dataset source, and size. Compared to others, MicroVQA either has higher difficulty level, or it has higher reasoning level (which is established in Fig. 3). Compared to others at the same reasoning level, namely MMMU-Pro, it has similar size."
+        },
+        "question":"For benchmarks labeled as “research” in Table 1, compute the average Bloom’s Level 4 (Analysis) proportion shown in Chart 1. Respond only with a single numeric value rounded to one decimal place.",
+        "question_type": "reasoning",
+        "answer": 14.0,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2503.13399v1\\chart1.jpg",
+            "table1": "2503.13399v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Composition of scientific MLLM benchmarks regarding estimated Bloom’s taxonomy [11]. Higher levels are more cognitively challenging. MicroVQA has more questions at higher levels compared to other benchmarks, for example, MMMU [87] and ScienceQA [53], while perception-driven medical benchmarks like OmniMedVQA are at lower levels.",
+            "table1": "Comparing scientific multimodal benchmarks close to MicroVQA for in terms of reasoning level or difficulty beyond college level. We show difficulty level, scientific domain, dataset source, and size. Compared to others, MicroVQA either has higher difficulty level, or it has higher reasoning level (which is established in Fig. 3). Compared to others at the same reasoning level, namely MMMU-Pro, it has similar size."
+        },
+        "question":"Identify the benchmark with the largest dataset size in Table 1, and report its Bloom’s Level 5 proportion from Chart 1. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2503.20158v2\\chart1.jpg",
+            "table1": "2503.20158v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Mean average precision performance on RxRx3-core public benchmark in predicting drugtarget interactions, across all compound concentrations with error bars for 100 runs of the benchmark with different random seeds",
+            "table1": "Performance on the public RxRx3-core drug-target interaction and RxRx3-core perturbation magnitude benchmark, measuring mean average precision (± STD over 100 random seeds benchmarking with different negative samples) in predicting compound activity against target genes, and mean energy distance (± MAD over all perturbations) separating perturbation embeddings from controls with corresponding z-scores of improvement over a random baseline."
+        },
+        "question":"Compute the approximate mean Average Precision at the max concentration in Chart 1 for the top three methods ranked by Table 1. Respond only with a single numeric value rounded to three decimals.",
+        "question_type": "reasoning",
+        "answer": 0.292,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 14,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.02903v1\\chart1.jpg",
+            "table1": "2510.02903v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of models jointly trained on Cite and Multi datasets to test potential for amortization. We report mean ± standard deviation of the EMD metric, along with the average across datasets.",
+            "table1": "Model comparison across the synthetically inflated datasets. We report mean ± standard deviation of the MMD metric, along with the average across datasets. Lower values indicate better performance. Standard deviation is computed over left-out time points"
+        },
+        "question":"What metrics are reported in Chart 1 and Table 1, respectively? Respond only with a list in the format [chart_metric, table_metric].",
+        "question_type": "perceptual",
+        "answer": "[EMD, MMD]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.02903v1\\chart1.jpg",
+            "table1": "2510.02903v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of models jointly trained on Cite and Multi datasets to test potential for amortization. We report mean ± standard deviation of the EMD metric, along with the average across datasets.",
+            "table1": "Model comparison across the synthetically inflated datasets. We report mean ± standard deviation of the MMD metric, along with the average across datasets. Lower values indicate better performance. Standard deviation is computed over left-out time points"
+        },
+        "question":"Which model shows the most stable performance across datasets when considering both Chart 1 and Table 1? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "Cell-MNN",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 16,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.02903v1\\chart1.jpg",
+            "table1": "2510.02903v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The ablation experiments of VCWorld.",
+            "table1": "Comparison of AUROC and AUPRC on Differential Expression (DE) prediction."
+        },
+        "question":"For VCWorld-Llama3, compute the difference between its mean Q-Score in Chart 1 and mean AUROC in Table 1 (Q-Score − AUROC). Respond only with a single numeric value rounded to three decimals.",
+        "question_type": "reasoning",
+        "answer": 0.44,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.02903v1\\chart1.jpg",
+            "table1": "2510.02903v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The ablation experiments of VCWorld.",
+            "table1": "Comparison of AUROC and AUPRC on Differential Expression (DE) prediction."
+        },
+        "question":"On the C32 dataset in Chart 1, compute the standard deviation of Q-Score for each model and identify the model with the smallest Q-Score standard deviation. Then, from the AUROC section of Table 1, extract the AUROC value of this model on the C32 dataset. Respond only with a single numeric value rounded to three decimals.",
+        "question_type": "reasoning",
+        "answer": 0.42,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.09923v1\\chart1.jpg",
+            "table1": "2509.09923v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Confusion matrices for the three-class problems.",
+            "table1": "Classification report for the three-class problem (HC, UC, CD)."
+        },
+        "question":"Using Chart 1 and Table 1, compute the difference in correct predictions corresponding to the Recall difference between UC and CD. Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.12266v1\\chart1.jpg",
+            "table1": "2509.12266v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Trade-off between tuning efficiency and performance. The figure shows memory usage in gigabytes (GB), throughput in kilotokens per second (KTok/s), and averaged scores on the GUE benchmark for three models: DNABERT-2, HyenaDNA-160k, and Nucleotide Transformer-500M. We report results for full-tuning (Full), low-rank adaptation (LoRA), and adapter-based fine-tuning (Adapter). The results highlight the trade-offs between resource efficiency and predictive performance",
+            "table1": "Benchmark across models and tuning methods. We report results on both the GUE benchmark and Genomic Benchmarks. “—” marks settings we did not evaluate due to computational constraints. We exclude EVO (7B) from full fine-tuning due to the high computation cost. Full denotes full-parameter fine-tuning, LoRA denotes low-rank adaptation, and Adapter denotes adapter-based tuning"
+        },
+        "question":"The Nucleotide Transformer shown in Chart 1 corresponds to which full model name in Table 1? Respond only with the model name.",
+        "question_type": "perceptual",
+        "answer": "Nucleotide Transformer-500M",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 20,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.12266v1\\chart1.jpg",
+            "table1": "2509.12266v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Trade-off between tuning efficiency and performance. The figure shows memory usage in gigabytes (GB), throughput in kilotokens per second (KTok/s), and averaged scores on the GUE benchmark for three models: DNABERT-2, HyenaDNA-160k, and Nucleotide Transformer-500M. We report results for full-tuning (Full), low-rank adaptation (LoRA), and adapter-based fine-tuning (Adapter). The results highlight the trade-offs between resource efficiency and predictive performance",
+            "table1": "Benchmark across models and tuning methods. We report results on both the GUE benchmark and Genomic Benchmarks. “—” marks settings we did not evaluate due to computational constraints. We exclude EVO (7B) from full fine-tuning due to the high computation cost. Full denotes full-parameter fine-tuning, LoRA denotes low-rank adaptation, and Adapter denotes adapter-based tuning"
+        },
+        "question":"Using Chart 1 and Table 1, which model’s Adapter tuning shows both the largest throughput increase and the largest GUE score drop? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "HyenaDNA-160k",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 21,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.23543v1\\chart1.jpg",
+            "table1": "2509.23543v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of classification performance across BioBERT, SciBERT, and text-embedding-ada-002 models in the C28, C33, C36, and C43 dataset, evaluated by accuracy, F1 score, and Cohen’s Kappa.",
+            "table1": "PERFORMANCE COMPARISON OF SEURAT AND TEXT-BASED EMBEDDING MODELS ON RGC CLASSIFICATION"
+        },
+        "question":"How many models are there in table1 and chart1 respectively? Report the number in this format, [number of table1, number of chart1]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": [4, 3],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.08655v1\\chart1.jpg",
+            "table1": "2510.08655v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": ": MRR performance of the different methods comparing patients with common causal genes versus unique gene cases.",
+            "table1": "Performance of Shepherd, Amelie, and PhenoApt on the MyGene2 patients where the causal gene is included in the RareNet subgraph. Results are shown without and with RareNet patient subgraphs (denoted as +RN)."
+        },
+        "question":"The “RareNet gain” in Chart 1 corresponds to which setting in Table 1? Respond only with the setting name.",
+        "question_type": "perceptual",
+        "answer": "+RN",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 23,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.08655v1\\chart1.jpg",
+            "table1": "2510.08655v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": ": MRR performance of the different methods comparing patients with common causal genes versus unique gene cases.",
+            "table1": "Performance of Shepherd, Amelie, and PhenoApt on the MyGene2 patients where the causal gene is included in the RareNet subgraph. Results are shown without and with RareNet patient subgraphs (denoted as +RN)."
+        },
+        "question":"Compare Amelie’s common-gene total MRR in Chart 1 with its base MRR in Table 1. Compute the difference (Chart − Table). Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 4.9,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 24,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.03976v1\\chart1.jpg",
+            "table1": "2511.03976v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Performance of PETRA under different immune backgrounds. Left: Weighted recall@𝑘 with and without location information. Right: Weighted recall@𝑘 by different sample time.",
+            "table1": "Weighted recall@𝑘 for different variants of PETRA models depend on use of temporal and representative weighting during training. PETRA-NW does not use any weighted sampling methods, PETRA-TW uses the temporal weight only. PETRA-RW uses representative weight only."
+        },
+        "question":"Using Table 1 and the left panel of Chart 1, compute the mean absolute difference between PETRA and each of the following settings across the five recall metrics (Nuc r@1, Nuc r@10, Nuc r@100, Spike r@1, Spike r@10): PETRA-NW, PETRA-TW, PETRA-RW, PETRA-No Location The setting with the largest mean absolute difference is considered to have the worst compatibility with PETRA. Respond only with the setting name.",
+        "question_type": "reasoning",
+        "answer": "PETRA-NW",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 25,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.07219v1\\chart1.jpg",
+            "table1": "2511.07219v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Absolute Error of Age Prediction by Cancer Type.",
+            "table1": ": Cox survival analysis results of all patients."
+        },
+        "question":"Compare the number of cancer types shown for the Internal cohort in Chart 1 with the number of models listed for the Internal cohort in Table 1. Respond only with a list of two integers [chart_count, table_count].",
+        "question_type": "perceptual",
+        "answer": [8, 4],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2507.01132v2\\chart1.jpg",
+            "table1": "2507.01132v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution of train dataset with and without synthetic augmentation, along with the improvements for each part of the test set domain, for each dataset.",
+            "table1": "Experimental results for the FreeSolv, ESOL, and LIPO datasets, using the SERA, MAE, RMSE, and 𝑅 2 evaluation metrics. Arrows signal the direction for best results, also noted in bold."
+        },
+        "question":"Identify the best-performing method in the [-25, -18] range from Chart 1, then rank its SERA value among all models on FreeSolv in Table 1. Output constraint: Respond only with a single integer rank (1 = best).",
+        "question_type": "reasoning",
+        "answer": 2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2507.03209v1\\chart1.jpg",
+            "table1": "2507.03209v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Relative error distribution across different models. This figure presents the relative error histograms for nine models evaluated, including two MLP variants trained with Morgan fingerprints (MLP-M) and Morgan fingerprints combined with expert descriptors (MLP-M-E). For models utilizing multiple feature sets, the best-performing configuration is selected based on predictive accuracy. The distribution of errors highlights the reliability and precision of each model, with narrower and more concentrated histograms indicating superior predictive performance.",
+            "table1": "Performance comparison across models and feature sets under Murcko scaffold split. This table presents the predictive performance of various ML models trained with different feature representations, including Morgan fingerprints, expert descriptors, and end-to-end learned embeddings. Bold highlight the best performance, and underlined denote the second-best. Due to the more challenging scaffold-based data split, overall performance is lower compared to random splitting. While most models show a decline in accuracy, kNN and Chemprop maintain similar performance levels, suggesting their robustness to distribution shifts. kNN achieves the best performance, followed by MLP, while AGILE exhibits the lowest predictive accuracys"
+        },
+        "question":"Among models with MAE < 1.6 in Table 1, identify those whose error distributions in Chart 1 are primarily concentrated below 3% relative error. Respond only with a list of model names.",
+        "question_type": "reasoning",
+        "answer": "[MLP, KPGT]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2507.05101v2\\chart1.jpg",
+            "table1": "2507.05101v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Cross-species generalization performance evaluated via graph similarity score.",
+            "table1": ": Overall results of intra-species (Human) PPI network construction task. We use three color scales of blue to denote the first, second, and third best performance. RD closer to 1 is better."
+        },
+        "question":"First identify the best-performing model under RW sampling for Human to Yeast in Chart 1. Then extract its GS value under RW sampling from Table 1. Respond only with a numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.491,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 29,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2507.05101v2\\chart1.jpg",
+            "table1": "2507.05101v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Cross-species generalization performance evaluated via graph similarity score.",
+            "table1": ": Overall results of intra-species (Human) PPI network construction task. We use three color scales of blue to denote the first, second, and third best performance. RD closer to 1 is better."
+        },
+        "question":"Compute the mean GS value under RW sampling in Table 1 for the top three models under RW sampling in Chart 1. Round to three decimals. Respond only with a numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.456,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 30,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.20693v1\\chart1.jpg",
+            "table1": "2509.20693v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Our model outperforms recent baselines on DTI-DG despite fewer parameters and no external knowledge.",
+            "table1": "Comparison on BIOSNAP, BindingDB, and DAVIS. Mean ± s.e.m. over 5 random seeds. Sledzieski et al."
+        },
+        "question":"First identify the model with the highest PCC in Chart 1. Then extract its AUPR value on the BIOSNAP benchmark from Table 1. Respond only with a numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.919,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 31,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.20693v1\\chart1.jpg",
+            "table1": "2509.20693v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Our model outperforms recent baselines on DTI-DG despite fewer parameters and no external knowledge.",
+            "table1": "Comparison on BIOSNAP, BindingDB, and DAVIS. Mean ± s.e.m. over 5 random seeds. Sledzieski et al."
+        },
+        "question":"From Chart 1, identify the top three models by PCC. Using Table 1, compute their mean AUPR on BIOSNAP. Respond only with a numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.904,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 32,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.04838v1\\chart1.jpg",
+            "table1": "2511.04838v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Time vs. MAE across models and datasets. Each point represents the average runtime (log scale) and mean absolute error (MAE) of a model–dataset pair. Black hollow circles and connecting lines indicate the Pareto frontier for each dataset.",
+            "table1": "Joint distribution plots of molecular properties versus task targets for original (blue, circles, solid marginals) and augmented (orange, crosses, dashed marginals) molecules. Each row corresponds to a dataset (FreeSolv, ESOL, Lipo), and each column shows one computed property (LogP, SA, QED, MW, BT)"
+        },
+        "question":"Identify the model with the shortest runtime on the ESOL Pareto frontier in Chart 1, then compute its average MAE across all three datasets using Table 1. Round to three decimals. Respond only with a numeric value.",
+        "question_type": "reasoning",
+        "answer": 1.090,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 33,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.04838v1\\chart1.jpg",
+            "table1": "2511.04838v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Time vs. MAE across models and datasets. Each point represents the average runtime (log scale) and mean absolute error (MAE) of a model–dataset pair. Black hollow circles and connecting lines indicate the Pareto frontier for each dataset.",
+            "table1": "Joint distribution plots of molecular properties versus task targets for original (blue, circles, solid marginals) and augmented (orange, crosses, dashed marginals) molecules. Each row corresponds to a dataset (FreeSolv, ESOL, Lipo), and each column shows one computed property (LogP, SA, QED, MW, BT)"
+        },
+        "question":"Identify the model achieving the lowest MAE in Chart 1 and compute its mean SERA across datasets from Table 1. Respond only with a numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.303,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 34,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.13733v1\\chart1.jpg",
+            "table1": "2511.13733v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The overall performance comparison on 10 EEG datasets.",
+            "table1": "SummaryofEEGdatasetsusedindownstreamtasks."
+        },
+        "question":"First, identify the dataset on which BAR-Huge (Ours) achieves its best performance according to Chart 1. Then, using Table 1, extract the corresponding number of subjects and number of classes for that dataset. Respond only with a list in the format: [dataset,subject,class]. Respond only with the list.",
+        "question_type": "reasoning",
+        "answer": "[EDF, 78, 5]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.20162v1\\chart1.jpg",
+            "table1": "2511.20162v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Mean accuracy vs. detection error tolerance. A correct detection of the models represents a predicted frame within the allowed error tolerance, where an error tolerance of zero means the exact true frame was predicted. Results of Qwen-2.5VL-72B is shown for the difference ICL regimes under the ”with reasoning” condition. Note, that the length of all videos in the experimental dataset is 10 frames.",
+            "table1": "Reasoning effect on LMMs’ performance. Models are instructed to describe step-by-step the reasoning behind their prediction of the frame where the interaction occurs. Mean accuracy is measured for the detection of the frame where the test event occurs, within an allowed error tolerance (here the exact or two frames off the true frame). Results are reported as per 3 ICL regimes (ZS, OS, TS) for the models: (i) Qwen-2.5VL-72B and (ii) GPT-4o."
+        },
+        "question":"In Chart 1, focus on the bar corresponding to Error Tolerance = 2. Identify the solid bar and extract its Mean Accuracy value. Respond only with a single numeric value, without the percentage sign.",
+        "question_type": "perceptual",
+        "answer": 66,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.20162v1\\chart1.jpg",
+            "table1": "2511.20162v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Global similarity differences. The graph is divided into two parts: positive bars above zero represent the Correctly Matched group, while shaded bars below zero correspond to the Incorrectly Matched group. Different colors indicate different models. For the Correctly Matched group, Model: all-0 ms yielded the largest similarity differences compared to the other two models.",
+            "table1": "Individual performance of Model: all-0 ms. This table presents the results of eight individuals. Although some individual differences were observed, the model appears to generalize across individuals and can classify new songs within each subject."
+        },
+        "question":"Which data settings are shared between Chart 1 and Table 1? Respond only with a list of dataset names.",
+        "question_type": "perceptual",
+        "answer": "[All-data, Attention data]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.20162v1\\chart1.jpg",
+            "table1": "2511.20162v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Global similarity differences. The graph is divided into two parts: positive bars above zero represent the Correctly Matched group, while shaded bars below zero correspond to the Incorrectly Matched group. Different colors indicate different models. For the Correctly Matched group, Model: all-0 ms yielded the largest similarity differences compared to the other two models.",
+            "table1": "Individual performance of Model: all-0 ms. This table presents the results of eight individuals. Although some individual differences were observed, the model appears to generalize across individuals and can classify new songs within each subject."
+        },
+        "question":"Using Table 1, select the data row whose worst-performing subject has the minimum value. Then, from Chart 1 under that data condition, compute the range (max − min) of similarity differences across the three models in the Correctly Matched group.Respond only with a single numeric value rounded to two decimal places.",
+        "question_type": "reasoning",
+        "answer": 0.20,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 38,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2508.10054v1\\chart1.jpg",
+            "table1": "2508.10054v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Overview of the SurgPub-Video data distribution. (a) The proportion of original journal videos in 11 surgical specialties; (b) the specialty distribution of the SurgPub-Video; (c) The distribution of Benchmark specialties; (d) The coverage ratio of five types of VQA tasks (instrument, anatomy, procedure, planning, and general knowledge) in the Benchmark and complete datasets, demonstrating the credibility of data sources, the balance of specialties, and the diversity of tasks",
+            "table1": "Comparison of our SurgPub-Video with other surgical VQA datasets. Our SurgPub-Video is the only dataset specifically designed to support video-level surgical VQA, offering a unique advantage of temporal surgical scene understanding."
+        },
+        "question":"Use the #Videos of “SurgPub-Video (Ours)” from Table 1 as the total video count, and the Cardiac percentage from Chart 1(b) to estimate the number of Cardiac videos. Round to the nearest integer. Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 1932,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 39,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.01302v1\\chart1.jpg",
+            "table1": "2510.01302v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "overall performance of Pv and Pf metrics across models.",
+            "table1": "Model Performance (RMSE, MAE, R2)"
+        },
+        "question":"Do Pv_RMSE in Chart 1 and RMSE in Table 1 represent the same type of error? A. Yes B. No Respond only with a single letter.",
+        "question_type": "perceptual",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 40,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.01302v1\\chart1.jpg",
+            "table1": "2510.01302v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "overall performance of Pv and Pf metrics across models.",
+            "table1": "Model Performance (RMSE, MAE, R2)"
+        },
+        "question":"For each model, compute (Pf_RMSE − Pv_RMSE) divided by RMSE from Table 1. Identify the model with the largest ratio. Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "AdaBoost",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["chart1", "chart2", "table1"],
+        "path": {
+            "chart1": "2510.23620v1\\chart1.jpg",
+            "chart2": "2510.23620v1\\chart2.jpg",
+            "table1": "2510.23620v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "AUROC and MCC trends across top-ranked gene sets for ML and GNN models",
+            "chart2": "AUROC and MCC trends across top-ranked gene sets for ML and GNN models",
+            "table1": "Performance metrics (AUROC and MCC) for GNN models using different numbers of top-ranked differential genes. Top N indicates the number of most statistically significant differential genes included as input features."
+        },
+        "question":"Extract the MCC value of GNN at Top N = 500 from Chart 2 and from Table 1. Respond only with a list in the format [Chart_value, Table_value].",
+        "question_type": "perceptual",
+        "answer": [0.20, 0.1974],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["chart1", "chart2", "table1"],
+        "path": {
+            "chart1": "2510.23620v1\\chart1.jpg",
+            "chart2": "2510.23620v1\\chart2.jpg",
+            "table1": "2510.23620v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "AUROC and MCC trends across top-ranked gene sets for ML and GNN models",
+            "chart2": "AUROC and MCC trends across top-ranked gene sets for ML and GNN models",
+            "table1": "Performance metrics (AUROC and MCC) for GNN models using different numbers of top-ranked differential genes. Top N indicates the number of most statistically significant differential genes included as input features."
+        },
+        "question":"Compute the AUROC range of GNN from Chart 1 and from Table 1. Respond only with a list [Chart_range, Table_range].",
+        "question_type": "reasoning",
+        "answer": [0.026, 0.0264],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 43,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.01453v1\\chart1.jpg",
+            "table1": "2512.01453v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Statistical overview of the literature surveyed. The bar chart (left) illustrates the temporal distribution of cited works, highlighting the surge in recent research (<19 denotes 2019 and prior). The pie chart (right) depicts the distribution of articles across top-tier venues. Venue abbreviations follow the standard of ACM.",
+            "table1": "Comparison between existing surveys and our survey. ✓ denotes the presence of an attribute"
+        },
+        "question":"Identify the venue with the highest proportion in Chart 1 and the year with the most surveys in Table 1. Respond only with a list in the format [Venue, Year].",
+        "question_type": "reasoning",
+        "answer": "[ACL. 2024]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 44,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.01453v1\\chart1.jpg",
+            "table1": "2512.01453v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Statistical overview of the literature surveyed. The bar chart (left) illustrates the temporal distribution of cited works, highlighting the surge in recent research (<19 denotes 2019 and prior). The pie chart (right) depicts the distribution of articles across top-tier venues. Venue abbreviations follow the standard of ACM.",
+            "table1": "Comparison between existing surveys and our survey. ✓ denotes the presence of an attribute"
+        },
+        "question":"Using both Chart 1 and Table 1, identify the year that marks a notable increase in both paper count and survey publications. Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 2024,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 45,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.19749v2\\chart1.jpg",
+            "table1": "2510.19749v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Iterative improvements for the different uncertainty estimation approaches with increasing number of checklist updates for the MAE, MSE and Top-10 metrics on the South Africa Region test set. We report the mean on three seeds and standard deviations for each model.",
+            "table1": "Performance of SDM-estimation approaches both without Bayesian updates (left side in split columns) and after updates from five checklists (right side). Note that the first four methods for each region are not uncertainty-aware and therefore cannot be updated with checklist information. Means are shown ± standard deviation across runs. (Note that many standard deviations are quite low; those reported as 0.00 are accurate.)"
+        },
+        "question":"What is the maximum number of checklist updates shown in Chart 1, and how many updates are reflected in the updated results of Table 1? Respond only with a list of two integers.",
+        "question_type": "perceptual",
+        "answer": [10, 5],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 46,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.18000v1\\chart1.jpg",
+            "table1": "2511.18000v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Performance comparison of RL agents across different human movement patterns in epidemic control. The figure shows three metrics across two movement patterns: Random Movement (continuous random walk) and Workplace/Home Cycle (structured movement between workplace and home locations). Four agent types are compared: Stationary, Random, Greedy, and Trained (PPO agent). Results are averaged across 3 random seeds with 100 evaluat ion episodes per seed. Error bars show 95% bootstrap confidence intervals from per-seed means. Left: Average cumulative reward per episode. Center: Mean episode length (survival time). Right: Infection rate. Trained agent significantly outperform all baselines in the Workplace/Home Cycle environment but show mixed results in Random Movement. Statistical results can be found in Table 2",
+            "table1": "Statistical significance tests comparing RL agent performance across movement patterns shown in Figure 6. Trained agents were evaluated using Mann-Whitney U tests with Bonferroni correction for multiple comparisons (α = 0.05). Each condition used 300 episodes (3 seeds × 100 episodes per seed). Cross-condition compares trained agents between movement patterns"
+        },
+        "question":"Which agent in Chart 1 has a reward close to Greedy under Random Movement and is not significantly better than Greedy in Table 1? Respond only with the agent name.",
+        "question_type": "reasoning",
+        "answer": "Trained",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 47,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.08921v1\\chart1.jpg",
+            "table1": "2511.08921v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Performance of models built on DeepDR web-server.",
+            "table1": "Summary of the models that built on the DeepDR website web services."
+        },
+        "question":"Which server-centric category does the best-performing model (HeTDR) in Chart 1 belong to according to Table 1? Respond only with the category name.",
+        "question_type": "perceptual",
+        "answer": "Disease-Centric DeepDR",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 48,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.08921v1\\chart1.jpg",
+            "table1": "2511.08921v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Performance of models built on DeepDR web-server.",
+            "table1": "Summary of the models that built on the DeepDR website web services."
+        },
+        "question":"Using Table 1, identify all methods categorized as Disease-Centric DeepDR, then extract their AUROC and AUPR values from Chart 1 and compute the corresponding mean values, responding with a list in the format, [mean_AUROC,mean_AUPR]. Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": [0.9435, 0.901],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 49,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.09605v2\\chart1.jpg",
+            "table1": "2511.09605v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Detailed results comparing slice-wise aggregation methods: long short-term memory (LSTM), medical slice transformer (MST), and TomoGraphView. Besides their original slicing strategy (2D-axial+), LSTM, and MST are also evaluated using omnidirectional volume slicing. All methods are evaluated across all six datasets using the Area Under the Receiver Operating Characteristic Curve (AUROC) on the left and Matthews correlation coefficient (MCC) on the right as performance metrics. Bars indicate the average performance across five folds.",
+            "table1": "Quantitative results comparing a long short-term memory (LSTM) approach, medical slice transformer (MST), and our TomoGraphView framework for slice-wise feature aggregation performance. Besides their original slicing strategy (2D-axial+), LSTM and MST are also evaluated using omnidirectional volume slicing. Methods are compared across different numbers of views and performance metrics, including the Area Under the Receiver Operating Characteristic Curve (AUROC) and the Matthews correlation coefficient (MCC). Results are presented as the average across all six datasets and five folds"
+        },
+        "question":"Based on the captions of Table 1 and Chart 1, determine whether they involve the same number of datasets and the same number of cross-validation folds. If they are consistent, respond with a list in the format [datasets, folds]. If they are not consistent, respond only with no.",
+        "question_type": "perceptual",
+        "answer": [6, 5],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 50,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.09605v2\\chart1.jpg",
+            "table1": "2511.09605v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Detailed results comparing slice-wise aggregation methods: long short-term memory (LSTM), medical slice transformer (MST), and TomoGraphView. Besides their original slicing strategy (2D-axial+), LSTM, and MST are also evaluated using omnidirectional volume slicing. All methods are evaluated across all six datasets using the Area Under the Receiver Operating Characteristic Curve (AUROC) on the left and Matthews correlation coefficient (MCC) on the right as performance metrics. Bars indicate the average performance across five folds.",
+            "table1": "Quantitative results comparing a long short-term memory (LSTM) approach, medical slice transformer (MST), and our TomoGraphView framework for slice-wise feature aggregation performance. Besides their original slicing strategy (2D-axial+), LSTM and MST are also evaluated using omnidirectional volume slicing. Methods are compared across different numbers of views and performance metrics, including the Area Under the Receiver Operating Characteristic Curve (AUROC) and the Matthews correlation coefficient (MCC). Results are presented as the average across all six datasets and five folds"
+        },
+        "question":"First, based on Chart 1, identify the model that achieves the best overall performance on the Liver dataset. Then, using Table 1, extract the corresponding MCC values across all Views settings for this model and compute the mean MCC. Respond with a list in the format [Model, Mean_MCC], where Mean_MCC is rounded to four decimal places. Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": "[TomoGraphView, 0.5059]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 51,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.10165v1\\chart1.jpg",
+            "table1": "2511.10165v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": ": Analysis of key components of EPO. Impact of the temperature hyperparameter β.",
+            "table1": "Comparison between SDE and ODE sampling strategy on tetrapeptides experiments. Lower is better."
+        },
+        "question":"How many metrics appear in both Chart 1 and Table 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 52,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.11769v1\\chart1.jpg",
+            "table1": "2511.11769v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "This figure provides an intuitive visualization of the performance and horizontal comparison of the five models. Specifically, subfigures (a)-(e) present bar charts illustrating the Accuracy and F1 Score of each model under the two strategies, while subfigure (f) displays a radial bar chart that comprehensively compares the two prediction strategies across all models from the perspective of performance.",
+            "table1": "Performance of Basic Prediction, Reflective Prediction and Self-Consistency Mechanism in Regression Task"
+        },
+        "question":"According to Chart 1 and table1, which two prediction strategies are visualized for each model? Respond only with a list of strategy names.",
+        "question_type": "perceptual",
+        "answer": "[Basic Prediction, Reflective Prediction]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 53,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.11769v1\\chart1.jpg",
+            "table1": "2511.11769v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "This figure provides an intuitive visualization of the performance and horizontal comparison of the five models. Specifically, subfigures (a)-(e) present bar charts illustrating the Accuracy and F1 Score of each model under the two strategies, while subfigure (f) displays a radial bar chart that comprehensively compares the two prediction strategies across all models from the perspective of performance.",
+            "table1": "Performance of Basic Prediction, Reflective Prediction and Self-Consistency Mechanism in Regression Task"
+        },
+        "question":"Using Chart 1 and Table 1, compute the improvement of Qwen from Basic Prediction to Reflective Prediction for Accuracy, F1 Score, MAE, and R². Identify the metric with the largest improvement and report its value. Respond with a list in the format: [Metric, Improvement_Value] (round the value to four decimals). Respond only with the list.",
+        "question_type": "reasoning",
+        "answer": ["R²", 1.5287],
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 54,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.07064v1\\chart1.jpg",
+            "table1": "2512.07064v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Effect of masking distributions on MoleculeNet classification",
+            "table1": "Categorization of methods"
+        },
+        "question":"Which masking distributions listed in Table 1 are visualized in Chart 1? Respond with a list of distribution names in chart1.",
+        "question_type": "perceptual",
+        "answer": "[Uniform, PageRank, Learnable]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 55,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.10554v5\\chart1.jpg",
+            "table1": "2509.10554v5\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The radar graph visualization of different model performance over the different models. The MAE-SAM2 outperforms the baselines over different metrics.",
+            "table1": "COMPARISON OF SEGMENTATION PERFORMANCE ACROSS DIFFERENT MODELS"
+        },
+        "question":"From Chart 1, extract the value at the Precision axis for the red-colored curve. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.4256,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 56,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.17924v1\\chart1.jpg",
+            "table1": "2509.17924v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Algorithm Performance Comparison. Comprehensive comparison of Medical Priority Fusion against baseline methods, demonstrating our optimal algorithm’s superior performance in achieving 89.3% sensitivity with 80% interpretability for NIPT anomaly detection.Algorithm Performance Comparison. Comprehensive comparison of Medical Priority Fusion against baseline methods, demonstrating our optimal algorithm’s superior performance in achieving 89.3% sensitivity with 80% interpretability for NIPT anomaly detection.",
+            "table1": "Authentic Ablation Study: Fusion Configuration Analysis"
+        },
+        "question":"Which configuration in Table 1 corresponds to the algorithm marked as “Optimal” in Chart 1? Respond only with the configuration name.",
+        "question_type": "perceptual",
+        "answer": "Medical Priority Fusion",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 57,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.17924v1\\chart1.jpg",
+            "table1": "2509.17924v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Algorithm Performance Comparison. Comprehensive comparison of Medical Priority Fusion against baseline methods, demonstrating our optimal algorithm’s superior performance in achieving 89.3% sensitivity with 80% interpretability for NIPT anomaly detection.Algorithm Performance Comparison. Comprehensive comparison of Medical Priority Fusion against baseline methods, demonstrating our optimal algorithm’s superior performance in achieving 89.3% sensitivity with 80% interpretability for NIPT anomaly detection.",
+            "table1": "Authentic Ablation Study: Fusion Configuration Analysis"
+        },
+        "question":"For the two algorithms with the highest Sensitivity in Chart 1, extract their Δ vs Baseline values from Table 1. Respond only with a list of numeric values.",
+        "question_type": "reasoning",
+        "answer": [0.15, 0.0],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 58,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.10286v1\\chart1.jpg",
+            "table1": "2511.10286v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "HER2 classification AUCs for the different FMs",
+            "table1": "HER2 classification AUC by model and dataset"
+        },
+        "question":"What is the approximate AUC value of UNI on the IXORA dataset in chart1? Respond only with a numeric value",
+        "question_type": "perceptual",
+        "answer": 0.802,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 59,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.10286v1\\chart1.jpg",
+            "table1": "2511.10286v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "HER2 classification AUCs for the different FMs",
+            "table1": "HER2 classification AUC by model and dataset"
+        },
+        "question":"From Chart 1, identify the dataset that exhibits the largest variation in AUC across models. Then, using Table 1, compute the AUC range for that dataset, defined as the maximum minus the minimum AUC across all models. Respond only with a list in the format [dataset_name, range_value], where range_value is rounded to three decimals.",
+        "question_type": "reasoning",
+        "answer": "[IMPRESS, 0.336]",
+        "answer_type": "text"
+    }
+]

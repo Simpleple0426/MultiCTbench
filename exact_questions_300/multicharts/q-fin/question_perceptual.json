@@ -1,0 +1,206 @@
+[
+    {
+        "question_id": 17,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2503.01591v1\\chart1.jpg",
+            "chart2": "2503.01591v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Topic publications by year.",
+            "chart2": "Financial asset publications per year."
+        },
+        "question": "In chart1 and chart2, how many distinct bar colors are present in each figure? Please report the number of colors for each figure separately. Respond only with a list, [num1, num2].",
+        "question_type": "perceptual",
+        "answer": [4, 9],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2503.10644v1\\chart1.jpg",
+            "chart2": "2503.10644v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Compares reported EU ETS I emissions with newly estimated emissions across 21 NACE industry sectors in Hungary. The estimated values are generally higher, with emissions concentrated in Manufacturing, Transportation and Storage, and Wholesale and Retail.",
+            "chart2": "Shows the sectoral distribution of firms’ sales, distinguishing ETS II emitters, ETS I emitters, and non-emitters. ETS II firms account for the largest share of total sales in most sectors, while ETS I firms contribute substantially only in a few emission-intensive industries."
+        },
+        "question": "Please identify the type of visualizations used in chart1 and chart2. Respond only with a type.",
+        "question_type": "perceptual",
+        "answer": "Stacked bar chart",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2507.03963v1\\chart1.jpg",
+            "chart2": "2507.03963v1\\chart1.jpg",
+            "chart3": "2507.03963v1\\chart1.jpg"
+        },
+        "caption": {
+            "chart1": "Parameter–metric correlations, 1-year training. Bars show the Pearson correlation of each control parameter (α, β, λ, ω) with the indicated portfolio metric across the full 625-point grid. —— Correlation with Sharpe ratio",
+            "chart2": "Parameter–metric correlations, 1-year training. Bars show the Pearson correlation of each control parameter (α, β, λ, ω) with the indicated portfolio metric across the full 625-point grid. —— Correlation with efficiency",
+            "chart3": "Parameter–metric correlations, 1-year training. Bars show the Pearson correlation of each control parameter (α, β, λ, ω) with the indicated portfolio metric across the full 625-point grid. —— Correlation with HHI"
+        },
+        "question": "The color of the Alpha (α) bar in each of the three charts is the same, and what is it. Respond only with a color, e.g. green.",
+        "question_type": "perceptual",
+        "answer": "red",
+        "answer_type": "text"
+    },
+    {
+        "question_id": 40,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2508.03704v1\\chart1.jpg",
+            "chart2": "2508.03704v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of Three Strategies",
+            "chart2": "Comparison of Three Strategies"
+        },
+        "question": "What type of chart is used in these two figures? Respond withe a type only.",
+        "question_type": "perceptual",
+        "answer": "bar chart",
+        "answer_type": "text"
+    },
+    {
+        "question_id": 51,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2507.08193v2\\chart1.jpg",
+            "chart2": "2507.08193v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Multi-label Classification Model Performance",
+            "chart2": "Multi-output Regression Model Performance"
+        },
+        "question": "In chart1 and chart2, which color does performance closer to “bad” tend to correspond to, and which color does performance closer to “good” tend to correspond to? Respond in the format: [bad_color, good_color]. Respond only with the list.",
+        "question_type": "perceptual",
+        "answer": "[red, blue]",
+        "answer_type": "text"
+    },
+    {
+        "question_id": 53,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.16066v2\\chart1.jpg",
+            "chart2": "2510.16066v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of AUROC performance across models and feature sets on the training and validation splits. —— AUROC performance on the training split with different features.",
+            "chart2": "Comparison of AUROC performance across models and feature sets on the training and validation splits. —— AUROC performance on the validation split with different features."
+        },
+        "question": "Identify the bar with the darkest color and provide its corresponding feature set. Respond with the feature set only.",
+        "question_type": "perceptual",
+        "answer": "Both",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 1,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2508.14995v1\\chart1.jpg",
+            "chart2": "2508.14995v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Chart1 shows the model’s learning performance on the training and test sets, where the mean squared error decreases steadily over training epochs.",
+            "chart2": "Chart2 compares the model’s predicted solution of the parametric PDE with the true solution for two samples from the test set, demonstrating close agreement between prediction and ground truth."
+        },
+        "question":"What line style is used for the Predict curve in chart2? Choose from: [Solid line, Dashed line, Dotted line, Dash-dot line]. Respond only with the style.",
+        "question_type": "perceptual",
+        "answer": "Dotted line",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 6,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.14385v1\\chart1.jpg",
+            "chart2": "2509.14385v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Rolling CAGR of PPO vs Equal-Weight and Sharpe-Optimized strategies",
+            "chart2": "Rolling CAGR with stress period overlays for PPO vs Equal-Weight portfolios"
+        },
+        "question":"In chart2, what are the color and line style of the Equal 20y curve? Specify whether the line style is solid or dashed. Respond in the format: [color, style]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": "[red, dashed]",
+        "answer_type": "text"
+    },
+
+
+    {
+        "question_id": 8,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.24254v2\\chart1.jpg",
+            "chart2": "2509.24254v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Metatopic Explained Variance —— BKMX",
+            "chart2": "Metatopic Explained Variance —— oLDA"
+        },
+        "question":"In BKMX, which metatopic has the highest upper whisker in its boxplot? Respond only with the metatopic.",
+        "question_type": "perceptual",
+        "answer": "Corporate Earnings",
+        "answer_type": "text"
+    },
+
+
+    {
+        "question_id": 25,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.24747v1\\chart1.jpg",
+            "chart2": "2509.24747v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Risk aversion for logistic and SAHARA utility functions, depending on different parameters. The dashed vertical lines on the right-hand side mark the values of the parameter d. —— Logistic utility",
+            "chart2": "Risk aversion for logistic and SAHARA utility functions, depending on different parameters. The dashed vertical lines on the right-hand side mark the values of the parameter d. —— SAHARA utility"
+        },
+        "question": "How many distinct parameter-combination curves are shown in the legend of the chart2? Respond only with a number.",
+        "question_type": "perceptual",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.11261v2\\chart1.jpg",
+            "chart2": "2510.11261v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of the marginal price distributions under the equilibrium measure (P) and the riskneutral measures (Q) at 1-year and 3-year points for (6.2).",
+            "chart2": "Comparison of the marginal price distribution P and the conditional price distributions P(·|Y top−25%) and P(·|Y bottom−25%) at 3-year point for (6.2)"
+        },
+        "question": "In chart2, identify the color used for the P(3yr) curve. Respond only with the color.",
+        "question_type": "perceptual",
+        "answer": "green",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 53,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.15993v1\\chart1.jpg",
+            "chart2": "2510.15993v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Performance Comparison of CenFLARKO and FedFLARKO Against Baseline Models",
+            "chart2": "Performance Comparison of CenFLARKO and FedFLARKO Against Baseline Models"
+        },
+        "question": "In chart1, how many models belong to the Behavioral Baselines group (represented by orange triangles)? Respond only with the exact number.",
+        "question_type": "perceptual",
+        "answer": 5,
+        "answer_type": "numeric"
+    }
+]

@@ -1,0 +1,205 @@
+[
+    {
+        "question_id": 8,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.08742v1\\table1.jpg",
+            "table2": "2509.08742v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Main Results of Model Accuracy Comparison.",
+            "table2": "Model Prediction Accuracy Across Confidence  Score Groups."
+        },
+        "question": "In Table 2, compute the change from Low (%) to High (%) for each model (i.e., High − Low). Which model shows the largest change, and what is the value of this change? Respond with a single number.",
+        "question_type": "reasoning",
+        "answer": 7.65,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.20239v1\\table1.jpg",
+            "table2": "2509.20239v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Results for a Geometric basket Put option",
+            "table2": "Results for a Max-Call option"
+        },
+        "question": "In Table 1, how does the KRR-DP price change as the dimension d increases? A. Decreases significantly. B. Increases significantly. C. Remains approximately unchanged. D. Increases first and then decreases. Respond only with a letter.",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2506.01423v1\\table1.jpg",
+            "table2": "2506.01423v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of Key Metrics in Bank Wire Transfer Processes Before and After GBPAs Optimization",
+            "table2": "Comparison of Key Metrics in Reimbursement Processes Before and After GBPAs Optimization"
+        },
+        "question": "According to Table 1, the number of Process Nodes decreases after optimization. Calculate the proportion of nodes reduced relative to the original number, rounding the result to two decimal places. Respond only with the numerical value.",
+        "question_type": "reasoning",
+        "answer": 0.31,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.20494v1\\table1.jpg",
+            "table2": "2507.20494v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Average LP behavior metrics across score bins (subset of validation set)",
+            "table2": "Average behavioral metrics across swap score bins"
+        },
+        "question": "Using all Avg Volume values in Table 2, compute their overall average and round the result to two decimal places. Respond only with the final numerical value in k dollars.",
+        "question_type": "reasoning",
+        "answer": 15634.17,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 33,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.07358v1\\table1.jpg",
+            "table2": "2507.07358v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Fair guarantee fees ϕ ∗ (in basis points) with a ratchet under a static and dynamic withdrawal strategy for various marginal tax rates θ and cash account appreciation rates η.",
+            "table2": "Fair guarantee fees ϕ * (in basis points) under a static and dynamic withdrawal strategy for various marginal tax rates θ, when the benefit base is updated by a ratchet mechanism or not and η = 4%"
+        },
+        "question": "In Table 2, for the tax rate θ = 2.5%, compare the Dynamic values under No Cash Fund / No Ratchet and Cash Fund / No Ratchet. What is the difference between the two values? Respond only with the numerical value.",
+        "question_type": "reasoning",
+        "answer": 126.9771,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 51,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.16137v1\\table1.jpg",
+            "table2": "2509.16137v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Validation set negative log-likelihood (NLL) across model architectures and feature sets. The best model for each feature set is italicized; the best overall result is both italicized and bolded.",
+            "table2": "Negative log-likelihood (NLL) on validation and test sets for the best-performing Transformer models and a standard normal baseline. The lowest NLL for each dataset is shown in bold."
+        },
+        "question":"In Table 1, compute the NLL reduction (Basic − Full) for each model. Which model shows the largest decrease in NLL? Provide the model name and the reduction value. Answer format: [model name, value]. Respond only with the list.",
+        "question_type": "reasoning",
+        "answer": "[MLP, 0.0252]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.03964v1\\table1.jpg",
+            "table2": "2509.03964v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Distribution of BTC interest rates for the 3 different maturities (90 days, 180 days, and 360 days) computed with the Deribit BTC inverse option dataset from 1st January 2022 to 31st December 2024.",
+            "table2": "Distribution of ETH interest rates for the 3 different maturities (90 days, 180 days, and 360 days) computed with the Deribit ETH inverse option dataset from 1st January 2022 to 31st December 2024."
+        },
+        "question": "In table1, how many decimal places are used in the Std value for the 180-day tenor? Respond only with a number.",
+        "question_type": "perceptual",
+        "answer": 4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2508.07151v2\\table1.jpg",
+            "table2": "2508.07151v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Hurst-Forecast Errors (MAE and MSE)",
+            "table2": "Pricing Bounds and Duality Gaps"
+        },
+        "question": "In Table 2, how many Methods are listed under the META section? Respond with a number only.",
+        "question_type": "perceptual",
+        "answer": 4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 40,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.12911v1\\table1.jpg",
+            "table2": "2510.12911v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Critical values for the beta estimators. This table reports the critical values for testing whether beta equals zero at significance levels 5% and 10% and for local window sizes 5, 10, and 20. The left panel shows the critical values for the return-based beta estimator derived from the Student t-distribution. The right panel shows the critical values for the candlestick-based beta estimator computed using Monte Carlo simulations. The interval width is defined as the upper critical value minus the lower critical value.",
+            "table2": "Asymptotic Risk of Estimators for Different rho Values. This table presents the asymptotic risk of three estimators: the return-based estimator, the candlestick-based estimator, and an oracle estimator that minimizes asymptotic risk given the true correlation structure. Results are reported for local window sizes 5, 10, and 20 and for correlation levels 0, 0.2, and 0.6. The asymptotic risk is computed using Monte Carlo simulations."
+        },
+        "question":"In Table 1, at the 5% significance level and window size k = 10, what is the interval width (Width) of the Candlestick method? Respond only with a number.",
+        "question_type": "perceptual",
+        "answer": 2.890,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.12911v1\\table1.jpg",
+            "table2": "2510.12911v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Critical values for the beta estimators. This table reports the critical values for testing whether beta equals zero at significance levels 5% and 10% and for local window sizes 5, 10, and 20. The left panel shows the critical values for the return-based beta estimator derived from the Student t-distribution. The right panel shows the critical values for the candlestick-based beta estimator computed using Monte Carlo simulations. The interval width is defined as the upper critical value minus the lower critical value.",
+            "table2": "Asymptotic Risk of Estimators for Different rho Values. This table presents the asymptotic risk of three estimators: the return-based estimator, the candlestick-based estimator, and an oracle estimator that minimizes asymptotic risk given the true correlation structure. Results are reported for local window sizes 5, 10, and 20 and for correlation levels 0, 0.2, and 0.6. The asymptotic risk is computed using Monte Carlo simulations."
+        },
+        "question":"In Table 1, list all significance level α values. Respond a list in the format: [value1, value2, …]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": "[5%, 10%]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.22088v1\\table1.jpg",
+            "table2": "2509.22088v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance of the EW portfolio and the optimal portfolio of (1) (with γ = 100) with Factordiff (500 samples), Emp, and ShrEmp estimates of stock return moments.",
+            "table2": "Performance of the EW portfolio and the optimal portfolio of (2) (with γ = 100) with Factordiff (100, 500, and 1000 samples), Emp, and ShrEmp estimates of stock return moments. Transaction fees are included."
+        },
+        "question": "Which strategy has the bolded Sharpe value under the “Transaction Fees Ignored” section in Table 1? Respond only with the strategy name.",
+        "question_type": "perceptual",
+        "answer": "Factordiff",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 32,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.07358v1\\table1.jpg",
+            "table2": "2507.07358v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Fair guarantee fees ϕ ∗ (in basis points) with a ratchet under a static and dynamic withdrawal strategy for various marginal tax rates θ and cash account appreciation rates η.",
+            "table2": "Fair guarantee fees ϕ * (in basis points) under a static and dynamic withdrawal strategy for various marginal tax rates θ, when the benefit base is updated by a ratchet mechanism or not and η = 4%"
+        },
+        "question": "In Table 1, which tax-rate row contains the largest number of “NA” entries? Respond only with the value of θ without percent.",
+        "question_type": "perceptual",
+        "answer": 20,
+        "answer_type": "numeric"
+    }
+]

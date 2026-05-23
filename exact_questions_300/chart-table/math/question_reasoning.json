@@ -1,0 +1,205 @@
+[
+    {
+        "question_id": 19,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.18059v1\\chart1.jpg",
+            "table1": "2512.18059v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Random sketching for the problem (37) in dimension d = 4.",
+            "table1": "Hyperparameters for each sketching size s."
+        },
+        "question": "Considering both Chart 1 and Table 1, which sketching size shows the best trade-off between error reduction and stability? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "s=30",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.12276v1\\chart1.jpg",
+            "table1": "2512.12276v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "RMSE values for MF-EnKF with the Neural Network (NN) surrogate versus a MF-EnKF with a low resolution surrogate. The number of surrogate runs is fixed at NU = 20.",
+            "table1": "Prediction accuracy for the low-resolution surrogates of dimension r = 120 (m120), r = 240 (m240) and r = 480 (m480), and the ML surrogate (denoted by NN) at different lead times. In bold the minimum RMSE is highlighted."
+        },
+        "question": "If RMSE < 0.45 in Chart 1 and minimum RMSE across all lead times in Table 1 are required, which model should be selected? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "m480",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.16363v1\\chart1.jpg",
+            "table1": "2512.16363v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Performance of different methods for mean inference under the over-identified gθ. The nominal miscoverage level is α = 0.1. EPI (Basis), the proposed basis-expansion estimator; EPI (CF), the proposed cross-fitted estimator; RePPI, the recalibrated prediction-powered inference; PDC, the prediction decorrelated estimator; PPI, the prediction-powered inference; Sup (EL), the empirical likelihood-based supervised estimator; Sup (Mean), the sample mean supervised estimator",
+            "table1": "Performance of different methods in the linear regression problem. The nominal significance level is α = 0.1."
+        },
+        "question": "Which methods satisfy both Power (C = 1.1) ≥ 0.55 in Table 1 and Miscoverage close to 0.1 in Chart 1? Respond only with a list of strings.",
+        "question_type": "reasoning",
+        "answer": "[EPI (Basis), EPI (CF)]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 21,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.18587v1\\chart1.jpg",
+            "table1": "2512.18587v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Real networks (oracle/simplex diagnostic): mean test log-loss by dataset (lower is better). This panel visualizes the span-vs-simplex mechanism on real networks: BPS LS can dramatically outperform convex mixing/selection when the convex hull is too restrictive.",
+            "table1": "S2 learning curve (mean ± s.e. over R = 10 replicates per n). Test log-loss decreases with n and variability shrinks. BPS LS retains a stable advantage at every n, consistent with a persistent approximation gap plus a shrinking estimation term."
+        },
+        "question": "Which model’s performance gap in Table 1 aligns most closely with the cross-dataset variability observed in Chart 1? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "BPS_LS_",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 6,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.10401v1\\chart1.jpg",
+            "table1": "2512.10401v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Average running times of diffusion resampling and OT",
+            "table1": "The errors of loss function, filtering (scaled by 10−1 ), and parameter estimation (scaled by 10−1 ) for Section 4.2. Divergent NaN results are explained in Appendix H"
+        },
+        "question": "The Diffusion configuration with the smallest error in Table 1 corresponds to which runtime category in Chart 1: fast, medium, or slow? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "fast",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.03288v1\\chart1.jpg",
+            "table1": "2512.03288v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Convergence of Error Rate. The relative error (Coefficient of Variation) between the signal model count and the theoretical density decays as O(L −1/2 ). This vanishing error rate is the signature of a deterministic system stabilizing as the energy scale increases.",
+            "table1": "Direct verification of Theorem 4.10. The normalized error decays with exponent α ≈ 1.67, exceeding the proven bound α = 1."
+        },
+        "question": "Based on both Chart 1 and Table 1, which L order of magnitude corresponds to the error first dropping below 1%? A. 10⁴ B. 10⁵ C. 10⁶ D. 10⁷ Respond only with a single letter.",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.19465v2\\chart1.jpg",
+            "table1": "2512.19465v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Normalized misinformation (IM) versus the number of edges added per new node (m) in Barabasi–Albert networks with n = 5000 nodes and a delta-distributed true state. Misinformation initially decreases monotonically with increasing m, reflecting the well-known role of hubs in enhancing robustness and stabilizing information flow in scale-free structures. Beyond an intermediate threshold, however, misinformation increases again, indicating a regime in which hub-driven fluctuations accumulate and propagate through the network. In the extremely sparse limit (small m), Barabasi–Albert networks outperform random and small-world networks of comparable density, owing to their highly connected hubs, which act as efficient integrators and provide redundant communication pathways. Shaded regions show the regimes occupied by real-world scale-free networks and their corresponding misinformation levels, based on the comparable connectivity estimates reported in Table 1.",
+            "table1": "Representative biological scale-free networks with example hubs, functional roles relevant to misinformation suppression, and their characteristic degree-distribution exponents γ and approximate Barab´asi–Albert parameter m (⟨k⟩ ≈ 2m). Neuronal ranges vary due to differences in connectome resolution, parcellation, and thresholding across datasets [70–73]."
+        },
+        "question": "What is the maximum γ range width among systems in Table 1? Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.10087v1\\chart1.jpg",
+            "table1": "2512.10087v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Scaling of Beta distribution parameters with vertex count n. Left: α grows approximately as 4.25n. Center: β grows as 1.78n. Right: Mean normalized volume stabilizes near 0.69 ≈ ln 2.",
+            "table1": "Beta distribution fit parameters for normalized volume V/Vmax."
+        },
+        "question": "Using the linear fit shown in Chart 1, estimate β at n = 9. Round to two decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 8.62,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 11,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.15421v2\\chart1.jpg",
+            "table1": "2512.15421v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Median first-step contraction ρ0 versus dimension n (logarithmic horizontal axis). Contraction occurs for every dimension and every trial, while its magnitude strengthens monotonically with n. The shaded region denotes the interquartile range, which decreases sharply for large n, indicating increasing stability of contraction strength.",
+            "table1": "Representative median first-step contraction ratios ρ0 showing strengthening with dimension."
+        },
+        "question": "Compute the difference in Median ρ₀ between n = 3 and n = 2000 in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.63,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.19647v1\\chart1.jpg",
+            "table1": "2512.19647v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Numerical errors for the stochastic Schrödinger equation with a nonlocal nonlinearity and multiplicative noise.",
+            "table1": "Expected and numerical rates of convergence for the linear stochastic Schrödinger equation."
+        },
+        "question": "In Table 1, compute for each method the increase in numerical rate from “all step sizes” to “step sizes 2⁻⁵ to 2⁻⁷” (later − former). Which methods achieve the maximum increase? Respond only with a list of strings.",
+        "question_type": "reasoning",
+        "answer": "[EXM, CNM]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.17203v1\\chart1.jpg",
+            "table1": "2512.17203v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Convergence study on the torus dynamics. The RMSE’s are evaluated on the 32000 test trajectories. The markers and shades show the mean and min-max bounds of RMSE’s, respectively. Consistently over all the ambient dimensions, DM exhibits a faster convergence rate than the RBF.",
+            "table1": "Statistics of the valid prediction time (VPT) for Lorenz-63 dynamics."
+        },
+        "question": "As ambient dimension increases, how does the convergence order of DM change? A. Increases B. Decreases C. Remains approximately stable D. Becomes undefined Respond only with a single letter.",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.14590v1\\chart1.jpg",
+            "table1": "2512.14590v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "A log-log plot of the relative max error of the operator images against the average edge length ℎ for a collection of spheres. 𝐹 denotes the discretized boundary-to-far field map",
+            "table1": "Averaged runtimes for 16 simultaneous operator evaluations in seconds with wave number 𝜅 = π. For the evaluation of the far field operator 𝐹, the discretized version of (4) is solved and (5) is evaluated at 2562 evaluation points on S 2 . The relatively long evaluation time for the far field of “Spot” can be explained by bad conditioning of the operator equation (4). The mesh “Spot” is shown in Table 3."
+        },
+        "question": "Compute the growth factor of apply 𝓥 runtime from Sphere (40560) to Sphere (81920). Round to two decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 3.69,
+        "answer_type": "numeric"
+    }
+]

@@ -1,0 +1,324 @@
+[
+    {
+        "question_id": 124,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23747v1\\chart1.jpg",
+            "table1": "2512.23747v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The code generation, Function calling performance of Coder Models on seven benchmarks MBPP, MBPP+, HumanEval, HumanEval+, BFCL-v2.",
+            "table1": "Performance across different ablations."
+        },
+        "question": "Compute the difference between the highest HumanEval value in Table 1 and the lowest HumanEval Pass@1 in Chart 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": -16.20,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 24,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.11885v1\\chart1.jpg",
+            "table1": "2511.11885v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Flash-Fusion Latency versus LLM Only. Flash-Fusion cuts query latency by 95% compared to the LLM Only baseline across five queries. Its single condensed API call replaces six sequential calls for chunk processing and synthesis. Whiskers show the minimum and maximum latencies over three query runs.",
+            "table1": "Cost and Token Comparison. Flash-Fusion reduces total token usage (input + output) and API costs by over 98% on average across all queries."
+        },
+        "question": "For each query, compute (LLM Only tokens − Flash-Fusion tokens) divided by LLM Only latency, then compute the average across all queries. Respond only with a single numeric value (round to nearest integer).",
+        "question_type": "reasoning",
+        "answer": 5529,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 9,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.22256v3\\chart1.jpg",
+            "table1": "2509.22256v3\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Utility drops and performance overhead of CSAgent.",
+            "table1": "Overall defense capability."
+        },
+        "question": "For the agent with the lowest utility in Chart 1(a), compute the difference between its UUA and ASR in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 28.89,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 143,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24113v1\\chart1.jpg",
+            "table1": "2512.24113v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The performance of CogRec and its variants.",
+            "table1": "Statistics of the experimented datasets."
+        },
+        "question": "For the dataset with the highest average performance in Chart 1, what is its number of interactions (#Inters) in Table 1? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 1697533,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2508.08438v1\\chart1.jpg",
+            "table1": "2508.08438v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Normalized performance of TTFT between SGLang (global-sharing) and Cache-Partition (isolated-per-user).",
+            "table1": "Intra-session and inter-session KV-cache reuse rates across different datasets."
+        },
+        "question": "Sort datasets by Inter-User Reuse in Table 1 (descending), and list their corresponding Cache-Partition TTFT Compare values in the Llama-2-70B panel of Chart 1. Respond only with a list of numeric values in sorted order.",
+        "question_type": "reasoning",
+        "answer": [1.40, 1.30, 1.09],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 57,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.21373v1\\chart1.jpg",
+            "table1": "2512.21373v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Overall performance score across frontier models among all difficult tiers",
+            "table1": "Models evaluated on the benchmark for each domain with resolved rates. Difficulty is reported as pass rate (%) over easy, medium, and hard instances. The five scientific domains and corresponding codebases are: Numerical Relativity (NR): EinsteinToolkit and AMReX; Quantum Information (QI): Qiskit; Molecular Dynamics (MD): OpenMM; Quantum Chemistry (QC): PySCF; Cheminformatics (CI): RDKit."
+        },
+        "question": "Identify the model with the highest Hard score in Chart 1, then report its QC score from Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 38.3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 51,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.21028v1\\chart1.jpg",
+            "table1": "2512.21028v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "New passing (solid) and failing (transparent) tests across models and prompting strategies compared to the baseline.",
+            "table1": "Pass@1 and Pass@5 results for different prompting strategies across models"
+        },
+        "question": "Considering both Chart 1 and Table 1, which model under FT+GNU achieves both a high number of passing tests and the highest Pass@1? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Phi-4",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 53,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.21332v1\\chart1.jpg",
+            "table1": "2512.21332v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "MTEB-Code leaderboard. C2LLM-7B ranks 1st among all models, surpasssing the best closed-source models, while C2LLM-0.5B ranks 1st among models with less than 1B parameters, and 6th overall.",
+            "table1": "Top 10 models on the MTEB-Code leaderboard as of the submission date (2025-12-25). “NA” in the model size column indicates closed-source model whose size is not available."
+        },
+        "question": "Compute the average Rank in Table 1 of models with performance ≥ 80 in Chart 1. Respond only with a single numeric value (round to two decimals).",
+        "question_type": "reasoning",
+        "answer": 2.50,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 14,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.00205v1\\chart1.jpg",
+            "table1": "2511.00205v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Counting occurrences of a 3-character chunk in 984 100-MiB shards from Wikipedia. Fixpoint’s runtime is much lower than other systems’, largely due to its ability to avoid stalling CPUs while waiting for data dependencies.",
+            "table1": "Duration to execute 1,024 function-invocation requests on a server with 32 CPUs and 64 GiB RAM. Each invocation depends on a single input from a network storage with a 150 ms response time and requests 1 CPU core and 1 GB memory. I/O externalization allows Fixpoint to fetch data dependencies before committing physical resources, greatly increasing task throughput."
+        },
+        "question": "Convert Fixpoint’s total execution time in Chart 1 to milliseconds and compute the difference compared to Fix’s total time in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 2982,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 97,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23412v1\\chart1.jpg",
+            "table1": "2512.23412v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Benchmark Performance.",
+            "table1": "Results on the Open-sourced Benchmarks."
+        },
+        "question": "For the comparison with the highest Tie percentage in Chart 1, report the MMSearch score of that model from Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 57.01,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 111,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23515v1\\chart1.jpg",
+            "table1": "2512.23515v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Cumulative Net Value Curves. Comparison of wealth accumulation trajectories on the 2025 testing set. (a) On the CSI 300, Alpha-R1 outperforms all baselines with lower drawdown. (b) On the Out-of-Domain CSI 1000, Alpha-R1 demonstrates superior zero-shot transferability, whereas traditional RL models exhibit inconsistent performance: A2C shows improved returns but with higher volatility, while PPO suffers from significant drawdowns, indicating overfitting and limited generalization.",
+            "table1": "Main Experiment Results. Performance comparison of Alpha-R1 against baselines across two asset pools (Testing Period: 2025.01.01 – 2025.06.30). Results are reported as the average of 5 independent runs. CR: Cumulative Return, AR: Annualized Return, SR: Sharpe Ratio, MDD: Maximum Drawdown. The best results are highlighted in bold."
+        },
+        "question": "How many methods have AR greater than 20% under CSI 1000 in Table 1 and show a clear upward trend in Chart 1? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 60,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.21653v1\\chart1.jpg",
+            "table1": "2512.21653v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Bitrate–quality trade-off of SemDAC versus DAC, evaluated with PESQ and WER.",
+            "table1": "Objective evaluation of the proposed codec at varying bitrates, compared with competing approaches."
+        },
+        "question": "Compute the relative decrease in WER of Opus from 3 kbps to 6 kbps in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.389,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.15039v1\\chart1.jpg",
+            "table1": "2512.15039v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Progressive enhancement path",
+            "table1": "COMPONENT-WISE CONTRIBUTIONS."
+        },
+        "question": "What fraction of nodes in Chart 1 have F1 scores greater than 0.9? Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.13059v1\\chart1.jpg",
+            "table1": "2511.13059v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Overall caching speedups across systems for Redbench (generation-based, matching-based) and a traditional benchmark baseline (JOB & CEB). Traditional benchmarks show no speedup (misleadingly), suggesting that caching is ineffective. On the same systems, Redbench workloads reveal substantial caching potential: generation-based yields moderate, trace-faithful improvements (1.10–2.00×), while matching-based demonstrates upper-bound caching effects (12.2–98×) due to higher repetition density.",
+            "table1": "Query Repetition Rate (QRR) and Scan-set Repetition Rate (SRR) denote the fraction of SELECT queries that repeat previous queries (QRR) or scan-sets (SRR). QRR_DML and SRR_DML indicate DML-aware repetition rates. Generation-based synthesis closely matches the original Redset trace, while matching-based synthesis produces higher repetition due to reusing a limited query pool. The baseline fails to capture realistic repetition patterns."
+        },
+        "question": "From Chart 1, extract the speedup value of Redbench (Matching) under SELECT + DML for System D. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 2.11,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 149,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24330v1\\chart1.jpg",
+            "table1": "2512.24330v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Overall performance of SenseNova-MARS-8B across six benchmarks, outperforming other models on search-oriented and high-resolution perception tasks.",
+            "table1": "Performance on visual understanding benchmarks"
+        },
+        "question": "Which model ranks second on HR-Bench 8K in Table 1? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "DeepEyesV2",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.11481v1\\chart1.jpg",
+            "table1": "2511.11481v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The figure above shows the weight allocation for the equal weights portfolio and the DRL portfolio, which rebalances the weights at each time step or when it iterates using a policy that maximizes the portfolio’s cumulative value.",
+            "table1": "Covariance Matrix for Optimal Assets"
+        },
+        "question": "Compute the ratio of the maximum to the minimum covariance value in Table 1. Respond only with a single numeric value (round to three decimals).",
+        "question_type": "reasoning",
+        "answer": 7.568,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 162,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24665v1\\chart1.jpg",
+            "table1": "2512.24665v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Performance comparison between Saliency and Random selection methods.",
+            "table1": "Performance comparison under other defense mechanisms."
+        },
+        "question": "Compute the average ASR under the OD defense for ACM in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.8858,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 74,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.22627v1\\chart1.jpg",
+            "table1": "2512.22627v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The performance of our approach with different numbers of maximum correction rounds MCR = {1, 2, 3, 4, 5, 10} on the TMQA dataset.",
+            "table1": "Performance comparison of baselines and existing TSQA methods on benchmark datasets."
+        },
+        "question": "Compute the average Accuracy across all four tasks at MCR = 3 in Chart 1. Round to three decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.623,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2508.08438v1\\chart1.jpg",
+            "table1": "2508.08438v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Normalized performance of TTFT between SGLang (global-sharing) and Cache-Partition (isolated-per-user).",
+            "table1": "Intra-session and inter-session KV-cache reuse rates across different datasets."
+        },
+        "question": "Compute the arithmetic mean of the Intra-User Reuse percentages in Table 1. Respond only with a single numeric value (round to two decimals).",
+        "question_type": "reasoning",
+        "answer": 12.84,
+        "answer_type": "numeric"
+    }
+]

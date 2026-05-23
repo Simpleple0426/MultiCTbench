@@ -1,0 +1,292 @@
+[
+    {
+        "question_id": 29,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23647v1\\chart1.jpg",
+            "chart2": "2512.23647v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Performance of the proposed NestBrowse on the challenging BrowseComp deep IS benchmark.",
+            "chart2": "Intra-page exploration performance over inner-loop instances, evaluated using 100 trajectories per benchmark."
+        },
+        "question": "What is the approximate rank of NestBrowse-4B among all models in Chart 1? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 46,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24125v1\\chart1.jpg",
+            "chart2": "2512.24125v1\\chart2.jpg",
+            "chart3": "2512.24125v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Real-robot language following evaluation. GenieReasoner consistently outperforms continuous baselines (e.g., π₀, π₀.₅), confirming that aligning the action space with the VLM’s discrete reasoning space significantly reduces target identification errors.",
+            "chart2": "Real-robot task success rates. This metric measures the full completion of the task, specifically whether the robot successfully grasps and manipulates the target object.",
+            "chart3": "Overall performance comparison in the real world. This metric prioritizes stable execution while accounting for semantic correctness."
+        },
+        "question": "In Chart 1, which model exhibits the smallest variance across all six task categories? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "GenieReasoner",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23078v1\\chart1.jpg",
+            "chart2": "2512.23078v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Relative accuracy gain from including images, by medium.",
+            "chart2": "Relative accuracy gain from including images, by category."
+        },
+        "question": "Which categories in Chart 2 have negative relative accuracy gains? Respond only with a list of strings.",
+        "question_type": "reasoning",
+        "answer": "[LAP, OMP]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 62,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24985v1\\chart1.jpg",
+            "chart2": "2512.24985v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Room category distribution",
+            "chart2": "Question category distribution"
+        },
+        "question": "Based on Chart 1, what is the probability (in percentage) that a randomly sampled instance belongs to either kitchen or bathroom? Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 33,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 34,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23835v1\\chart1.jpg",
+            "chart2": "2512.23835v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Top Bias Indicators for the bias-detector model.",
+            "chart2": "Top Bias Indicators for the bias-detector model."
+        },
+        "question": "In Chart 1, how many bias indicators have Mean |SHAP| values greater than 0.55? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 6,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23628v1\\chart1.jpg",
+            "chart2": "2512.23628v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Effect of guidance scale on memorization in the base model, showing training and test Fréchet Distance as a function of guidance scale w.",
+            "chart2": "Effect of guidance scale on memorization in the large model, showing training and test Fréchet Distance as a function of guidance scale w."
+        },
+        "question": "At which guidance scale does the training Fréchet Distance in Chart 1 first fall below the memorization=0 reference line? Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 38,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24002v1\\chart1.jpg",
+            "chart2": "2512.24002v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Paced Rhythm: Activation ratio distribution across 7 group combinations from HUG under the Paced Rhythm condition.",
+            "chart2": "Supraventricular Arrhythmia: Activation ratio distribution across 7 group combinations from HUG under the Supraventricular Arrhythmia condition."
+        },
+        "question": "Compute the difference between the maximum and minimum activation ratios in Chart 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 42.1,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.15076v1\\chart1.jpg",
+            "chart2": "2512.15076v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Overall performance comparison of BODE-GEN and baseline prompting methods using ChatGPT-3.5 (Turbo) as the base LLM, measured by the percentage of HumanEval+ tasks solved with 100% correctness.",
+            "chart2": "Overall performance comparison of BODE-GEN and baseline prompting methods using CodeLlama-7b as the base LLM, measured by the percentage of HumanEval+ tasks solved with 100% correctness."
+        },
+        "question": "Which prompting method ranks second in performance in Chart 1? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "OPRO",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23206v1\\chart1.jpg",
+            "chart2": "2512.23206v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "The distribution of source abstracts’ discipline in BiomedTLDR.",
+            "chart2": "The distribution of source abstracts’ discipline in CiteSum."
+        },
+        "question": "Which range best approximates the combined percentage of the top three disciplines in Chart 1? Respond only with a single letter. A. 50%–60% B. 60%–70% C. 70%–80% D. 80%–90%",
+        "question_type": "reasoning",
+        "answer": "D",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 56,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24687v1\\chart1.jpg",
+            "chart2": "2512.24687v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Fidelity between the target words constructed using glosses from WordNet and those constructed using glosses from ChatGPT 3.5. A shows that a large number of samples did not achieve 90% fidelity, indicating a semantic bias between WordNet and ChatGPT 3.5. B shows that after representation with quantum superposition states, the fidelity between WordNet and ChatGPT 3.5 reached 95%, suggesting hope for mitigating semantic bias.",
+            "chart2": "In the samples where CIM made incorrect disambiguations, the output value by both CIM and Q-VWSD."
+        },
+        "question": "Which representation shows a longer tail in the low-fidelity region (<0.75) in Chart 1? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 49,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24263v1\\chart1.jpg",
+            "chart2": "2512.24263v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "The average generation length of models trained with different algorithms, sampled under helpfulness and harmlessness prompts.",
+            "chart2": "The average generation length of models trained with different algorithms, sampled under helpfulness and harmlessness prompts."
+        },
+        "question": "From Chart 2, what is the average generation length of SACPO (P) [0.5]? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 1212,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23628v1\\chart1.jpg",
+            "chart2": "2512.23628v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Effect of guidance scale on memorization in the base model, showing training and test Fréchet Distance as a function of guidance scale w.",
+            "chart2": "Effect of guidance scale on memorization in the large model, showing training and test Fréchet Distance as a function of guidance scale w."
+        },
+        "question": "What fill color is used to indicate memorization regions in Chart 1? Respond only with a single color name.",
+        "question_type": "perceptual",
+        "answer": "light green",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24077v1\\chart1.jpg",
+            "chart2": "2512.24077v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Evolutionary Effect & Efficiency.",
+            "chart2": "Score Convergence over Time. Note: Faint lines represent individual runs (N = 3), and bold lines represent the average trajectory."
+        },
+        "question": "From Chart 1, extract the annotated Top Score value of the Executor Ablation – Chat Mode. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.995,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23994v1\\chart1.jpg",
+            "chart2": "2512.23994v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Audio-physics distribution of PhyAVBench.",
+            "chart2": "Scenario distribution of PhyAVBench across different scenario types."
+        },
+        "question": "How many first-level audio-physics categories (inner ring) are shown in Chart 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 6,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23898v1\\chart1.jpg",
+            "chart2": "2512.23898v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Model Comparison on the Test Dataset: Performance Metrics Comparison and Inference Throughput Comparison",
+            "chart2": "Radar Chart of Standardized Performance Metrics"
+        },
+        "question": "How many different performance metrics are displayed in Chart 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 23,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23512v2\\chart1.jpg",
+            "chart2": "2512.23512v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Ablation results on MMBench for different vision generation configurations, comparing baseline with +ploss, +diffuloss, and +warmup across training scales.",
+            "chart2": "Ablation results on SeedBench for different vision generation configurations, comparing baseline with +ploss, +diffuloss, and +warmup across training scales."
+        },
+        "question": "In Chart 1, what color represents the baseline method? Respond only with a single color name.",
+        "question_type": "perceptual",
+        "answer": "green",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23206v1\\chart1.jpg",
+            "chart2": "2512.23206v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "The distribution of source abstracts’ discipline in BiomedTLDR.",
+            "chart2": "The distribution of source abstracts’ discipline in CiteSum."
+        },
+        "question": "How many discipline categories are displayed in Chart 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 19,
+        "answer_type": "numeric"
+    }
+]

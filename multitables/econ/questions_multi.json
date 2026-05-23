@@ -1,0 +1,812 @@
+[
+    {
+        "question_id": 1,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1":"2511.19121v1\\table1.jpg",
+            "table2":"2511.19121v1\\table2.jpg",
+            "table3":"2511.19121v1\\table3.jpg" 
+        },
+
+        "caption": {
+            "table1": "Two-Stage RMS with Kernel First Stage: J = 2",
+            "table2": "Two-Stage RMS with Neural-Net First Stage: J = 2",
+            "table3": "Joint DNN-Based Estimation: J = 2"
+        },
+        "question":"In the two-index(J=2) simulation setting, consider the following three experimental environments, all using a sample size of N=5000: (1)TTwo-Index RMS with Kernel First Stage, (2)Two-Index RMS with Neural-Net First Stage, (3)Joint DNN-Based Estimation for the Two-Index Model. What are the reported 1 – Mean Angular Similarity values for these three experiments, in this order? Provide the answer strictly in the form: [num1, num2, num3].",
+        "question_type": "perceptual",
+        "answer": [0.015223, 0.004600, 0.017658],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 2,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1":"2511.19121v1\\table1.jpg",
+            "table2":"2511.19121v1\\table2.jpg",
+            "table3":"2511.19121v1\\table3.jpg" 
+        },
+
+        "caption": {
+            "table1": "Two-Stage RMS with Kernel First Stage: J = 2",
+            "table2": "Two-Stage RMS with Neural-Net First Stage: J = 2",
+            "table3": "Joint DNN-Based Estimation: J = 2"
+        },
+        "question":"In the two-index (J = 2) simulation, the paper compares three first-stage approaches: kernel regression, neural-net, joint-dnn. When the sample size increases from N = 1000 to N = 5000, which of these methods exhibits the largest overall reduction in mean squared error (averaged across the three θ components)? Respond only with the name of the first-stage approache, such as kernel regression, neural-net, joint-dnn.",
+        "question_type": "reasoning",
+        "answer": "kernel regression",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1":"2511.19121v1\\table1.jpg",
+            "table2":"2511.19121v1\\table2.jpg",
+            "table3":"2511.19121v1\\table3.jpg" 
+        },
+
+        "caption": {
+            "table1": "Two-Stage RMS with Kernel First Stage: J = 2",
+            "table2": "Two-Stage RMS with Neural-Net First Stage: J = 2",
+            "table3": "Joint DNN-Based Estimation: J = 2"
+        },
+        "question":"In the two-index (J = 2) simulation setting, consider the following three first-stage methods: kernel regression, neural-net, joint-dnn. If a method is required to exhibit a uniform decrease in the absolute values—across all three θ components—in MSE, absolute bias, standard deviation, L1 error, and the L2 norm of the bias when the sample size increases from N = 1000 to N = 5000, list all methods that satisfy this condition. If no method meets the requirement, answer: none.  Write only the method names; if no method qualifies, write: none. ",
+        "question_type": "reasoning",
+        "answer": "kernel regression, neural-net, joint-dnn",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1":"2511.18550v1\\table1.jpg",
+            "table2":"2511.18550v1\\table2.jpg"
+        },
+
+        "caption": {
+            "table1": "Firm-Level R&D Regressions and Heterogeneity Tests Results",
+            "table2": "Democracy Regressions and Heterogeneity Tests Results"
+        },
+        "question":"Across the regression results from both the firm-level R&D analysis and the income–democracy analysis, which latent-group estimation method exhibits coefficient patterns that align more closely with a “weak heterogeneity” structure? “Weak heterogeneity” means that group-specific coefficients show only mild, unstable, or statistically insignificant differences across groups. Respond only with the name of method.",
+        "question_type": "reasoning",
+        "answer": "PCR",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1":"2511.18550v1\\table1.jpg",
+            "table2":"2511.18550v1\\table2.jpg"
+        },
+
+        "caption": {
+            "table1": "Firm-Level R&D Regressions and Heterogeneity Tests Results",
+            "table2": "Democracy Regressions and Heterogeneity Tests Results"
+        },
+        "question":"Across the regression results from both the firm-level R&D analysis and the income–democracy analysis, which estimation method produces larger differences in coefficients across latent groups? Respond only with the name of method .",
+        "question_type": "reasoning",
+        "answer": "TSK",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 6,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1": "2511.17117v1\\table1.jpg",
+            "table2": "2511.17117v1\\table2.jpg",
+            "table3": "2511.17117v1\\table3.jpg"
+        },
+
+        "caption": {
+            "table1": "RESULTS FOR SYNTHETIC DATA (1) NORMAL PRIOR",
+            "table2": "RESULTS FOR SYNTHETIC DATA (2) NIG-HOMO PRIO",
+            "table3": "RESULTS FOR SYNTHETIC DATA (3) NIG-HETERO PRIOR"
+        },
+        "question":"Under the setting of n = 1000 and k = 5, list the mESS/iter values of DA–MCMC–Approx for the Normal prior, the NIG-homo prior, and the NIG-hetero prior, in this specified order: Normal → NIG-homo → NIG-hetero. Provide the answer strictly in the form: [num1, num2, num3]. ",
+        "question_type": "perceptual",
+        "answer": [0.814, 0.673, 0.673],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1": "2511.17117v1\\table1.jpg",
+            "table2": "2511.17117v1\\table2.jpg",
+            "table3": "2511.17117v1\\table3.jpg"
+        },
+
+        "caption": {
+            "table1": "RESULTS FOR SYNTHETIC DATA (1) NORMAL PRIOR",
+            "table2": "RESULTS FOR SYNTHETIC DATA (2) NIG-HOMO PRIO",
+            "table3": "RESULTS FOR SYNTHETIC DATA (3) NIG-HETERO PRIOR"
+        },
+        "question":"Under the condition n = 1000, as k increases from 5 to 20, examine the change in the mESS/iter of DA–MCMC–Approx under the Normal prior, the NIG-homo prior, and the NIG-hetero prior. Identify which prior shows the largest change. Respond only with the name of prior.",
+        "question_type": "reasoning",
+        "answer": "NIG-homo prior",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1": "2511.17117v1\\table1.jpg",
+            "table2": "2511.17117v1\\table2.jpg",
+            "table3": "2511.17117v1\\table3.jpg"
+        },
+
+        "caption": {
+            "table1": "RESULTS FOR SYNTHETIC DATA (1) NORMAL PRIOR",
+            "table2": "RESULTS FOR SYNTHETIC DATA (2) NIG-HOMO PRIO",
+            "table3": "RESULTS FOR SYNTHETIC DATA (3) NIG-HETERO PRIOR"
+        },
+        "question":"Under the condition n = 100, for DA–MCMC, under the Normal prior, NIG-homo prior, and NIG-hetero prior, examine how mESS/s changes as k increases from 5 to 20. Identify which prior shows the least sensitivity  to changes in k. Output only the name of the prior.",
+        "question_type": "reasoning",
+        "answer": "NIG-hetero prior",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 9,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.03236v1\\table1.jpg",
+            "table2": "2511.03236v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance metrics for four methods on two datasets with treatment assignment probabilities correlated with covariates.",
+            "table2": "Performance metrics for four methods on two datasets with treatment assignment probabilities all equal to 0.5."
+        },
+        "question":"Extract the RMSE values of the REG method in the Statehood dataset, and output them in the format num1,num2], where num1 is taken from table1 and num2 is taken from table2. Respond only the two numbers in the array format.",
+        "question_type": "perceptual",
+        "answer": [0.5216, 0.5118],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.03236v1\\table1.jpg",
+            "table2": "2511.03236v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance metrics for four methods on two datasets with treatment assignment probabilities correlated with covariates.",
+            "table2": "Performance metrics for four methods on two datasets with treatment assignment probabilities all equal to 0.5."
+        },
+        "question":"In the Statehood dataset, compare two treatment assignment settings—one where the treatment probability depends on covariates, and another where every unit receives treatment with probability 0.5. Which method shows the smallest change in Bias between these two settings? Respond only with the method.",
+        "question_type": "reasoning",
+        "answer": "LOORA-HT",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 11,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.03236v1\\table1.jpg",
+            "table2": "2511.03236v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance metrics for four methods on two datasets with treatment assignment probabilities correlated with covariates.",
+            "table2": "Performance metrics for four methods on two datasets with treatment assignment probabilities all equal to 0.5."
+        },
+        "question":"Based on two different treatment assignment mechanisms—one where the treatment probability depends on covariates and another where every unit receives treatment with probability 0.5—compare the performance metrics of each method in Table 1 and Table 2 for the Statehood dataset. Which method is the most sensitive to the assignment mechanism? Sensitivity to the assignment mechanism is defined as the overall magnitude of changes in a method’s statistical performance metrics across the two settings. Respond only with the method name.",
+        "question_type": "reasoning",
+        "answer": "LOORA-HT",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.03236v1\\table1.jpg",
+            "table2": "2510.03236v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Model performance for 5-day forecasts during each time period. Divide MSE values by 1,000,000. Performance is compared based on MSE values.",
+            "table2": "Model performance for 10-day forecasts during each time period. Divide MSE values by 1,000,000. Performance is compared based on MSE values."
+        },
+        "question":"Using only the Single-Recursive results in Table 1 (5-day forecasting) and Table 2 (10-day forecasting), determine which model exhibits the smallest increase in MSE when the forecast horizon expands from 5 days to 10 days during the Pre-COVID period.Reponse only with the model name.",
+        "question_type": "reasoning",
+        "answer": "Coeff. Clustering",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.03236v1\\table1.jpg",
+            "table2": "2510.03236v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Model performance for 5-day forecasts during each time period. Divide MSE values by 1,000,000. Performance is compared based on MSE values.",
+            "table2": "Model performance for 10-day forecasts during each time period. Divide MSE values by 1,000,000. Performance is compared based on MSE values."
+        },
+        "question":"Using only the Dual-Recursive results from Table 1 (5-day forecasting) and Table 2 (10-day forecasting), compare the models with the lowest MSE across the Pre-COVID, COVID, and Post-COVID periods. Determine whether the model achieving the lowest MSE is the same for both the 5-day and 10-day forecasts. If they are consistent across all three periods, list the model names in order (Pre → COVID → Post), such as [model1, model2, model3]. If not consistent, return only “no.”",
+        "question_type": "reasoning",
+        "answer": "[Coeff. Clustering, Dist. Clustering, Coeff. Clustering]",
+        "answer_type": "text"
+    },
+
+    
+    {
+        "question_id": 14,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.03236v1\\table1.jpg",
+            "table2": "2510.03236v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Model performance for 5-day forecasts during each time period. Divide MSE values by 1,000,000. Performance is compared based on MSE values.",
+            "table2": "Model performance for 10-day forecasts during each time period. Divide MSE values by 1,000,000. Performance is compared based on MSE values."
+        },
+        "question":"From Table 1 (5-day forecasting) and Table 2 (10-day forecasting), locate the MSE value in the Dual-Recursive section for the Pre-COVID period using Standard HAR model. Read the two values directly—no calculation—and return them in the format: [value_from_table1, value_from_table2]. Respond only with the list.",
+        "question_type": "perceptual",
+        "answer": [4.96, 6.17],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["table1", "table2", "table3", "table4"],
+        "path": {
+            "table1": "2509.18857v1\\table1.jpg",
+            "table2": "2509.18857v1\\table2.jpg",
+            "table3": "2509.18857v1\\table3.jpg",
+            "table4": "2509.18857v1\\table4.jpg"
+        },
+        "caption": {
+            "table1": "Simulation: point estimates (Lee)",
+            "table2": "Simulation: point estimates N=100",
+            "table3": "Simulation Results. DGP = Lee",
+            "table4": "Simulation Results. N = 100"
+        },
+        "question":"Identify all methods that satisfy the following criteria at the medium sample size (N ≈ 100): (1) achieving the lowest MSE based on Table 1, and (2) having coverage not lower than 0.95 based on Table 3. Respond only with the method name.",
+        "question_type": "reasoning",
+        "answer": "rdbinary",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 16,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1": "2508.09040v1\\table1.jpg",
+            "table2": "2508.09040v1\\table2.jpg",
+            "table3": "2508.09040v1\\table3.jpg"
+        },
+        "caption": {
+            "table1": "Root mean squared error (RMSE) and empirical coverage probabilities (ECP) (d = 6)",
+            "table2": "Root mean squared error (RMSE) and empirical coverage probabilities (ECP) (d = 8)",
+            "table3": "Root mean squared error (RMSE) and empirical coverage probabilities (ECP) (d = 10)"
+        },
+        "question":"Using Table 1, Table 2, and Table 3, and fixing the sample size at n = 300, compare the three dimensions d = 6, d = 8, and d = 10. When the correlation ρ increases from 0 to 0.9, which dimension exhibits the largest RMSE increase for T̂n? Report your answer in the format: [d, increase]. Respond only with the list.",
+        "question_type": "reasoning",
+        "answer": [10, 0.1207],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1": "2508.09040v1\\table1.jpg",
+            "table2": "2508.09040v1\\table2.jpg",
+            "table3": "2508.09040v1\\table3.jpg"
+        },
+        "caption": {
+            "table1": "Root mean squared error (RMSE) and empirical coverage probabilities (ECP) (d = 6)",
+            "table2": "Root mean squared error (RMSE) and empirical coverage probabilities (ECP) (d = 8)",
+            "table3": "Root mean squared error (RMSE) and empirical coverage probabilities (ECP) (d = 10)"
+        },
+        "question":"Using Table 1, Table 2, and Table 3, extract the T̂n RMSE values at the same coordinate (ρ = 0.5, n = 600) for dimensions d = 6, d = 8, and d = 10. Report the three extracted numbers in the format: [num1, num2, num3], where num1 corresponds to d = 6, num2 to d = 8, and num3 to d = 10. Respond only with the list!",
+        "question_type": "perceptual",
+        "answer": [0.0515, 0.0564, 0.0618],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.20634v1\\table1.jpg",
+            "table2": "2509.20634v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Peer Effects in Class Probabilities (Female)",
+            "table2": "Peer Effects in Class Probabilities (Male)"
+        },
+        "question":"Extract the coefficients located at the row “Peer Rule Violations ALR” and the column “Rule Violations ALR” in the Sender Profiles panel of Table1 (Female) and Table2 (Male). Return the two numbers in the format: [num1, num2]. Respond only with the list.",
+        "question_type": "perceptual",
+        "answer": [1.612, 0.879],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.20634v1\\table1.jpg",
+            "table2": "2509.20634v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Peer Effects in Class Probabilities (Female)",
+            "table2": "Peer Effects in Class Probabilities (Male)"
+        },
+        "question":"Using Table 1 (Female) and Table 2 (Male), compute the sum of the absolute values of the three coefficients in the Receiver Profiles panel under the Community Support ALR column for each table. Which table has the larger total? Return the larger numerical total only.",
+        "question_type": "reasoning",
+        "answer": 1.859,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 20,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.20634v1\\table1.jpg",
+            "table2": "2509.20634v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Peer Effects in Class Probabilities (Female)",
+            "table2": "Peer Effects in Class Probabilities (Male)"
+        },
+        "question":"Using Table 1 (Female) and Table 2 (Male), compute the range (maximum minus minimum) of the three coefficients in the Rule Violations ALR column within the Sender Profiles panel for each table. Which table has the larger range? Return the larger numerical range only.",
+        "question_type": "reasoning",
+        "answer": 2.277,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 21,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.02705v1\\table1.jpg",
+            "table2": "2510.02705v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Baseline FOMC Effects on Network Connectivity",
+            "table2": "Heterogeneous Effects of FOMC Tone on Network Connectivity"
+        },
+        "question":"Identify a value of k for which the sign of the baseline FOMC coefficient in Table 1 is opposite to the sign of the Neutral coefficient in Table 2. Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 14,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.02705v1\\table1.jpg",
+            "table2": "2510.02705v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Baseline FOMC Effects on Network Connectivity",
+            "table2": "Heterogeneous Effects of FOMC Tone on Network Connectivity"
+        },
+        "question":"Across Table 1 and Table 2, which category shows the largest numerical variation across the four k values? A. Hawkish. B. Dovish. C. Neutral. D. FOMC. Respond only with the choice.",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 23,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.16537v1\\table1.jpg",
+            "table2": "2510.16537v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Top 5 Strategies by Welfare and GDP at T=40.",
+            "table2": "Median Trajectories of Debt and Welfare for Representative Strategies"
+        },
+        "question":"From Table 1, extract the Median Welfare value of the strategy “AggRecomp_GI+TR_modDebt_MKT_LVT.” Then, from Table 2, extract the Median Welfare at T = 40 for the same strategy. Provide your answer only in the format:[num1, num2]. Respond only with the list.",
+        "question_type": "perceptual",
+        "answer": [20.63, 20.63],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 24,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2509.15090v1\\table1.jpg",
+            "table2": "2509.15090v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Synthetic Utility Table 1",
+            "table2": "Synthetic Utility Table 2"
+        },
+        "question": "Compute the difference in AI 2 values between Table 2 and Table 1 for State S2 under Policy B. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.55,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 25,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2509.15090v1\\table1.jpg",
+            "table2": "2509.15090v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Synthetic Utility Table 1",
+            "table2": "Synthetic Utility Table 2"
+        },
+        "question": "Identify the (State, Policy) combination with the largest increase in Alice value from Table 1 to Table 2. Respond only with a list of two strings in the order [State, Policy].",
+        "question_type": "reasoning",
+        "answer": "[S1, A]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2509.16125v1\\table1.jpg",
+            "table2": "2509.16125v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Varying-Beta-exponential-equilibria",
+            "table2": "Beta-times-exponential-dictatorial"
+        },
+        "question": "From Table 1, extract the value of O∗ at s 1​=1.000. From Table 2, extract the value of O∗ at s 1​=1.000. Respond only with a list of two numeric values in the order [Table 1, Table 2].",
+        "question_type": "perceptual",
+        "answer": [0.640, 0.712],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2509.17225v1\\table1.jpg",
+            "table2": "2509.17225v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Descriptive statistics for returns Li , i = 1, 2, . . . , 6. The unit of the calibrated values is percentage.",
+            "table2": "Tail Gini correlation coefficient matrix of (L1, L2, . . . , L6) ′ at the prudence level p = 0.10."
+        },
+        "question": "For the asset with the largest TGini_{0.10}(Lᵢ) in Table 1, what is its correlation with SCS in Table 2? Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.1737,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2510.14872v1\\table1.jpg",
+            "table2": "2510.14872v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Logistic Regression Model Predicting Voting According to Signal (IsTrue)",
+            "table2": "Logistic Regression Model Predicting Risk Aversion (RA)"
+        },
+        "question": "What are the sample sizes reported in Table 1 and Table 2? Respond only with a list of two integers in the order [Table 1, Table 2].",
+        "question_type": "perceptual",
+        "answer": [613, 628],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 29,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2510.19630v2\\table1.jpg",
+            "table2": "2510.19630v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Summary Statistics: European Banking Sample",
+            "table2": "Network Structure: Descriptive Statistics"
+        },
+        "question": "What are the number of banks in Table 1 and the number of edges in Table 2 for 2021? Respond only with a list of two numeric values in the order [Table 1, Table 2].",
+        "question_type": "perceptual",
+        "answer": [50, 2450],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 30,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2510.22294v1\\table1.jpg",
+            "table2": "2510.22294v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Self-Flow Rates",
+            "table2": "Team Definition Summary Statistics"
+        },
+        "question": "Which year is the data in both Table 1 and Table 2 based on? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 2015,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 31,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2510.23178v1\\table1.jpg",
+            "table2": "2510.23178v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Test for Hypothesis 1 (Same profit)",
+            "table2": "Test for Hypothesis 2 (Zero profit)"
+        },
+        "question": "What are the correlation between F and R in Table 1 and the Mean of F in Table 2? Respond only with a list of two numeric values in the order [Table 1, Table 2].",
+        "question_type": "perceptual",
+        "answer": [-0.526, 0.072],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 32,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2510.24344v1\\table1.jpg",
+            "table2": "2510.24344v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Voter Turnout in the U.S. Elections by President",
+            "table2": "Voter Turnout in Iran Elections by President"
+        },
+        "question":"How many distinct presidents are listed in Table 1 and Table 2, respectively? Respond only with a list of two integers in the order [Table 1, Table 2].",
+        "question_type": "perceptual",
+        "answer": [4, 4],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 33,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2510.25782v1\\table1.jpg",
+            "table2": "2510.25782v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Donor weight allocation by estimator",
+            "table2": "Donor weight comparison across estimators"
+        },
+        "question": "For donors whose Concatenated weight exceeds 25% in Table 1, how many outcomes do they appear in according to Table 2? Respond only with a list of integers ordered by donor name alphabetically.",
+        "question_type": "perceptual",
+        "answer": [4, 1],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 34,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.13860v1\\table1.jpg",
+            "table2": "2511.13860v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Agent Effect on Performance Metrics",
+            "table2": "Comparison of Email Processing Times"
+        },
+        "question": "How many counterfactual scenarios are reported in Table 1 and how many counterfactual groups are reported in Table 2? Respond only with a list of two integers in the order [Table 1, Table 2].",
+        "question_type": "perceptual",
+        "answer": [3, 1],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.16760v1\\table1.jpg",
+            "table2": "2511.16760v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "New supervision tool validation",
+            "table2": "New supervision tool validation"
+        },
+        "question": "Compute the change in x for the Correlation method from Table 1 to Table 2. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.82,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.22834v1\\table1.jpg",
+            "table2": "2511.22834v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Experimental Design",
+            "table2": "Summary Table: Reporting Accuracy"
+        },
+        "question": "What is the Overall Choice Accuracy in Table 2 for the treatment that uses “Pick when called” as the reporting interface in Table 1? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 84.26,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.22834v1\\table1.jpg",
+            "table2": "2511.22834v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Experimental Design",
+            "table2": "Summary Table: Reporting Accuracy"
+        },
+        "question": "Compute the average Overall Choice Accuracy in Table 2 for treatments that use Serial Dictatorship in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 51.15,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 38,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.03596v1\\table1.jpg",
+            "table2": "2512.03596v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparative ICERs across perspectives.",
+            "table2": "Value of Perspective (VoP) Analysis. VoP represents the per-person opportunity cost of making the wrong funding decision by ignoring societal costs and benefits."
+        },
+        "question": "How many interventions have a negative Health System ICER in Table 1 and are accepted by the Health System in Table 2? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 39,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.06583v1\\table1.jpg",
+            "table2": "2512.06583v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Random Assignment Results (Mean over 100 simulations)",
+            "table2": "Biased Assignment Results (Mean over 100 simulations)"
+        },
+        "question": "What are the False Negatives values for Terminations in Table 1 and Table 2? Respond only with a list of two integers in the order [Table 1, Table 2].",
+        "question_type": "perceptual",
+        "answer": [52, 83],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 40,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.15296v1\\table1.jpg",
+            "table2": "2512.15296v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Parameters for Strong/Weak economies.",
+            "table2": "Parameter configurations for baseline and extreme scenarios."
+        },
+        "question": "Compute the increase in r from the Strong economy in Table 1 to the High interest scenario in Table 2. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.36,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.19675v1\\table1.jpg",
+            "table2": "2512.19675v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "STAGE I BENCHMARKING RESULTS",
+            "table2": "STAGE II BENCHMARKING RESULTS"
+        },
+        "question": "What are the Extracted Entries for Student-Constructed in Table 1 and the Matched Cells for Student-constructed in Table 2? Respond only with a list of two integers in the order [Table 1, Table 2].",
+        "question_type": "perceptual",
+        "answer": [1373, 6503],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.22917v1\\table1.jpg",
+            "table2": "2512.22917v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Price Increase Leadership by Type",
+            "table2": "Markup Patterns Across Price Tiers"
+        },
+        "question": "What are the “First Increase” sample count for Salcobrand in Table 1 and its Tier 1 weighted average markup in Table 2? Respond only with a list containing one integer and one numeric value in the order [Table 1, Table 2].",
+        "question_type": "perceptual",
+        "answer": [213, 0.127],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 43,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.22917v1\\table1.jpg",
+            "table2": "2512.22917v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Price Increase Leadership by Type",
+            "table2": "Markup Patterns Across Price Tiers"
+        },
+        "question": "What are the “Additional” sample count for Salcobrand in Table 1 and its Tier 2 weighted average markup in Table 2? Respond only with a list containing one integer and one numeric value.",
+        "question_type": "perceptual",
+        "answer": [112, 0.405],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 44,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23110v1\\table1.jpg",
+            "table2": "2512.23110v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Panel Fix-effect test result",
+            "table2": "Panel Random-effect test result"
+        },
+        "question": "What are the t-test values of Health Expenditures in Table 1 and Table 2? Respond only with a list of two numeric values.",
+        "question_type": "perceptual",
+        "answer": [3.74, 3.55],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 45,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2601.00770v1\\table1.jpg",
+            "table2": "2601.00770v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Metaheuristic algorithm performance on the Hang Seng (N = 31) training set.",
+            "table2": "Self-assessed descriptions of generated algorithms."
+        },
+        "question": "For algorithms whose descriptions contain “memetic” in Table 2, what are their Scores in Table 1? Respond only with a list of numeric values ordered by algorithm name alphabetically.",
+        "question_type": "perceptual",
+        "answer": [2, 3],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 46,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2601.00770v1\\table1.jpg",
+            "table2": "2601.00770v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Metaheuristic algorithm performance on the Hang Seng (N = 31) training set.",
+            "table2": "Self-assessed descriptions of generated algorithms."
+        },
+        "question": "Among algorithms described as “Hybrid” in Table 2, which one has the best (lowest) MPE Rank in Table 1? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "HC",
+        "answer_type": "text"
+    }
+]

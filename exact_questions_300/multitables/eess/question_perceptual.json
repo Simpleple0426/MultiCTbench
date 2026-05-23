@@ -1,0 +1,206 @@
+[
+    {
+        "question_id": 21,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.05844v2\\table1.jpg",
+            "table2": "2511.05844v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "The comparison of the baseline DDPM diffusion and our regularized guided sampling. All models are sampled for 250 DDPM steps. We generate 10k ImageNet 128 × 128 samples for evaluation. FID values are averaged over three runs.",
+            "table2": "The comparison of the baseline DDPM diffusion and our divergence guided samplings. All models are sampled for 250 DDPM steps. We generate 50k ImageNet 128 × 128 samples for evaluation."
+        },
+        "question": "Across Table 1 and Table 2, how many distinct method names are reported in total? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 9,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 56,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.08197v1\\table1.jpg",
+            "table2": "2512.08197v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "MODEL PERFORMANCE COMPARISON",
+            "table2": "PERFORMANCE SUMMARY OF STAGE II UNDER DIFFERENT THRESHOLDS."
+        },
+        "question": "Report the Accuracy of “Our model” in Table 1 and the Accuracy under Threshold = 0.625 in Table 2. Respond only with a list of two numeric values.",
+        "question_type": "perceptual",
+        "answer": [0.892, 0.8917],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 59,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.08608v1\\table1.jpg",
+            "table2": "2512.08608v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "LOCALIZATION ERROR (M) FOR IRT4-RM AT 5 M/S.",
+            "table2": "LOCALIZATION ERROR (M) FOR IRT4-RM AT 1 M/S."
+        },
+        "question": "Extract the localization errors of RadioDiff at Seq=10 from Table 1 and Table 2. Respond only with a list of two numeric values in the order [Table1, Table2].",
+        "question_type": "perceptual",
+        "answer": [34.690, 72.646],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.01537v1\\table1.jpg",
+            "table2": "2512.01537v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Objective reconstruction results of Q2D2, WavTokenizer (VQ), and FSQ on the LibriTTS test-clean (clean environment), LibriTTS test-other (noisy environment), and LJSpeech (out-of-domain environment) datasets. Nq denotes the number of quantizers, and GT denotes the ground-truth waveforms. Best-performing results among the models are highlighted in bold.",
+            "table2": "The semantic representation (speech) evaluation of various codec models on ARCH Benchmark in terms of classification accuracy. Nq represents the number of quantizers."
+        },
+        "question":"Extract the tokens/s values of Q2D2 from Table 1 and Table 2 respectively. Respond only with a list of two integers in the order [Table1, Table2].",
+        "question_type": "perceptual",
+        "answer": [75, 53],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 46,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.06099v1\\table1.jpg",
+            "table2": "2512.06099v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance on the exam performance dataset (Dataset 2).",
+            "table2": "Performance on the cognitive load dataset (Dataset 3)."
+        },
+        "question": "Extract the Accuracy values of LightGBM from Table 1 and Table 2. Respond only with a list of two numeric values in the order [Table1, Table2].",
+        "question_type": "perceptual",
+        "answer": [0.977, 0.9853],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 56,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.08197v1\\table1.jpg",
+            "table2": "2512.08197v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "MODEL PERFORMANCE COMPARISON",
+            "table2": "PERFORMANCE SUMMARY OF STAGE II UNDER DIFFERENT THRESHOLDS."
+        },
+        "question": "Report the Accuracy of “Our model” in Table 1 and the Accuracy under Threshold = 0.625 in Table 2. Respond only with a list of two numeric values.",
+        "question_type": "perceptual",
+        "answer": [0.892, 0.8917],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2510.18036v1\\table1.jpg",
+            "table2": "2510.18036v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Model complexity. MACs were obtained using the keras_flops library",
+            "table2": "Model evaluation on the IEMOCAP’s scripted and improvised recording sessions. FAR is the False Alarm Rate, and MR is the Miss Rate. The best performing model from the three trials was picked for evaluation"
+        },
+        "question": "What is the WER of DSResNet-SE under the Combined setting in Table 2? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 48.35,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 23,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.05873v2\\table1.jpg",
+            "table2": "2511.05873v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Ablation study on the Dual-Domain Prompter with employing frequency embedding Ff req and image embedding Fimg on the SegSTRONG-C dataset",
+            "table2": "Ablation study on SegSTRONG-C (Ding et al. 2024). We remove (i) the Task Adaptive Embedding, (ii) the Dual-Stream Encoder, (iii) and the Rectified Fusion Block."
+        },
+        "question": "Extract the PSNR value in Table 2 for the configuration TAE = ✓, DSE = ×, RFB = ×. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 31.40,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.07568v1\\table1.jpg",
+            "table2": "2512.07568v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Overall performance on OULAD (T1: next-step performance). We report mean ± standard deviation over 5 runs. Best results are in bold, second best are underlined.",
+            "table2": "Overall performance on EdNet-KT1 (T1: next-step performance). We report mean ± standard deviation over 5 runs."
+        },
+        "question": "According to the caption of Table 1, how are second-best results indicated? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "underlined",
+        "answer_type": "text"
+    },
+
+
+    {
+        "question_id": 40,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.13397v1\\table1.jpg",
+            "table2": "2512.13397v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance on all myocardium test slices (100 slices). rNCA preserves global segmentation accuracy and Betti-number stability.",
+            "table2": "Performance on slices where the predicted myocardium ring is broken. The upper block corresponds to UNet failures and the lower block to Swin failures."
+        },
+        "question": "Extract the denominators of the Topo. metric for the UNet broken subset and the Swin broken subset in Table 2. Respond only with a list of integers in the format [UNet_subset, Swin_subset].",
+        "question_type": "perceptual",
+        "answer": [8, 13],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 52,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.14093v1\\table1.jpg",
+            "table2": "2512.14093v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Optimal Subset of Metrics (Lowest GT MAE).",
+            "table2": "Respiratory Signal Fusion Methods. Note: GT MAE and GT-SMM are oracle upper bounds."
+        },
+        "question": "How many distinct fusion methods are listed in Table 2? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 9,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 62,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.13836v1\\table1.jpg",
+            "table2": "2512.13836v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Total solver mean runtime in (sec) for formulations using SCvx algorithm and NLP solver.",
+            "table2": "Environment I and II trajectory obstacle penetration (m) for P1 simulations."
+        },
+        "question": "From Table 2, extract the Intersample penetration of Environment II under NLP with EOA. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.051,
+        "answer_type": "numeric"
+    }
+]

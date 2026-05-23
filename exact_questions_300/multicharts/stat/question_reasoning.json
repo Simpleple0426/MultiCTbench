@@ -1,0 +1,225 @@
+[
+    {
+        "question_id": 4,
+        "items": ["chart1", "chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2511.15075v1\\chart1.jpg",
+            "chart2": "2511.15075v1\\chart2.jpg",
+            "chart3": "2511.15075v1\\chart3.jpg",
+            "chart4": "2511.15075v1\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "90% upper conformal prediction intervals for continued smoking are given by the black dashed lines. 90% upper prediction intervals for quitting smoking are given by the blue line.",
+            "chart2": "90% upper conformal prediction intervals for continued smoking are given by the black dashed lines. 90% upper prediction intervals for quitting smoking are given by the blue line.",
+            "chart3": "Average dose-response curve and 95% confidence interval. Points are randomly selected participant’s observed total medical expenditure.",
+            "chart4": "Histogram of Total Medical Expenditure by Median Age."
+        },
+        "question":"Comparing both chart1 and chart2, which individual’s Quit Smoking expenditure curve remains more stable (shows less variation) across age? Respond only with Individual 1 or Individual 2.",
+        "question_type": "reasoning",
+        "answer": "Individual 1",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 21,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.16530v1\\chart1.jpg",
+            "chart2": "2511.16530v1\\chart2.jpg",
+            "chart3": "2511.16530v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Four subplots (a–d) showing PSEL as a function of 1 in the range −1 to 1, comparing Percentile of Residual, Percentile of BLUP, PEPP with MLE, and ROPPER.",
+            "chart2": "Four subplots (a–d) showing PSEL as a function of 1 or 2 in the range 0 to 0.8, comparing Percentile of Residual, Percentile of BLUP, PEPP with MLE, and ROPPER.",
+            "chart3": "PSEL comparison between PEPP with MLE and ROPPER with different H values (H=1, H=2, H=3) over 1 in the range −1 to 1."
+        },
+        "question": "Considering chart1 and chart2 together, which method consistently achieves the lowest PSEL across subplots? A. Percentile of Residual. B. Percentile of BLUP. C. PEPP with MLE. D. ROPPER. Respond only with the choice.",
+        "question_type": "reasoning",
+        "answer": "D",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 57,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.07050v1\\chart1.jpg",
+            "chart2": "2511.07050v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Grid of boxplots showing log-likelihood values for four datasets (Fish, Iris, Wine, Seeds) across different sample sizes (m = 25, 50, 100, 150). Each panel compares three methods: H, M1, and M2.",
+            "chart2": "Grid of bar charts showing classification accuracy for different numbers of clusters (K = 2, 4, 8, 16) and sample sizes (m = 100, 200, 400, 800), comparing methods H, M1, and M2."
+        },
+        "question": "Based on chart1 and chart2, which method shows the largest performance gap over H as problem difficulty increases (larger m in chart1 and larger K in chart2)? A. M1 B. M2 C. H Respond only with the choice.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 64,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.08223v2\\chart1.jpg",
+            "chart2": "2511.08223v2\\chart2.jpg",
+            "chart3": "2511.08223v2\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Line plots showing trimmed wall-clock time (95% bootstrap CI) versus sample size for three covariance construction methods (Centered, Bariance-style, NumPy cov) under p = 10 and p = 50.",
+            "chart2": "Bar chart comparing trimmed wall-clock time for FE score-matrix covariance computation using Centered, Bariance, and NumPy methods at n = 20000 and n = 36000.",
+            "chart3": "Summary comparison of trimmed wall-clock time across covariance estimation methods under large-sample fixed settings."
+        },
+        "question": "Combining chart1 and chart2, which method shows consistently lower computational cost as sample size increases across both covariance construction and FE score-matrix settings? A. Centered B. Bariance-style C. NumPy cov Respond only with the choice.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 67,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.10048v1\\chart1.jpg",
+            "chart2": "2511.10048v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Prediction Imputation (PI) Diagram under MOORT risk for five datasets and multiple imputation methods.",
+            "chart2": "Prediction Imputation (PI) Diagram under MOOEN risk for the same datasets and methods."
+        },
+        "question": "Count the number of methods listed in the legend of chart1 and chart2, then report the difference as (chart2 − chart1). Respond only with the number.",
+        "question_type": "reasoning",
+        "answer": 1,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 62,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.08180v1\\chart1.jpg",
+            "chart2": "2511.08180v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Boxplots of posterior estimates for logit parameters ϑ₁, ϑ₂, ϑ₃, and ϑ₄ under different inference methods (ifit, ssfit, apmc, abcrf, mle, jags). Black dots indicate posterior means and dashed horizontal lines indicate true values.",
+            "chart2": "Boxplots of posterior estimates for trait parameters γ, μ, σ, and ω under different inference methods (ifit, ssfit, apmc, abcrf). Black dots indicate posterior means and dashed horizontal lines indicate true values."
+        },
+        "question": "Comparing chart1 and chart2, which method consistently shows larger deviation of posterior means from the dashed true-value lines across both logit parameters and trait parameters? A. ifit B. ssfit C. apmc D. abcrf Respond only with the choice.",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 39,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.17071v2\\chart1.jpg",
+            "chart2": "2511.17071v2\\chart2.jpg",
+            "chart3": "2511.17071v2\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Six subplots of density versus max depth (m). Panels (a,c,e) show Parametric, Nonparametric, and Unimodal models with histograms and three colored curves (shallow, mid, deep). Panels (b,d,f) show the corresponding tail views with the x-axis restricted to higher depths.",
+            "chart2": "Four density plots versus observations with many thin simulated curves and a thick black curve in each panel. Panels are titled (a) Skew normal - t, (b) Normal, (c) Nonparametric, and (d) Unimodal.",
+            "chart3": "Horizontal boxplots of AUC for four methods: Skew normal - t, Normal, Nonparametric, and Unimodal. The x-axis ranges from about 0.970 to 1.000 and includes a vertical dashed reference line."
+        },
+        "question": "In chart3, which method has the highest median AUC (the black median line positioned furthest to the right)? A. Skew normal - t. B. Normal. C. Nonparametric. D. Unimodal. Respond only with the choice.",
+        "question_type": "reasoning",
+        "answer": "D",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["chart1", "chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2511.15075v1\\chart1.jpg",
+            "chart2": "2511.15075v1\\chart2.jpg",
+            "chart3": "2511.15075v1\\chart3.jpg",
+            "chart4": "2511.15075v1\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "90% upper conformal prediction intervals for continued smoking are given by the black dashed lines. 90% upper prediction intervals for quitting smoking are given by the blue line.",
+            "chart2": "90% upper conformal prediction intervals for continued smoking are given by the black dashed lines. 90% upper prediction intervals for quitting smoking are given by the blue line.",
+            "chart3": "Average dose-response curve and 95% confidence interval. Points are randomly selected participant’s observed total medical expenditure.",
+            "chart4": "Histogram of Total Medical Expenditure by Median Age."
+        },
+        "question":"Based on the overlapping histograms and density curves in chart4, which age group generally incurs higher total medical expenditure? Respond only with Above Med or Below Med.",
+        "question_type": "reasoning",
+        "answer": "Above Med",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["chart1", "chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2511.15075v1\\chart1.jpg",
+            "chart2": "2511.15075v1\\chart2.jpg",
+            "chart3": "2511.15075v1\\chart3.jpg",
+            "chart4": "2511.15075v1\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "90% upper conformal prediction intervals for continued smoking are given by the black dashed lines. 90% upper prediction intervals for quitting smoking are given by the blue line.",
+            "chart2": "90% upper conformal prediction intervals for continued smoking are given by the black dashed lines. 90% upper prediction intervals for quitting smoking are given by the blue line.",
+            "chart3": "Average dose-response curve and 95% confidence interval. Points are randomly selected participant’s observed total medical expenditure.",
+            "chart4": "Histogram of Total Medical Expenditure by Median Age."
+        },
+        "question":"Which group exhibits greater variability in total medical expenditure across the observed range? Respond only with Above Med or Below Med.",
+        "question_type": "reasoning",
+        "answer": "Above Med",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 9,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.15446v1\\chart1.jpg",
+            "chart2": "2511.15446v1\\chart2.jpg",
+            "chart3": "2511.15446v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "modified empirical Lorenz curve",
+            "chart2": "modified CAP",
+            "chart3": "boxplots of the individual risk contributions"
+        },
+        "question": "In chart2, what does the shaded pink region represent? A. The area under the orange curve. B. The difference between the orange and red curves. C. The area between the red curve and the diagonal dashed line. D. The total area of the plot. Respond only with the choice.",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 87,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.12981v1\\chart1.jpg",
+            "chart2": "2512.12981v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Layer-wise compression patterns learned by CoDeQ for ResNet-18 on ImageNet. Layer-wise compression for a ResNet-18 model with MP. Negative y-axis shows bit-width (descending) and positive y-axis shows sparsity (ascending).",
+            "chart2": "Layer-wise compression patterns learned by CoDeQ for ResNet-18 on ImageNet. Layer-wise compression for a ResNet-18 model with fixed 4-bit weights. Negative y-axis shows bit-width (descending) and positive y-axis shows sparsity (ascending)."
+        },
+        "question": "Does Chart 1 contain layers that simultaneously have sparsity above 0.9 and bit-width no greater than 3 bits? Respond only with a single integer (count).",
+        "question_type": "reasoning",
+        "answer": 2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 88,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.17131v1\\chart1.jpg",
+            "chart2": "2512.17131v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Final validation loss of AdamW, single-worker DiLoCo, and GPA on LLaMA-160M across different effective numbers of inner steps.",
+            "chart2": "Training speedup of single-worker DiLoCo and GPA, measured by the reduction in steps needed to reach AdamW’s final validation loss, across different effective numbers of inner steps."
+        },
+        "question": "At which inner step does GPA-AdamW achieve its lowest validation loss in Chart 1? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 32,
+        "answer_type": "numeric"
+    }
+]

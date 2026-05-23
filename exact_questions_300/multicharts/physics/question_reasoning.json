@@ -1,0 +1,211 @@
+[
+    {
+        "question_id": 42,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.20047v1\\chart1.jpg",
+            "chart2": "2512.20047v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Maximum transmission distance as a function of threshold fidelity under different receiver aperture sizes and error rates, considering the effect of polarization rotation.",
+            "chart2": "Maximum transmission distance as a function of receiver aperture radius for different threshold fidelities and error rates, with polarization rotation taken into account."
+        },
+        "question": "Using both charts, compute the difference between the maximum and minimum distances under ε=3%. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 13.5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 48,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.21202v1\\chart1.jpg",
+            "chart2": "2512.21202v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Histogram of masses for Petersen Case, showing the distribution for W = 5 TeV, b = 5, N = 12, and t = 0.1 TeV in the Petersen geometry.",
+            "chart2": "Median of 100 runs for masses in Petersen case, showing the median values for W = 5 TeV, b = 5, N = 12, and t = 0.1 TeV in the Petersen geometry."
+        },
+        "question": "Which mass component shows the largest variability across both charts? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "m3",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 49,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.21313v1\\chart1.jpg",
+            "chart2": "2512.21313v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Cumulative distribution of n(λ) after the quench from the state |Ψ₀⟩ in the rule-54 chain. The plot shows n(λ) versus log(λm/λ), where different symbols correspond to different times. A step-like behavior is observed at λ = λm.",
+            "chart2": "Cumulative distribution of n(λ) after the Néel quench in the XX chain. As in the left panel, a step-like form is observed, which is attributed to purely linear behavior in the relevant moments."
+        },
+        "question": "Which system shows a smoother cumulative growth? A. rule-54 chain B. XX chain Respond only with a single letter.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 9,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.21082v2\\chart1.jpg",
+            "chart2": "2511.21082v2\\chart2.jpg",
+            "chart3": "2511.21082v2\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Normalized total effective resistance as a function of disorder strength for HuPPI and PoPPI networks constructed from Gabriel, Delaunay, Delaunay-centroidal, and Voronoi graphs. Networks are generated from 15×15 lattices, and lower values indicate better connectivity.",
+            "chart2": "Normalized total effective resistance versus network size for HuPPI and PoPPI networks based on different geometric graph constructions. HuPPI networks are generated from hyperuniform point patterns with fixed disorder strength.",
+            "chart3": "Random-walk mixing time as a function of disorder strength for HuPPI networks and PoPPI networks constructed from various geometric graphs. PoPPI networks are independent of disorder strength."
+        },
+        "question": "Using both Chart 1 and Chart 2, which geometric graph under Hyperuniform exhibits low R_norm and weak size dependence? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Delaunay",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 34,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.18382v1\\chart1.jpg",
+            "chart2": "2512.18382v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "The integrand of the time-momentum representation in Eq. (92) (red curve) and the corresponding integrand of the intermediate window observable (blue curve).",
+            "chart2": "Pie chart showing the fractions from individual quark flavours, as well as the contributions from quark-disconnected diagrams and isospin-breaking corrections."
+        },
+        "question": "Based on both charts, are the dominant physical contributions more concentrated or more distributed? A. Concentrated B. Distributed Respond only with a single letter.",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.14053v1\\chart1.jpg",
+            "chart2": "2512.14053v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "kₜ,g distributions of groomed inclusive jets in pp and 0–10% PbPb collisions at √sNN = 5.02 TeV using the Dynamical Grooming algorithm. Results include pp, PbPb, and PbPb from JBJ matching, with the PbPb-to-pp ratio shown in the lower panel.",
+            "chart2": "kₜ,g distributions of groomed inclusive jets in pp and 0–10% PbPb collisions at √sNN = 5.02 TeV using the Soft-Drop Grooming algorithm. Results include pp, PbPb, and PbPb from JBJ matching, with the PbPb-to-pp ratio shown in the lower panel."
+        },
+        "question": "At low k_T,g, under which grooming algorithm is PbPb(JBJ)/pp significantly higher than PbPb/pp? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Dynamical Grooming",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 46,
+        "items": ["chart1","chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2512.20199v1\\chart1.jpg",
+            "chart2": "2512.20199v1\\chart2.jpg",
+            "chart3": "2512.20199v1\\chart3.jpg",
+            "chart4": "2512.20199v1\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "Empirical frequency distribution of the 10 lowest-energy solutions obtained from sampled simulated quantum annealing runs for Diabetes Mellitus, showing the relative occurrence of matched combinations versus predicted candidate combinations.",
+            "chart2": "Empirical frequency distribution of the 10 lowest-energy solutions obtained from sampled simulated quantum annealing runs for Rheumatoid Arthritis, distinguishing matched solutions from predicted candidate combinations.",
+            "chart3": "Empirical frequency distribution of the 10 lowest-energy solutions obtained from sampled simulated quantum annealing runs for Asthma, illustrating the frequencies of matched and predicted solution ranks.",
+            "chart4": "Empirical frequency distribution of the 10 lowest-energy solutions obtained from sampled simulated quantum annealing runs for Brain Neoplasms, comparing the occurrence of matched solutions against predicted candidate solutions."
+        },
+        "question": "In Chart 2, compute the average Match frequency for solution ranks greater than or equal to 5. Respond only with a single numeric value. ",
+        "question_type": "reasoning",
+        "answer": 0.00217,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 21,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.15097v1\\chart1.jpg",
+            "chart2": "2512.15097v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Calculated excitation energies of the first excited state for oxygen, neon, magnesium, and silicon isotopes using the VS-IMSRG approach, compared with experimental data.",
+            "chart2": "Same as Figure 1, but showing results for isotones with neutron numbers 8, 10, 12, and 14."
+        },
+        "question": "Which element has the most tightly clustered E2+1 values in Chart 1? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Magnesium (Mg)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.05058v1\\chart1.jpg",
+            "chart2": "2511.05058v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Estimate for the K-meson correlator. The results are obtained by an extrapolation to zero using data with r = 0 and 1 for each m + 1.",
+            "chart2": "Same as Fig. 15 for Ds. The extrapolations are performed using data with r = 1 and 2."
+        },
+        "question": "What type of variable is m+1 implicitly treated as in Chart 1? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Discrete index",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.13787v1\\chart1.jpg",
+            "chart2": "2512.13787v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Maximum signal–background separation as a function of injected signal size. The maximum SIC is shown as a function of the injected signal for classifiers evaluated on the training set, the test set, and using k-folding, comparing a neural network with early stopping (left), a neural network without early stopping (middle), and a boosted decision tree with early stopping (right).",
+            "chart2": "Corrected (solid lines) and uncorrected (dashed lines) p-values as a function of the injected signal size, evaluated on the training set, the test set, and using k-folding, for three different background working points."
+        },
+        "question": "In Chart 1, the test curve of the BDT is visually closer to which evaluation curve compared to NN without early stopping? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Evaluate with k-folding",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.17557v1\\chart1.jpg",
+            "chart2": "2512.17557v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Entanglement marker measurements in bins of top-quark pair mass and angular separation, shown in the helicity basis. Data with uncertainties are compared to POWHEG+PYTHIA predictions, and the dashed line marks the entanglement threshold.",
+            "chart2": "Entanglement marker measurements in bins of top-quark pair mass and angular separation, shown in the beam basis. Data with uncertainties are compared to POWHEG+PYTHIA predictions, and the dashed line marks the entanglement threshold."
+        },
+        "question": "Which m(tt̄) bin in Chart 1 has ΔE values most tightly clustered around the entanglement threshold? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "600–800 GeV",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.08283v1\\chart1.jpg",
+            "chart2": "2512.08283v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Probability distributions of the dominant Fock sectors in the proton, as determined from our BLFQ calculations.",
+            "chart2": "BLFQ calculations of the proton charge distribution at different energy scales, compared with other theoretical models and with CLAS and CLAS12 experimental data. The error bars correspond to different extraction methods, where inner bars represent leading-order approximations and outer bars include higher-order corrections."
+        },
+        "question": "What total probability is represented by the inset pie in Chart 1? Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 20.37,
+        "answer_type": "numeric"
+    }
+]

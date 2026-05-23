@@ -1,0 +1,205 @@
+[
+    {
+        "question_id": 11,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2510.04092v1\\chart1.jpg",
+            "table1": "2510.04092v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Plot of the empirical distribution of the TEM and BEM solutions",
+            "table1": "Empirical distribution of the TEM and BEM solutions"
+        },
+        "question":"What is the maximum simulated value for TEM (including all outliers) in chart1? Respond only with a number.",
+        "question_type": "perceptual",
+        "answer": 1.9380,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2510.04092v1\\chart1.jpg",
+            "table1": "2510.04092v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Plot of the empirical distribution of the TEM and BEM solutions",
+            "table1": "Empirical distribution of the TEM and BEM solutions"
+        },
+        "question":"What is the maximum simulated value for BEM (including all outliers) in chart1? Respond only with a number.",
+        "question_type": "perceptual",
+        "answer": 1.9010,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 25,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2508.11651v1\\chart1.jpg",
+            "table1": "2508.11651v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Top 10 tokenized RWA assets by market capitalization.",
+            "table1": "Monthly On-Chain Activity of RWA Tokens across all available blockchain networks (sourced from RWA.xyz, mid-2025)"
+        },
+        "question":"From chart1 and table1, extract the number of holders for BENJI shown in each source. Provide your answer in the form: [chart_value, table_value]. Respond only with a lsit.",
+        "question_type": "perceptual",
+        "answer": [890, 890],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 30,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2508.15237v1\\chart1.jpg",
+            "table1": "2508.15237v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Accuracy of approximations obtained from (Left:) SDE (22) and (Right:) PDE (26) for option prices at different moneyness levels. The analysis considers three cases: ATM (x = 110 = K), ITM (x = 95 < K), and OTM (x = 115 > K).",
+            "table1": "The approximation errors corresponding to Figure 2 for different truncation levels and volatility processes"
+        },
+        "question":"In the left chart, when the Truncation Order equals 1, what is the error value of the blue curve? Provide the specific value without using scientific notation. Respond only with a number.",
+        "question_type": "perceptual",
+        "answer": 1.06,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.10728v3\\chart1.jpg",
+            "table1": "2510.10728v3\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Ablations on T1 (𝑑=100): signature depth 𝑚, RDE width 𝑝, window 𝐾, and Malliavin.",
+            "table1": "Ablations on T1 (𝑑=100). Change one knob at a time; others at default (𝑚=3, 𝑝=128, 𝐾=12, CVaR tilt 𝑞=0.95, 𝜂=1.5)."
+        },
+        "question":"Using both the chart1 and the table1, what is the Time per epoch value corresponding to m = 4 for the dashed line? Respond with the number only.",
+        "question_type": "perceptual",
+        "answer": 161,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 46,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2507.08065v1\\chart1.jpg",
+            "table1": "2507.08065v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Systemic Risk Analysis. Left panel shows absolute values of individual risk components. Right panel displays the percentage contribution of each component to the overall Systemic Risk Index. Correlation risk emerges as the dominant factor (50.3%), followed by concentration risk (27.7%) and network risk (20.4%).",
+            "table1": "Systemic Risk Decomposition"
+        },
+        "question":"Using the pie chart in chart1 and table1, extract the percentage corresponding to the purple segment and report the numerical value without the percent sign. Respond only with the number.",
+        "question_type": "perceptual",
+        "answer": 1.6,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2509.10802v1\\chart1.jpg",
+            "table1": "2509.10802v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Ablation experiment comparison",
+            "table1": "Ablation experiment results"
+        },
+        "question":"In chart1, which color is used for the AUC bars? Respond only with the color.",
+        "question_type": "perceptual",
+        "answer": "green",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 11,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2510.07099v1\\chart1.jpg",
+            "table1": "2510.07099v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Cumulative return trajectories of the proposed DARL and baseline models",
+            "table1": "Performance indicators of the Proposed DARL approach and Benchmarks for entire trading period"
+        },
+        "question":"In chart1, what is the color of the HyBird GA curve? Respond only with the color.",
+        "question_type": "perceptual",
+        "answer": "purple",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2510.10807v3\\chart1.jpg",
+            "table1": "2510.10807v3\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Ablations—performance and diagnostic metrics across variants (OOS 2020–2025).",
+            "table1": "Ablations (OOS 2020–2025; annualized; net 10 bps). Higher is better except Vol, MaxDD."
+        },
+        "question":"In chart1, what is the color of the bar representing MaxDD? Respond only with the color.",
+        "question_type": "perceptual",
+        "answer": "Orange",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 63,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.22206v1\\chart1.jpg",
+            "table1": "2510.22206v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Plot showing the three different distributions found by the RL trading agent for each objective function. The plot also shows the aggregate volume over 1 minute periods in red. The lunch period is shown as a shaded region.",
+            "table1": "Comparison of risk, impact, and slippage across execution strategies. Based on a sell meta-order size of 5000, executed over 1000 orders. Distribution parameters are optimised by an RL agent over 50 episodes; values in the table are averaged over 10 Monte Carlo runs from the test data. Distance refers to the Euclidean distance from the efficient frontier."
+        },
+        "question":"What metric is represented on the y-axis for the red line in chart1? Respond only with the metric.",
+        "question_type": "perceptual",
+        "answer": "Executed Volume",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 70,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.24151v1\\chart1.jpg",
+            "table1": "2509.24151v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Error Metrics of Movie Rating Forecasting (normalized by unweighted average)",
+            "table1": "Summary of Results on Toy Datasets."
+        },
+        "question":"How many distinct metrics are included in the table1? Respond only with a number.",
+        "question_type": "perceptual",
+        "answer": 6,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 71,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.24151v1\\chart1.jpg",
+            "table1": "2509.24151v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Error Metrics of Movie Rating Forecasting (normalized by unweighted average)",
+            "table1": "Summary of Results on Toy Datasets."
+        },
+        "question":"In chart1, what does the green bar under RMSE represent? Respond with the corresponding metric name.",
+        "question_type": "perceptual",
+        "answer": "Basket Similarity",
+        "answer_type": "text"
+    }
+]

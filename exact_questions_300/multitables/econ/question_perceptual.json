@@ -1,0 +1,210 @@
+[
+    {
+        "question_id": 1,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1":"2511.19121v1\\table1.jpg",
+            "table2":"2511.19121v1\\table2.jpg",
+            "table3":"2511.19121v1\\table3.jpg" 
+        },
+
+        "caption": {
+            "table1": "Two-Stage RMS with Kernel First Stage: J = 2",
+            "table2": "Two-Stage RMS with Neural-Net First Stage: J = 2",
+            "table3": "Joint DNN-Based Estimation: J = 2"
+        },
+        "question":"In the two-index(J=2) simulation setting, consider the following three experimental environments, all using a sample size of N=5000: (1)TTwo-Index RMS with Kernel First Stage, (2)Two-Index RMS with Neural-Net First Stage, (3)Joint DNN-Based Estimation for the Two-Index Model. What are the reported 1 – Mean Angular Similarity values for these three experiments, in this order? Provide the answer strictly in the form: [num1, num2, num3].",
+        "question_type": "perceptual",
+        "answer": [0.015223, 0.004600, 0.017658],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1": "2508.09040v1\\table1.jpg",
+            "table2": "2508.09040v1\\table2.jpg",
+            "table3": "2508.09040v1\\table3.jpg"
+        },
+        "caption": {
+            "table1": "Root mean squared error (RMSE) and empirical coverage probabilities (ECP) (d = 6)",
+            "table2": "Root mean squared error (RMSE) and empirical coverage probabilities (ECP) (d = 8)",
+            "table3": "Root mean squared error (RMSE) and empirical coverage probabilities (ECP) (d = 10)"
+        },
+        "question":"Using Table 1, Table 2, and Table 3, extract the T̂n RMSE values at the same coordinate (ρ = 0.5, n = 600) for dimensions d = 6, d = 8, and d = 10. Report the three extracted numbers in the format: [num1, num2, num3], where num1 corresponds to d = 6, num2 to d = 8, and num3 to d = 10. Respond only with the list!",
+        "question_type": "perceptual",
+        "answer": [0.0515, 0.0564, 0.0618],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 23,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.16537v1\\table1.jpg",
+            "table2": "2510.16537v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Top 5 Strategies by Welfare and GDP at T=40.",
+            "table2": "Median Trajectories of Debt and Welfare for Representative Strategies"
+        },
+        "question":"From Table 1, extract the Median Welfare value of the strategy “AggRecomp_GI+TR_modDebt_MKT_LVT.” Then, from Table 2, extract the Median Welfare at T = 40 for the same strategy. Provide your answer only in the format:[num1, num2]. Respond only with the list.",
+        "question_type": "perceptual",
+        "answer": [20.63, 20.63],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2509.16125v1\\table1.jpg",
+            "table2": "2509.16125v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Varying-Beta-exponential-equilibria",
+            "table2": "Beta-times-exponential-dictatorial"
+        },
+        "question": "From Table 1, extract the value of O∗ at s 1​=1.000. From Table 2, extract the value of O∗ at s 1​=1.000. Respond only with a list of two numeric values in the order [Table 1, Table 2].",
+        "question_type": "perceptual",
+        "answer": [0.640, 0.712],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 30,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2510.22294v1\\table1.jpg",
+            "table2": "2510.22294v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Self-Flow Rates",
+            "table2": "Team Definition Summary Statistics"
+        },
+        "question": "Which year is the data in both Table 1 and Table 2 based on? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 2015,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.22834v1\\table1.jpg",
+            "table2": "2511.22834v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Experimental Design",
+            "table2": "Summary Table: Reporting Accuracy"
+        },
+        "question": "What is the Overall Choice Accuracy in Table 2 for the treatment that uses “Pick when called” as the reporting interface in Table 1? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 84.26,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.02705v1\\table1.jpg",
+            "table2": "2510.02705v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Baseline FOMC Effects on Network Connectivity",
+            "table2": "Heterogeneous Effects of FOMC Tone on Network Connectivity"
+        },
+        "question":"In Table 1, what is the sign of the FOMC coefficient at k = 7 ? Respond only with positive or negative.",
+        "question_type": "perceptual",
+        "answer": "negative",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2509.15090v1\\table1.jpg",
+            "table2": "2509.15090v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Synthetic Utility Table 1",
+            "table2": "Synthetic Utility Table 2"
+        },
+        "question": "In Table 1, what is the Alice value for State S2 under Policy C? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.538,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2510.22294v1\\table1.jpg",
+            "table2": "2510.22294v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Self-Flow Rates",
+            "table2": "Team Definition Summary Statistics"
+        },
+        "question": "In Table 2, what is the Standard Deviation of OCC1 per Establishment? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 1.26,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.16760v1\\table1.jpg",
+            "table2": "2511.16760v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "New supervision tool validation",
+            "table2": "New supervision tool validation"
+        },
+        "question": "What is the value of y for the Correlation method in Table 1? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.48,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 31,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.06583v1\\table1.jpg",
+            "table2": "2512.06583v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Random Assignment Results (Mean over 100 simulations)",
+            "table2": "Biased Assignment Results (Mean over 100 simulations)"
+        },
+        "question": "What is the percentage of Correct Classifications for Promotions in Table 1? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 68,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 32,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.15296v1\\table1.jpg",
+            "table2": "2512.15296v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Parameters for Strong/Weak economies.",
+            "table2": "Parameter configurations for baseline and extreme scenarios."
+        },
+        "question": "What are the values of r and σ for the Weak economy in Table 1? Respond only with a list of two numeric values in the order [r, σ].",
+        "question_type": "perceptual",
+        "answer": [0.29, 0.6],
+        "answer_type": "numeric_list"
+    }
+]

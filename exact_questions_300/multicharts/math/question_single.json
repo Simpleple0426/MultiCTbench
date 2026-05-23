@@ -1,0 +1,294 @@
+[
+    {
+        "question_id": 34,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.18358v1\\chart1.jpg",
+            "chart2": "2512.18358v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Plot of equilibrium densities for m = 0.5 and d = 2; these values correspond to case i from Proposition 3.1, and the equilibrium densities exist for all κ greater than κ₁.",
+            "chart2": "Plot of equilibrium densities for m = 0.25 and d = 3; these values correspond to case ii from Proposition 3.1, and the equilibrium densities exist for κ₁ less than κ less than κ₂ in this case (here κ₂ is approximately 12.4453)."
+        },
+        "question": "At θ = 1 in Chart 1, how many κ curves have ρ_κ values below 0.1? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 39,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.19646v1\\chart1.jpg",
+            "chart2": "2512.19646v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Normalized mean first passage time (MFPT) versus interpretation parameter α for perfect and imperfect targets.",
+            "chart2": "Probability of hitting the right target versus interpretation parameter α for perfect and imperfect targets."
+        },
+        "question": "Does the normalized MFPT of perfect targets increase or decrease as α goes from 0 to 1 in Chart 1? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "decrease",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.16824v1\\chart1.jpg",
+            "chart2": "2512.16824v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Iterative refinement for Van der Pol oscillator. Control evolution showing dramatically reduced variance across iterations. Initial predictions (purple) have high uncertainty; final iteration (yellow) converges to consistent damping strategy.",
+            "chart2": "Iterative refinement for Van der Pol oscillator. Cost reduction of approximately 90% from iteration 0 to 3"
+        },
+        "question": "Which iteration first approaches y = 0 within the first 10 time steps in Chart 1? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.13310v1\\chart1.jpg",
+            "chart2": "2512.13310v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Boxplots of estimation errors",
+            "chart2": "Boxplots of estimation errors"
+        },
+        "question": "At p = 100 and n = 100 in Chart 1, which rho value has the larger median error? Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.8,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.20777v1\\chart1.jpg",
+            "chart2": "2512.20777v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Experimental results for ImageNet32 dataset. Lowest and highest relative error rate.",
+            "chart2": "Experimental results for ImageNet64 dataset. Lowest and highest relative error rate"
+        },
+        "question": "In Chart 1, define concentration as (largest percentage − smallest percentage). What is the concentration of the “Highest relative error rate” pie chart? Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 76,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 1,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2509.13570v1\\chart1.jpg",
+            "chart2": "2509.13570v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "",
+            "chart2": ""
+        },
+        "question": "Identify the category whose percentage is the median value among all categories in Chart 2. Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Not likely",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 14,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.13310v1\\chart1.jpg",
+            "chart2": "2512.13310v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Boxplots of estimation errors",
+            "chart2": "Boxplots of estimation errors"
+        },
+        "question": "How many (p, n) configurations appear in both Chart 1 and Chart 2? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 9,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.14361v1\\chart1.jpg",
+            "chart2": "2512.14361v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "[Lower is better, NSHD ] for random graphs of sizes D ∈ {5, 10, 15} for regularly sampled data (left) and irregularly sampled data (right). CADYT finds graphs closer to the ground truth resulting in a lower NSHD.",
+            "chart2": "[Higher is better, F1 score (top) and AUPRC (bottom)] for random graphs of sizes D ∈ {5, 10, 15} for regularly (left) resp. irregularly sampled data (right). CADYT improves over baselines in terms of F1. CADYT having high AUPRC indicates higher confidence about the correct causal edges as opposed to spurious ones."
+        },
+        "question": "Which experimental settings are shared by both Chart 1 and Chart 2? Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[Regular, Irregular]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["chart1","chart2", "chart3"],
+        "path": {
+            "chart1": "2512.15631v1\\chart1.jpg",
+            "chart2": "2512.15631v1\\chart2.jpg",
+            "chart3": "2512.15631v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "L2-errors in the computation of the electric and magnetic fields",
+            "chart2": "divergence constraints: || div E − ρ ||, || div B||",
+            "chart3": "elapsed time for the full grid calculation vs TT representation."
+        },
+        "question": "What physical quantity is represented by the red curves in both Chart 1 and Chart 2? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "magnetic field",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 23,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.16824v1\\chart1.jpg",
+            "chart2": "2512.16824v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Iterative refinement for Van der Pol oscillator. Control evolution showing dramatically reduced variance across iterations. Initial predictions (purple) have high uncertainty; final iteration (yellow) converges to consistent damping strategy.",
+            "chart2": "Iterative refinement for Van der Pol oscillator. Cost reduction of approximately 90% from iteration 0 to 3"
+        },
+        "question": "Identify the chart types for Chart 1 and Chart 2 in order. Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[line plot, bar chart]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 30,
+        "items": ["chart1","chart2", "chart3"],
+        "path": {
+            "chart1": "2512.17713v1\\chart1.jpg",
+            "chart2": "2512.17713v1\\chart2.jpg",
+            "chart3": "2512.17713v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Difference in bound losses δd − δd sp between dense and sparse certification schemes for Bell inequalities A2–A89 at relaxation orders d = 1",
+            "chart2": "Difference in bound losses δd − δd sp between dense and sparse certification schemes for Bell inequalities A2–A89 at relaxation orders d = 2",
+            "chart3": "Difference in bound losses δd − δd sp between dense and sparse certification schemes for Bell inequalities A2–A89 at relaxation orders d = 3"
+        },
+        "question": "In Chart 1 (d = 1), Chart 2 (d = 2), and Chart 3 (d = 3), different scatter point colors are used to represent different relaxation orders. List the scatter point colors corresponding to d = 1, d = 2, and d = 3, in this order. Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[blue, red, green]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 14,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.15455v1\\chart1.jpg",
+            "chart2": "2512.15455v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of RHQR and RGS on a difficult example. Condition number of basis Q and a posteriori sketch ΩQ built by RHQR, compared with RGS.",
+            "chart2": "Comparison of RHQR and RGS on a difficult example. Relative Frobenius factorization errors of RHQR in both single and mixed precisions, compared with RGS and Householder QR."
+        },
+        "question": "What color is used to represent RHQR mixed in Chart 2? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "orange",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.15455v1\\chart1.jpg",
+            "chart2": "2512.15455v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of RHQR and RGS on a difficult example. Condition number of basis Q and a posteriori sketch ΩQ built by RHQR, compared with RGS.",
+            "chart2": "Comparison of RHQR and RGS on a difficult example. Relative Frobenius factorization errors of RHQR in both single and mixed precisions, compared with RGS and Householder QR."
+        },
+        "question": "What marker shape is used for RHQR, QΩ in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "filled circle",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 21,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.16525v1\\chart1.jpg",
+            "chart2": "2512.16525v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Total number of Newton iterations for the proposed schemes across five refinement levels (about 200000 triangular elements on level 4), using a velocity of v = (1/2, 1/2)T and time step sizes as defined in the Table 2",
+            "chart2": "Total computation time for the proposed schemes across five refinement levels (about 200000 triangular elements on level 4), using a velocity of v = (1/2, 1/2)T and time step sizes as defined in the Table 2."
+        },
+        "question": "According to the legend in Chart 2, which three time components are represented from lightest to darkest color? Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[Line search Time, Linear Solver Time, Assemble Time]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 23,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.16824v1\\chart1.jpg",
+            "chart2": "2512.16824v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Iterative refinement for Van der Pol oscillator. Control evolution showing dramatically reduced variance across iterations. Initial predictions (purple) have high uncertainty; final iteration (yellow) converges to consistent damping strategy.",
+            "chart2": "Iterative refinement for Van der Pol oscillator. Cost reduction of approximately 90% from iteration 0 to 3"
+        },
+        "question": "What color represents Iter 1 in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "purple",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 32,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.17714v1\\chart1.jpg",
+            "chart2": "2512.17714v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Error for sampling the invariant distribution of the preconditioned SPDE in the spatial domain [0, 1] using explicit and implicit Euler methods, their postprocessed counterparts based on the Leimkuhler–Matthews method, the RK2 method, and the Crank–Nicholson scheme. The experiments are conducted with zero forcing, a Laplacian operator, a Gaussian test function, and a total of 10^8 trajectories.",
+            "chart2": "Error for sampling the invariant distribution of the preconditioned SPDE in the spatial domain [0, 1] using explicit and implicit Euler methods, their postprocessed counterparts based on the Leimkuhler–Matthews method, the RK2 method, and the Crank–Nicholson scheme. The experiments are conducted with a nonlinear forcing term, a Laplacian operator, a Gaussian test function, and a total of 10^8 trajectories."
+        },
+        "question": "What color represents the CN method in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "orange",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.18418v1\\chart1.jpg",
+            "chart2": "2512.18418v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Heatmap of Pearson correlations between the quadratic equation coefficients (E, F, G) and the roots (H, I).",
+            "chart2": "Histogram of the distribution of C values with an overlaid probability density function."
+        },
+        "question": "What is the Pearson correlation coefficient between variables C and G in Chart 1? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.92,
+        "answer_type": "numeric"
+    }
+]

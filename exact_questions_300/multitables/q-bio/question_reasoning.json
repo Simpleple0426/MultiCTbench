@@ -1,0 +1,204 @@
+[
+    {
+        "question_id": 6,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.25171v1\\table1.jpg",
+            "table2": "2509.25171v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of TR2-D2 for regulatory DNA generation optimized on enhancer activity. Metrics were computed for 640 sequences across 3 seeds, with standard deviations reported. Best values are bolded. Evaluation metrics are detailed in Appendix D.",
+            "table2": "Multi-objective peptide design results (full results in Table 4). All values are averaged over 100 generated peptides. Best values are bolded. Pre-trained indicates unconditional sampling with the pre-trained peptide SMILES model from PepTune (Tang et al., 2025). PepTune indicates samples from 100 iterations of inference-time Monte-Carlo Tree Guidance conditioned on all objectives. TR2-D2 indicates unconditional sampling after 1000 epochs of fine-tuning of the pre-trained model with our multi-objective fine-tuning approach."
+        },
+        "question":"In Table 2, identify the model whose Binding Affinity is consistently the lowest across all target proteins. Then, using Table 1, compute the difference in ATAC-Acc between this model and the model with the highest ATAC-Acc. Report the result as a positive numeric value, without using a percentage sign. Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 98.4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 11,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.05626v1\\table1.jpg",
+            "table2": "2510.05626v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of methods that use sequences as inputs. Paragraph and PECAN model the 3D structures from the sequences with ABodyBuilder (ABB) [10], while MIPE uses AlphaFold2 (AF2), and requires both antibody and antigen sequences. All other methods operate directly on sequences without requiring structural modeling. Performance metrics (PR AUC, ROC AUC, F1 score, and MCC) with additional model characteristics (structure modeling free and antigen agnostic) for models evaluated on PECAN, PARAGRAPH, and MIPE datasets. The highest value in each column is in bold, the second best is underlined.",
+            "table2": "Comparison of methods that use experimentally determined structures as inputs. Performance metrics (PR AUC, ROC AUC, F1 score, and MCC) with additional model characteristics (antigen agnostic) for models evaluated on PECAN, PARAGRAPH, and MIPE datasets. The highest value in each column is in bold, the second best is underlined."
+        },
+        "question":"Considering only models with Antigen agnostic = ✓, compute the average (rounded to three decimal places.) ROC AUC on the PECAN Dataset for Table 1 (sequence) and Table 2(structure), and identify which input type has the higher average. Return the result as: [input type (sequence / structure), average ROC AUC]. Respond only with a list!",
+        "question_type": "reasoning",
+        "answer": "[structure, 0.953]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 38,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2512.01199v1\\table1.jpg",
+            "table2": "2512.01199v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Macro F1-score for cell type classification across different generalization settings. Reported as mean ± std. dev. across 5 training seeds. N/A indicates the method cannot operate in that evaluation setting.",
+            "table2": "Macro F1-scores for brain region classification across different generalization settings. Reported as mean ± std. dev. across 5 training seeds. N/A indicates the method cannot operate in that evaluation setting."
+        },
+        "question":"Considering only NuCLR (Ours), aggregate the Macro F1-score means from all “Transductive” rows across both tables and compute the overall average.  Respond onl with a number.",
+        "question_type": "reasoning",
+        "answer": 0.762275,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 44,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2505.21503v1\\table1.jpg",
+            "table2": "2505.21503v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Silent behavior analysis across MedQA. “Silent Rate” denotes the proportion of questions where agents arrive at a final answer with silent agreement. “Failure Attribution Rate” refers to the proportion of diagnostic failures that result from silent agreement. Our method achieves both the lowest silent rate and the lowest attribution to silent agreement failures.",
+            "table2": "Silent behavior analysis across PubMedQA. “Silent Rate” denotes the proportion of questions where agents arrive at a final answer with silent agreement. “Failure Attribution Rate” refers to the proportion of diagnostic failures that result from silent agreement. Our method achieves both the lowest silent rate and the lowest attribution to silent agreement failures."
+        },
+        "question":"Based on Table 1 MedQA and Table 2 PubMedQA, for each method, compute its average Silent Rate and average Failure Attribution Rate by taking the arithmetic mean across the two datasets. Then define the overall risk score as: average Silent Rate + average Failure Attribution Rate. Identify the method with the lowest overall risk score. Return format: [method name, risk score], with the score rounded to one decimal place. Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": "[Ours, 30.2]",
+        "answer_type": "text"
+    },
+    {
+        "question_id": 46,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2506.04132v1\\table1.jpg",
+            "table2": "2506.04132v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Classification Performance with Valid Emotional Labels",
+            "table2": "Classification Performance with Shuffled Labels (Control)"
+        },
+        "question":"For each emotion category, compute the difference in F1-Score between Table 1 and Table 2, defined as F1(Table 1) − F1(Table 2). How many emotion categories have an F1-Score difference greater than 0.5? Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 49,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.01618v1\\table1.jpg",
+            "table2": "2510.01618v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "CONCEPT PREDICTION QUALITY ACROSS FIVE CBM VARIANTS.",
+            "table2": "FAITHFULNESS COMPARISON ACROSS CBM VARIANTS."
+        },
+        "question":"Under the CCC concept, compare Ours with AdaCBM across the four metrics. For each metric, compute the improvement of Ours over AdaCBM, defined as: improvement = Ours − AdaCBM. What are the four improvement values? Respond with a list of numbers in the order the metrics appear in the tables，[n1, n2, n3, n4]. Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": [0.252, 0.073, 0.036, -0.058],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 6,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.25171v1\\table1.jpg",
+            "table2": "2509.25171v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of TR2-D2 for regulatory DNA generation optimized on enhancer activity. Metrics were computed for 640 sequences across 3 seeds, with standard deviations reported. Best values are bolded. Evaluation metrics are detailed in Appendix D.",
+            "table2": "Multi-objective peptide design results (full results in Table 4). All values are averaged over 100 generated peptides. Best values are bolded. Pre-trained indicates unconditional sampling with the pre-trained peptide SMILES model from PepTune (Tang et al., 2025). PepTune indicates samples from 100 iterations of inference-time Monte-Carlo Tree Guidance conditioned on all objectives. TR2-D2 indicates unconditional sampling after 1000 epochs of fine-tuning of the pre-trained model with our multi-objective fine-tuning approach."
+        },
+        "question":"In Table 2, compute the Binding Affinity improvement of TR2-D2 (Ours) over Pre-trained for TfR, GLP-1R, and GLAST. Return the results as a list in the order: [TfR, GLP-1R, GLAST]. Respond only with the list.",
+        "question_type": "reasoning",
+        "answer": [2.090, 1.193, 1.873],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.12135v2\\table1.jpg",
+            "table2": "2511.12135v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Benchmark results of different models in round-trip evaluation using generated descriptions. The best results are highlighted in underline for each model.",
+            "table2": "Benchmark results of different models for the text-based molecular design task using reference descriptions. The best results are highlighted in underline for each model."
+        },
+        "question":"In Table 1, compute the improvement rate of Exact(%) for ChemDFM + RTMol over ChemDFM, defined as (Exact with RTMol − Exact without RTMol) ÷ Exact without RTMol. Round the result to three decimal places. Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 0.474,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 49,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2512.07907v1\\table1.jpg",
+            "table2": "2512.07907v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Summary of population statistics from SGSSI",
+            "table2": "Summary of population statistics from Marion and PEI. Mortality rates are only known for Marion."
+        },
+        "question":"Using Table 1 (SGSSI) only, sum Mortalities across all species to get total deaths, and sum Population across all species to get total population. Compute the overall mortality percentage: overall mortality = (total Mortalities ÷ total Population) × 100 Round to two decimal places, do not include the percent sign, and respond with a single number only.",
+        "question_type": "reasoning",
+        "answer": 0.14,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 55,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.16113v1\\table1.jpg",
+            "table2": "2511.16113v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance of ProtT-Affinity on PDBBind benchmark sets (mean ± std over three runs).",
+            "table2": "Comprehensive comparison with existing methods on standard benchmarks."
+        },
+        "question":"Based on Table 2, compare the MAE values of each method across Test set 1, Test set 2, and the Combined set. A method is considered to satisfy the condition if its MAE increases when the dataset size expands from a single test set (Test set 1 or Test set 2) to the Combined set (161). List the names of all methods that meet this criterion in this format, [method1. mthod2, ...]. Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": "[PRODIGY, DFIRE, ISLAND, ProtT-Affinity]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 60,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.11327v3\\table1.jpg",
+            "table2": "2509.11327v3\\table2.jpg"
+        },
+        "caption": {
+            "table1": "TIME COMPLEXITY OF DIFFERENT ALGORITHMS",
+            "table2": "COMPARISON OF MODEL HYPERPARAMETER CONFIGURATIONS"
+        },
+        "question":"Based on the asymptotic time complexity expressions in Table 1, and without assigning specific values to the parameters, which algorithm(s) have the lowest time complexity? Respond only with a list of algorithm names, e.g. [algorithm1, ...].",
+        "question_type": "reasoning",
+        "answer": "[ZF-FDE, Statistical MMSE-FDE]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 64,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2504.12351v1\\table1.jpg",
+            "table2": "2504.12351v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Subtyping prediction results of iBOT-Synth (fully synthetic dataset) iBOT-Hybrid (synthetic + TCGA) and baselines for five different subtyping tasks. The best performance is in bold, and the second best is underlined",
+            "table2": "Survival and prostate BCR prediction results of iBOT-Synth (fully synthetic dataset), iBOT-Hybrid (synthetic + TCGA), and baselines for two survival tasks and one prostate BCR task. The best performance is in bold, and the second best is underlined."
+        },
+        "question":"Based on Table 2, using UNI as the baseline, compute the c-index improvement of iBOT-Hybrid over UNI (iBOT-Hybrid − UNI) for: Lung (PLCO), Prostate BCR (Private), Breast (PLCO). Return the results as a list in table order. [num1, num2, num3]. Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": [0.058, 0.072, 0.020],
+        "answer_type": "numeric_list"
+    }
+]

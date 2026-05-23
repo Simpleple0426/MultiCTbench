@@ -1,0 +1,1197 @@
+[
+    {
+        "question_id": 1,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.12976v1\\chart1.jpg",
+            "chart2": "2509.12976v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Accuracy percentage computed for each method. *: Methods with very low scores, due to technical problems that will be explained in Discussion",
+            "chart2": "Balanced accuracy percentage computed for each method. *: Methods with very low scores, due to technical problems that will be explained in Discussion"
+        },
+        "question": "How many methods are shown in Chart 1 and Chart2. The number of methods in chart1 and chart2 is the same. Repond only with a number.",
+        "question_type": "perceptual",
+        "answer": 15,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 2,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.12976v1\\chart1.jpg",
+            "chart2": "2509.12976v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Accuracy percentage computed for each method. *: Methods with very low scores, due to technical problems that will be explained in Discussion",
+            "chart2": "Balanced accuracy percentage computed for each method. *: Methods with very low scores, due to technical problems that will be explained in Discussion"
+        },
+        "question": "Count the number of methods that simultaneously satisfy both conditions: an Accuracy of at least 80% in Chart 1 and a Balanced Accuracy of at least 80% in Chart 2. Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.12976v1\\chart1.jpg",
+            "chart2": "2509.12976v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Accuracy percentage computed for each method. *: Methods with very low scores, due to technical problems that will be explained in Discussion",
+            "chart2": "Balanced accuracy percentage computed for each method. *: Methods with very low scores, due to technical problems that will be explained in Discussion"
+        },
+        "question": "Based on Chart 1 and Chart 2, estimate the overall performance of all Deep Learning methods by computing their average Accuracy (from Chart 1) and average Balanced Accuracy (from Chart 2). Determine which one is higher. Respond with either Accuracy or Balanced Accuracy only.",
+        "question_type": "reasoning",
+        "answer": "Accuracy",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2509.15796v1\\chart1.jpg",
+            "chart2": "2509.15796v1\\chart2.jpg",
+            "chart3": "2509.15796v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of three evaluation metrics (AAR) across different model variants. Higher values indicate better sequence recovery and structural consistency, showing the advantage of multi-expert MCTD.",
+            "chart2": "Comparison of three evaluation metrics (normalized) across different model variants. Higher values indicate better sequence recovery and structural consistency, showing the advantage of multi-expert MCTD.",
+            "chart3": "Comparison of three evaluation metrics (scTM) across different model variants. Higher values indicate better sequence recovery and structural consistency, showing the advantage of multi-expert MCTD."
+        },
+        "question": "The three charts share the same legend. Read the legend from any one of the charts and list all legend item names. Respond in the format, [item1, item2]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": "[Single Expert, Multi Expert]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2509.15796v1\\chart1.jpg",
+            "chart2": "2509.15796v1\\chart2.jpg",
+            "chart3": "2509.15796v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of three evaluation metrics (AAR) across different model variants. Higher values indicate better sequence recovery and structural consistency, showing the advantage of multi-expert MCTD.",
+            "chart2": "Comparison of three evaluation metrics (normalized) across different model variants. Higher values indicate better sequence recovery and structural consistency, showing the advantage of multi-expert MCTD.",
+            "chart3": "Comparison of three evaluation metrics (scTM) across different model variants. Higher values indicate better sequence recovery and structural consistency, showing the advantage of multi-expert MCTD."
+        },
+        "question": "Examine all values shown in Chart 1, Chart 2, and Chart 3 to determine whether any negative values are present. If a negative value exists, report the corresponding metric name and the protein length range on the x-axis in the format: [Metric,range]. If no negative values are present, respond with no. Respond only with a list or no.",
+        "question_type": "perceptual",
+        "answer": "[Structural Quality (scTM), 300-400]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 6,
+        "items": ["chart1", "chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2510.00027v2\\chart1.jpg",
+            "chart2": "2510.00027v2\\chart2.jpg",
+            "chart3": "2510.00027v2\\chart3.jpg",
+            "chart4": "2510.00027v2\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "Validation total inference trade-off (atoms/s versus performance). The top row presents force metrics, while the bottom row represents energy metrics.",
+            "chart2": "Validation total inference trade-off (atoms/s versus performance). The top row presents force metrics, while the bottom row represents energy metrics.",
+            "chart3": "Validation total inference trade-off (atoms/s versus performance). The top row presents force metrics, while the bottom row represents energy metrics.",
+            "chart4": "Validation total inference trade-off (atoms/s versus performance). The top row presents force metrics, while the bottom row represents energy metrics."
+        },
+        "question": "Among the four performance metrics shown in Figure 4, which metric indicates better model performance when its value is higher? Respond only with the metric name. ",
+        "question_type": "perceptual",
+        "answer": "Cos similarity",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["chart1", "chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2510.00027v2\\chart1.jpg",
+            "chart2": "2510.00027v2\\chart2.jpg",
+            "chart3": "2510.00027v2\\chart3.jpg",
+            "chart4": "2510.00027v2\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "Validation total inference trade-off (atoms/s versus performance). The top row presents force metrics, while the bottom row represents energy metrics.",
+            "chart2": "Validation total inference trade-off (atoms/s versus performance). The top row presents force metrics, while the bottom row represents energy metrics.",
+            "chart3": "Validation total inference trade-off (atoms/s versus performance). The top row presents force metrics, while the bottom row represents energy metrics.",
+            "chart4": "Validation total inference trade-off (atoms/s versus performance). The top row presents force metrics, while the bottom row represents energy metrics."
+        },
+        "question": "Among the four performance metrics shown in the charts, considering only the TransAug model series, which metric exhibits the smallest change between 3k and 30k atoms/s? Respond only with the metric name.",
+        "question_type": "reasoning",
+        "answer": "Forces MAE",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.02259v1\\chart1.jpg",
+            "chart2": "2510.02259v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "This panel shows the fraction of attention from position tokens that is allocated to other position tokens versus global tokens (such as charge and spin). In the first nine layers, position tokens predominantly attend to other position tokens, while in later layers the attention shifts toward global tokens.",
+            "chart2": "This panel plots the attention scores of position tokens as a function of interatomic distance, averaged across validation examples in OMol25. Each point represents the mean attention score within an interatomic distance quantile. Attention in the first nine layers shows a strong inverse relationship with distance, whereas in later layers position tokens increase their attention to global tokens while still allocating some attention to distant atoms."
+        },
+        "question": "Identify the chart types used in Chart 1 and Chart 2, and report them as a list in order, [type1, type2]. The first element should correspond to Chart 1, and the second element to Chart 2. Respond only with the list.",
+        "question_type": "perceptual",
+        "answer": "[bar chart, Line chart]",
+        "answer_type": "text"
+    },
+
+
+
+    {
+        "question_id": 9,
+        "items": ["chart1", "chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2512.00379v1\\chart1.jpg",
+            "chart2": "2512.00379v1\\chart2.jpg",
+            "chart3": "2512.00379v1\\chart3.jpg",
+            "chart4": "2512.00379v1\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "MAE comparison across models for kcat prediction on the held-out test set. CatPred achieves the lowest MAE (0.714), followed by EnzyCLIP (0.731) and UniKP (0.737), while DLKcat shows significantly higher error at 1.464, indicating limited generalization.",
+            "chart2": "R2 score comparison across models for kcat prediction on the held-out test set. CatPred leads with an R2 of 0.602, followed closely by EnzyCLIP (0.594) and UniKP (0.591), whereas DLKcat performs poorly with an R2 of 0.224.",
+            "chart3": "MAE comparison across models for Km prediction on the held-out test set. CatPred attains the lowest MAE (0.558), followed by EnzyCLIP (0.583) and UniKP (0.606), while DLKcat again exhibits high error (1.229), indicating weak predictive performance for binding affinity.",
+            "chart4": "R2 score comparison across models for Km prediction on the held-out test set. CatPred performs best with an R2 of 0.642, followed by EnzyCLIP (0.607) and UniKP (0.594), whereas DLKcat exhibits substantially lower predictive power with an R2 of 0.440."
+        },
+        "question": "Using Chart 1 and Chart 3, extract the MAE values of each model for the kcat prediction task and the Km prediction task, and organize them into a 2D table in the following format: [ [Model, kcat_MAE, Km_MAE], [CatPred, x, x], [DLKcat, x, x], [UniKP, x, x], [EnzyCLIP, x, x] ]. Respond only with the 2D list.",
+        "question_type": "chart to table",
+        "answer": [["Model", "kcat_MAE", "Km_MAE"],
+            ["CatPred", 0.714, 0.558],
+            ["DLKcat", 1.464, 1.229],
+            ["UniKP", 0.737, 0.606],
+            ["EnzyCLIP", 0.731, 0.583]], 
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["chart1", "chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2512.00379v1\\chart1.jpg",
+            "chart2": "2512.00379v1\\chart2.jpg",
+            "chart3": "2512.00379v1\\chart3.jpg",
+            "chart4": "2512.00379v1\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "MAE comparison across models for kcat prediction on the held-out test set. CatPred achieves the lowest MAE (0.714), followed by EnzyCLIP (0.731) and UniKP (0.737), while DLKcat shows significantly higher error at 1.464, indicating limited generalization.",
+            "chart2": "R2 score comparison across models for kcat prediction on the held-out test set. CatPred leads with an R2 of 0.602, followed closely by EnzyCLIP (0.594) and UniKP (0.591), whereas DLKcat performs poorly with an R2 of 0.224.",
+            "chart3": "MAE comparison across models for Km prediction on the held-out test set. CatPred attains the lowest MAE (0.558), followed by EnzyCLIP (0.583) and UniKP (0.606), while DLKcat again exhibits high error (1.229), indicating weak predictive performance for binding affinity.",
+            "chart4": "R2 score comparison across models for Km prediction on the held-out test set. CatPred performs best with an R2 of 0.642, followed by EnzyCLIP (0.607) and UniKP (0.594), whereas DLKcat exhibits substantially lower predictive power with an R2 of 0.440."
+        },
+        "question": "Based on the color encoding of the bars, into how many categories can the models shown across the four charts be grouped? Respond only with the number of categories.",
+        "question_type": "perceptual",
+        "answer": 2,
+        "answer_type": "numeric"
+    },
+    {
+        "question_id": 11,
+        "items": ["chart1", "chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2512.00379v1\\chart1.jpg",
+            "chart2": "2512.00379v1\\chart2.jpg",
+            "chart3": "2512.00379v1\\chart3.jpg",
+            "chart4": "2512.00379v1\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "MAE comparison across models for kcat prediction on the held-out test set. CatPred achieves the lowest MAE (0.714), followed by EnzyCLIP (0.731) and UniKP (0.737), while DLKcat shows significantly higher error at 1.464, indicating limited generalization.",
+            "chart2": "R2 score comparison across models for kcat prediction on the held-out test set. CatPred leads with an R2 of 0.602, followed closely by EnzyCLIP (0.594) and UniKP (0.591), whereas DLKcat performs poorly with an R2 of 0.224.",
+            "chart3": "MAE comparison across models for Km prediction on the held-out test set. CatPred attains the lowest MAE (0.558), followed by EnzyCLIP (0.583) and UniKP (0.606), while DLKcat again exhibits high error (1.229), indicating weak predictive performance for binding affinity.",
+            "chart4": "R2 score comparison across models for Km prediction on the held-out test set. CatPred performs best with an R2 of 0.642, followed by EnzyCLIP (0.607) and UniKP (0.594), whereas DLKcat exhibits substantially lower predictive power with an R2 of 0.440."
+        },
+        "question": "Across the four charts, in how many evaluation metrics does CatPred rank first? Respond only with the number.",
+        "question_type": "reasoning",
+        "answer": 4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2509.11354v5\\chart1.jpg",
+            "chart2": "2509.11354v5\\chart2.jpg",
+            "chart3": "2509.11354v5\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution and dispersion of morphometric parameter (Aspect ratio) across 37 cytometric samples. Histograms show the distribution of cell morphology features, while boxplots depict variation and outlier behavior.",
+            "chart2": "Distribution and dispersion of morphometric parameter (Aspect ratio) across 37 cytometric samples. Histograms show the distribution of cell morphology features, while boxplots depict variation and outlier behavior.",
+            "chart3": "Distribution and dispersion of morphometric parameter (Aspect ratio) across 37 cytometric samples. Histograms show the distribution of cell morphology features, while boxplots depict variation and outlier behavior."
+        },
+        "question": "Across the three charts, which two types of plots are included? List the two plot types in this format, [type1, type2]. Respond only with the list.",
+        "question_type": "perceptual",
+        "answer": "[Histogram, Boxplot]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2509.11354v5\\chart1.jpg",
+            "chart2": "2509.11354v5\\chart2.jpg",
+            "chart3": "2509.11354v5\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution and dispersion of morphometric parameter (Aspect ratio) across 37 cytometric samples. Histograms show the distribution of cell morphology features, while boxplots depict variation and outlier behavior.",
+            "chart2": "Distribution and dispersion of morphometric parameter (Aspect ratio) across 37 cytometric samples. Histograms show the distribution of cell morphology features, while boxplots depict variation and outlier behavior.",
+            "chart3": "Distribution and dispersion of morphometric parameter (Aspect ratio) across 37 cytometric samples. Histograms show the distribution of cell morphology features, while boxplots depict variation and outlier behavior."
+        },
+        "question": "Count the number of outliers in the boxplots of Chart 1, Chart 2, and Chart 3, respectively, and return the results as a list in the order [Chart 1, Chart 2, Chart 3]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": [1, 1, 4],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 14,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2509.11354v5\\chart1.jpg",
+            "chart2": "2509.11354v5\\chart2.jpg",
+            "chart3": "2509.11354v5\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution and dispersion of morphometric parameter (Aspect ratio) across 37 cytometric samples. Histograms show the distribution of cell morphology features, while boxplots depict variation and outlier behavior.",
+            "chart2": "Distribution and dispersion of morphometric parameter (Aspect ratio) across 37 cytometric samples. Histograms show the distribution of cell morphology features, while boxplots depict variation and outlier behavior.",
+            "chart3": "Distribution and dispersion of morphometric parameter (Aspect ratio) across 37 cytometric samples. Histograms show the distribution of cell morphology features, while boxplots depict variation and outlier behavior."
+        },
+        "question": "Based on Chart 1 (Perimeter), Chart 2 (Area), and Chart 3 (Aspect Ratio), which parameter has the most concentrated distribution? Respond only with the parameter name.",
+        "question_type": "reasoning",
+        "answer": "Aspect Ratio",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2509.11354v5\\chart1.jpg",
+            "chart2": "2509.11354v5\\chart2.jpg",
+            "chart3": "2509.11354v5\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution and dispersion of morphometric parameter (Aspect ratio) across 37 cytometric samples. Histograms show the distribution of cell morphology features, while boxplots depict variation and outlier behavior.",
+            "chart2": "Distribution and dispersion of morphometric parameter (Aspect ratio) across 37 cytometric samples. Histograms show the distribution of cell morphology features, while boxplots depict variation and outlier behavior.",
+            "chart3": "Distribution and dispersion of morphometric parameter (Aspect ratio) across 37 cytometric samples. Histograms show the distribution of cell morphology features, while boxplots depict variation and outlier behavior."
+        },
+        "question": "Based on the histograms and boxplots in Chart 1 (Perimeter), Chart 2 (Area), and Chart 3 (Aspect Ratio), which parameter exhibits the strongest right skewness? Respond only with the parameter name.",
+        "question_type": "reasoning",
+        "answer": "Area",
+        "answer_type": "text"
+    },
+
+
+    {
+        "question_id": 16,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2509.19536v1\\chart1.jpg",
+            "chart2": "2509.19536v1\\chart2.jpg",
+            "chart3": "2509.19536v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Individual SHAP results for each treatment scenario. Bar colors (dark to light) follow the Sobol sensitivity ranking, with darker bars indicating more influential parameters, highlighting their relative contributions to the model output.",
+            "chart2": "Combined SHAP results. Averages were taken across all treatments.",
+            "chart3": "Parameter importance for 50% CD4 treatment: Sobol ST indices (left) and SHAP values (right), normalized to each side’s largest bar. Sobol ST indices were similar across treatments, so 1:1 CD4:CD8 treatment is shown as a representative."
+        },
+        "question": "Are the legends in Chart 1 and Chart 2 the same? If yes, specify what the darkest-colored bar represents; if not, respond with no. Respond only with the label or no.",
+        "question_type": "perceptual",
+        "answer": "N",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2509.19536v1\\chart1.jpg",
+            "chart2": "2509.19536v1\\chart2.jpg",
+            "chart3": "2509.19536v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Individual SHAP results for each treatment scenario. Bar colors (dark to light) follow the Sobol sensitivity ranking, with darker bars indicating more influential parameters, highlighting their relative contributions to the model output.",
+            "chart2": "Combined SHAP results. Averages were taken across all treatments.",
+            "chart3": "Parameter importance for 50% CD4 treatment: Sobol ST indices (left) and SHAP values (right), normalized to each side’s largest bar. Sobol ST indices were similar across treatments, so 1:1 CD4:CD8 treatment is shown as a representative."
+        },
+        "question": "Under which treatment in Chart 1 does the parameter importance ranking most closely match the overall parameter importance ranking shown in Chart 2? Respond only with the treatment name。",
+        "question_type": "reasoning",
+        "answer": "100% CD4",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.03856v1\\chart1.jpg",
+            "chart2": "2511.03856v1\\chart2.jpg",
+            "chart3": "2511.03856v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "The relationship between mutual information and p0 for different numbers of AIs (N).",
+            "chart2": "The relationship between mutual information and p0 for different transmitter–receiver distances. The transmitter locations are set at 20, 40, 60, and 80 micrometers with zero angle, and observations are made at the receiver located at the origin.",
+            "chart3": "The relationship between mutual information and p0 for different D theta settings in time-varying anisotropic scenarios. Each curve corresponds to four time intervals at 20, 40, 60, and 80 seconds, where D theta is updated at each interval. Four different sequences of D theta values are considered."
+        },
+        "question": "Across the three charts, when p0 increases from 0.3 to 0.7, which chart shows the largest average change in mutual information? Respond only with chart1, chart2 or chart3.",
+        "question_type": "reasoning",
+        "answer": "chart2",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2507.16978v1\\chart1.jpg",
+            "chart2": "2507.16978v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Classification accuracy across FAISS index configurations. PCA-enhanced Flat indexes (e.g., PCAW64, Flat) achieve the highest accuracy, outperforming the pure Flat index, while quantization-based methods such as OPQ and PQ reduce accuracy due to lossy compression.",
+            "chart2": "Latency heatmap showing indexing time and searching time for different FAISS index configurations. IVF-based combinations with OPQ/PQ provide the fastest search times but incur higher indexing costs and lower accuracy, whereas PCA+Flat offers a balanced trade-off between accuracy and efficiency."
+        },
+        "question": "Based on chart1, first rank all FAISS index configurations by accuracy in descending order and select those in the top 50%. Among these configurations, further identify those whose searching time is less than 1 second in the chart2. How many configurations satisfy both conditions? Respond with a single integer.",
+        "question_type": "reasoning",
+        "answer": 2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 20,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2508.07465v1\\chart1.jpg",
+            "chart2": "2508.07465v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Relative graph importance of different omics types (methylation, mRNA, and miRNA) in MOTGNN’s classification performance across COADREAD, LGG, and STAD datasets. Bar heights represent each omics layer’s contribution, revealing dataset-specific biological dominance.",
+            "chart2": "Feature dimensions before and after XGBoost on COADREAD, LGG, and STAD datasets. The bar plots compare the preprocessed feature dimensions (pre-selection) against the reduced dimensions (post-selection)."
+        },
+        "question": "Across Chart 1 and Chart 2,  how many distinct datasets are displayed in total? Count the datasets that appear in both charts and respond with a single integer. Respond only with a number.",
+        "question_type": "perceptual",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 21,
+        "items": ["chart1", "chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2509.18207v1\\chart1.jpg",
+            "chart2": "2509.18207v1\\chart2.jpg",
+            "chart3": "2509.18207v1\\chart3.jpg",
+            "chart4": "2509.18207v1\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "Generated DNA sequence quality measured by Sequence Identity (the higher the better).",
+            "chart2": "Generated DNA sequence quality measured by Degeneracy Score (the lower the better).",
+            "chart3": "Ablation studies of Entropy Guidance, Adaptive δ with EMA, Alignment and Normalization loss, and the watermark model. We perform 3-time generations for each model and show the standard deviation.",
+            "chart4": "Applying DNAMark to different DNA language models and measuring the watermark detection F1 score."
+        },
+        "question": "Considering Chart 1 and Chart 4 together, what kind of trade-off does DNAMark exhibit between generation quality (Sequence Identity) and watermark detectability (F1 Score)? Choose the most appropriate answer: A. High generation quality + high detectability. B. High generation quality + moderate detectability. C. Moderate generation quality + high detectability. D. Low generation quality + high detectability. Respond only with a letter.",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["chart1", "chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2509.18207v1\\chart1.jpg",
+            "chart2": "2509.18207v1\\chart2.jpg",
+            "chart3": "2509.18207v1\\chart3.jpg",
+            "chart4": "2509.18207v1\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "Generated DNA sequence quality measured by Sequence Identity (the higher the better).",
+            "chart2": "Generated DNA sequence quality measured by Degeneracy Score (the lower the better).",
+            "chart3": "Ablation studies of Entropy Guidance, Adaptive δ with EMA, Alignment and Normalization loss, and the watermark model. We perform 3-time generations for each model and show the standard deviation.",
+            "chart4": "Applying DNAMark to different DNA language models and measuring the watermark detection F1 score."
+        },
+        "question": "In chart 1, is there any watermark method whose Sequence Identity is higher than that of DNAMark, and whose Sequence Degeneracy Score in chart 2 is lower than that of DNAMark? Choose the most appropriate answer: A. Yes, and there is exactly one such watermark method. B. Yes, and there are more than one such watermark methods. C. Such a method exists, but it is not a watermark method. D. No, such a method does not exist. Respond only with a letter.",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 23,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.25884v2\\chart1.jpg",
+            "chart2": "2509.25884v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Data distribution of sample numbers in human data",
+            "chart2": "Data distribution of sample numbers in mouse data"
+        },
+        "question": "Count the number of distinct tissue types displayed in Chart 1 and Chart 2, respectively. Report the results as a list, [e1, e2], where the first element corresponds to Chart 1 and the second element corresponds to Chart 2.  Respond only with the list.",
+        "question_type": "perceptual",
+        "answer": [6, 5],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 24,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.25884v2\\chart1.jpg",
+            "chart2": "2509.25884v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Data distribution of sample numbers in human data",
+            "chart2": "Data distribution of sample numbers in mouse data"
+        },
+        "question": "Calculate the total sample count in Chart 1 and Chart 2 by summing the sample counts of all tissue types in each chart. Report the result as a list [Chart 1, Chart 2], using only the values shown in the charts. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": [52117, 27115],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 25,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.25884v2\\chart1.jpg",
+            "chart2": "2509.25884v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Data distribution of sample numbers in human data",
+            "chart2": "Data distribution of sample numbers in mouse data"
+        },
+        "question": "Compare the liver tissue proportions in Chart 1 and Chart 2.Compute how much higher the liver proportion is in the human data than in the mouse data, and report the result as a number without the percent sign. Respond only with the number.",
+        "question_type": "reasoning",
+        "answer": 9.8,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.02263v3\\chart1.jpg",
+            "chart2": "2511.02263v3\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Barplot of Recall@K (K = 1, 5, 10, 100) comparing two prompt-only LLM settings (Claude and Claude-Thinking, both without AI-MARRVEL context) against classical phenotype-driven tools (LIRICAL, Exomiser) and LA-MARRVEL. Prompt-only LLMs recover only ~12–15% of causal genes at Recall@1 and remain below ~55% even at Recall@10, whereas classical tools reach ~50–75% and LA-MARRVEL attains ~78% at Recall@1 and ~95–98% by Recall@10, demonstrating that an LLM alone is insufficient and that coupling it to a high-recall first-stage ranker is essential for clinically useful performance.",
+            "chart2": "Recall@K (K = 1–10) is shown for LA-MARRVEL, AI-MARRVEL, Exomiser, and LIRICAL across the BG, DDD, and UDN cohorts. LA-MARRVEL consistently achieves the highest recall at clinically salient low K (Top-1/Top-3) while maintaining near-ceiling recall by Top-10, demonstrating improved prioritization of causal genes over both the first-stage ranker and established phenotype-driven tools."
+        },
+        "question": "Based on Chart 1 and Chart 2, identify the smallest K value at which LA-MARRVEL’s recall first reaches or exceeds 90%. Chart (A): Recall@K,  Chart (B): Top-K for the BG, DDD, and UDN cohorts Report the result in the following format: [K_A, K_BG, K_DDD, K_UDN]. Respond only with the list.",
+        "question_type": "reasoning",
+        "answer": [5, 4, 3, 3],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["chart1", "chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2512.02471v1\\chart1.jpg",
+            "chart2": "2512.02471v1\\chart2.jpg",
+            "chart3": "2512.02471v1\\chart3.jpg",
+            "chart4": "2512.02471v1\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "Show dataset distributions by cell count",
+            "chart2": "Show dataset distributions by gene number",
+            "chart3": "Show dataset distributions by clusters number",
+            "chart4": "Show dataset distributions by sparsity,"
+        },
+        "question": "Based on Chart 2 and Chart 3, which combination is more prevalent in the Human datasets? A. High number of genes + high number of clusters. B. High number of genes + low number of clusters. C. Low number of genes + high number of clusters. D. Low number of genes + low number of clusters. Respond only with a letter.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["chart1", "chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2512.02471v1\\chart1.jpg",
+            "chart2": "2512.02471v1\\chart2.jpg",
+            "chart3": "2512.02471v1\\chart3.jpg",
+            "chart4": "2512.02471v1\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "Show dataset distributions by cell count",
+            "chart2": "Show dataset distributions by gene number",
+            "chart3": "Show dataset distributions by clusters number",
+            "chart4": "Show dataset distributions by sparsity,"
+        },
+        "question": "Across the four charts, which metric (number of cells, number of genes, number of clusters, or sparsity) shows the smallest distributional difference between the Human and Mouse datasets? A. Number of Cells B. Number of Genes C. Number of Clusters D. Sparsity Respond only with a letter.",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 29,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2507.09173v1\\chart1.jpg",
+            "chart2": "2507.09173v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Performance of MolecBioNet and its variants on the Ryu’s dataset.",
+            "chart2": "Performance of MolecBioNet and its variants on the DrugBank dataset."
+        },
+        "question": "Overall, across MolecBioNet and all its variants, on which dataset does the model achieve better overall performance? Please consider all four evaluation metrics (ACC, F1, PR-AUC, and Cohen’s κ) across Ryu’s dataset and DrugBank dataset.  Respond only with the name of dataset.",
+        "question_type": "reasoning",
+        "answer": "Ryu’s dataset",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 30,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2507.09173v1\\chart1.jpg",
+            "chart2": "2507.09173v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Performance of MolecBioNet and its variants on the Ryu’s dataset.",
+            "chart2": "Performance of MolecBioNet and its variants on the DrugBank dataset."
+        },
+        "question": "Across the two datasets , which evaluation metric exhibits the largest overall variation across all model variants? A. ACC. B. F1. C. PR-AUC. D. Cohen’s κ. Respond only with a letter.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 31,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.16824v1\\chart1.jpg",
+            "chart2": "2510.16824v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Performance of different backbones on BBBP and Tox21 (classification) and on FreeSolv and Lipophilicity (regression): graph encoder backbones",
+            "chart2": "Performance of different backbones on BBBP and Tox21 (classification) and on FreeSolv and Lipophilicity (regression): textual encoder backbones"
+        },
+        "question": "For the FreeSolv dataset, identify the best-performing model in Chart 1 and Chart 2, respectively. Return your answer in the format [best model in Chart 1, best model in Chart 2]. Respond only with the list.",
+        "question_type": "reasoning",
+        "answer": "[GIN, Qwen2.5-7B]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 32,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.13954v1\\chart1.jpg",
+            "chart2": "2511.13954v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Ablation study for binary classification on the DREAMER dataset (Arousal dimension). Impact of inter-cortical attention.",
+            "chart2": "Ablation study for binary classification on the DREAMER dataset (Arousal dimension). Impact of training and regularization components including ADASYN, SMOTE with label smoothing, weight decay, and dropout."
+        },
+        "question": "Considering Chart 1 and Chart 2 together, compare the impact of removing different key components on the overall model performance. Which factor, when removed, results in the largest overall degradation across the four evaluation metrics (Accuracy, Precision, Recall, and F1-Score)? A. Inter-cortical Attention. B. SMOTE (with label smoothing). C. Dropout. D. Weight Decay. E. Electrode Identity Embedding. Respond only with a letter.",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 33,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.13954v1\\chart1.jpg",
+            "chart2": "2511.13954v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Ablation study for binary classification on the DREAMER dataset (Arousal dimension). Impact of inter-cortical attention.",
+            "chart2": "Ablation study for binary classification on the DREAMER dataset (Arousal dimension). Impact of training and regularization components including ADASYN, SMOTE with label smoothing, weight decay, and dropout."
+        },
+        "question": "Count the number of RBTransformer variant models shown in Chart 1 and Chart 2, respectively (including the full model and all ablated variants). Report the result in the format: [count_Chart(a), count_Chart(b)] Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": [2, 6],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 34,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2512.00281v1\\chart1.jpg",
+            "chart2": "2512.00281v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Number of annotated scans per reader: Readers are ranked by number of annotated cancer cases. The 12 readers who annotated at least 15 scans with cancer and retained for the performance comparison to single reader, are labeled in black; all others are labeled in grey",
+            "chart2": "Reader experience and seniority: Number of postgraduate years of radiologist experience per reader, categorized into Junior, Middle-Seniority, and Senior."
+        },
+        "question": "Based on Chart 2, identify all readers classified as Senior. Among these readers, count how many have a number of cancer patients strictly below 15 in Chart 1. Respond with a single integer.",
+        "question_type": "reasoning",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2512.00281v1\\chart1.jpg",
+            "chart2": "2512.00281v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Number of annotated scans per reader: Readers are ranked by number of annotated cancer cases. The 12 readers who annotated at least 15 scans with cancer and retained for the performance comparison to single reader, are labeled in black; all others are labeled in grey",
+            "chart2": "Reader experience and seniority: Number of postgraduate years of radiologist experience per reader, categorized into Junior, Middle-Seniority, and Senior."
+        },
+        "question": "Based on Chart 1, rank all readers by their total number of scans (Cancer patients + Annotated patients) in descending order and select the top 50%. Among these readers, count how many are Junior, Middle-seniority, and Senior. Report the result in the order: [Junior, Middle, Senior]. Respond only with the list.",
+        "question_type": "reasoning",
+        "answer": [4, 5, 1],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2512.02719v1\\chart1.jpg",
+            "chart2": "2512.02719v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Bias-variance decomposition under steering ablations.",
+            "chart2": ": Impact on sequential model evidence under steering ablation. Implied image weighting under noise ablation."
+        },
+        "question": "Considering Chart 1 and Chart 2 (the top chart) together, find a model that satisfies both of the following conditions? In Chart 1, under the Base setting, both normalized Bias and normalized Variance are below 0.4. In Chart 2, Verbal Steer increases the sequence probability by more than 30% compared to the Base. Respond only with the model name. If not exist, respond only with no.",
+        "question_type": "reasoning",
+        "answer": "GPT-5 Mini",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2502.18864v1\\chart1.jpg",
+            "chart2": "2502.18864v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Average expert ratings on novelty and impact of the model responses across 11 expert-curated research goals. Higher numbers indicate better ratings on a 1–5 scale.",
+            "chart2": "Average expert preference ranking of the results across the same 11 expert-curated research goals for AI co-scientist, Gemini 2.0 Flash Thinking Experimental 12-19, Gemini 2.0 Pro Experimental, and OpenAI o1. Lower numbers indicate better rankings on a 1–4 scale."
+        },
+        "question": "Considering Chart 1 and Chart 2 together, first compute each model’s total expert score in Chart 1 and then refer to its average preference ranking in Chart 2. Which model performs better on both dimensions overall? A. AI co-scientist. B. Gemini 2.0 Flash Thinking Experimental 12-19. C. Gemini 2.0 Pro Experimental. D. OpenAI o1. Respond only with a letter.",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 38,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2503.23494v3\\chart1.jpg",
+            "chart2": "2503.23494v3\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Under the same thresholds, we compared BERT performance between the threshold-based elimination of potential false negatives and random deletion (control) using ACC, F1, P, and R as evaluation metrics.",
+            "chart2": "The changes in the number of positive and negative samples under different threshold conditions are reported."
+        },
+        "question": "Across the three datasets, which dataset exhibits the largest reduction in negative samples in Chart 2 while also showing the most pronounced improvement in F1 score in Chart 1? A. A. thaliana. B. D. melanogaster. C. Xoc BLS256. Respond only with a letter.",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 39,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2503.23497v1\\chart1.jpg",
+            "chart2": "2503.23497v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Performance comparison of CNN models with 4-feature and 204-feature inputs in terms of AUC, ACC, P, R, F1, and MCC metrics.",
+            "chart2": "Performance comparison of CNN models with 4-feature and 204-feature inputs in terms of AUC, ACC, P, R, F1, and MCC metrics."
+        },
+        "question": "In Chart 1 and Chart 2, bars with different colors represent different numbers of input features. According to the legend, what feature counts do the two colors correspond to? Return the answer as a list in the following order: [purple feature count, blue feature count]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": [4, 204],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 40,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2503.23497v1\\chart1.jpg",
+            "chart2": "2503.23497v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Performance comparison of CNN models with 4-feature and 204-feature inputs in terms of AUC, ACC, P, R, F1, and MCC metrics.",
+            "chart2": "Performance comparison of CNN models with 4-feature and 204-feature inputs in terms of AUC, ACC, P, R, F1, and MCC metrics."
+        },
+        "question": "In Chart 1 and Chart 2, when comparing the performance gap between 4 Features and 204 Features, in which dataset is the overall gap larger? A. peak. B. subpeak. C. The two are comparable. D. The conclusion varies across different metrics. Respond only with a letter.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2507.07486v1\\chart1.jpg",
+            "chart2": "2507.07486v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Sparse autoencoders reveal interpretable nucleotide and transcription factor binding site (TFBS) features in HyenaDNA-small-32k. Performance metrics for sparse features corresponding to individual nucleotides (A, T, C, G).",
+            "chart2": "Sparse autoencoders reveal interpretable nucleotide and transcription factor binding site (TFBS) features in HyenaDNA-small-32k. Metrics for sparse features associated with known TFBSs from the JASPAR database. Strand specificity was indicated by the +/−."
+        },
+        "question": "Based on Chart 1 and Chart 2, which type of features shows a more pronounced imbalance among the three evaluation metrics (F1, Precision, and Recall)? A. Nucleotide features. B. TFBS features. C. The two are comparable. D. The conclusion varies across metrics. Respond only with the letter.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2507.07486v1\\chart1.jpg",
+            "chart2": "2507.07486v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Sparse autoencoders reveal interpretable nucleotide and transcription factor binding site (TFBS) features in HyenaDNA-small-32k. Performance metrics for sparse features corresponding to individual nucleotides (A, T, C, G).",
+            "chart2": "Sparse autoencoders reveal interpretable nucleotide and transcription factor binding site (TFBS) features in HyenaDNA-small-32k. Metrics for sparse features associated with known TFBSs from the JASPAR database. Strand specificity was indicated by the +/−."
+        },
+        "question": "Based on Chart 1 and Chart 2, compute the absolute difference between Precision and Recall (|Precision − Recall|): In Chart 1 (nucleotide features), compute |Precision − Recall| for A, T, C, and G, and report their average. In Chart 2 (TFBS features), compute |Precision − Recall| for all TFBS features and report their average. Round the final averages to three decimal places using standard rounding. Return the result as a list in the following order: [average difference in Chart 1, average difference in Chart 2] Respond only with the list.",
+        "question_type": "reasoning",
+        "answer": [0.277, 0.374],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 43,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.17016v1\\chart1.jpg",
+            "chart2": "2510.17016v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Changes in the species selection risk due to the Ambush movement strategy in terms of the Attack trigger. The outcomes were averaged from sets of 100 simulations, starting from different initial conditions in lattices with 500² grid sites, running until 5000 generations. The error bars show the standard deviation. The colours follow the scheme in Fig. 1. The cognitive factor is β = 1, while the interaction parameters are set to s = r = m = 1/3.",
+            "chart2": "hanges in the species densities due to the Ambush movement strategy in terms of the Attack trigger. The outcomes were averaged from sets of 100 simulations, starting from different initial conditions in lattices with 500² grid sites, running until 5000 generations. The error bars show the standard deviation. The colours follow the scheme in Fig. 1. The cognitive factor is β = 1, while the interaction parameters are set to s = r = m = 1/3."
+        },
+        "question": "In Chart 1 and Chart 2, how many species indices are labeled in the legend of each chart? Count the number of species shown in each legend and return the result as a list in the following order: [number of species in Chart 1, number of species in Chart 2]. Respond only with the list.",
+        "question_type": "perceptual",
+        "answer": [5, 6],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 44,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.17016v1\\chart1.jpg",
+            "chart2": "2510.17016v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Changes in the species selection risk due to the Ambush movement strategy in terms of the Attack trigger. The outcomes were averaged from sets of 100 simulations, starting from different initial conditions in lattices with 500² grid sites, running until 5000 generations. The error bars show the standard deviation. The colours follow the scheme in Fig. 1. The cognitive factor is β = 1, while the interaction parameters are set to s = r = m = 1/3.",
+            "chart2": "hanges in the species densities due to the Ambush movement strategy in terms of the Attack trigger. The outcomes were averaged from sets of 100 simulations, starting from different initial conditions in lattices with 500² grid sites, running until 5000 generations. The error bars show the standard deviation. The colours follow the scheme in Fig. 1. The cognitive factor is β = 1, while the interaction parameters are set to s = r = m = 1/3."
+        },
+        "question": "At β = 0.1, the species with the highest selection risk in Chart 1 falls into which category of species density in Chart 2? A. Highest. B. Medium. C. Lowest. Respond only with a letter.",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 45,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.03897v1\\chart1.jpg",
+            "chart2": "2511.03897v1\\chart2.jpg",
+            "chart3": "2511.03897v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Age distribution of the New Mexico synthetic population by race. Note the final bracket in each age distribution represents individuals aged 90+.",
+            "chart2": "Age distribution of the New Mexico synthetic population by ethnicity. Note the final bracket in each age distribution represents individuals aged 90+.",
+            "chart3": "Age distribution of the New Mexico synthetic population by adjusted household income. Note the final bracket in each age distribution represents individuals aged 90+."
+        },
+        "question": "In Chart 1, Chart 2, and Chart 3, age on the x-axis is displayed using binned intervals. Based on the binning shown by the bars, determine the age span (in years) covered by each age bin, excluding the final “90+” bin. Return the answer as an integer in years. Respond only with a letter.",
+        "question_type": "reasoning",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 46,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.03897v1\\chart1.jpg",
+            "chart2": "2511.03897v1\\chart2.jpg",
+            "chart3": "2511.03897v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Age distribution of the New Mexico synthetic population by race. Note the final bracket in each age distribution represents individuals aged 90+.",
+            "chart2": "Age distribution of the New Mexico synthetic population by ethnicity. Note the final bracket in each age distribution represents individuals aged 90+.",
+            "chart3": "Age distribution of the New Mexico synthetic population by adjusted household income. Note the final bracket in each age distribution represents individuals aged 90+."
+        },
+        "question": "Considering Chart 1, Chart 2, and Chart 3 together, among the population aged 60 and above, which dimension (Race, Ethnicity, or Income) exhibits a distribution that is closest to being dominated by a single group? A. Race B. Ethnicity C. Income D. The three are similar in degree. Respond only with a letter.",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 47,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2512.03866v1\\chart1.jpg",
+            "chart2": "2512.03866v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Predicted contact matrix of different agent type categories (high care resident, low care resident, medium care resident, staff shift 1, staff shift 2 and staff shift 3) per person per day for contact radii of 1.5 metres. The matrix was used a generalised linear model with a Poisson distribution to provide an adjusted estimation of contact rates.",
+            "chart2": "Predicted contact matrix of different agent type categories (high care resident, low care resident, medium care resident, staff shift 1, staff shift 2 and staff shift 3) per person per day for contact radii of 3 metres The matrix was used a generalised linear model with a Poisson distribution to provide an adjusted estimation of contact rates."
+        },
+        "question": "In Chart 1 and Chart 2 , identify the contact count shown in the cell where the row corresponds to “Resident Medium Care” and the column corresponds to “Staff Shift 2”. Report the values from the two charts in the following order as a list: [contact count in Chart 1, contact count in Chart 2] Respond only with the list.",
+        "question_type": "perceptual",
+        "answer": [33.3, 31.9],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 48,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2512.03866v1\\chart1.jpg",
+            "chart2": "2512.03866v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Predicted contact matrix of different agent type categories (high care resident, low care resident, medium care resident, staff shift 1, staff shift 2 and staff shift 3) per person per day for contact radii of 1.5 metres. The matrix was used a generalised linear model with a Poisson distribution to provide an adjusted estimation of contact rates.",
+            "chart2": "Predicted contact matrix of different agent type categories (high care resident, low care resident, medium care resident, staff shift 1, staff shift 2 and staff shift 3) per person per day for contact radii of 3 metres The matrix was used a generalised linear model with a Poisson distribution to provide an adjusted estimation of contact rates."
+        },
+        "question": "Considering Chart 1 and Chart 2 together, which agent type shows the most pronounced overall increase in contact counts with other agents when the contact radius is expanded (from 1.5 m to 3 m)? A. Resident High Care B. Resident Medium Care C. Staff Shift 1 D. Staff Shift 3 Respond only with a letter.",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 49,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.14826v1\\chart1.jpg",
+            "chart2": "2511.14826v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Bubble charts for the top ten contributors to the chi-square test for independence statistic by state and source for E. Coli. The largest contributors are red. Smaller contributors are in green.",
+            "chart2": "Bubble charts for the top ten contributors to the chi-square test for independence statistic by state and source for Salmonella. The largest contributors are red. Smaller contributors are in green."
+        },
+        "question": "In Chart 1 and Chart 2, which visual encoding elements are specifically used to encode the magnitude of differences among state–source combinations, rather than to define categorical groupings? (Select all that apply.) A. Bubble color B. Bubble size C. Position along the x-axis (contamination source) D. Position along the y-axis (state) E. Bubble shape. Respond only with a list, for example: [C, D]. Respond only with the list.",
+        "question_type": "perceptual",
+        "answer": "[A, B]",
+        "answer_type": "choice_list"
+    },
+
+    {
+        "question_id": 50,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.14826v1\\chart1.jpg",
+            "chart2": "2511.14826v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Bubble charts for the top ten contributors to the chi-square test for independence statistic by state and source for E. Coli. The largest contributors are red. Smaller contributors are in green.",
+            "chart2": "Bubble charts for the top ten contributors to the chi-square test for independence statistic by state and source for Salmonella. The largest contributors are red. Smaller contributors are in green."
+        },
+        "question": "Considering Chart 1 and Chart 2 together, which contamination source shows the most pronounced high contribution (i.e., appears more red) for both pathogens? A. Fruit B. Human C. Pork D. Water. Respond only with a letter.",
+        "question_type": "reasoning",
+        "answer": "D",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 51,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.17652v1\\chart1.jpg",
+            "chart2": "2511.17652v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparisons for the PathMMU VQA question set with different training data. The metric is accuracy.",
+            "chart2": "Ablation studies of using different models as verifiers."
+        },
+        "question": "In Chart 2, for each dataset, compute the performance improvement of o4-mini relative to Raw (o4-mini − Raw). Then determine which dataset shows the largest improvement. (Single choice) A. PubMed B. SocialPath C. EduContent D. PathCLS E. Atlas. Respond only with a letter.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 52,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.17652v1\\chart1.jpg",
+            "chart2": "2511.17652v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparisons for the PathMMU VQA question set with different training data. The metric is accuracy.",
+            "chart2": "Ablation studies of using different models as verifiers."
+        },
+        "question": "In Chart 1 and Chart 2, how many dataset categories are displayed along the x-axis, respectively? Report the counts in the following order: [number of datasets in Chart 1, number of datasets in Chart 2]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": [5, 5],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 53,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.19535v1\\chart1.jpg",
+            "chart2": "2511.19535v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Ablation Studies on ReMAC: impact of the classification head complexity and the mask ratio (MR) under varying missing-value regimes. In both subfigures, the configuration adopted in the main experiments is highlighted in bold in the legend. —— Effect of classification head design: dense layer vs. MLP.",
+            "chart2": "Ablation Studies on ReMAC: impact of the classification head complexity and the mask ratio (MR) under varying missing-value regimes. In both subfigures, the configuration adopted in the main experiments is highlighted in bold in the legend. —— Effect of different mask ratios (MR)."
+        },
+        "question": "In both Chart 1 and Chart 2, which visual encoding elements are used to distinguish bars corresponding to different experimental configurations? (Select all that apply. Consider only encodings that are used in both charts.) A. Bar fill color B. Bar fill pattern (e.g., dotted or hatched) C. Bar height D. Position along the x-axis (% Missing Values) Respond only with a list, for example: [C, D]. Respond only with the list.",
+        "question_type": "perceptual",
+        "answer": "[A, B]",
+        "answer_type": "choice_list"
+    },
+
+    {
+        "question_id": 54,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.19535v1\\chart1.jpg",
+            "chart2": "2511.19535v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Ablation Studies on ReMAC: impact of the classification head complexity and the mask ratio (MR) under varying missing-value regimes. In both subfigures, the configuration adopted in the main experiments is highlighted in bold in the legend. —— Effect of classification head design: dense layer vs. MLP.",
+            "chart2": "Ablation Studies on ReMAC: impact of the classification head complexity and the mask ratio (MR) under varying missing-value regimes. In both subfigures, the configuration adopted in the main experiments is highlighted in bold in the legend. —— Effect of different mask ratios (MR)."
+        },
+        "question": "At a missing rate of 30%, which of the following pairs of configurations shows the smallest difference in ACC? A. Dense Layer vs. MLP . B. MR 30% vs. MR 50% . C. MLP vs. MR 50% . D. Dense Layer vs. MR 70%. Respond only with a letter.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 55,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.19535v1\\chart1.jpg",
+            "chart2": "2511.19535v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Ablation Studies on ReMAC: impact of the classification head complexity and the mask ratio (MR) under varying missing-value regimes. In both subfigures, the configuration adopted in the main experiments is highlighted in bold in the legend. —— Effect of classification head design: dense layer vs. MLP.",
+            "chart2": "Ablation Studies on ReMAC: impact of the classification head complexity and the mask ratio (MR) under varying missing-value regimes. In both subfigures, the configuration adopted in the main experiments is highlighted in bold in the legend. —— Effect of different mask ratios (MR)."
+        },
+        "question": "At a missing rate of 20%, does there exist a Mask Ratio in Chart 2 whose ACC performance is approximately comparable to that of the MLP classification head in Chart 1? A. MR 10%. B. MR 30%. C. MR 50%. D. MR 70%. E. None. Respond only with a letter.",
+        "question_type": "reasoning",
+        "answer": "D",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 56,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2512.00137v1\\chart1.jpg",
+            "chart2": "2512.00137v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution of adverse drug reactions (ADRs) in the dataset across nine macro-physiological categories, including CNS_Psych, CV_Heme, MSK_Skin, Endo_Metab_Repro, GI_Hepatic, Immune_Infection, Respiratory, Renal_Urinary, and Systemic_Procedural_Other. The pie chart illustrates the relative proportion of ADRs associated with each physiological system, providing the category definition used for subsequent stratified performance analyses.",
+            "chart2": "Distribution of adverse drug reactions (ADRs) across macro-physiological categories in the cross-dataset validation setting, based on the DrugBank test set. The pie chart shows the relative proportions of ADRs in each category (e.g., CV_Heme, CNS_Psych, MSK_Skin, GI_Hepatic, Immune_Infection, Respiratory, Endo_Metab_Repro, and Systemic_Procedural_Other), characterizing the label composition of the unseen dataset used to evaluate model generalizability."
+        },
+        "question": "In Chart 1 and Chart 2, how many adverse drug reaction (ADR) macro-physiological categories are displayed in the pie charts, respectively? Report your answer in the following order: [number of categories in Chart 1, number of categories in Chart 2]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": [9, 8],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 57,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2512.00137v1\\chart1.jpg",
+            "chart2": "2512.00137v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution of adverse drug reactions (ADRs) in the dataset across nine macro-physiological categories, including CNS_Psych, CV_Heme, MSK_Skin, Endo_Metab_Repro, GI_Hepatic, Immune_Infection, Respiratory, Renal_Urinary, and Systemic_Procedural_Other. The pie chart illustrates the relative proportion of ADRs associated with each physiological system, providing the category definition used for subsequent stratified performance analyses.",
+            "chart2": "Distribution of adverse drug reactions (ADRs) across macro-physiological categories in the cross-dataset validation setting, based on the DrugBank test set. The pie chart shows the relative proportions of ADRs in each category (e.g., CV_Heme, CNS_Psych, MSK_Skin, GI_Hepatic, Immune_Infection, Respiratory, Endo_Metab_Repro, and Systemic_Procedural_Other), characterizing the label composition of the unseen dataset used to evaluate model generalizability."
+        },
+        "question": "Construct an aligned comparison table of adverse drug reaction (ADR) distributions between Chart 1 and Chart 2.Only include the following ADR macro-physiological categories that appear in both charts, and report their corresponding percentage values as numeric values without the percent sign in Chart 1 and Chart 2:CV_Heme, CNS_Psych, MSK_Skin, GI_Hepatic, Immune_Infection, Systemic_Procedural_Other. Return the result strictly in the following 2D table format (using the percentages explicitly shown in the charts): [ [Category, Percentage_Chart1, Percentage_Chart2], [CV_Heme, x, x], ... ]. Respond only with the 2D table.",
+        "question_type": "chart to table",
+        "answer": [["Category", "Percentage_Chart1", "Percentage_Chart2"],
+        ["CV_Heme", 17.6, 42.6],
+        ["CNS_Psych", 26.1, 21.3],
+        ["MSK_Skin", 14.2, 10.6],
+        ["GI_Hepatic", 11.9, 8.5],
+        ["Immune_Infection", 5.1, 6.4],
+        ["Systemic_Procedural_Other", 4.0, 6.4]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 58,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2512.00283v2\\chart1.jpg",
+            "chart3": "2512.00283v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Performance of different training strategies on DNA. Each cell shows the mean performance ± standard deviation across all architectures.",
+            "chart2": "Performance of different training strategies on DNA. Each bar shows the percentage of the total 360 architectures that chose that training strategy to yield the best performance. More results on Protein could be found in Appendix A.6.8."
+        },
+        "question": "Considering Chart 1 and Chart 2 together, which training strategy satisfies both of the following conditions: it achieves relatively high average performance across most tasks, and it is selected as the Best Strategy with a high proportion in Chart 2? Respond only withe the stratrgy.",
+        "question_type": "reasoning",
+        "answer": "only-ft",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 59,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2308.15162v1\\chart1.jpg",
+            "chart2": "2308.15162v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Average (typical) cluster size as a function of the normalized parameter, comparing anchored and diffusing clusters under different values of the control parameter. Results from rate-equation calculations are shown together with numerical solutions from two theoretical approximations to assess their consistency.",
+            "chart2": "Relative mass fraction of anchored domains as a function of the normalized parameter for different values of the control parameter. Predictions from rate-equation theory are compared with numerical results from two alternative theoretical descriptions to evaluate how well the theories capture the redistribution of mass into anchored domains."
+        },
+        "question": "As the normalized parameter increases, which of the following descriptions best reflects the common conclusion of Chart 1 and Chart 2? A. The size of anchored clusters decreases, while the mass fraction of anchored domains increases. B. The size of anchored clusters increases, while the mass fraction of anchored domains decreases. C. Both remain unchanged. D. The two change in different directions. Respond only with a letter.",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 60,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2309.06965v1\\chart1.jpg",
+            "chart2": "2309.06965v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Statistical summary for [K⁺]ₒ = 25 mM (n = 12), using gNBL. Values are expressed as mean ± standard deviation.",
+            "chart2": "Statistical summary for [K⁺]ₒ = 25 mM (n = 12), using gNBL. Values are expressed as mean ± standard deviation."
+        },
+        "question": "In Chart 1 and Chart 2, identify the digits for which the frequency of the Experimental data is lower than that of gNBL in both charts. Return your answer only as a list of digits in ascending order, for example: [1, 2, 3]. Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": [7, 9],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 61,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2505.05291v2\\chart1.jpg",
+            "chart2": "2505.05291v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Results for a ViT-L model (no pretraining) as well as a set of six foundation models fine-tuned on AREDS-train. Performance is reported as the average AUROC over the AREDS-test and the six external datasets (target domains).",
+            "chart2": "The best backbone identified, namely iBOT, is fine-tuned using an all-against-one multi-source domain training approach. For the resulting model, denoted AMDNet, OOD performance is reported for each domain. AMDNet performance is also compared to a state-of-the-art AMD detection model called DeepSeeNet [28]."
+        },
+        "question": "There is exactly one model name that appears in both Chart 1 and Chart 2. Identify this model name and respond only with the model name.",
+        "question_type": "perceptual",
+        "answer": "iBOT",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 62,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2506.01995v1\\chart1.jpg",
+            "chart2": "2506.01995v1\\chart2.jpg",
+            "chart3": "2506.01995v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Overlap between blood and spleen bulk repertoires for mouse 2 at day 67.",
+            "chart2": "Comparison of the overlap between bulk and single-cell sequences from the same tissue and day (D67), including mouse 1 spleen (bulk vs. single cell), mouse 2 spleen and blood (bulk vs. single cell), and mouse 3 spleen (bulk vs. single cell).",
+            "chart3": "Overlap between SPR-validated binding and non-binding sequences versus sequences sorted as antigen-positive and non-positive (data from all mice)."
+        },
+        "question": "Considering Chart 1, Chart 2, and Chart 3 together, all three figures use the same type of visualization. What is the chart type shared by all three figures? Respond only with the type.",
+        "question_type": "perceptual",
+        "answer": "Venn diagram / set overlap diagram",
+        "answer_type": "text"
+    },
+
+
+
+    {
+        "question_id": 63,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2508.07133v1\\chart1.jpg",
+            "chart2": "2508.07133v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of catheters performance over a voltage range of 50–2000 V",
+            "chart2": "Comparison of catheters performance over a voltage range of 50–2000 V"
+        },
+        "question": "In Chart 1 and Chart 2, which visual encoding methods are used to distinguish the three catheter types (Circular, Basket, and Flower)? Select all that apply and return the answer as a list. A. Line color B. Marker shape C. Line width D. Legend text. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": "[A, B]",
+        "answer_type": "choice_list"
+    },
+
+    {
+        "question_id": 64,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2508.07133v1\\chart1.jpg",
+            "chart2": "2508.07133v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of catheters performance over a voltage range of 50–2000 V",
+            "chart2": "Comparison of catheters performance over a voltage range of 50–2000 V"
+        },
+        "question": "If “performance efficiency” is defined as: the minimum applied voltage required to reach 80% transmurality in Chart 1, while achieving the largest possible average penetration depth at that voltage in Chart 2, which catheter type performs best under this definition? (Single choice) A. Circular B. Basket C. Flower. Respond only with a letter.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 65,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2508.07133v1\\chart1.jpg",
+            "chart2": "2508.07133v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of catheters performance over a voltage range of 50–2000 V",
+            "chart2": "Comparison of catheters performance over a voltage range of 50–2000 V"
+        },
+        "question": "As the applied voltage increases from 300 V to 1000 V, which catheter shows the most pronounced simultaneous increase in both charts (i.e., a significant rise in both metrics)? (Single choice) A. Circular B. Basket C. Flower. Respond only with a letter.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 66,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.07653v2\\chart1.jpg",
+            "chart2": "2510.07653v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Jaccard Index between SVG sets and DE gene sets across all methods, stratified by tissue and disease status.",
+            "chart2": "Jaccard Index between SVG sets and DE gene sets, stratified by disease status."
+        },
+        "question": "In Chart 1 and Chart 2, is the Cancer group represented using the same color encoding? If yes, specify the color; if not, respond with No. Respond only with the color or no.",
+        "question_type": "perceptual",
+        "answer": "blue",
+        "answer_type": "text"
+    }
+]

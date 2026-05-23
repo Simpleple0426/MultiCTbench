@@ -1,0 +1,205 @@
+[
+    {
+        "question_id": 6,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.25171v1\\table1.jpg",
+            "table2": "2509.25171v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of TR2-D2 for regulatory DNA generation optimized on enhancer activity. Metrics were computed for 640 sequences across 3 seeds, with standard deviations reported. Best values are bolded. Evaluation metrics are detailed in Appendix D.",
+            "table2": "Multi-objective peptide design results (full results in Table 4). All values are averaged over 100 generated peptides. Best values are bolded. Pre-trained indicates unconditional sampling with the pre-trained peptide SMILES model from PepTune (Tang et al., 2025). PepTune indicates samples from 100 iterations of inference-time Monte-Carlo Tree Guidance conditioned on all objectives. TR2-D2 indicates unconditional sampling after 1000 epochs of fine-tuning of the pre-trained model with our multi-objective fine-tuning approach."
+        },
+        "question":"In Table 2, compute the Binding Affinity improvement of TR2-D2 (Ours) over Pre-trained for TfR, GLP-1R, and GLAST. Return the results as a list in the order: [TfR, GLP-1R, GLAST]. Respond only with the list.",
+        "question_type": "reasoning",
+        "answer": [2.090, 1.193, 1.873],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.12135v2\\table1.jpg",
+            "table2": "2511.12135v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Benchmark results of different models in round-trip evaluation using generated descriptions. The best results are highlighted in underline for each model.",
+            "table2": "Benchmark results of different models for the text-based molecular design task using reference descriptions. The best results are highlighted in underline for each model."
+        },
+        "question":"In Table 1, compute the improvement rate of Exact(%) for ChemDFM + RTMol over ChemDFM, defined as (Exact with RTMol − Exact without RTMol) ÷ Exact without RTMol. Round the result to three decimal places. Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 0.474,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 49,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2512.07907v1\\table1.jpg",
+            "table2": "2512.07907v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Summary of population statistics from SGSSI",
+            "table2": "Summary of population statistics from Marion and PEI. Mortality rates are only known for Marion."
+        },
+        "question":"Using Table 1 (SGSSI) only, sum Mortalities across all species to get total deaths, and sum Population across all species to get total population. Compute the overall mortality percentage: overall mortality = (total Mortalities ÷ total Population) × 100 Round to two decimal places, do not include the percent sign, and respond with a single number only.",
+        "question_type": "reasoning",
+        "answer": 0.14,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 55,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.16113v1\\table1.jpg",
+            "table2": "2511.16113v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance of ProtT-Affinity on PDBBind benchmark sets (mean ± std over three runs).",
+            "table2": "Comprehensive comparison with existing methods on standard benchmarks."
+        },
+        "question":"Based on Table 2, compare the MAE values of each method across Test set 1, Test set 2, and the Combined set. A method is considered to satisfy the condition if its MAE increases when the dataset size expands from a single test set (Test set 1 or Test set 2) to the Combined set (161). List the names of all methods that meet this criterion in this format, [method1. mthod2, ...]. Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": "[PRODIGY, DFIRE, ISLAND, ProtT-Affinity]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 60,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.11327v3\\table1.jpg",
+            "table2": "2509.11327v3\\table2.jpg"
+        },
+        "caption": {
+            "table1": "TIME COMPLEXITY OF DIFFERENT ALGORITHMS",
+            "table2": "COMPARISON OF MODEL HYPERPARAMETER CONFIGURATIONS"
+        },
+        "question":"Based on the asymptotic time complexity expressions in Table 1, and without assigning specific values to the parameters, which algorithm(s) have the lowest time complexity? Respond only with a list of algorithm names, e.g. [algorithm1, ...].",
+        "question_type": "reasoning",
+        "answer": "[ZF-FDE, Statistical MMSE-FDE]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 64,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2504.12351v1\\table1.jpg",
+            "table2": "2504.12351v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Subtyping prediction results of iBOT-Synth (fully synthetic dataset) iBOT-Hybrid (synthetic + TCGA) and baselines for five different subtyping tasks. The best performance is in bold, and the second best is underlined",
+            "table2": "Survival and prostate BCR prediction results of iBOT-Synth (fully synthetic dataset), iBOT-Hybrid (synthetic + TCGA), and baselines for two survival tasks and one prostate BCR task. The best performance is in bold, and the second best is underlined."
+        },
+        "question":"Based on Table 2, using UNI as the baseline, compute the c-index improvement of iBOT-Hybrid over UNI (iBOT-Hybrid − UNI) for: Lung (PLCO), Prostate BCR (Private), Breast (PLCO). Return the results as a list in table order. [num1, num2, num3]. Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": [0.058, 0.072, 0.020],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 40,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2505.01146v3\\table1.jpg",
+            "table2": "2505.01146v3\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Recent biomedical RAG studies based on knowledge graphs",
+            "table2": "Multimodal Biomedical RAG Systems"
+        },
+        "question":"In Table 2, determine whether at least two models share the exact same task description. If yes, count how many such model pairs exist (each pair consists of two models with identical task descriptions). If no such case exists, return 0. Respond only with a number.",
+        "question_type": "perceptual",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2505.01146v3\\table1.jpg",
+            "table2": "2505.01146v3\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Recent biomedical RAG studies based on knowledge graphs",
+            "table2": "Multimodal Biomedical RAG Systems"
+        },
+        "question":"Based on Table 2, count the number of models published in 2023, 2024, and 2025, respectively. Return the result as a list of three values in the order [2023, 2024, 2025]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": [1, 7, 3],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2506.04132v1\\table1.jpg",
+            "table2": "2506.04132v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Classification Performance with Valid Emotional Labels",
+            "table2": "Classification Performance with Shuffled Labels (Control)"
+        },
+        "question":"In Table 1, identify all emotion categories whose F1-Score equals 0.00. Respond with a list of emotion categories, [emo1, emo2,...]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": "[Disgusted, Fearful, Surprised]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 44,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.01618v1\\table1.jpg",
+            "table2": "2510.01618v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "CONCEPT PREDICTION QUALITY ACROSS FIVE CBM VARIANTS.",
+            "table2": "FAITHFULNESS COMPARISON ACROSS CBM VARIANTS."
+        },
+        "question":"In Table 2, how many Necessity metrics are reported in total, and which concepts do they correspond to? Respond only with a list, [concept1, concept, ...].",
+        "question_type": "perceptual",
+        "answer": "[GC, CpG, CCC]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 16,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2503.20880v2\\table1.jpg",
+            "table2": "2503.20880v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance comparison of BioX-CPath against SOTA methods on the RA and Sjogren datasets. We report accuracy, AUC, and average precision (AP) with standard error shown in parentheses. The best results for each metric are shown in bold, with the second best underlined.",
+            "table2": "Ablation on model components shown on the Sjogren dataset."
+        },
+        "question":"In the RA dataset section of Table 1, what are the AUC value and its standard error for BioX-CPath?Return the answer as a list: [AUC,standarderror]. Respond only with a list!",
+        "question_type": "perceptual",
+        "answer": [0.96, 0.007],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 24,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.21706v1\\table1.jpg",
+            "table2": "2507.21706v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Dataset Composition for Fine-Tuning",
+            "table2": "Fine-Tuning Results on DataSet 1 and DataSet 2"
+        },
+        "question":"In Table 1, how many different datasets are included as training data sources for Dataset 2? Respond only with a number!",
+        "question_type": "perceptual",
+        "answer": 3,
+        "answer_type": "numeric"
+    }
+]

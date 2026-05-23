@@ -1,0 +1,1226 @@
+[
+    {
+        "question_id": 1,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.14788v1\\table1.jpg",
+            "table2": "2509.14788v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance comparison of DTI prediction methods on BindingDB, Human, BioSNAP datasets",
+            "table2": "Performance comparison on LIT-PCBA benchmark"
+        },
+        "question":"Both Table 1 and Table 2 report multiple model evaluation metrics. Identify the evaluation metric that appears in both tables. Return only the metric name.",
+        "question_type": "perceptual",
+        "answer": "AUROC",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 2,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.14788v1\\table1.jpg",
+            "table2": "2509.14788v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance comparison of DTI prediction methods on BindingDB, Human, BioSNAP datasets",
+            "table2": "Performance comparison on LIT-PCBA benchmark"
+        },
+        "question":"Using Table 1 (BindingDB, Human, BioSNAP) and Table 2 (LIT-PCBA): For each dataset or benchmark, compute the AUROC improvement rate of SaBAN (Ours) by subtracting the lowest AUROC among all models from SaBAN’s AUROC, and then dividing the difference by the lowest AUROC. Round the result to three decimal places. Which dataset or benchmark shows the largest improvement rate? Return the result strictly as: [dataset_or_benchmark_name,improvement_rate]. Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": "[LIT-PCBA,0.324]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.21346v1\\table1.jpg",
+            "table2": "2509.21346v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance comparison of various machine learning models using multimodal features.",
+            "table2": "Performance of Different SNN Architectures"
+        },
+        "question":"Visualize the Accuracy (ACC) of all models in Table 1 and Table 2. Plot requirements: Use Python with matplotlib. Create a horizontal bar chart. Y-axis: model names (Table I first, then Table II). X-axis: Accuracy values. Annotate each bar with its Accuracy (rounded to three decimals). Add a title and axis labels. Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "barh_chart",
+            "data": [[0.710, 0.778, 0.934, 0.790, 0.940, 0.960, 0.885, 0.735, 0.843]],
+            "operation": null,
+            "title": "Accuracy (ACC) of Models in Table 1 and Table 2",
+            "xlabel": "Accuracy",
+            "ylabel": "Model",
+            "legend": null,
+            "tick": {
+                "xticklabels": null, 
+                "yticklabels": [
+                    "Literature LR",
+                    "Our LR",
+                    "MLP",
+                    "SVM Linear",
+                    "SVM Polynomial",
+                    "SVM RBF",
+                    "Hybrid SNN",
+                    "Bio-inspired SNN (EEG)",
+                    "Bio-inspired SNN"
+                ]
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.21346v1\\table1.jpg",
+            "table2": "2509.21346v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance comparison of various machine learning models using multimodal features.",
+            "table2": "Performance of Different SNN Architectures"
+        },
+        "question":"Treat the SVM models in Table 1 as one group and the SNN models in Table 2 as another group. Compute the average F1-Score for each group and report the larger average value, rounded to three decimal places. Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 0.893,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.21346v1\\table1.jpg",
+            "table2": "2509.21346v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance comparison of various machine learning models using multimodal features.",
+            "table2": "Performance of Different SNN Architectures"
+        },
+        "question":"Define metric stability as the difference between the maximum and minimum values among Accuracy, F1-Score, Precision, and Recall for a given model. Across all models in Table 1 and Table 2, compute the metric stability for each model and identify the least stable model. Respond only with the numeric value of this largest difference.",
+        "question_type": "reasoning",
+        "answer": 0.070,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 6,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.25171v1\\table1.jpg",
+            "table2": "2509.25171v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of TR2-D2 for regulatory DNA generation optimized on enhancer activity. Metrics were computed for 640 sequences across 3 seeds, with standard deviations reported. Best values are bolded. Evaluation metrics are detailed in Appendix D.",
+            "table2": "Multi-objective peptide design results (full results in Table 4). All values are averaged over 100 generated peptides. Best values are bolded. Pre-trained indicates unconditional sampling with the pre-trained peptide SMILES model from PepTune (Tang et al., 2025). PepTune indicates samples from 100 iterations of inference-time Monte-Carlo Tree Guidance conditioned on all objectives. TR2-D2 indicates unconditional sampling after 1000 epochs of fine-tuning of the pre-trained model with our multi-objective fine-tuning approach."
+        },
+        "question":"In Table 2, identify the model whose Binding Affinity is consistently the lowest across all target proteins. Then, using Table 1, compute the difference in ATAC-Acc between this model and the model with the highest ATAC-Acc. Report the result as a positive numeric value, without using a percentage sign. Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 98.4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.00351v1\\table1.jpg",
+            "table2": "2510.00351v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Reconstruction metrics across tokenizers for Cα reconstruction. Kanzi consistently matches or outperforms larger models trained on bigger datasets. Best results are in bold and second-best are underlined. CAMEO and CASP are relatively small datasets with higher variance. Models explicitly trained on held-out data are excluded. Starred Kanzi models use fixed hyperparameters; standard errors are reported in the Appendix.",
+            "table2": "Full-backbone reconstruction results. Although the performance gap is smaller than in Cα-only reconstruction, Kanzi still achieves the best or second-best results across datasets. rFPSD is excluded because it is specific to Cα reconstruction."
+        },
+        "question":"In Table 1 and Table 2, count the number of distinct evaluation metrics used in each table. Only count metric names (e.g., RMSD, TM), regardless of datasets or sub-columns. Return the result as a list in the following order: [Number of metrics in Table 1, Number of metrics in Table 2]. Respond only with the list.",
+        "question_type": "perceptual",
+        "answer": [5, 2],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.00351v1\\table1.jpg",
+            "table2": "2510.00351v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Reconstruction metrics across tokenizers for Cα reconstruction. Kanzi consistently matches or outperforms larger models trained on bigger datasets. Best results are in bold and second-best are underlined. CAMEO and CASP are relatively small datasets with higher variance. Models explicitly trained on held-out data are excluded. Starred Kanzi models use fixed hyperparameters; standard errors are reported in the Appendix.",
+            "table2": "Full-backbone reconstruction results. Although the performance gap is smaller than in Cα-only reconstruction, Kanzi still achieves the best or second-best results across datasets. rFPSD is excluded because it is specific to Cα reconstruction."
+        },
+        "question":"For models that appear in both Table 1 and Table 2, compute the RMSD change on the AFDB dataset, defined as: RMSD in Table 1 minus RMSD in Table 2. If a model has multiple entries in Table 1 (e.g., different variants or scales), first compute the average AFDB RMSD across those entries before calculating the change. Among all eligible models, identify the one with the largest RMSD increase and return the result in the following list format: [model, RMSD change]. Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": "[FoldToken, 0.041]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 9,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.05626v1\\table1.jpg",
+            "table2": "2510.05626v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of methods that use sequences as inputs. Paragraph and PECAN model the 3D structures from the sequences with ABodyBuilder (ABB) [10], while MIPE uses AlphaFold2 (AF2), and requires both antibody and antigen sequences. All other methods operate directly on sequences without requiring structural modeling. Performance metrics (PR AUC, ROC AUC, F1 score, and MCC) with additional model characteristics (structure modeling free and antigen agnostic) for models evaluated on PECAN, PARAGRAPH, and MIPE datasets. The highest value in each column is in bold, the second best is underlined.",
+            "table2": "Comparison of methods that use experimentally determined structures as inputs. Performance metrics (PR AUC, ROC AUC, F1 score, and MCC) with additional model characteristics (antigen agnostic) for models evaluated on PECAN, PARAGRAPH, and MIPE datasets. The highest value in each column is in bold, the second best is underlined."
+        },
+        "question":"In Table 1 and Table 2, which models are marked as antigen agnostic in both tables?Return the model names as a list, [model1, model2], ignoring any parentheses and their contents in the names. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": "[Paragraph, Paraplume]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.05626v1\\table1.jpg",
+            "table2": "2510.05626v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of methods that use sequences as inputs. Paragraph and PECAN model the 3D structures from the sequences with ABodyBuilder (ABB) [10], while MIPE uses AlphaFold2 (AF2), and requires both antibody and antigen sequences. All other methods operate directly on sequences without requiring structural modeling. Performance metrics (PR AUC, ROC AUC, F1 score, and MCC) with additional model characteristics (structure modeling free and antigen agnostic) for models evaluated on PECAN, PARAGRAPH, and MIPE datasets. The highest value in each column is in bold, the second best is underlined.",
+            "table2": "Comparison of methods that use experimentally determined structures as inputs. Performance metrics (PR AUC, ROC AUC, F1 score, and MCC) with additional model characteristics (antigen agnostic) for models evaluated on PECAN, PARAGRAPH, and MIPE datasets. The highest value in each column is in bold, the second best is underlined."
+        },
+        "question":"Compare the ROC AUC of Paraplume / Paraplume-G on the PECAN Dataset between Table 1 and Table 2. Compute the improvement as structure − sequence, round to three decimal places, and return a single signed number. Respond only with a number!",
+        "question_type": "reasoning",
+        "answer": 0.002,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 11,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.05626v1\\table1.jpg",
+            "table2": "2510.05626v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of methods that use sequences as inputs. Paragraph and PECAN model the 3D structures from the sequences with ABodyBuilder (ABB) [10], while MIPE uses AlphaFold2 (AF2), and requires both antibody and antigen sequences. All other methods operate directly on sequences without requiring structural modeling. Performance metrics (PR AUC, ROC AUC, F1 score, and MCC) with additional model characteristics (structure modeling free and antigen agnostic) for models evaluated on PECAN, PARAGRAPH, and MIPE datasets. The highest value in each column is in bold, the second best is underlined.",
+            "table2": "Comparison of methods that use experimentally determined structures as inputs. Performance metrics (PR AUC, ROC AUC, F1 score, and MCC) with additional model characteristics (antigen agnostic) for models evaluated on PECAN, PARAGRAPH, and MIPE datasets. The highest value in each column is in bold, the second best is underlined."
+        },
+        "question":"Considering only models with Antigen agnostic = ✓, compute the average (rounded to three decimal places.) ROC AUC on the PECAN Dataset for Table 1 (sequence) and Table 2(structure), and identify which input type has the higher average. Return the result as: [input type (sequence / structure), average ROC AUC]. Respond only with a list!",
+        "question_type": "reasoning",
+        "answer": "[structure, 0.953]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.24732v1\\table1.jpg",
+            "table2": "2510.24732v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Noise-Focused discretization outperforms other schemes for frame-based protein models. Effect of discretization types on designability and scRMSD for FoldFlow-OT and QFlow shows superior performance of Noise-Focused approaches, which are better tailored to the inference dynamics near the early stages where trajectory curvature is most significant.",
+            "table2": "ReFlow provides greater benefits for multimodal distributions. Comparison of model pairs finetuned on model samples (scrambled coupling) versus ReFlow under identical settings shows that while ReFlow training significantly increased QFlow designability at low NFE, no benefits were observed for FoldFlow-OT, potentially due to differences in data distribution multimodality."
+        },
+        "question":"Based on the explicit direction indicators (arrows) shown in Table 1 and Table 2, which evaluation metric is explicitly marked as “higher is better”? Respond only with the metric name!",
+        "question_type": "perceptual",
+        "answer": "Designability",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.24732v1\\table1.jpg",
+            "table2": "2510.24732v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Noise-Focused discretization outperforms other schemes for frame-based protein models. Effect of discretization types on designability and scRMSD for FoldFlow-OT and QFlow shows superior performance of Noise-Focused approaches, which are better tailored to the inference dynamics near the early stages where trajectory curvature is most significant.",
+            "table2": "ReFlow provides greater benefits for multimodal distributions. Comparison of model pairs finetuned on model samples (scrambled coupling) versus ReFlow under identical settings shows that while ReFlow training significantly increased QFlow designability at low NFE, no benefits were observed for FoldFlow-OT, potentially due to differences in data distribution multimodality."
+        },
+        "question":"Based on the results in Table 1 and Table 2, which factor most likely explains why ReFlow is effective for QFlow but has limited impact on FoldFlow-OT? A. QFlow uses more evaluation metrics. B. FoldFlow-OT has a lower NFE setting。 C. QFlow has a stronger need to model multimodal distributions. D. FoldFlow-OT already uses an optimal discretization strategy. Respond only with a letter.",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 14,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.12135v2\\table1.jpg",
+            "table2": "2511.12135v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Benchmark results of different models in round-trip evaluation using generated descriptions. The best results are highlighted in underline for each model.",
+            "table2": "Benchmark results of different models for the text-based molecular design task using reference descriptions. The best results are highlighted in underline for each model."
+        },
+        "question":"In Table 1 and Table 2, compare each metric before and after adding RTMol. Which metric shows a negative improvement in both tables after adding RTMol? If none, respond with “none”. Respond only with the metric or none.",
+        "question_type": "reasoning",
+        "answer": "BLEU",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2502.09775v3\\table1.jpg",
+            "table2": "2502.09775v3\\table2.jpg"
+        },
+        "caption": {
+            "table1": "More evaluation and ablation of CellFlux.MoA classification. On the BBBC021 dataset, a classifier is trained to predict the drug’s mode of action (MoA) from cell morphology images, and the accuracy/F1 of generated images is evaluated. CellFlux achieves significantly higher accuracy/F1 than other methods, closely aligning with ground-truth images and effectively reflecting the biological effects of perturbations.",
+            "table2": "More evaluation and ablation of CellFlux. Out-of-distribution generalization. CellFlux maintains strong performance when generating cell morphology images for novel chemical compounds not seen during training on BBBC021."
+        },
+        "question":"Which generative methods appear in both Table 1and Table 2? List the method names, excluding Groundtruth Perturbed Image. The answer should be a list, [method1, method2, method3]. Respond only with a list!",
+        "question_type": "perceptual",
+        "answer": "[PhenDiff, IMPA, CellFlux]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 16,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2502.09775v3\\table1.jpg",
+            "table2": "2502.09775v3\\table2.jpg"
+        },
+        "caption": {
+            "table1": "More evaluation and ablation of CellFlux.MoA classification. On the BBBC021 dataset, a classifier is trained to predict the drug’s mode of action (MoA) from cell morphology images, and the accuracy/F1 of generated images is evaluated. CellFlux achieves significantly higher accuracy/F1 than other methods, closely aligning with ground-truth images and effectively reflecting the biological effects of perturbations.",
+            "table2": "More evaluation and ablation of CellFlux. Out-of-distribution generalization. CellFlux maintains strong performance when generating cell morphology images for novel chemical compounds not seen during training on BBBC021."
+        },
+        "question":"Which evaluation metrics appear in both Table 1 and Table 2? Only consider metrics whose names are exactly the same in both tables, excluding method names and dataset names. Return the answer as a list, [metric1, metric2]. Respond only with a list!",
+        "question_type": "perceptual",
+        "answer": "[MoA Accuracy, MoA Macro-F1, MoA Weighted-F1]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2503.20880v2\\table1.jpg",
+            "table2": "2503.20880v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance comparison of BioX-CPath against SOTA methods on the RA and Sjogren datasets. We report accuracy, AUC, and average precision (AP) with standard error shown in parentheses. The best results for each metric are shown in bold, with the second best underlined.",
+            "table2": "Ablation on model components shown on the Sjogren dataset."
+        },
+        "question":"Based on Table 1 and Table 2, compute the absolute improvement in Accuracy of BioX-CPath on the Sjogren dataset relative to the Baseline reported in Table 2.  Round the result to three decimal places. Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 0.084,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2506.13344v1\\table1.jpg",
+            "table2": "2506.13344v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Quantitative performance comparison of LapDDPM with conditional and unconditional single-cell generative models. Evaluation is performed based on distribution matching metrics (RBF-kernel MMD and 2-Wasserstein distance). Results are mean ± standard deviation over 10 runs. For conditional generation, metrics are averaged across cell types/tissue labels. Best results are highlighted in bold.",
+            "table2": "Summary of scRNA-seq Datasets used in Experiments."
+        },
+        "question":"Compare the dataset names listed in Table 1 and Table 2. If the two tables contain exactly the same set of datasets, report the number of shared datasets; otherwise, respond with no. Respond only with a number or no.",
+        "question_type": "perceptual",
+        "answer": 4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2506.13344v1\\table1.jpg",
+            "table2": "2506.13344v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Quantitative performance comparison of LapDDPM with conditional and unconditional single-cell generative models. Evaluation is performed based on distribution matching metrics (RBF-kernel MMD and 2-Wasserstein distance). Results are mean ± standard deviation over 10 runs. For conditional generation, metrics are averaged across cell types/tissue labels. Best results are highlighted in bold.",
+            "table2": "Summary of scRNA-seq Datasets used in Experiments."
+        },
+        "question":"Sort the datasets in Table 2 by Number of Cells in ascending order and determine whether LapDDPM’s MMD under the Conditional setting in Table 1 shows a monotonic trend. Response format: increasing / decreasing / no.",
+        "question_type": "reasoning",
+        "answer": "no",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 20,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2506.13344v1\\table1.jpg",
+            "table2": "2506.13344v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Quantitative performance comparison of LapDDPM with conditional and unconditional single-cell generative models. Evaluation is performed based on distribution matching metrics (RBF-kernel MMD and 2-Wasserstein distance). Results are mean ± standard deviation over 10 runs. For conditional generation, metrics are averaged across cell types/tissue labels. Best results are highlighted in bold.",
+            "table2": "Summary of scRNA-seq Datasets used in Experiments."
+        },
+        "question":"Identify the dataset(s) in Table 2 whose Primary Label for Conditioning is TISSUE LABEL. Using Table 1 under the Conditional setting, compute the range (maximum minus minimum across models) of MMD and WD for this dataset. Response format: [MMD_range, WD_range]. Respind only with a list!",
+        "question_type": "reasoning",
+        "answer": [0.07, 2.72],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 21,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.25346v1\\table1.jpg",
+            "table2": "2509.25346v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Results on Direction of Change as binary prediction, following the original PerturbQA evaluation (Wu et al., 2024). AUROC is computed over the predictions associated with each gene, and averaged over perturbations.",
+            "table2": "erformance comparison on direct three-class perturbation effect prediction. All perturbations evaluated are unseen during training. Results show precision, recall, and F1 scores for each class (Not Differentially Expressed, Upregulated, and Downregulated), along with overall accuracy across all models."
+        },
+        "question":"Do both Table 1 and Table 2 include LLM-related models? If yes, specify the corresponding model names in a list, [model1, model2, ...]; if not, respond with “No”. Respond only with a list or no!",
+        "question_type": "perceptual",
+        "answer": "[LLM + SFT on data, Base LLM, SFT on data, 04-mini]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.25346v1\\table1.jpg",
+            "table2": "2509.25346v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Results on Direction of Change as binary prediction, following the original PerturbQA evaluation (Wu et al., 2024). AUROC is computed over the predictions associated with each gene, and averaged over perturbations.",
+            "table2": "erformance comparison on direct three-class perturbation effect prediction. All perturbations evaluated are unseen during training. Results show precision, recall, and F1 scores for each class (Not Differentially Expressed, Upregulated, and Downregulated), along with overall accuracy across all models."
+        },
+        "question":"Considering Table 1 (binary AUROC for direction-of-change) and Table 2 (three-class Accuracy), which model demonstrates the strongest overall performance across both task settings? Respond only with the model name!",
+        "question_type": "reasoning",
+        "answer": "SynthPert",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 23,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.11588v2\\table1.jpg",
+            "table2": "2507.11588v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance of tissue region semantic segmentation on human embryo and DLPFC slices. Expr: gene expressions. Pos: cell positions. M-S: Multi-scale. Acc: accuracy. F1: macro F1 score.",
+            "table2": "Performance of cell type annotation on mouse brain slices."
+        },
+        "question":"Cross-slice to cross-brain consistency check: consider only models appearing in both tables. For each model, compare: Cross-slice F1 in Table 1 (Embryonic). Macro F1 in Table 2 (Brain2). Which models satisfy Brain2 Macro F1 > Embryonic Cross-slice F1? (Multiple choice: A Geneformer / B Nicheformer / C CellPLM / D SToFM) Respond only with a list, [A, B].",
+        "question_type": "reasoning",
+        "answer": "[A, B, C, D]",
+        "answer_type": "choice_list"
+    },
+
+    {
+        "question_id": 24,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.11588v2\\table1.jpg",
+            "table2": "2507.11588v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance of tissue region semantic segmentation on human embryo and DLPFC slices. Expr: gene expressions. Pos: cell positions. M-S: Multi-scale. Acc: accuracy. F1: macro F1 score.",
+            "table2": "Performance of cell type annotation on mouse brain slices."
+        },
+        "question":"For models appearing in both Table 1 and Table 2 (Geneformer, Nicheformer, CellPLM, SToFM), create a radar chart comparing four metrics in order: Embryonic Cross-slice Accuracy, DLPFC Cross-slice Accuracy, Brain1 Accuracy, and Brain2 Accuracy. Use Python with matplotlib, one curve per model, y-axis fixed to [0, 1], and include a legend and title.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "radar",
+            "data": [
+                [0.5293, 0.5981, 0.5646, 0.8540],
+                [0.5359, 0.5809, 0.5186, 0.8447],
+                [0.5597, 0.6908, 0.6001, 0.9256],
+                [0.6059, 0.6981, 0.6349, 0.9289]
+            ],
+            "operation": null,
+            "title": "Radar Chart: Cross-task Accuracy Comparison",
+            "xlabel": null,
+            "ylabel": "Accuracy",
+            "legend": true,
+            "tick": {
+                "xticklabels": [
+                    "Embryonic Cross-slice Acc",
+                    "DLPFC Cross-slice Acc",
+                    "Brain1 Acc",
+                    "Brain2 Acc"
+                ], 
+                "yticklabels": ["0.0", "0.2", "0.4", "0.6", "0.8", "1.0"]
+            },
+            "style": {
+                "color": true,
+                "linestyle": true,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 25,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.21706v1\\table1.jpg",
+            "table2": "2507.21706v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Dataset Composition for Fine-Tuning",
+            "table2": "Fine-Tuning Results on DataSet 1 and DataSet 2"
+        },
+        "question":"Based on Table 1and Table 2, which model is fine-tuned using training data that includes both SNV and Non-SNV variants?A. Zero-shot.B. EnTao-GPMFast.C. EnTao-GPMPro.D. Cannot be determined. Respond only with a letter.",
+        "question_type": "perceptual",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.15664v1\\table1.jpg",
+            "table2": "2509.15664v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "siRNA inhibition prediction results on public datasets. Boldface indicates the best performance.",
+            "table2": "siRNA inhibition prediction results on the new patent dataset. Boldface indicates the best performance."
+        },
+        "question":"Define a model’s performance stability within a table as the range of its Pearson values (max − min). Compute the Pearson range of siDPT (Ours) in Table 1 and Table 2, and identify which table shows higher stability (smaller range). Response format: [Tablenumber,Pearsonrange (range rounded to three decimal places)]. Respond only with the list.",
+        "question_type": "reasoning",
+        "answer": "[Table1, 0.012]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.15664v1\\table1.jpg",
+            "table2": "2509.15664v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "siRNA inhibition prediction results on public datasets. Boldface indicates the best performance.",
+            "table2": "siRNA inhibition prediction results on the new patent dataset. Boldface indicates the best performance."
+        },
+        "question":"Create a line chart summarizing the AUC of siDPT (Ours) across all datasets/targets. Plot requirements: Use Python with matplotlib. Chart type: line plot. X-axis: datasets/targets (Huesken, Takayuki, KHK, CTNNB1, TMPRSS6). Y-axis: AUC. Single line for siDPT. Fix y-axis range to [0,1]. Include a title and axis labels. Respond only with complete, runnable Python code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "line_chart",
+            "data": [[0.8873, 0.8519, 0.8251, 0.5948, 0.7338]],
+            "operation": null,
+            "title": "AUC of siDPT (Ours) Across Datasets",
+            "xlabel": "Datasets / Targets",
+            "ylabel": "AUC",
+            "legend": null,
+            "tick": {
+                "xticklabels": ["Huesken", "Takayuki", "KHK", "CTNNB1", "TMPRSS6"], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": true,
+                "marker": true,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.18529v1\\table1.jpg",
+            "table2": "2509.18529v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Sequence-level regression results for the Bulk RNA expression prediction task from the Genomics Long-Range Benchmark (LRB) (Trop et al., 2024). We compare RCCR against Vanilla, RC-Aug, and TTA. Best and second-best results within a backbone are bold and underlined. RCCR consistently provides the best performance on core prediction metrics (RMSE, R², Spearman).",
+            "table2": "CAGE profile task under Reverse-Complement Consistency Regularization (RCCR), RC data augmentation at 50% (RC-Aug), and reverse-complement Test-Time Averaging (TTA). Arrows indicate preferred direction. Best / second-best within each (Backbone, Metric) are bold / underlined. RC-Corr is omitted for TTA."
+        },
+        "question":"Under the HyenaDNA backbone, compute the following: In Table 1, the Spearman improvement of RCCR relative to the worst-performing method. In Table 2, the Spearman improvement of RCCR relative to the worst-performing method. Compare these two improvements and report the larger improvement value only.",
+        "question_type": "reasoning",
+        "answer": 0.0542,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 29,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.18529v1\\table1.jpg",
+            "table2": "2509.18529v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Sequence-level regression results for the Bulk RNA expression prediction task from the Genomics Long-Range Benchmark (LRB) (Trop et al., 2024). We compare RCCR against Vanilla, RC-Aug, and TTA. Best and second-best results within a backbone are bold and underlined. RCCR consistently provides the best performance on core prediction metrics (RMSE, R², Spearman).",
+            "table2": "CAGE profile task under Reverse-Complement Consistency Regularization (RCCR), RC data augmentation at 50% (RC-Aug), and reverse-complement Test-Time Averaging (TTA). Arrows indicate preferred direction. Best / second-best within each (Backbone, Metric) are bold / underlined. RC-Corr is omitted for TTA."
+        },
+        "question":"Based on the overall results of the two tables, which statement best summarizes the role of RCCR? A. It mainly improves prediction performance indirectly by increasing RC-Corr. B. It consistently improves predictive performance across tasks without relying heavily on RC-Aug. C. It is effective only for the CAGE profile task and provides little benefit for regression. D. It achieves performance gains through TTA and does not function as a regularization method. Respond only with a letter.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 30,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.03629v1\\table1.jpg",
+            "table2": "2510.03629v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Read mapping quality using different matching techniques.",
+            "table2": "Basecalled read mapping quality analysis."
+        },
+        "question":"Define a method as a “high-quality mapping method” if it satisfies both of the following conditions: In Table 1, for a given species, the F1 score is at least 0.75. In Table 2, for the corresponding species, the number of aligned reads is at least 200,000 when RSA Pre-filter is not used. How many method–species combinations satisfy the above conditions? Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 31,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.03629v1\\table1.jpg",
+            "table2": "2510.03629v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Read mapping quality using different matching techniques.",
+            "table2": "Basecalled read mapping quality analysis."
+        },
+        "question":"Based on Table 1 and Table 2, perform the following analysis for the E. coli dataset: From Table 1, identify the matching method with the highest F1 score for E. coli and record its F1 value. From Table 2, compute the average of the Average Depth of Coverage for E. coli under both settings: with and without RSA Pre-filter. Then compute: F1 ÷ average Coverage Depth. Round the result to three decimal places. Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 0.05,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 32,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2512.03286v1\\table1.jpg",
+            "table2": "2512.03286v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance comparison of cell type annotation methods on dataset SAHR",
+            "table2": "Performance comparison of cell type annotation methods on dataset HLCA"
+        },
+        "question":"Identify the dataset used in table1 and table2. Return the result as a list in the order: [dataset used in Table 1, dataset used in Table 2].Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": "[SAHR, HLCA]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 33,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2512.03286v1\\table1.jpg",
+            "table2": "2512.03286v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance comparison of cell type annotation methods on dataset SAHR",
+            "table2": "Performance comparison of cell type annotation methods on dataset HLCA"
+        },
+        "question":"Count the number of models (Methods) reported in Table 1 and Table 2, respectively. Return the result as a list in the order: [number of models in Table 1, number of models in Table 2]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": [10, 9],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 34,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2512.03286v1\\table1.jpg",
+            "table2": "2512.03286v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance comparison of cell type annotation methods on dataset SAHR",
+            "table2": "Performance comparison of cell type annotation methods on dataset HLCA"
+        },
+        "question":"Using Table 1 (SAHR) and Table 2 (HLCA), compute the average Macro F1-score for each method appearing in both tables. Which method has the highest average? Return the result as: [method name, average Macro F1-score] (rounded to three decimal places). Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": "[CCA, 0.828]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2505.11878v1\\table1.jpg",
+            "table2": "2505.11878v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "ROC-AUC scores with standard deviations (%) of all compared methods on TDC dataset. The best results are highlighted in bold font.",
+            "table2": "The detail information of TDC datasets."
+        },
+        "question":"Using Table 2, compute the total size of the dataset used in table1.  Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 14880,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.18325v1\\table1.jpg",
+            "table2": "2511.18325v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Benchmark comparison of unimodal (fMRI) and multimodal (EEG+fMRI) models on the meditation task. Brain-MGF denotes the proposed Adaptive Graph Fusion Network and its ablated variants. Results are reported as mean ± SD over 5 folds (BCE loss).",
+            "table2": "EEG, fMRI, and Fusion performance on PsiConnect (Meditation and Rest; 5-fold CV, BCE loss). Fusion is implemented using the proposed Brain-MGF network. Results are mean ± SD (%)."
+        },
+        "question":"Based on Table 1 and Table 2, how many distinct modality types are involved in total. Respond only with a number.",
+        "question_type": "perceptual",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.18325v1\\table1.jpg",
+            "table2": "2511.18325v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Benchmark comparison of unimodal (fMRI) and multimodal (EEG+fMRI) models on the meditation task. Brain-MGF denotes the proposed Adaptive Graph Fusion Network and its ablated variants. Results are reported as mean ± SD over 5 folds (BCE loss).",
+            "table2": "EEG, fMRI, and Fusion performance on PsiConnect (Meditation and Rest; 5-fold CV, BCE loss). Fusion is implemented using the proposed Brain-MGF network. Results are mean ± SD (%)."
+        },
+        "question":"Compute the average Accuracy of all entries with Modality = fMRI in Table 1 and Table 2, respectively.After obtaining the two averages, compare them and return the larger value (rounded to two decimal places). Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 70.76,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 38,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2512.01199v1\\table1.jpg",
+            "table2": "2512.01199v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Macro F1-score for cell type classification across different generalization settings. Reported as mean ± std. dev. across 5 training seeds. N/A indicates the method cannot operate in that evaluation setting.",
+            "table2": "Macro F1-scores for brain region classification across different generalization settings. Reported as mean ± std. dev. across 5 training seeds. N/A indicates the method cannot operate in that evaluation setting."
+        },
+        "question":"Considering only NuCLR (Ours), aggregate the Macro F1-score means from all “Transductive” rows across both tables and compute the overall average.  Respond onl with a number.",
+        "question_type": "reasoning",
+        "answer": 0.762275,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 39,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2512.01199v1\\table1.jpg",
+            "table2": "2512.01199v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Macro F1-score for cell type classification across different generalization settings. Reported as mean ± std. dev. across 5 training seeds. N/A indicates the method cannot operate in that evaluation setting.",
+            "table2": "Macro F1-scores for brain region classification across different generalization settings. Reported as mean ± std. dev. across 5 training seeds. N/A indicates the method cannot operate in that evaluation setting."
+        },
+        "question":"Based on Table 1 and Table 2, considering only NuCLR (Ours), compute for each dataset the improvement in Macro F1-score (mean) from Ind. zero-shot to Transductive, defined as: improvement= F1(Transductive)−F1(Ind. zero-shot)​Which dataset shows the largest improvement? Return format: [dataset name, improvement value]. Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": "[Steinmetz et. al., 0.3784]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 40,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2512.09524v1\\table1.jpg",
+            "table2": "2512.09524v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Overview of the datasets used in our experiments. We evaluate on six datasets in total. For Chisco and OpenMIIR, we partition them by task, yielding eight distinct tasks overall.",
+            "table2": "Results of the latent space transformation and the optimization of calculation. Lower GFLOPs indicates lower computational cost. The best results are in bold."
+        },
+        "question":"Using Table 1 and Table 2, first identify the datasets under the Speech category in Table 1. Then, under the Step Approach setting in Table 2, extract their Accuracy (Acc) values and compute the average (arithmetic mean). Respond only with a single number rounded to three decimal places.",
+        "question_type": "reasoning",
+        "answer": 0.296,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2512.09524v1\\table1.jpg",
+            "table2": "2512.09524v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Overview of the datasets used in our experiments. We evaluate on six datasets in total. For Chisco and OpenMIIR, we partition them by task, yielding eight distinct tasks overall.",
+            "table2": "Results of the latent space transformation and the optimization of calculation. Lower GFLOPs indicates lower computational cost. The best results are in bold."
+        },
+        "question":"Using Table 1 and Table 2, consider only the datasets under the Visual category in Table 1. Under the Micro Study setting in Table 2, extract the Accuracy (Acc) of Group Conv on these datasets and compute the average (arithmetic mean). Respond only with a single number rounded to three decimal places.",
+        "question_type": "reasoning",
+        "answer": 0.399,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2505.01146v3\\table1.jpg",
+            "table2": "2505.01146v3\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Recent biomedical RAG studies based on knowledge graphs",
+            "table2": "Multimodal Biomedical RAG Systems"
+        },
+        "question":"Based on Table 1 and Table 2, count the number of studies in knowledge-graph-based biomedical RAG (Table 1), and multimodal biomedical RAG (Table 2). Report the counts for both categories separately in this format, [num1, num2]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": [10, 11],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 43,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2505.21503v1\\table1.jpg",
+            "table2": "2505.21503v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Silent behavior analysis across MedQA. “Silent Rate” denotes the proportion of questions where agents arrive at a final answer with silent agreement. “Failure Attribution Rate” refers to the proportion of diagnostic failures that result from silent agreement. Our method achieves both the lowest silent rate and the lowest attribution to silent agreement failures.",
+            "table2": "Silent behavior analysis across PubMedQA. “Silent Rate” denotes the proportion of questions where agents arrive at a final answer with silent agreement. “Failure Attribution Rate” refers to the proportion of diagnostic failures that result from silent agreement. Our method achieves both the lowest silent rate and the lowest attribution to silent agreement failures."
+        },
+        "question":"Identify the datasets used in Table 1 and Table 2, respectively. Return the answer as a list in the following order: [dataset used in Table 1, dataset used in Table 2]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": "[MedQA, PubMedQA]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 44,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2505.21503v1\\table1.jpg",
+            "table2": "2505.21503v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Silent behavior analysis across MedQA. “Silent Rate” denotes the proportion of questions where agents arrive at a final answer with silent agreement. “Failure Attribution Rate” refers to the proportion of diagnostic failures that result from silent agreement. Our method achieves both the lowest silent rate and the lowest attribution to silent agreement failures.",
+            "table2": "Silent behavior analysis across PubMedQA. “Silent Rate” denotes the proportion of questions where agents arrive at a final answer with silent agreement. “Failure Attribution Rate” refers to the proportion of diagnostic failures that result from silent agreement. Our method achieves both the lowest silent rate and the lowest attribution to silent agreement failures."
+        },
+        "question":"Based on Table 1 MedQA and Table 2 PubMedQA, for each method, compute its average Silent Rate and average Failure Attribution Rate by taking the arithmetic mean across the two datasets. Then define the overall risk score as: average Silent Rate + average Failure Attribution Rate. Identify the method with the lowest overall risk score. Return format: [method name, risk score], with the score rounded to one decimal place. Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": "[Ours, 30.2]",
+        "answer_type": "text"
+    },
+
+
+    {
+        "question_id": 45,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2506.04132v1\\table1.jpg",
+            "table2": "2506.04132v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Classification Performance with Valid Emotional Labels",
+            "table2": "Classification Performance with Shuffled Labels (Control)"
+        },
+        "question":"How many distinct emotion categories are presented in Table 1 and Table 2, respectively? Respond with a list in the format: [number of table1, number of table2]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": [7, 7],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 46,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2506.04132v1\\table1.jpg",
+            "table2": "2506.04132v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Classification Performance with Valid Emotional Labels",
+            "table2": "Classification Performance with Shuffled Labels (Control)"
+        },
+        "question":"For each emotion category, compute the difference in F1-Score between Table 1 and Table 2, defined as F1(Table 1) − F1(Table 2). How many emotion categories have an F1-Score difference greater than 0.5? Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 47,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2506.04132v1\\table1.jpg",
+            "table2": "2506.04132v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Classification Performance with Valid Emotional Labels",
+            "table2": "Classification Performance with Shuffled Labels (Control)"
+        },
+        "question": "Based on Table 1 and Table 2, create a comparative bar chart showing the F1-Score differences across emotion categories under the two settings. Plot requirements: Use Python with matplotlib. X-axis: Emotion. Two bar groups: Valid Labels / Shuffled Labels. Y-axis: F1-Score. Include a legend and a title. Respond only with python code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "grouped_bar_chart",
+            "data": [
+                [0.97, 0.00, 0.00, 0.96, 0.98, 0.99, 0.00],
+                [0.07, 0.00, 0.00, 0.00, 0.23, 0.41, 0.00]
+            ],
+            "operation": null,
+            "title": "Comparison of F1-Scores Across Emotion Categories",
+            "xlabel": "Emotion",
+            "ylabel": "F1-score",
+            "legend": true,
+            "tick": {
+                "xticklabels": ["Angry", "Disgusted", "Fearful", "Happy", "Neutral", "Sad", "Surprised"], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 48,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.11896v1\\table1.jpg",
+            "table2": "2507.11896v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Description of explanatory variables used in the model",
+            "table2": "Estimated coefficients for SAC models with Queen and Rook matrices"
+        },
+        "question":"In the Queen model, what is the sum of the regression coefficients of all variables classified as “Proportion” variables? Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": -803.22,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 49,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.01618v1\\table1.jpg",
+            "table2": "2510.01618v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "CONCEPT PREDICTION QUALITY ACROSS FIVE CBM VARIANTS.",
+            "table2": "FAITHFULNESS COMPARISON ACROSS CBM VARIANTS."
+        },
+        "question":"Under the CCC concept, compare Ours with AdaCBM across the four metrics. For each metric, compute the improvement of Ours over AdaCBM, defined as: improvement = Ours − AdaCBM. What are the four improvement values? Respond with a list of numbers in the order the metrics appear in the tables，[n1, n2, n3, n4]. Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": [0.252, 0.073, 0.036, -0.058],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 50,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.03692v1\\table1.jpg",
+            "table2": "2511.03692v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Empirical statistics of simulated datasets used in training phase. The ILS level is measured by AD%, which is the percentage of missing branches between true gene trees and the species tree. Bootstraps column indicates whether bootstrap support values were available or not on estimated gene trees.",
+            "table2": "Empirical statistics of simulated datasets used in testing phase. The ILS level is measured by AD%, which is the percentage of missing branches between true gene trees and the species tree. Bootstraps column indicates whether bootstrap support values were available or not on estimated gene trees."
+        },
+        "question":"Considering all datasets with Bootstraps = Available in Table 1 and Table 2, compute the average AD% across these datasets, rounded to the nearest integer. Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 44,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 51,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.03692v1\\table1.jpg",
+            "table2": "2511.03692v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Empirical statistics of simulated datasets used in training phase. The ILS level is measured by AD%, which is the percentage of missing branches between true gene trees and the species tree. Bootstraps column indicates whether bootstrap support values were available or not on estimated gene trees.",
+            "table2": "Empirical statistics of simulated datasets used in testing phase. The ILS level is measured by AD%, which is the percentage of missing branches between true gene trees and the species tree. Bootstraps column indicates whether bootstrap support values were available or not on estimated gene trees."
+        },
+        "question":"How many datasets are included in the training phase (Table 1) and the testing phase (Table 2), respectively? Report the numbers in this format: [training phase dataset count, testing phase dataset count]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": [3, 11],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 52,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2512.07907v1\\table1.jpg",
+            "table2": "2512.07907v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Summary of population statistics from SGSSI",
+            "table2": "Summary of population statistics from Marion and PEI. Mortality rates are only known for Marion."
+        },
+        "question":"In Table 1 and Table 2, how many distinct species are reported in each table, respectively? Respond with a list, [num1, num2]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": [4, 3],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 53,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1": "2511.11452v1\\table1.jpg",
+            "table2": "2511.11452v1\\table1.jpg",
+            "table3": "2511.11452v1\\table1.jpg"
+        },
+        "caption": {
+            "table1": "Performance of radiology models over repeated (10 repeats) 5-fold cross-validation experiments. We present mean C-index ± standard deviation.",
+            "table2": "Best results for each modality over repeated (10 repeats) 5-fold cross-validation experiments. We present mean C-index ± standard deviation.",
+            "table3": "Multimodal fusion results comparing marginal/joint strategies over repeated (10 repeats) 5-fold cross-validation experiments. We present mean C-index ± standard deviation."
+        },
+        "question":"Based on Table 3, compute the average C-index of the Histopathology & Clinical combination across the Marginal and Joint fusion settings. Using the Clinical single-modality C-index from Table 2 as the baseline, compute the improvement over using Clinical alone. Round the result to three decimal places and respond only with a single number.",
+        "question_type": "reasoning",
+        "answer": 0.024,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 54,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1": "2511.11452v1\\table1.jpg",
+            "table2": "2511.11452v1\\table1.jpg",
+            "table3": "2511.11452v1\\table1.jpg"
+        },
+        "caption": {
+            "table1": "Performance of radiology models over repeated (10 repeats) 5-fold cross-validation experiments. We present mean C-index ± standard deviation.",
+            "table2": "Best results for each modality over repeated (10 repeats) 5-fold cross-validation experiments. We present mean C-index ± standard deviation.",
+            "table3": "Multimodal fusion results comparing marginal/joint strategies over repeated (10 repeats) 5-fold cross-validation experiments. We present mean C-index ± standard deviation."
+        },
+        "question":"Based on Table 3, for all modality combinations that include Histopathology, use the Histopathology C-index from Table 2 as the baseline and determine whether negative improvement occurs under the Marginal or Joint fusion settings. If so, return the negative improvement values as a list; otherwise, respond with no. Respond only with a list or no.",
+        "question_type": "reasoning",
+        "answer": [-0.0438, -0.0437],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 55,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.16113v1\\table1.jpg",
+            "table2": "2511.16113v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance of ProtT-Affinity on PDBBind benchmark sets (mean ± std over three runs).",
+            "table2": "Comprehensive comparison with existing methods on standard benchmarks."
+        },
+        "question":"By comparing Table 1 and Table 2, determine which row(ignore the title) in Table 2 corresponds to the ProtT-Affinity results reported in Table 1. Respond only with a number.",
+        "question_type": "perceptual",
+        "answer": 7,
+        "answer_type": "numeric"
+    },
+
+
+    {
+        "question_id": 56,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2512.00126v1\\table1.jpg",
+            "table2": "2512.00126v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Generalizability evaluation on PDB2022 and TS50 datasets. The results in brackets are from the model trained with CATH v4.3. Models P",
+            "table2": "Foldability comparison using Boltz and ESMFold."
+        },
+        "question":"How many models appear in both Table 1 and Table 2? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 6,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 57,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2512.00126v1\\table1.jpg",
+            "table2": "2512.00126v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Generalizability evaluation on PDB2022 and TS50 datasets. The results in brackets are from the model trained with CATH v4.3. Models P",
+            "table2": "Foldability comparison using Boltz and ESMFold."
+        },
+        "question":"Using Table 1 and Table 2, compute the improvement rate of RadDiff over the worst-performing model: Use Recovery for PDB2022 and TS50 (Table 1); Use TMscore for Boltz2 and ESMFold (Table 2). The improvement rate is defined as RadDiff’s relative gain over the worst model. Under which of the four settings does RadDiff achieve the largest improvement rate? Report the answer in this format, [dataset / structure model, improvement rate] (rounded to three decimal places). Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": "[TS50, 0.445]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 58,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2512.00126v1\\table1.jpg",
+            "table2": "2512.00126v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Generalizability evaluation on PDB2022 and TS50 datasets. The results in brackets are from the model trained with CATH v4.3. Models P",
+            "table2": "Foldability comparison using Boltz and ESMFold."
+        },
+        "question":"Using Table 1 and Table 2, extract one value from each table: From Table 1, extract the Recovery of RadDiff on the PDB2022 dataset; From Table 2, extract the TMscore of RadDiff under the Boltz2 structure prediction model. Report the two values in this format, [Recovery, TMscore]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": [76.22, 87.69],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 59,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.11327v3\\table1.jpg",
+            "table2": "2509.11327v3\\table2.jpg"
+        },
+        "caption": {
+            "table1": "TIME COMPLEXITY OF DIFFERENT ALGORITHMS",
+            "table2": "COMPARISON OF MODEL HYPERPARAMETER CONFIGURATIONS"
+        },
+        "question":"Based on Table 2, determine whether the order in which the models are presented matches the ranking of model complexity from highest to lowest (where model complexity is showed in table1). If the order is consistent, return the model names as a list ranked from highest to lowest complexity, [model1, model2, model3]; otherwise, return no. Respond only with a list or no.",
+        "question_type": "reasoning",
+        "answer": "[LSTM, GRU, FNN]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 60,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2512.08732v1\\table1.jpg",
+            "table2": "2512.08732v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "List of Controls and States relevant to the limonene and isopentenol pathways, for a total of 23 features with 600 rows (200 for each strain). The limonene and isopentenol pathways were trained independently.",
+            "table2": "Performance of NODE over baseline on the Isopentenol test data for varying regularization strengths (λ). Values are RMSE."
+        },
+        "question":"Considering only the state variables in Table 1 that are explicitly associated with PMK, extract their RMSE values under λ = 1.00 from Table 2, and compute the arithmetic mean of these RMSE values. Round the result to two decimal places, and respond only with a single number.",
+        "question_type": "reasoning",
+        "answer": 0.31,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 61,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2512.08732v1\\table1.jpg",
+            "table2": "2512.08732v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "List of Controls and States relevant to the limonene and isopentenol pathways, for a total of 23 features with 600 rows (200 for each strain). The limonene and isopentenol pathways were trained independently.",
+            "table2": "Performance of NODE over baseline on the Isopentenol test data for varying regularization strengths (λ). Values are RMSE."
+        },
+        "question":"Based on Table 1, classify the state variables appearing in Table 2 into the following three categories: Metabolic intermediates: [Acetyl-CoA, HMG-CoA, Mevalonate, Mev-P, IPP/DMAPP, GPP, Acetate, Pyruvate, Citrate]. Energy / cofactor-related variables: [NAD, NADP]. Observation / output-related variables: [OD600, Isopentenol]. Under λ = 0.01, extract the RMSE values of the above state variables from Table 2, and compute the arithmetic mean RMSE for each category. Return a list of three numbers in the following order: [mean RMSE of metabolic intermediates, mean RMSE of energy/cofactor variables, mean RMSE of observation/output variables], with each value rounded to two decimal places. Respond only with the list.",
+        "question_type": "reasoning",
+        "answer": [0.44, 0.66, 0.09],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 62,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2504.12351v1\\table1.jpg",
+            "table2": "2504.12351v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Subtyping prediction results of iBOT-Synth (fully synthetic dataset) iBOT-Hybrid (synthetic + TCGA) and baselines for five different subtyping tasks. The best performance is in bold, and the second best is underlined",
+            "table2": "Survival and prostate BCR prediction results of iBOT-Synth (fully synthetic dataset), iBOT-Hybrid (synthetic + TCGA), and baselines for two survival tasks and one prostate BCR task. The best performance is in bold, and the second best is underlined."
+        },
+        "question":"Under the iBOT-Hybrid model configuration for the Lung (PLCO) task: Extract the AUC and F1 values from Table 1 (subtyping prediction); Extract the c-index value from Table 2 (survival prediction). Report the results in the following order: [AUC, F1, c-index]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": [0.974, 0.893, 0.636],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 63,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2506.19106v1\\table1.jpg",
+            "table2": "2506.19106v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Frachet inception distance (FID) for skin, kidney and colon tissue samples. Color-normalized WSIs, generated by the eight methods and the original WSIs were compared using FID, a metric that uses high-level features extracted through the bottleneck layer of models like InceptionV3. Bold digits represent the best performing method.",
+            "table2": "Structural similarity index measure (SSIM) for skin, kidney and colon tissue samples. Color-normalized WSIs, generated by the eight methods, were compared against the original WSIs to test the (tissue) structural preservation of the methods, using structural similarity index measure (SSIM). Bold digits represent the best performing method."
+        },
+        "question":"Based on Table 1 and Table 2: Identify the evaluation metric used in each table; Report the metrics using their abbreviated names. Return the answer in table order as a list in the following format: [metric1, metric2]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": "[FID, SSIM]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 64,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2506.19106v1\\table1.jpg",
+            "table2": "2506.19106v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Frachet inception distance (FID) for skin, kidney and colon tissue samples. Color-normalized WSIs, generated by the eight methods and the original WSIs were compared using FID, a metric that uses high-level features extracted through the bottleneck layer of models like InceptionV3. Bold digits represent the best performing method.",
+            "table2": "Structural similarity index measure (SSIM) for skin, kidney and colon tissue samples. Color-normalized WSIs, generated by the eight methods, were compared against the original WSIs to test the (tissue) structural preservation of the methods, using structural similarity index measure (SSIM). Bold digits represent the best performing method."
+        },
+        "question":"Based on Table 1 and Table 2: Identify the evaluation metric used in each table; Report the metrics using their abbreviated names. Return the answer in table order as a list in the following format: [metric1, metric2]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer":  [134.57, 0.995],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 65,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.18642v1\\table1.jpg",
+            "table2": "2507.18642v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "THE COMPOSITION OF DATA FOR THE TWO DATASETS.",
+            "table2": "PERFORMANCE OF EACH MODEL ON TWO DATASETS. SV AND MV REPRESENT SINGLE-VIEW AND MULTI-VIEWS, RESPECTIVELY. BACKBONE OF THE NETWORK AFTER -."
+        },
+        "question":"In Table 2, two datasets are used to evaluate model performance. According to Table 1, which two corresponding dataset composition statistics (i.e., data composition summaries) do these datasets map to? Answer format: a list in the order of the datasets as they appear in Table 2.",
+        "question_type": "perceptual",
+        "answer": "[ Vindr-Mammo: Overall — 4,518 Benign (90.38%), 481 Malignant (9.62%), Total 4,999, CBIS-DDSM: Overall — 887 Benign (53.92%), 758 Malignant (46.08%), Total 1,645 ]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 66,
+        "items": ["table1", "table2"],
+        "path": {
+        },
+        "caption": {
+            "table1": "Training and validation MAE at different configurations of the activation functions in the inner layers.",
+            "table2": "Variation of the neural network architecture. Reported are the training and validation MAEs for NNs with 2, 3, and 4 hidden layers in the configuration ReLU-tanh"
+        },
+        "question":"Using the lowest validation MAE in Table 1 as the baseline (i.e., the best activation function configuration), compute the difference between the validation MAE of each width in Table 2 and this baseline. Then determine whether there exists any network width configuration in Table 2 that achieves a lower validation MAE than the best result in Table 1. Answer format: [existence, corresponding width (if exists)]. Respont only with a list.",
+        "question_type": "reasoning",
+        "answer": "[yes, 64]",
+        "answer_type": "text"
+    }
+]

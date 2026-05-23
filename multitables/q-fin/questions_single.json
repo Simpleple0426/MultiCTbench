@@ -1,0 +1,1394 @@
+[
+    {
+        "question_id": 1,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2508.14813v1\\table1.jpg",
+            "table2": "2508.14813v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Relative absolute difference for different number of basis function n and time to maturity theta on the option price compared to n = 10, with Y0 = D, h0 = 1, alpha = 0.1, T0 = 1, strike K = 1 and the intensity beta = 1. Pure jump case.",
+            "table2": "Relative absolute difference for different n and beta on the option price compared to n = 10, with Y0 = D, h0 = 1, alpha = 0.1, T0 = 2, strike K = 2 and the time to maturity theta = 1. Pure jump case."
+        },
+        "question":"How many different values of N are listed in Table 1? Answer format: respond with a single integer.",
+        "question_type": "perceptual",
+        "answer": 4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 2,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2508.14813v1\\table1.jpg",
+            "table2": "2508.14813v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Relative absolute difference for different number of basis function n and time to maturity theta on the option price compared to n = 10, with Y0 = D, h0 = 1, alpha = 0.1, T0 = 1, strike K = 1 and the intensity beta = 1. Pure jump case.",
+            "table2": "Relative absolute difference for different n and beta on the option price compared to n = 10, with Y0 = D, h0 = 1, alpha = 0.1, T0 = 2, strike K = 2 and the time to maturity theta = 1. Pure jump case."
+        },
+        "question":"Using the data from Table 1, create a visualization that shows how the relative error changes with maturity for different values of N. Please follow these requirements: Use a line chart. The x-axis should represent the time to maturity, with values 1,3,5,10,20. The y-axis should represent the relative error (in percent, %). Plot one separate line for each value of N (e.g., N = 2, 3, 5, 8), and include a legend. Requirements: Use the matplotlib library in Python. Answer format: respond with Python code only.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "line_chart",
+            "data": [
+                [1, 3, 5, 10, 20],
+                [0.06, 0.09, 0.33, 0.63, 0.65],
+                [0.01, 0.04, 0.03, 0.05, 0.04],
+                [0.01, 0.02, 0.01, 0.00, 0.00],
+                [0.00, 0.00, 0.00, 0.00, 0.00]
+            ],
+            "operation": null,
+            "title": "Relative Error vs Time to Maturity for Different N",
+            "xlabel": "Time to Maturity",
+            "ylabel": "Relative Error (%)",
+            "legend": true,
+            "tick": {
+                "xticklabels": [1, 3, 5, 10, 20], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": true,
+                "marker": true,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2508.17086v2\\table1.jpg",
+            "table2": "2508.17086v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance of JFDS with OC-SVM under varying oversampling ratios (β) using the combined loss function",
+            "table2": "Performance of JFDS with OC-SVM under different contrastive loss weight (α)"
+        },
+        "question": "In Table2, as α decreases from 1 to 0.8 and then to 0.5, how does the AUROC change? A. Increases significantly. B. Decreases significantly. C. Rises first and then falls. Repond only with a letter.",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2508.17906v2\\table1.jpg",
+            "table2": "2508.17906v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Local Extraction Efficiency scores across different extraction modes",
+            "table2": "Entropy scores across different extraction modes"
+        },
+        "question": "In Table 1, under the “Reflection” mode, which option has its value displayed in bold? A. Single Pass. B. Multi Pass. C. Reflection. D. No bold values exist. Respond only with a letter.",
+        "question_type": "perceptual",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2508.17906v2\\table1.jpg",
+            "table2": "2508.17906v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Local Extraction Efficiency scores across different extraction modes",
+            "table2": "Entropy scores across different extraction modes"
+        },
+        "question": "Based on the structure of Table2, provide a list [a,b,c], where: a = total number of rows (including header and data rows), b = total number of columns, c = number of submodules in the table. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": [15, 4, 4],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 6,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2508.17906v2\\table1.jpg",
+            "table2": "2508.17906v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Local Extraction Efficiency scores across different extraction modes",
+            "table2": "Entropy scores across different extraction modes"
+        },
+        "question": "In Table 1, which metrics increase monotonically from Single Pass → Multi Pass → Reflection across all three modes? List all such metrics in the same order as they appear in the table. Answer format: [metric1, metric2, ...].",
+        "question_type": "reasoning",
+        "answer": "[ECR, TCR, RCR]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.08742v1\\table1.jpg",
+            "table2": "2509.08742v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Main Results of Model Accuracy Comparison.",
+            "table2": "Model Prediction Accuracy Across Confidence  Score Groups."
+        },
+        "question": "In Table 1, how many specific maturities are listed under the Volatility ACC (%) columns? Respond only with a single number.",
+        "question_type": "perceptual",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.08742v1\\table1.jpg",
+            "table2": "2509.08742v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Main Results of Model Accuracy Comparison.",
+            "table2": "Model Prediction Accuracy Across Confidence  Score Groups."
+        },
+        "question": "In Table 2, compute the change from Low (%) to High (%) for each model (i.e., High − Low). Which model shows the largest change, and what is the value of this change? Respond with a single number.",
+        "question_type": "reasoning",
+        "answer": 7.65,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 9,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.08742v1\\table1.jpg",
+            "table2": "2509.08742v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Main Results of Model Accuracy Comparison.",
+            "table2": "Model Prediction Accuracy Across Confidence  Score Groups."
+        },
+        "question": "Using the data from Table 2, create a bar chart in Python with the matplotlib library. The x-axis should represent the model names (Qwen2.5-VL-3B, Qwen2.5-VL-7B, GRPO, GPT-4o, FinZero), and the y-axis should represent the High (%) values. Respond with Python code only.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "bar_chart",
+            "data": [
+                [49.3, 54.36, 54.61, 54.75, 62.13]
+            ],
+            "operation": null,
+            "title": "High (%) Performance by Model",
+            "xlabel": "Model",
+            "ylabel": "High(%)",
+            "legend": null,
+            "tick": {
+                "xticklabels": ["Qwen2.5-VL-3B", "Qwen2.5-VL-7B", "GRPO", "GPT-4o", "FinZero"], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.20239v1\\table1.jpg",
+            "table2": "2509.20239v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Results for a Geometric basket Put option",
+            "table2": "Results for a Max-Call option"
+        },
+        "question": "In Table 1, how does the KRR-DP price change as the dimension d increases? A. Decreases significantly. B. Increases significantly. C. Remains approximately unchanged. D. Increases first and then decreases. Respond only with a letter.",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 11,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.20239v1\\table1.jpg",
+            "table2": "2509.20239v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Results for a Geometric basket Put option",
+            "table2": "Results for a Max-Call option"
+        },
+        "question": "Using the data from Table 1, create a line chart that visualizes how the Prices of KRR-DP, GPR-Tree, GPR-EI, and GPR-MC change with the dimension  d. Use the Python matplotlib library to generate the plot and provide the complete Python code only.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "line_chart",
+            "data": [
+                [2, 5, 10, 20],
+                [4.63, 3.46, 2.98, 2.70],
+                [4.61, 3.44, 2.93, 2.72],
+                [4.57, 3.41, 2.93, 2.63],
+                [4.57, 3.41, 2.90, 2.70]
+            ],
+            "operation": null,
+            "title": "Price vs Dimension for Different Methods",
+            "xlabel": "Dimension d",
+            "ylabel": "Price",
+            "legend": true,
+            "tick": {
+                "xticklabels": [2, 5, 10, 20], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": true,
+                "marker": true,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1": "2509.24449v2\\table1.jpg",
+            "table2": "2509.24449v2\\table2.jpg",
+            "table3": "2509.24449v2\\table3.jpg"
+        },
+        "caption": {
+            "table1": "The error of four different methods",
+            "table2": "The error of four different methods",
+            "table3": "The error of four different methods"
+        },
+        "question": "Using Table 2 (K=100), compute the average error of each method across all N values and report the smallest average error. Respond only with a number.s",
+        "question_type": "reasoning",
+        "answer": 10.145,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.01526v1\\table1.jpg",
+            "table2": "2510.01526v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of LLM performance on financial QA tasks: Direct QA vs. QA supported by our EQD model. Underlined values indicate the higher score between Direct QA and EQD-supported QA. Bold values denote the best performance for each dataset.",
+            "table2": "Comparison of different methods for conducting QA tasks across different LLMs. The names of the baseline methods are abbreviated as described in Section 4.3. Since DP is a basic question decomposition baseline, we test two versions using GPT-3.5-turbo and GPT-4o as the question decomposition models, denoted as DP1 and DP2, respectively. The final column, ``Manual'', refers to the method in which we manually design question decomposition examples based on our findings for prompts, serving as an ablation study. Bold and underline values represent the best and second-best results for each row."
+        },
+        "question": "In table1, extract all model names listed below the dashed line and output them in order as a list. Format: [pmodel1,model2,…]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": "[FinMA, o3-mini]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 14,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.01526v1\\table1.jpg",
+            "table2": "2510.01526v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of LLM performance on financial QA tasks: Direct QA vs. QA supported by our EQD model. Underlined values indicate the higher score between Direct QA and EQD-supported QA. Bold values denote the best performance for each dataset.",
+            "table2": "Comparison of different methods for conducting QA tasks across different LLMs. The names of the baseline methods are abbreviated as described in Section 4.3. Since DP is a basic question decomposition baseline, we test two versions using GPT-3.5-turbo and GPT-4o as the question decomposition models, denoted as DP1 and DP2, respectively. The final column, ``Manual'', refers to the method in which we manually design question decomposition examples based on our findings for prompts, serving as an ablation study. Bold and underline values represent the best and second-best results for each row."
+        },
+        "question": "Using Table 1, compute the improvement of EQD over Direct on the FinQA dataset across all six models. Report a single value rounded to one decimal place (EQD average − Direct average). Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 5.9,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.02906v1\\table1.jpg",
+            "table2": "2510.02906v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Multi-hop QA performance by reasoning model and evidence retrieval mode using Qwen3-235B as LLM-Judge",
+            "table2": "Comparison of LLM-Judge scores using Qwen3-235B"
+        },
+        "question": "In Table 2, compute the average scores of GPT-OSS-20B across the three Evidence Modes (KG-linked, Page-window, Window+Distract). Round all three averages to two decimal places and report them as a list in the format: [num1, num2, num3]. Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": [7.45, 6.06, 6.29],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 16,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.02906v1\\table1.jpg",
+            "table2": "2510.02906v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Multi-hop QA performance by reasoning model and evidence retrieval mode using Qwen3-235B as LLM-Judge",
+            "table2": "Comparison of LLM-Judge scores using Qwen3-235B"
+        },
+        "question": "Using the data in Table 1, write Python matplotlib code to plot a bar chart: The x-axis shows the three Evidence Modes (KG-linked, Page-window, Window+Distract), and each mode contains four side-by-side bars representing the LLM-Judge scores of the four models (GPT-OSS-120B, GPT-OSS-20B, Qwen3-32B, Qwen3-8B). Include a title, axis labels, and a legend. Respond only with the python code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "grouped_bar_chart",
+            "data": [
+                [8.09, 7.12, 6.97],
+                [7.75, 6.46, 6.69],
+                [8.23, 6.59, 6.82],
+                [8.03, 5.77, 5.81]
+            ],
+            "operation": null,
+            "title": "LLM-Judge Scores under Different Evidence Modes",
+            "xlabel": "Evidence Mode",
+            "ylabel": "LLM-Judge Score",
+            "legend": true,
+            "tick": {
+                "xticklabels": ["KG-linked", "Page-window", "Window+Distract"], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2506.01423v1\\table1.jpg",
+            "table2": "2506.01423v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of Key Metrics in Bank Wire Transfer Processes Before and After GBPAs Optimization",
+            "table2": "Comparison of Key Metrics in Reimbursement Processes Before and After GBPAs Optimization"
+        },
+        "question": "According to Table 1, the number of Process Nodes decreases after optimization. Calculate the proportion of nodes reduced relative to the original number, rounding the result to two decimal places. Respond only with the numerical value.",
+        "question_type": "reasoning",
+        "answer": 0.31,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.20494v1\\table1.jpg",
+            "table2": "2507.20494v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Average LP behavior metrics across score bins (subset of validation set)",
+            "table2": "Average behavioral metrics across swap score bins"
+        },
+        "question": "Using all Avg Volume values in Table 2, compute their overall average and round the result to two decimal places. Respond only with the final numerical value in k dollars.",
+        "question_type": "reasoning",
+        "answer": 15634.17,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.03964v1\\table1.jpg",
+            "table2": "2509.03964v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Distribution of BTC interest rates for the 3 different maturities (90 days, 180 days, and 360 days) computed with the Deribit BTC inverse option dataset from 1st January 2022 to 31st December 2024.",
+            "table2": "Distribution of ETH interest rates for the 3 different maturities (90 days, 180 days, and 360 days) computed with the Deribit ETH inverse option dataset from 1st January 2022 to 31st December 2024."
+        },
+        "question": "In table1, how many decimal places are used in the Std value for the 180-day tenor? Respond only with a number.",
+        "question_type": "perceptual",
+        "answer": 4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 20,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.08467v1\\table1.jpg",
+            "table2": "2509.08467v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of predictive performance on the test set under different noise levels. The best values are bolded",
+            "table2": "Comparison of predictive performance on the test set for the real dataset. The best values are bolded."
+        },
+        "question": "What is the exact MAE value of the GBM model in the Low Noise section of Table 1? Respond only with a number.",
+        "question_type": "perceptual",
+        "answer": 664.89,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 21,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1": "2507.12657v1\\table1.jpg",
+            "table2": "2507.12657v1\\table2.jpg",
+            "table3": "2507.12657v1\\table3.jpg"
+        },
+        "caption": {
+            "table1": "For η = 0.005",
+            "table2": "For η = 0.005",
+            "table3": "For η = 0.005"
+        },
+        "question": "In Table 2, when Max Payoff = 30, what is the ratio of DistRL Price to MC Price (rounded to two decimal places)? Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 1.31,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2508.07151v2\\table1.jpg",
+            "table2": "2508.07151v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Hurst-Forecast Errors (MAE and MSE)",
+            "table2": "Pricing Bounds and Duality Gaps"
+        },
+        "question": "In Table 2, how many Methods are listed under the META section? Respond with a number only.",
+        "question_type": "perceptual",
+        "answer": 4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 23,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2508.07151v2\\table1.jpg",
+            "table2": "2508.07151v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Hurst-Forecast Errors (MAE and MSE)",
+            "table2": "Pricing Bounds and Duality Gaps"
+        },
+        "question": "In Table 2, compute the range for AAPL’s four Methods and report the largest range. Respond with a number only.",
+        "question_type": "reasoning",
+        "answer": 1.43,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 24,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2508.07151v2\\table1.jpg",
+            "table2": "2508.07151v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Hurst-Forecast Errors (MAE and MSE)",
+            "table2": "Pricing Bounds and Duality Gaps"
+        },
+        "question": "Using the four AAPL Methods in Table 2, create a grouped bar chart where each Method has two bars: one for the Lower Bound and one for the Upper Bound. Use Python matplotlib to generate the plot. Provide the executable plotting code only.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "grouped_bar_chart",
+            "data": [
+                [2.69, 2.68, 1.89, 2.04],
+                [4.12, 4.08, 2.40, 2.39]
+            ],
+            "operation": null,
+            "title": "AAPL Lower and Upper Bounds by Method",
+            "xlabel": "Method",
+            "ylabel": "Value ($)",
+            "legend": true,
+            "tick": {
+                "xticklabels": [
+                    "Linear Signature",
+                    "Extended Linear Signature",
+                    "Deep Log-Signature",
+                    "Deep Kernel Method"
+                ], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 25,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2508.14577v1\\table1.jpg",
+            "table2": "2508.14577v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Model Performance under moneyness category by rolling window approach with size 90.",
+            "table2": "Model Performance under moneyness category by rolling window approach with size 180."
+        },
+        "question": "Using the MAE values from the MAE section of Table 2， create a grouped bar chart for the three models (PIV, BS, HS). The x-axis should represent the four moneyness categories: ITM, OTM, ATM, ALL; the y-axis should show the MAE values for each model. Generate the figure using Python’s matplotlib library and provide only the executable plotting code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "grouped_bar_chart",
+            "data": [
+                [38.6962, 12.0293, 38.2951, 26.4330],
+                [48.9129, 29.5032, 75.2467, 54.0835],
+                [47.8571, 16.0753, 43.0964, 30.9744]
+            ],
+            "operation": null,
+            "title": "MAE Comparison Across Models and Moneyness Categories",
+            "xlabel": "Moneyness Category",
+            "ylabel": "MAE",
+            "legend": true,
+            "tick": {
+                "xticklabels": ["ITM", "OTM", "ATM", "ALL"], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1": "2509.00485v2\\table1.jpg",
+            "table2": "2509.00485v2\\table2.jpg",
+            "table3": "2509.00485v2\\table3.jpg"
+        },
+        "caption": {
+            "table1": "EOC in τ -direction for S0 = 8, NS = 100, NL = 80.",
+            "table2": "EOC in S-direction for S0 = 8, NT = 2000, NL = 50.",
+            "table3": "EOC in L-direction for S0 = 8, NT = 3000, NS = 60."
+        },
+        "question": "How many entries in the EOC column of the Writer price section in Table 2 are left blank? Respond only with a number.",
+        "question_type": "perceptual",
+        "answer": 2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1": "2509.00485v2\\table1.jpg",
+            "table2": "2509.00485v2\\table2.jpg",
+            "table3": "2509.00485v2\\table3.jpg"
+        },
+        "caption": {
+            "table1": "EOC in τ -direction for S0 = 8, NS = 100, NL = 80.",
+            "table2": "EOC in S-direction for S0 = 8, NT = 2000, NL = 50.",
+            "table3": "EOC in L-direction for S0 = 8, NT = 3000, NS = 60."
+        },
+        "question": "Based on Table 2, examine the trend of the Holder price Value as the number of steps increases from 20 → 60 → 100 → 140. Which of the following statements is correct? A. It increases monotonically. B. It increases first and then decreases. C. It decreases monotonically. D. The pattern is irregular. Respond only with a letter.",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1": "2509.00485v2\\table1.jpg",
+            "table2": "2509.00485v2\\table2.jpg",
+            "table3": "2509.00485v2\\table3.jpg"
+        },
+        "caption": {
+            "table1": "EOC in τ -direction for S0 = 8, NS = 100, NL = 80.",
+            "table2": "EOC in S-direction for S0 = 8, NT = 2000, NL = 50.",
+            "table3": "EOC in L-direction for S0 = 8, NT = 3000, NS = 60."
+        },
+        "question": "In Table 2, as the number of steps increases from 60 to 140, what is the variation range of the Writer price Difference. Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 0.0429,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 29,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.10878v1\\table1.jpg",
+            "table2": "2510.10878v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Machine Learning Strategy Performance Summary",
+            "table2": "Strategy Performance Comparison"
+        },
+        "question": "Using the data in Table 2, create a grouped bar chart where the x-axis contains the four metrics (Annualized Return, Sharpe Ratio, Win Rate, Max Drawdown), and each metric shows two bars (Traditional Strategy and ML Enhanced Strategy). Provide executable Python matplotlib code. Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "grouped_bar_chart",
+            "data": [
+                [16.64, 0.72, 67.41, 15.54],
+                [34.13, 1.19, 72.30, 11.35]
+            ],
+            "operation": null,
+            "title": "Performance Comparison Between Strategies",
+            "xlabel": "Performance Metric",
+            "ylabel": "Value",
+            "legend": true,
+            "tick": {
+                "xticklabels": ["Annualized Return", "Sharpe Ratio", "Win Rate", "Max Drawdown"], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 30,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.10878v1\\table1.jpg",
+            "table2": "2510.10878v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Machine Learning Strategy Performance Summary",
+            "table2": "Strategy Performance Comparison"
+        },
+        "question": "Using Table 2, calculate the relative growth rate of the Annualized Return for the ML Enhanced Strategy compared with the Traditional Strategy. Round the result to two decimals and respond with the number only (e.g., 1.19).",
+        "question_type": "reasoning",
+        "answer": 1.05,
+        "answer_type": "numeric"
+    },
+
+    
+    {
+        "question_id": 31,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.20047v1\\table1.jpg",
+            "table2": "2510.20047v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Error measurement when Heston model is implemented.",
+            "table2": "Error measurement when BNS model is implemented"
+        },
+        "question": "Using the four metrics (RMSE, APE, AAE, ARPE) from Table 2, create a grouped bar chart for the three covariate groups. Requirements: The x-axis shows the four metrics. Each metric has three bars for the three covariate groups. Provide complete matplotlib code only.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "grouped_bar_chart",
+            "data": [
+                [0.1708, 0.0002, 0.0001, 0.0001],
+                [0.1704, 0.0001, 0.0001, 0.0001],
+                [0.1088, 0.0002, 0.0001, 0.0002]
+            ],
+            "operation": null,
+            "title": "Comparison of Error Metrics Across Covariate Groups",
+            "xlabel": "Metric",
+            "ylabel": "Value",
+            "legend": true,
+            "tick": {
+                "xticklabels": ["RMSE", "APE", "AAE", "ARPE"], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 32,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.07358v1\\table1.jpg",
+            "table2": "2507.07358v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Fair guarantee fees ϕ ∗ (in basis points) with a ratchet under a static and dynamic withdrawal strategy for various marginal tax rates θ and cash account appreciation rates η.",
+            "table2": "Fair guarantee fees ϕ * (in basis points) under a static and dynamic withdrawal strategy for various marginal tax rates θ, when the benefit base is updated by a ratchet mechanism or not and η = 4%"
+        },
+        "question": "In Table 1, which tax-rate row contains the largest number of “NA” entries? Respond only with the value of θ without percent.",
+        "question_type": "perceptual",
+        "answer": 20,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 33,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.07358v1\\table1.jpg",
+            "table2": "2507.07358v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Fair guarantee fees ϕ ∗ (in basis points) with a ratchet under a static and dynamic withdrawal strategy for various marginal tax rates θ and cash account appreciation rates η.",
+            "table2": "Fair guarantee fees ϕ * (in basis points) under a static and dynamic withdrawal strategy for various marginal tax rates θ, when the benefit base is updated by a ratchet mechanism or not and η = 4%"
+        },
+        "question": "In Table 2, for the tax rate θ = 2.5%, compare the Dynamic values under No Cash Fund / No Ratchet and Cash Fund / No Ratchet. What is the difference between the two values? Respond only with the numerical value.",
+        "question_type": "reasoning",
+        "answer": 126.9771,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 34,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.18560v1\\table1.jpg",
+            "table2": "2507.18560v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance of super-agent vs. benchmarks and meta-agents (2018–2024).",
+            "table2": "Comparison of meta-agents and super-agent with state-of the-art RL-based portfolio optimization strategies."
+        },
+        "question": "Based on the structure of Table 2, into how many categories can the models (strategies) listed in the table be grouped according to the grouping implied by the table layout.  Respond only with a number.",
+        "question_type": "perceptual",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.18560v1\\table1.jpg",
+            "table2": "2507.18560v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance of super-agent vs. benchmarks and meta-agents (2018–2024).",
+            "table2": "Comparison of meta-agents and super-agent with state-of the-art RL-based portfolio optimization strategies."
+        },
+        "question": "Using the Annualized ROI (%) values of the six RL strategies in Table 2 (DQN, DDPG, PPO, CNN-RL, RNN-RL, LSTM-RL), plot a bar chart. Respond only with runnable Python code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "bar_chart",
+            "data": [[26.0, 20.0, 19.0, 22.0, 19.5, 21.0]],
+            "operation": null,
+            "title": "Annualized ROI of RL Strategies",
+            "xlabel": "RL Strategy",
+            "ylabel": "Annualized ROI (%)",
+            "legend": null,
+            "tick": {
+                "xticklabels": ["DQN", "DDPG", "PPO", "CNN-RL", "RNN-RL", "LSTM-RL"], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.22088v1\\table1.jpg",
+            "table2": "2509.22088v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance of the EW portfolio and the optimal portfolio of (1) (with γ = 100) with Factordiff (500 samples), Emp, and ShrEmp estimates of stock return moments.",
+            "table2": "Performance of the EW portfolio and the optimal portfolio of (2) (with γ = 100) with Factordiff (100, 500, and 1000 samples), Emp, and ShrEmp estimates of stock return moments. Transaction fees are included."
+        },
+        "question": "Which strategy has the bolded Sharpe value under the “Transaction Fees Ignored” section in Table 1? Respond only with the strategy name.",
+        "question_type": "perceptual",
+        "answer": "Factordiff",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2501.17490v2\\table1.jpg",
+            "table2": "2501.17490v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Full in-sample model comparison.",
+            "table2": "Out-of-sample results."
+        },
+        "question":"Compute the average MSE of the three models HAR, LHAR, and LHAR-CJ in Table 2,  and round the result to three decimal places. Respond with a single numerical value.",
+        "question_type": "reasoning",
+        "answer": 0.124,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 38,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.13391v1\\table1.jpg",
+            "table2": "2507.13391v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "VaR Model Backtesting Results (95% Confidence Level, 2020-2023)",
+            "table2": "Economic Loss Function Comparison"
+        },
+        "question":"How many distinct loss-metric columns are there in Table 2? Respond only with a number.",
+        "question_type": "perceptual",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 39,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.13391v1\\table1.jpg",
+            "table2": "2507.13391v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "VaR Model Backtesting Results (95% Confidence Level, 2020-2023)",
+            "table2": "Economic Loss Function Comparison"
+        },
+        "question":"In Table 1, identify all models that pass both the UC Test and the CC Test (i.e., p-value ≥ 0.05 for both tests). Respond in the format: [model1, model2, …]. Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": "[GARCH-t, Filtered Historical, EVaR]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 40,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.12911v1\\table1.jpg",
+            "table2": "2510.12911v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Critical values for the beta estimators. This table reports the critical values for testing whether beta equals zero at significance levels 5% and 10% and for local window sizes 5, 10, and 20. The left panel shows the critical values for the return-based beta estimator derived from the Student t-distribution. The right panel shows the critical values for the candlestick-based beta estimator computed using Monte Carlo simulations. The interval width is defined as the upper critical value minus the lower critical value.",
+            "table2": "Asymptotic Risk of Estimators for Different rho Values. This table presents the asymptotic risk of three estimators: the return-based estimator, the candlestick-based estimator, and an oracle estimator that minimizes asymptotic risk given the true correlation structure. Results are reported for local window sizes 5, 10, and 20 and for correlation levels 0, 0.2, and 0.6. The asymptotic risk is computed using Monte Carlo simulations."
+        },
+        "question":"In Table 1, at the 5% significance level and window size k = 10, what is the interval width (Width) of the Candlestick method? Respond only with a number.",
+        "question_type": "perceptual",
+        "answer": 2.890,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.12911v1\\table1.jpg",
+            "table2": "2510.12911v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Critical values for the beta estimators. This table reports the critical values for testing whether beta equals zero at significance levels 5% and 10% and for local window sizes 5, 10, and 20. The left panel shows the critical values for the return-based beta estimator derived from the Student t-distribution. The right panel shows the critical values for the candlestick-based beta estimator computed using Monte Carlo simulations. The interval width is defined as the upper critical value minus the lower critical value.",
+            "table2": "Asymptotic Risk of Estimators for Different rho Values. This table presents the asymptotic risk of three estimators: the return-based estimator, the candlestick-based estimator, and an oracle estimator that minimizes asymptotic risk given the true correlation structure. Results are reported for local window sizes 5, 10, and 20 and for correlation levels 0, 0.2, and 0.6. The asymptotic risk is computed using Monte Carlo simulations."
+        },
+        "question":"In Table 1, list all significance level α values. Respond a list in the format: [value1, value2, …]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": "[5%, 10%]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.12911v1\\table1.jpg",
+            "table2": "2510.12911v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Critical values for the beta estimators. This table reports the critical values for testing whether beta equals zero at significance levels 5% and 10% and for local window sizes 5, 10, and 20. The left panel shows the critical values for the return-based beta estimator derived from the Student t-distribution. The right panel shows the critical values for the candlestick-based beta estimator computed using Monte Carlo simulations. The interval width is defined as the upper critical value minus the lower critical value.",
+            "table2": "Asymptotic Risk of Estimators for Different rho Values. This table presents the asymptotic risk of three estimators: the return-based estimator, the candlestick-based estimator, and an oracle estimator that minimizes asymptotic risk given the true correlation structure. Results are reported for local window sizes 5, 10, and 20 and for correlation levels 0, 0.2, and 0.6. The asymptotic risk is computed using Monte Carlo simulations."
+        },
+        "question":"Using the 5% significance-level data from Table 1, plot a line chart showing how the interval width (Width) of the Return method and the Candlestick method changes with the window size k (5, 10, 20). Requirements: the x-axis represents k, the y-axis represents the interval width, and the two lines correspond to the Return and Candlestick methods. Respond only with runnable Python matplotlib code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "line_chart",
+            "data": [
+                [5, 10, 20],
+                [5.552, 4.524, 4.186],
+                [3.072, 2.890, 2.812]
+            ],
+            "operation": null,
+            "title": "Interval Width vs Window Size (α = 5%)",
+            "xlabel": "k",
+            "ylabel": "Interval Width",
+            "legend": true,
+            "tick": {
+                "xticklabels": [5, 10, 20], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": true,
+                "marker": true,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 43,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.21347v1\\table1.jpg",
+            "table2": "2510.21347v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "RMSEytm in a falling market, Y1 = 10**3, Y2 = 10**4",
+            "table2": "RMSEytm in a falling market, LR = 10**(-8), epochs= 10**3"
+        },
+        "question":"How many different learning rates (LR) are presented in Table 1? Respond only with a number.",
+        "question_type": "perceptual",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 44,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.21347v1\\table1.jpg",
+            "table2": "2510.21347v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "RMSEytm in a falling market, Y1 = 10**3, Y2 = 10**4",
+            "table2": "RMSEytm in a falling market, LR = 10**(-8), epochs= 10**3"
+        },
+        "question":"Using the data from Table 1, plot a line chart of RMSE versus epochs (200, 500, 1000) with three lines for LR = 10⁻⁷, 10⁻⁸, and 10⁻⁹. Show all lines in one figure with different colors, add a legend and axis labels. Respond with runnable matplotlib code only.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "line_chart",
+            "data": [
+                [200, 500, 1000],
+                [0.2110, 0.2033, 0.2929],
+                [0.1972, 0.1790, 0.1726],
+                [4.2559, 3.6105, 2.5843]
+            ],
+            "operation": null,
+            "title": "RMSE vs Epochs under Different Learning Rates",
+            "xlabel": "Epochs",
+            "ylabel": "RMSE",
+            "legend": true,
+            "tick": {
+                "xticklabels":  [200, 500, 1000], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": true,
+                "marker": true,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 45,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.01979v1\\table1.jpg",
+            "table2": "2507.01979v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Baseline Model Performance by Industry",
+            "table2": "Model Performance by Industry on Employment Forecasting"
+        },
+        "question":"In Table 1, extract the Oracle Model and Persistence Model RMSE values for the Manufacturing industry, and present them as a list in the format: [Oracle_RMSE, Persistence_RMSE]. Respond only with the list.",
+        "question_type": "perceptual",
+        "answer": [0.157, 0.66],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 46,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.01979v1\\table1.jpg",
+            "table2": "2507.01979v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Baseline Model Performance by Industry",
+            "table2": "Model Performance by Industry on Employment Forecasting"
+        },
+        "question":"In Table 2, compute the average MSE and the average MAE across all industries. Present the two averages as a list in the format: [average_MSE, average_MAE]. Respond only with the list.",
+        "question_type": "reasoning",
+        "answer": [0.13774, 0.16445],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 47,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.01979v1\\table1.jpg",
+            "table2": "2507.01979v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Baseline Model Performance by Industry",
+            "table2": "Model Performance by Industry on Employment Forecasting"
+        },
+        "question":"Using Table 2, plot a grouped bar chart comparing MSE and MAE for each industry. Each industry should form one group with two bars (MSE and MAE). Use matplotlib and include axis labels, a legend, and a title. Respond only with runnable Python code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "grouped_bar_chart",
+            "data": [
+                [0.0454, 0.0358, 0.0290, 0.1383, 0.2787, 0.0572, 0.1816, 0.4272, 0.0189, 0.1653],
+                [0.1284, 0.0980, 0.1117, 0.2051, 0.1400, 0.1443, 0.2793, 0.2331, 0.0737, 0.2309]
+            ],
+            "operation": null,
+            "title": "Comparison of MSE and MAE Across Industries",
+            "xlabel": "Industry",
+            "ylabel": "Error Value",
+            "legend": true,
+            "tick": {
+                "xticklabels": [
+                    "Construction",
+                    "Education/Health",
+                    "Financial Activities",
+                    "Information",
+                    "Leisure/Hospitality",
+                    "Manufacturing",
+                    "Natural Resources",
+                    "Other Services",
+                    "Professional Services",
+                    "Transport/Utilities"
+                ], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    }, 
+
+    {
+        "question_id": 48,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.15876v1\\table1.jpg",
+            "table2": "2507.15876v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Lower triangle of the correlation matrix between factor portfolios and the SG CTA Trend Index benchmark returns over the evaluation period.",
+            "table2": "Risk and return statistics for trend and market factor portfolios (daily sampling). Bold numbers indicate the best metric in each row."
+        },
+        "question":"In Table 2, some strategies are composite strategies formed by combining multiple base strategies (i.e., their names contain “+”). Count how many such composite strategies appear in the table. Respond only with an integer.",
+        "question_type": "perceptual",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 49,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.10542v1\\table1.jpg",
+            "table2": "2509.10542v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Model Performance Comparison on the ETH-USDT Test Period.",
+            "table2": "Simulated Trading Profitability Comparison on ETH-USDT (Test Period, Initial Capital: 100 USDT)"
+        },
+        "question":"In Table 2, the four active trading strategies are Standard LSTM Trading, Standard TFT Trading, FL-Cat-TFT Trading, and Adaptive TFT Trading. Compute the average Final Asset Value of these four strategies and determine whether this average is higher than the Final Asset Value of Buy and Hold. Respond in the format: [average value, yes or no]. Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": "[111.655, yes]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 50,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.10542v1\\table1.jpg",
+            "table2": "2509.10542v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Model Performance Comparison on the ETH-USDT Test Period.",
+            "table2": "Simulated Trading Profitability Comparison on ETH-USDT (Test Period, Initial Capital: 100 USDT)"
+        },
+        "question":"Using the four models in Table 1 (Standard LSTM, Standard TFT, FL-Cat-TFT, Adaptive TFT) and their four metrics (Accuracy, Precision, Recall, Specificity), plot a grouped bar chart with the following requirements: 1. The x-axis shows the model names; the y-axis shows the metric values (%). 2. Each model forms one group with four bars (one for each metric). 3. Include a legend and a chart title. 4. Use matplotlib to generate the visualization. Respond only with runnable Python code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "grouped_bar_chart",
+            "data": [
+                [49.15, 47.75, 50.32, 51.36],
+                [49.90, 48.90, 50.11, 51.11],
+                [49.80, 48.61, 58.72, 92.31],
+                [49.70, 48.90, 52.79, 19.28]
+            ],
+            "operation": null,
+            "title": "Performance Comparison Across Models and Metrics",
+            "xlabel": "Model",
+            "ylabel": "Metric Value (%)",
+            "legend": true,
+            "tick": {
+                "xticklabels": ["Standard LSTM", "Standard TFT", "FL-Cat-TFT", "Adaptive TFT"], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 51,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.16137v1\\table1.jpg",
+            "table2": "2509.16137v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Validation set negative log-likelihood (NLL) across model architectures and feature sets. The best model for each feature set is italicized; the best overall result is both italicized and bolded.",
+            "table2": "Negative log-likelihood (NLL) on validation and test sets for the best-performing Transformer models and a standard normal baseline. The lowest NLL for each dataset is shown in bold."
+        },
+        "question":"In Table 1, compute the NLL reduction (Basic − Full) for each model. Which model shows the largest decrease in NLL? Provide the model name and the reduction value. Answer format: [model name, value]. Respond only with the list.",
+        "question_type": "reasoning",
+        "answer": "[MLP, 0.0252]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 52,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.03236v1\\table1.jpg",
+            "table2": "2510.03236v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": ": Models predict in 5-day increments. MSE values have been divided by 1,000,000 to improve numerical interpretability.",
+            "table2": ": Models predict in 10-day increments. MSE values have been divided by 1,000,000 to improve numerical interpretability."
+        },
+        "question":"Plot a grouped bar chart using the MSE and MAPE values from Table 1: 1. The x-axis shows the four models. 2. Each model has two bars (MSE and MAPE). 3. Include a legend and a title. Use matplotlib and respond with runnable Python code only.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "grouped_bar_chart",
+            "data": [
+                [27.09, 24.33, 25.89, 23.92],
+                [3.40, 3.12, 3.55, 3.11]
+            ],
+            "operation": null,
+            "title": "MSE and MAPE Comparison Across Models",
+            "xlabel": "Model",
+            "ylabel": "Value",
+            "legend": true,
+            "tick": {
+                "xticklabels": ["HAR", "Markov Soft EM", "Distributional Clustering", "Coefficient Clustering"], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 53,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.15903v1\\table1.jpg",
+            "table2": "2510.15903v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Overall Performance Comparison by Model Type",
+            "table2": "Individual Model Performance Ranking (Based on Sharpe Ratio)"
+        },
+        "question":"How many models in Table 2 belong to the Classical type? Respond only with a number.",
+        "question_type": "perceptual",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 54,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.14960v1\\table1.jpg",
+            "table2": "2507.14960v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance of Statistical Models",
+            "table2": "Performance of Machine Learning Models."
+        },
+        "question":"In Table 1, what is the cumulative profit (Cum. Profit) of the HBOS model in dollars? Respond only with a number.",
+        "question_type": "perceptual",
+        "answer": 70.27,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 55,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.14960v1\\table1.jpg",
+            "table2": "2507.14960v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance of Statistical Models",
+            "table2": "Performance of Machine Learning Models."
+        },
+        "question":"In Table 2, how many models are included? Respond only with an integer.",
+        "question_type": "perceptual",
+        "answer": 9,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 56,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.14960v1\\table1.jpg",
+            "table2": "2507.14960v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance of Statistical Models",
+            "table2": "Performance of Machine Learning Models."
+        },
+        "question":"In Table 2, compute the range of the #Short Trades (maximum minus minimum) across all models. Provide the numerical value only.",
+        "question_type": "reasoning",
+        "answer": 4478,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 57,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.18417v1\\table1.jpg",
+            "table2": "2507.18417v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Weighted F1 scores of the evaluated sentiment-based methods on the FPB, TFNS, and NWGI financial sentiment datasets. HIV-4, VADER, and LMD are lexicon-based baselines. FinBERT and FinLlama are SFT classification LLMs, while Instruct-FinGPT, FinGPT v3.3 and FinSFT are instruction-tuned causal LLMs. FinDPO is our proposed DPO-aligned causal LLM. FinBERT is excluded from evaluation on FPB due to data leakage, as it was originally trained on the full FPB dataset.",
+            "table2": "Performance metrics of the sentiment-based portfolios at no transaction cost. For each metric, the best performance is shown in bold, and the second-best is underlined."
+        },
+        "question":"In Table 1, which model has a Weighted F1 score of 0.440 on the NWGI dataset? Respond only with the model name.",
+        "question_type": "perceptual",
+        "answer": "LMD",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 58,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.18417v1\\table1.jpg",
+            "table2": "2507.18417v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Weighted F1 scores of the evaluated sentiment-based methods on the FPB, TFNS, and NWGI financial sentiment datasets. HIV-4, VADER, and LMD are lexicon-based baselines. FinBERT and FinLlama are SFT classification LLMs, while Instruct-FinGPT, FinGPT v3.3 and FinSFT are instruction-tuned causal LLMs. FinDPO is our proposed DPO-aligned causal LLM. FinBERT is excluded from evaluation on FPB due to data leakage, as it was originally trained on the full FPB dataset.",
+            "table2": "Performance metrics of the sentiment-based portfolios at no transaction cost. For each metric, the best performance is shown in bold, and the second-best is underlined."
+        },
+        "question":"In Table 2, counting from left to right, at which column position is the Sharpe column header located? Respond only with an integer.",
+        "question_type": "perceptual",
+        "answer": 4,
+        "answer_type": "numeric"
+    },
+
+
+    {
+        "question_id": 59,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.18417v1\\table1.jpg",
+            "table2": "2507.18417v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Weighted F1 scores of the evaluated sentiment-based methods on the FPB, TFNS, and NWGI financial sentiment datasets. HIV-4, VADER, and LMD are lexicon-based baselines. FinBERT and FinLlama are SFT classification LLMs, while Instruct-FinGPT, FinGPT v3.3 and FinSFT are instruction-tuned causal LLMs. FinDPO is our proposed DPO-aligned causal LLM. FinBERT is excluded from evaluation on FPB due to data leakage, as it was originally trained on the full FPB dataset.",
+            "table2": "Performance metrics of the sentiment-based portfolios at no transaction cost. For each metric, the best performance is shown in bold, and the second-best is underlined."
+        },
+        "question":"Using the data from Table 2, plot a grouped bar chart comparing the following five metrics across seven methods (S&P 500, HIV-4, VADER, LMD, FinBERT, FinLlama, FinDPO):Cumulative Return, Annualized Return, Sharpe, Sortino, Calmar.Requirements: One group per model, five bars per group.Use matplotlib with legend and title.Respond with runnable Python code only.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "grouped_bar_chart",
+            "data": [
+                [83.12, 90.07, 82.81, 139.88, 199.19, 260.74, 747.10],
+                [11.34, 12.88, 11.76, 20.62, 29.64, 39.47, 111.78],
+                [0.62, 0.81, 0.75, 1.26, 1.65, 2.33, 3.41],
+                [0.81, 1.25, 1.21, 1.96, 2.39, 3.48, 6.05],
+                [0.41, 0.67, 0.34, 1.17, 1.24, 3.30, 11.94]
+            ],
+            "operation": null,
+            "title": "Performance Comparison Across Methods ",
+            "xlabel": "Method",
+            "ylabel": "Metric Value",
+            "legend": true,
+            "tick": {
+                "xticklabels": ["S&P 500", "HIV-4", "VADER", "LMD", "FinBERT", "FinLlama", "FinDPO"], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    
+    {
+        "question_id": 60,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2508.02366v3\\table1.jpg",
+            "table2": "2508.02366v3\\table2.jpg"
+        },
+        "caption": {
+            "table1": "EXPERIMENT 2 RESULTS: SHARPE RATIO",
+            "table2": "EXPERIMENT 2 RESULTS: MAXIMUM DRAWDOWN"
+        },
+        "question":"In Table 1, what is the LLM+RL Sharpe Ratio value for TSLA? Respond only with the numerical value (without the σ in parentheses).",
+        "question_type": "perceptual",
+        "answer": 0.92,
+        "answer_type": "numeric"
+    }
+]

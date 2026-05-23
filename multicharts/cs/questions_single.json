@@ -1,0 +1,1162 @@
+[
+    {
+        "question_id": 1,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2502.10923v2\\chart1.jpg",
+            "chart2": "2502.10923v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "UPI interference under multi-application scenarios, showing normalized cycles with page-walk overhead highlighted and performance improvement annotated relative to Mitosis.",
+            "chart2": "Memory bandwidth interference under multi-application scenarios, showing normalized cycles with page-walk overhead highlighted and performance improvement annotated relative to Mitosis."
+        },
+        "question": "Which visual element is used in Chart 1 to distinguish page-walk overhead from other execution time? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "Hatched bar segments",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 2,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2502.10923v2\\chart1.jpg",
+            "chart2": "2502.10923v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "UPI interference under multi-application scenarios, showing normalized cycles with page-walk overhead highlighted and performance improvement annotated relative to Mitosis.",
+            "chart2": "Memory bandwidth interference under multi-application scenarios, showing normalized cycles with page-walk overhead highlighted and performance improvement annotated relative to Mitosis."
+        },
+        "question": "In Chart 1, which workload type is most sensitive to changes in page-walk overhead? A. Key-value. B. Graph. C. Tree-based. D. All equally. Respond only with a single letter.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.15076v1\\chart1.jpg",
+            "chart2": "2512.15076v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Overall performance comparison of BODE-GEN and baseline prompting methods using ChatGPT-3.5 (Turbo) as the base LLM, measured by the percentage of HumanEval+ tasks solved with 100% correctness.",
+            "chart2": "Overall performance comparison of BODE-GEN and baseline prompting methods using CodeLlama-7b as the base LLM, measured by the percentage of HumanEval+ tasks solved with 100% correctness."
+        },
+        "question": "What color is used to represent BODE-GEN in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "light green",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.15076v1\\chart1.jpg",
+            "chart2": "2512.15076v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Overall performance comparison of BODE-GEN and baseline prompting methods using ChatGPT-3.5 (Turbo) as the base LLM, measured by the percentage of HumanEval+ tasks solved with 100% correctness.",
+            "chart2": "Overall performance comparison of BODE-GEN and baseline prompting methods using CodeLlama-7b as the base LLM, measured by the percentage of HumanEval+ tasks solved with 100% correctness."
+        },
+        "question": "Which prompting method ranks second in performance in Chart 1? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "OPRO",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.19509v1\\chart1.jpg",
+            "chart2": "2512.19509v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Transfer learning performance on low-resource languages for code summarization, showing BLEU scores and improvement rates over the non-fine-tuned baseline.",
+            "chart2": "Transfer learning performance on low-resource languages for code search, showing accuracy and improvement rates over the non-fine-tuned baseline."
+        },
+        "question": "From Chart 2, extract the Java-SFT improvement rate (IR) for Swift. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 10.14,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 6,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.19509v1\\chart1.jpg",
+            "chart2": "2512.19509v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Transfer learning performance on low-resource languages for code summarization, showing BLEU scores and improvement rates over the non-fine-tuned baseline.",
+            "chart2": "Transfer learning performance on low-resource languages for code search, showing accuracy and improvement rates over the non-fine-tuned baseline."
+        },
+        "question": "From Chart 1, extract the BLEU scores of all languages under Base, Java-SFT, and Python-SFT, and organize them into the following 2D table with header row: [[Language, Base_BLEU, Java_SFT_BLEU, Python_SFT_BLEU], …]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Language", "Base_BLEU", "Java_SFT_BLEU", "Python_SFT_BLEU"],
+            ["Kotlin", 15.74, 17.06, 16.51],
+            ["Haskell", 14.91, 16.27, 15.94],
+            ["Swift", 12.66, 15.17, 14.89],
+            ["AppleScript", 10.38, 10.97, 11.24]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.22443v1\\chart1.jpg",
+            "chart2": "2512.22443v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Multi-Calculation Benchmark (3-shot CoT): Accuracy comparison across different models.",
+            "chart2": "Accounting-Reasoning Benchmark (3-shot CoT): Model accuracy across difficulty levels."
+        },
+        "question": "Compute the Accuracy difference between GPT-4 and GLM-130B in Chart 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 42.75,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.22443v1\\chart1.jpg",
+            "chart2": "2512.22443v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Multi-Calculation Benchmark (3-shot CoT): Accuracy comparison across different models.",
+            "chart2": "Accounting-Reasoning Benchmark (3-shot CoT): Model accuracy across difficulty levels."
+        },
+        "question": "From Chart 2, extract the Accuracy values of GPT-4 and GLM-4 at each difficulty level, and organize them into the following 2D table with the header row where rows correspond to difficulty levels and columns correspond to models: [[Difficulty, GPT-4, GLM-4]]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Difficulty", "GPT-4", "GLM-4"],
+            ["Easy", 27.14, 40.00],
+            ["Normal", 20.51, 14.10],
+            ["Medium", 21.01, 25.21],
+            ["Hard", 5.11, 13.87]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 9,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.22615v1\\chart1.jpg",
+            "chart2": "2512.22615v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "BlockWorlds (grounding): Performance of VLMs on grounding tasks in the BlockWorlds setting across action/task types and difficulty levels.",
+            "chart2": "BlockWorlds (planning): Performance of VLMs on planning tasks in the BlockWorlds setting across action/task types and difficulty levels."
+        },
+        "question": "In Chart 1, which model shows a clear pattern of decreasing Accuracy as difficulty increases in both Action and Task categories? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Qwen2.5-VL-7B-Instruct",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.22615v1\\chart1.jpg",
+            "chart2": "2512.22615v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "BlockWorlds (grounding): Performance of VLMs on grounding tasks in the BlockWorlds setting across action/task types and difficulty levels.",
+            "chart2": "BlockWorlds (planning): Performance of VLMs on planning tasks in the BlockWorlds setting across action/task types and difficulty levels."
+        },
+        "question": "In Chart 2, which model shows a notably higher Accuracy at Action·Simple compared to other Action difficulties? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Dream-VL-7B",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 11,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.22705v1\\chart1.jpg",
+            "chart2": "2512.22705v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "English dataset label distribution",
+            "chart2": "Urdu dataset label distribution"
+        },
+        "question": "If a sample is randomly drawn from Chart 1, which label is it most likely to belong to? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Not Hope",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.22705v1\\chart1.jpg",
+            "chart2": "2512.22705v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "English dataset label distribution",
+            "chart2": "Urdu dataset label distribution"
+        },
+        "question": "In Chart 1, what color is used to represent the Not Hope category? Respond only with a single color name.",
+        "question_type": "perceptual",
+        "answer": "teal",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.22738v1\\chart1.jpg",
+            "chart2": "2512.22738v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Heatmap of F1-scores showing the effect of different curated data ratios, indicating an optimal performance around 50%.",
+            "chart2": "Performance comparison between a homologous weak model (BioSelectTune-8B at 50%) and a domain-specific weak model (BioSelectTune with BioGPT) for data filtering, showing consistent superiority of the homologous model across datasets."
+        },
+        "question": "From Chart 2, extract the F1-scores of both models across all datasets and organize them into the following 2D table with a header row: [[Dataset, BioSelectTune_8B, BioSelectTune_BioGPT], …]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Dataset", "BioSelectTune_8B", "BioSelectTune_BioGPT"],
+            ["NCBI-Disease", 88.29, 77.20],
+            ["BC5CDR-Chemical", 91.93, 84.32],
+            ["BC5CDR-Disease", 85.71, 75.96],
+            ["BC2GM", 81.44, 76.49]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 14,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.22738v1\\chart1.jpg",
+            "chart2": "2512.22738v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Heatmap of F1-scores showing the effect of different curated data ratios, indicating an optimal performance around 50%.",
+            "chart2": "Performance comparison between a homologous weak model (BioSelectTune-8B at 50%) and a domain-specific weak model (BioSelectTune with BioGPT) for data filtering, showing consistent superiority of the homologous model across datasets."
+        },
+        "question": "In Chart 1, what is the F1-score value of the cell with the darkest color intensity? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 91.97,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23078v1\\chart1.jpg",
+            "chart2": "2512.23078v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Relative accuracy gain from including images, by medium.",
+            "chart2": "Relative accuracy gain from including images, by category."
+        },
+        "question": "Which categories in Chart 2 have negative relative accuracy gains? Respond only with a list of strings.",
+        "question_type": "reasoning",
+        "answer": "[LAP, OMP]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 16,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23196v1\\chart1.jpg",
+            "chart2": "2512.23196v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Test Accuracy of deep learning models on the 3-band (V3) and 4-band (V4) datasets.",
+            "chart2": "IoU performance of deep learning models on the 3-band (V3) and 4-band (V4) datasets."
+        },
+        "question": "In Chart 1, what colors are used to represent the 3-band and 4-band datasets? Respond only with a list of strings in the order [3-band, 4-band].",
+        "question_type": "perceptual",
+        "answer": "[blue, gray]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23196v1\\chart1.jpg",
+            "chart2": "2512.23196v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Test Accuracy of deep learning models on the 3-band (V3) and 4-band (V4) datasets.",
+            "chart2": "IoU performance of deep learning models on the 3-band (V3) and 4-band (V4) datasets."
+        },
+        "question": "From Chart 2, extract the IoU values of all models under the 3-band and 4-band settings and organize them into the following 2D table with a header row: [[Model, IoU_3band, IoU_4band], …]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Model", "IoU_3band", "IoU_4band"],
+            ["UNet", 0.9111, 0.7142],
+            ["UNet++", 0.9081, 0.8862],
+            ["ResUNet", 0.8957, 0.9144],
+            ["Attention UNet", 0.8967, 0.9168],
+            ["ResNet50-segnet", 0.8826, 0.8977]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23206v1\\chart1.jpg",
+            "chart2": "2512.23206v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "The distribution of source abstracts’ discipline in BiomedTLDR.",
+            "chart2": "The distribution of source abstracts’ discipline in CiteSum."
+        },
+        "question": "How many discipline categories are displayed in Chart 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 19,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23206v1\\chart1.jpg",
+            "chart2": "2512.23206v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "The distribution of source abstracts’ discipline in BiomedTLDR.",
+            "chart2": "The distribution of source abstracts’ discipline in CiteSum."
+        },
+        "question": "Which range best approximates the combined percentage of the top three disciplines in Chart 1? Respond only with a single letter. A. 50%–60% B. 60%–70% C. 70%–80% D. 80%–90%",
+        "question_type": "reasoning",
+        "answer": "D",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 20,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23347v1\\chart1.jpg",
+            "chart2": "2512.23347v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Impact of Lead Dropout on Morphology vs. Rhythm. Morphology classes (red) degrade significantly without spatial context (−12.0%), while Rhythm classes (green) remain robust (+2.1%), validating the physiological disentanglement hypothesis.",
+            "chart2": "Comprehensive ablation study. The significant performance drop when removing either the Context (Mamba) or Rhythm (HRV) component validates the necessity of the proposed multi-view design."
+        },
+        "question": "Based on Chart 2(a), removing which component causes the largest drop in Macro F1? A. Context (Mamba) B. HRV C. Morphology (MiniRocket) D. Lead Dropout Respond only with a single letter.",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 21,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23347v1\\chart1.jpg",
+            "chart2": "2512.23347v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Impact of Lead Dropout on Morphology vs. Rhythm. Morphology classes (red) degrade significantly without spatial context (−12.0%), while Rhythm classes (green) remain robust (+2.1%), validating the physiological disentanglement hypothesis.",
+            "chart2": "Comprehensive ablation study. The significant performance drop when removing either the Context (Mamba) or Rhythm (HRV) component validates the necessity of the proposed multi-view design."
+        },
+        "question": "From Chart 1, extract the Macro F1 values of Morphology and Rhythm under all lead dropout scenarios and organize them into the following 2D table with the header row: [[Scenario, Morphology_F1, Rhythm_F1], …]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Scenario", "Morphology_F1", "Rhythm_F1"],
+            ["Baseline", 0.329, 0.448],
+            ["Lead V2", 0.331, 0.451],
+            ["Lead V5", 0.326, 0.449],
+            ["Limb Leads (I-aVF)", 0.309, 0.449],
+            ["Chest Leads (V1-V6)", 0.290, 0.458]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23427v1\\chart1.jpg",
+            "chart2": "2512.23427v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Pearson correlation coefficient ρ between error maps and uncertainty maps for each method, averaged across samples per dataset. Higher positive values indicate better correlation, with the LA giving the strongest error alignment.",
+            "chart2": "Radar plot illustrating Brier scores of the UQ methods, averaged across samples per dataset. Lower scores indicate better probabilistic performance."
+        },
+        "question": "In Chart 2, which method achieves the lowest Brier score on most datasets? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Variance Network",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 23,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23512v2\\chart1.jpg",
+            "chart2": "2512.23512v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Ablation results on MMBench for different vision generation configurations, comparing baseline with +ploss, +diffuloss, and +warmup across training scales.",
+            "chart2": "Ablation results on SeedBench for different vision generation configurations, comparing baseline with +ploss, +diffuloss, and +warmup across training scales."
+        },
+        "question": "In Chart 1, what color represents the baseline method? Respond only with a single color name.",
+        "question_type": "perceptual",
+        "answer": "green",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 24,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23545v1\\chart1.jpg",
+            "chart2": "2512.23545v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Ablation study on the combination of input RoIs when screening RCC.",
+            "chart2": "Ablation study on the number of ICL samples."
+        },
+        "question": "Which method in Chart 1 shows the most stable performance (smallest fluctuation) as the number of RoIs increases from 1 to 10? A. Top-k RoIs (10×) B. Top-k RoIs (20×) C. Top-k & Random-m RoIs (10×) D. Top-3 & Random-2 RoIs (10×) Respond only with a single letter.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 25,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23565v2\\chart1.jpg",
+            "chart2": "2512.23565v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution of Question Types in the SF-QA Dataset. The dataset covers 6 balanced types of tasks, ranging from fundamental information extraction to advanced mechanistic reasoning and structural recognition.",
+            "chart2": "Comparative performance analysis of inference-time reasoning (“Think”) versus standard instruction-tuned (“Instruct”) models across diverse cognitive tasks. The visualization highlights the “reasoning leap” in complex mechanistic and synthetic tasks achieved by thinking models (red/green lines) compared to standard baselines (blue/yellow lines), while also illustrating the universal bottleneck in precise structure recognition."
+        },
+        "question": "How many task types in Chart 1 have percentages above the mean percentage? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23565v2\\chart1.jpg",
+            "chart2": "2512.23565v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution of Question Types in the SF-QA Dataset. The dataset covers 6 balanced types of tasks, ranging from fundamental information extraction to advanced mechanistic reasoning and structural recognition.",
+            "chart2": "Comparative performance analysis of inference-time reasoning (“Think”) versus standard instruction-tuned (“Instruct”) models across diverse cognitive tasks. The visualization highlights the “reasoning leap” in complex mechanistic and synthetic tasks achieved by thinking models (red/green lines) compared to standard baselines (blue/yellow lines), while also illustrating the universal bottleneck in precise structure recognition."
+        },
+        "question": "From Chart 1, extract the question count and percentage for each task type and organize them into the following 2D table with the header row: [[Task_Type, Count, Percentage], …]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Task_Type", "Count", "Percentage"],
+            ["Fact Extraction", 568, 37.2],
+            ["Reagent Roles & Functions", 252, 16.5],
+            ["Mechanism & Process", 296, 19.4],
+            ["Comparative Analysis & Reasoning", 216, 14.2],
+            ["Structure Recognition", 134, 8.8],
+            ["Global Understanding", 59, 3.9]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23628v1\\chart1.jpg",
+            "chart2": "2512.23628v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Effect of guidance scale on memorization in the base model, showing training and test Fréchet Distance as a function of guidance scale w.",
+            "chart2": "Effect of guidance scale on memorization in the large model, showing training and test Fréchet Distance as a function of guidance scale w."
+        },
+        "question": "What fill color is used to indicate memorization regions in Chart 1? Respond only with a single color name.",
+        "question_type": "perceptual",
+        "answer": "light green",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23628v1\\chart1.jpg",
+            "chart2": "2512.23628v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Effect of guidance scale on memorization in the base model, showing training and test Fréchet Distance as a function of guidance scale w.",
+            "chart2": "Effect of guidance scale on memorization in the large model, showing training and test Fréchet Distance as a function of guidance scale w."
+        },
+        "question": "At which guidance scale does the training Fréchet Distance in Chart 1 first fall below the memorization=0 reference line? Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 29,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23647v1\\chart1.jpg",
+            "chart2": "2512.23647v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Performance of the proposed NestBrowse on the challenging BrowseComp deep IS benchmark.",
+            "chart2": "Intra-page exploration performance over inner-loop instances, evaluated using 100 trajectories per benchmark."
+        },
+        "question": "What is the approximate rank of NestBrowse-4B among all models in Chart 1? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 30,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23647v1\\chart1.jpg",
+            "chart2": "2512.23647v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Performance of the proposed NestBrowse on the challenging BrowseComp deep IS benchmark.",
+            "chart2": "Intra-page exploration performance over inner-loop instances, evaluated using 100 trajectories per benchmark."
+        },
+        "question": "From Chart 1, extract the scores of the top six models and organize them into the following 2D table with a header row: [[Model, Score], …]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Model", "Score"],
+            ["NestBrowse-30B-A3B", 31.6],
+            ["UTARS-2", 29.6],
+            ["OpenAI-o4-mini", 28.3],
+            ["GLM-4.5B", 26.4],
+            ["NestBrowse-4B", 22.4],
+            ["Claude-4-Opus", 18.8]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 31,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23766v1\\chart1.jpg",
+            "chart2": "2512.23766v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Median cluster purity for Indian Pines.",
+            "chart2": "Median cluster purity for UCF YouTube Action."
+        },
+        "question": "At which n_centers does SVBF exhibit the highest uncertainty in Chart 1? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 6,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 32,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23773v1\\chart1.jpg",
+            "chart2": "2512.23773v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Routing result of VAEs along time during the test phase. The x-axis represents the timestamp. The y-axis represents the proportion of different market dynamics.",
+            "chart2": "Risk-aware routing performance over time. The x-axis denotes the timestamp, and the y-axis shows the returns of FineFT and the subagents."
+        },
+        "question": "What color is used to represent the Bull market state in Chart 1? Respond only with a single color name.",
+        "question_type": "perceptual",
+        "answer": "black",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 33,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23835v1\\chart1.jpg",
+            "chart2": "2512.23835v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Top Bias Indicators for the bias-detector model.",
+            "chart2": "Top Bias Indicators for the bias-detector model."
+        },
+        "question": "Which bias indicator appears at the bottom of Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "frantically",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 34,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23835v1\\chart1.jpg",
+            "chart2": "2512.23835v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Top Bias Indicators for the bias-detector model.",
+            "chart2": "Top Bias Indicators for the bias-detector model."
+        },
+        "question": "In Chart 1, how many bias indicators have Mean |SHAP| values greater than 0.55? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 6,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23898v1\\chart1.jpg",
+            "chart2": "2512.23898v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Model Comparison on the Test Dataset: Performance Metrics Comparison and Inference Throughput Comparison",
+            "chart2": "Radar Chart of Standardized Performance Metrics"
+        },
+        "question": "How many different performance metrics are displayed in Chart 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23898v1\\chart1.jpg",
+            "chart2": "2512.23898v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Model Comparison on the Test Dataset: Performance Metrics Comparison and Inference Throughput Comparison",
+            "chart2": "Radar Chart of Standardized Performance Metrics"
+        },
+        "question": "From the left subplot of Chart 1 (Performance Metrics Comparison), extract all numeric values for every model across all performance metrics, and organize them into the following 2D table with a header row: [[Model, MSE_div100, RMSE, MAE, MASE_mul100, R2_mul100], …] Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Model", "MSE_div100", "RMSE", "MAE", "MASE_mul100", "R2_mul100"],
+            ["LSTM", 28.92, 53.5, 26.9, 0.53, 96.9],
+            ["CNN-LSTM", 31.21, 57.2, 28.8, 0.59, 96.4],
+            ["MLP", 30.65, 55.9, 27.8, 0.55, 96.1],
+            ["1D-CNN", 32.90, 59.6, 32.4, 0.64, 96.9],
+            ["TCN", 28.56, 53.4, 25.3, 0.50, 97.4]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23994v1\\chart1.jpg",
+            "chart2": "2512.23994v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Audio-physics distribution of PhyAVBench.",
+            "chart2": "Scenario distribution of PhyAVBench across different scenario types."
+        },
+        "question": "How many first-level audio-physics categories (inner ring) are shown in Chart 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 6,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 38,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24002v1\\chart1.jpg",
+            "chart2": "2512.24002v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Paced Rhythm: Activation ratio distribution across 7 group combinations from HUG under the Paced Rhythm condition.",
+            "chart2": "Supraventricular Arrhythmia: Activation ratio distribution across 7 group combinations from HUG under the Supraventricular Arrhythmia condition."
+        },
+        "question": "Compute the difference between the maximum and minimum activation ratios in Chart 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 42.1,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 39,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24023v1\\chart1.jpg",
+            "chart2": "2512.24023v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Performance comparison on RefCOCO and RefCOCO+ benchmarks (val/testA/testB) using a radar chart.",
+            "chart2": "Performance comparison on ReasonSeg benchmark (val and test) in terms of gIoU and cIoU across different methods."
+        },
+        "question": "How many axes (evaluation splits) are shown in the radar chart of Chart 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 8,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 40,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24023v1\\chart1.jpg",
+            "chart2": "2512.24023v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Performance comparison on RefCOCO and RefCOCO+ benchmarks (val/testA/testB) using a radar chart.",
+            "chart2": "Performance comparison on ReasonSeg benchmark (val and test) in terms of gIoU and cIoU across different methods."
+        },
+        "question": "From Chart 2, extract both gIoU and cIoU values on ReasonSeg val and ReasonSeg test for all models, and organize them into the following 2D table with a header row: [[Model, Val_gIoU, Val_cIoU, Test_gIoU, Test_cIoU], …] Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Model", "Val_gIoU", "Val_cIoU", "Test_gIoU", "Test_cIoU"],
+            ["LISA 7B", 53.6, 52.3, 48.8, 47.1],
+            ["Seg-Zero 7B", 62.6, 62.0, 57.5, 52.0],
+            ["SAM3 Agent 7B", 65.4, 50.5, 62.6, 56.2],
+            ["RSAgent", 69.0, 68.3, 66.5, 57.9]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24077v1\\chart1.jpg",
+            "chart2": "2512.24077v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Evolutionary Effect & Efficiency.",
+            "chart2": "Score Convergence over Time. Note: Faint lines represent individual runs (N = 3), and bold lines represent the average trajectory."
+        },
+        "question": "From Chart 1, extract the annotated Top Score value of the Executor Ablation – Chat Mode. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.995,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24077v1\\chart1.jpg",
+            "chart2": "2512.24077v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Evolutionary Effect & Efficiency.",
+            "chart2": "Score Convergence over Time. Note: Faint lines represent individual runs (N = 3), and bold lines represent the average trajectory."
+        },
+        "question": "Which experimental mode ranks second by Top Score in Chart 1? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Executor Ablation – Chat Mode",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 43,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24100v1\\chart1.jpg",
+            "chart2": "2512.24100v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Information Sparsity Probe (1× Down-Sampling). We evaluate semantic robustness by testing retrieval performance under random token dropping, showing that the high-frequency representation exhibits higher redundancy with slower decay in Cosine similarity and Top-1 accuracy.",
+            "chart2": "Information Sparsity Probe (4× Down-Sampling). We evaluate semantic robustness under stronger temporal compression, showing faster performance degradation under token dropping compared to the 1× representation, indicating lower redundancy and higher semantic density."
+        },
+        "question": "Compute the decrease in Cosine similarity from Original to Drop-20% in Chart 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 9.8,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 44,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24100v1\\chart1.jpg",
+            "chart2": "2512.24100v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Information Sparsity Probe (1× Down-Sampling). We evaluate semantic robustness by testing retrieval performance under random token dropping, showing that the high-frequency representation exhibits higher redundancy with slower decay in Cosine similarity and Top-1 accuracy.",
+            "chart2": "Information Sparsity Probe (4× Down-Sampling). We evaluate semantic robustness under stronger temporal compression, showing faster performance degradation under token dropping compared to the 1× representation, indicating lower redundancy and higher semantic density."
+        },
+        "question": "From Chart 1, extract the values of FID, Top-1, MPJPE, and Cosine under all conditions and organize them into the following 2D table with the header row: [[Condition, FID, Top1, MPJPE, Cosine], …] Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Condition", "FID", "Top1", "MPJPE", "Cosine"],
+            ["Original", 0.05, 59.68, 14.78, 95.19],
+            ["Drop-10%", 4.12, 51.53, 59.68, 91.47],
+            ["Drop-20%", 19.39, 38.38, 99.08, 85.39]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 45,
+        "items": ["chart1","chart2", "chart3"],
+        "path": {
+            "chart1": "2512.24103v1\\chart1.jpg",
+            "chart2": "2512.24103v1\\chart2.jpg",
+            "chart3": "2512.24103v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Performance on Blocksworld with increasing number of few-shot exemplars in the planning prompt.",
+            "chart2": "Performance on Mini-Grid with increasing number of few-shot exemplars in the planning prompt.",
+            "chart3": "Performance on Logistics with increasing number of few-shot exemplars in the planning prompt." 
+        },
+        "question": "In Chart 1, across how many adjacent few-shot intervals does the No-Critique Accuracy decrease? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 46,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24125v1\\chart1.jpg",
+            "chart2": "2512.24125v1\\chart2.jpg",
+            "chart3": "2512.24125v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Real-robot language following evaluation. GenieReasoner consistently outperforms continuous baselines (e.g., π₀, π₀.₅), confirming that aligning the action space with the VLM’s discrete reasoning space significantly reduces target identification errors.",
+            "chart2": "Real-robot task success rates. This metric measures the full completion of the task, specifically whether the robot successfully grasps and manipulates the target object.",
+            "chart3": "Overall performance comparison in the real world. This metric prioritizes stable execution while accounting for semantic correctness."
+        },
+        "question": "In Chart 1, which model exhibits the smallest variance across all six task categories? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "GenieReasoner",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 47,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24138v1\\chart1.jpg",
+            "chart2": "2512.24138v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Learning curves and out-of-distribution (o.o.d.) generalization results on the GenEval task.",
+            "chart2": "Learning curves and out-of-distribution (o.o.d.) generalization results on the OCR task."
+        },
+        "question": "Which model reaches a Proxy Reward of approximately 0.90 at the earliest training step in Chart 1? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Flow-GRPO",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 48,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24138v1\\chart1.jpg",
+            "chart2": "2512.24138v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Learning curves and out-of-distribution (o.o.d.) generalization results on the GenEval task.",
+            "chart2": "Learning curves and out-of-distribution (o.o.d.) generalization results on the OCR task."
+        },
+        "question": "Which β value clearly causes convergence at a lower reward level in Chart 2? Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.04,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 49,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24263v1\\chart1.jpg",
+            "chart2": "2512.24263v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "The average generation length of models trained with different algorithms, sampled under helpfulness and harmlessness prompts.",
+            "chart2": "The average generation length of models trained with different algorithms, sampled under helpfulness and harmlessness prompts."
+        },
+        "question": "From Chart 2, what is the average generation length of SACPO (P) [0.5]? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 1212,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 50,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24263v1\\chart1.jpg",
+            "chart2": "2512.24263v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "The average generation length of models trained with different algorithms, sampled under helpfulness and harmlessness prompts.",
+            "chart2": "The average generation length of models trained with different algorithms, sampled under helpfulness and harmlessness prompts."
+        },
+        "question": "In Chart 2, how many models have an average generation length between 700 and 900 (inclusive)? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 51,
+        "items": ["chart1","chart2", "chart3"],
+        "path": {
+            "chart1": "2512.24278v1\\chart1.jpg",
+            "chart2": "2512.24278v1\\chart2.jpg",
+            "chart3": "2512.24278v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Precision–recall area under the curve (PR-AUC) across four rare-lesion categories and the macro-average (Overall), comparing eight data generation strategies.",
+            "chart2": "Receiver operating characteristic area under the curve (ROC-AUC) across four rare-lesion categories and the macro-average (Overall), comparing eight data generation strategies.",
+            "chart3": "TPR@20% FPR (true positive rate at a fixed 20% false positive rate) across four rare-lesion categories and the macro-average (Overall), comparing eight data generation strategies."
+        },
+        "question": "In Chart 1, which strategy exhibits the largest variation in PR-AUC across different disease categories? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Textual Inversion",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 52,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24391v1\\chart1.jpg",
+            "chart2": "2512.24391v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Whisker boxplots of reconstruction error for the seven BiGAN model variants used in the ablation study in Stage 1. Each boxplot illustrates the IQR ranges between 1st quartile (Q1) and the 3rd quartile (Q3) and extends upto the Lower (LL) and Upper Limits (UL).",
+            "chart2": "Graph illustrating the performance of FAST-IDS (Stage 1) with respect to other SOTA baselines in terms of recall percentages."
+        },
+        "question": "Which model in Chart 1 exhibits the widest distribution range based on whisker length? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "M5",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 53,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24391v1\\chart1.jpg",
+            "chart2": "2512.24391v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Whisker boxplots of reconstruction error for the seven BiGAN model variants used in the ablation study in Stage 1. Each boxplot illustrates the IQR ranges between 1st quartile (Q1) and the 3rd quartile (Q3) and extends upto the Lower (LL) and Upper Limits (UL).",
+            "chart2": "Graph illustrating the performance of FAST-IDS (Stage 1) with respect to other SOTA baselines in terms of recall percentages."
+        },
+        "question": "From Chart 1, extract the Q3 values of all models and organize them into the following 2D table with a header row: [[Model, Q3], …]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Model", "Q3"],
+            ["M1", 3.19],
+            ["M2", 3.10],
+            ["M3", 2.94],
+            ["M4", 1.97],
+            ["M5", 3.02],
+            ["M6", 1.66],
+            ["M7", 2.65]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 54,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24449v1\\chart1.jpg",
+            "chart2": "2512.24449v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "K Cache Compression Ratio vs Pack Size, evaluated under the optimal repacking method at each data point.",
+            "chart2": "V Cache Compression Ratio vs Pack Size, evaluated under the optimal repacking method at each data point."
+        },
+        "question": "In Chart 1, which model shows the largest increase in K Cache Compression Ratio from Pack Size = 8 to 16? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Llama-2-13b-hf",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 55,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24470v1\\chart1.jpg",
+            "chart2": "2512.24470v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Model awareness vs latency, showing only the pareto frontier.",
+            "chart2": "Awareness leaderboard, only showing the per-provider pareto frontier."
+        },
+        "question": "In Chart 1, which model achieves the highest awareness among those with latency no greater than 20 seconds? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "gpt-5-low",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 56,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24687v1\\chart1.jpg",
+            "chart2": "2512.24687v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Fidelity between the target words constructed using glosses from WordNet and those constructed using glosses from ChatGPT 3.5. A shows that a large number of samples did not achieve 90% fidelity, indicating a semantic bias between WordNet and ChatGPT 3.5. B shows that after representation with quantum superposition states, the fidelity between WordNet and ChatGPT 3.5 reached 95%, suggesting hope for mitigating semantic bias.",
+            "chart2": "In the samples where CIM made incorrect disambiguations, the output value by both CIM and Q-VWSD."
+        },
+        "question": "Which representation shows a longer tail in the low-fidelity region (<0.75) in Chart 1? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 57,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24796v1\\chart1.jpg",
+            "chart2": "2512.24796v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Formal proof accuracy (pass@4) across LeanCat model baselines.",
+            "chart2": "Intermediate natural-language (NL) vs. formal-language (FL) (pass@4) accuracy on LeanCat, highlighting the natural-to-formal gap."
+        },
+        "question": "Which model in Chart 1 shows the smallest variation in accuracy across difficulty levels? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "kimi-k2-0905-preview",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 58,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24796v1\\chart1.jpg",
+            "chart2": "2512.24796v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Formal proof accuracy (pass@4) across LeanCat model baselines.",
+            "chart2": "Intermediate natural-language (NL) vs. formal-language (FL) (pass@4) accuracy on LeanCat, highlighting the natural-to-formal gap."
+        },
+        "question": "From Chart 2, extract the pass@4 Accuracy of all models across all difficulty levels and organize them into the following 2D table with the header row: [[Model, All, Easy, Medium, High], …]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Model", "All", "Easy", "Medium", "High"],
+            ["gpt-5.2", 7.0, 30.0, 7.1, 0.0],
+            ["gemini-3-pro", 8.0, 25.0, 2.4, 0.0],
+            ["deepseek-reasoner", 9.0, 40.0, 4.8, 0.0],
+            ["kimi-k2", 4.0, 20.0, 0.0, 0.0]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 59,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24867v1\\chart1.jpg",
+            "chart2": "2512.24867v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Performance comparison between single-statement judgment and multi-statement comprehensive understanding tasks.",
+            "chart2": "Accuracy of Qwen3 hybrid models (0.6B–32B) under non-thinking and thinking modes."
+        },
+        "question": "In Chart 2, which model size shows the largest Accuracy improvement when switching from Non-thinking to Thinking mode? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Qwen3 14B",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 60,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24867v1\\chart1.jpg",
+            "chart2": "2512.24867v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Performance comparison between single-statement judgment and multi-statement comprehensive understanding tasks.",
+            "chart2": "Accuracy of Qwen3 hybrid models (0.6B–32B) under non-thinking and thinking modes."
+        },
+        "question": "From Chart 1, extract the Accuracy values of all models under Multiple Choice Question and True/False Question settings, and organize them into the following 2D table with the header row: [[Model, MCQ_Accuracy, TF_Accuracy], …] Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Model", "MCQ_Accuracy", "TF_Accuracy"],
+            ["Qwen2.5-72B-Instruct", 25.03, 59.29],
+            ["Qwen2.5-32B-Instruct", 25.31, 59.11],
+            ["DeepSeek-V3-0324", 30.85, 57.20],
+            ["Qwen3-32B", 37.28, 66.89],
+            ["DeepSeek-R1", 48.99, 69.28]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 61,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24922v1\\chart1.jpg",
+            "chart2": "2512.24922v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution of volumes of vehicle annotations. These distributions result from the cultural and geographical features as well as from the labeling guideline.",
+            "chart2": "Distribution of LiDAR points in the annotation boxes. These distributions result from the point cloud density and the labeling policy."
+        },
+        "question": "What is the approximate numerical range of the x-axis in Chart 1 (from minimum to maximum)? Respond only with a list of two numeric values.",
+        "question_type": "perceptual",
+        "answer": [5, 25],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 62,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24985v1\\chart1.jpg",
+            "chart2": "2512.24985v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Room category distribution",
+            "chart2": "Question category distribution"
+        },
+        "question": "Based on Chart 1, what is the probability (in percentage) that a randomly sampled instance belongs to either kitchen or bathroom? Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 33,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 63,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24985v1\\chart1.jpg",
+            "chart2": "2512.24985v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Room category distribution",
+            "chart2": "Question category distribution"
+        },
+        "question": "From Chart 2, extract all question categories and their percentage values and organize them into the following 2D table with the header row: [[Category, Percentage], …] Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Category","Percentage"],
+            ["Object Recognition",42],
+            ["Object Attribute",25],
+            ["Closest Object Recognition",12],
+            ["Room Affordance Check",12],
+            ["Room-Type Recognition",9]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 64,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.25070v1\\chart1.jpg",
+            "chart2": "2512.25070v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Results on OpenForesight May–Aug 2025, showing accuracy and calibration (Brier score) improvements from forecasting training on open-ended questions.",
+            "chart2": "Results on FutureX July–Aug 2025, showing accuracy and calibration (Brier score) improvements from forecasting training on an external benchmark."
+        },
+        "question": "In Chart 1, how many models have Accuracy above 35% and Brier Score above 0.13? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 2,
+        "answer_type": "numeric"
+    }
+]

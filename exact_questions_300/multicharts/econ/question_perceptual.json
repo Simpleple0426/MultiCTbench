@@ -1,0 +1,211 @@
+[
+    {
+        "question_id": 6,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.16224v1\\chart1.jpg",
+            "chart2": "2510.16224v1\\chart2.jpg"
+        },
+
+        "caption": {
+            "chart1": "Coverage for exchangeable data with homogeneous varia",
+            "chart2": "Coverage for Exchangeable Data with Hetergeneous Variance"
+        },
+        "question":"From chart1 to chart2, which full-sample method shows a decrease in its Adaptive coverage value?Respond only with the method name, such as Equal (full).",
+        "question_type": "perceptual",
+        "answer": "Regression (full)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.16224v1\\chart1.jpg",
+            "chart2": "2510.16224v1\\chart2.jpg"
+        },
+
+        "caption": {
+            "chart1": "Coverage for exchangeable data with homogeneous varia",
+            "chart2": "Coverage for Exchangeable Data with Hetergeneous Variance"
+        },
+        "question":"Based on chart1 (Figure 1: homogeneous variance) and chart2 (Figure 3: heterogeneous variance), which of the following statements are correct? A. Overall, the Non-adaptive coverage of the split-sample methods in chart1 is higher than in chart2. B. Overall, the Non-adaptive coverage of the split-sample methods in chart1 is lower than in chart2. C. Overall, the Adaptive coverage of the split-sample methods in chart1 is higher than in chart2. D. Overall, the Adaptive coverage of the split-sample methods in chart1 is lower than in chart2. This is a multiple-choice question. Respond only with the choices, such as [A, B]. ",
+        "question_type": "perceptual",
+        "answer": "[A, D]",
+        "answer_type": "choice_list"
+    },
+
+    {
+        "question_id": 30,
+        "items": ["chart1"],
+        "path": {
+            "chart1": "2510.06903v1\\chart1.jpg"
+        },
+        "caption": {
+            "chart1": "RMSE under different price trajectories, network-effect strengths, and history lengths. The five panels report LLM agents’ RMSE relative to the FEE benchmark across Static, Decreasing, Increasing, Converging, and Diverging price paths. The horizontal axis indicates the available history window (1, 7, 13), and bars compare weak vs. strong network effects. Longer histories generally reduce RMSE, while stronger network effects consistently increase deviation, especially in non-monotonic trajectories."
+        },
+        "question":"Are the numbers of bars the same across all panels? If yes, respond only with yes. If not, respond only with the title of the panel where the bar count differs.",
+        "question_type": "perceptual",
+        "answer": "(A) Static",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.08856v1\\chart1.jpg",
+            "chart2": "2510.08856v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Event Study Results for Paid Labor Outcomes in highly exposed districts as treatment group. Here, the quarter April 2018–June 2018 (t = −1) is used as reference period. Note: Circular dots and vertical lines show estimates and 95% confidence intervals. —— Employment Participation",
+            "chart2": "Event Study Results for Paid Labor Outcomes in highly exposed districts as treatment group. Here, the quarter April 2018–June 2018 (t = −1) is used as reference period. Note: Circular dots and vertical lines show estimates and 95% confidence intervals. —— Event Study: Weekly Working Hours"
+        },
+        "question":"What is the event-time value used as the baseline on the x-axis? Respond with the number only.",
+        "question_type": "perceptual",
+        "answer": -1,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 57,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.03377v1\\chart1.jpg",
+            "chart2": "2511.03377v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Short PBD: Number of applied-for jobs by fixed durations, showing job application behavior over months relative to unemployment onset for individuals with short potential benefit duration.",
+            "chart2": "Long PBD: Number of applied-for jobs by fixed durations, showing job application behavior over months relative to unemployment onset for individuals with long potential benefit duration."
+        },
+        "question": "Which marker shape represents the realized unemployment duration of 15 in both Chart 1 and Chart 2? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "circle",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 70,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23078v1\\chart1.jpg",
+            "chart2": "2512.23078v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Artist: Distribution of artworks by selected artists",
+            "chart2": "Medium: Distribution of artworks by medium type"
+        },
+        "question": "What visualization type is used in both Chart 1 and Chart 2? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "bar chart",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.02632v1\\chart1.jpg",
+            "chart2": "2511.02632v1\\chart2.jpg"
+        },
+
+        "caption": {
+            "chart1": "Empirical coverage and interval lengths for settings (S1), (S2), and (S3) described in Section 7.3. The panels from top to bottom respectively correspond to (S1), (S2), and (S3), where x-axis plots the values of τ*. Normality refers to the Normality CI defined in (43), OBA denotes the OBA CI in (44), and Proposed corresponds to the proposed CI in (31).",
+            "chart2": "Sensitivity of coverage and average length of the proposed CI to varying proportions of feasible solutions.The leftmost and middle panels denote the empirical coverages and means of lengths of confidence intervals.The rightmost panel displays the empirical proportion of feasible solutions for each threshold.x-axes in all panels denote τ*. Prop denotes the threshold for the proportion of feasible solutions among the M = 500 perturbations."
+        },
+        "question":"Across all scenarios in chart1, which method yields the shortest confidence interval length? Respond with the method only!",
+        "question_type": "perceptual",
+        "answer": "Normality",
+        "answer_type": "text"
+    },
+
+
+    {
+        "question_id": 11,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2508.10663v2\\chart1.jpg",
+            "chart2": "2508.10663v2\\chart2.jpg",
+            "chart3": "2508.10663v2\\chart3.jpg"
+        },
+
+        "caption": {
+            "chart1": "Values of GC based on household wealth for the United States, China, Canada, and the United Kingdom from 2000 to 2023",
+            "chart2": "Wealth shares held by the top 1% (left) and top 10% (right) in the United States, China, Canada, and the United Kingdom from 2000 to 2023.",
+            "chart3": "Values of GC10 based on household wealth for the United States, China, Canada, and the United Kingdom from 2000 to 2023"
+        },
+        "question":"In chart 1, from which point onward does China’s GC begin its clear rise that eventually leads into the later stabilization period? A. 2000–2006 B. 2006–2010 C. After 2008 D. After 2010 Respond only with the choice.",
+        "question_type": "perceptual",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+
+    {
+        "question_id": 18,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.13141v1\\chart1.jpg",
+            "chart2": "2509.13141v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Incentives for offensive play in the UEFA Champions League - Home team",
+            "chart2": "Incentives for offensive play in the UEFA Champions League - Away team"
+        },
+        "question":"According chart2, in the away-team, compare the blue squares (I2) with the yellow circles (I24). Count how many match types show the blue square having a higher value than the yellow circle. Respond only with the number.",
+        "question_type": "perceptual",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 38,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2510.03979v1\\chart1.jpg",
+            "chart2": "2510.03979v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of learned mean rewards and true mean rewards across all arms in the NL environment, showing results for the NL and MNL methods together with the true arm means.",
+            "chart2": "Comparison of learned mean rewards and true mean rewards across all arms in the NL environment under a different experimental setting, showing results for the NL and MNL methods together with the true arm means."
+        },
+        "question": "In Chart 1, how many arms does NL underestimate the True Mean? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2510.26957v1\\chart1.jpg",
+            "chart2": "2510.26957v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Top 15 feature importance scores from the best-performing LightGBM model for predicting household income.",
+            "chart2": "Top 15 feature importance scores from the best-performing LightGBM model for predicting household water consumption."
+        },
+        "question": "What is the name of the feature ranked 4th in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "sky",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 56,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.08785v1\\chart1.jpg",
+            "chart2": "2511.08785v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution of Bid Time: Pre-LLM vs. Post-LLM",
+            "chart2": "Distribution of Signals: Pre-LLM vs. Post-LLM"
+        },
+        "question": "Which color corresponds to the Pre-LLM distribution in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "teal",
+        "answer_type": "text"
+    }
+]

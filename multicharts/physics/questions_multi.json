@@ -1,0 +1,873 @@
+[
+    {
+        "question_id": 1,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2509.22954v1\\chart1.jpg",
+            "chart2": "2509.22954v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Mutual information between income and neighborhoods over time for select large Metropolitan Areas.",
+            "chart2": "Mutual information between income and neighborhoods across cities over time. The middle line shows the median across cities, boxes show the inter-quartile range (between the first and third quartiles), outliers are shown as points, and shaded areas show the shape of the distribution."
+        },
+        "question": "Is the color representing the year 2015 consistent between Chart 1 and Chart 2? If yes, report the color name. Respond only with a string.",
+        "question_type": "perceptual",
+        "answer": "purple",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 2,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2509.22954v1\\chart1.jpg",
+            "chart2": "2509.22954v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Mutual information between income and neighborhoods over time for select large Metropolitan Areas.",
+            "chart2": "Mutual information between income and neighborhoods across cities over time. The middle line shows the median across cities, boxes show the inter-quartile range (between the first and third quartiles), outliers are shown as points, and shaded areas show the shape of the distribution."
+        },
+        "question": "Identify the chart types used in Chart 1 and Chart 2, and report them in the order [Chart 1, Chart 2]. Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[bar chart, violin plot]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2510.18889v1\\chart1.jpg",
+            "chart2": "2510.18889v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Histogram showing the frequency of spiteful strategies and the level of prejudice in the long-term evolution of a finite population, comparing cases below and above the critical prejudicity.",
+            "chart2": "Histogram showing the frequency of spiteful strategies and the level of prejudice in the short-term evolution of an infinite population, comparing cases below and above the critical prejudicity."
+        },
+        "question": "List the ε values used in both Chart 1 and Chart 2. Respond only with a list of numeric values.",
+        "question_type": "perceptual",
+        "answer": [0.15, 0.25],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2510.18889v1\\chart1.jpg",
+            "chart2": "2510.18889v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Histogram showing the frequency of spiteful strategies and the level of prejudice in the long-term evolution of a finite population, comparing cases below and above the critical prejudicity.",
+            "chart2": "Histogram showing the frequency of spiteful strategies and the level of prejudice in the short-term evolution of an infinite population, comparing cases below and above the critical prejudicity."
+        },
+        "question": "Using both Chart 1 and Chart 2, extract the frequencies of x_spite and x_prej under ε = 0.25 and organize them into a 2D table with the following exact structure: [ [Chart, x_spite, x_prej], [Chart1, x, x], [Chart2, x, x] ] Replace each x with the corresponding numeric value from the charts. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Chart", "x_spite", "x_prej"],
+            ["Chart1", 0.50, 1.00],
+            ["Chart2", 0.44, 0.91]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["chart1","chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2511.03593v2\\chart1.jpg",
+            "chart2": "2511.03593v2\\chart2.jpg",
+            "chart3": "2511.03593v2\\chart3.jpg",
+            "chart4": "2511.03593v2\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "Tikhonov Regularization: Reconstruction result of Toy model I obtained using Tikhonov regularization.",
+            "chart2": "Backus–Gilbert: Reconstruction result of Toy model I obtained using the Backus–Gilbert method.",
+            "chart3": "Bayesian Approach: Reconstruction result of Toy model I obtained using the Bayesian approach.",
+            "chart4": "ANN: Reconstruction result of Toy model I obtained using an artificial neural network (ANN)."
+        },
+        "question": "In the x < 0 region, which method’s reconstructed mean is overall closer to the true function? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Bayesian approach",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 6,
+        "items": ["chart1","chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2511.03593v2\\chart1.jpg",
+            "chart2": "2511.03593v2\\chart2.jpg",
+            "chart3": "2511.03593v2\\chart3.jpg",
+            "chart4": "2511.03593v2\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "Tikhonov Regularization: Reconstruction result of Toy model I obtained using Tikhonov regularization.",
+            "chart2": "Backus–Gilbert: Reconstruction result of Toy model I obtained using the Backus–Gilbert method.",
+            "chart3": "Bayesian Approach: Reconstruction result of Toy model I obtained using the Bayesian approach.",
+            "chart4": "ANN: Reconstruction result of Toy model I obtained using an artificial neural network (ANN)."
+        },
+        "question": "In the x > 0 region, which chart shows a narrower average uncertainty band? Respond only with a single string.回答上面的问题 给出分析的过程",
+        "question_type": "reasoning",
+        "answer": "Bayesian Approach",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.05058v1\\chart1.jpg",
+            "chart2": "2511.05058v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Estimate for the K-meson correlator. The results are obtained by an extrapolation to zero using data with r = 0 and 1 for each m + 1.",
+            "chart2": "Same as Fig. 15 for Ds. The extrapolations are performed using data with r = 1 and 2."
+        },
+        "question": "What visual encoding is consistently used to represent uncertainty in both charts? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "vertical error bars",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.19789v1\\chart1.jpg",
+            "chart2": "2511.19789v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "The Polyakov loop susceptibility versus temperature. The curves show fits to a Gaussian function.",
+            "chart2": "The static quark entropy versus temperature. The curves show fits to a Gaussian function."
+        },
+        "question": "Compared to Chart 1, how does the peak width in Chart 2 generally appear? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "narrower",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 9,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.21082v2\\chart1.jpg",
+            "chart2": "2511.21082v2\\chart2.jpg",
+            "chart3": "2511.21082v2\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Normalized total effective resistance as a function of disorder strength for HuPPI and PoPPI networks constructed from Gabriel, Delaunay, Delaunay-centroidal, and Voronoi graphs. Networks are generated from 15×15 lattices, and lower values indicate better connectivity.",
+            "chart2": "Normalized total effective resistance versus network size for HuPPI and PoPPI networks based on different geometric graph constructions. HuPPI networks are generated from hyperuniform point patterns with fixed disorder strength.",
+            "chart3": "Random-walk mixing time as a function of disorder strength for HuPPI networks and PoPPI networks constructed from various geometric graphs. PoPPI networks are independent of disorder strength."
+        },
+        "question": "Using both Chart 1 and Chart 2, which geometric graph under Hyperuniform exhibits low R_norm and weak size dependence? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Delaunay",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.06683v1\\chart1.jpg",
+            "chart2": "2512.06683v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Machine learning (a) LGBM and (b) GPR model predicted charge radius versus experimental data.",
+            "chart2": "SHAP contributions in percentage for the features used in optimizing (a) LGBM and (b) GPR models."
+        },
+        "question": "Based on Chart 1 and Chart 2, which model exhibits a more concentrated feature-importance distribution in its prediction task? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "LGBM",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 11,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.06683v1\\chart1.jpg",
+            "chart2": "2512.06683v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Machine learning (a) LGBM and (b) GPR model predicted charge radius versus experimental data.",
+            "chart2": "SHAP contributions in percentage for the features used in optimizing (a) LGBM and (b) GPR models."
+        },
+        "question": "Based on Chart 1 and Chart 2, which model is likely more robust to input perturbations? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "GPR",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.08283v1\\chart1.jpg",
+            "chart2": "2512.08283v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Probability distributions of the dominant Fock sectors in the proton, as determined from our BLFQ calculations.",
+            "chart2": "BLFQ calculations of the proton charge distribution at different energy scales, compared with other theoretical models and with CLAS and CLAS12 experimental data. The error bars correspond to different extraction methods, where inner bars represent leading-order approximations and outer bars include higher-order corrections."
+        },
+        "question": "What theoretical model name appears in the captions of both Chart 1 and Chart 2? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "BLFQ",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.09848v1\\chart1.jpg",
+            "chart2": "2512.09848v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Measured decay rate of the process from the LHCb 2020 experiment as a function of transverse momentum, compared with theoretical predictions at the theory level and after including detector effects.",
+            "chart2": "Comparison of detector-level predictions obtained using two different response matrices, showing that the results are nearly identical and weakly dependent on the underlying signal model."
+        },
+        "question": "What visualization technique is used in both charts to represent model predictions? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "Shaded uncertainty bands",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 14,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.10135v1\\chart1.jpg",
+            "chart2": "2512.10135v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Security cost on throughpu",
+            "chart2": "CPU cost of Encryption"
+        },
+        "question": "How many configurations are consistently compared across both charts? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.10135v1\\chart1.jpg",
+            "chart2": "2512.10135v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Security cost on throughpu",
+            "chart2": "CPU cost of Encryption"
+        },
+        "question": "Which configuration is least suitable when aiming for high throughput with low CPU cost? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "WireGuard",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 16,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.11381v1\\chart1.jpg",
+            "chart2": "2512.11381v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Light yield of eight COSINE-100 crystal detectors measured in three configurations: original COSINE-100 (Y2L), COSINE-100 Upgrade in the ground laboratory, and COSINE-100 Upgrade at Yemilab.",
+            "chart2": "Energy resolution at 59.5 keV of eight COSINE-100 crystal detectors measured in three configurations: original COSINE-100 (Y2L), COSINE-100 Upgrade in the ground laboratory, and COSINE-100 Upgrade at Yemilab."
+        },
+        "question": "What is the Crystal ID range shared by both charts? Respond only with a list of two integers.",
+        "question_type": "perceptual",
+        "answer": [1, 8],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.13779v1\\chart1.jpg",
+            "chart2": "2512.13779v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Ratio of ionization rate to excitation rate for JUNO with a heavy mediator, comparing cases without efficiency, with efficiency included, and with annual modulation effects.",
+            "chart2": "Ratio of ionization rate to excitation rate for JUNO with a light mediator, comparing cases without efficiency, with efficiency included, and with annual modulation effects."
+        },
+        "question": "In the light-mediator case, which correction has a more pronounced relative effect: efficiency or fmod? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Efficiency",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.13787v1\\chart1.jpg",
+            "chart2": "2512.13787v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Maximum signal–background separation as a function of injected signal size. The maximum SIC is shown as a function of the injected signal for classifiers evaluated on the training set, the test set, and using k-folding, comparing a neural network with early stopping (left), a neural network without early stopping (middle), and a boosted decision tree with early stopping (right).",
+            "chart2": "Corrected (solid lines) and uncorrected (dashed lines) p-values as a function of the injected signal size, evaluated on the training set, the test set, and using k-folding, for three different background working points."
+        },
+        "question": "Across both Chart 1 and Chart 2, which evaluation method is represented by blue curves? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "Evaluate with k-folding",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.14053v1\\chart1.jpg",
+            "chart2": "2512.14053v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "kₜ,g distributions of groomed inclusive jets in pp and 0–10% PbPb collisions at √sNN = 5.02 TeV using the Dynamical Grooming algorithm. Results include pp, PbPb, and PbPb from JBJ matching, with the PbPb-to-pp ratio shown in the lower panel.",
+            "chart2": "kₜ,g distributions of groomed inclusive jets in pp and 0–10% PbPb collisions at √sNN = 5.02 TeV using the Soft-Drop Grooming algorithm. Results include pp, PbPb, and PbPb from JBJ matching, with the PbPb-to-pp ratio shown in the lower panel."
+        },
+        "question": "At low k_T,g, under which grooming algorithm is PbPb(JBJ)/pp significantly higher than PbPb/pp? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Dynamical Grooming",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 20,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.15097v1\\chart1.jpg",
+            "chart2": "2512.15097v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Calculated excitation energies of the first excited state for oxygen, neon, magnesium, and silicon isotopes using the VS-IMSRG approach, compared with experimental data.",
+            "chart2": "Same as Figure 1, but showing results for isotones with neutron numbers 8, 10, 12, and 14."
+        },
+        "question": "What visual encoding is used in both charts to distinguish different nuclear systems? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "color",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 21,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.15444v1\\chart1.jpg",
+            "chart2": "2512.15444v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Image S/B as a function of detector spatial resolution for different detector materials.",
+            "chart2": "Parameter ε in the system PSF as a function of detector spatial resolution for different detector materials."
+        },
+        "question": "At σₓ = 4 mm, which material ranks second in S/B and third in εₚₛ𝒻? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Cu Cube",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.15998v1\\chart1.jpg",
+            "chart2": "2512.15998v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "SNAC-Pack Pareto front of estimated average resources versus estimated clock cycles. Each point represents a unique architecture sampled.",
+            "chart2": "SNAC-Pack Pareto fronts of estimated average resources versus accuracy. Each point represents a unique architecture sampled."
+        },
+        "question": "What common variable is encoded by color in both Chart 1 and Chart 2? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "Trial #",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 23,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.16343v1\\chart1.jpg",
+            "chart2": "2512.16343v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Upper limits at 95% confidence level on the branching fraction of Higgs boson decays to a pair of particles in Scenario A, shown as a function of the dark photon lifetime.",
+            "chart2" : "Upper limits at 95% confidence level on the branching fraction of Higgs boson decays to a pair of particles in Scenario B1, shown as a function of the dark pion lifetime."
+        },
+        "question": "At cτ ≈ 0.01, which scenario shows a stronger upper limit? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Scenario A",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 24,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.16769v1\\chart1.jpg",
+            "chart2": "2512.16769v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Normalised amplitude distribution at a bias voltage of 32 V, used to determine the average number of afterpulses per avalanche. The vertical dashed line indicates the mean value of the distribution.",
+            "chart2": "Pulse charge distribution at a bias voltage of 34 V, showing a clear shoulder in the tail of the single–photoelectron peak due to an increased correlated delayed avalanche probability at higher bias."
+        },
+        "question": "Which information appears in the captions of both charts? A. afterpulse B. correlated avalanche C. bias voltage D. Gaussian fit Respond only with a single letter.",
+        "question_type": "perceptual",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 25,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.16980v1\\chart1.jpg",
+            "chart2": "2512.16980v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Experimental measurements from BNL and FNAL compared with the world average, including combined statistical and systematic uncertainties.",
+            "chart2": "Final relatively balanced systematic uncertainties at FNAL, showing the individual contributions to the total uncertainty."
+        },
+        "question": "Combining Chart 1 and Chart 2, which aspect primarily explains the reduced FNAL uncertainty? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "balanced systematic uncertainties",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.16980v1\\chart1.jpg",
+            "chart2": "2512.16980v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Experimental measurements from BNL and FNAL compared with the world average, including combined statistical and systematic uncertainties.",
+            "chart2": "Final relatively balanced systematic uncertainties at FNAL, showing the individual contributions to the total uncertainty."
+        },
+        "question": "Is the proximity of FNAL measurements to the world average in Chart 1 more likely due to statistical improvement or systematic control? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "systematic control",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.17557v1\\chart1.jpg",
+            "chart2": "2512.17557v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Entanglement marker measurements in bins of top-quark pair mass and angular separation, shown in the helicity basis. Data with uncertainties are compared to POWHEG+PYTHIA predictions, and the dashed line marks the entanglement threshold.",
+            "chart2": "Entanglement marker measurements in bins of top-quark pair mass and angular separation, shown in the beam basis. Data with uncertainties are compared to POWHEG+PYTHIA predictions, and the dashed line marks the entanglement threshold."
+        },
+        "question": "Which |cos(θ)| values are used in both Chart 1 and Chart 2? Respond only with a list of numeric values.",
+        "question_type": "perceptual",
+        "answer": [0, 0.4, 0.7, 1],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["chart1","chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2512.17622v1\\chart1.jpg",
+            "chart2": "2512.17622v1\\chart2.jpg",
+            "chart3": "2512.17622v1\\chart3.jpg",
+            "chart4": "2512.17622v1\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "Evolution of cos(2φₖ) and sin(2φₖ) as functions of the number of e-folds N in the presence of decoherence, for fixed p = 9.1 and kᵣ/k = 10⁻⁶.",
+            "chart2": "Evolution of cos(2φₖ) and sin(2φₖ) as functions of the number of e-folds N in the presence of decoherence, for fixed p = 9.1 and kᵣ/k = 10⁻¹.",
+            "chart3": "Evolution of cos(2φₖ) and sin(2φₖ) as functions of the number of e-folds N in the presence of decoherence, for fixed p = 9.1 and kᵣ/k = 10.",
+            "chart4": "Evolution of cos(2φₖ) and sin(2φₖ) as functions of the number of e-folds N in the presence of decoherence, for fixed p = 9.1 and kᵣ/k = 10⁶."
+        },
+        "question": "Which two charts show the most similar sin(2φ_k) profiles? A. Chart 1 & 2 B. Chart 2 & 3 C. Chart 3 & 4 D. Chart 1 & 4 Respond only with a single letter.",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 29,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.17874v1\\chart1.jpg",
+            "chart2": "2512.17874v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Reconstructed di-Higgs invariant mass in the non-resonant analysis. The boosted reconstruction category is shown with solid histograms, while the resolved category is shown with dashed histograms.",
+            "chart2": "Reconstructed di-Higgs invariant mass in the resonant analysis. The boosted reconstruction category is shown with solid histograms, while the resolved category is shown with dashed histograms."
+        },
+        "question": "Identify the chart type used in Chart 1 and Chart 2, respectively, and report them in order (Chart 1 first, Chart 2 second). Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[histogram, histogram]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 30,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.18010v1\\chart1.jpg",
+            "chart2": "2512.18010v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Isotropic average form factor for the first excited state of p-xylene, shown as a function of momentum transfer for different angular momentum truncations.",
+            "chart2": "Isotropic average form factor for the first excited state of anthracene, shown as a function of momentum transfer for different angular momentum truncations."
+        },
+        "question": "Which molecule shows weaker dependence on high ℓ at low |q|? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "p-xylene",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 31,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.18053v1\\chart1.jpg",
+            "chart2": "2512.18053v1\\chart2.jpg",
+            "chart3": "2512.18053v1\\chart3.jpg",
+            "chart4": "2512.18053v1\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "Measurement of the CP-averaged angular observable Sc2 as a function of q², compared with Standard Model predictions.",
+            "chart2": "Measurement of the forward–backward asymmetry AFB as a function of q², compared with Standard Model predictions.",
+            "chart3": "Measurement of the angular observable P′5 as a function of q², compared with Standard Model predictions.",
+            "chart4": "Measurement of the differential branching fraction as a function of q², compared with Standard Model predictions."
+        },
+        "question": "Which charts show experimental data points distributed on both sides of y=0? Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[Chart 2, Chart 3]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 32,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.18062v1\\chart1.jpg",
+            "chart2": "2512.18062v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Benchmark comparison of the real and imaginary parts of the matrix elements Π⁰⁰(t, x) and Π¹¹(t, x) of the hadron state |h⟩ at the center position x = 0, computed for N = 12 qubits using exact diagonalization (ED), quantum circuit (QC), and tensor network (TN), with m/g = 0.5 and ag = 0.5.",
+            "chart2": "Benchmark comparison of the real and imaginary parts of the matrix elements Π⁰⁰(t, x) and Π¹¹(t, x) of the hadron state |h⟩ at position x = 2a, computed for N = 12 qubits using exact diagonalization (ED), quantum circuit (QC), and tensor network (TN), with m/g = 0.5 and ag = 0.5."
+        },
+        "question": "Across both charts, which method stays closest to ED at long times? A. QC B. TN Respond only with a single letter.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 33,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.18382v1\\chart1.jpg",
+            "chart2": "2512.18382v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "The integrand of the time-momentum representation in Eq. (92) (red curve) and the corresponding integrand of the intermediate window observable (blue curve).",
+            "chart2": "Pie chart showing the fractions from individual quark flavours, as well as the contributions from quark-disconnected diagrams and isospin-breaking corrections."
+        },
+        "question": "If the t>2.5 fm region in Chart 1 is removed, which quark contribution is most likely to remain dominant? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "light",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 34,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.18382v1\\chart1.jpg",
+            "chart2": "2512.18382v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "The integrand of the time-momentum representation in Eq. (92) (red curve) and the corresponding integrand of the intermediate window observable (blue curve).",
+            "chart2": "Pie chart showing the fractions from individual quark flavours, as well as the contributions from quark-disconnected diagrams and isospin-breaking corrections."
+        },
+        "question": "Based on both charts, are the dominant physical contributions more concentrated or more distributed? A. Concentrated B. Distributed Respond only with a single letter.",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["chart1","chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2512.18739v1\\chart1.jpg",
+            "chart2": "2512.18739v1\\chart2.jpg",
+            "chart3": "2512.18739v1\\chart3.jpg",
+            "chart4": "2512.18739v1\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "Multiplicity distribution of D mesons within pseudorapidity |η| < 3.0 at a center-of-mass energy of 0.9 TeV, compared with Poisson and negative binomial distribution fits.",
+            "chart2": "Multiplicity distribution of D mesons within pseudorapidity |η| < 3.0 at a center-of-mass energy of 2.76 TeV, compared with Poisson and negative binomial distribution fits.",
+            "chart3": "Multiplicity distribution of D mesons within pseudorapidity |η| < 3.0 at a center-of-mass energy of 7 TeV, compared with Poisson and negative binomial distribution fits.",
+            "chart4": "Multiplicity distribution of D mesons within pseudorapidity |η| < 3.0 at a center-of-mass energy of 13 TeV, compared with Poisson and negative binomial distribution fits."
+        },
+        "question": "Across Chart 1 to Chart 4, what color is used for the Pythia data points? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "balck",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.19042v1\\chart1.jpg",
+            "chart2": "2512.19042v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Correlation heatmap for a sample of 132 bulgeless galaxies, showing the Pearson linear correlation coefficients among the variables γ_d, χ_red², and L_3.6.",
+            "chart2": "Correlation heatmap for the same sample of 132 bulgeless galaxies, showing the Spearman rank correlation coefficients among the variables γ_d, χ_red², and L_3.6."
+        },
+        "question": "Do Chart 1 and Chart 2 use the same set of variables? List them. Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[γ_d, χ²_red, L_3.6]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.19042v1\\chart1.jpg",
+            "chart2": "2512.19042v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Correlation heatmap for a sample of 132 bulgeless galaxies, showing the Pearson linear correlation coefficients among the variables γ_d, χ_red², and L_3.6.",
+            "chart2": "Correlation heatmap for the same sample of 132 bulgeless galaxies, showing the Spearman rank correlation coefficients among the variables γ_d, χ_red², and L_3.6."
+        },
+        "question": "Compute the difference in χ_red²–L_3.6 correlation between Chart 2 and Chart 1 (Spearman − Pearson). Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.08,
+        "answer_type": "numeric"
+    },
+
+
+    {
+        "question_id": 38,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.19545v1\\chart1.jpg",
+            "chart2": "2512.19545v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Pulse shapes of the control fields in the time domain, showing the temporal evolution of the two field components.",
+            "chart2": "Bar plot showing the magnitudes of the parameters used to construct the pulse shapes in the time-dependent pulse scheme."
+        },
+        "question": "Combining both charts, which component more strongly dominates the overall energy scale of the control field? A. x B. y Respond only with a single letter.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 39,
+        "items": ["chart1","chart2", "chart3"],
+        "path": {
+            "chart1": "2512.19795v1\\chart1.jpg",
+            "chart2": "2512.19795v1\\chart2.jpg",
+            "chart3": "2512.19795v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Initial loading efficiency distribution with (blue) and without (red) implementing the rotating MOT technique, prior to the enhanced loading step. The inset illustrates the fixed MOT and the rotating MOT.",
+            "chart2": "Histogram of fluorescence brightness across all array sites. The two peaks of the bimodal distribution correspond to zero and one atom occupancy, and the inset shows the site-resolved imaging fidelity across the array.",
+            "chart3": "Probability density distribution of imaging lifetime across the large array. The inset shows the average atom survival probability as a function of imaging time."
+        },
+        "question": "Across both charts, which physical quantity explicitly spans negative values? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "Brightness",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 40,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.19870v1\\chart1.jpg",
+            "chart2": "2512.19870v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of RHF, UHF, and FCI potential energy curves for the H₄ system as a function of bond length along the dissociation pathway.",
+            "chart2": "Expectation value of the total spin operator ⟨S²⟩ for UHF and FCI solutions as a function of bond length, illustrating the onset of spin contamination beyond the Coulson–Fischer point."
+        },
+        "question": "What is the maximum bond length value shown on the x-axes of both charts? Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 2.5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.20047v1\\chart1.jpg",
+            "chart2": "2512.20047v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Maximum transmission distance as a function of threshold fidelity under different receiver aperture sizes and error rates, considering the effect of polarization rotation.",
+            "chart2": "Maximum transmission distance as a function of receiver aperture radius for different threshold fidelities and error rates, with polarization rotation taken into account."
+        },
+        "question": "How many distinct error-rate levels are shown in both charts? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.20047v1\\chart1.jpg",
+            "chart2": "2512.20047v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Maximum transmission distance as a function of threshold fidelity under different receiver aperture sizes and error rates, considering the effect of polarization rotation.",
+            "chart2": "Maximum transmission distance as a function of receiver aperture radius for different threshold fidelities and error rates, with polarization rotation taken into account."
+        },
+        "question": "Using both charts, compute the difference between the maximum and minimum distances under ε=3%. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 13.5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 43,
+        "items": ["chart1","chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2512.20199v1\\chart1.jpg",
+            "chart2": "2512.20199v1\\chart2.jpg",
+            "chart3": "2512.20199v1\\chart3.jpg",
+            "chart4": "2512.20199v1\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "Empirical frequency distribution of the 10 lowest-energy solutions obtained from sampled simulated quantum annealing runs for Diabetes Mellitus, showing the relative occurrence of matched combinations versus predicted candidate combinations.",
+            "chart2": "Empirical frequency distribution of the 10 lowest-energy solutions obtained from sampled simulated quantum annealing runs for Rheumatoid Arthritis, distinguishing matched solutions from predicted candidate combinations.",
+            "chart3": "Empirical frequency distribution of the 10 lowest-energy solutions obtained from sampled simulated quantum annealing runs for Asthma, illustrating the frequencies of matched and predicted solution ranks.",
+            "chart4": "Empirical frequency distribution of the 10 lowest-energy solutions obtained from sampled simulated quantum annealing runs for Brain Neoplasms, comparing the occurrence of matched solutions against predicted candidate solutions."
+        },
+        "question": "From Chart 3 and Chart 4, extract the Prediction frequencies at solution rank 10. Respond only with a list of numeric values in the order [Chart 3, Chart 4].",
+        "question_type": "perceptual",
+        "answer": [0.026, 0.008],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 44,
+        "items": ["chart1","chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2512.20199v1\\chart1.jpg",
+            "chart2": "2512.20199v1\\chart2.jpg",
+            "chart3": "2512.20199v1\\chart3.jpg",
+            "chart4": "2512.20199v1\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "Empirical frequency distribution of the 10 lowest-energy solutions obtained from sampled simulated quantum annealing runs for Diabetes Mellitus, showing the relative occurrence of matched combinations versus predicted candidate combinations.",
+            "chart2": "Empirical frequency distribution of the 10 lowest-energy solutions obtained from sampled simulated quantum annealing runs for Rheumatoid Arthritis, distinguishing matched solutions from predicted candidate combinations.",
+            "chart3": "Empirical frequency distribution of the 10 lowest-energy solutions obtained from sampled simulated quantum annealing runs for Asthma, illustrating the frequencies of matched and predicted solution ranks.",
+            "chart4": "Empirical frequency distribution of the 10 lowest-energy solutions obtained from sampled simulated quantum annealing runs for Brain Neoplasms, comparing the occurrence of matched solutions against predicted candidate solutions."
+        },
+        "question": "From Charts 1–4, extract the Match frequencies at solution ranks 1, 2, and 3, and organize them into the following 2D table with a header row: [[Chart, Match_rank1, Match_rank2, Match_rank3], …]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Chart", "Match_rank1", "Match_rank2", "Match_rank3"],
+            ["1", 0.261, 0.041, 0.036],
+            ["2", 0.229, 0.057, 0.030],
+            ["3", 0.070, 0.093, 0.000],
+            ["4", 0.081, 0.060, 0.023]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 45,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.20223v1\\chart1.jpg",
+            "chart2": "2512.20223v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Critical bare mass versus computational cost for the Wilson kernel, comparing the KL and Chebyshev methods.",
+            "chart2": "Critical bare mass versus computational cost for the Brillouin kernel, comparing the KL and Chebyshev methods."
+        },
+        "question": "Across Chart 1 and Chart 2, consider the numerical behavior of the KL method under different kernels and computational costs. Which description best characterizes the overall numerical stability and convergence behavior of the KL method? A. Fast convergence with smooth behavior B. Slow convergence with strong oscillations C. Numerically unstable with no clear trend Respond only with a single letter.",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 46,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.20616v1\\chart1.jpg",
+            "chart2": "2512.20616v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Exclusion levels of the standard cosmological model relative to various dynamical dark energy models, obtained from joint constraints using CMB, PantheonPlus, and DESI data.",
+            "chart2": "Exclusion levels of the standard cosmological model relative to various dynamical dark energy models, obtained from joint constraints using CMB, DES-Y5, and DESI data."
+        },
+        "question": "Extract the exclusion significances (in σ) of the Flipped RVM model from Chart 1 and Chart 2, in that order. Respond only with a list of numeric values.",
+        "question_type": "perceptual",
+        "answer": [1.93, 3.07],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 47,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.20838v1\\chart1.jpg",
+            "chart2": "2512.20838v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "OTOC with source at first boundary node i = 8 and sink at nodes on the boundary of the lattice, at Jzz/Jx = 0.3 for a 3-layer lattice.",
+            "chart2": "OTOC with source at center node i = 0 and sink at nodes in the bulk of the lattice, at Jzz/Jx = 0.3 for a 3-layer lattice."
+        },
+        "question": "Which value of j uses circular markers in both Chart 1 and Chart 2? Respond only with a number.",
+        "question_type": "perceptual",
+        "answer": 9,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 48,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.21202v1\\chart1.jpg",
+            "chart2": "2512.21202v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Histogram of masses for Petersen Case, showing the distribution for W = 5 TeV, b = 5, N = 12, and t = 0.1 TeV in the Petersen geometry.",
+            "chart2": "Median of 100 runs for masses in Petersen case, showing the median values for W = 5 TeV, b = 5, N = 12, and t = 0.1 TeV in the Petersen geometry."
+        },
+        "question": "Which mass component shows the largest variability across both charts? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "m3",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 49,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.21313v1\\chart1.jpg",
+            "chart2": "2512.21313v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Cumulative distribution of n(λ) after the quench from the state |Ψ₀⟩ in the rule-54 chain. The plot shows n(λ) versus log(λm/λ), where different symbols correspond to different times. A step-like behavior is observed at λ = λm.",
+            "chart2": "Cumulative distribution of n(λ) after the Néel quench in the XX chain. As in the left panel, a step-like form is observed, which is attributed to purely linear behavior in the relevant moments."
+        },
+        "question": "Which system shows a smoother cumulative growth? A. rule-54 chain B. XX chain Respond only with a single letter.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    }
+]

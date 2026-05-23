@@ -1,0 +1,214 @@
+[
+    {
+        "question_id": 23,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.08096v1\\chart1.jpg",
+            "chart2": "2509.08096v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Average fitting error (expressed as a percentage) for the 1 month and 12 month VIX over 1,000 simulations. Orange bars show fitting errors for calibration using the exact VIX term structure. Blue bars show fitting errors when using the VIX as an approximation of the variance swap rate.",
+            "chart2": "Average fitting error (expressed as a percentage) for the 1 month and 12 month VIX over 1,000 simulations. Orange bars show fitting errors for calibration using the exact VIX term structure. Blue bars show fitting errors when using the VIX as an approximation of the variance swap rate."
+        },
+        "question": "In both the chart1 and chart2, when α = 0.5, which calibration method (Approx. VIX or Exact VIX) consistently produces the higher error? Respond with Approx. VIX or Exact VIX.",
+        "question_type": "reasoning",
+        "answer": "Approx. VIX",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.01526v1\\chart1.jpg",
+            "chart2": "2510.01526v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "omparison of QD models fine-tuned differently, using Llama3.1 as QA model. Blue bars reflect QA accuracy (left y-axis), while red bars indicate the average word count of generated questions (right y-axis).",
+            "chart2": "Comparison of inference time consumption and input length across methods. Blue bars represent time consuming (left y-axis), while red bars indicate the average word count of extra inputs (right y-axis)."
+        },
+        "question":"Using chart1 and chart2, compare the average word count of “Fine-tuned by Only Step 2” and “DP2.” Report the larger of the two values. Output a single number only.",
+        "question_type": "reasoning",
+        "answer": 223.0,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2510.20047v1\\chart1.jpg",
+            "chart2": "2510.20047v1\\chart2.jpg",
+            "chart3": "2510.20047v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Grouped correlations of 9 stocks over the period 2021–2024.——KO, AAPL,TSLA",
+            "chart2": "Grouped correlations of 9 stocks over the period 2021–2024.——GOOGL, MSFT, META",
+            "chart3": "Grouped correlations of 9 stocks over the period 2021–2024.——JPM, NVDA, AMZN"
+        },
+        "question": "Across chart1, chart2, and chart3, identify the correlation coefficient with the smallest absolute value and return the two involved labels in alphabetical order (by first letter), in the format: [label1, label2]. Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": "[AMZN, NVDA]",
+        "answer_type": "text"
+    },
+
+
+    {
+        "question_id": 38,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2507.03963v1\\chart1.jpg",
+            "chart2": "2507.03963v1\\chart1.jpg",
+            "chart3": "2507.03963v1\\chart1.jpg"
+        },
+        "caption": {
+            "chart1": "Parameter–metric correlations, 1-year training. Bars show the Pearson correlation of each control parameter (α, β, λ, ω) with the indicated portfolio metric across the full 625-point grid. —— Correlation with Sharpe ratio",
+            "chart2": "Parameter–metric correlations, 1-year training. Bars show the Pearson correlation of each control parameter (α, β, λ, ω) with the indicated portfolio metric across the full 625-point grid. —— Correlation with efficiency",
+            "chart3": "Parameter–metric correlations, 1-year training. Bars show the Pearson correlation of each control parameter (α, β, λ, ω) with the indicated portfolio metric across the full 625-point grid. —— Correlation with HHI"
+        },
+        "question": "Across the three charts, compute the correlation range for each parameter (defined as the maximum correlation value minus the minimum correlation value across the three charts). Which parameter has the largest range, and respond the exact value of this maximum range? Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 0.841,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.14385v1\\chart1.jpg",
+            "chart2": "2509.14385v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Rolling CAGR of PPO vs Equal-Weight and Sharpe-Optimized strategies",
+            "chart2": "Rolling CAGR with stress period overlays for PPO vs Equal-Weight portfolios"
+        },
+        "question":"In chart1 and chart2, in which figure is the gap between PPO 10y and Equal 10y more pronounced? Respond only with chart1 or chart2.",
+        "question_type": "reasoning",
+        "answer": "chart1",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["chart1", "chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2508.01880v3\\chart1.jpg",
+            "chart2": "2508.01880v3\\chart2.jpg",
+            "chart3": "2508.01880v3\\chart3.jpg",
+            "chart4": "2508.01880v3\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "Factor Loadings and Scree Plots for Equities and Crypto —— Factor Loadings for Equity",
+            "chart2": "Factor Loadings and Scree Plots for Equities and Crypto —— Explained Variance for Equity",
+            "chart3": "Factor Loadings and Scree Plots for Equities and Crypto —— Factor Loadings for Crypto",
+            "chart4": "Factor Loadings and Scree Plots for Equities and Crypto —— Explained Variance for Crypto"
+        },
+        "question": "Using chart1 and chart3, extract the PC2 loadings for all assets, compute the mean absolute loading of PC2 for each chart, and return the larger of the two numerical values. Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 0.414,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 60,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2508.16589v1\\chart1.jpg",
+            "chart2": "2508.16589v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Performance of Always Quoting MM (𝜂 = 0.0, 𝜁 = 0.0)",
+            "chart2": "Performance of 2-Action MM (Train & Test @ vol=2) (η = 0.0, ζ = 0.0)"
+        },
+        "question": "In chart1, among the six Adversary types, which Adversary has the highest median value (as indicated by the white point or white line)? Respond with the Adversary name only.",
+        "question_type": "reasoning",
+        "answer": "ALL",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 54,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.15993v1\\chart1.jpg",
+            "chart2": "2510.15993v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Performance Comparison of CenFLARKO and FedFLARKO Against Baseline Models",
+            "chart2": "Performance Comparison of CenFLARKO and FedFLARKO Against Baseline Models"
+        },
+        "question": "In chart1, considering only the CenFLARKO Models, determine which model is closest to the upper-right corner based on both Pref@3 and Prof@3 (i.e., having higher values on both axes). Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "Qwen3‑1.7B",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 47,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2507.08193v2\\chart1.jpg",
+            "chart2": "2507.08193v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Multi-label Classification Model Performance",
+            "chart2": "Multi-output Regression Model Performance"
+        },
+        "question": "In the Train Performance panel of Chart 1, extract the Macro-F1 values for all models and compute the difference between the maximum and minimum values (maximum − minimum). Respond only with the numerical value.",
+        "question_type": "reasoning",
+        "answer": 0.4097,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 2,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2508.14995v1\\chart1.jpg",
+            "chart2": "2508.14995v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Chart1 shows the model’s learning performance on the training and test sets, where the mean squared error decreases steadily over training epochs.",
+            "chart2": "Chart2 compares the model’s predicted solution of the parametric PDE with the true solution for two samples from the test set, demonstrating close agreement between prediction and ground truth."
+        },
+        "question":"In the early stage of training (0–2000 epochs), which description best reflects the relationship between the training MSE and the test MSE? A. The test error is slightly higher than the training error. B. The two curves almost overlap. C. The training error is significantly higher than the test error. D. The relationship between the two is difficult to determine. Respond only with the choice.",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 46,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2507.08193v2\\chart1.jpg",
+            "chart2": "2507.08193v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Multi-label Classification Model Performance",
+            "chart2": "Multi-output Regression Model Performance"
+        },
+        "question": "In the Test Performance panel of Chart 2, extract the aACC values for all models and identify the model with the lowest aACC. Provide your answer in the format: [model_name, value]. Respond only with the list.",
+        "question_type": "reasoning",
+        "answer": "[LGBM_RC (D2), 0.2639]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 29,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.11261v2\\chart1.jpg",
+            "chart2": "2510.11261v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of the marginal price distributions under the equilibrium measure (P) and the riskneutral measures (Q) at 1-year and 3-year points for (6.2).",
+            "chart2": "Comparison of the marginal price distribution P and the conditional price distributions P(·|Y top−25%) and P(·|Y bottom−25%) at 3-year point for (6.2)"
+        },
+        "question": "In chart1, compare all the curves. Determine which curve is the most dispersed (i.e., the flattest and widest distribution with the lowest peak). Respond only with the label of curve.",
+        "question_type": "reasoning",
+        "answer": "Q(3yr)",
+        "answer_type": "text"
+    }
+]

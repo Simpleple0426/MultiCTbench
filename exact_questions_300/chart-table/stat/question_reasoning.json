@@ -1,0 +1,205 @@
+[
+    {
+        "question_id": 13,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.20819v1\\chart1.jpg",
+            "table1": "2511.20819v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Sensitivity as a function of dispersion parameter k for different epidemic sizes (20, 50, 100, 200) and ΔR₀ values (0.5, 1, 1.5).",
+            "table1": "Linear regression results for the mean scaled entropy (H) model, including predictors such as epidemic size (ε), reproduction number (R), and dispersion (k)."
+        },
+        "question": "In chart1, at k = 0.3, under ΔR₀ = 1.5, which epidemic size panel (20, 50, 100, 200) has the highest sensitivity? Then, in table1, what is the estimated coefficient for that epidemic size ε?",
+        "question_type": "reasoning",
+        "answer": 0.147,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 32,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.10048v1\\chart1.jpg",
+            "table1": "2511.10048v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Grid of scatter plots showing performance of three flow types (spline, spline_two_layers, coupling) across five models (quadratic, MG1, SLCP, SEIR, GM). The top row reports epsilon values on a log scale, and the bottom row reports loss values.",
+            "table1": "Table reporting final epsilon values for different models as a function of the number of mixture components (from 3 to 10 and automatic). Best results in each row are highlighted."
+        },
+        "question": "Using table1, identify the method with the lowest MOO value on the yacht dataset under the Mask setting. Then, based on the chart under MOORT, determine which of the following best describes this method’s imputation risk on the yacht dataset.\nRespond only with the choice.\nA. Below 0.1\nB. Between 0.1 and 0.2\nC. Above 0.2",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.05842v1\\chart1.jpg",
+            "table1": "2511.05842v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Kernel density estimates of estimated values for four methods (FCE, DCE, C-learning, Avg C-learning). The x-axis shows estimated value and the y-axis shows density.",
+            "table1": "Table reporting correct classification rates with standard deviations for DCE, FCE, Avg C-learning, Initial, and Full C-learning across multiple scenarios, sample sizes N, and labeled sample sizes n."
+        },
+        "question": "From the chart, identify the method whose estimated value distribution is most concentrated around 0.4. Then, using table1, report the correct classification rate of this method in Scenario c when N = 3000 and n = 200.",
+        "question_type": "reasoning",
+        "answer": 0.951,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 20,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.22550v1\\chart1.jpg",
+            "table1": "2511.22550v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Spatial PM10 concentration maps produced by different machine learning and interpolation models over the same area.",
+            "table1": "Performance summary table listing RMSE, COR, BIAS, and MAE for each model under multiple scenarios."
+        },
+        "question": "Using table1, determine which model has the highest COR under the Interpolation scenario with low cost sensors. Then, check the chart and state whether this model shows stronger spatial contrast (larger color variation) than IDW. A. yes B. no C. Not sure Respond only with the choice.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 43,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.14509v1\\chart1.jpg",
+            "table1": "2511.14509v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Boxplots of estimated parameter values (μ, k, α, σ) for three methods (Likelihood, EM, inlabru). Dashed horizontal lines indicate the true parameter values.",
+            "table1": "Table reporting MAE (mean ± SD) for parameters μ, k, α, and β, along with average computation time for Likelihood, EM, and inlabru methods."
+        },
+        "question": "From chart1, identify which method’s median estimate of α is closest to the true value. Then, using table1, report the MAE mean of this method for α. Answer with single numeric value from the table.",
+        "question_type": "reasoning",
+        "answer": 0.142,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 47,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.15942v1\\chart1.jpg",
+            "table1": "2511.15942v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Mean Absolute Error (MAE) comparison of Classic, Robust1, and Robust2 methods across different outer indices.",
+            "table1": "Table reporting AMI values for COMET, CC, RCC, RConv, KM, MKM, and RBKM across multiple benchmark datasets."
+        },
+        "question": "Using table1, identify which method has lower RMSE at m = 5 and η = 0.3. Then, based on chart1, determine whether this method’s MAE at outer index 5 is lower or higher than 3. Respond only with the choice.\nA. Classic, lower than 3\nB. Classic, higher than 3\nC. Robust, lower than 3\nD. Robust, higher than 3",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 69,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23596v1\\chart1.jpg",
+            "table1": "2512.23596v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Box Plot of Out-of-Sample R2 of ATOMS and Fixed-Window Baselines for 17 Industry Portfolios.",
+            "table1": "Out-of-Sample R2 Averages Across Industries by Time Period"
+        },
+        "question": "Compute the average OOS R² of Fixed-CV across the three recession periods in Table 1. Respond only with a single numeric value rounded to three decimals.",
+        "question_type": "reasoning",
+        "answer": 0.026,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 64,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.17659v1\\chart1.jpg",
+            "table1": "2512.17659v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Final Pareto fronts for each method on the logP–TPSA benchmark (best trial per method). Each point is a non-dominated molecule sampled during optimization. Our method (green) identifies a broader frontier, particularly at high-logP / low-TPSA trade-offs.",
+            "table1": "Final hypervolume values across 5 independent optimization runs for each method on the multi-objective (logP–TPSA) benchmark problem."
+        },
+        "question": "Which method in Chart 1 is primarily concentrated in the logP < 0 region? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "VAE+BO",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 57,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.11526v1\\chart1.jpg",
+            "table1": "2512.11526v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Effect of λCL on MAE (left) and MSE (right) under anomalous conditions for input-only and input-to-output scenarios.",
+            "table1": "Forecasting performance on the Cash Demand dataset. MAE, MSE, and SMAPE (mean over 3 seeds). Δ shows relative improvement (%) of +Co-TSFA over baseline (negative = better). Red indicates equal or improved performance."
+        },
+        "question": "Which model shows the largest SMAPE improvement in Table 1? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "TimesNet",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 51,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.09275v1\\chart1.jpg",
+            "table1": "2512.09275v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Mean Attacked Generalization Gap vs. Context Length (t) under a fixed PGD attack (ε = 0.02).",
+            "table1": "Generalization Gap Comparison across Different Context Lengths t."
+        },
+        "question": "In Table 1, for how many context lengths does RoPE have a smaller Generalization Gap than Without PE? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 72,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2601.00461v1\\chart1.jpg",
+            "table1": "2601.00461v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of the choice of random graph models.",
+            "table1": "Ablation over number of users n (final cumulative regret; mean±SE)."
+        },
+        "question": "At n = 200 in Table 1, which algorithm achieves the smallest mean cumulative regret? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "LK-GP-UCB",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 66,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.19373v1\\chart1.jpg",
+            "table1": "2512.19373v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Root mean square error (RMSE) of the random Fourier feature model as the number of resampling iterations increases.",
+            "table1": "Comparison of training and test RMSE for different models on the California Housing dataset."
+        },
+        "question": "Which model in Table 1 has the smallest reported standard deviation for Test RMSE? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "RFF model",
+        "answer_type": "text"
+    }
+]

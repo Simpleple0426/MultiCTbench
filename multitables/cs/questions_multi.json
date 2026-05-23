@@ -1,0 +1,1561 @@
+[
+    {
+        "question_id": 1,
+        "items": ["table1","table2", "table3", "table4"],
+        "path": {
+            "table1": "2512.21329v1\\table1.jpg",
+            "table2": "2512.21329v1\\table2.jpg",
+            "table3": "2512.21329v1\\table3.jpg",
+            "table4": "2512.21329v1\\table4.jpg"
+        },
+        "caption": {
+            "table1": "Error attribution on Mini-ARC under settings 1(a) and 1(b).",
+            "table2": "Error attribution on Bongard-LOGO under phases 2(a) and 2(b).",
+            "table3": "Error attribution on ACRE under settings 3(a) and 3(b).",
+            "table4": "Error attribution on ACRE with varying P, comparing settings 3(b) and 3(c)."
+        },
+        "question": "What are the percentages of Perception (Demo) errors for Setting 1(b) in Table 1 and Phase 2(a) in Table 2? Respond only with a list of two numeric values.",
+        "question_type": "perceptual",
+        "answer": [59.5, 65.8],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 2,
+        "items": ["table1","table2", "table3", "table4"],
+        "path": {
+            "table1": "2512.21329v1\\table1.jpg",
+            "table2": "2512.21329v1\\table2.jpg",
+            "table3": "2512.21329v1\\table3.jpg",
+            "table4": "2512.21329v1\\table4.jpg"
+        },
+        "caption": {
+            "table1": "Error attribution on Mini-ARC under settings 1(a) and 1(b).",
+            "table2": "Error attribution on Bongard-LOGO under phases 2(a) and 2(b).",
+            "table3": "Error attribution on ACRE under settings 3(a) and 3(b).",
+            "table4": "Error attribution on ACRE with varying P, comparing settings 3(b) and 3(c)."
+        },
+        "question": "Compute the overall average number of Reasoning (Inductive) errors across all settings in Table 1 and Table 2. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 7.5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.21580v2\\table1.jpg",
+            "table2": "2512.21580v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Results on English benchmarks.",
+            "table2": "Multilingual results."
+        },
+        "question": "Which models appear in both Table 1 and Table 2? Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[Gemma3, Llama3.2, Gamayun, Qwen2.5, EuroLM, Qwen3]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.21580v2\\table1.jpg",
+            "table2": "2512.21580v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Results on English benchmarks.",
+            "table2": "Multilingual results."
+        },
+        "question": "What are the English Average score of Qwen2.5 in Table 1 and the Russian average performance of Qwen2.5 in Table 2? Respond only with a list of two numeric values.",
+        "question_type": "perceptual",
+        "answer": [64.3, 41.2],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.21706v1\\table1.jpg",
+            "table2": "2512.21706v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance on Synthetic Dataset: Per-class and Overall Metrics, which aggregate performance across all classes within each hierarchy level.",
+            "table2": "GoT pipeline results."
+        },
+        "question": "What are the AUC score of Continuation in Table 1 and the Similarity score of CANDOR in Table 2? Respond only with a list of two numeric values.",
+        "question_type": "perceptual",
+        "answer": [0.937, 0.660],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 6,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.21706v1\\table1.jpg",
+            "table2": "2512.21706v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance on Synthetic Dataset: Per-class and Overall Metrics, which aggregate performance across all classes within each hierarchy level.",
+            "table2": "GoT pipeline results."
+        },
+        "question": "Compute the average of the F1 score of Continuation in Table 1 and the BLEU-1 score of CANDOR in Table 2. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.729,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.21709v1\\table1.jpg",
+            "table2": "2512.21709v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Training hyperparameters for fine-tuned Bengali AI text detection models. Learning Rate and Batch Size are abbreviated as LR and BS respectively.",
+            "table2": "Performance comparison of zero-shot transformer models for Bengali AI-paraphrased text detection. Acc, Prec, Rec and F1 stand for Accuracy, Precision, Recall and F1 Score (Binary) respectively. Values are presented in percentage."
+        },
+        "question": "What is the Accuracy score in Table 2 of the model with the largest number of epochs in Table 1? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 50.34,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.21709v1\\table1.jpg",
+            "table2": "2512.21709v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Training hyperparameters for fine-tuned Bengali AI text detection models. Learning Rate and Batch Size are abbreviated as LR and BS respectively.",
+            "table2": "Performance comparison of zero-shot transformer models for Bengali AI-paraphrased text detection. Acc, Prec, Rec and F1 stand for Accuracy, Precision, Recall and F1 Score (Binary) respectively. Values are presented in percentage."
+        },
+        "question": "Compute the average F1 score in Table 2 for models trained for at most 3 epochs in Table 1. Round to two decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 66.64,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 9,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.21877v1\\table1.jpg",
+            "table2": "2512.21877v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "The Domain Gap: Comparison of accuracy on BIRD (Li et al., 2023) vs. CricBench (Context-Aware). A small negative gap indicates high robustness to specialized domain logic.",
+            "table2": "Distribution of failure modes. Note: DeepSeek R1 has near-perfect execution (only 9 syntax errors), whereas Gemma 2 suffers massive schema hallucination (222 errors)."
+        },
+        "question": "For models whose BIRD (Gen) accuracy is above the average in Table 1, compute their average Context-Aware Match in Table 2. Round to one decimal place. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 44.0,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.21877v1\\table1.jpg",
+            "table2": "2512.21877v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "The Domain Gap: Comparison of accuracy on BIRD (Li et al., 2023) vs. CricBench (Context-Aware). A small negative gap indicates high robustness to specialized domain logic.",
+            "table2": "Distribution of failure modes. Note: DeepSeek R1 has near-perfect execution (only 9 syntax errors), whereas Gemma 2 suffers massive schema hallucination (222 errors)."
+        },
+        "question": "Extract the BIRD (Gen) accuracy of GPT-4o from Table 1, and the Context-Aware Match accuracy of GPT-4o from Table 2. Respond only with a list of two numeric values in the order Table 1 value, Table 2 value.",
+        "question_type": "perceptual",
+        "answer": [55.4, 33.7],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 11,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.22378v1\\table1.jpg",
+            "table2": "2512.22378v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance comparison of different methods on the End-to-End Natural Language Generation Benchmark using BLEU, NIST, METEOR, ROUGE-L, and CIDEr for GPT-2 Small, Deepseek R1-1.5B, LLaMA2-7B and LLaMA3-8B. We ran 10 experiments with different random seeds and recorded the best test set performance.",
+            "table2": "Performance comparison of different methods on the MT-Bench, Vicuna Eval, BBH, MATH, and Alpaca datasets for Qwen2 7B, Deepseek R1-1.5B, LLaMA2-7B and LLaMA3-8B models. We ran 3 experiments with different random seeds and recorded the best test set performance."
+        },
+        "question": "Extract the BLEU score of LLaMA2-7B using LoRA in Table 1 and the MATH score in Table 2. Respond only with a list of two numeric values.",
+        "question_type": "perceptual",
+        "answer": [72.41, 33.22],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.22378v1\\table1.jpg",
+            "table2": "2512.22378v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance comparison of different methods on the End-to-End Natural Language Generation Benchmark using BLEU, NIST, METEOR, ROUGE-L, and CIDEr for GPT-2 Small, Deepseek R1-1.5B, LLaMA2-7B and LLaMA3-8B. We ran 10 experiments with different random seeds and recorded the best test set performance.",
+            "table2": "Performance comparison of different methods on the MT-Bench, Vicuna Eval, BBH, MATH, and Alpaca datasets for Qwen2 7B, Deepseek R1-1.5B, LLaMA2-7B and LLaMA3-8B models. We ran 3 experiments with different random seeds and recorded the best test set performance."
+        },
+        "question": "Extract the NIST score of LLaMA3-8B using LoRA in Table 1 and the Vicuna Eval score in Table 2. Respond only with a list of two numeric values.",
+        "question_type": "perceptual",
+        "answer": [9.67, 8.25],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.22442v1\\table1.jpg",
+            "table2": "2512.22442v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Ablation on MMU-RAGent Standard Validation Set",
+            "table2": "Performance on Test2025 (Future Events > Feb 2025)"
+        },
+        "question": "Extract the ROUGE-L (F1) scores of RAG w/ Filters (URL + Chunk) from Table 1 and Table 2. Respond only with a list of two numeric values.",
+        "question_type": "perceptual",
+        "answer": [0.2695, 0.3031],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 14,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.22442v1\\table1.jpg",
+            "table2": "2512.22442v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Ablation on MMU-RAGent Standard Validation Set",
+            "table2": "Performance on Test2025 (Future Events > Feb 2025)"
+        },
+        "question": "Compute the average DeBERTaScore (F1) of RAG w/ Filters (URL + Chunk) across Table 1 and Table 2. Round to four decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.6776,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.22562v1\\table1.jpg",
+            "table2": "2512.22562v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance comparison of the proposed All-or-here Attention across various window sizes. “Vanilla” denotes the OLMo-2-0425-1B-SFT model using full attention.",
+            "table2": "Average Full Attention usage of the proposed All-or-here Attention across various window sizes."
+        },
+        "question": "What are the News score in Table 1 and the News usage percentage in Table 2 for w = 128? Respond only with a list of two numeric values.",
+        "question_type": "perceptual",
+        "answer": [0.2053, 14.4],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 16,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.22562v1\\table1.jpg",
+            "table2": "2512.22562v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance comparison of the proposed All-or-here Attention across various window sizes. “Vanilla” denotes the OLMo-2-0425-1B-SFT model using full attention.",
+            "table2": "Average Full Attention usage of the proposed All-or-here Attention across various window sizes."
+        },
+        "question": "Compute the difference between the average task score of w = 128 and Vanilla using Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.00157,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.22712v1\\table1.jpg",
+            "table2": "2512.22712v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Accuracy (Acc, ↑) and Trace Inconsistency Rate (TIR, ↓) across languages and models. LS = Latin script, NLS = Not Latin script, HRL = Higher-resourced language, LRL = Lower-resourced language. For each model, the highest Accuracy and lowest TIR among individual languages are highlighted in bold.",
+            "table2": "Trace Inconsistency Rate (TIR, ↓) across languages and models, when the model’s final answer was wrong. For each model, the lowest TIR is bolded."
+        },
+        "question": "Extract the Korean TIR of Qwen3-32B from Table 1 and Table 2. Respond only with a list of two numeric values in the order [Table 1, Table 2].",
+        "question_type": "perceptual",
+        "answer": [9.81, 18.8],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.22712v1\\table1.jpg",
+            "table2": "2512.22712v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Accuracy (Acc, ↑) and Trace Inconsistency Rate (TIR, ↓) across languages and models. LS = Latin script, NLS = Not Latin script, HRL = Higher-resourced language, LRL = Lower-resourced language. For each model, the highest Accuracy and lowest TIR among individual languages are highlighted in bold.",
+            "table2": "Trace Inconsistency Rate (TIR, ↓) across languages and models, when the model’s final answer was wrong. For each model, the lowest TIR is bolded."
+        },
+        "question": "Compute the reduction in Hindi TIR from Table 2 to Table 1 for Qwen2.5-72B-Instruct (Table 2 − Table 1). Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 18.98,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23049v1\\table1.jpg",
+            "table2": "2512.23049v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Percentage of correct answers on the MultiQA task across different implementations. FT denotes distillation via fine-tuning. Bold denotes best performance or results not significantly worse (p > 0.05, McNemar’s test).",
+            "table2": "Left: The percentage of concepts successfully incorporated into the final story. Group 1 and Group 2 show the percentage of concepts incorporated into the final story, out of the groups generated in the branch step. We report 95% confidence intervals on the difference from baseline. Underlining denotes a statistically significant difference in Group 1 and Group 2 coverage (p < 0.05). Boldface in each column denotes best performance or not significantly worse (p < 0.05). Right: Head-to-head win rates as judged by GPT-4o (prompt in §D, remaining percentage represents ties), with 95% CIs. All statistical tests use the paired bootstrap."
+        },
+        "question": "Extract the Q1 accuracy of Choreo. Serial from Table 1 and its Overall concept coverage from Table 2. Respond only with a list of two numeric values.",
+        "question_type": "perceptual",
+        "answer": [2.0, 65.1],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 20,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23049v1\\table1.jpg",
+            "table2": "2512.23049v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Percentage of correct answers on the MultiQA task across different implementations. FT denotes distillation via fine-tuning. Bold denotes best performance or results not significantly worse (p > 0.05, McNemar’s test).",
+            "table2": "Left: The percentage of concepts successfully incorporated into the final story. Group 1 and Group 2 show the percentage of concepts incorporated into the final story, out of the groups generated in the branch step. We report 95% confidence intervals on the difference from baseline. Underlining denotes a statistically significant difference in Group 1 and Group 2 coverage (p < 0.05). Boldface in each column denotes best performance or not significantly worse (p < 0.05). Right: Head-to-head win rates as judged by GPT-4o (prompt in §D, remaining percentage represents ties), with 95% CIs. All statistical tests use the paired bootstrap."
+        },
+        "question": "For implementations with Q2 ≥ 70 in Table 1, compute the average Overall concept coverage in Table 2. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 81.3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 21,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23147v1\\table1.jpg",
+            "table2": "2512.23147v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "COMPARISON OF OUR DVA AND OTHER APPROACHES.",
+            "table2": "COMPARISON OF OUR GRS AND OTHER APPROACHES."
+        },
+        "question": "Extract the Overall mAP values of the Baseline method from Table 1 and Table 2. Respond only with a list of two numeric values in the order [Table 1, Table 2].",
+        "question_type": "perceptual",
+        "answer": [53.34, 60.06],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23232v1\\table1.jpg",
+            "table2": "2512.23232v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Quantitative evaluation (PSNR, LPIPS) of various methods at NFE 100 and 50 for solving linear inverse problems.",
+            "table2": "Quantitative evaluation (PSNR, LPIPS) of various methods at NFE 100 and 50 for solving non-linear inverse problems."
+        },
+        "question": "Extract the PSNR values of DAPS for Gaussian deblur at NFE ≈ 50 in Table 1 and Nonlinear deblurring at NFE ≈ 50 in Table 2. Respond only with a list of two numeric values.",
+        "question_type": "perceptual",
+        "answer": [26.733, 24.277],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 23,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23232v1\\table1.jpg",
+            "table2": "2512.23232v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Quantitative evaluation (PSNR, LPIPS) of various methods at NFE 100 and 50 for solving linear inverse problems.",
+            "table2": "Quantitative evaluation (PSNR, LPIPS) of various methods at NFE 100 and 50 for solving non-linear inverse problems."
+        },
+        "question": "Compute the overall average LPIPS of SGPS (ours) across Table 1 and Table 2 at NFE ≈ 50. Round to three decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.207,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 24,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23234v1\\table1.jpg",
+            "table2": "2512.23234v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of detection performance between the proposed method and mainstream models on the IIG dataset.",
+            "table2": "Comparison of detection performance between the proposed method and mainstream models on the LangGas dataset."
+        },
+        "question": "Extract the AP75 values of Yolov10n in Table 1 and Table 2. Respond only with a list of two numeric values.",
+        "question_type": "perceptual",
+        "answer": [10.6, 30.2],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 25,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23234v1\\table1.jpg",
+            "table2": "2512.23234v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of detection performance between the proposed method and mainstream models on the IIG dataset.",
+            "table2": "Comparison of detection performance between the proposed method and mainstream models on the LangGas dataset."
+        },
+        "question": "Compute the AP75 change of Yolov12n between Table 1 and Table 2 (Table 2 − Table 1). Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 23.8,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23243v1\\table1.jpg",
+            "table2": "2512.23243v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance of Models on DIOR-RSVG Dataset",
+            "table2": "GPT-4V-Based Performance Evaluation"
+        },
+        "question": "Extract the Accuracy@0.5 of Full-FT in Table 1 and the Detailed Description score of Full-FT in Table 2. Respond only with a list of two numeric values.",
+        "question_type": "perceptual",
+        "answer": [36.31, 6.530],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23243v1\\table1.jpg",
+            "table2": "2512.23243v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance of Models on DIOR-RSVG Dataset",
+            "table2": "GPT-4V-Based Performance Evaluation"
+        },
+        "question": "Among models appearing in both tables, select the top two by Accuracy@0.5 and report their Overall Scores from Table 2. Respond only with a list of numeric values.",
+        "question_type": "reasoning",
+        "answer": [6.574, 6.156],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23245v1\\table1.jpg",
+            "table2": "2512.23245v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance comparison and ablation study from the FLUX baseline to our proposed method, incorporating selective text embedding modification (STM), semantic projection on padding embeddings (PAD), and adaptive feature sharing (AFS). The best scores are highlighted in light red, and the second-best scores are highlighted in yellow.",
+            "table2": "Ablation study comparing the FLUX baseline, STM, STM+PAD, AFS, and our full model, with an additional projected PAD-only variant (FLUX+PAD)"
+        },
+        "question": "How many distinct model methods appear across Table 1 and Table 2 in total? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 6,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 29,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23245v1\\table1.jpg",
+            "table2": "2512.23245v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance comparison and ablation study from the FLUX baseline to our proposed method, incorporating selective text embedding modification (STM), semantic projection on padding embeddings (PAD), and adaptive feature sharing (AFS). The best scores are highlighted in light red, and the second-best scores are highlighted in yellow.",
+            "table2": "Ablation study comparing the FLUX baseline, STM, STM+PAD, AFS, and our full model, with an additional projected PAD-only variant (FLUX+PAD)"
+        },
+        "question": "Compute the overall average Identity consistency across all shared methods in Table 1 and Table 2. Round to three decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.355,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 30,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23273v2\\table1.jpg",
+            "table2": "2512.23273v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison with state-of-the-art Nano-scale detectors across five benchmarks.",
+            "table2": "Comparison of classification performance on ImageNet  dataset"
+        },
+        "question": "Extract the KITTI mAP50 of YOLOv11-N from Table 1 and the Top-1 accuracy of YOLOv11-cls-N from Table 2. Respond only with a list of two numeric values.",
+        "question_type": "perceptual",
+        "answer": [89.8, 70.0],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 31,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23273v2\\table1.jpg",
+            "table2": "2512.23273v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison with state-of-the-art Nano-scale detectors across five benchmarks.",
+            "table2": "Comparison of classification performance on ImageNet  dataset"
+        },
+        "question": "Select models with COCO mAP ≥ 40 in Table 1 and compute the average Top-1 accuracy of their corresponding classifiers in Table 2. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 74.15,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 32,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23328v2\\table1.jpg",
+            "table2": "2512.23328v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Pass rates of different agent types across modalities and horizons on CubeBench. Metrics include pass rate (higher is better). Modalities include Full Symbolic, Full Visual, Face View, and Vertex View. Tier 3 denotes the hardest split and is evaluated under two projections: Face View and Vertex View. Horizons include Short (S) and Long (L).",
+            "table2": "Comparison of pass rates for Basic, Standard-Solver, and Ideal-Solver agent configurations. Modalities include Full Symbolic, Full Visual, Face View, and Vertex View. Tier 3 denotes the hardest split and is evaluated under two projections: Face View and Vertex View. Horizons include Short (S) and Long (L)."
+        },
+        "question": "Extract the pass rate of GPT-5 under Face View and Short horizon for reward type face in Table 1, and for Ideal-Solver in Table 2. Respond only with a list of two numeric values.",
+        "question_type": "perceptual",
+        "answer": [0.50, 0.85],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 33,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23328v2\\table1.jpg",
+            "table2": "2512.23328v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Pass rates of different agent types across modalities and horizons on CubeBench. Metrics include pass rate (higher is better). Modalities include Full Symbolic, Full Visual, Face View, and Vertex View. Tier 3 denotes the hardest split and is evaluated under two projections: Face View and Vertex View. Horizons include Short (S) and Long (L).",
+            "table2": "Comparison of pass rates for Basic, Standard-Solver, and Ideal-Solver agent configurations. Modalities include Full Symbolic, Full Visual, Face View, and Vertex View. Tier 3 denotes the hardest split and is evaluated under two projections: Face View and Vertex View. Horizons include Short (S) and Long (L)."
+        },
+        "question": "Compute the average of the Full Symbolic (Short) pass rates for Claude Sonnet 4 from reward type sticker in Table 1 and Ideal-Solver in Table 2. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.625,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 34,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23379v2\\table1.jpg",
+            "table2": "2512.23379v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Quantitative comparison of SoulX-LiveTalk and state-of-the-art methods on TalkBench-Short (10 s) and TalkBench-Long (> 5 min). Models marked with ∗ support real-time inference, and △ denotes the LoRA version.",
+            "table2": "Ablation study on chunk generation strategies during distillation."
+        },
+        "question": "Identify the metric names that are reported in both Table 1 and Table 2. Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[ASE, IQA, Sync-C, Sync-D]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23379v2\\table1.jpg",
+            "table2": "2512.23379v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Quantitative comparison of SoulX-LiveTalk and state-of-the-art methods on TalkBench-Short (10 s) and TalkBench-Long (> 5 min). Models marked with ∗ support real-time inference, and △ denotes the LoRA version.",
+            "table2": "Ablation study on chunk generation strategies during distillation."
+        },
+        "question": "Identify methods or strategies across Table 1 and Table 2 whose short ASE is at least 3.5. Respond only with a list of strings.",
+        "question_type": "reasoning",
+        "answer": "[SoulX-LiveTalk (Ours), Fixed K=5, Random [1,5]]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23396v1\\table1.jpg",
+            "table2": "2512.23396v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "pinnL: Lossy Scenario Results",
+            "table2": "pinnW: Four-Window Variant of pinnA"
+        },
+        "question": "Extract the L2 values at t = 0.5 from Table 1 and Table 2. Respond only with a list of two numeric values.",
+        "question_type": "perceptual",
+        "answer": [1.04, 5.11],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23396v1\\table1.jpg",
+            "table2": "2512.23396v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "pinnL: Lossy Scenario Results",
+            "table2": "pinnW: Four-Window Variant of pinnA"
+        },
+        "question": "Compute the difference between pinnW.E in Table 2 and pinnL.E in Table 1 at t = 2.0 (Table 2 − Table 1). Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.009825,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 38,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23407v1\\table1.jpg",
+            "table2": "2512.23407v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Architectural hyperparameters of the dense transformer baselines used in our experiments.",
+            "table2": "Architectural hyperparameters of the familial model variants and their exit configurations."
+        },
+        "question": "Identify the model size with the maximum num_attention_heads across both tables and report the value. Respond only with a list in the format [model_size, integer].",
+        "question_type": "perceptual",
+        "answer": "[4B, 20]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 39,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23410v1\\table1.jpg",
+            "table2": "2512.23410v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Hyperparameter Configuration. Specific settings for the Subspace Construction phase (Frozen Backbone). Note the use of higher learning rates for Transformers to adapt the linear head to the fixed manifold.",
+            "table2": "Subspace Classification Results. Comparison of Full Fine-Tuning, Frozen Baseline (Full Dim), and JLL Subspace Projections. Δ denotes the performance difference relative to the Frozen Baseline. Note the stability of accuracy even at high compression rates (e.g., 12x)."
+        },
+        "question": "For the model with the largest number of training epochs in Table 1, extract its Full Fine-Tuning accuracy from Table 2. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 79.95,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 40,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23410v1\\table1.jpg",
+            "table2": "2512.23410v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Hyperparameter Configuration. Specific settings for the Subspace Construction phase (Frozen Backbone). Note the use of higher learning rates for Transformers to adapt the linear head to the fixed manifold.",
+            "table2": "Subspace Classification Results. Comparison of Full Fine-Tuning, Frozen Baseline (Full Dim), and JLL Subspace Projections. Δ denotes the performance difference relative to the Frozen Baseline. Note the stability of accuracy even at high compression rates (e.g., 12x)."
+        },
+        "question": "For the model that uses SGD in Table 1, compute the average accuracy of all JLL Projection configurations in Table 2. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 81.7825,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23422v1\\table1.jpg",
+            "table2": "2512.23422v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Main performance comparison on mathematical reasoning and general capability benchmarks. For a fair comparison, results are reported from the checkpoint with the highest domain-average score for each method. Our method consistently achieves superior accuracy in mathematical reasoning while effectively preserving or even enhancing general capabilities.",
+            "table2": "Main performance comparison on code generation and general capability benchmarks using Qwen-0.6B."
+        },
+        "question": "Extract the Total Avg. of EntroDrop in Table 1 (Qwen3-0.6B) and Table 2. Respond only with a list of two numeric values in the order [Table 1, Table 2].",
+        "question_type": "perceptual",
+        "answer": [49.44, 45.45],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23422v1\\table1.jpg",
+            "table2": "2512.23422v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Main performance comparison on mathematical reasoning and general capability benchmarks. For a fair comparison, results are reported from the checkpoint with the highest domain-average score for each method. Our method consistently achieves superior accuracy in mathematical reasoning while effectively preserving or even enhancing general capabilities.",
+            "table2": "Main performance comparison on code generation and general capability benchmarks using Qwen-0.6B."
+        },
+        "question": "Compute the difference between the Mathematical Reasoning average of EntroDrop in Table 1 (Qwen3-0.6B) and the Code Generation average of EntroDrop in Table 2. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 12.57,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 43,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23426v1\\table1.jpg",
+            "table2": "2512.23426v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "DDSPO on diverse backbones. We evaluate DDSPO across Diverse Backbones (SD-1.4 [43], SDXL [38], SANA [56]).",
+            "table2": "Aesthetic Quality Comparison with State-of-the-Art Methods. We compare DDSPO with existing approaches that rely on human-labeled supervision from Pick-a-Pic, while DDSPO is trained without any human-labeled data."
+        },
+        "question": "Compute the ratio between the GenEval improvement of SDXL after applying DDSPO in Table 1 and the HPSv2 improvement of SDXL after applying DDSPO in Table 2. Round to three decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.092,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 44,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23426v1\\table1.jpg",
+            "table2": "2512.23426v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "DDSPO on diverse backbones. We evaluate DDSPO across Diverse Backbones (SD-1.4 [43], SDXL [38], SANA [56]).",
+            "table2": "Aesthetic Quality Comparison with State-of-the-Art Methods. We compare DDSPO with existing approaches that rely on human-labeled supervision from Pick-a-Pic, while DDSPO is trained without any human-labeled data."
+        },
+        "question": "For SDXL, compute the improvement of DDSPO over the vanilla model in each table, then compute the average of these two improvements. Round to four decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.4860,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 45,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23441v1\\table1.jpg",
+            "table2": "2512.23441v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "LINEAR EVALUATION OF WET-AMD CONVERSION PREDICTION ON PRETRAINED MODELS WITHIN TWO TIME-WINDOWS: 6 AND 12 MONTHS ON THE HARBOR DATASET. IMAGENET, VISIONFM AND RETFOUND ARE FULLY FINETUNED. THE RESULTS ARE REPORTED OVER 4-FOLDS",
+            "table2": "LINEAR EVALUATION OF GA CONVERSION PREDICTION WITHIN A 12 MONTHS TIME WINDOW ON THE PINNACLE DATASET. THE MODELS ARE PRETRAINED WITH THE HARBOR DATASET. THE RESULTS ARE REPORTED OVER 5-FOLDS"
+        },
+        "question": "List the time window names jointly involved across Table 1 and Table 2. Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[12-months]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 46,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23441v1\\table1.jpg",
+            "table2": "2512.23441v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "LINEAR EVALUATION OF WET-AMD CONVERSION PREDICTION ON PRETRAINED MODELS WITHIN TWO TIME-WINDOWS: 6 AND 12 MONTHS ON THE HARBOR DATASET. IMAGENET, VISIONFM AND RETFOUND ARE FULLY FINETUNED. THE RESULTS ARE REPORTED OVER 4-FOLDS",
+            "table2": "LINEAR EVALUATION OF GA CONVERSION PREDICTION WITHIN A 12 MONTHS TIME WINDOW ON THE PINNACLE DATASET. THE MODELS ARE PRETRAINED WITH THE HARBOR DATASET. THE RESULTS ARE REPORTED OVER 5-FOLDS"
+        },
+        "question": "For SiamMAE, compute the relative improvement ratio of BACC from Table 1 (12-months) to Table 2. Round to three decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.280,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 47,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23453v1\\table1.jpg",
+            "table2": "2512.23453v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Results on CHAIR benchmark. We limit the maximum number of new tokens to 64. Lower CHAIRs, CHAIRi and higher recall and length indicate better performance. The best results in each setting are bolded, and the second-best are underlined.",
+            "table2": "Results on MME-Hallucination and MMBench benchmark. We present the average MME scores along with their standard deviations over three random seeds for each subset. Additionally, the final column reports the overall accuracy of each method on the MMBench benchmark. Higher values denote better performance. The best results are highlighted in bold, while the second-best are marked with underlining."
+        },
+        "question": "Extract the CHAIRᵢ of HALC under InstructBLIP in Table 1 and the MME Score of HALC in Table 2. Respond only with a list of two numeric values.",
+        "question_type": "perceptual",
+        "answer": [8.1, 581.24],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 48,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23453v1\\table1.jpg",
+            "table2": "2512.23453v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Results on CHAIR benchmark. We limit the maximum number of new tokens to 64. Lower CHAIRs, CHAIRi and higher recall and length indicate better performance. The best results in each setting are bolded, and the second-best are underlined.",
+            "table2": "Results on MME-Hallucination and MMBench benchmark. We present the average MME scores along with their standard deviations over three random seeds for each subset. Additionally, the final column reports the overall accuracy of each method on the MMBench benchmark. Higher values denote better performance. The best results are highlighted in bold, while the second-best are marked with underlining."
+        },
+        "question": "Compute MME Score minus (Existence + Count) for Ours in Table 2. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 292.7,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 49,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23464v1\\table1.jpg",
+            "table2": "2512.23464v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Instruction-following capability comparison with state-of-the-art text-to-motion models. Motion categories: (a) Locomotion, (b) Sports & Athletics, (c) Fitness & Outdoor Activities, (d) Daily Activities, (e) Social Interactions & Leisure, and (f) Game Character Actions.",
+            "table2": "Motion quality comparison with state-of-the-art text-to-motion models. Motion categories: (a) Locomotion, (b) Sports & Athletics, (c) Fitness & Outdoor Activities, (d) Daily Activities, (e) Social Interactions & Leisure, and (f) Game Character Actions."
+        },
+        "question": "Extract the Daily Activities (d) scores of MoMask from Table 1 and Table 2. Respond only with a list of two numeric values in the order [Table 1, Table 2].",
+        "question_type": "perceptual",
+        "answer": [2.07, 2.66],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 50,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23489v1\\table1.jpg",
+            "table2": "2512.23489v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Results of ablation studies.",
+            "table2": "Discrimination metrics across baselines. All values are in [0, 1]."
+        },
+        "question": "Extract the Recall of GST in Table 1 and the AUC-PR of GST in Table 2. Respond only with a list of two numeric values.",
+        "question_type": "perceptual",
+        "answer": [83.54, 0.335],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 51,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23489v1\\table1.jpg",
+            "table2": "2512.23489v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Results of ablation studies.",
+            "table2": "Discrimination metrics across baselines. All values are in [0, 1]."
+        },
+        "question": "Count the number of methods that satisfy both: F1 ≥ 34 in Table 1 and AUC-ROC ≥ 0.57 in Table 2. Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 52,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23541v1\\table1.jpg",
+            "table2": "2512.23541v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of Performance on Robotwin 2.0 Simulation Benchmark. Act2Goal outperforms baselines in all Easy-mode tasks and 3 Hard-mode tasks, showing superior generalization.",
+            "table2": "Comparison of Performance on Real-World Manipulation Tasks. Act2Goal demonstrates remarkable performance across all real-world tasks, significantly outperforming all baseline methods. The robust performance in OOD settings strongly validates its superior generalization ability. All results are obtained without any online autonomous improvement, using only offline imitation learning."
+        },
+        "question": "Extract the success rates of Act2Goal on Easy Place Shoe in Table 1 and ID Plug-In Operation in Table 2. Respond only with a list of two numeric values.",
+        "question_type": "perceptual",
+        "answer": [0.52, 0.45],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 53,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23541v1\\table1.jpg",
+            "table2": "2512.23541v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of Performance on Robotwin 2.0 Simulation Benchmark. Act2Goal outperforms baselines in all Easy-mode tasks and 3 Hard-mode tasks, showing superior generalization.",
+            "table2": "Comparison of Performance on Real-World Manipulation Tasks. Act2Goal demonstrates remarkable performance across all real-world tasks, significantly outperforming all baseline methods. The robust performance in OOD settings strongly validates its superior generalization ability. All results are obtained without any online autonomous improvement, using only offline imitation learning."
+        },
+        "question": "Compute the difference between the average π0.5-GC success rate under Easy in Table 1 and under ID in Table 2 (Easy − ID). Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.1458,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 54,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23667v2\\table1.jpg",
+            "table2": "2512.23667v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Single-view intrinsic decomposition results on HyperSim.",
+            "table2": "Single-view depth estimation results."
+        },
+        "question": "Extract the Albedo SSIM of IDT (Ours) in Table 1 and the RMSE of IDT (Ours) in Table 2. Respond only with a list of two numeric values.",
+        "question_type": "perceptual",
+        "answer": [0.842, 0.341],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 55,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23667v2\\table1.jpg",
+            "table2": "2512.23667v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Single-view intrinsic decomposition results on HyperSim.",
+            "table2": "Single-view depth estimation results."
+        },
+        "question": "Count the total number of unique methods appearing across Table 1 and Table 2 after removing duplicates. Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 56,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23684v1\\table1.jpg",
+            "table2": "2512.23684v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Decision-level outcome changes under prompt injection",
+            "table2": "Acceptance outcome transitions under prompt injection"
+        },
+        "question": "Extract the ISR more harsh value from Table 1 and the Accept → Strong Reject value from Table 2 for English. Respond only with a list of two numeric values.",
+        "question_type": "perceptual",
+        "answer": [0.992, 0.525],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 57,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23684v1\\table1.jpg",
+            "table2": "2512.23684v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Decision-level outcome changes under prompt injection",
+            "table2": "Acceptance outcome transitions under prompt injection"
+        },
+        "question": "For each language, compute ISR score change (Table 1) minus Accept → Strong Reject (Table 2). Respond only with a list of numeric values in language order.",
+        "question_type": "reasoning",
+        "answer": [0.471, 0.570, 0.762, 0.370],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 58,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23705v1\\table1.jpg",
+            "table2": "2512.23705v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "QUANTITATIVE COMPARISON FOR VIDEO DEPTH ESTIMATION ON CLEARPOSE AND TRANSPHY3D-TEST. BEST AND SECOND BEST ARE HIGHLIGHED.",
+            "table2": "QUANTITATIVE COMPARISON FOR VIDEO DEPTH ESTIMATION ON THE DREDS DATASETS."
+        },
+        "question": "Extract the δ₁.25 values of MoGe on TransPhy3D-Test (Table 1) and DREDS-STD-CatNovel (Table 2). Respond only with a list of numeric values.",
+        "question_type": "perceptual",
+        "answer": [50.98, 99.31],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 59,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23709v1\\table1.jpg",
+            "table2": "2512.23709v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Quantitative comparison against unidirectional/online methods on the REDS4 dataset.",
+            "table2": "Quantitative comparison against bidirectional/offline methods on the Vimeo-90K-T dataset. Stream-DiffVSR surpasses other bidirectional methods in perceptual quality, temporal consistency, and runtime. Runtime is the average per-frame inference time (seconds) on 448×256 videos using an RTX 4090. Best and second-best results are shown in red and blue."
+        },
+        "question": "Extract the tLP values of RVRT in Table 1 and Table 2. Respond only with a list of numeric values.",
+        "question_type": "perceptual",
+        "answer": [9.133, 4.873],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 60,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23765v1\\table1.jpg",
+            "table2": "2512.23765v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Accuracy results on benchmark datasets, where TM denotes the target model, DM denotes the draft model, and PRM denotes the process reward model.",
+            "table2": "Average tokens on benchmark datasets, where TM denotes the target model, DM denotes the draft model, and PRM denotes the process reward model."
+        },
+        "question": "For the Single Model with TM=72B, what are the Math500 accuracy in Table 1 and the Math500 average tokens in Table 2? Respond only with a list of numeric values in the order [Accuracy, Tokens].",
+        "question_type": "perceptual",
+        "answer": [84, 628.38],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 61,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23765v1\\table1.jpg",
+            "table2": "2512.23765v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Accuracy results on benchmark datasets, where TM denotes the target model, DM denotes the draft model, and PRM denotes the process reward model.",
+            "table2": "Average tokens on benchmark datasets, where TM denotes the target model, DM denotes the draft model, and PRM denotes the process reward model."
+        },
+        "question": "For EASD with TM=32B, what are the Aime24 values in Table 1 and Table 2? Respond only with a list of numeric values.",
+        "question_type": "perceptual",
+        "answer": [23.33, 867.97],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 62,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23813v1\\table1.jpg",
+            "table2": "2512.23813v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Continual Training Hyperparameters",
+            "table2": "Fine-Tuning Hyperparameters"
+        },
+        "question": "Which hyperparameters appear in both Table 1 and Table 2? Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[Learning rate, Batch size, Number of epochs, Weight decay]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 63,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23848v1\\table1.jpg",
+            "table2": "2512.23848v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Internal Retriever on Dev Set",
+            "table2": "External Retriever on Dev Set for the Top 3 Facts"
+        },
+        "question": "For RoBERTa Base, report the Top 5 Recall (%) in Table 1 and the Median Similarity Score in Table 2. Respond only with a list of numeric values.",
+        "question_type": "perceptual",
+        "answer": [92.67, 0.8744],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 64,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23852v1\\table1.jpg",
+            "table2": "2512.23852v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance of Trellis and baselines on language modeling and common-sense reasoning tasks.",
+            "table2": "Performance of Trellis and baselines with 1B parameters on S-NIAH task from RULER benchmark. The best results with highest accuracy are highlighted."
+        },
+        "question": "Among the models reporting ARC-e in Table 1, which also appear in Table 2? Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[Mamba2, TTT, Gated DeltaNet, Trellis]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 65,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23852v1\\table1.jpg",
+            "table2": "2512.23852v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance of Trellis and baselines on language modeling and common-sense reasoning tasks.",
+            "table2": "Performance of Trellis and baselines with 1B parameters on S-NIAH task from RULER benchmark. The best results with highest accuracy are highlighted."
+        },
+        "question": "Among models appearing in both tables, which model has the largest (Table 2 Average − Table 1 Avg)? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Trellis",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 66,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23860v1\\table1.jpg",
+            "table2": "2512.23860v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Cross-scenario adaptation on H3.6M: S1 → S5, S6, S7, S8. MPJPE (↓)/PA-MPJPE (↓) as metrics.",
+            "table2": "Cross-dataset adaptation on H3.6M → 3DHP: TS1,...,TS6. MPJPE (↓)/PA-MPJPE (↓) as metrics."
+        },
+        "question": "For each table, count the number of test subsets where Ours has MPJPE < 50. Respond only with a list of integers in the order [Table 1, Table 2].",
+        "question_type": "reasoning",
+        "answer": [4, 0],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 67,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23860v1\\table1.jpg",
+            "table2": "2512.23860v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Cross-scenario adaptation on H3.6M: S1 → S5, S6, S7, S8. MPJPE (↓)/PA-MPJPE (↓) as metrics.",
+            "table2": "Cross-dataset adaptation on H3.6M → 3DHP: TS1,...,TS6. MPJPE (↓)/PA-MPJPE (↓) as metrics."
+        },
+        "question": "For both tables, compute the difference between the Avg MPJPE of Ours and the MPJPE of Source-only on the first test subset. Respond only with a list of numeric values.",
+        "question_type": "reasoning",
+        "answer": [-8.6, -7.7],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 68,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23906v1\\table1.jpg",
+            "table2": "2512.23906v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Threshold accuracies on tile E32N34 for displacement–only inputs. Values are given in percent.",
+            "table2": "Single–step prediction performance on tile E32N34 with multimodal inputs (displacement + static kinematics + temporal encoding)."
+        },
+        "question": "Report the Acc@20% of CNN–LSTM in Table 1 and the MAE of CNN–LSTM (Multi) in Table 2. Respond only with a list of numeric values.",
+        "question_type": "perceptual",
+        "answer": [23.37, 1.1721],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 69,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23906v1\\table1.jpg",
+            "table2": "2512.23906v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Threshold accuracies on tile E32N34 for displacement–only inputs. Values are given in percent.",
+            "table2": "Single–step prediction performance on tile E32N34 with multimodal inputs (displacement + static kinematics + temporal encoding)."
+        },
+        "question": "Among models appearing in both tables, count how many satisfy Acc@1mm > 60 in Table 1 and R² > 0.9 in Table 2. Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 1,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 70,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23938v1\\table1.jpg",
+            "table2": "2512.23938v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "COMPARISON OF DIFFERENT CROSS-VIEW GEO-LOCALIZATION METHODS ON UNIVERSITY-1652",
+            "table2": "ABLATION EXPERIMENTS ON THE EFFECTIVENESS OF MODEL COMPONENTS"
+        },
+        "question": "Report the Drone to Satellite R@1 values for Ours in Table 1 and K=1 in Table 2. Respond only with a list of numeric values.",
+        "question_type": "perceptual",
+        "answer": [94.41, 93.66],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 71,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24013v1\\table1.jpg",
+            "table2": "2512.24013v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "COMPARISON OF SEGMENTATION METHODS ON BRAIN LESION DATASETS. OUR MODEL, HILBERTMED-SAM, ACHIEVES NEW SOTA PERFORMANCE",
+            "table2": "COMPARISON OF END-TO-END DIAGNOSTIC CLASSIFICATION METHODS. OUR FULL HILBERT-VLM FRAMEWORK DEMONSTRATES CLEAR SUPERIORITY."
+        },
+        "question": "Extract the Average Dice (%) of HilbertMed-SAM in Table 1 and the ACC (%) of Hilbert-VLM in Table 2. Respond only with a list of numeric values in the order [Table 1, Table 2].",
+        "question_type": "perceptual",
+        "answer": [75.40, 78.85],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 72,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24013v1\\table1.jpg",
+            "table2": "2512.24013v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "COMPARISON OF SEGMENTATION METHODS ON BRAIN LESION DATASETS. OUR MODEL, HILBERTMED-SAM, ACHIEVES NEW SOTA PERFORMANCE",
+            "table2": "COMPARISON OF END-TO-END DIAGNOSTIC CLASSIFICATION METHODS. OUR FULL HILBERT-VLM FRAMEWORK DEMONSTRATES CLEAR SUPERIORITY."
+        },
+        "question": "How many methods are listed in Table 1 and Table 2 respectively? Respond only with a list of integers.",
+        "question_type": "perceptual",
+        "answer": [12, 7],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 73,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24058v1\\table1.jpg",
+            "table2": "2512.24058v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Final Composite Reliability Score (CRS) ranking with normalized component scores.",
+            "table2": "Baseline calibration metrics averaged across five QA datasets. Lower values are better."
+        },
+        "question": "Report the CRS (Table 1) and Avg. NLL (Table 2) of Falcon-7B. Respond only with a list of numeric values.",
+        "question_type": "perceptual",
+        "answer": [0.52, 0.566],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 74,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24058v1\\table1.jpg",
+            "table2": "2512.24058v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Final Composite Reliability Score (CRS) ranking with normalized component scores.",
+            "table2": "Baseline calibration metrics averaged across five QA datasets. Lower values are better."
+        },
+        "question": "Count the number of models with CRS ≥ 0.70 and Avg. ECE ≤ 0.035. Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 75,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24058v1\\table1.jpg",
+            "table2": "2512.24058v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Final Composite Reliability Score (CRS) ranking with normalized component scores.",
+            "table2": "Baseline calibration metrics averaged across five QA datasets. Lower values are better."
+        },
+        "question": "Compute the arithmetic mean of Avg. NLL for Tier=Moderate models. Round to three decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.393,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 76,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24120v1\\table1.jpg",
+            "table2": "2512.24120v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Per-Dataset Performance (Mean Accuracy %) on 1-epoch. Asterisks denote significance vs. baseline: * p < 0.05, ** p < 0.01. Best per dataset in bold.",
+            "table2": "Statistical Significance Tests (per-dataset comparison vs. alt-nn1 baseline). Only results with p < 0.05 shown."
+        },
+        "question": "Compute the average Mean Accuracy (%) of alt-nn1 in Table 1 across datasets with negative Δ in Table 2. Respond only with a single numeric value rounded to two decimal places.",
+        "question_type": "reasoning",
+        "answer": 59.8,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 77,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24120v1\\table1.jpg",
+            "table2": "2512.24120v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Per-Dataset Performance (Mean Accuracy %) on 1-epoch. Asterisks denote significance vs. baseline: * p < 0.05, ** p < 0.01. Best per dataset in bold.",
+            "table2": "Statistical Significance Tests (per-dataset comparison vs. alt-nn1 baseline). Only results with p < 0.05 shown."
+        },
+        "question": "Count how many datasets with Δ > 0 in Table 2 have their Best model in Table 1 being the improved model. Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 78,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24120v1\\table1.jpg",
+            "table2": "2512.24120v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Per-Dataset Performance (Mean Accuracy %) on 1-epoch. Asterisks denote significance vs. baseline: * p < 0.05, ** p < 0.01. Best per dataset in bold.",
+            "table2": "Statistical Significance Tests (per-dataset comparison vs. alt-nn1 baseline). Only results with p < 0.05 shown."
+        },
+        "question": "Compute the average Mean Accuracy (%) of alt-nn1 in Table 1 across datasets with |d| ≥ 0.5 in Table 2. Respond only with a single numeric value rounded to two decimal places.",
+        "question_type": "reasoning",
+        "answer": 32.47,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 79,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24284v1\\table1.jpg",
+            "table2": "2512.24284v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "QUANTITATIVE COMPARISONS OF DIFFERENT METHODS IN SIMULATED ENVIRONMENTS ACROSS TWO TASKS",
+            "table2": "COMPARISON OF DIFFERENT METHODS IN TERMS OF AVERAGE NAVIGATION COMPLETION TIME WITH VARYING PEDESTRIAN DENSITIES"
+        },
+        "question": "How many times does MMRL appear across Table 1 and Table 2 (counting method rows)? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 80,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24284v1\\table1.jpg",
+            "table2": "2512.24284v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "QUANTITATIVE COMPARISONS OF DIFFERENT METHODS IN SIMULATED ENVIRONMENTS ACROSS TWO TASKS",
+            "table2": "COMPARISON OF DIFFERENT METHODS IN TERMS OF AVERAGE NAVIGATION COMPLETION TIME WITH VARYING PEDESTRIAN DENSITIES"
+        },
+        "question": "Compute the difference between the average Task 1 AT of DRL-TH across all scenes in Table 1 and the average value of DRL-TH in Table 2. Round the result to three decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 71.061,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 81,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24323v1\\table1.jpg",
+            "table2": "2512.24323v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison (%) with state-of-the-art methods on VISOR. Best results are highlighted in bold, second-best in underline within the same backbone. ↑ indicates higher is better, ↓ indicates lower is better.",
+            "table2": "Comparison (%) with state-of-the-art methods on the novel subset of VISOR. Best results are in bold, second-best in underline. ↑ indicates higher is better, ↓ indicates lower is better."
+        },
+        "question": "Extract the Accuracy values of HOS in Table 1 (SwinL) and Table 2. Respond only with a list of numeric values.",
+        "question_type": "perceptual",
+        "answer": [70.3, 64.5],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 82,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24323v1\\table1.jpg",
+            "table2": "2512.24323v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison (%) with state-of-the-art methods on VISOR. Best results are highlighted in bold, second-best in underline within the same backbone. ↑ indicates higher is better, ↓ indicates lower is better.",
+            "table2": "Comparison (%) with state-of-the-art methods on the novel subset of VISOR. Best results are in bold, second-best in underline. ↑ indicates higher is better, ↓ indicates lower is better."
+        },
+        "question": "Compute the average Accuracy of Ours across Table 1 (R101) and Table 2. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 74.25,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 83,
+        "items": ["table1","table2", "table3"],
+        "path": {
+            "table1": "2512.24551v1\\table1.jpg",
+            "table2": "2512.24551v1\\table2.jpg",
+            "table3": "2512.24551v1\\table3.jpg"
+        },
+        "caption": {
+            "table1": "Quantitative results on the VideoPhy2 dataset, reporting performance across Hard, Activity, Interaction, and Overall categories for different methods.",
+            "table2": "Quantitative results on the PhyGenBench dataset, comparing methods on Mechanics, Optics, Thermal, and Material tasks, along with the average score.",
+            "table3": "User preference comparison (%) of our method against other baseline methods on the VideoPhy2 and PhyGenBench datasets."
+        },
+        "question": "How many numeric metrics are reported for Wan2.1-14B in Table 1 and Table 2 respectively (excluding the method name)? Respond only with a list of integers in the order [Table 1, Table 2].",
+        "question_type": "perceptual",
+        "answer": [4, 5],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 84,
+        "items": ["table1","table2", "table3"],
+        "path": {
+            "table1": "2512.24551v1\\table1.jpg",
+            "table2": "2512.24551v1\\table2.jpg",
+            "table3": "2512.24551v1\\table3.jpg"
+        },
+        "caption": {
+            "table1": "Quantitative results on the VideoPhy2 dataset, reporting performance across Hard, Activity, Interaction, and Overall categories for different methods.",
+            "table2": "Quantitative results on the PhyGenBench dataset, comparing methods on Mechanics, Optics, Thermal, and Material tasks, along with the average score.",
+            "table3": "User preference comparison (%) of our method against other baseline methods on the VideoPhy2 and PhyGenBench datasets."
+        },
+        "question": "Compute (Avg in Table 2 − Overall in Table 1) for VideoDPO. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.4027,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 85,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24651v1\\table1.jpg",
+            "table2": "2512.24651v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Metrics on test data with 12 agents.",
+            "table2": "Metrics on test data with 3 agents (1 adult, 1 bicycle, 1 child)."
+        },
+        "question": "Compute the relative change rate of CR for EB-CADRL from Table 1 to Table 2: (Table 2 − Table 1) / Table 1. Round to three decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": -7.34,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 86,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24651v1\\table1.jpg",
+            "table2": "2512.24651v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Metrics on test data with 12 agents.",
+            "table2": "Metrics on test data with 3 agents (1 adult, 1 bicycle, 1 child)."
+        },
+        "question": "Compute the absolute difference in DD(C) of EB-CADRL between Table 1 and Table 2. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.065,
+        "answer_type": "numeric"
+    },
+
+
+    {
+        "question_id": 87,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24663v1\\table1.jpg",
+            "table2": "2512.24663v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of CR (%) and run time (×1000s) of different methods on Bunny and Knights light field data. The result for RGTN is selected based on the specified RE bounds. Bold numbers denote the best performance, underlined numbers represent the second-best results, and * indicates statistical significance at a p ≤ 0.05 level using a paired t-test.",
+            "table2": "Comparison of the CR (↓) and run time (×1000s, ↓) of different methods when reaching the RE bound of 0.01. The result is the average value of 5 independent experiments and “–” indicates “out of memory”."
+        },
+        "question": "What are the CR values of TRALS in Table 1 (Bunny, RE = 0.01) and Table 2 (6th-order)? Respond only with a list of numeric values.",
+        "question_type": "perceptual",
+        "answer": [61.2, 1.35],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 88,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24663v1\\table1.jpg",
+            "table2": "2512.24663v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of CR (%) and run time (×1000s) of different methods on Bunny and Knights light field data. The result for RGTN is selected based on the specified RE bounds. Bold numbers denote the best performance, underlined numbers represent the second-best results, and * indicates statistical significance at a p ≤ 0.05 level using a paired t-test.",
+            "table2": "Comparison of the CR (↓) and run time (×1000s, ↓) of different methods when reaching the RE bound of 0.01. The result is the average value of 5 independent experiments and “–” indicates “out of memory”."
+        },
+        "question": "Compute the ratio of run time of RGTN between Table 1 (Knights, RE = 0.1) and Table 2 (8th-order). Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 1.699,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 89,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24826v1\\table1.jpg",
+            "table2": "2512.24826v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Analysis of methods on prioritising viewpoints in feature identification given a restriction on the number of actions.",
+            "table2": "Assessment on object occlusion of standard control and SGD-optimised neural methods to benchmark our controller with multi-information measures."
+        },
+        "question": "Compute the average Acc@8 of +GH-LED under Chat-UniVi-13B across Table 1 and Table 2. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 32.2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 90,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24826v1\\table1.jpg",
+            "table2": "2512.24826v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Analysis of methods on prioritising viewpoints in feature identification given a restriction on the number of actions.",
+            "table2": "Assessment on object occlusion of standard control and SGD-optimised neural methods to benchmark our controller with multi-information measures."
+        },
+        "question": "Under Chat-UniVi-13B, compute (max − min) of Acc@8 of +GO-LED-OL across Table 1 and Table 2. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 6.3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 91,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24971v1\\table1.jpg",
+            "table2": "2512.24971v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Best and worst values for mCE, Compression Rate (CR), and Accuracy (Acc) on the CIFAR-10 dataset.",
+            "table2": "Best and worst values for mCE, Compression Rate (CR), and Accuracy (Acc) on the CIFAR-100 dataset."
+        },
+        "question": "Report the model names corresponding to “Best mCE” in Table 1 and Table 2, in the order [Table 1, Table 2]. Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[ResNet-50, VGG-19]",
+        "answer_type": "text"
+    }
+]

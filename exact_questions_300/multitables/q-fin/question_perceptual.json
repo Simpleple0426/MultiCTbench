@@ -1,0 +1,205 @@
+[
+    {
+        "question_id": 12,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.01526v1\\table1.jpg",
+            "table2": "2510.01526v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of LLM performance on financial QA tasks: Direct QA vs. QA supported by our EQD model. Underlined values indicate the higher score between Direct QA and EQD-supported QA. Bold values denote the best performance for each dataset.",
+            "table2": "Comparison of different methods for conducting QA tasks across different LLMs. The names of the baseline methods are abbreviated as described in Section 4.3. Since DP is a basic question decomposition baseline, we test two versions using GPT-3.5-turbo and GPT-4o as the question decomposition models, denoted as DP1 and DP2, respectively. The final column, ``Manual'', refers to the method in which we manually design question decomposition examples based on our findings for prompts, serving as an ablation study. Bold and underline values represent the best and second-best results for each row."
+        },
+        "question": "In Table 1 and Table 2, count the number of LLM models listed in each table. Output the result in the format: [num1,num2]. Respond only withe a list.",
+        "question_type": "perceptual",
+        "answer": [6, 3],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.02906v1\\table1.jpg",
+            "table2": "2510.02906v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Multi-hop QA performance by reasoning model and evidence retrieval mode using Qwen3-235B as LLM-Judge",
+            "table2": "Comparison of LLM-Judge scores using Qwen3-235B"
+        },
+        "question": "In Table 1 and Table 2, count how many distinct Evidence Modes are included in each table. Report the result as two numbers in the format: [Table1_count, Table2_count].  Respond only withe a list.",
+        "question_type": "perceptual",
+        "answer": [3, 3],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 33,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.07358v1\\table1.jpg",
+            "table2": "2507.07358v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Fair guarantee fees ϕ ∗ (in basis points) with a ratchet under a static and dynamic withdrawal strategy for various marginal tax rates θ and cash account appreciation rates η.",
+            "table2": "Fair guarantee fees ϕ * (in basis points) under a static and dynamic withdrawal strategy for various marginal tax rates θ, when the benefit base is updated by a ratchet mechanism or not and η = 4%"
+        },
+        "question": "In Table 1, which two column indices in Table 2 correspond to the second column (Static) and the fifth column (Dynamic, η = 4%) in Table 2? Respond in the format: [col1, col2], where each entry is the column number in Table 2. Respond only with the list.",
+        "question_type": "perceptual",
+        "answer": [3, 7],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2501.17490v2\\table1.jpg",
+            "table2": "2501.17490v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Full in-sample model comparison.",
+            "table2": "Out-of-sample results."
+        },
+        "question":"In Table 1 and Table 2, count how many performance metrics each table contains. Respond in the format: [Table3_metric_count, Table4_metric_count]. Respond with the list only.",
+        "question_type": "perceptual",
+        "answer": [3, 4],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.10878v1\\table1.jpg",
+            "table2": "2510.10878v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Machine Learning Strategy Performance Summary",
+            "table2": "Strategy Performance Comparison"
+        },
+        "question": "How many performance metrics appear in both Table 1 and Table 2? Respond only with a number.",
+        "question_type": "perceptual",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 44,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.10542v1\\table1.jpg",
+            "table2": "2509.10542v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Model Performance Comparison on the ETH-USDT Test Period.",
+            "table2": "Simulated Trading Profitability Comparison on ETH-USDT (Test Period, Initial Capital: 100 USDT)"
+        },
+        "question":"Count how many distinct models/strategies appear in Table 1 and Table 2, respectively. Respond in the format: [Table1_count, Table2_count]. Respond only with the list.",
+        "question_type": "perceptual",
+        "answer": [4, 5],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.03964v1\\table1.jpg",
+            "table2": "2509.03964v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Distribution of BTC interest rates for the 3 different maturities (90 days, 180 days, and 360 days) computed with the Deribit BTC inverse option dataset from 1st January 2022 to 31st December 2024.",
+            "table2": "Distribution of ETH interest rates for the 3 different maturities (90 days, 180 days, and 360 days) computed with the Deribit ETH inverse option dataset from 1st January 2022 to 31st December 2024."
+        },
+        "question": "In table1, how many decimal places are used in the Std value for the 180-day tenor? Respond only with a number.",
+        "question_type": "perceptual",
+        "answer": 4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2508.07151v2\\table1.jpg",
+            "table2": "2508.07151v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Hurst-Forecast Errors (MAE and MSE)",
+            "table2": "Pricing Bounds and Duality Gaps"
+        },
+        "question": "In Table 2, how many Methods are listed under the META section? Respond with a number only.",
+        "question_type": "perceptual",
+        "answer": 4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 40,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.12911v1\\table1.jpg",
+            "table2": "2510.12911v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Critical values for the beta estimators. This table reports the critical values for testing whether beta equals zero at significance levels 5% and 10% and for local window sizes 5, 10, and 20. The left panel shows the critical values for the return-based beta estimator derived from the Student t-distribution. The right panel shows the critical values for the candlestick-based beta estimator computed using Monte Carlo simulations. The interval width is defined as the upper critical value minus the lower critical value.",
+            "table2": "Asymptotic Risk of Estimators for Different rho Values. This table presents the asymptotic risk of three estimators: the return-based estimator, the candlestick-based estimator, and an oracle estimator that minimizes asymptotic risk given the true correlation structure. Results are reported for local window sizes 5, 10, and 20 and for correlation levels 0, 0.2, and 0.6. The asymptotic risk is computed using Monte Carlo simulations."
+        },
+        "question":"In Table 1, at the 5% significance level and window size k = 10, what is the interval width (Width) of the Candlestick method? Respond only with a number.",
+        "question_type": "perceptual",
+        "answer": 2.890,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.12911v1\\table1.jpg",
+            "table2": "2510.12911v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Critical values for the beta estimators. This table reports the critical values for testing whether beta equals zero at significance levels 5% and 10% and for local window sizes 5, 10, and 20. The left panel shows the critical values for the return-based beta estimator derived from the Student t-distribution. The right panel shows the critical values for the candlestick-based beta estimator computed using Monte Carlo simulations. The interval width is defined as the upper critical value minus the lower critical value.",
+            "table2": "Asymptotic Risk of Estimators for Different rho Values. This table presents the asymptotic risk of three estimators: the return-based estimator, the candlestick-based estimator, and an oracle estimator that minimizes asymptotic risk given the true correlation structure. Results are reported for local window sizes 5, 10, and 20 and for correlation levels 0, 0.2, and 0.6. The asymptotic risk is computed using Monte Carlo simulations."
+        },
+        "question":"In Table 1, list all significance level α values. Respond a list in the format: [value1, value2, …]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": "[5%, 10%]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.22088v1\\table1.jpg",
+            "table2": "2509.22088v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance of the EW portfolio and the optimal portfolio of (1) (with γ = 100) with Factordiff (500 samples), Emp, and ShrEmp estimates of stock return moments.",
+            "table2": "Performance of the EW portfolio and the optimal portfolio of (2) (with γ = 100) with Factordiff (100, 500, and 1000 samples), Emp, and ShrEmp estimates of stock return moments. Transaction fees are included."
+        },
+        "question": "Which strategy has the bolded Sharpe value under the “Transaction Fees Ignored” section in Table 1? Respond only with the strategy name.",
+        "question_type": "perceptual",
+        "answer": "Factordiff",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 32,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.07358v1\\table1.jpg",
+            "table2": "2507.07358v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Fair guarantee fees ϕ ∗ (in basis points) with a ratchet under a static and dynamic withdrawal strategy for various marginal tax rates θ and cash account appreciation rates η.",
+            "table2": "Fair guarantee fees ϕ * (in basis points) under a static and dynamic withdrawal strategy for various marginal tax rates θ, when the benefit base is updated by a ratchet mechanism or not and η = 4%"
+        },
+        "question": "In Table 1, which tax-rate row contains the largest number of “NA” entries? Respond only with the value of θ without percent.",
+        "question_type": "perceptual",
+        "answer": 20,
+        "answer_type": "numeric"
+    }
+]

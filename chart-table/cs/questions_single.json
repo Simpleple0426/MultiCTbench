@@ -1,0 +1,3881 @@
+[
+    {
+        "question_id": 1,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2508.04417v1\\chart1.jpg",
+            "table1": "2508.04417v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Performance of default HeMem vs tuned HeMem, normalized to default HeMem (higher is better).",
+            "table1": "Summary of performance improvement from parameter tuning on pmem-large for different workloads."
+        },
+        "question": "Compute the standard deviation of the Best Config normalized performance values in Chart 1. Round to two decimal places and respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.34,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 2,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2508.08438v1\\chart1.jpg",
+            "table1": "2508.08438v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Normalized performance of TTFT between SGLang (global-sharing) and Cache-Partition (isolated-per-user).",
+            "table1": "Intra-session and inter-session KV-cache reuse rates across different datasets."
+        },
+        "question": "What colors are used in Chart 1 to represent SGLang and Cache-Partition? Respond only with a list of strings in the order [SGLang, Cache-Partition].",
+        "question_type": "perceptual",
+        "answer": "[orange, green]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2508.08438v1\\chart1.jpg",
+            "table1": "2508.08438v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Normalized performance of TTFT between SGLang (global-sharing) and Cache-Partition (isolated-per-user).",
+            "table1": "Intra-session and inter-session KV-cache reuse rates across different datasets."
+        },
+        "question": "Compute the arithmetic mean of the Intra-User Reuse percentages in Table 1. Respond only with a single numeric value (round to two decimals).",
+        "question_type": "reasoning",
+        "answer": 12.84,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.09525v1\\chart1.jpg",
+            "table1": "2509.09525v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Relative cost of Serverless (C_s) compared with LLM (C_LLM).",
+            "table1": "The LLM token usage in representative agents."
+        },
+        "question": "What is the difference between the maximum and minimum relative costs for Game design in Chart 1? Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 18,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.09525v1\\chart1.jpg",
+            "table1": "2509.09525v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Relative cost of Serverless (C_s) compared with LLM (C_LLM).",
+            "table1": "The LLM token usage in representative agents."
+        },
+        "question": "Compute the total Input Tok summed across all agents in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 179591,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 6,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.21301v1\\chart1.jpg",
+            "table1": "2509.21301v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Kernel completion time varies with different SM allocations. Throughput improves over sequential execution when the decode linear kernel is assigned between 18 and 36 SMs.",
+            "table1": "Solo/Corun time and kernel-level statistics of two linear operators from the vision encoder and LLM decode."
+        },
+        "question": "Compute the average Solo completion time of the two kernels in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 644.05,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.21301v1\\chart1.jpg",
+            "table1": "2509.21301v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Kernel completion time varies with different SM allocations. Throughput improves over sequential execution when the decode linear kernel is assigned between 18 and 36 SMs.",
+            "table1": "Solo/Corun time and kernel-level statistics of two linear operators from the vision encoder and LLM decode."
+        },
+        "question": "Compute the sum of kernel durations reported in Table 1 (ms). Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 3.32,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.22256v3\\chart1.jpg",
+            "table1": "2509.22256v3\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Utility drops and performance overhead of CSAgent.",
+            "table1": "Overall defense capability."
+        },
+        "question": "Compute the ratio of the minimum to maximum normalized utility of CSAgent-RF in Chart 1(a). Respond only with a single numeric value (round to two decimals).",
+        "question_type": "reasoning",
+        "answer": 0.97,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 9,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.22256v3\\chart1.jpg",
+            "table1": "2509.22256v3\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Utility drops and performance overhead of CSAgent.",
+            "table1": "Overall defense capability."
+        },
+        "question": "From Chart 1(a), extract the normalized utility values of all agents across all datasets and organize them into the following 2D table with the header row: [[Agent, AgentBench, AgentDojo, AndroidWorld], …]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Agent", "AgentBench", "AgentDojo", "AndroidWorld"],
+            ["Vanilla", 1.00, 1.00, 1.00],
+            ["PVAgent", 0.94, 0.45, 0.70],
+            ["CSAgent", 0.96, 0.93, 0.95],
+            ["CSAgent-RF", 0.96, 0.93, 0.95]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.04607v1\\chart1.jpg",
+            "table1": "2510.04607v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Performance evaluation. —— Success rate.",
+            "table1": "Results across interfaces and models."
+        },
+        "question": "What color represents the GUI+GOI configuration in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "purple",
+        "answer_type": "text"
+    },
+
+
+    {
+        "question_id": 11,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.04607v1\\chart1.jpg",
+            "table1": "2510.04607v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Performance evaluation. —— Success rate.",
+            "table1": "Results across interfaces and models."
+        },
+        "question": "From Chart 1, extract the Success Rate (SR, %) values of all models under different interface configurations and organize them into the following 2D table with the header row: Rows correspond to models. Columns correspond to interface configurations: GUI-only, GUI-only + GOI.Nav.forest, GUI+GOI. If a model does not have a certain configuration in Chart 1, fill the entry with 0. Respond only with the table, without any additional explanation.",
+        "question_type": "chart to table",
+        "answer": [["Model", "GUI-only", "GUI-only + GOI.Nav.forest", "GUI+GOI"],
+            ["GPT-5 (Medium)", 44.4, 42.0, 74.1],
+            ["GPT-5 (Minimal reasoning)", 23.5, 0, 40.7],
+            ["GPT-5-mini (Medium)", 17.3, 23.5, 43.2]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.15755v1\\chart1.jpg",
+            "table1": "2510.15755v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Task preemption effectiveness. FCFS shows the worst case when tasks are deployed in the x-axis order, which lets low-priority tasks occupy FPGAs.",
+            "table1": "Execution time and priority in each scenario."
+        },
+        "question": "What is the total execution time (in seconds) of all Short-type applications in Table 1? Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 10.6,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.15755v1\\chart1.jpg",
+            "table1": "2510.15755v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Task preemption effectiveness. FCFS shows the worst case when tasks are deployed in the x-axis order, which lets low-priority tasks occupy FPGAs.",
+            "table1": "Execution time and priority in each scenario."
+        },
+        "question": "In Chart 1(b), which scheduling policy shows the most stable execution times across applications in the Long-HP scenario? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "PRE_EV",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 14,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.00205v1\\chart1.jpg",
+            "table1": "2511.00205v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Counting occurrences of a 3-character chunk in 984 100-MiB shards from Wikipedia. Fixpoint’s runtime is much lower than other systems’, largely due to its ability to avoid stalling CPUs while waiting for data dependencies.",
+            "table1": "Duration to execute 1,024 function-invocation requests on a server with 32 CPUs and 64 GiB RAM. Each invocation depends on a single input from a network storage with a 150 ms response time and requests 1 CPU core and 1 GB memory. I/O externalization allows Fixpoint to fetch data dependencies before committing physical resources, greatly increasing task throughput."
+        },
+        "question": "What color represents “I/O and waiting” in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "red",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.00205v1\\chart1.jpg",
+            "table1": "2511.00205v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Counting occurrences of a 3-character chunk in 984 100-MiB shards from Wikipedia. Fixpoint’s runtime is much lower than other systems’, largely due to its ability to avoid stalling CPUs while waiting for data dependencies.",
+            "table1": "Duration to execute 1,024 function-invocation requests on a server with 32 CPUs and 64 GiB RAM. Each invocation depends on a single input from a network storage with a 150 ms response time and requests 1 CPU core and 1 GB memory. I/O externalization allows Fixpoint to fetch data dependencies before committing physical resources, greatly increasing task throughput."
+        },
+        "question": "From Chart 1, extract the total execution time (in seconds) of all systems and organize them into a 2D table with header [[System, Total_Time_s], …]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["System", "Total_Time_s"],
+            ["Fixpoint", 3.25],
+            ["Fixpoint (no locality)", 31.43],
+            ["Fixpoint (no locality + internal I/O)", 33.78],
+            ["OpenWhisk + MinIO + K8s", 63.68],
+            ["Pheromone + MinIO (map phase only)", 42.29],
+            ["Ray Continuation Passing", 6.39],
+            ["Ray Blocking", 17.87]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 16,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.02230v2\\chart1.jpg",
+            "table1": "2511.02230v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Contributions of individual ideas to Continuum. Program-level FCFS prioritize requests with earlier program arrival instead of request. Static TTL uses fixed TTL threshold calculated from cold start handling mechanism.",
+            "table1": "Continuum introduces minor scheduling latency overhead comparison under different DRAM offloading settings."
+        },
+        "question": "What marker shape is used for the “Ours” curve in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "square",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.02230v2\\chart1.jpg",
+            "table1": "2511.02230v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Contributions of individual ideas to Continuum. Program-level FCFS prioritize requests with earlier program arrival instead of request. Static TTL uses fixed TTL threshold calculated from cold start handling mechanism.",
+            "table1": "Continuum introduces minor scheduling latency overhead comparison under different DRAM offloading settings."
+        },
+        "question": "Visualize the scheduling latency comparison between No CPU Offload and CPU Offload for all systems listed in Table 1. Plot requirements: Use Python with matplotlib. Create a grouped bar chart (side-by-side bars for each system). X-axis: System names (vLLM, Autellix, InferCept, Ours). Y-axis: Scheduling latency (ms). One bar represents No CPU Offload, the other represents CPU Offload. If a system has a missing value (e.g., N/A), represent it as a missing bar rather than zero. Add a title, axis labels, and a legend. Respond only with the Python code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "grouped_bar_chart",
+            "data": [[0.95, 0.82, null, 0.96], [2.33, 2.18, 2.25, 2.30]],
+            "operation": null,
+            "title": "Scheduling Latency: No CPU Offload vs CPU Offload",
+            "xlabel": "System",
+            "ylabel": "Scheduling latency (ms)",
+            "legend": true,
+            "tick": {
+                "xticklabels": ["vLLM", "Autellix", "InferCept", "Ours"],
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.07035v1\\char1.jpg",
+            "table1": "2511.07035v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Average stall time of different checkpointing schemes (lower is better)",
+            "table1": "The performance of different solutions on the crash expression task, using Llama3.2-1B model."
+        },
+        "question": "Compute the average throughput across all schemes in Table 1. Respond only with a single numeric value (round to one decimal).",
+        "question_type": "reasoning",
+        "answer": 704.1,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.07035v1\\char1.jpg",
+            "table1": "2511.07035v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Average stall time of different checkpointing schemes (lower is better)",
+            "table1": "The performance of different solutions on the crash expression task, using Llama3.2-1B model."
+        },
+        "question": "From Chart 1, extract the average stall time values (in seconds) for all models under the four checkpointing schemes, and organize them into a 2D table with row and column labels. Row labels (models): LLaMA3.2-1B, Qwen3-0.6B, OPT-350M . Column labels (schemes): Async, Async-O, GoCkpt, GoCkpt-O. Follow the specified row and column order. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Model", "Async", "Async-O", "GoCkpt", "GoCkpt-O"],
+            ["LLaMA3.2-1B", 1.311, 0.962, 0.407, 0.131],
+            ["Qwen3-0.6B", 0.632, 0.374, 0.112, 0.003],
+            ["OPT-350M", 0.351, 0.191, 0.074, 0.004]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 20,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.09998v1\\chart1.jpg",
+            "table1": "2511.09998v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The best performance gains achieved by DemoTuner and the baselines across different workload types on PostgreSQL and MySQL, respectively.",
+            "table1": "Comparison of online tuning cost (seconds) consumed by DemoTuner and the baselines."
+        },
+        "question": "Compute the average tuning cost (seconds) of DemoTuner across all PostgreSQL workloads in Table 1. Respond only with a single numeric value (round to two decimals).",
+        "question_type": "reasoning",
+        "answer": 351.36,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 21,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.09998v1\\chart1.jpg",
+            "table1": "2511.09998v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The best performance gains achieved by DemoTuner and the baselines across different workload types on PostgreSQL and MySQL, respectively.",
+            "table1": "Comparison of online tuning cost (seconds) consumed by DemoTuner and the baselines."
+        },
+        "question": "Visualize the average tuning cost per DBMS for each method using a line chart, based on Table 1. Requirements: Compute the average tuning cost across all workload types (RH, RW, WH) for each method and DBMS. Use Python with matplotlib. Single line chart. X-axis: DBMS (MySQL, PostgreSQL). Y-axis: Average tuning cost (seconds). One line per method (DemoTuner, CDBTune, DB-BERT, GPTuner). Include a legend and axis labels. Do not specify colors or styles. Output: Respond only with the Python code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "line_chart",
+            "data": [
+                [627.07, 599.96, 806.01],
+                [401.00, 311.34, 341.73],
+                [752.13, 660.66, 897.56],
+                [420.51, 399.50, 351.26],
+                [699.27, 743.32, 927.02],
+                [593.97, 463.70, 444.10],
+                [825.38, 1126.37, 896.86],
+                [457.65, 327.10, 532.99]
+            ],
+            "operation": "mean",
+            "title": "Average Tuning Cost across DBMSs",
+            "xlabel": "DBMS",
+            "ylabel": "Average tuning cost (seconds)",
+            "legend": true,
+            "tick": {
+                "xticklabels": ["MySQL", "PostgreSQL"],
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": true,
+                "marker": true,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.11481v1\\chart1.jpg",
+            "table1": "2511.11481v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The figure above shows the weight allocation for the equal weights portfolio and the DRL portfolio, which rebalances the weights at each time step or when it iterates using a policy that maximizes the portfolio’s cumulative value.",
+            "table1": "Covariance Matrix for Optimal Assets"
+        },
+        "question": "Compute the ratio of the maximum to the minimum covariance value in Table 1. Respond only with a single numeric value (round to three decimals).",
+        "question_type": "reasoning",
+        "answer": 7.568,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 23,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.11481v1\\chart1.jpg",
+            "table1": "2511.11481v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The figure above shows the weight allocation for the equal weights portfolio and the DRL portfolio, which rebalances the weights at each time step or when it iterates using a policy that maximizes the portfolio’s cumulative value.",
+            "table1": "Covariance Matrix for Optimal Assets"
+        },
+        "question": "Visualize the covariance matrix in Table 1 as a heatmap. Plot requirements: Use Python with matplotlib. Color encodes covariance magnitude. Include a colorbar. Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "heatmap",
+            "data": [
+                [0.076418, 0.034337, 0.046560, 0.068395, 0.037899],
+                [0.034337, 0.067703, 0.030882, 0.039747, 0.030644],
+                [0.046560, 0.030882, 0.111970, 0.082922, 0.039991],
+                [0.068395, 0.039747, 0.082922, 0.231897, 0.054154],
+                [0.037899, 0.030644, 0.039991, 0.054154, 0.061295]
+            ],
+            "operation": null,
+            "title": "Covariance Matrix Heatmap",
+            "xlabel": "Assets",
+            "ylabel": "Assets",
+            "legend": null,
+            "tick": {
+                "xticklabels": ["MA", "UNH", "INTC", "NVDA", "HD"],
+                "yticklabels": ["MA", "UNH", "INTC", "NVDA", "HD"]
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 24,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.11885v1\\chart1.jpg",
+            "table1": "2511.11885v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Flash-Fusion Latency versus LLM Only. Flash-Fusion cuts query latency by 95% compared to the LLM Only baseline across five queries. Its single condensed API call replaces six sequential calls for chunk processing and synthesis. Whiskers show the minimum and maximum latencies over three query runs.",
+            "table1": "Cost and Token Comparison. Flash-Fusion reduces total token usage (input + output) and API costs by over 98% on average across all queries."
+        },
+        "question": "How many queries have LLM Only latency values above the average LLM Only latency in Chart 1? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 25,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.11885v1\\chart1.jpg",
+            "table1": "2511.11885v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Flash-Fusion Latency versus LLM Only. Flash-Fusion cuts query latency by 95% compared to the LLM Only baseline across five queries. Its single condensed API call replaces six sequential calls for chunk processing and synthesis. Whiskers show the minimum and maximum latencies over three query runs.",
+            "table1": "Cost and Token Comparison. Flash-Fusion reduces total token usage (input + output) and API costs by over 98% on average across all queries."
+        },
+        "question": "From Chart 1, extract the latency values of all queries under Flash-Fusion and LLM Only, and organize them into the following 2D table with the header row: [[Query, FlashFusion_Latency, LLMOnly_Latency], …]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Query", "FlashFusion_Latency", "LLMOnly_Latency"],
+            ["Aggressive Driving", 0.23, 5.44],
+            ["Dwell Time", 0.23, 6.06],
+            ["Moderate Behavior", 0.22, 4.60],
+            ["Route Efficiency", 0.25, 6.30],
+            ["Spatial Patterns", 0.21, 5.90]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.13059v1\\chart1.jpg",
+            "table1": "2511.13059v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Overall caching speedups across systems for Redbench (generation-based, matching-based) and a traditional benchmark baseline (JOB & CEB). Traditional benchmarks show no speedup (misleadingly), suggesting that caching is ineffective. On the same systems, Redbench workloads reveal substantial caching potential: generation-based yields moderate, trace-faithful improvements (1.10–2.00×), while matching-based demonstrates upper-bound caching effects (12.2–98×) due to higher repetition density.",
+            "table1": "Query Repetition Rate (QRR) and Scan-set Repetition Rate (SRR) denote the fraction of SELECT queries that repeat previous queries (QRR) or scan-sets (SRR). QRR_DML and SRR_DML indicate DML-aware repetition rates. Generation-based synthesis closely matches the original Redset trace, while matching-based synthesis produces higher repetition due to reusing a limited query pool. The baseline fails to capture realistic repetition patterns."
+        },
+        "question": "From Chart 1, extract the speedup value of Redbench (Matching) under SELECT + DML for System D. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 2.11,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.13059v1\\chart1.jpg",
+            "table1": "2511.13059v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Overall caching speedups across systems for Redbench (generation-based, matching-based) and a traditional benchmark baseline (JOB & CEB). Traditional benchmarks show no speedup (misleadingly), suggesting that caching is ineffective. On the same systems, Redbench workloads reveal substantial caching potential: generation-based yields moderate, trace-faithful improvements (1.10–2.00×), while matching-based demonstrates upper-bound caching effects (12.2–98×) due to higher repetition density.",
+            "table1": "Query Repetition Rate (QRR) and Scan-set Repetition Rate (SRR) denote the fraction of SELECT queries that repeat previous queries (QRR) or scan-sets (SRR). QRR_DML and SRR_DML indicate DML-aware repetition rates. Generation-based synthesis closely matches the original Redset trace, while matching-based synthesis produces higher repetition due to reusing a limited query pool. The baseline fails to capture realistic repetition patterns."
+        },
+        "question":"From Chart 1 under the SELECT setting, extract all speedup values shown and organize them into a 2D table by workload × system. Table requirements: Rows: Redbench (Generation), Redbench (Matching), Baseline (Round-Robin). Columns: System A, System B, System C, System D. Values must be taken directly from the SELECT subplot in Chart 1. Include a header row. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Workload", "System A", "System B", "System C", "System D"],
+                ["Redbench (Generation)", 2.11, 3.44, 1.39, 1.11],
+                ["Redbench (Matching)", 4.39, 22.02, 50.09, 9.44],
+                ["Baseline (Round-Robin)", 1.00, 1.00, 1.15, 1.04]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.16931v2\\chart1.jpg",
+            "table1": "2511.16931v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Average computation time (s) across seven benchmarks for DoT and baseline frameworks. This subfigure illustrates that DoT significantly reduces computation time, contributing to an overall 60–80% reduction relative to baselines.",
+            "table1": "Main results: Comparison of DoT and baselines across seven benchmarks. Metrics: accuracy (%), average inference time (s), and average API cost (¢)."
+        },
+        "question": "In Table 1, how many benchmarks report accuracy results (excluding the Time column)? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 7,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 29,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.16931v2\\chart1.jpg",
+            "table1": "2511.16931v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Average computation time (s) across seven benchmarks for DoT and baseline frameworks. This subfigure illustrates that DoT significantly reduces computation time, contributing to an overall 60–80% reduction relative to baselines.",
+            "table1": "Main results: Comparison of DoT and baselines across seven benchmarks. Metrics: accuracy (%), average inference time (s), and average API cost (¢)."
+        },
+        "question": "Visualize the benchmark-wise accuracy comparison between DoT (ours) and DataShunt from Table 1. Plot requirements: Use Python with matplotlib. Create a line chart. X-axis: benchmark names. Y-axis: accuracy (%). Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "line_chart",
+            "data": [[37, 97, 84, 62, 83, 84, 81], [41, 97, 87, 59, 85, 85, 82]],
+            "operation": null,
+            "title": "Benchmark-wise Accuracy Comparison",
+            "xlabel": "Benchmark",
+            "ylabel": "Accuracy (%)",
+            "legend": true,
+            "tick": {
+                "xticklabels": ["P3", "SCAN", "WebShop", "MATH", "CHAMP", "DROP", "CSQA"],
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": true,
+                "marker": true,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 30,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.21235v1\\chart1.jpg",
+            "table1": "2511.21235v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Throughput scaling with CPU cores on two KV-cache workloads",
+            "table1": "Throughput comparison across different cache replacement algorithms for Meta KV Trace."
+        },
+        "question": "How many algorithms in Chart 1(a) have throughput greater than 15 Mops at 4 threads? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 4,
+        "answer_type": "numeric"
+    },
+
+
+    {
+        "question_id": 31,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.21235v1\\chart1.jpg",
+            "table1": "2511.21235v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Throughput scaling with CPU cores on two KV-cache workloads",
+            "table1": "Throughput comparison across different cache replacement algorithms for Meta KV Trace."
+        },
+        "question": "Visualize the throughput scaling of AdaptiveClimb, TinyLFU, and LRU from Table 1. Plot requirements: Use Python with matplotlib. Create a line chart. X-axis: number of threads. Y-axis: throughput (Mops). Add a legend, title, and axis labels. Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "line_chart",
+            "data": [
+                [3.0, 10.5, 18.5, 27.0, 35.0],
+                [2.5, 9.5, 16.5, 23.5, 31.0],
+                [0.8, 4.0, 6.0, 8.5, 11.0]
+            ],
+            "operation": null,
+            "title": "Throughput Scaling vs Number of Threads",
+            "xlabel": "Number of Threads",
+            "ylabel": "Throughput (Mops)",
+            "legend": true,
+            "tick": {
+                "xticklabels": [1, 2, 4, 8, 16],
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": true,
+                "marker": true,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 32,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.21607v1\\chart1.jpg",
+            "table1": "2511.21607v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "MAE vs. missing rate for MCAR.",
+            "table1": "MAE at 30% missingness for -S/-U variants."
+        },
+        "question": "Visualize the MAE of MIWAE-S and MIWAE-U across MCAR, MAR, and MNAR mechanisms for the wine dataset in Table 1. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: missing mechanisms. Y-axis: MAE values. Add a legend and axis labels. Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "grouped_bar_chart",
+            "data": [
+                [0.568, 0.603, 0.620],
+                [0.587, 0.601, 0.643]
+            ],
+            "operation": null,
+            "title": "MAE Comparison of MIWAE-S and MIWAE-U on Wine Dataset",
+            "xlabel": "Missing Mechanism",
+            "ylabel": "MAE",
+            "legend": true,
+            "tick": {
+                "xticklabels": ["MCAR", "MAR", "MNAR"],
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+
+    {
+        "question_id": 33,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.21607v1\\chart1.jpg",
+            "table1": "2511.21607v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "MAE vs. missing rate for MCAR.",
+            "table1": "MAE at 30% missingness for -S/-U variants."
+        },
+        "question": "In Chart 1(a), compute the average MAE across all methods at 30% missing rate. Respond only with a single numeric value (round to three decimals).",
+        "question_type": "reasoning",
+        "answer": 0.715,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 34,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.22651v1\\chart1.jpg",
+            "table1": "2511.22651v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Timing comparisons between the agent-optimized and human-optimized GPU code for (A) the kinetics problem by Robertson (1966) across different problem sizes and (B) matrix multiplication applied to two N x N matrices. See Table 2 for the parameters of each run.",
+            "table1": "Experimental results for different applications and parameter settings"
+        },
+        "question": "How many distinct curves are shown in the legend of Chart 1(A)? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 8,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.03279v1\\chart1.jpg",
+            "table1": "2512.03279v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "YCSB. CacheLib uses the default parameters from CacheBench with 4GB DRAM cache. All the workloads are Zipfian (θ = 0.8) with 1KB values and 16-byte keys running under 256 threads with 20M records. The cache throughput is normalized to the throughput of the default (striping) system and the number above each bar is P99 latency in microseconds. Workload E is excluded due to CacheLib’s lack of support for range queries.",
+            "table1": "Average and P99 GET Latency (ms) of Production Workloads."
+        },
+        "question": "Which workload has the largest P99 latency in the Optane / NVMe Flash subplot of Chart 1? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "F",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.03279v1\\chart1.jpg",
+            "table1": "2512.03279v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "YCSB. CacheLib uses the default parameters from CacheBench with 4GB DRAM cache. All the workloads are Zipfian (θ = 0.8) with 1KB values and 16-byte keys running under 256 threads with 20M records. The cache throughput is normalized to the throughput of the default (striping) system and the number above each bar is P99 latency in microseconds. Workload E is excluded due to CacheLib’s lack of support for range queries.",
+            "table1": "Average and P99 GET Latency (ms) of Production Workloads."
+        },
+        "question": "From the Optane / NVMe Flash subplot in Chart 1, extract the normalized throughput for all workloads (A, B, C, D, F) and all systems (Striping, Orthus, HeMem, Cerberus). Organize the results into a 2D table with column labels with the header row: [[Workload, Striping, Orthus, HeMem, Cerberus], …]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Workload", "Striping", "Orthus", "HeMem", "Cerberus"],
+            ["A", 1.00, 1.25, 1.23, 1.59],
+            ["B", 1.00, 0.98, 0.95, 1.45],
+            ["C", 1.00, 0.92, 0.80, 1.40],
+            ["D", 1.00, 1.30, 1.00, 1.44],
+            ["F", 1.00, 1.49, 1.28, 1.72]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.15039v1\\chart1.jpg",
+            "table1": "2512.15039v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Progressive enhancement path",
+            "table1": "COMPONENT-WISE CONTRIBUTIONS."
+        },
+        "question": "What fraction of nodes in Chart 1 have F1 scores greater than 0.9? Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.4,
+        "answer_type": "numeric"
+    },
+    
+    {
+        "question_id": 38,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.15039v1\\chart1.jpg",
+            "table1": "2512.15039v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Progressive enhancement path",
+            "table1": "COMPONENT-WISE CONTRIBUTIONS."
+        },
+        "question": "Compute the ratio of the largest single-step F1 gain to the smallest single-step F1 gain in Chart 1. Respond only with a single numeric value (round to two decimals).",
+        "question_type": "reasoning",
+        "answer": 7.65,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 39,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.15980v1\\chart1.jpg",
+            "table1": "2512.15980v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Runtime Evaluation",
+            "table1": "Average Similarity and Encapsulation Metrics Across All Techniques"
+        },
+        "question": "What is the median runtime across all techniques in Chart 1? Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 7102.11,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 40,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.15980v1\\chart1.jpg",
+            "table1": "2512.15980v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Runtime Evaluation",
+            "table1": "Average Similarity and Encapsulation Metrics Across All Techniques"
+        },
+        "question": "From Chart 1, extract both the runtime (in seconds) and the corresponding speedup factor for all techniques, and sort the techniques by runtime from smallest to largest. Organize the results into a 2D table with the header [[Technique, Runtime_s, Speedup], …]. Requirements: Both runtime and speedup values must be taken directly from Chart 1. The table must be sorted in ascending order of Runtime_s. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Technique", "Runtime_s", "Speedup"],
+            ["ClassLAR", 863.03, 1.00],
+            ["SARIF", 3441.94, 3.99],
+            ["FCA", 7102.11, 8.23],
+            ["ARC", 8137.25, 9.43],
+            ["ACDC", 9058.05, 10.50]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.17363v1\\chart1.jpg",
+            "table1": "2512.17363v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Cumulative growth of TEE projects by domain (2011-2025).",
+            "table1": "Distribution of TEE Projects by Application Domain"
+        },
+        "question": "What is the cumulative project count of Network Security before 2020 (excluding 2020) in Chart 1? Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 22,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.17363v1\\chart1.jpg",
+            "table1": "2512.17363v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Cumulative growth of TEE projects by domain (2011-2025).",
+            "table1": "Distribution of TEE Projects by Application Domain"
+        },
+        "question": "Visualize the percentage distribution of application domains in Table 1. Plot requirements: Use Python with matplotlib. Create a pie chart. Label each slice with domain name and percentage. Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "pie_chart",
+            "data": [[30, 19, 17, 12, 8, 7, 4, 3]],
+            "operation": null,
+            "title": "Percentage Distribution of Application Domains",
+            "xlabel": null,
+            "ylabel": null,
+            "legend": null,
+            "tick": {
+                "xticklabels": null,
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 43,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.17460v1\\chart1.jpg",
+            "table1": "2512.17460v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Heatmap illustrating the influence scores of data quality issues across different models. Darker colors indicate higher influence.",
+            "table1": "Classifier Performance Summary"
+        },
+        "question": "Compute the difference between the maximum and minimum influence scores of SVM in Chart 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 19.55,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 44,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.17460v1\\chart1.jpg",
+            "table1": "2512.17460v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Heatmap illustrating the influence scores of data quality issues across different models. Darker colors indicate higher influence.",
+            "table1": "Classifier Performance Summary"
+        },
+        "question": "Using the summary statistics reported in Table 1 (Classifier Performance Summary), visualize the performance distributions of all classifiers using a boxplot. Plot requirements: Use Python with matplotlib. Create one boxplot for each model (DT, RF, NB, MLP, SVM). X-axis: model names. Y-axis: performance metric values. Construct each boxplot using the Min, 25%, 75%, and Max values from Table 1. Overlay the Mean value of each model as a scatter point. Add a title and axis labels. Do not display outliers (fliers). Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "box_chart",
+            "data": [
+                [0.43, 0.57, 0.67, 0.73, 1.00],
+                [0.45, 0.52, 0.65, 0.73, 1.00],
+                [0.28, 0.56, 0.63, 0.70, 1.00],
+                [0.39, 0.50, 0.61, 0.69, 1.00],
+                [0.48, 0.50, 0.53, 0.52, 0.82]
+            ],
+            "operation": null,
+            "title": "Classifier Performance Distributions",
+            "xlabel": "Classifier",
+            "ylabel": "Performance Metric Value",
+            "legend": null,
+            "tick": {
+                "xticklabels":  ["DT", "RF", "NB", "MLP", "SVM"],
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 45,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.18080v1\\chart1.jpg",
+            "table1": "2512.18080v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Effect sizes measured using Cliff’s Delta between platform pairs across comparison metrics. Color intensity indicates effect magnitude.",
+            "table1": "Win rates and Bradley–Terry power rankings across all comparison metrics. Win rates represent the proportion of comparisons won by each platform with 95% Wilson score confidence intervals. Bradley–Terry power scores represent log-odds of winning comparisons, with win probability vs average indicating the likelihood of beating an average opponent. Rankings are shown for each metric."
+        },
+        "question": "How many cells in Chart 1 have an absolute Cliff’s Delta greater than 0.2? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 46,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.19758v1\\chart1.jpg",
+            "table1": "2512.19758v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Pie charts depicting the distribution of distance values for bugs identified as CVE-2016-9827, binutils-2.29, and CVE-2017-11728. Each pie chart illustrates the proportion of the top three distances relative to the total distances observed for each bug.",
+            "table1": "The content describes the distances between different Bug IDs and the proportion of these distances that occur most frequently relative to the total number of distances. Specifically, “Top 1” represents the proportion of occurrences for the most frequent distance, “Top 2” for the second most frequent distance, and “Top 3” for the third most frequent distance. “Top 1–3” denotes the combined proportion of occurrences for the three most frequent distances."
+        },
+        "question": "From Chart 1, extract the Top-1, Top-2, and Top-3 percentages for all three Bug IDs (CVE-2016-9827, binutils-2.29, and CVE-2017-11728) and organize them into a 2D table in the following form with the header: [[Bug ID, Top-1, Top-2, Top-3], …]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Bug ID", "Top-1", "Top-2", "Top-3"],
+            ["CVE-2016-9827", 55.5, 26.6, 12.8],
+            ["binutils-2.29", 62.3, 27.6, 5.9],
+            ["CVE-2017-11728", 66.0, 20.0, 8.4]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id":47 ,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.19758v1\\chart1.jpg",
+            "table1": "2512.19758v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Pie charts depicting the distribution of distance values for bugs identified as CVE-2016-9827, binutils-2.29, and CVE-2017-11728. Each pie chart illustrates the proportion of the top three distances relative to the total distances observed for each bug.",
+            "table1": "The content describes the distances between different Bug IDs and the proportion of these distances that occur most frequently relative to the total number of distances. Specifically, “Top 1” represents the proportion of occurrences for the most frequent distance, “Top 2” for the second most frequent distance, and “Top 3” for the third most frequent distance. “Top 1–3” denotes the combined proportion of occurrences for the three most frequent distances."
+        },
+        "question": "Compute the ratio of Top-1 to Top-2 percentages for binutils-2.29 in Chart 1. Round to two decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 4.68,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 48,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.20159v1\\chart1.jpg",
+            "table1": "2512.20159v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Analysis of refinement effort estimation",
+            "table1": "Fine-grained analysis of LLM-as-a-judge metrics. P and R refer to precision and recall respectively. The highest result is marked bold and underlined."
+        },
+        "question": "Compute the average F1 score of Gemini-2.5-Flash across all datasets in Chart 1. Round to two decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 57.63,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 49,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.20159v1\\chart1.jpg",
+            "table1": "2512.20159v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Analysis of refinement effort estimation",
+            "table1": "Fine-grained analysis of LLM-as-a-judge metrics. P and R refer to precision and recall respectively. The highest result is marked bold and underlined."
+        },
+        "question": "From Chart 1 (Analysis of refinement effort estimation), extract the values of MCC, Precision, Recall, and F1 for DeepSeek-V3.1 across the three datasets (ICE-Score, CodeJudge, CodeVisionary). Organize the results into the following 2D table format with a header: [ [Dataset, MCC, Precision, Recall, F1], ... ]. Rows must follow this order: ICE-Score → CodeJudge → CodeVisionary Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Dataset", "MCC", "Precision", "Recall", "F1"],
+            ["ICE-Score", 3.6, 49.1, 40.0, 44.1],
+            ["CodeJudge", 8.3, 47.9, 47.0, 47.4],
+            ["CodeVisionary", 10.0, 45.2, 67.9, 54.2]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 50,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.21028v1\\chart1.jpg",
+            "table1": "2512.21028v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "New passing (solid) and failing (transparent) tests across models and prompting strategies compared to the baseline.",
+            "table1": "Pass@1 and Pass@5 results for different prompting strategies across models"
+        },
+        "question": "Compute the difference between Pass@1 of GPT5-nano under FT+GNU and PT in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 12.9,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 51,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.21028v1\\chart1.jpg",
+            "table1": "2512.21028v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "New passing (solid) and failing (transparent) tests across models and prompting strategies compared to the baseline.",
+            "table1": "Pass@1 and Pass@5 results for different prompting strategies across models"
+        },
+        "question": "From Chart 1, extract the numbers of passing tests and failing tests under the FT strategy for each model, and organize the results into the following table format with the header row: [ [Model, Passing_Tests, Failing_Tests], [Qwen2.5-14B, x, x], [Phi-4, x, x], [OpenCoder-8B, x, x], [Ministral-8B, x, x], [GPT5-nano, x, x] ] Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Model", "Passing_Tests", "Failing_Tests"],
+            ["Qwen2.5-14B", 215, 235],
+            ["Phi-4", 213, 250],
+            ["OpenCoder-8B", 224, 275],
+            ["Ministral-8B", 230, 270],
+            ["GPT5-nano", 219, 253]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 52,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.21332v1\\chart1.jpg",
+            "table1": "2512.21332v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "MTEB-Code leaderboard. C2LLM-7B ranks 1st among all models, surpasssing the best closed-source models, while C2LLM-0.5B ranks 1st among models with less than 1B parameters, and 6th overall.",
+            "table1": "Top 10 models on the MTEB-Code leaderboard as of the submission date (2025-12-25). “NA” in the model size column indicates closed-source model whose size is not available."
+        },
+        "question": "English: In Table 1, how many evaluation task columns are listed excluding Model, Size, Avg, and Rank? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 8,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 53,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.21332v1\\chart1.jpg",
+            "table1": "2512.21332v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "MTEB-Code leaderboard. C2LLM-7B ranks 1st among all models, surpasssing the best closed-source models, while C2LLM-0.5B ranks 1st among models with less than 1B parameters, and 6th overall.",
+            "table1": "Top 10 models on the MTEB-Code leaderboard as of the submission date (2025-12-25). “NA” in the model size column indicates closed-source model whose size is not available."
+        },
+        "question": "From Chart 1, extract the performance values of all models shown on the x-axis and organize them into a 2D table in the following format (including a header row): [ [Model, Performance], ... ] The rows should follow the same left-to-right order as the models appear in Chart 1. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Model", "Performance"],
+            ["Granite-Embed-S-R2", 55.84],
+            ["Granite-Embed-R2", 57.22],
+            ["Text-Embed-005", 61.51],
+            ["INF-Retriever-1.5B", 68.49],
+            ["EmbedGemma-0.3B", 68.76],
+            ["INF-Retriever-7B", 69.70],
+            ["Qwen3-Embed-0.6B", 75.42],
+            ["C2LLM-0.5B", 75.46],
+            ["Gemini-Embed-001", 76.00],
+            ["Qwen3-Embed-4B", 80.07],
+            ["Qwen3-Embed-8B", 80.69],
+            ["Seed1.6-Embed", 80.71],
+            ["C2LLM-7B", 80.75]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 54,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.21336v1\\chart1.jpg",
+            "table1": "2512.21336v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Average accuracy on code benchmarks. E-BON and E-SMC consistently enhance performance of various baseline decoding strategies, demonstrating their broad applicability.",
+            "table1": "Accuracy (%) of our path search algorithms on LLaDA models across five reasoning and planning benchmarks. When applied to the strong PC-Sampler baseline, both E-BON and E-SMC consistently improve performance. Gains over the baseline are highlighted in red."
+        },
+        "question": "Which decoding strategy has the lowest value under the Base setting in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "Uniform",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 55,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.21352v1\\chart1.jpg",
+            "table1": "2512.21352v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Performance comparison against published baselines. Our multi-agent framework achieves 74.7% success on WebShop, outperforming single-agent GPT-3 (50.1%) and RL agents (29.0%), and exceeding human-level range (60–70%). OWASP Juice Shop results (82.0%) demonstrate strong security testing capability.",
+            "table1": "Baseline Comparison Against Published Results"
+        },
+        "question": "Compute the average WebShop success rate of all four systems shown in Chart 1. Round to one decimal place. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 54.7,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 56,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.21352v1\\chart1.jpg",
+            "table1": "2512.21352v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Performance comparison against published baselines. Our multi-agent framework achieves 74.7% success on WebShop, outperforming single-agent GPT-3 (50.1%) and RL agents (29.0%), and exceeding human-level range (60–70%). OWASP Juice Shop results (82.0%) demonstrate strong security testing capability.",
+            "table1": "Baseline Comparison Against Published Results"
+        },
+        "question": "From Chart 1 (WebShop Benchmark Comparison), extract the success rates of all four systems and organize them into the following 2D table with the header: [[System, WebShop_Success], …]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["System", "WebShop_Success"],
+            ["GPT-3 (Baseline)", 50.1],
+            ["RL Agent (Baseline)", 29.0],
+            ["Human (Reference)", 65.0],
+            ["Our Multi-Agent", 74.7]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 57,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.21373v1\\chart1.jpg",
+            "table1": "2512.21373v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Overall performance score across frontier models among all difficult tiers",
+            "table1": "Models evaluated on the benchmark for each domain with resolved rates. Difficulty is reported as pass rate (%) over easy, medium, and hard instances. The five scientific domains and corresponding codebases are: Numerical Relativity (NR): EinsteinToolkit and AMReX; Quantum Information (QI): Qiskit; Molecular Dynamics (MD): OpenMM; Quantum Chemistry (QC): PySCF; Cheminformatics (CI): RDKit."
+        },
+        "question": "In the legend of Chart 1, is “Hard” represented using light or dark shading? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "dark",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 58,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.21635v2\\chart1.jpg",
+            "table1": "2512.21635v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparative analysis of model indicators across scientific fields under SCP",
+            "table1": "Creativity and Hallucination Performance of Six LLMs Under Diverse Prompt Strategies, with CoT and RAG Constructed on the SCP Baseline. Bold values indicate the best-performing model–strategy pairs. “P” denotes the applied prompt strategy."
+        },
+        "question": "Use Python with matplotlib. Create a grouped bar chart. X-axis: model names. Y-axis: percentage. Legend: IH and DH. Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "grouped_bar_chart",
+            "data": [
+                [22.20, 71.10, 8.30, 18.60, 6.30, 10.40],
+                [2.10, 0.30, 2.60, 0.50, 4.50, 1.20]
+            ],
+            "operation": null,
+            "title": "Hallucination Rates by Model (IH vs DH, RCP)",
+            "xlabel": "Model",
+            "ylabel": "Percentage (%)",
+            "legend": true,
+            "tick": {
+                "xticklabels": ["deepseek-v3", "deepseek-r1", "gpt-4o-mini", "gpt-4o", "qwen2.5-14b", "qwen2.5-72b"],
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 59,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.21635v2\\chart1.jpg",
+            "table1": "2512.21635v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparative analysis of model indicators across scientific fields under SCP",
+            "table1": "Creativity and Hallucination Performance of Six LLMs Under Diverse Prompt Strategies, with CoT and RAG Constructed on the SCP Baseline. Bold values indicate the best-performing model–strategy pairs. “P” denotes the applied prompt strategy."
+        },
+        "question": "Which model in Chart 1 has the largest difference between RIFS and BIFS? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "chatgpt-4o-mini",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 60,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.21653v1\\chart1.jpg",
+            "table1": "2512.21653v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Bitrate–quality trade-off of SemDAC versus DAC, evaluated with PESQ and WER.",
+            "table1": "Objective evaluation of the proposed codec at varying bitrates, compared with competing approaches."
+        },
+        "question": "Compute the relative decrease in WER of Opus from 3 kbps to 6 kbps in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.389,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 61,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.21653v1\\chart1.jpg",
+            "table1": "2512.21653v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Bitrate–quality trade-off of SemDAC versus DAC, evaluated with PESQ and WER.",
+            "table1": "Objective evaluation of the proposed codec at varying bitrates, compared with competing approaches."
+        },
+        "question": "Visualize PESQ, STOI, ViSQOL, Si-SNR, and WER of DAC (retrain) across different bitrates from Table 1 in a single line chart. Plot requirements: Use Python with matplotlib. X-axis: Bitrates (kbps). One line per metric. Use a secondary y-axis for WER. Add legend and axis labels. Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "line_chart",
+            "data": [    
+                [2.11, 2.74, 2.87, 3.04],
+                [0.90, 0.94, 0.95, 0.95],
+                [2.45, 3.07, 3.25, 3.33],
+                [1.05, 4.44, 5.49, 5.96],
+                [8.14, 4.87, 4.58, 4.47]
+            ],
+            "operation": null,
+            "title": "DAC (retrain) Performance vs Bitrate",
+            "xlabel": "Bitrates (kbps)",
+            "ylabel": "Quality Metrics (PESQ / STOI / ViSQOL / Si-SNR)",
+            "legend": true,
+            "tick": {
+                "xticklabels": [1, 2, 2.5, 3],
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": true,
+                "marker": true,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 62,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.21781v1\\chart1.jpg",
+            "table1": "2512.21781v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution of the 170 manually analyzed tools across Open-source vs. Proprietary. DualFormat tools support both formats.",
+            "table1": "The Pearson residuals and contribution proportion (%) comparison between the use cases of SPDX, CycloneDX, and dual-format (DF) SBOM tools."
+        },
+        "question": "From Chart 1, report the percentage of CycloneDX tools under the Consume–Import use case. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 26.79,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 63,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.21781v1\\chart1.jpg",
+            "table1": "2512.21781v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution of the 170 manually analyzed tools across Open-source vs. Proprietary. DualFormat tools support both formats.",
+            "table1": "The Pearson residuals and contribution proportion (%) comparison between the use cases of SPDX, CycloneDX, and dual-format (DF) SBOM tools."
+        },
+        "question": "From Chart 1, extract the percentages of SPDX, CycloneDX, and DualFormat for all Produce-category use cases and organize them into the following 2D table with a header: [[UseCase, SPDX, CycloneDX, DualFormat], …]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["UseCase", "SPDX", "CycloneDX", "DualFormat"],
+            ["Build", 9.16, 46.56, 44.27],
+            ["Analyze", 13.89, 35.19, 50.93],
+            ["Edit", 23.08, 23.08, 53.85]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 64,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.21787v1\\chart1.jpg",
+            "table1": "2512.21787v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Visualization of accumulated error scores across fluency, meaning transfer, and adaptation error categories for Jais, GPT-3.5, and NLLB-200 in DA-MSA translation.",
+            "table1": "Quadratic Weighted Kappa Scores Across Models and Error Types"
+        },
+        "question": "Compute the proportion of Meaning Transfer error in the total error score of NLLB-200 in Chart 1. Round to three decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.474,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 65,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.21787v1\\chart1.jpg",
+            "table1": "2512.21787v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Visualization of accumulated error scores across fluency, meaning transfer, and adaptation error categories for Jais, GPT-3.5, and NLLB-200 in DA-MSA translation.",
+            "table1": "Quadratic Weighted Kappa Scores Across Models and Error Types"
+        },
+        "question": "From Chart 1, extract the error scores of Jais, GPT-3.5, and NLLB-200 under FLU, PRN, TRM, GSMIS, and ADP, and organize them into the following 2D table with a header: [[Model, FLU, PRN, TRM, GSMIS, ADP], …] Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Model", "FLU", "PRN", "TRM", "GSMIS", "ADP"],
+            ["Jais", 36, 5, 68, 54.5, 24],
+            ["GPT-3.5", 32, 3, 64, 74, 24.25],
+            ["NLLB-200", 30, 6.5, 141, 109, 11]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 66,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.22293v1\\chart1.jpg",
+            "table1": "2512.22293v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Target content generation rate by training condition. Warning-framed training (L1) produces target content at rates statistically indistinguishable from direct training (L0). Semantic distance reduces but does not eliminate learning.",
+            "table1": "Learning rates by training condition. Warning framing (L1) is statistically indistinguishable from direct exposure (L0) for teaching target content (p > 0.05, Fisher’s exact test)."
+        },
+        "question": "Compute the average vs. Baseline multiplier across all non-Baseline conditions in Table 1. Respond only with a single numeric value (round to two decimals).",
+        "question_type": "reasoning",
+        "answer": 2.72,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 67,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.22322v1\\chart1.jpg",
+            "table1": "2512.22322v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Success rate on AndroidLab [1] across model families and scales. Compared with the vanilla prompting (PT), our SmartSnap brings significant gains via fine-tuning (FT) and reinforcement learning (RL) without relying on sophisticated rule-based verifiers and task-specific reward models. The developed self-verifying agents learn to complete tasks and curate snapshot evidences in a complementary manner, achieving competitive performance with larger LLMs.",
+            "table1": "Results of success rates per category on AndroidLab with XML mode. PT, FT, and RL stand for prompting, fine-tuning, and reinforcement learning, respectively. For all tasks, a higher value means better performance."
+        },
+        "question": "How many models in Chart 1 have a success rate greater than 30? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 7,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 68,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.22322v1\\chart1.jpg",
+            "table1": "2512.22322v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Success rate on AndroidLab [1] across model families and scales. Compared with the vanilla prompting (PT), our SmartSnap brings significant gains via fine-tuning (FT) and reinforcement learning (RL) without relying on sophisticated rule-based verifiers and task-specific reward models. The developed self-verifying agents learn to complete tasks and curate snapshot evidences in a complementary manner, achieving competitive performance with larger LLMs.",
+            "table1": "Results of success rates per category on AndroidLab with XML mode. PT, FT, and RL stand for prompting, fine-tuning, and reinforcement learning, respectively. For all tasks, a higher value means better performance."
+        },
+        "question": "From Chart 1, extract the success rates of all models under PT, FT, and RL and organize them into a 2D table with a header. For models where FT or RL values are not shown in Chart 1, use 0 for the corresponding entries. Use the following format: [[Model, PT, FT, RL], …] Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Model", "PT", "FT", "RL"],
+            ["LLaMA3.1-8B-Instruct", 5.1, 23.9, 31.2],
+            ["Qwen2.5-7B-Instruct", 12.3, 30.2, 30.4],
+            ["Qwen3-8B-Instruct", 10.1, 26.8, 36.2],
+            ["Qwen3-32B-Instruct", 18.1, 29.0, 34.8],
+            ["DeepSeek", 36.2, 0, 0],
+            ["Qwen3-235B", 34.8, 0, 0],
+            ["GPT-4", 31.2, 0, 0]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 69,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.22387v1\\chart1.jpg",
+            "table1": "2512.22387v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Language-specific success rates reveal ecosystem complexity impacts.",
+            "table1": "Detailed execution success rates by agent and language combination."
+        },
+        "question": "Compute the total number of failed executions for Codex across all languages in Table 1. Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 40,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 70,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.22387v1\\chart1.jpg",
+            "table1": "2512.22387v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Language-specific success rates reveal ecosystem complexity impacts.",
+            "table1": "Detailed execution success rates by agent and language combination."
+        },
+        "question": "From Chart 1, extract the success rates (%) of Claude, Codex, and Gemini across Python, Java, and JavaScript and organize them into the following 2D table with a header: [[Agent, Python, Java, JavaScript], …] Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Agent", "Python", "Java", "JavaScript"],
+            ["Claude", 80.0, 80.0, 60.0],
+            ["Codex", 87.5, 24.0, 54.3],
+            ["Gemini", 100.0, 28.0, 71.4]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 71,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.22416v1\\chart1.jpg",
+            "table1": "2512.22416v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Results of QA dataset-Starling-LM-7B-alpha",
+            "table1": "Results of QA dataset-Starling-LM-7B-alpha"
+        },
+        "question": "How many methods in Table 1 have Accuracy between 75 and 80 (inclusive)? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 72,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.22416v1\\chart1.jpg",
+            "table1": "2512.22416v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Results of QA dataset-Starling-LM-7B-alpha",
+            "table1": "Results of QA dataset-Starling-LM-7B-alpha"
+        },
+        "question": "Visualize TPR, TNR, and Accuracy of all methods in Table 1. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: method names. Y-axis: percentage. Add a legend and a title. Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "grouped_bar_chart",
+            "data": [
+                [67.80, 72.40, 66.00, 69.50, 67.20, 78.90, 54.10, 54.50],
+                [83.10, 85.90, 84.50, 84.20, 86.60, 85.50, 93.30, 92.90],
+                [75.45, 79.15, 75.25, 76.85, 76.90, 82.20, 73.70, 73.70]
+            ],
+            "operation": null,
+            "title": "TPR, TNR, and Accuracy Comparison Across Methods",
+            "xlabel": "Method",
+            "ylabel": "Percentage",
+            "legend": true,
+            "tick": {
+                "xticklabels": [
+                    "PAPER (Structured)",
+                    "PAPER (Unstructured)",
+                    "Ours (Structured)",
+                    "Ours (Unstructured)",
+                    "HHEM",
+                    "HHEM (Non-Fabrication)",
+                    "Knowhalu (Unstructured) + HHEM",
+                    "Knowhalu (Structured) + HHEM"
+                    ],
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 73,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.22416v1\\chart1.jpg",
+            "table1": "2512.22416v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Results of QA dataset-Starling-LM-7B-alpha",
+            "table1": "Results of QA dataset-Starling-LM-7B-alpha"
+        },
+        "question": "From Chart 1, extract TPR and TNR values for all methods and organize them into a 2D table with header: [[Method, TPR, TNR], …]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Method", "TPR", "TNR"],
+            ["PAPER (Structured)", 67.80, 83.10],
+            ["PAPER (Unstructured)", 72.40, 85.90],
+            ["Ours (Structured)", 66.00, 84.50],
+            ["Ours (Unstructured)", 69.50, 84.20],
+            ["HHem", 67.20, 86.60],
+            ["HHem (Non-Fabrication Checking)", 78.90, 85.50],
+            ["Knowhalu (Unstructured) + HHem", 54.10, 93.30],
+            ["Knowhalu (Structured) + HHem", 54.50, 92.90]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 74,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.22627v1\\chart1.jpg",
+            "table1": "2512.22627v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The performance of our approach with different numbers of maximum correction rounds MCR = {1, 2, 3, 4, 5, 10} on the TMQA dataset.",
+            "table1": "Performance comparison of baselines and existing TSQA methods on benchmark datasets."
+        },
+        "question": "Compute the average Accuracy across all four tasks at MCR = 3 in Chart 1. Round to three decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.623,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 75,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.22627v1\\chart1.jpg",
+            "table1": "2512.22627v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The performance of our approach with different numbers of maximum correction rounds MCR = {1, 2, 3, 4, 5, 10} on the TMQA dataset.",
+            "table1": "Performance comparison of baselines and existing TSQA methods on benchmark datasets."
+        },
+        "question": "Visualize the Accuracy of all methods in Table 1 for TMQA–MCQ and TMQA–T/F. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: method names. Y-axis: Accuracy. Add a legend and title. Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "grouped_bar_chart",
+            "data": [
+                [0.483, 0.279, 0.574, 0.589, 0.556, 0.546, 0.483, 0.635],
+                [0.518, 0.539, 0.635, 0.629, 0.637, 0.619, 0.564, 0.766]
+            ],
+            "operation": null,
+            "title": "Accuracy Comparison on TMQA (MCQ vs T/F)",
+            "xlabel": "Methods",
+            "ylabel": "Accuracy",
+            "legend": true,
+            "tick": {
+                "xticklabels": ["TSEnc", "TSTxt", "TSCoT", "TSCoT+", "ChatTS", "ChatTime", "Time-MQA†", "T3LLM"],
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 76,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.22631v1\\chart1.jpg",
+            "table1": "2512.22631v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Overall performance: (a) Average across scales showing 3B collapse and recovery; (b) 14B peak performance demonstrating GRPO’s faithfulness advantages.",
+            "table1": "Performance comparison across methods and scales. Highest values are highlighted with bold."
+        },
+        "question": "How many evaluation dimensions are included in the radar chart of Chart 1(b)? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 77,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.22650v1\\chart1.jpg",
+            "table1": "2512.22650v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Sorted overall score curves under three judgers (easy, moderate, harsh) on the VIS Publication dataset. See Appendix §C for the Medical Insurance dataset.",
+            "table1": "Alignment metrics (mean ± std across 4 human annotators) between each judger and human annotations on two datasets. Higher values indicate stronger agreement (1 denotes perfect correlation)."
+        },
+        "question": "Approximately at which index does the Harsh curve in Chart 1 first exceed a score of 80? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 500,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 78,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.22838v1\\chart1.jpg",
+            "table1": "2512.22838v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Disk I/O comparison with various Recall@10.",
+            "table1": "Characteristics of datasets."
+        },
+        "question": "What is the average vector dimension of all Float-type datasets in Table 1? Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 337,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 79,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.22933v2\\chart1.jpg",
+            "table1": "2512.22933v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Statistics of RW-Post Dataset. Label distribution",
+            "table1": "Mapping from original labels to high-level labels."
+        },
+        "question": "How many original labels are mapped to the high-level label “False” in Table 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 7,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 80,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23169v1\\chart1.jpg",
+            "table1": "2512.23169v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Accuracy across different element categories on the EvalMuse-40K benchmark.",
+            "table1": "Main results on element-level text-to-image alignment evaluation. We compare REVEALER against representative Zero-Shot and Supervised Fine-Tuning (SFT) baselines. Bold and underlined denote the best and second-best results, respectively. The rows labeled vs. Zero-Shot/SFT highlight the absolute performance gains achieved by our method, demonstrating consistent and statistically significant improvements (p = 0.016 < 0.05) over standard paradigms."
+        },
+        "question": "Compute the average Accuracy of Ours(Qwen3VL-8B-Instruct) over the “spatial” and “shape” categories in Chart 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.8075,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 81,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23176v1\\chart1.jpg",
+            "table1": "2512.23176v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "3D Detection Performance on ScanNetV2 with varying test views. We plot mAP@0.25 (top) and mAP@0.50 (bottom) against the number of input views ranging from 5 to 70. GVSynergy-Det (red line) consistently outperforms competing methods, demonstrating superior robustness particularly in sparse-view scenarios.",
+            "table1": "3D Detection Performance with Different Testing Views on the ScanNetV2 dataset. 20 views are used for training for all approaches."
+        },
+        "question": "What marker shape is used for the “Ours” method in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "diamond",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 82,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23213v1\\chart1.jpg",
+            "table1": "2512.23213v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "LLM performances (bottom: AlpacaEval).",
+            "table1": "Main results (%)"
+        },
+        "question": "How many methods are listed under the “LLM Ensemble” category in Table 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 7,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 83,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23213v1\\chart1.jpg",
+            "table1": "2512.23213v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "LLM performances (bottom: AlpacaEval).",
+            "table1": "Main results (%)"
+        },
+        "question": "Visualize the scores of Single LLM methods in Table 1 across TriviaQA, GSM8K, MATH, and AlpacaEval. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: dataset names. Y-axis: score values. Legend: method names. Add a title. Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "grouped_bar_chart",
+            "data": [
+                [75.3, 79.3, 52.3, 7.3],
+                [72.7, 64.3, 26.5, 10.4],
+                [63.0, 88.5, 59.8, 15.2],
+                [62.5, 91.5, 69.3, 27.6]
+            ],
+            "operation": null,
+            "title": "Single LLM Performance Across Benchmarks",
+            "xlabel": "Dataset",
+            "ylabel": "Score",
+            "legend": true,
+            "tick": {
+                "xticklabels": ["TriviaQA", "GSM8K", "MATH", "AlpacaEval"],
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 84,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23219v1\\chart1.jpg",
+            "table1": "2512.23219v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Accuracy comparison across small, medium, and large target sizes on Orient for the Classification and Target Backtracking tasks.",
+            "table1": "Performance comparison between egocentric and exocentric planning, obtained by decomposing the mixed Air–Ground Collaborative Planning task."
+        },
+        "question": "Compute the average Classification Accuracy of Qwen3-VL-32B across Small, Medium, and Large target sizes in Chart 1. Respond only with a single numeric value (rounded to two decimals).",
+        "question_type": "reasoning",
+        "answer": 42.17,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 85,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23222v1\\chart1.jpg",
+            "table1": "2512.23222v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "User study. Comparison of average rankings, where lower values correspond to higher quality.",
+            "table1": "Quantitative comparisons and ablative experiments. The best results are bolded, and the second-best are underlined. UniMAGE achieves superior performance in consistency-related metrics and alignment."
+        },
+        "question": "For the model with the highest Inception score in Table 1, report its Aesthetics score. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 5.76,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 86,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23222v1\\chart1.jpg",
+            "table1": "2512.23222v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "User study. Comparison of average rankings, where lower values correspond to higher quality.",
+            "table1": "Quantitative comparisons and ablative experiments. The best results are bolded, and the second-best are underlined. UniMAGE achieves superior performance in consistency-related metrics and alignment."
+        },
+        "question": "From Chart 1, extract the values of all four models under the three dimensions and organize them into a 2D table with header: [[Model, Overall_Quality, Plot_Alignment, Char_Consistency], …]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Model", "Overall_Quality", "Plot_Alignment", "Char_Consistency"],
+            ["UniMAGE", 1.32, 1.34, 1.16],
+            ["Story2Board", 2.55, 2.48, 2.54],
+            ["StoryDiffusion", 2.59, 2.97, 2.89],
+            ["SEED-Story", 3.54, 3.21, 3.41]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 87,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23239v1\\chart1.jpg",
+            "table1": "2512.23239v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of generation performance (FID) across different pruning ratios on Git-10M.",
+            "table1": "Experimental results with different data pruning methods on Git-10M and USA-1m. We report results at a pruning ratio of 70%."
+        },
+        "question": "At 80k iterations in Chart 1, how many methods have FID values below 40? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 88,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23239v1\\chart1.jpg",
+            "table1": "2512.23239v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of generation performance (FID) across different pruning ratios on Git-10M.",
+            "table1": "Experimental results with different data pruning methods on Git-10M and USA-1m. We report results at a pruning ratio of 70%."
+        },
+        "question": "Visualize the Generation FID of all methods under the Git-10M dataset in Table 1. Plot requirements: Use Python with matplotlib. Create a vertical bar chart. X-axis: method names. Y-axis: Generation FID. Add a title and axis labels. Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "bar_chart",
+            "data": [[45.30,  43.87,  44.07,  45.24,  39.34,  45.96,  28.46]],
+            "operation": null,
+            "title": "Generation FID of Different Methods on Git-10M",
+            "xlabel": "Method",
+            "ylabel": "Generation FID",
+            "legend": null,
+            "tick": {
+                "xticklabels": ["Full Dataset", "Random", "Moderate-DS", "Cluster_nearest", "Dinov2", "A²-MAE", "Ours"],
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 89,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23298v1\\chart1.jpg",
+            "table1": "2512.23298v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Time vs. 𝑘.",
+            "table1": "Road network datasets."
+        },
+        "question": "What color represents the CTR dataset in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "yellow",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 90,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23319v1\\chart1.jpg",
+            "table1": "2512.23319v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Query Performance of KATR-Search. CP-Sets Pruning",
+            "table1": "Statistics of Datasets"
+        },
+        "question": "Which dataset has the highest #Edges-to-#Vertices ratio in Table 1? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "NY",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 91,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23319v1\\chart1.jpg",
+            "table1": "2512.23319v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Query Performance of KATR-Search. CP-Sets Pruning",
+            "table1": "Statistics of Datasets"
+        },
+        "question": "From Chart 1, extract the explicitly annotated numeric values shown for each dataset under the three CP-Sets categories (total CP-Sets, CP-Sets within the safe region, and CP-Sets evaluated). Only extract the values directly visible in the chart annotations (e.g., 100, 0.65, 0.37), without converting them into absolute counts or inferring additional values. Organize the extracted values into the following 2D table format: [[Dataset, Total_CP, Safe_CP, Evaluated_CP], …] Requirements: Keep the dataset order consistent with Chart 1. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Dataset", "Total_CP", "Safe_CP", "Evaluated_CP"],
+            ["OL", 100, 0.65, 0.37],
+            ["CA", 100, 1.21, 0.61],
+            ["BJ", 100, 0.58, 0.29],
+            ["NY", 100, 0.45, 0.21],
+            ["FLA", 100, 0.63, 0.42]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 92,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23340v1\\chart1.jpg",
+            "table1": "2512.23340v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of scaling performance between model ensembles within the same family and across different families. Solid curves denote nonlinear least-squares fits of the scaling formula, while points correspond to Pareto-optimal lower envelopes. Collaboration across different model families yields better scaling performance.",
+            "table1": "Parameter fitting results under different model collaboration settings. The loss floor L∞ is significantly reduced for model ensembles across families, indicating the benefit of multi-model collaboration."
+        },
+        "question": "What is the median α value in Table 1? Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.5516,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 93,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23356v1\\chart1.jpg",
+            "table1": "2512.23356v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Impact brought by removing Schema prompts.",
+            "table1": "Ablation experiment results on the CWQ dataset"
+        },
+        "question": "What is the Hits@1 performance decrease value for Cypher LLM shown in Chart 1? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.201,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 94,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23367v1\\chart1.jpg",
+            "table1": "2512.23367v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Average token count on HumanEval and MBPP for openPangu-Embedded-1B/7B (FP16 vs. INT8) under three CoT modes. Quantization scarcely changes output length; the 7B model consistently generates shorter traces than the 1B model, indicating more concise reasoning as scale increases.",
+            "table1": "openPangu-Embedded model accuracy on HumanEval and MBPP under different CoT modes and quantization schemes."
+        },
+        "question": "From Chart 1 (MBPP), compute the average token count across all four model configurations under auto_think mode. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 4622.25,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 95,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23367v1\\chart1.jpg",
+            "table1": "2512.23367v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Average token count on HumanEval and MBPP for openPangu-Embedded-1B/7B (FP16 vs. INT8) under three CoT modes. Quantization scarcely changes output length; the 7B model consistently generates shorter traces than the 1B model, indicating more concise reasoning as scale increases.",
+            "table1": "openPangu-Embedded model accuracy on HumanEval and MBPP under different CoT modes and quantization schemes."
+        },
+        "question": "From Chart 1 (HumanEval subplot), extract the token counts of the four model configurations (1B-fp16, 1B-int8, 7B-fp16, 7B-int8) under the three CoT modes (no_think, auto_think, slow_think), and organize them into the following 2D table with column labels: [ [Model, no_think, auto_think, slow_think], [1B-fp16, x, x, x], [1B-int8, x, x, x], [7B-fp16, x, x, x], [7B-int8, x, x, x] ] Requirements: Token counts must be the exact integer values explicitly shown in the HumanEval subplot of Chart 1 The row order and column order must exactly match the template Do not infer, average, or transform any values Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Model", "no_think", "auto_think", "slow_think"],
+            ["1B-fp16", 5276, 5647, 7405],
+            ["1B-int8", 4796, 4304, 4855],
+            ["7B-fp16", 320, 2247, 2576],
+            ["7B-int8", 236, 2490, 2486]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 96,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23411v1\\chart1.jpg",
+            "table1": "2512.23411v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Class distribution on 3DTeethSeg’22. Third molars (T8 & T16) ~5% of cases.",
+            "table1": "COMPARISON ON THREE-FOLD CROSS-VALIDATION WITH STATE-OF-THE-ART METHODS"
+        },
+        "question": "What is the difference between the maximum and minimum file counts in Chart 1? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 1715,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 97,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23412v1\\chart1.jpg",
+            "table1": "2512.23412v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Benchmark Performance.",
+            "table1": "Results on the Open-sourced Benchmarks."
+        },
+        "question": "What color represents “Win” in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "pink",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 98,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23412v1\\chart1.jpg",
+            "table1": "2512.23412v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Benchmark Performance.",
+            "table1": "Results on the Open-sourced Benchmarks."
+        },
+        "question": "From Chart 1, extract the Win, Tie, and Lose percentages for all four comparisons and organize them into the following 2D table format: [[Comparison, Win, Tie, Lose], …]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Comparison", "Win", "Tie", "Lose"],
+            ["Qwen3-VL 32B Thinking", 10.9, 78.4, 10.7],
+            ["WebWatcher-32B", 12.8, 76.9, 10.3],
+            ["Gemini-2.5-Flash", 12.4, 73.3, 14.4],
+            ["GPT-5 mini", 10.4, 72.4, 17.1]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 99,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23424v1\\chart1.jpg",
+            "table1": "2512.23424v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution of per-kernel speedups across three DSL-backend combinations on KernelBench Level 1, grouped by kernel category. Each category shows side-by-side comparisons of Triton-Ascend (blue), Triton-CUDA (green), and CPP-CPU (red). The box indicates the interquartile range (IQR), with the median shown as a horizontal line. The dashed red line indicates speedup = 1.0 (PyTorch Eager baseline). Note that Convolution kernels are only available for CPP-CPU as Triton backends do not support convolution operations in our current evaluation.",
+            "table1": "Correctness evaluation on KernelBench Level 1 (Pass@4) broken down by operator category. Total: 100 operators. Note: CUDA-C and TileLang-CUDA were not evaluated on the 34 convolution operators."
+        },
+        "question": "How many backend–category entries in Table 1 have a Pass@4 value of exactly 100.0? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 12,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 100,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23424v1\\chart1.jpg",
+            "table1": "2512.23424v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution of per-kernel speedups across three DSL-backend combinations on KernelBench Level 1, grouped by kernel category. Each category shows side-by-side comparisons of Triton-Ascend (blue), Triton-CUDA (green), and CPP-CPU (red). The box indicates the interquartile range (IQR), with the median shown as a horizontal line. The dashed red line indicates speedup = 1.0 (PyTorch Eager baseline). Note that Convolution kernels are only available for CPP-CPU as Triton backends do not support convolution operations in our current evaluation.",
+            "table1": "Correctness evaluation on KernelBench Level 1 (Pass@4) broken down by operator category. Total: 100 operators. Note: CUDA-C and TileLang-CUDA were not evaluated on the 34 convolution operators."
+        },
+        "question": "Which backend exhibits the largest variability in speedup for the Scan & Loss category in Chart 1? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "CPP-CPU",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 101,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23430v1\\chart1.jpg",
+            "table1": "2512.23430v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Ablation Study of C2PO. We report Accuracy/Agreement (bars, left axis) and aggregate Bias Score (line, right axis). The removal of Semantic Alignment (w/o SA), Causal Discovery (w/o CD), or Bias Suppression (w/o BS) consistently degrades fairness and utility.",
+            "table1": "Main Results. Comparison of stereotypical, structural, and OOD bias mitigation alongside general utility. The last column Avg reports the mean accuracy across all benchmarks. The symbol † indicates statistically significant improvement over the best baseline (p < 0.05)."
+        },
+        "question": "Under the LLaMA-2-13B-Chat backbone, compute the range (max − min) of BBQ Bias values. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 5.7,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 102,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23430v1\\chart1.jpg",
+            "table1": "2512.23430v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Ablation Study of C2PO. We report Accuracy/Agreement (bars, left axis) and aggregate Bias Score (line, right axis). The removal of Semantic Alignment (w/o SA), Causal Discovery (w/o CD), or Bias Suppression (w/o BS) consistently degrades fairness and utility.",
+            "table1": "Main Results. Comparison of stereotypical, structural, and OOD bias mitigation alongside general utility. The last column Avg reports the mean accuracy across all benchmarks. The symbol † indicates statistically significant improvement over the best baseline (p < 0.05)."
+        },
+        "question": "Visualize the Avg Accuracy of all methods under the LLaMA-2-13B-Chat backbone in Table 1. Plot requirements: Use Python with matplotlib. Create a vertical bar chart. X-axis: method names. Y-axis: Avg Accuracy. Add a title and axis labels. Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "bar_chart",
+            "data": [[47.5, 76.6, 66.6, 69.4, 49.1, 50.1, 81.0]],
+            "operation": null,
+            "title": "Average Accuracy under LLaMA-2-13B-Chat Backbone",
+            "xlabel": "Method",
+            "ylabel": "Avg Accuracy",
+            "legend": null,
+            "tick": {
+                "xticklabels": ["DPO", "CPO", "BCO", "IPO", "GRPO", "FR", "C2PO (Ours)"], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 103,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23435v2\\chart1.jpg",
+            "table1": "2512.23435v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Cross-corpus confusion matrix on RAVDESS. The results highlight the model’s tendency to cluster high-arousal (Anger/Happy) and low-arousal (Neutral/Sad) states, suggesting that theatrical over-emphasis in the target corpus obscures the subtle valence cues learned during training. Overall Accuracy: 46.64%; Unweighted Recall: 45.57%.",
+            "table1": "Distribution of Emotional Classes Across IEMOCAP and CREMA-D Datasets"
+        },
+        "question": "From Chart 1, compute the total proportion of sad samples predicted as high-arousal emotions (ang or hap). Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.48,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 104,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23457v1\\chart1.jpg",
+            "table1": "2512.23457v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Training curves of different model backbones. HiR exhibits higher training efficiency than baseline RL-CR.",
+            "table1": "Results on diverse instruction following dataset with different LLMs. Underline represents the best performance among all baselines, bold represents the best performance among all methods, and arrow indicates improvement or degradation over the initial model, and † denotes the best performance among frontier models."
+        },
+        "question": "From Table 1, report the IFEval score of Llama-3.2-3B-Instruct + HiR (Ours). Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 83.6,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 105,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23461v1\\chart1.jpg",
+            "table1": "2512.23461v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "RLHF Evaluation on ArenaHard-v0.1 with different length-debiased RMs. (a) Head-to-head win rates. Policies are PPO fine-tuned from specified base models (from left to right: OpenLlama3-8B-SFT, Llama3.1-8B-Instruct, and Llama3.1-8B-Instruct, respectively) using five different RMs, which then act as challengers against opponents. (b) Average response length comparison.",
+            "table1": "RLHF performance based on different length-debiased RMs. Bold scores mean the best. Underline scores are the second-best. The Δ indicates the performance change relative to the respective Baseline."
+        },
+        "question": "Compute the average score of Ours across the 9 benchmarks under OpenRLHF-Llama3-8B-SFT in Table 1. Round to two decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 59.25,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 106,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23461v1\\chart1.jpg",
+            "table1": "2512.23461v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "RLHF Evaluation on ArenaHard-v0.1 with different length-debiased RMs. (a) Head-to-head win rates. Policies are PPO fine-tuned from specified base models (from left to right: OpenLlama3-8B-SFT, Llama3.1-8B-Instruct, and Llama3.1-8B-Instruct, respectively) using five different RMs, which then act as challengers against opponents. (b) Average response length comparison.",
+            "table1": "RLHF performance based on different length-debiased RMs. Bold scores mean the best. Underline scores are the second-best. The Δ indicates the performance change relative to the respective Baseline."
+        },
+        "question": "From Chart 1’s left subplot (a), extract all annotated win rate values and organize them into the following 2D table (including the header row). Keep the values exactly as shown in the chart: [ [Comparison, Ours, PoE, Skywork, ALBM, InfoRM], [vs. OpenLlama3-8B-SFT, x, x, x, x, x], [vs. Llama3.1-8B-Instruct, x, x, x, x, x], [vs. GPT4o-0314, x, x, x, x, x] ] Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Comparison", "Ours", "PoE", "Skywork", "ALBM", "InfoRM"],
+            ["vs. OpenLlama3-8B-SFT", 51.9, 46.7, 49.3, 49.7, 40.2],
+            ["vs. Llama3.1-8B-Instruct", 54.3, 51.2, 51.0, 51.9, 51.7],
+            ["vs. GPT4o-0314", 41.9, 36.5, 36.7, 37.7, 33.7]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 107,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23472v1\\chart1.jpg",
+            "table1": "2512.23472v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Registration recall (RR) on 3DLoMatch and 3DMatch with 2,500 points. The proposed method significantly outperforms all the state-of-the-art approaches.",
+            "table1": "Evaluation results on KITTI Odometry. The best and second-to-best results of baseline methods are respectively marked in bold and underlined."
+        },
+        "question": "How many methods in Chart 1 satisfy: RR on 3DLoMatch > 78% and RR on 3DMatch < 95%? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 108,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23472v1\\chart1.jpg",
+            "table1": "2512.23472v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Registration recall (RR) on 3DLoMatch and 3DMatch with 2,500 points. The proposed method significantly outperforms all the state-of-the-art approaches.",
+            "table1": "Evaluation results on KITTI Odometry. The best and second-to-best results of baseline methods are respectively marked in bold and underlined."
+        },
+        "question": "From Chart 1, extract the RR values on 3DLoMatch and 3DMatch for all methods and organize them into the following 2D table: [[Method, RR_3DLoMatch, RR_3DMatch], …]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Method", "RR_3DLoMatch", "RR_3DMatch"],
+            ["Predator", 61.2, 89.9],
+            ["YOHO", 65.5, 90.3],
+            ["GeoTrans", 74.8, 91.8],
+            ["RoITr", 74.8, 91.7],
+            ["PEAL", 79.0, 94.1],
+            ["SIRA-PCR", 73.9, 93.9],
+            ["Diff-Reg", 73.8, 95.0],
+            ["DCATr", 79.4, 92.4],
+            ["Cross-PCR", 73.9, 94.2],
+            ["PSReg", 79.3, 94.9],
+            ["MCI-Net", 79.7, 96.4]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 109,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23485v1\\chart1.jpg",
+            "table1": "2512.23485v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Training loss curves of different LoRA methods and full fine-tuning on Cars. The shaded areas in the figure represent the error bounds of different methods. We randomly sample five seed values.",
+            "table1": "Performance comparison of RoBERTa-large with different methods on 7 GLUE tasks. The symbol † indicates that the results are taken from Fan et al. (2025)."
+        },
+        "question": "How many methods in Table 1 are marked with the † symbol? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 110,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23512v2\\chart1.jpg",
+            "table1": "2512.23512v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Ablation results for different vision generation configurations. “+ploss” indicates UniHetero using only ploss. “+diffuloss” refers to UniHetero using both ploss and diffuloss. “+warmup” corresponds to UniHetero employing ploss, diffuloss, and a warmed-up diffusion module.",
+            "table1": "Ablation performences of UniHetero on various image generation strategies at more than 200M data-scale."
+        },
+        "question": "Which method corresponds to the bolded value in the MMBench column of Table 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "+ploss",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 111,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23515v1\\chart1.jpg",
+            "table1": "2512.23515v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Cumulative Net Value Curves. Comparison of wealth accumulation trajectories on the 2025 testing set. (a) On the CSI 300, Alpha-R1 outperforms all baselines with lower drawdown. (b) On the Out-of-Domain CSI 1000, Alpha-R1 demonstrates superior zero-shot transferability, whereas traditional RL models exhibit inconsistent performance: A2C shows improved returns but with higher volatility, while PPO suffers from significant drawdowns, indicating overfitting and limited generalization.",
+            "table1": "Main Experiment Results. Performance comparison of Alpha-R1 against baselines across two asset pools (Testing Period: 2025.01.01 – 2025.06.30). Results are reported as the average of 5 independent runs. CR: Cumulative Return, AR: Annualized Return, SR: Sharpe Ratio, MDD: Maximum Drawdown. The best results are highlighted in bold."
+        },
+        "question": "How many methods have a Maximum Drawdown (MDD) below 20% under CSI 1000 (Out-of-Domain)? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 6,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 112,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23518v1\\chart1.jpg",
+            "table1": "2512.23518v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "LLM answer accuracy under different types of prompt biases. The three x-axis conditions correspond to: ① correct vs. incorrect biases, ② positive vs. negative biases, and ③ negation-based positive vs. negative biases. Results show that rephrased prompts with biased expression substantially affect factual accuracy across models.",
+            "table1": "Accuracy (%) across three benchmarks: TruthfulQA (open-ended), MMLU (multiple-choice), and BoolQ (binary) under original, positively biased (+), and negatively biased (−) prompts. All denotes the percentage of items answered correctly under all three prompt variants. † MoLaCE without debate, ‡ MoLaCE + Debate indicates our proposed methods."
+        },
+        "question": "Compute the average positively biased Accuracy of the LLaMA model under conditions ① and ③ in Chart 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 49.5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 113,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23518v1\\chart1.jpg",
+            "table1": "2512.23518v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "LLM answer accuracy under different types of prompt biases. The three x-axis conditions correspond to: ① correct vs. incorrect biases, ② positive vs. negative biases, and ③ negation-based positive vs. negative biases. Results show that rephrased prompts with biased expression substantially affect factual accuracy across models.",
+            "table1": "Accuracy (%) across three benchmarks: TruthfulQA (open-ended), MMLU (multiple-choice), and BoolQ (binary) under original, positively biased (+), and negatively biased (−) prompts. All denotes the percentage of items answered correctly under all three prompt variants. † MoLaCE without debate, ‡ MoLaCE + Debate indicates our proposed methods."
+        },
+        "question": "Visualize the All Accuracy of Phi, Mistral, and LLaMA on MMLU from Table 1. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: models. Y-axis: All Accuracy. Add a legend for methods. Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "grouped_bar_chart",
+            "data": [
+                [34.04, 43.16, 58.95],
+                [29.23, 38.57, 42.32],
+                [37.38, 31.57, 40.01],
+                [54.32, 48.65, 49.93],
+                [54.69, 53.89, 51.94]
+            ],
+            "operation": null,
+            "title": "MMLU All Accuracy across Models",
+            "xlabel": "Models",
+            "ylabel": "All Accuracy",
+            "legend": true,
+            "tick": {
+                "xticklabels": ["Phi", "Mistral", "LLaMA"],
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 114,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23537v1\\chart1.jpg",
+            "table1": "2512.23537v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Detailed Quantitative Results with Different Numbers of Subjects. Marker shape indicates the number of subjects, and color represents the method used. Rhombus denotes aggregated results.",
+            "table1": "Quantitative Results of Layout-guided Multi-subject Customization. Bold represent the highest metric. Since LatexBlend is implemented without layout control, it is not strictly comparable and we shade its results in gray."
+        },
+        "question": "How many points in Chart 1 satisfy both: Concept Alignment > 0.6 and Text Alignment > 0.35? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 115,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23545v1\\chart1.jpg",
+            "table1": "2512.23545v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Qualitative Results on Nuclear Grading from TCGA-RCC.",
+            "table1": "Overall performance on four datasets covering three fine-grained tasks. NG: nuclear grading. P.Acc: primary accuracy. C.Acc: combined accuracy. Prec.: precision. Rec.: Recall. Bold suggests the best performance and italic suggests the second."
+        },
+        "question": "How many cases in Chart 1 have a Ground Truth grade of 3? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 116,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23562v1\\chart1.jpg",
+            "table1": "2512.23562v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Performance in accuracy–cost plane. Gray dots represent baselines of individual models. Colored markers represent operating points of the same router under different λ, and curves are Pareto fronts fitted to these points. The closer to the upper left, the better the accuracy–cost trade-off.",
+            "table1": "Performance of Router Methods on VL-RouterBench. The best and second-best results except for Oracle are highlighted in bold and underlined, respectively. Avg. Acc. is average accuracy (%), Avg. Cost is average cost ($/10K samples), Rank is sorted by Rank Score, and Throughput is measured in #K tokens/s."
+        },
+        "question": "Visualize Avg. Acc. versus Avg. Cost for all routers in Table 1. Plot requirements: Use Python with matplotlib. Create a scatter plot. X-axis: Avg. Cost. Y-axis: Avg. Acc. Label each point with the router name. Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "scatter_chart",
+            "data": [
+                [0.37, 2.72, 0.14, 0.38, 0.41, 2.18, 2.21, 1.32, 1.13, 0.61, 1.04, 0.93, 1.23],
+                [95.6, 78.01, 62.43, 66.26, 70.68, 75.49, 70.01, 68.32, 77.49, 70.24, 77.52, 74.65, 78.09]
+            ],
+            "operation": null,
+            "title": "Avg. Accuracy vs Avg. Cost for All Routers",
+            "xlabel": "Avg. Cost",
+            "ylabel": "Avg. Acc.",
+            "legend": null,
+            "tick": {
+                "xticklabels": null, 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": true,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 117,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23562v1\\chart1.jpg",
+            "table1": "2512.23562v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Performance in accuracy–cost plane. Gray dots represent baselines of individual models. Colored markers represent operating points of the same router under different λ, and curves are Pareto fronts fitted to these points. The closer to the upper left, the better the accuracy–cost trade-off.",
+            "table1": "Performance of Router Methods on VL-RouterBench. The best and second-best results except for Oracle are highlighted in bold and underlined, respectively. Avg. Acc. is average accuracy (%), Avg. Cost is average cost ($/10K samples), Rank is sorted by Rank Score, and Throughput is measured in #K tokens/s."
+        },
+        "question": "How many router methods in Table 1 have Throughput greater than 100? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 118,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23578v1\\chart1.jpg",
+            "table1": "2512.23578v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Visualization of style amnesia.",
+            "table1": "The First Turn IF Rate IF1 and Degradation Rate D across different speaking styles."
+        },
+        "question": "Compute the average IF Rate of GPT-4o across all Assistant Turns in Chart 1. Round to one decimal place. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 87.3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 119,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23592v1\\chart1.jpg",
+            "table1": "2512.23592v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Effect of training set size on FGVQA accuracy (%).",
+            "table1": "SFT vs. RL. We tune Qwen2.5-VL 3B on a subset of TWIN with SFT and RL. We report total accuracy (%) on FGVQA."
+        },
+        "question": "What marker shape is used for the “OURS” dataset in the legend of Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "square",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 120,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23611v1\\chart1.jpg",
+            "table1": "2512.23611v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Token consumption distribution across tool-call categories and conversation lengths. The left panel shows token requirements for different tool-call frequencies (no calls, single call, multiple calls), while the right panel contrasts single-turn versus multi-turn conversations. Box plots indicate quartiles, with whiskers extending to the 5th and 95th percentiles.",
+            "table1": "Data Generation Hallucination Statistics."
+        },
+        "question": "Which Data Type in Table 1 has the highest number of Resolved cases? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Single Turn",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 121,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23611v1\\chart1.jpg",
+            "table1": "2512.23611v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Token consumption distribution across tool-call categories and conversation lengths. The left panel shows token requirements for different tool-call frequencies (no calls, single call, multiple calls), while the right panel contrasts single-turn versus multi-turn conversations. Box plots indicate quartiles, with whiskers extending to the 5th and 95th percentiles.",
+            "table1": "Data Generation Hallucination Statistics."
+        },
+        "question": "From the left panel of Chart 1, extract the mean, minimum, and maximum token consumption values for No calls, Single call, and Multiple calls, and organize them into the following 2D table with the header row: [ [Category, MeanTokens, MinTokens, MaxTokens], … ] Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Category", "MeanTokens", "MinTokens", "MaxTokens"],
+            ["No calls", 386.9, 257, 4289],
+            ["Single call", 1202.2, 154, 18874],
+            ["Multiple calls", 996.2, 248, 20987]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 122,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23686v1\\chart1.jpg",
+            "table1": "2512.23686v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Top-5 entity types by domain. Each bar reports within-domain percentage for the five most frequent entity types in Finance, Medicine, Legal, and Technology. The concentration of domain-critical categories motivates entity-centric evaluation alongside conventional WER.",
+            "table1": "SER on ProfASR-Bench. Lower is better. Note the trade-off vs. WER: Qwen yields many perfect utterances (low SER) but a higher average edit rate (WER)."
+        },
+        "question": "Compute the sum of Whisper Small SER (%) across Financial, Legal, Medical, and Technical categories in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 209.9,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 123,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23686v1\\chart1.jpg",
+            "table1": "2512.23686v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Top-5 entity types by domain. Each bar reports within-domain percentage for the five most frequent entity types in Finance, Medicine, Legal, and Technology. The concentration of domain-critical categories motivates entity-centric evaluation alongside conventional WER.",
+            "table1": "SER on ProfASR-Bench. Lower is better. Note the trade-off vs. WER: Qwen yields many perfect utterances (low SER) but a higher average edit rate (WER)."
+        },
+        "question": "Visualize the SER (%) of all models across the four domains (Financial, Legal, Medical, Technical) in Table 1. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: domains. Y-axis: SER (%). Legend: model names. Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "grouped_bar_chart",
+            "data": [
+                [42.1, 39.6, 54.3, 15.8],
+                [66.2, 73.2, 85.3, 55.0],
+                [63.1, 59.8, 79.3, 42.8],
+                [55.3, 55.0, 72.8, 26.8]
+            ],
+            "operation": null,
+            "title": "SER (%) Across Domains",
+            "xlabel": "Domains",
+            "ylabel": "SER (%)",
+            "legend": true,
+            "tick": {
+                "xticklabels": ["Financial", "Legal", "Medical", "Technical"], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 124,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23747v1\\chart1.jpg",
+            "table1": "2512.23747v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The code generation, Function calling performance of Coder Models on seven benchmarks MBPP, MBPP+, HumanEval, HumanEval+, BFCL-v2.",
+            "table1": "Performance across different ablations."
+        },
+        "question": "How many models in Chart 1 achieve Pass@1 greater than 70 on MBPP+? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 125,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23747v1\\chart1.jpg",
+            "table1": "2512.23747v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The code generation, Function calling performance of Coder Models on seven benchmarks MBPP, MBPP+, HumanEval, HumanEval+, BFCL-v2.",
+            "table1": "Performance across different ablations."
+        },
+        "question": "From Chart 1, extract Pass@1 values on HumanEval and HumanEval+, and compute their differences. Organize the result as: [[Model, HumanEval, HumanEval+, Difference], …] with the header row. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Model", "HumanEval", "HumanEval+", "Difference"],
+            ["Olmo-3 7B", 54, 77, -23],
+            ["Mify 2.5B", 54, 49, 5],
+            ["Qwen3Coder 30B", 92, 88, 4],
+            ["DeepSeek 33B", 79, 75, 4],
+            ["Mistral L 2407", 92, 87, 5],
+            ["Llama 3.3 70B", 88, 43, 45],
+            ["Claude S 4.5", 92, 90, 2],
+            ["GPT-4o", 90, 87, 3]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 126,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23808v1\\chart1.jpg",
+            "table1": "2512.23808v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Emergent behavior in pretraining and performance comparison with SOTA models.",
+            "table1": "Evaluation of audio tokenizers on Seed-TTS-Eval dataset. ZH/EN split results are reported in the same row for each system. kBPS denotes the effective bitrate (kilobits per second) of the tokenized audio stream."
+        },
+        "question": "Compute the average score of MiMo-Audio-7B-Instruct across all four benchmarks in Chart 1. Respond only with a single numeric value, rounded to one decimal place.",
+        "question_type": "reasoning",
+        "answer": 66.2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 127,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23808v1\\chart1.jpg",
+            "table1": "2512.23808v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Emergent behavior in pretraining and performance comparison with SOTA models.",
+            "table1": "Evaluation of audio tokenizers on Seed-TTS-Eval dataset. ZH/EN split results are reported in the same row for each system. kBPS denotes the effective bitrate (kilobits per second) of the tokenized audio stream."
+        },
+        "question": "From Chart 1, extract the scores of all models across all benchmarks (MMAU-Pro, MMAU, Big Bench Audio S2T, Big Bench Audio S2S) and organize them into the following 2D table with a header row: [ [Model, MMAU_Pro, MMAU, BigBench_S2T, BigBench_S2S], ... ] Requirements: Include all models shown in the legend. Use the exact numeric values displayed in the chart. Keep one decimal place for all numeric values. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Model", "MMAU_Pro", "MMAU", "BigBench_S2T", "BigBench_S2S"],
+            ["MiMo-Audio-7B-Instruct", 56.8, 74.9, 72.9, 60.2],
+            ["Step-Audio-2-mini-7B", 47.9, 70.2, 50.9, 47.5],
+            ["Kimi-Audio-7B-Instruct", 46.6, 64.4, 59.4, 51.0],
+            ["Qwen2.5-Omni-7B", 52.2, 71.0, 54.2, 53.6],
+            ["Gemini-2.5-Flash", 59.2, 67.4, 70.2, 67.2],
+            ["GPT4o-Audio-2412", 59.2, 67.4, 70.2, 67.2]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 128,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23809v1\\chart1.jpg",
+            "table1": "2512.23809v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Accuracy under poisoning: (a) label flipping, (b) gradient manipulation.",
+            "table1": "PERFORMANCE ON CLEAN DATA (MEAN ± STD OVER 5 RUNS)"
+        },
+        "question": "Which method in Chart 1 shows the smallest Accuracy variation across β values? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "ZTA-FL",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 129,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23809v1\\chart1.jpg",
+            "table1": "2512.23809v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Accuracy under poisoning: (a) label flipping, (b) gradient manipulation.",
+            "table1": "PERFORMANCE ON CLEAN DATA (MEAN ± STD OVER 5 RUNS)"
+        },
+        "question": "Visualize the Accuracy (Acc %) of all methods on the three datasets in Table 1. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: datasets. Y-axis: Accuracy (%). Legend: method names. Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "grouped_bar_chart",
+            "data": [
+                [94.2, 92.8, 91.4],
+                [95.1, 93.6, 92.3],
+                [93.8, 92.1, 90.7],
+                [96.1, 94.8, 93.5],
+                [96.4, 95.1, 93.9],
+                [97.8, 96.4, 95.2]
+            ],
+            "operation": null,
+            "title": "Accuracy Comparison Across Datasets",
+            "xlabel": "Datasets",
+            "ylabel": "Accuracy (%)",
+            "legend": true,
+            "tick": {
+                "xticklabels": ["Edge-IIoTset", "CIC-IDS2017", "UNSW-NB15"], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 130,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23864v1\\chart1.jpg",
+            "table1": "2512.23864v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The dataset consists of 80% simulated demonstrations and 20% real-world demonstrations, each containing four task categories: Peg-in-Hole, USB Insert, Gear Assembly, and Tool Stabilization. Blue segments represent simulated data, while orange segments denote real-world data.",
+            "table1": "Task Success Rates (%) in Real-world (100 trials). Results are reported as mean ± standard deviation over 3 runs."
+        },
+        "question": "Compute the average percentage of the four simulated tasks in Chart 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 20,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 131,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23942v1\\chart1.jpg",
+            "table1": "2512.23942v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Instrument detection class distribution in the dataset",
+            "table1": "Instrument detection performance metrics."
+        },
+        "question": "In Chart 1, what is the primary color used to represent the needle class? Respond only with a single color name.",
+        "question_type": "perceptual",
+        "answer": "dark blue",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 132,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23959v1\\chart1.jpg",
+            "table1": "2512.23959v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The overall experimental results on four benchmarks. The second column “Working Memory” distinguishes whether the corresponding method is equipped with a working memory that enhances LLMs during RAG execution. The best scores in each dataset are bolded. HGMEM consistently outperforms other comparison methods across all datasets.",
+            "table1": "Prediction accuracies at different steps using Qwen2.5-32B-Instruct on long narrative understanding datasets."
+        },
+        "question": "Which dataset in Chart 1 shows the smallest Accuracy range (max–min) for HGMEM? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Nocha",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 133,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23959v1\\chart1.jpg",
+            "table1": "2512.23959v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The overall experimental results on four benchmarks. The second column “Working Memory” distinguishes whether the corresponding method is equipped with a working memory that enhances LLMs during RAG execution. The best scores in each dataset are bolded. HGMEM consistently outperforms other comparison methods across all datasets.",
+            "table1": "Prediction accuracies at different steps using Qwen2.5-32B-Instruct on long narrative understanding datasets."
+        },
+        "question": "From Chart 1, extract the HGMEM Accuracy values at all steps (step = 0–5) for the three datasets (NarrativeQA, NoCha, Prelude) and organize them into the following 2D table format, where rows correspond to datasets (HGMEM results) and columns correspond to steps: [[Dataset, Step0, Step1, Step2, Step3, Step4, Step5], [...], ...] Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Dataset", "Step0", "Step1", "Step2", "Step3", "Step4", "Step5"],
+            ["NarrativeQA", 42.00, 38.00, 44.00, 51.00, 44.00, 46.00],
+            ["NoCha", 66.67, 68.25, 66.67, 70.63, 69.04, 69.04],
+            ["Prelude", 56.30, 57.04, 56.30, 62.22, 57.78, 58.62]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 134,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23961v1\\chart1.jpg",
+            "table1": "2512.23961v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparisons of performance among 5 categories. Baseline in blue color, no KYC in orange color, basic KYC in green color, advanced KYC in red color and advanced KYC and circles in purple color respectively.",
+            "table1": "nDCG@1 Performances Among Comparison of Recommendation Systems."
+        },
+        "question": "Compute the average nDCG@1 across all categories under the Baseline method in Table 1. Respond only with a single numeric value rounded to three decimals.",
+        "question_type": "reasoning",
+        "answer": 0.231,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 135,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23961v1\\chart1.jpg",
+            "table1": "2512.23961v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparisons of performance among 5 categories. Baseline in blue color, no KYC in orange color, basic KYC in green color, advanced KYC in red color and advanced KYC and circles in purple color respectively.",
+            "table1": "nDCG@1 Performances Among Comparison of Recommendation Systems."
+        },
+        "question": "Visualize the nDCG@1 of all categories and methods in Table 1. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: categories. Y-axis: nDCG@1 values. Legend: method names. Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "grouped_bar_chart",
+            "data": [
+                [0.123, 0.352, 0.478, 0.149, 0.051],
+                [0.218, 0.384, 0.452, 0.203, 0.152],
+                [0.312, 0.451, 0.493, 0.254, 0.283],
+                [0.419, 0.523, 0.561, 0.457, 0.412],
+                [0.484, 0.556, 0.604, 0.652, 0.527]
+            ],
+            "operation": null,
+            "title": "nDCG@1 by Category and Method",
+            "xlabel": "Category",
+            "ylabel": "nDCG@1",
+            "legend": true,
+            "tick": {
+                "xticklabels": ["Ad", "News", "Gossip", "Sharing", "Tech"], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 136,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23971v1\\chart1.jpg",
+            "table1": "2512.23971v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Scaling of CEC-ZERO on Qwen (0.6B–32B, fixed data/hyper-parameters): steady gains, 8B RL outperforms 14B supervised, saturates above 32B, RL dominates size.",
+            "table1": "Impact of sentence-embedding choice (Avg F1, %)."
+        },
+        "question": "Compute the absolute performance improvement of Qwen3 from 0.6B to 32B in Chart 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 58,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 137,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23971v1\\chart1.jpg",
+            "table1": "2512.23971v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Scaling of CEC-ZERO on Qwen (0.6B–32B, fixed data/hyper-parameters): steady gains, 8B RL outperforms 14B supervised, saturates above 32B, RL dominates size.",
+            "table1": "Impact of sentence-embedding choice (Avg F1, %)."
+        },
+        "question": "From Chart 1, extract the performance values of Qwen3 and CEC-Zero at all parameter scales and organize them into the following 2D table with the header row: [[Model, 0.6B, 1.7B, 4B, 8B, 14B, 32B], …]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Model", "0.6B", "1.7B", "4B", "8B", "14B", "32B"],
+            ["Qwen3", 24, 47, 60, 71, 79, 82],
+            ["CEC-Zero", 20, 42, 65, 83, 90, 92]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 138,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23988v1\\chart1.jpg",
+            "table1": "2512.23988v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Statistics of reasoning behavior shifts induced by SAE column interventions are reported across different models and tasks, where the SAE columns are consistent across tasks.",
+            "table1": "Generalization of SAE columns under domain shift. The SAE columns are learned from the MATH500 dataset and applied to other domains."
+        },
+        "question": "What color represents the Positive steering condition in Chart 1? Respond only with a single color name.",
+        "question_type": "perceptual",
+        "answer": "light orange",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 139,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24007v1\\chart1.jpg",
+            "table1": "2512.24007v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Convergence Plot for Queue Optimization",
+            "table1": "Performance Comparison of TESO and Benchmark Algorithms."
+        },
+        "question": "How many distinct entries are shown in the legend of Chart 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 140,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24018v1\\chart1.jpg",
+            "table1": "2512.24018v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "RD curves on the high resolution datasets DIV2K and CLIC2020",
+            "table1": "COMPUTATIONAL COMPLEXITY OF VARIOUS CODECS ON THE DIV2K ×2 DATASET AT LOW AND HIGH BITRATES."
+        },
+        "question": "In Chart 1, what marker shape is used for the “Ours” method on the DIV2K dataset? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "star",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 141,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24044v1\\chart1.jpg",
+            "table1": "2512.24044v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": ": Detection TP, TN, FP, FN rates on “normal” (including both “benign” and “harmful”) samples.",
+            "table1": "Detection performance on commercial LLMs. This table shares the same evaluation metrics as Table 1, but focuses on commercial models."
+        },
+        "question": "In Table 1, for GPT-4o under the TAP attack, what is the Pass value of LlamaGuard? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.28,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 142,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24052v1\\chart1.jpg",
+            "table1": "2512.24052v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Categorical accuracies before and after alignment in MMAU-test benchmark. Most dimensions have improved accuracy after alignment, especially Temporal Event Reasoning (TER) and Phonological Sequence Decoding (PSD), while stagnation or minor degradation are observed in a few subcategories.",
+            "table1": "Complex Temporal/Event Reasoning Accuracies. Blue: Ours. Green: Improvement (Δ)."
+        },
+        "question": "How many categories in Chart 1 have Base Accuracy below 65%? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 143,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24113v1\\chart1.jpg",
+            "table1": "2512.24113v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The performance of CogRec and its variants.",
+            "table1": "Statistics of the experimented datasets."
+        },
+        "question": "Compute the average number of users (#Users) across all datasets in Table 1, rounded to three decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 57900.667,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 144,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24243v1\\chart1.jpg",
+            "table1": "2512.24243v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of event-image fusion segmentation methods in terms of mIoU (%), Parameters (M), and multiply-accumulate operations (G).",
+            "table1": "Model complexity on DDD17 dataset.Model complexity on DDD17 dataset."
+        },
+        "question": "Compute the average mIoU (%) of models in Table 1 with Params (M) less than 40. Respond only with a single numeric value rounded to two decimals.",
+        "question_type": "reasoning",
+        "answer": 67.35,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 145,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24243v1\\chart1.jpg",
+            "table1": "2512.24243v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of event-image fusion segmentation methods in terms of mIoU (%), Parameters (M), and multiply-accumulate operations (G).",
+            "table1": "Model complexity on DDD17 dataset.Model complexity on DDD17 dataset."
+        },
+        "question": "Visualize Params (M) versus MACs (G) for all models in Table 1. Plot requirements: Use Python with matplotlib. Create a scatter plot. X-axis: MACs (G). Y-axis: Params (M). Annotate each point with model name. Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "scatter_chart",
+            "data": [
+                [73.62, 6.14, 19.78, 23.88, 16.29, 16.32, 17.30, 15.59],
+                [29.09, 23.06, 51.54, 64.61, 66.56, 58.68, 34.39, 25.44]
+            ],
+            "operation": null,
+            "title": "Params (M) vs MACs (G) for All Models",
+            "xlabel": "MACs (G)",
+            "ylabel": "Params (M)",
+            "legend": null,
+            "tick": {
+                "xticklabels": null,
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": true,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 146,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24259v1\\chart1.jpg",
+            "table1": "2512.24259v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Empirical Cumulative Distribution of the rank for the matched PPPs",
+            "table1": "Matching statistics for the PPP exercise"
+        },
+        "question": "Estimate the Proportion of Confidence 4 at Match rank = 100 in Chart 1. Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 83,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 147,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24329v1\\chart1.jpg",
+            "table1": "2512.24329v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Ablation study of WM-SAR",
+            "table1": "Performance comparison with baseline methods"
+        },
+        "question": "In Table 1, compute the average F1 of MIARN across the three datasets. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.675,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 148,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24329v1\\chart1.jpg",
+            "table1": "2512.24329v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Ablation study of WM-SAR",
+            "table1": "Performance comparison with baseline methods"
+        },
+        "question": "From Chart 1, extract the Accuracy values of WM-SAR, w/o D, w/o T, w/o S, and w/o Interaction on the three datasets IAC-V1, IAC-V2, and SemEval-2018, and organize them into the following 2D table format with the header row: [ [Model, IAC-V1, IAC-V2, SemEval-2018], ... ] Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Model", "IAC-V1", "IAC-V2", "SemEval-2018"],
+            ["WM-SAR", 0.745, 0.791, 0.714],
+            ["w/o D", 0.735, 0.784, 0.709],
+            ["w/o T", 0.540, 0.595, 0.563],
+            ["w/o S", 0.730, 0.783, 0.720],
+            ["w/o Interaction", 0.735, 0.783, 0.699]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 149,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24330v1\\chart1.jpg",
+            "table1": "2512.24330v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Overall performance of SenseNova-MARS-8B across six benchmarks, outperforming other models on search-oriented and high-resolution perception tasks.",
+            "table1": "Performance on visual understanding benchmarks"
+        },
+        "question": "Which model ranks second on HR-Bench 8K in Table 1? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "DeepEyesV2",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 150,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24330v1\\chart1.jpg",
+            "table1": "2512.24330v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Overall performance of SenseNova-MARS-8B across six benchmarks, outperforming other models on search-oriented and high-resolution perception tasks.",
+            "table1": "Performance on visual understanding benchmarks"
+        },
+        "question": "From Chart 1, extract the Accuracy values of SenseNova-MARS-8B and Mini o3-7B across all six subplots (MMSearch, HR-MMSearch, FVQA, V*, HR-Bench 4K, HR-Bench 8K) and organize them into the following 2D table format: [[Benchmark, SenseNova-MARS-8B, Mini o3-7B], …] If a model does not appear in a given subplot, fill the entry with 0. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Benchmark", "SenseNova-MARS-8B", "Mini o3-7B"],
+                ["MMSearch", 67.8, 0],
+                ["HR-MMSearch", 41.6, 0],
+                ["FVQA", 67.1, 0],
+                ["V*", 92.2, 88.2],
+                ["HR-Bench 4K", 83.1, 77.5],
+                ["HR-Bench 8K", 78.4, 73.3]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 151,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24345v1\\chart1.jpg",
+            "table1": "2512.24345v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "FedSecureFormer achieves similar accuracy with both 2 and 4 attention heads, though 4 heads significantly increase training time.",
+            "table1": "Transformer Architecture Evaluation Across Pooling, Encoder and Attention Variants"
+        },
+        "question": "How many distinct attention-head settings are shown on the x-axis of Chart 1? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 152,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24373v1\\chart1.jpg",
+            "table1": "2512.24373v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Macro-F1 Scores vs. Chunk Size via hierarchical transformer encoders applied on LegalBERT for ECHR, SCOTUS, EURLEX, and ClinicalBioBERT for MIMIC datasets.",
+            "table1": "Performance evaluation of classification model using different chunk size length via hierarchical transformer encoders applied on LegalBERT for ECHR, SCOTUS, EURLEX, and ClinicalBioBERT for MIMIC datasets."
+        },
+        "question": "Which dataset achieves the highest macro-F1 at chunk size 128 in Chart 1?  Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "MIMIC",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 153,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24478v1\\chart1.jpg",
+            "table1": "2512.24478v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Identification frontier size comparison. HOLOGRAPH’s ADMG representation enables identification of significantly more causal queries than DAG-based methods. Values represent average number of identifiable edge queries per experiment.",
+            "table1": "Main benchmark results (E1). Mean ± std over 5 seeds. Best in bold."
+        },
+        "question": "Visualize the SHD values of NOTEARS, DEMOCRITUS, and HOLOGRAPH across the ER-20, ER-50, SF-50, and Sachs datasets reported in Table 1, in order to compare the structural learning errors of different models across datasets. Plot requirements: Use Python with matplotlib Create a multi-line chart X-axis: dataset names Y-axis: SHD values Each line represents one model (NOTEARS, DEMOCRITUS, HOLOGRAPH) Include a legend, axis labels, and a title Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "line_chart",
+            "data": [
+                [52.3, 236.0, 68.2, 22.4],
+                [48.1, 218.0, 58.7, 19.2],
+                [43.2, 193.0, 49.0, 16.4]
+            ],
+            "operation": null,
+            "title": "SHD Comparison Across Datasets",
+            "xlabel": "Dataset",
+            "ylabel": "SHD",
+            "legend": true,
+            "tick": {
+                "xticklabels": ["ER-20", "ER-50", "SF-50", "Sachs"], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": true,
+                "marker": true,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 154,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24478v1\\chart1.jpg",
+            "table1": "2512.24478v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Identification frontier size comparison. HOLOGRAPH’s ADMG representation enables identification of significantly more causal queries than DAG-based methods. Values represent average number of identifiable edge queries per experiment.",
+            "table1": "Main benchmark results (E1). Mean ± std over 5 seeds. Best in bold."
+        },
+        "question": "From Chart 1, extract the ID Frontier Size values of all methods across all datasets shown in the chart (ER (n=20), ER (n=50), SF (n=50), and Sachs), and organize the results into the following 2D table format, where: Rows correspond to methods Columns correspond to datasets [ [Method, ER20, ER50, SF50, Sachs], … ] Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Method", "ER20", "ER50", "SF50", "Sachs"],
+                ["NOTEARS", 28, 45, 38, 15],
+                ["DEMOCRITUS", 42, 58, 52, 24],
+                ["HOLOGRAPH", 68, 82, 75, 42]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 155,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24505v1\\chart1.jpg",
+            "table1": "2512.24505v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Model evaluation on mathematical reasoning tasks. Percentages of correct answers with correct reasoning.",
+            "table1": "Classification of the models based on final answer accuracy and reasoning correctness. First percentage = Correct final answer with correct reasoning, Second percentage = Incorrect final answer with correct reasoning, Third percentage = Incorrect final answer with incorrect reasoning"
+        },
+        "question": "Do the Discrete Math bars in Chart 1 use a dotted or dashed edge style? Respond only with a single string describing the edge style.",
+        "question_type": "perceptual",
+        "answer": "dotted",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 156,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24556v1\\chart1.jpg",
+            "table1": "2512.24556v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Attack Success Rate (ASR) – Model Vulnerability. Gemini 3 Pro exhibits the highest vulnerability at 73.3% ASR, followed by GPT-5.1 at 61.9%, with Claude 4.5 Opus performing best at 59.2% ASR.",
+            "table1": "Comprehensive Model Performance (N=480 prompts per model)"
+        },
+        "question": "For each model, compute (EN Safe − HA Safe), then report the average of these differences. Respond only with a single numeric value rounded to one decimal place.",
+        "question_type": "reasoning",
+        "answer": 1.5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 157,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24565v1\\chart1.jpg",
+            "table1": "2512.24565v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Evaluation Results of TFS and TEFS.",
+            "table1": "TFS avg@4 by Task Category"
+        },
+        "question": "In Table 1, what is the value of qwen3-235b-a22b-instruct-2507 under Professional – Multi? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 31.94,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 158,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24565v1\\chart1.jpg",
+            "table1": "2512.24565v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Evaluation Results of TFS and TEFS.",
+            "table1": "TFS avg@4 by Task Category"
+        },
+        "question": "From Chart 1, extract the TFS and TEFS avg@4 values of all models and organize them into the following 2D table with the header row: [[Model, TFS, TEFS], …] Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Model", "TFS", "TEFS"],
+        ["DeepSeek-V3.2-Exp", 64.8, 45.9],
+        ["claude-sonnet-4.5", 71.6, 57.7],
+        ["deepseek-chat", 59.9, 39.3],
+        ["gemini-3-pro-preview", 48.1, 33.5],
+        ["glm-4.6", 65.1, 54.4],
+        ["gpt-5", 59.6, 37.4],
+        ["grok-4", 56.4, 42.6],
+        ["kimi-k2-thinking", 61.0, 51.3],
+        ["o3", 66.0, 37.5],
+        ["o4-mini", 56.5, 35.4],
+        ["qwen3-235b-a22b-instruct-2507", 63.5, 51.8],
+        ["qwen3-235b-a22b-thinking-2507", 53.5, 38.4]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 159,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24592v1\\chart1.jpg",
+            "table1": "2512.24592v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Performance comparison across different error categories.",
+            "table1": "Precision@10 results on FeSD dataset. *Method adapted from image-level to instance-level evaluation."
+        },
+        "question": "From Chart 1, extract the Precision@10 values of SliceLens, HiBug*, and FACTS* under all error categories (Semantic Confusion, Contextual Interference, Intrinsic Visual Difficulty), and organize them into the following 2D table format with the header row: [[Category, SliceLens, HiBug*, FACTS*], …] Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Category", "SliceLens", "HiBug*", "FACTS*"],
+            ["Semantic Confusion", 0.71, 0.40, 0.46],
+            ["Contextual Interference", 0.70, 0.22, 0.30],
+            ["Intrinsic Visual Difficulty", 0.76, 0.19, 0.16]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 160,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24594v1\\chart1.jpg",
+            "table1": "2512.24594v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Experimental results of the ablation study.",
+            "table1": "Effectiveness of Preguss on large-scale real-world programs, reporting RTE counts, V-Unit statistics, specification generation/modification, verification success rates, and costs."
+        },
+        "question": "Under the Contiki benchmark in Chart 1, which method has the lowest average time? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Preguss - SC",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 161,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24618v1\\chart1.jpg",
+            "table1": "2512.24618v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Parameter–performance scaling of base and instruct models on agentic benchmarks. The trend line represents the desired agent performance with the smallest possible number of parameters, among which Youtu-LLM stands out as a lightweight yet strong performer.",
+            "table1": "Comparison of tokenizer performance, compression rates, and vocabulary sizes across different training strategies."
+        },
+        "question": "Which model in Chart 1 shows the largest absolute performance drop from Base to Instruct? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "SmolLM3-3B",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 162,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24665v1\\chart1.jpg",
+            "table1": "2512.24665v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Performance comparison between Saliency and Random selection methods.",
+            "table1": "Performance comparison under other defense mechanisms."
+        },
+        "question": "Compute the average ASR under the OD defense for ACM in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.8858,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 163,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24684v1\\chart1.jpg",
+            "table1": "2512.24684v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Human evaluation results on the six InspireScore dimensions. Each spoke shows the macro-averaged Likert rating (1–10) for a system; shaded bands indicate 95% bootstrap CIs.",
+            "table1": "Single-turn debate evaluation across models and methods using InspireScore."
+        },
+        "question": "What visual element is used in Chart 1 to represent uncertainty around the ratings? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "Shaded confidence bands (95% bootstrap CIs)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 164,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24731v1\\chart1.jpg",
+            "table1": "2512.24731v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The relationship of Instruction Adherence (x-axis) plotted against Audio–Visual Coherence (y-axis) of models shows Visual Dominance Bias.",
+            "table1": "Main Evaluation Results with metrics for Controllability (TempCtl: Temporal Controllability, TimbCtl: Timbre Controllability, VolCtl: Volume Controllability), Audio quality (PQ: Production Quality, PC: Production Complexity, CE: Content Enjoyment, CU: Content Usefulness), and human evaluation (Instr.: Instruction Adherence, A–V Coh.: Audio–Visual Coherence, Qual.: Perceptual Quality). The best-performing value per metric is bolded, and the second-best value is underlined."
+        },
+        "question": "How many elliptical highlight regions are shown in Chart 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 1,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 165,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24772v1\\chart1.jpg",
+            "table1": "2512.24772v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Ablation on data augmentation. Acc_Org and F1_Org represent the accuracy and F1-score of the final model. Acc and F1 represent the values after removing the component.",
+            "table1": "Performance comparison across languages using 100% and 20% labelled data."
+        },
+        "question": "Compute the average F1 score across all models for Arabic under the 20% Data setting in Table 1. Respond only with a single numeric value rounded to three decimals.",
+        "question_type": "reasoning",
+        "answer": 0.862,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 166,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24794v1\\chart1.jpg",
+            "table1": "2512.24794v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "(a) rMSE and (b) DSSIM error metrics for each denoiser at various input samples per pixel (spp), averaged over the SBMC test set",
+            "table1": "Error metrics for each denoiser averaged over the SBMC test set ( bold indicates best result, italics indicates second best result)"
+        },
+        "question": "Which model shows the most non-monotonic rMSE behavior as spp increases in Chart 1(a)? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Bako",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 167,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24794v1\\chart1.jpg",
+            "table1": "2512.24794v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "(a) rMSE and (b) DSSIM error metrics for each denoiser at various input samples per pixel (spp), averaged over the SBMC test set",
+            "table1": "Error metrics for each denoiser averaged over the SBMC test set ( bold indicates best result, italics indicates second best result)"
+        },
+        "question": "Visualize the structural similarity error across sampling rates for multiple denoising models using Table 1. Plot the DSSIM values of Ours (Large), Ours (Orig.), and SBMC across all spp values (4, 8, 16, 32, 64, 128). Plot requirements: Use Python with matplotlib; Create a line chart; X-axis: spp, Y-axis: DSSIM; One curve per model with a legend; Add a title and axis labels; Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "line_chart",
+            "data": [
+                [0.0819, 0.0700, 0.0606, 0.0545, 0.0514, 0.0505],
+                [0.0815, 0.0707, 0.0623, 0.0572, 0.0547, 0.0539],
+                [0.0685, 0.0599, 0.0542, 0.0510, 0.0494, 0.0488]
+            ],
+            "operation": null,
+            "title": "DSSIM Across Sampling Rates (spp)",
+            "xlabel": "spp",
+            "ylabel": "DSSIM",
+            "legend": true,
+            "tick": {
+                "xticklabels": [4, 8, 16, 32, 64, 128], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": true,
+                "marker": true,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 168,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24885v1\\chart1.jpg",
+            "table1": "2512.24885v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Experimental results on CaSiNo. Each experiment is performed for three times except for those with GPT-4 backbone.",
+            "table1": ": Experimental results on Conditional Keeper-Burglar Game (CKBG) dataset. All experiments are performed three times and we report the mean."
+        },
+        "question": "How many backbone models are reported as columns in Table 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 7,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 169,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24898v1\\chart1.jpg",
+            "table1": "2512.24898v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Forecasting performance across GIFT dataset property groups. Columns show the overall counts on best forecasting performance (lowest MSE / MAE) across all datasets and counts within groups defined by dataset-level properties. A single dataset may contribute to multiple columns.",
+            "table1": "Forecasting performance across varying future horizons. The MSE and MAE are reported for 8 datasets over 4 seeds. We compare the performance of our method PRISM with D-PAD, DLinear, TimeMixer, N-HiTS, and transformer-based baselines (iTransformer, PatchTST, and XPatch). The context window is 336 for all datasets and the horizons are 96, 192, 336, and 720 samples."
+        },
+        "question": "From Chart 1, extract the MSE and MAE percentages of Ours across all categories and organize them into a 2D table with the header row: [[Category, MSE, MAE], ...] Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Category", "MSE", "MAE"],
+            ["Overall", 67, 57],
+            ["Irregular", 62, 54],
+            ["Aperiodic", 67, 60],
+            ["Incomplete", 64, 57],
+            ["Anomaly", 54, 46],
+            ["Nonstationary", 66, 58],
+            ["Drift", 74, 65]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 170,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24940v1\\chart1.jpg",
+            "table1": "2512.24940v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Average number of reasoning tokens per generation for each domain. Shaded area corresponds to one standard deviation of the mean. Considering both valid and invalid traces.",
+            "table1": "Average number of solved tasks in Blocksworld for iterative deployment with and without curation."
+        },
+        "question": "Describe the overall change in Blocksworld’s average reasoning tokens from Base to Gen. 5 in Chart 1. Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "approximately stable",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 171,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24952v1\\chart1.jpg",
+            "table1": "2512.24952v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "POC@1.0 performance overview of representative video model on VIPER across 6 domains.",
+            "table1": "Performance of mainstream video models VIPER arcoss 16 tasks within . We report the POC@1.0 for each domain and summarize the average OC, POC and hacking rate. Best performance is bolded."
+        },
+        "question": "Compute the average of Temporal and Spatial scores of Wan 2.6 in Chart 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 19.1,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 172,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.25000v1\\chart1.jpg",
+            "table1": "2512.25000v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "AF PERFORMANCE ON TRAINING ORDER-1.",
+            "table1": "Performance Comparison of existing methods."
+        },
+        "question": "How many methods are listed as rows in Table 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 8,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 173,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.25000v1\\chart1.jpg",
+            "table1": "2512.25000v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "AF PERFORMANCE ON TRAINING ORDER-1.",
+            "table1": "Performance Comparison of existing methods."
+        },
+        "question": "From Chart 1, extract the mAP values of all methods on both datasets and organize them into the following 2D table with the header row: [[Method, L_ReID_mAP, RFL_ReID_mAP], …] Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Method", "L_ReID_mAP", "RFL_ReID_mAP"],
+            ["LwF", 40.2, 22.6],
+            ["AKA", 40.8, 22.4],
+            ["CVS", 29.9, 27.3],
+            ["PatchKD", 43.7, 36.2],
+            ["DKP", 51.8, 36.9]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 174,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.25063v1\\chart1.jpg",
+            "table1": "2512.25063v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Semantic diversity on INFINITY-CHAT. B-Trans (solid) consistently yields higher embedding distances than baselines (hatched), confirming better output heterogeneity on creativity writing.",
+            "table1": "Performance on RLVR tasks using GRPO. B-Trans consistently outperforms the baseline, particularly on smaller models and harder datasets."
+        },
+        "question": "Compute the mean of the Average scores across all Base Models in Table 1. Respond only with a single numeric value rounded to two decimals.",
+        "question_type": "reasoning",
+        "answer": 52.75,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 175,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.25063v1\\chart1.jpg",
+            "table1": "2512.25063v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Semantic diversity on INFINITY-CHAT. B-Trans (solid) consistently yields higher embedding distances than baselines (hatched), confirming better output heterogeneity on creativity writing.",
+            "table1": "Performance on RLVR tasks using GRPO. B-Trans consistently outperforms the baseline, particularly on smaller models and harder datasets."
+        },
+        "question": "Visualize the improvement in Average scores for all models in Table 1 by plotting a grouped bar chart comparing Base Model and B-Trans. Plot requirements: Use Python with matplotlib Create a grouped bar chart X-axis: model names (Qwen3-1.7B, Qwen3-8B, Qwen2.5-Math-7B, Llama3.1-8B) Two bars per model: Base Model Average B-Trans Average Y-axis: Average score Add a legend, title, and axis labels Do not specify colors Do not apply normalization or smoothing Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "grouped_bar_chart",
+            "data": [
+                [51.5, 63.7, 61.8, 34.0],
+                [55.7, 64.9, 65.6, 37.4]
+            ],
+            "operation": null,
+            "title": "Average Score Improvement: Base Model vs B-Trans",
+            "xlabel": "Model",
+            "ylabel": "Average Score",
+            "legend": true,
+            "tick": {
+                "xticklabels": ["Qwen3-1.7B", "Qwen3-8B", "Qwen2.5-Math-7B", "Llama3.1-8B"], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 176,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.25067v1\\chart1.jpg",
+            "table1": "2512.25067v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of Skeleton Restoration Methods on Gym99-skeleton and Gym288-skeleton. Top-1 accuracy of FineTec (Ours), Interpolation, and Duplication is reported under varying levels of temporal corruption.",
+            "table1": "Fine-grained action recognition on Gym99-skeleton and Gym288-skeleton. Both Top-1 accuracy and mean class accuracy are reported under minor (Min.), moderate (Mod.), and severe (Sev.) temporal corruption."
+        },
+        "question": "From Table 1, compute the difference between the highest and lowest Top-1 Accuracy under Gym99-Moderate. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.030,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 177,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.25067v1\\chart1.jpg",
+            "table1": "2512.25067v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of Skeleton Restoration Methods on Gym99-skeleton and Gym288-skeleton. Top-1 accuracy of FineTec (Ours), Interpolation, and Duplication is reported under varying levels of temporal corruption.",
+            "table1": "Fine-grained action recognition on Gym99-skeleton and Gym288-skeleton. Both Top-1 accuracy and mean class accuracy are reported under minor (Min.), moderate (Mod.), and severe (Sev.) temporal corruption."
+        },
+        "question": "From Chart 1, extract the Accuracy of FineTec (Ours) across Gym99 and Gym288 under Minor, Moderate, and Severe, and organize them into a 2D table with columns with the header row: [[Dataset, Minor, Moderate, Severe], …] Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Dataset", "Minor", "Moderate", "Severe"],
+            ["Gym99", 91.9, 90.6, 89.1],
+            ["Gym288", 81.5, 79.7, 77.8]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 178,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2601.00205v1\\chart1.jpg",
+            "table1": "2601.00205v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Dependency changes by agents and humans.",
+            "table1": "Vulnerability metrics by author type. Vulnerability rates are computed over dependencies introduced."
+        },
+        "question": "From Chart 1, extract all annotated percentages and organize them into a 2D table where rows correspond to Authors and columns correspond to Change Types (Added, Removed, Updated). Use the following format and respond only with the table: [[Author, Added, Removed, Updated], …]",
+        "question_type": "chart to table",
+        "answer": [["Author", "Added", "Removed", "Updated"],
+        ["Human", 47.1, 37.1, 15.8],
+        ["Agent", 45.0, 29.5, 25.5]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 179,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2601.00205v1\\chart1.jpg",
+            "table1": "2601.00205v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Dependency changes by agents and humans.",
+            "table1": "Vulnerability metrics by author type. Vulnerability rates are computed over dependencies introduced."
+        },
+        "question": "Which of the following best characterizes the share of Human “Removed” changes in Chart 1? Choose one option and respond only with a single letter. A. Below 25%. B. Between 25% and 33%. C. Between 33% and 40%. D. Above 40%.",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 180,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2601.00469v\\chart1.jpg",
+            "table1": "2601.00469v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of EXEOS variants that generate AMPL models and Python code from structured descriptions with refinement loops, showing average execution success rate, average number of zero-error solutions, and average relative error when applied with reasoning LLMs on the PUBLIC and INDUSTRY datasets.",
+            "table1": "Correctness results for the optimization specifications generated by the EXEOS variants on (a) PUBLIC and (b) INDUSTRY datasets using four LLMs. Metrics include Mean, Median (Med), standard deviation of relative error (Std), and the number of zero-error solutions (#Zero)."
+        },
+        "question": "Which two generation approaches are shown in the legend of Chart 1? Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[AMPL, Python]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 181,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2601.00477v1\\chart1.jpg",
+            "table1": "2601.00477v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "RQ1 Results – Prevalence of Security-relevant PRs Across Different Autonomous Coding Agents",
+            "table1": "Agent-specific median review latency (hours) for security vs. non-security PRs."
+        },
+        "question": "Compute the proportion of Security PRs relative to Total PRs for Devin in Chart 1. Respond only with a single numeric value rounded to two decimals.",
+        "question_type": "reasoning",
+        "answer": 0.08,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 182,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2601.00477v1\\chart1.jpg",
+            "table1": "2601.00477v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "RQ1 Results – Prevalence of Security-relevant PRs Across Different Autonomous Coding Agents",
+            "table1": "Agent-specific median review latency (hours) for security vs. non-security PRs."
+        },
+        "question": "From Chart 1, extract the Total PRs and Security PRs of all agents and organize them into the following 2D table with header row: [[Agent, Total_PRs, Security_PRs], …]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Agent", "Total_PRs", "Security_PRs"],
+            ["OpenAI Codex", 21799, 286],
+            ["Cursor", 1541, 77],
+            ["Devin", 4827, 368],
+            ["Copilot", 4970, 495],
+            ["Claude Code", 459, 67]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 183,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2601.00530v1\\chart1.jpg",
+            "table1": "2601.00530v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "p95 response time for each platform across all load levels",
+            "table1": "Scaling of p95 Response Times"
+        },
+        "question": "Compute the standard deviation of GCP p95 latency across all load levels in Table 1. Respond only with a single numeric value rounded to two decimals.",
+        "question_type": "reasoning",
+        "answer": 20.93,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 184,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2601.00530v1\\chart1.jpg",
+            "table1": "2601.00530v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "p95 response time for each platform across all load levels",
+            "table1": "Scaling of p95 Response Times"
+        },
+        "question": "From Chart 1, extract the p95 latency values of GCP and Azure under all load levels and organize them into the following 2D table with the header row: [[Load_Level, GCP_p95, Azure_p95], …] Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Load_Level", "GCP_p95", "Azure_p95"],
+        ["Baseline", 183.7, 238.4],
+        ["Typical", 181.4, 391.9],
+        ["Peak", 232.6, 1010.5],
+        ["Stress", 209.5, 2617.2]],
+        "answer_type": "table_list"
+    }
+]

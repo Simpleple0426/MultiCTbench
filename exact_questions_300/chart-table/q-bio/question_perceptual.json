@@ -1,0 +1,205 @@
+[
+    {
+        "question_id": 8,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.21161v2\\chart1.jpg",
+            "table1": "2510.21161v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "RiboPO improves both sampling efficiency and the quality distribution of generated sequences. Pass@k performance shows RiboPO consistently dominates gRNAde across all sample sizes k, with the largest gains at the small-k screening regime crucial for practical applications.",
+            "table1": "Table 2: Pass@k results for generating a sequence with RMSD < 12 A, pLDDT ˚ > 0.50, TM-score > 0.05, and MFE < −4.0 kcal/mol (T = 0.5). RiboPO demonstrates superior sampling efficiency with Multi-round RiboPO achieving the best performance."
+        },
+        "question":"Referring to Chart 1 and Table 1, what is the pass@k value for the red curve at k=32? Respond only with a number.",
+        "question_type": "perceptual",
+        "answer": 0.769,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 14,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.02903v1\\chart1.jpg",
+            "table1": "2510.02903v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of models jointly trained on Cite and Multi datasets to test potential for amortization. We report mean ± standard deviation of the EMD metric, along with the average across datasets.",
+            "table1": "Model comparison across the synthetically inflated datasets. We report mean ± standard deviation of the MMD metric, along with the average across datasets. Lower values indicate better performance. Standard deviation is computed over left-out time points"
+        },
+        "question":"What metrics are reported in Chart 1 and Table 1, respectively? Respond only with a list in the format [chart_metric, table_metric].",
+        "question_type": "perceptual",
+        "answer": "[EMD, MMD]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.08655v1\\chart1.jpg",
+            "table1": "2510.08655v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": ": MRR performance of the different methods comparing patients with common causal genes versus unique gene cases.",
+            "table1": "Performance of Shepherd, Amelie, and PhenoApt on the MyGene2 patients where the causal gene is included in the RareNet subgraph. Results are shown without and with RareNet patient subgraphs (denoted as +RN)."
+        },
+        "question":"The “RareNet gain” in Chart 1 corresponds to which setting in Table 1? Respond only with the setting name.",
+        "question_type": "perceptual",
+        "answer": "+RN",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.20162v1\\chart1.jpg",
+            "table1": "2511.20162v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Mean accuracy vs. detection error tolerance. A correct detection of the models represents a predicted frame within the allowed error tolerance, where an error tolerance of zero means the exact true frame was predicted. Results of Qwen-2.5VL-72B is shown for the difference ICL regimes under the ”with reasoning” condition. Note, that the length of all videos in the experimental dataset is 10 frames.",
+            "table1": "Reasoning effect on LMMs’ performance. Models are instructed to describe step-by-step the reasoning behind their prediction of the frame where the interaction occurs. Mean accuracy is measured for the detection of the frame where the test event occurs, within an allowed error tolerance (here the exact or two frames off the true frame). Results are reported as per 3 ICL regimes (ZS, OS, TS) for the models: (i) Qwen-2.5VL-72B and (ii) GPT-4o."
+        },
+        "question":"In Chart 1, focus on the bar corresponding to Error Tolerance = 2. Identify the solid bar and extract its Mean Accuracy value. Respond only with a single numeric value, without the percentage sign.",
+        "question_type": "perceptual",
+        "answer": 66,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 51,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.10165v1\\chart1.jpg",
+            "table1": "2511.10165v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": ": Analysis of key components of EPO. Impact of the temperature hyperparameter β.",
+            "table1": "Comparison between SDE and ODE sampling strategy on tetrapeptides experiments. Lower is better."
+        },
+        "question":"How many metrics appear in both Chart 1 and Table 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 52,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.11769v1\\chart1.jpg",
+            "table1": "2511.11769v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "This figure provides an intuitive visualization of the performance and horizontal comparison of the five models. Specifically, subfigures (a)-(e) present bar charts illustrating the Accuracy and F1 Score of each model under the two strategies, while subfigure (f) displays a radial bar chart that comprehensively compares the two prediction strategies across all models from the perspective of performance.",
+            "table1": "Performance of Basic Prediction, Reflective Prediction and Self-Consistency Mechanism in Regression Task"
+        },
+        "question":"According to Chart 1 and table1, which two prediction strategies are visualized for each model? Respond only with a list of strategy names.",
+        "question_type": "perceptual",
+        "answer": "[Basic Prediction, Reflective Prediction]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 14,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.25132v1\\chart1.jpg",
+            "table1": "2510.25132v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of kcat distribution.",
+            "table1": "Ablating EnzyControl’s components. Green denotes relative performance change."
+        },
+        "question":"What color represents the “With EnzyAdapter” distribution in Chart 1? Respond only with the color name.",
+        "question_type": "perceptual",
+        "answer": "blue",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 40,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2507.03209v1\\chart1.jpg",
+            "table1": "2507.03209v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Relative error distribution across different models. This figure presents the relative error histograms for nine models evaluated, including two MLP variants trained with Morgan fingerprints (MLP-M) and Morgan fingerprints combined with expert descriptors (MLP-M-E). For models utilizing multiple feature sets, the best-performing configuration is selected based on predictive accuracy. The distribution of errors highlights the reliability and precision of each model, with narrower and more concentrated histograms indicating superior predictive performance.",
+            "table1": "Performance comparison across models and feature sets under Murcko scaffold split. This table presents the predictive performance of various ML models trained with different feature representations, including Morgan fingerprints, expert descriptors, and end-to-end learned embeddings. Bold highlight the best performance, and underlined denote the second-best. Due to the more challenging scaffold-based data split, overall performance is lower compared to random splitting. While most models show a decline in accuracy, kNN and Chemprop maintain similar performance levels, suggesting their robustness to distribution shifts. kNN achieves the best performance, followed by MLP, while AGILE exhibits the lowest predictive accuracys"
+        },
+        "question":"How many distinct feature set combinations appear in the Feature Set section of Table 1, where each combination is defined by the ✓ / ✗ pattern across the Morgan, Expert, and End-to-End columns?Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 71,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.07064v1\\chart1.jpg",
+            "table1": "2512.07064v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Effect of masking distributions on MoleculeNet classification",
+            "table1": "Categorization of methods"
+        },
+        "question":"How many masking distributions are visualized in Chart 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 46,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.04838v1\\chart1.jpg",
+            "table1": "2511.04838v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Time vs. MAE across models and datasets. Each point represents the average runtime (log scale) and mean absolute error (MAE) of a model–dataset pair. Black hollow circles and connecting lines indicate the Pareto frontier for each dataset.",
+            "table1": "Joint distribution plots of molecular properties versus task targets for original (blue, circles, solid marginals) and augmented (orange, crosses, dashed marginals) molecules. Each row corresponds to a dataset (FreeSolv, ESOL, Lipo), and each column shows one computed property (LogP, SA, QED, MW, BT)"
+        },
+        "question":"What line style is used to draw the Pareto frontier in Chart 1? Respond only with the line style.",
+        "question_type": "perceptual",
+        "answer": "solid",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 47,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.13733v1\\chart1.jpg",
+            "table1": "2511.13733v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The overall performance comparison on 10 EEG datasets.",
+            "table1": "SummaryofEEGdatasetsusedindownstreamtasks."
+        },
+        "question":"What color is used to represent BAR-Huge (Ours) in the legend of Chart 1? Respond only with the color name.",
+        "question_type": "perceptual",
+        "answer": "yellow",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.09923v1\\chart1.jpg",
+            "table1": "2509.09923v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Confusion matrices for the three-class problems.",
+            "table1": "Classification report for the three-class problem (HC, UC, CD)."
+        },
+        "question":"From Chart 1, extract the number of samples whose true label is UC and predicted label is CD. Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 24,
+        "answer_type": "numeric"
+    }
+]

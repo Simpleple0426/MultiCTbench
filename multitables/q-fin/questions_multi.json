@@ -1,0 +1,916 @@
+[
+    {
+        "question_id": 1,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2508.14813v1\\table1.jpg",
+            "table2": "2508.14813v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Relative absolute difference for different number of basis function n and time to maturity theta on the option price compared to n = 10, with Y0 = D, h0 = 1, alpha = 0.1, T0 = 1, strike K = 1 and the intensity beta = 1. Pure jump case.",
+            "table2": "Relative absolute difference for different n and beta on the option price compared to n = 10, with Y0 = D, h0 = 1, alpha = 0.1, T0 = 2, strike K = 2 and the time to maturity theta = 1. Pure jump case."
+        },
+        "question":"Across both tables, which value of N exhibits the smallest variation in errors under different parameter settings? Answer format: respond with a single integer.",
+        "question_type": "reasoning",
+        "answer": 8,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 2,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2508.14813v1\\table1.jpg",
+            "table2": "2508.14813v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Relative absolute difference for different number of basis function n and time to maturity theta on the option price compared to n = 10, with Y0 = D, h0 = 1, alpha = 0.1, T0 = 1, strike K = 1 and the intensity beta = 1. Pure jump case.",
+            "table2": "Relative absolute difference for different n and beta on the option price compared to n = 10, with Y0 = D, h0 = 1, alpha = 0.1, T0 = 2, strike K = 2 and the time to maturity theta = 1. Pure jump case."
+        },
+        "question":"If we set an error tolerance threshold of 0.5%, which values of N remain within this threshold across all maturities in Table 1 and all beta values in Table 2? Answer format: respond with a list, e.g.,[1, 2].",
+        "question_type": "reasoning",
+        "answer": [5, 8],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2508.14813v1\\table1.jpg",
+            "table2": "2508.14813v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Relative absolute difference for different number of basis function n and time to maturity theta on the option price compared to n = 10, with Y0 = D, h0 = 1, alpha = 0.1, T0 = 1, strike K = 1 and the intensity beta = 1. Pure jump case.",
+            "table2": "Relative absolute difference for different n and beta on the option price compared to n = 10, with Y0 = D, h0 = 1, alpha = 0.1, T0 = 2, strike K = 2 and the time to maturity theta = 1. Pure jump case."
+        },
+        "question":"For each value of N, compare the direction of error changes across maturities in Table 1 with the direction of error changes across beta values in Table 2. Which value of N shows the most consistent direction of change in both tables (e.g., both increasing, both decreasing, or both relatively flat)? Answer format: respond with a single integer.",
+        "question_type": "reasoning",
+        "answer": 8,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2508.17086v2\\table1.jpg",
+            "table2": "2508.17086v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance of JFDS with OC-SVM under varying oversampling ratios (β) using the combined loss function",
+            "table2": "Performance of JFDS with OC-SVM under different contrastive loss weight (α)"
+        },
+        "question": "Which of the two tables contains missing data? A. Table 1. B. Table 2. C. Both tables. D. Neither table. Respond only with a letter.",
+        "question_type": "perceptual",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2508.17906v2\\table1.jpg",
+            "table2": "2508.17906v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Local Extraction Efficiency scores across different extraction modes",
+            "table2": "Entropy scores across different extraction modes"
+        },
+        "question": "Define a composite information concentration index CI as follows: For each mode, multiply “Triples (per chunk)” by “ECR” and divide the result by the corresponding “Normalized Schema Entropy — Entity Type.” The values for “Triples (per chunk)” and “ECR” come from Table1, and the entropy values come from Table 2. Compute the CI values for Single Pass, Multi Pass, and Reflection, and report them in the format: [CI_single, CI_multi, CI_reflection]. All values must be rounded to two decimal places. Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": [6.04, 5.91, 13.39],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 6,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.08742v1\\table1.jpg",
+            "table2": "2509.08742v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Main Results of Model Accuracy Comparison.",
+            "table2": "Model Prediction Accuracy Across Confidence  Score Groups."
+        },
+        "question": "Comparing Table 1 and Table 2, which model performs the best across both tables? Respond only withe the model.",
+        "question_type": "reasoning",
+        "answer": "FinZero",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.20239v1\\table1.jpg",
+            "table2": "2509.20239v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Results for a Geometric basket Put option",
+            "table2": "Results for a Max-Call option"
+        },
+        "question": "Which method contains missing values in Table 1 and Table 2? Respond only with the method.",
+        "question_type": "perceptual",
+        "answer": "Ekvall",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.20239v1\\table1.jpg",
+            "table2": "2509.20239v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Results for a Geometric basket Put option",
+            "table2": "Results for a Max-Call option"
+        },
+        "question": "Comparing Table 1 and Table 2, compute the increase in computation time for KRR-DP at dimension d=10. Respond with a single number.",
+        "question_type": "reasoning",
+        "answer": 2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 9,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.20239v1\\table1.jpg",
+            "table2": "2509.20239v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Results for a Geometric basket Put option",
+            "table2": "Results for a Max-Call option"
+        },
+        "question": "Comparing Table 1 and Table 2 at dimension d=5, consider only the methods that appear in both tables. Compute the price increases for these methods. Respond only with the value of the largest increase.",
+        "question_type": "reasoning",
+        "answer": 23.79,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1": "2509.24449v2\\table1.jpg",
+            "table2": "2509.24449v2\\table2.jpg",
+            "table3": "2509.24449v2\\table3.jpg"
+        },
+        "caption": {
+            "table1": "The error of four different methods",
+            "table2": "The error of four different methods",
+            "table3": "The error of four different methods"
+        },
+        "question": "From the captions of Table 1, Table 2, and Table 3, read the parameter K values. Extract only the numeric parts (without the % sign) and sort them in ascending order. Respond only with a list, [k1, k2, k3]",
+        "question_type": "perceptual",
+        "answer":[70, 100, 150],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 11,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1": "2509.24449v2\\table1.jpg",
+            "table2": "2509.24449v2\\table2.jpg",
+            "table3": "2509.24449v2\\table3.jpg"
+        },
+        "caption": {
+            "table1": "The error of four different methods",
+            "table2": "The error of four different methods",
+            "table3": "The error of four different methods"
+        },
+        "question": "From Table 1, Table 2, and Table 3, identify all methods whose errors decrease as N increases for every K. Respond only with a list of the method names, [method1, method2..].",
+        "question_type": "reasoning",
+        "answer":"[Euler, AES, Backward]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.01526v1\\table1.jpg",
+            "table2": "2510.01526v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of LLM performance on financial QA tasks: Direct QA vs. QA supported by our EQD model. Underlined values indicate the higher score between Direct QA and EQD-supported QA. Bold values denote the best performance for each dataset.",
+            "table2": "Comparison of different methods for conducting QA tasks across different LLMs. The names of the baseline methods are abbreviated as described in Section 4.3. Since DP is a basic question decomposition baseline, we test two versions using GPT-3.5-turbo and GPT-4o as the question decomposition models, denoted as DP1 and DP2, respectively. The final column, ``Manual'', refers to the method in which we manually design question decomposition examples based on our findings for prompts, serving as an ablation study. Bold and underline values represent the best and second-best results for each row."
+        },
+        "question": "In Table 1 and Table 2, count the number of LLM models listed in each table. Output the result in the format: [num1,num2]. Respond only withe a list.",
+        "question_type": "perceptual",
+        "answer": [6, 3],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.02906v1\\table1.jpg",
+            "table2": "2510.02906v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Multi-hop QA performance by reasoning model and evidence retrieval mode using Qwen3-235B as LLM-Judge",
+            "table2": "Comparison of LLM-Judge scores using Qwen3-235B"
+        },
+        "question": "In Table 1 and Table 2, count how many distinct Evidence Modes are included in each table. Report the result as two numbers in the format: [Table1_count, Table2_count].  Respond only withe a list.",
+        "question_type": "perceptual",
+        "answer": [3, 3],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 14,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2506.01423v1\\table1.jpg",
+            "table2": "2506.01423v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of Key Metrics in Bank Wire Transfer Processes Before and After GBPAs Optimization",
+            "table2": "Comparison of Key Metrics in Reimbursement Processes Before and After GBPAs Optimization"
+        },
+        "question": "In Table 1 and Table 2, examine the End-to-End Time values before and after GBPAs optimization. List all time units that appear in these two tables. Respond only with a list (e.g., [unit1, unit2, …]). Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": "[min, days, hrs]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2506.01423v1\\table1.jpg",
+            "table2": "2506.01423v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of Key Metrics in Bank Wire Transfer Processes Before and After GBPAs Optimization",
+            "table2": "Comparison of Key Metrics in Reimbursement Processes Before and After GBPAs Optimization"
+        },
+        "question": "If the Improvement percentages of the End-to-End Time in Table 1 and Table 2 are converted into speed-up values—where speed-up is defined as the time required before optimization divided by the time required after optimization—compute the speed-up for both processes and round each result to two decimal places. Then, report only the larger of the two speed-up values.",
+        "question_type": "reasoning",
+        "answer": 14.12,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 16,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.20494v1\\table1.jpg",
+            "table2": "2507.20494v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Average LP behavior metrics across score bins (subset of validation set)",
+            "table2": "Average behavioral metrics across swap score bins"
+        },
+        "question": "Compare the Score Ranges / Score Bins in Table 1 and Table 2, identify all contiguous intervals that appear only in Table 1 but not in Table 2, and report the merged interval as a single continuous range.Respond only with the merged interval in the format: [left, right).",
+        "question_type": "perceptual",
+        "answer": "[800, 1000)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.20494v1\\table1.jpg",
+            "table2": "2507.20494v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Average LP behavior metrics across score bins (subset of validation set)",
+            "table2": "Average behavioral metrics across swap score bins"
+        },
+        "question": "Based on the full score-range trajectories shown in both Table 1 and Table 2, identify the user-behavior pattern that exhibits a consistently monotonic trend as the user score increases in both tables. A. Holding time increases B. Wallet Count decreases C. Deposit / Volume decreases D. Swap Count decreases. Respond only with a letter.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.03964v1\\table1.jpg",
+            "table2": "2509.03964v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Distribution of BTC interest rates for the 3 different maturities (90 days, 180 days, and 360 days) computed with the Deribit BTC inverse option dataset from 1st January 2022 to 31st December 2024.",
+            "table2": "Distribution of ETH interest rates for the 3 different maturities (90 days, 180 days, and 360 days) computed with the Deribit ETH inverse option dataset from 1st January 2022 to 31st December 2024."
+        },
+        "question": "Using Table 1 and Table 2, compute the average Std across the three tenors (90, 180, and 360 days) for both BTC and ETH. Then determine which asset has the higher average volatility. Round the Std averages to four decimal places. Respond in the following format: [asset name (BTC or ETH), corresponding Std average]",
+        "question_type": "reasoning",
+        "answer": "[ETH, 0.0138]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.03964v1\\table1.jpg",
+            "table2": "2509.03964v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Distribution of BTC interest rates for the 3 different maturities (90 days, 180 days, and 360 days) computed with the Deribit BTC inverse option dataset from 1st January 2022 to 31st December 2024.",
+            "table2": "Distribution of ETH interest rates for the 3 different maturities (90 days, 180 days, and 360 days) computed with the Deribit ETH inverse option dataset from 1st January 2022 to 31st December 2024."
+        },
+        "question": "Based on Table 1 and Table 2, identify all statements that are correct. Select all that apply, and respond only with a list of the correct option letters in the format: [A, B] A. All Mean values for both BTC and ETH are negative across the three tenors. B. For every tenor, the Std of ETH is greater than the Std of BTC. C. The Max values of BTC exceed those of ETH for all tenors. D. The Min values of ETH are lower (more negative) than those of BTC for all tenors. Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": "[B, D]",
+        "answer_type": "choice_list"
+    },
+
+    {
+        "question_id": 20,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.08467v1\\table1.jpg",
+            "table2": "2509.08467v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of predictive performance on the test set under different noise levels. The best values are bolded",
+            "table2": "Comparison of predictive performance on the test set for the real dataset. The best values are bolded."
+        },
+        "question": "Using Table 1 (Low Noise) and Table 2, compute the average RMSE of the GBM model across the two tables, rounding to two decimals. Respond with a list in the form: [num1, num2]. Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": [2033.16, 37.06],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 21,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1": "2507.12657v1\\table1.jpg",
+            "table2": "2507.12657v1\\table2.jpg",
+            "table3": "2507.12657v1\\table3.jpg"
+        },
+        "caption": {
+            "table1": "For η = 0.005",
+            "table2": "For η = 0.005",
+            "table3": "For η = 0.005"
+        },
+        "question": "In Table 1, Table 2, and Table 3, the same parameter η appears. Extract the numerical value of η from the table t and report the final value of η. Respond only with a number.",
+        "question_type": "perceptual",
+        "answer": 0.005,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1": "2507.12657v1\\table1.jpg",
+            "table2": "2507.12657v1\\table2.jpg",
+            "table3": "2507.12657v1\\table3.jpg"
+        },
+        "caption": {
+            "table1": "For η = 0.005",
+            "table2": "For η = 0.005",
+            "table3": "For η = 0.005"
+        },
+        "question": "In Table 1, Table 2, and Table 3, each table lists a specific value of S0 - k. Extract the S0 - k value from each table and report the three values in the same order. Respond only withe a list, [num1, num2, num3].",
+        "question_type": "perceptual",
+        "answer": [5, 10, 20],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 23,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1": "2507.12657v1\\table1.jpg",
+            "table2": "2507.12657v1\\table2.jpg",
+            "table3": "2507.12657v1\\table3.jpg"
+        },
+        "caption": {
+            "table1": "For η = 0.005",
+            "table2": "For η = 0.005",
+            "table3": "For η = 0.005"
+        },
+        "question": "Compute the mean Abs. Error for Table 1, Table 2, and Table 3 separately. Then, identify the largest mean among the three and report the final value rounded to two decimal places. Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 3.65,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 24,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2508.07151v2\\table1.jpg",
+            "table2": "2508.07151v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Hurst-Forecast Errors (MAE and MSE)",
+            "table2": "Pricing Bounds and Duality Gaps"
+        },
+        "question": "From Table 1, identify the ticker with the smallest error. Then, in Table 2, compute the average of the four Gap values for that ticker (without the percent sign). Respond with the numerical value only",
+        "question_type": "reasoning",
+        "answer": 62.5575,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 25,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2508.14577v1\\table1.jpg",
+            "table2": "2508.14577v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Model Performance under moneyness category by rolling window approach with size 90.",
+            "table2": "Model Performance under moneyness category by rolling window approach with size 180."
+        },
+        "question": "Based on Table 1 and Table 2, determine how many distinct moneyness categories appear across the two tables. Respond with a single number.",
+        "question_type": "perceptual",
+        "answer": 4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2508.14577v1\\table1.jpg",
+            "table2": "2508.14577v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Model Performance under moneyness category by rolling window approach with size 90.",
+            "table2": "Model Performance under moneyness category by rolling window approach with size 180."
+        },
+        "question": "Using the MAE values in the ALL row of Table 1 and Table 2, identify which model—PIV, BS, or HS—experiences the largest decrease in MAE when the window size increases from 90 to 180. Report only the magnitude of this maximum decrease as a single numerical value.",
+        "question_type": "reasoning",
+        "answer": 5.1042,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1": "2509.00485v2\\table1.jpg",
+            "table2": "2509.00485v2\\table2.jpg",
+            "table3": "2509.00485v2\\table3.jpg"
+        },
+        "caption": {
+            "table1": "EOC in τ -direction for S0 = 8, NS = 100, NL = 80.",
+            "table2": "EOC in S-direction for S0 = 8, NT = 2000, NL = 50.",
+            "table3": "EOC in L-direction for S0 = 8, NT = 3000, NS = 60."
+        },
+        "question": "Across Table 1, Table 2, and Table 3, compare the Holder price values in the final row of each table. Which table has the highest final Holder price, and what is the corresponding value? Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 2.4486,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.10878v1\\table1.jpg",
+            "table2": "2510.10878v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Machine Learning Strategy Performance Summary",
+            "table2": "Strategy Performance Comparison"
+        },
+        "question": "How many performance metrics appear in both Table 1 and Table 2? Respond only with a number.",
+        "question_type": "perceptual",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 29,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.10878v1\\table1.jpg",
+            "table2": "2510.10878v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Machine Learning Strategy Performance Summary",
+            "table2": "Strategy Performance Comparison"
+        },
+        "question": "Assume Table 1 adds the metric “Average Max Drawdown.” Based on Table 2, infer its likely value and respond with the number only.",
+        "question_type": "reasoning",
+        "answer": "11.35%",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 30,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.20047v1\\table1.jpg",
+            "table2": "2510.20047v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Error measurement when Heston model is implemented.",
+            "table2": "Error measurement when BNS model is implemented"
+        },
+        "question": "In Table 1 and Table 2, the AAE field is displayed using the ‘<’ symbol. In how many table cells does this symbol appear in each table? Respond only with a number.",
+        "question_type": "perceptual",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 31,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.20047v1\\table1.jpg",
+            "table2": "2510.20047v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Error measurement when Heston model is implemented.",
+            "table2": "Error measurement when BNS model is implemented"
+        },
+        "question": "Using the corresponding RMSE values in Table 1 and Table 2, compute the RMSE improvement rate of the BNS model relative to the Heston model for each row. Report the three results in order as a list: [num1, num2, num3]. Round all values to two decimal places. Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": [0.32, 0.47, 0.99],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 32,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.20047v1\\table1.jpg",
+            "table2": "2510.20047v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Error measurement when Heston model is implemented.",
+            "table2": "Error measurement when BNS model is implemented"
+        },
+        "question": "Using the three RMSE values in Table 1 and Table 2, compute the average RMSE for each model. Then determine which model has the lower average RMSE, and report the result in the following format: [model name, average RMSE]. Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": "[BNS, 0.15]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 33,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.07358v1\\table1.jpg",
+            "table2": "2507.07358v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Fair guarantee fees ϕ ∗ (in basis points) with a ratchet under a static and dynamic withdrawal strategy for various marginal tax rates θ and cash account appreciation rates η.",
+            "table2": "Fair guarantee fees ϕ * (in basis points) under a static and dynamic withdrawal strategy for various marginal tax rates θ, when the benefit base is updated by a ratchet mechanism or not and η = 4%"
+        },
+        "question": "In Table 1, which two column indices in Table 2 correspond to the second column (Static) and the fifth column (Dynamic, η = 4%) in Table 2? Respond in the format: [col1, col2], where each entry is the column number in Table 2. Respond only with the list.",
+        "question_type": "perceptual",
+        "answer": [3, 7],
+        "answer_type": "numeric_list"
+    },
+
+
+    {
+        "question_id": 34,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.18560v1\\table1.jpg",
+            "table2": "2507.18560v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance of super-agent vs. benchmarks and meta-agents (2018–2024).",
+            "table2": "Comparison of meta-agents and super-agent with state-of the-art RL-based portfolio optimization strategies."
+        },
+        "question": "Using all strategies listed in both Table 1 and Table 2, compare their Sharpe (or Sharpe Ratio) values and identify the strategy with the highest Sharpe. Respond only with the strategy name.",
+        "question_type": "reasoning",
+        "answer": "CNN-RL",
+        "answer_type": "text"
+    },
+
+
+    {
+        "question_id": 35,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.22088v1\\table1.jpg",
+            "table2": "2509.22088v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance of the EW portfolio and the optimal portfolio of (1) (with γ = 100) with Factordiff (500 samples), Emp, and ShrEmp estimates of stock return moments.",
+            "table2": "Performance of the EW portfolio and the optimal portfolio of (2) (with γ = 100) with Factordiff (100, 500, and 1000 samples), Emp, and ShrEmp estimates of stock return moments. Transaction fees are included."
+        },
+        "question": "Across Table 1 and Table 2, which FactorDiff strategy has the smallest Sharpe value? Respond only with one of: Transaction Fees Ignored, Transaction Fees Deducted, or a sample size such as 500.",
+        "question_type": "reasoning",
+        "answer": "Transaction Fees Deducted",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.22088v1\\table1.jpg",
+            "table2": "2509.22088v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance of the EW portfolio and the optimal portfolio of (1) (with γ = 100) with Factordiff (500 samples), Emp, and ShrEmp estimates of stock return moments.",
+            "table2": "Performance of the EW portfolio and the optimal portfolio of (2) (with γ = 100) with Factordiff (100, 500, and 1000 samples), Emp, and ShrEmp estimates of stock return moments. Transaction fees are included."
+        },
+        "question": "Across Table 1 and Table 2, compute the maximum difference in Mean (%) among all FactorDiff strategies. Respond with the positive numerical value only.",
+        "question_type": "reasoning",
+        "answer": 0.061,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2501.17490v2\\table1.jpg",
+            "table2": "2501.17490v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Full in-sample model comparison.",
+            "table2": "Out-of-sample results."
+        },
+        "question":"In Table 1 and Table 2, count how many performance metrics each table contains. Respond in the format: [Table3_metric_count, Table4_metric_count]. Respond with the list only.",
+        "question_type": "perceptual",
+        "answer": [3, 4],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 38,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2501.17490v2\\table1.jpg",
+            "table2": "2501.17490v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Full in-sample model comparison.",
+            "table2": "Out-of-sample results."
+        },
+        "question":"Using Table 1 and Table 2, check the in-sample and out-of-sample R2 values of the HAR model, and determine which one is higher. Respond only with either in-sample or out-of-sample.",
+        "question_type": "reasoning",
+        "answer": "in-sample",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 39,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.12911v1\\table1.jpg",
+            "table2": "2510.12911v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Critical values for the beta estimators. This table reports the critical values for testing whether beta equals zero at significance levels 5% and 10% and for local window sizes 5, 10, and 20. The left panel shows the critical values for the return-based beta estimator derived from the Student t-distribution. The right panel shows the critical values for the candlestick-based beta estimator computed using Monte Carlo simulations. The interval width is defined as the upper critical value minus the lower critical value.",
+            "table2": "Asymptotic Risk of Estimators for Different rho Values. This table presents the asymptotic risk of three estimators: the return-based estimator, the candlestick-based estimator, and an oracle estimator that minimizes asymptotic risk given the true correlation structure. Results are reported for local window sizes 5, 10, and 20 and for correlation levels 0, 0.2, and 0.6. The asymptotic risk is computed using Monte Carlo simulations."
+        },
+        "question":"Using the k = 10 rows from both Table 1 and Table 2, compare the values in their Return-related columns and determine which table’s values are closer to 0. Respond only with the table's value.",
+        "question_type": "reasoning",
+        "answer": 0.599,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 40,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.21347v1\\table1.jpg",
+            "table2": "2510.21347v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "RMSEytm in a falling market, Y1 = 10**3, Y2 = 10**4",
+            "table2": "RMSEytm in a falling market, LR = 10**(-8), epochs= 10**3"
+        },
+        "question":"Across all RMSE values in Table 1 and Table 2, identify the global minimum RMSE. Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 0.1486,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.01979v1\\table1.jpg",
+            "table2": "2507.01979v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Baseline Model Performance by Industry",
+            "table2": "Model Performance by Industry on Employment Forecasting"
+        },
+        "question":"Identify the industries that appear in both tables and qualify as “low-error industries” under the following criteria: In Table 1, the Oracle Model RMSE is less than 0.1. In Table 2, the MSE is less than 0.03. Respond with the list of industries that satisfy both conditions (the list may be empty). Respond only with the list.",
+        "question_type": "reasoning",
+        "answer": "[Financial Activities, Professional Services]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.15876v1\\table1.jpg",
+            "table2": "2507.15876v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Lower triangle of the correlation matrix between factor portfolios and the SG CTA Trend Index benchmark returns over the evaluation period.",
+            "table2": "Risk and return statistics for trend and market factor portfolios (daily sampling). Bold numbers indicate the best metric in each row."
+        },
+        "question":"Which strategy in Table 1 has the highest correlation with SGCTAT? What is the Sharpe Ratio of that strategy in Table 2? Respond in the format: [strategy, value]. Respond only with the list.",
+        "question_type": "reasoning",
+        "answer": "[MKT+STT+LTT, 0.45]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 43,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.15876v1\\table1.jpg",
+            "table2": "2507.15876v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Lower triangle of the correlation matrix between factor portfolios and the SG CTA Trend Index benchmark returns over the evaluation period.",
+            "table2": "Risk and return statistics for trend and market factor portfolios (daily sampling). Bold numbers indicate the best metric in each row."
+        },
+        "question":"Identify the pair of distinct strategies in Table 1 with the highest correlation. Then, using Table 2, compute the absolute difference between their Sharpe Ratios. Respond only with a positive number.",
+        "question_type": "reasoning",
+        "answer": 0.05,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 44,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.10542v1\\table1.jpg",
+            "table2": "2509.10542v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Model Performance Comparison on the ETH-USDT Test Period.",
+            "table2": "Simulated Trading Profitability Comparison on ETH-USDT (Test Period, Initial Capital: 100 USDT)"
+        },
+        "question":"Count how many distinct models/strategies appear in Table 1 and Table 2, respectively. Respond in the format: [Table1_count, Table2_count]. Respond only with the list.",
+        "question_type": "perceptual",
+        "answer": [4, 5],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 45,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.16137v1\\table1.jpg",
+            "table2": "2509.16137v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Validation set negative log-likelihood (NLL) across model architectures and feature sets. The best model for each feature set is italicized; the best overall result is both italicized and bolded.",
+            "table2": "Negative log-likelihood (NLL) on validation and test sets for the best-performing Transformer models and a standard normal baseline. The lowest NLL for each dataset is shown in bold."
+        },
+        "question":"In Table 2, the values in the second column match which column in Table 1? Respond with the column number only.",
+        "question_type": "perceptual",
+        "answer": 4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 46,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.03236v1\\table1.jpg",
+            "table2": "2510.03236v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": ": Models predict in 5-day increments. MSE values have been divided by 1,000,000 to improve numerical interpretability.",
+            "table2": ": Models predict in 10-day increments. MSE values have been divided by 1,000,000 to improve numerical interpretability."
+        },
+        "question":"In Table 1 and Table 2, what is the name of the model that is highlighted in both tables? Respond with the model name only.",
+        "question_type": "perceptual",
+        "answer": "Coefficient Clustering",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 47,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.03236v1\\table1.jpg",
+            "table2": "2510.03236v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": ": Models predict in 5-day increments. MSE values have been divided by 1,000,000 to improve numerical interpretability.",
+            "table2": ": Models predict in 10-day increments. MSE values have been divided by 1,000,000 to improve numerical interpretability."
+        },
+        "question":"Which model exhibits the largest increase in MAPE when the prediction window expands from 5 days to 10 days? Respond in the format: [model name, increase value]. Respond only with the list.",
+        "question_type": "reasoning",
+        "answer": "[Markov Soft EM, 7.60]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 48,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.15903v1\\table1.jpg",
+            "table2": "2510.15903v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Overall Performance Comparison by Model Type",
+            "table2": "Individual Model Performance Ranking (Based on Sharpe Ratio)"
+        },
+        "question":"Using Table 1 and Table 2, compute the average Return of all Hybrid-type models in Table 2， (rounded to two decimal places, with %). Then compare this average with the Avg Return of Hybrid Quantum in Table 1, and indicate whether it is higher. Respond in the format: [average, Yes or No]. Respond only with the list.",
+        "question_type": "reasoning",
+        "answer": "[11.29%, Yes]",
+        "answer_type": "text"
+    },
+
+        {
+        "question_id": 49,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.15903v1\\table1.jpg",
+            "table2": "2510.15903v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Overall Performance Comparison by Model Type",
+            "table2": "Individual Model Performance Ranking (Based on Sharpe Ratio)"
+        },
+        "question":"Using Table 1 and Table 2, compute the average Sharpe of all Classical models in Table 2 (rounded to two decimal places). Then compare this average with the Avg Sharpe of Classical in Table 1, and indicate whether it is higher, lower, or equal. Respond in the format: [average, Higher / Lower / Equal]. Respond only with the list.",
+        "question_type": "reasoning",
+        "answer": "[1.47, Equal]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 50,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.14960v1\\table1.jpg",
+            "table2": "2507.14960v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance of Statistical Models",
+            "table2": "Performance of Machine Learning Models."
+        },
+        "question":"In Table 1 and Table 2, compute the average number of #Long Trades across all models in each table. Then compare the two averages and output the larger value, rounded to three decimal places. Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 822.111,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 51,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.18417v1\\table1.jpg",
+            "table2": "2507.18417v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Weighted F1 scores of the evaluated sentiment-based methods on the FPB, TFNS, and NWGI financial sentiment datasets. HIV-4, VADER, and LMD are lexicon-based baselines. FinBERT and FinLlama are SFT classification LLMs, while Instruct-FinGPT, FinGPT v3.3 and FinSFT are instruction-tuned causal LLMs. FinDPO is our proposed DPO-aligned causal LLM. FinBERT is excluded from evaluation on FPB due to data leakage, as it was originally trained on the full FPB dataset.",
+            "table2": "Performance metrics of the sentiment-based portfolios at no transaction cost. For each metric, the best performance is shown in bold, and the second-best is underlined."
+        },
+        "question":"In Table 1 and Table 2, FinDPO (Ours) performs strongly across many metrics but is not the best in all of them. Based on the data in both tables, identify all metrics in which FinDPO (Ours) is not the top performer. Respond with a list of metric names, [metric1, metric2, ...]",
+        "question_type": "reasoning",
+        "answer": "[FPB, TFNS]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 52,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2508.02366v3\\table1.jpg",
+            "table2": "2508.02366v3\\table2.jpg"
+        },
+        "caption": {
+            "table1": "EXPERIMENT 2 RESULTS: SHARPE RATIO",
+            "table2": "EXPERIMENT 2 RESULTS: MAXIMUM DRAWDOWN"
+        },
+        "question":"In Table 1 and Table 2, determine whether there exists any ticker that simultaneously satisfies the following two conditions under the LLM+RL method: Its Sharpe Ratio is higher than the LLM+RL Sharpe mean in Table IX; Its Maximum Drawdown is lower than the LLM+RL Drawdown mean in Table X. If such tickers exist, list all of them in the format: [ticker1, ticker2, ...]. If none exist, respond None. Only respond with a list or none.",
+        "question_type": "reasoning",
+        "answer": "[AAPL, AMZN, GOOGL, MSFT]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 53,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2508.02366v3\\table1.jpg",
+            "table2": "2508.02366v3\\table2.jpg"
+        },
+        "caption": {
+            "table1": "EXPERIMENT 2 RESULTS: SHARPE RATIO",
+            "table2": "EXPERIMENT 2 RESULTS: MAXIMUM DRAWDOWN"
+        },
+        "question":"Using Table 1 and Table 2, take the mean Sharpe value and the mean Drawdown value under the LLM+RL method. Compare the two values and return the larger numerical value.",
+        "question_type": "reasoning",
+        "answer": 1.10,
+        "answer_type": "numeric"
+    }
+]

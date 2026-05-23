@@ -1,0 +1,205 @@
+[
+    {
+        "question_id": 6,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.14561v1\\table1.jpg",
+            "table2": "2511.14561v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Polymer weights, polydispersity index, and energy levels for the two organic materials used",
+            "table2": "Summary of device thicknesses and fitted parameters obtained using Eq. S1 for devices irradiated with neutrons at NPL. For ease of calculation, all fitting was done using the modulus of drive bias and response current hence the positive values in the table"
+        },
+        "question": "How many samples in Table 2 use a material with Mw greater than 100,000 Da according to Table 1? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.15493v1\\table1.jpg",
+            "table2": "2511.15493v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Strong interaction parameters for D and Q spin states extracted from constrained fits to real data and SMASH+LL model simulations, compared with predictions from various theoretical models.",
+            "table2": "Gaussian source parameter extracted from the Lednicky–Lyuboshits fit to real data and SMASH+LL model simulations for different collision centrality bins."
+        },
+        "question": "Compute the ratio between the Data value of f0(Q) in Table 1 and the average ⟨mT⟩ (Data) in Table 2. Respond only with a single numeric value rounded to two decimals.",
+        "question_type": "reasoning",
+        "answer": 11.24,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.01592v1\\table1.jpg",
+            "table2": "2512.01592v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "The extracted values of the QGP temperature (in MeV) for different centrality regions of Au–Au collisions at 54.4 GeV, compared between using charm decayed di-electron spectra with different model setups.",
+            "table2": "The extracted values of the QGP temperature (in MeV) for different centrality regions of Ru–Ru and Zr–Zr collisions at 200 GeV, compared between using heavy quark decayed dielectron spectra with different model setups."
+        },
+        "question": "Compute the difference between the average med.+frag. QGP temperatures across all centrality regions in Table 2 and Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 13,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.16324v1\\table1.jpg",
+            "table2": "2512.16324v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "SIRimp (dB), RMSE and LRMSE obtained for the second scenario.",
+            "table2": "SIRimp (dB), RMSE and LRMSE obtained for the third  scenario."
+        },
+        "question": "Compute the change in RMSE of the LI-LSQ method from Table 1 to Table 2 (Table 2 minus Table 1). Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.18,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.19073v1\\table1.jpg",
+            "table2": "2512.19073v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Evaluated chi-squared per degree of freedom for the dijet cross section in individual and global y* bins, based on NNLO theoretical predictions using multiple PDF sets (CT18, NNPDF3.1, NNPDF4.0, MSHT2020, and ATLASpdf21T3), including electroweak and non-perturbative corrections applied to the unfolded data.",
+            "table2": "Evaluated chi-squared per degree of freedom for the dijet cross section in individual and global y_boost bins, based on NNLO theoretical predictions using multiple PDF sets (CT18, NNPDF3.1, NNPDF4.0, MSHT2020, and ATLASpdf21T3), including electroweak and non-perturbative corrections applied to the unfolded data."
+        },
+        "question": "Compute the global χ²/ndf values for the NNPDF4.0NNLO model in Table 1 and Table 2, respectively. Then compute the arithmetic mean of these two χ²/ndf values. Round the final result to three decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 1.300,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.19913v1\\table1.jpg",
+            "table2": "2512.19913v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "SMEFT Results – Chi-squared Scores",
+            "table2": "SMEFT Results – Ds2 Values"
+        },
+        "question": "For the MLP ← L_REVERT model, compute the difference between the average Muon chi-squared score in Table 1 and the average Muon Ds2 value in Table 2. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 1.004,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.18762v1\\table1.jpg",
+            "table2": "2512.18762v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Standard deviations from the WS4 and HFB models before refinement, and after QIBP and CBP refinements, evaluated on 2253 nuclei from the AME2020 dataset with Z ≥ 20 and N ≥ 20.",
+            "table2": "Raw standard deviations from the WS4 and HFB models and the corresponding values after QIBP refinements, reported separately for the learning set and the validation set."
+        },
+        "question": "Compute the average Δσ/σ_pre for the WS4 model across QIBP and CBP in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 38.45,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 38,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.19073v1\\table1.jpg",
+            "table2": "2512.19073v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Evaluated chi-squared per degree of freedom for the dijet cross section in individual and global y* bins, based on NNLO theoretical predictions using multiple PDF sets (CT18, NNPDF3.1, NNPDF4.0, MSHT2020, and ATLASpdf21T3), including electroweak and non-perturbative corrections applied to the unfolded data.",
+            "table2": "Evaluated chi-squared per degree of freedom for the dijet cross section in individual and global y_boost bins, based on NNLO theoretical predictions using multiple PDF sets (CT18, NNPDF3.1, NNPDF4.0, MSHT2020, and ATLASpdf21T3), including electroweak and non-perturbative corrections applied to the unfolded data."
+        },
+        "question": "Compute the χ²/ndf value for NNPDF3.1NNLO in the 2.0 ≤ y* < 2.5 bin in Table 1. Round to three decimal places.",
+        "question_type": "reasoning",
+        "answer": 1.464,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.10026v1\\table1.jpg",
+            "table2": "2512.10026v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Parameters corresponding to the linear fit for the CoLBT and JEWEL with recoils curves shown in Fig. 6.",
+            "table2": "Values of K obtained by fitting the CoLBT and JEWEL with recoils edge-effects data shown in Fig. 6. These K values correspond to the points plotted in Fig. 8."
+        },
+        "question": "Compute the average K value for the Pythia8 model across all RL values in Table 1. Round the result to three decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 1.750,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.07355v1\\table1.jpg",
+            "table2": "2511.07355v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Summary of simulation parameters using twisted boundary conditions. We report both the inverse bare coupling and the standard inverse gauge coupling. With the standard algorithm, only the physical replica is simulated and no defect is present. In all cases, the number of over-relaxation sweeps per heat-bath sweep is fixed. The maximum volume corresponds to the largest lattice volume simulated for each parameter setting. For the PTBC algorithm, the number of Monte Carlo steps between measurements is chosen such that the integrated auto-correlation time of the energy observable is approximately one. The reported statistics represent the number of measurements after thermalization, averaged over all simulated volumes for each parameter setting.",
+            "table2": "Simulation parameters of the lattices tuned to fixed values of the TGF coupling for different values of the parameter N. The corresponding lattice spacings are chosen to match fixed physical length scales. The lattice size and the size of the reduced lattice are reported for each parameter configuration."
+        },
+        "question": "In Table 2, for N = 8, compute the average of L divided by Ls. Round to two decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 8.00,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.15998v1\\table1.jpg",
+            "table2": "2512.15998v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of model accuracy, BOPs, and estimated hardware metrics from global search. Note that while all metrics are reported here for consistency, the Baseline was optimized for accuracy, NAC for accuracy and BOPs, and SNAC-Pack for accuracy, estimated average resources and clock cycles. The best values are reported in bold.",
+            "table2": "Hardware resource utilization and latency estimates for the selected models. The baseline is pruned by 50% and quantized to 8 bits. NAC and SNAC-Pack models are both synthesized after their respective local searches. CC is the number of clock cycles. The selected architectures are the result of pruning to approximately 50% and quantization aware training at 8 bit precision. The best values are reported in bold."
+        },
+        "question": "Compute the difference in estimated clock cycles between Baseline and Optimal NAC in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 121.05,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 43,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.19913v1\\table1.jpg",
+            "table2": "2512.19913v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "SMEFT Results – Chi-squared Scores",
+            "table2": "SMEFT Results – Ds2 Values"
+        },
+        "question": "In Table 2, compute the sum of Ds2 values of the RoSMM_r ← L_REVERT model across the four Muon pT features. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.0099,
+        "answer_type": "numeric"
+    }
+]

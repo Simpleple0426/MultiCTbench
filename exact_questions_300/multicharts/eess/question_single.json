@@ -1,0 +1,205 @@
+[
+    {
+        "question_id": 6,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2510.18917v2\\chart1.jpg",
+            "chart2": "2510.18917v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Example comparison of RT60 distributions between two simulated subsets of RIR-Mega (linear and circular arrays). In the next release, this plot will be replaced with a comparison against measured RIRs from public datasets such as the ACE Challenge or OpenAIR to verify the acoustic realism of the simulated data.",
+            "chart2": "Example comparison of DRR distributions between two simulated subsets of RIR-Mega (linear and circular arrays). In the next release, this plot will be replaced with a comparison against measured RIRs from public datasets such as the ACE Challenge or OpenAIR to verify the acoustic realism of the simulated data."
+        },
+        "question":"In Chart 1, at approximately what RT60 value does the Linear distribution peak? Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.50,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 50,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.06536v1\\chart1.jpg",
+            "chart2": "2512.06536v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "SINR at the target grid points for processing method: Scenario A1.",
+            "chart2": "SINR at the target grid points for processing method: Scenario E2."
+        },
+        "question":"In Chart 1, how many Target Index values for the configuration “1 Tile, W = 4×4” fall below the detection threshold? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2510.18169v1\\chart1.jpg",
+            "chart2": "2510.18169v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Violin plots showing the relationship between GPT-4o-audio extracted acoustic features and GPT-4.1 generated illness scores. Diamond markers indicate group means, and the width represents the density of observations at that value. Energy levels decline as health worsens.",
+            "chart2": "Violin plots showing the relationship between GPT-4o-audio extracted acoustic features and GPT-4.1 generated illness scores. Diamond markers indicate group means, and the width represents the density of observations at that value.Signs of discomfort/fatigue increase with declining health status."
+        },
+        "question":"Which health level shows the largest interquartile range of Energy in Chart 1? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2510.22258v1\\chart1.jpg",
+            "chart2": "2510.22258v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Normalized Mixed MSE of the left ear for far-field and near-field BSM filters under Field of View weighting, inside the FoV.",
+            "chart2": "Normalized Mixed MSE of the left ear for far-field and near-field BSM filters under Field of View weighting, outside the FoV."
+        },
+        "question":"At 500 Hz in Chart 1, which FF BSM distance yields the lowest MSE value? Respond only with the distance value.",
+        "question_type": "reasoning",
+        "answer": "1.5m",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2510.22588v1\\chart1.jpg",
+            "chart2": "2510.22588v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Distributions of Duration.",
+            "chart2": "Distributions of Number of Words."
+        },
+        "question": "What is the approximate overlapping duration range between “Instruction” and “Response” in Chart 1? Respond with a list [min, max].",
+        "question_type": "reasoning",
+        "answer": [1, 31],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.01428v1\\chart1.jpg",
+            "chart2": "2512.01428v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Symbol Error Rate (SER) for different modulation schemes at infinite Signal-to-Noise Ratio (SNR) (i.e., non-impaired signals).",
+            "chart2": ": Symbol Error Rate (SER) of the proposed model under Middleton Class-A noise for two Γ values with A set for an average 15% symbol-hit rate."
+        },
+        "question":"Which modulation scheme has the third lowest SER in Chart 1? Respond only with the modulation name.",
+        "question_type": "reasoning",
+        "answer": "QAM-4",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 2,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2510.14551v1\\chart1.jpg",
+            "chart2": "2510.14551v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Inference time at different stages for various methods. The results are averaged over five runs. CA denotes ChannelAttention.",
+            "chart2": "Performance comparison of single-channel (Mic-dependent) and multi-channel methods. NSF-1 denotes NOTSOFAR-1 dataset."
+        },
+        "question":"What marker shape is used to represent DER values in Chart 1? Respond only with the marker description.",
+        "question_type": "perceptual",
+        "answer": "cross(x)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2510.23541v2\\chart1.jpg",
+            "chart2": "2510.23541v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Performance of SoulX-Podcast.",
+            "chart2": "Performance of SoulX-Podcast."
+        },
+        "question":"From Chart 1, extract the value of MOSS-TTSD on ZipVoice-Dia-en (cpSIM). Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.7,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.08216v1\\chart1.jpg",
+            "chart2": "2512.08216v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Pretraining strategies performance and robustness evaluation on ID test set. Segmentation metrics (DSC and HD95).",
+            "chart2": "Pretraining strategies performance and robustness evaluation on ID test set. Performance across imaging variations."
+        },
+        "question": "In Chart 1 (HD95 subplot), what is the approximate value indicated by the vertical dashed reference line? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 5.4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 30,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.10506v1\\chart1.jpg",
+            "chart2": "2512.10506v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Experimental results for Datasets 1. Each pair of plots shows the L1 distance (left) and the MRSA distance (right) of the DRS output K ∪ Kadd. For λ > 0, each plot shows the mean of the corresponding distance over 50 realizations of Kadd.",
+            "chart2": "Experimental results for Datasets 2. Each pair of plots shows the L1 distance (left) and the MRSA distance (right) of the DRS output K ∪ Kadd. For λ > 0, each plot shows the mean of the corresponding distance over 50 realizations of Kadd."
+        },
+        "question": "What color is used for the line or marker representing lambda = 100 in the legend of Chart 2? Respond only with the color name.",
+        "question_type": "perceptual",
+        "answer": "yellow",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 32,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.12284v1\\chart1.jpg",
+            "chart2": "2512.12284v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of End-to-End Latency Breakdown",
+            "chart2": "Throughput Comparison versus SOTA LLM Accelerators"
+        },
+        "question": "At which KV Cache Sequence Length region do the annotations “FlexGen”, “InfiniGen”, and “ReKV” appear in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "1k",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 65,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.15189v2\\chart1.jpg",
+            "chart2": "2512.15189v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Convergence of synchronous optimization methods.",
+            "chart2": "Convergence of asynchronous optimization methods."
+        },
+        "question":"What marker shape is used for the “Two-cut” method in Chart 1? Respond only with the marker description.",
+        "question_type": "perceptual",
+        "answer": "Pentagon-shaped marker",
+        "answer_type": "text"
+    }
+]

@@ -1,0 +1,205 @@
+[
+    {
+        "question_id": 8,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.20239v1\\table1.jpg",
+            "table2": "2509.20239v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Results for a Geometric basket Put option",
+            "table2": "Results for a Max-Call option"
+        },
+        "question": "Comparing Table 1 and Table 2, compute the increase in computation time for KRR-DP at dimension d=10. Respond with a single number.",
+        "question_type": "reasoning",
+        "answer": 2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2506.01423v1\\table1.jpg",
+            "table2": "2506.01423v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of Key Metrics in Bank Wire Transfer Processes Before and After GBPAs Optimization",
+            "table2": "Comparison of Key Metrics in Reimbursement Processes Before and After GBPAs Optimization"
+        },
+        "question": "If the Improvement percentages of the End-to-End Time in Table 1 and Table 2 are converted into speed-up values—where speed-up is defined as the time required before optimization divided by the time required after optimization—compute the speed-up for both processes and round each result to two decimal places. Then, report only the larger of the two speed-up values.",
+        "question_type": "reasoning",
+        "answer": 14.12,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 20,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.08467v1\\table1.jpg",
+            "table2": "2509.08467v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of predictive performance on the test set under different noise levels. The best values are bolded",
+            "table2": "Comparison of predictive performance on the test set for the real dataset. The best values are bolded."
+        },
+        "question": "Using Table 1 (Low Noise) and Table 2, compute the average RMSE of the GBM model across the two tables, rounding to two decimals. Respond with a list in the form: [num1, num2]. Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": [2033.16, 37.06],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.15876v1\\table1.jpg",
+            "table2": "2507.15876v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Lower triangle of the correlation matrix between factor portfolios and the SG CTA Trend Index benchmark returns over the evaluation period.",
+            "table2": "Risk and return statistics for trend and market factor portfolios (daily sampling). Bold numbers indicate the best metric in each row."
+        },
+        "question":"Which strategy in Table 1 has the highest correlation with SGCTAT? What is the Sharpe Ratio of that strategy in Table 2? Respond in the format: [strategy, value]. Respond only with the list.",
+        "question_type": "reasoning",
+        "answer": "[MKT+STT+LTT, 0.45]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 43,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.15876v1\\table1.jpg",
+            "table2": "2507.15876v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Lower triangle of the correlation matrix between factor portfolios and the SG CTA Trend Index benchmark returns over the evaluation period.",
+            "table2": "Risk and return statistics for trend and market factor portfolios (daily sampling). Bold numbers indicate the best metric in each row."
+        },
+        "question":"Identify the pair of distinct strategies in Table 1 with the highest correlation. Then, using Table 2, compute the absolute difference between their Sharpe Ratios. Respond only with a positive number.",
+        "question_type": "reasoning",
+        "answer": 0.05,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 52,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2508.02366v3\\table1.jpg",
+            "table2": "2508.02366v3\\table2.jpg"
+        },
+        "caption": {
+            "table1": "EXPERIMENT 2 RESULTS: SHARPE RATIO",
+            "table2": "EXPERIMENT 2 RESULTS: MAXIMUM DRAWDOWN"
+        },
+        "question":"In Table 1 and Table 2, determine whether there exists any ticker that simultaneously satisfies the following two conditions under the LLM+RL method: Its Sharpe Ratio is higher than the LLM+RL Sharpe mean in Table IX; Its Maximum Drawdown is lower than the LLM+RL Drawdown mean in Table X. If such tickers exist, list all of them in the format: [ticker1, ticker2, ...]. If none exist, respond None. Only respond with a list or none.",
+        "question_type": "reasoning",
+        "answer": "[AAPL, AMZN, GOOGL, MSFT]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.08742v1\\table1.jpg",
+            "table2": "2509.08742v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Main Results of Model Accuracy Comparison.",
+            "table2": "Model Prediction Accuracy Across Confidence  Score Groups."
+        },
+        "question": "In Table 2, compute the change from Low (%) to High (%) for each model (i.e., High − Low). Which model shows the largest change, and what is the value of this change? Respond with a single number.",
+        "question_type": "reasoning",
+        "answer": 7.65,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.20239v1\\table1.jpg",
+            "table2": "2509.20239v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Results for a Geometric basket Put option",
+            "table2": "Results for a Max-Call option"
+        },
+        "question": "In Table 1, how does the KRR-DP price change as the dimension d increases? A. Decreases significantly. B. Increases significantly. C. Remains approximately unchanged. D. Increases first and then decreases. Respond only with a letter.",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2506.01423v1\\table1.jpg",
+            "table2": "2506.01423v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of Key Metrics in Bank Wire Transfer Processes Before and After GBPAs Optimization",
+            "table2": "Comparison of Key Metrics in Reimbursement Processes Before and After GBPAs Optimization"
+        },
+        "question": "According to Table 1, the number of Process Nodes decreases after optimization. Calculate the proportion of nodes reduced relative to the original number, rounding the result to two decimal places. Respond only with the numerical value.",
+        "question_type": "reasoning",
+        "answer": 0.31,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.20494v1\\table1.jpg",
+            "table2": "2507.20494v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Average LP behavior metrics across score bins (subset of validation set)",
+            "table2": "Average behavioral metrics across swap score bins"
+        },
+        "question": "Using all Avg Volume values in Table 2, compute their overall average and round the result to two decimal places. Respond only with the final numerical value in k dollars.",
+        "question_type": "reasoning",
+        "answer": 15634.17,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 33,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.07358v1\\table1.jpg",
+            "table2": "2507.07358v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Fair guarantee fees ϕ ∗ (in basis points) with a ratchet under a static and dynamic withdrawal strategy for various marginal tax rates θ and cash account appreciation rates η.",
+            "table2": "Fair guarantee fees ϕ * (in basis points) under a static and dynamic withdrawal strategy for various marginal tax rates θ, when the benefit base is updated by a ratchet mechanism or not and η = 4%"
+        },
+        "question": "In Table 2, for the tax rate θ = 2.5%, compare the Dynamic values under No Cash Fund / No Ratchet and Cash Fund / No Ratchet. What is the difference between the two values? Respond only with the numerical value.",
+        "question_type": "reasoning",
+        "answer": 126.9771,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 51,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.16137v1\\table1.jpg",
+            "table2": "2509.16137v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Validation set negative log-likelihood (NLL) across model architectures and feature sets. The best model for each feature set is italicized; the best overall result is both italicized and bolded.",
+            "table2": "Negative log-likelihood (NLL) on validation and test sets for the best-performing Transformer models and a standard normal baseline. The lowest NLL for each dataset is shown in bold."
+        },
+        "question":"In Table 1, compute the NLL reduction (Basic − Full) for each model. Which model shows the largest decrease in NLL? Provide the model name and the reduction value. Answer format: [model name, value]. Respond only with the list.",
+        "question_type": "reasoning",
+        "answer": "[MLP, 0.0252]",
+        "answer_type": "text"
+    }
+]

@@ -1,0 +1,205 @@
+[
+    {
+        "question_id": 1,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.18593v1\\chart1.jpg",
+            "table1": "2511.18593v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Results: Standard Diffusion (Red) fails. Weighted Diffusion (Green) recovers the topology.",
+            "table1": "Barbell Graph (ρ = 0.50). Standard diffusion fails to capture the bridge. Our Weighted method recovers the performance of the optimal Spectral Oracle."
+        },
+        "question": "Which Signal Proxy is used in Table 1 by the method whose Connectivity is 0% in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "Frequency",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.10087v1\\chart1.jpg",
+            "table1": "2512.10087v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Scaling of Beta distribution parameters with vertex count n. Left: α grows approximately as 4.25n. Center: β grows as 1.78n. Right: Mean normalized volume stabilizes near 0.69 ≈ ln 2.",
+            "table1": "Beta distribution fit parameters for normalized volume V/Vmax."
+        },
+        "question": "Which value matches both the Mean reported in Table 1 for n = 12 and the corresponding data point in the right subplot of Chart 1? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.692,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.12388v1\\chart1.jpg",
+            "table1": "2512.12388v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Effects of Parameter Variationson R0",
+            "table1": "Sensitivity Analysis for the model (5)"
+        },
+        "question": "Extract the height of the red bar in Chart 1. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.5037,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.14590v1\\chart1.jpg",
+            "table1": "2512.14590v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "A log-log plot of the relative max error of the operator images against the average edge length ℎ for a collection of spheres. 𝐹 denotes the discretized boundary-to-far field map",
+            "table1": "Averaged runtimes for 16 simultaneous operator evaluations in seconds with wave number 𝜅 = π. For the evaluation of the far field operator 𝐹, the discretized version of (4) is solved and (5) is evaluated at 2562 evaluation points on S 2 . The relatively long evaluation time for the far field of “Spot” can be explained by bad conditioning of the operator equation (4). The mesh “Spot” is shown in Table 3."
+        },
+        "question": "Which geometric shape appears in both Chart 1 and Table 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "Sphere",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.19465v2\\chart1.jpg",
+            "table1": "2512.19465v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Normalized misinformation (IM) versus the number of edges added per new node (m) in Barabasi–Albert networks with n = 5000 nodes and a delta-distributed true state. Misinformation initially decreases monotonically with increasing m, reflecting the well-known role of hubs in enhancing robustness and stabilizing information flow in scale-free structures. Beyond an intermediate threshold, however, misinformation increases again, indicating a regime in which hub-driven fluctuations accumulate and propagate through the network. In the extremely sparse limit (small m), Barabasi–Albert networks outperform random and small-world networks of comparable density, owing to their highly connected hubs, which act as efficient integrators and provide redundant communication pathways. Shaded regions show the regimes occupied by real-world scale-free networks and their corresponding misinformation levels, based on the comparable connectivity estimates reported in Table 1.",
+            "table1": "Representative biological scale-free networks with example hubs, functional roles relevant to misinformation suppression, and their characteristic degree-distribution exponents γ and approximate Barab´asi–Albert parameter m (⟨k⟩ ≈ 2m). Neuronal ranges vary due to differences in connectome resolution, parcellation, and thresholding across datasets [70–73]."
+        },
+        "question": "Which biological system in Table 1 corresponds to the largest m region in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "Neuronal connectome",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.20268v1\\chart1.jpg",
+            "table1": "2512.20268v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Histogram of priors and posteriors of log hydraulic conductivity for the M = 23 and M = 100 sensor configurations, along with the true values (red)",
+            "table1": "EKI performance versus ensemble size J for two sensor layouts"
+        },
+        "question": "Which sensor configurations appear in both Chart 1 and Table 1? Respond only with a list of integers.",
+        "question_type": "perceptual",
+        "answer": [23, 100],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.03288v1\\chart1.jpg",
+            "table1": "2512.03288v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Convergence of Error Rate. The relative error (Coefficient of Variation) between the signal model count and the theoretical density decays as O(L −1/2 ). This vanishing error rate is the signature of a deterministic system stabilizing as the energy scale increases.",
+            "table1": "Direct verification of Theorem 4.10. The normalized error decays with exponent α ≈ 1.67, exceeding the proven bound α = 1."
+        },
+        "question": "What asymptotic complexity notation appears in the title of Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "O(1)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 6,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.10401v1\\chart1.jpg",
+            "table1": "2512.10401v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Average running times of diffusion resampling and OT",
+            "table1": "The errors of loss function, filtering (scaled by 10−1 ), and parameter estimation (scaled by 10−1 ) for Section 4.2. Divergent NaN results are explained in Appendix H"
+        },
+        "question": "What line style is used for OT (ε = 0.1) in the left subplot of Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "dashed",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 29,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.20019v1\\chart1.jpg",
+            "table1": "2512.20019v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Partial-effect matrix (standardized slopes). Each column varies one knob; each row is a summary statistic. Values quantify cross-effects under mean-degree calibration.",
+            "table1": "Standardized one-at-a-time effects (SD(stat) per SD(knob); extracted from chart1). Bold highlights the intended primary knob for each statistic (diagonal), not necessarily the largest effect."
+        },
+        "question": "How many distinct statistics are shown on the y-axis of Chart 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 31,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.20058v1\\chart1.jpg",
+            "table1": "2512.20058v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Impact of the output subspace dimension Kout on model performance for the high-frequency case k^2 = 10. Increasing the embedding dimension effectively mitigates errors caused by spectral crossing at the boundary of the range of interest.",
+            "table1": "Ablation study and baseline comparison. DEN denotes the proposed model using the POD(Y) basis and low-rank banded mixing. DEN-BFR uses banded mixing without a low-rank constraint. DEN-Dense applies global mixing without banded or low-rank constraints. DEN-Diag removes cross-mode mixing and uses diagonal-only interactions. DEN-XY uses a joint POD basis of inputs and outputs, equivalent to PODNO with mixing. DEN-Lap uses graph Laplacian eigenfunctions as the basis, equivalent to G-FuNK with mixing. PODNO and G-FuNK are standard baselines without mixing mechanisms. FNO denotes the standard Fourier Neural Operator with interpolation."
+        },
+        "question": "What marker shape is used in the ReL1 subplot of Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "square",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 33,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.20247v1\\chart1.jpg",
+            "table1": "2512.20247v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Ornstein–Uhlenbeck process. The figure shows the mean empirical L-infinity error of 30 realizations of the stochastic Koopman approximation as a function of the fill distance. The plots compare constant and adaptive choices of training sample size and regularization parameter. Error bars indicate the standard deviation over the realizations.",
+            "table1": "Adaptive parameters. The table lists the values of fill distance, regularization parameter, and number of training samples used in the adaptive setting for the stochastic Koopman approximation experiments."
+        },
+        "question": "What marker shape is used for the Matérn kernel in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "circle",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.20914v1\\chart1.jpg",
+            "table1": "2512.20914v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Scatterplot comparing the best target MSE achieved by the barycentric method (horizontal axis) and Anchor regression (vertical axis) across all valid source–target covariance pairs. The dashed diagonal marks the line MSEbar = MSEanc. Most points lie above this line, indicating that the barycentric reduction yields lower target error more frequently",
+            "table1": "Number of wins per method (target MSE)."
+        },
+        "question": "What color is the dashed reference line in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "red",
+        "answer_type": "text"
+    }
+]

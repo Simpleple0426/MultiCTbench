@@ -1,0 +1,210 @@
+[
+    {
+        "question_id": 24,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2510.24344v1\\table1.jpg",
+            "table2": "2510.24344v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Voter Turnout in the U.S. Elections by President",
+            "table2": "Voter Turnout in Iran Elections by President"
+        },
+        "question": "Compute the average voter participation rate during S. M. Khatami’s presidency in Table 2. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 73.345,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.13860v1\\table1.jpg",
+            "table2": "2511.13860v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Agent Effect on Performance Metrics",
+            "table2": "Comparison of Email Processing Times"
+        },
+        "question": "Compute the average Factor Increase across all counterfactual scenarios in Table 1. Round to two decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 4.03,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 29,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.22834v1\\table1.jpg",
+            "table2": "2511.22834v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Experimental Design",
+            "table2": "Summary Table: Reporting Accuracy"
+        },
+        "question": "Compute the average of the four Kendall Distance values for SD-WEIGHT in Table 2. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.42,
+        "answer_type": "numeric"
+    },
+
+
+    {
+        "question_id": 33,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.15296v1\\table1.jpg",
+            "table2": "2512.15296v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Parameters for Strong/Weak economies.",
+            "table2": "Parameter configurations for baseline and extreme scenarios."
+        },
+        "question": "Compute the absolute difference in g₀ between the Strong and Weak economies in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.025,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.22917v1\\table1.jpg",
+            "table2": "2512.22917v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Price Increase Leadership by Type",
+            "table2": "Markup Patterns Across Price Tiers"
+        },
+        "question": "Compute the simple average of the quantity-weighted average markups for Salcobrand across all three tiers. Round to three decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.137,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["table1", "table2", "table3", "table4"],
+        "path": {
+            "table1": "2509.18857v1\\table1.jpg",
+            "table2": "2509.18857v1\\table2.jpg",
+            "table3": "2509.18857v1\\table3.jpg",
+            "table4": "2509.18857v1\\table4.jpg"
+        },
+        "caption": {
+            "table1": "Simulation: point estimates (Lee)",
+            "table2": "Simulation: point estimates N=100",
+            "table3": "Simulation Results. DGP = Lee",
+            "table4": "Simulation Results. N = 100"
+        },
+        "question":"In Table 3, compute the coverage variability for each method by taking the difference between the maximum and minimum coverage values across the three sample sizes (N = 50, N = 100, N = 500). Based on this variability measure, identify the method whose coverage is the least stable as the sample size changes. Respond with the method name only.",
+        "question_type": "reasoning",
+        "answer": "rdrobust",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.02705v1\\table1.jpg",
+            "table2": "2510.02705v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Baseline FOMC Effects on Network Connectivity",
+            "table2": "Heterogeneous Effects of FOMC Tone on Network Connectivity"
+        },
+        "question":"In Table 1, what is the sign of the FOMC coefficient at k = 7 ? Respond only with positive or negative.",
+        "question_type": "perceptual",
+        "answer": "negative",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2509.15090v1\\table1.jpg",
+            "table2": "2509.15090v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Synthetic Utility Table 1",
+            "table2": "Synthetic Utility Table 2"
+        },
+        "question": "In Table 1, what is the Alice value for State S2 under Policy C? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.538,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2510.22294v1\\table1.jpg",
+            "table2": "2510.22294v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Self-Flow Rates",
+            "table2": "Team Definition Summary Statistics"
+        },
+        "question": "In Table 2, what is the Standard Deviation of OCC1 per Establishment? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 1.26,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.16760v1\\table1.jpg",
+            "table2": "2511.16760v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "New supervision tool validation",
+            "table2": "New supervision tool validation"
+        },
+        "question": "What is the value of y for the Correlation method in Table 1? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.48,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 31,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.06583v1\\table1.jpg",
+            "table2": "2512.06583v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Random Assignment Results (Mean over 100 simulations)",
+            "table2": "Biased Assignment Results (Mean over 100 simulations)"
+        },
+        "question": "What is the percentage of Correct Classifications for Promotions in Table 1? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 68,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 32,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.15296v1\\table1.jpg",
+            "table2": "2512.15296v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Parameters for Strong/Weak economies.",
+            "table2": "Parameter configurations for baseline and extreme scenarios."
+        },
+        "question": "What are the values of r and σ for the Weak economy in Table 1? Respond only with a list of two numeric values in the order [r, σ].",
+        "question_type": "perceptual",
+        "answer": [0.29, 0.6],
+        "answer_type": "numeric_list"
+    }
+]

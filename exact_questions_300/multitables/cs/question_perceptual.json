@@ -1,0 +1,240 @@
+[
+    {
+        "question_id": 30,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23273v2\\table1.jpg",
+            "table2": "2512.23273v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison with state-of-the-art Nano-scale detectors across five benchmarks.",
+            "table2": "Comparison of classification performance on ImageNet  dataset"
+        },
+        "question": "Extract the KITTI mAP50 of YOLOv11-N from Table 1 and the Top-1 accuracy of YOLOv11-cls-N from Table 2. Respond only with a list of two numeric values.",
+        "question_type": "perceptual",
+        "answer": [89.8, 70.0],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 55,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23667v2\\table1.jpg",
+            "table2": "2512.23667v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Single-view intrinsic decomposition results on HyperSim.",
+            "table2": "Single-view depth estimation results."
+        },
+        "question": "Count the total number of unique methods appearing across Table 1 and Table 2 after removing duplicates. Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 79,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24284v1\\table1.jpg",
+            "table2": "2512.24284v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "QUANTITATIVE COMPARISONS OF DIFFERENT METHODS IN SIMULATED ENVIRONMENTS ACROSS TWO TASKS",
+            "table2": "COMPARISON OF DIFFERENT METHODS IN TERMS OF AVERAGE NAVIGATION COMPLETION TIME WITH VARYING PEDESTRIAN DENSITIES"
+        },
+        "question": "How many times does MMRL appear across Table 1 and Table 2 (counting method rows)? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 91,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24971v1\\table1.jpg",
+            "table2": "2512.24971v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Best and worst values for mCE, Compression Rate (CR), and Accuracy (Acc) on the CIFAR-10 dataset.",
+            "table2": "Best and worst values for mCE, Compression Rate (CR), and Accuracy (Acc) on the CIFAR-100 dataset."
+        },
+        "question": "Report the model names corresponding to “Best mCE” in Table 1 and Table 2, in the order [Table 1, Table 2]. Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[ResNet-50, VGG-19]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 71,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24013v1\\table1.jpg",
+            "table2": "2512.24013v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "COMPARISON OF SEGMENTATION METHODS ON BRAIN LESION DATASETS. OUR MODEL, HILBERTMED-SAM, ACHIEVES NEW SOTA PERFORMANCE",
+            "table2": "COMPARISON OF END-TO-END DIAGNOSTIC CLASSIFICATION METHODS. OUR FULL HILBERT-VLM FRAMEWORK DEMONSTRATES CLEAR SUPERIORITY."
+        },
+        "question": "Extract the Average Dice (%) of HilbertMed-SAM in Table 1 and the ACC (%) of Hilbert-VLM in Table 2. Respond only with a list of numeric values in the order [Table 1, Table 2].",
+        "question_type": "perceptual",
+        "answer": [75.40, 78.85],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.21709v1\\table1.jpg",
+            "table2": "2512.21709v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Training hyperparameters for fine-tuned Bengali AI text detection models. Learning Rate and Batch Size are abbreviated as LR and BS respectively.",
+            "table2": "Performance comparison of zero-shot transformer models for Bengali AI-paraphrased text detection. Acc, Prec, Rec and F1 stand for Accuracy, Precision, Recall and F1 Score (Binary) respectively. Values are presented in percentage."
+        },
+        "question": "What is the Accuracy score in Table 2 of the model with the largest number of epochs in Table 1? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 50.34,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 64,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23852v1\\table1.jpg",
+            "table2": "2512.23852v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance of Trellis and baselines on language modeling and common-sense reasoning tasks.",
+            "table2": "Performance of Trellis and baselines with 1B parameters on S-NIAH task from RULER benchmark. The best results with highest accuracy are highlighted."
+        },
+        "question": "Among the models reporting ARC-e in Table 1, which also appear in Table 2? Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[Mamba2, TTT, Gated DeltaNet, Trellis]",
+        "answer_type": "text"
+    },
+
+
+    {
+        "question_id": 26,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23243v1\\table1.jpg",
+            "table2": "2512.23243v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance of Models on DIOR-RSVG Dataset",
+            "table2": "GPT-4V-Based Performance Evaluation"
+        },
+        "question": "Extract the Accuracy@0.5 of Full-FT in Table 1 and the Detailed Description score of Full-FT in Table 2. Respond only with a list of two numeric values.",
+        "question_type": "perceptual",
+        "answer": [36.31, 6.530],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23232v1\\table1.jpg",
+            "table2": "2512.23232v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Quantitative evaluation (PSNR, LPIPS) of various methods at NFE 100 and 50 for solving linear inverse problems.",
+            "table2": "Quantitative evaluation (PSNR, LPIPS) of various methods at NFE 100 and 50 for solving non-linear inverse problems."
+        },
+        "question": "Extract the PSNR values of DAPS for Gaussian deblur at NFE ≈ 50 in Table 1 and Nonlinear deblurring at NFE ≈ 50 in Table 2. Respond only with a list of two numeric values.",
+        "question_type": "perceptual",
+        "answer": [26.733, 24.277],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 39,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23410v1\\table1.jpg",
+            "table2": "2512.23410v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Hyperparameter Configuration. Specific settings for the Subspace Construction phase (Frozen Backbone). Note the use of higher learning rates for Transformers to adapt the linear head to the fixed manifold.",
+            "table2": "Subspace Classification Results. Comparison of Full Fine-Tuning, Frozen Baseline (Full Dim), and JLL Subspace Projections. Δ denotes the performance difference relative to the Frozen Baseline. Note the stability of accuracy even at high compression rates (e.g., 12x)."
+        },
+        "question": "For the model with the largest number of training epochs in Table 1, extract its Full Fine-Tuning accuracy from Table 2. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 79.95,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 32,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23328v2\\table1.jpg",
+            "table2": "2512.23328v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Pass rates of different agent types across modalities and horizons on CubeBench. Metrics include pass rate (higher is better). Modalities include Full Symbolic, Full Visual, Face View, and Vertex View. Tier 3 denotes the hardest split and is evaluated under two projections: Face View and Vertex View. Horizons include Short (S) and Long (L).",
+            "table2": "Comparison of pass rates for Basic, Standard-Solver, and Ideal-Solver agent configurations. Modalities include Full Symbolic, Full Visual, Face View, and Vertex View. Tier 3 denotes the hardest split and is evaluated under two projections: Face View and Vertex View. Horizons include Short (S) and Long (L)."
+        },
+        "question": "Extract the pass rate of GPT-5 under Face View and Short horizon for reward type face in Table 1, and for Ideal-Solver in Table 2. Respond only with a list of two numeric values.",
+        "question_type": "perceptual",
+        "answer": [0.50, 0.85],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.21706v1\\table1.jpg",
+            "table2": "2512.21706v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance on Synthetic Dataset: Per-class and Overall Metrics, which aggregate performance across all classes within each hierarchy level.",
+            "table2": "GoT pipeline results."
+        },
+        "question": "What is the Macro AUC score reported under Overall (Low) in Table 1? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.915,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.21709v1\\table1.jpg",
+            "table2": "2512.21709v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Training hyperparameters for fine-tuned Bengali AI text detection models. Learning Rate and Batch Size are abbreviated as LR and BS respectively.",
+            "table2": "Performance comparison of zero-shot transformer models for Bengali AI-paraphrased text detection. Acc, Prec, Rec and F1 stand for Accuracy, Precision, Recall and F1 Score (Binary) respectively. Values are presented in percentage."
+        },
+        "question": "Which model in Table 1 uses a sequence length of 128? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "BanglaBERT-Base",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 63,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23813v1\\table1.jpg",
+            "table2": "2512.23813v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Continual Training Hyperparameters",
+            "table2": "Fine-Tuning Hyperparameters"
+        },
+        "question": "What is the final perplexity reported in Table 1? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 5.2,
+        "answer_type": "numeric"
+    }
+]

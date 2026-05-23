@@ -1,0 +1,214 @@
+[
+    {
+        "question_id": 69,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23596v1\\chart1.jpg",
+            "table1": "2512.23596v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Box Plot of Out-of-Sample R2 of ATOMS and Fixed-Window Baselines for 17 Industry Portfolios.",
+            "table1": "Out-of-Sample R2 Averages Across Industries by Time Period"
+        },
+        "question": "Compute the average OOS R² of Fixed-CV across the three recession periods in Table 1. Respond only with a single numeric value rounded to three decimals.",
+        "question_type": "reasoning",
+        "answer": 0.026,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 64,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.17659v1\\chart1.jpg",
+            "table1": "2512.17659v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Final Pareto fronts for each method on the logP–TPSA benchmark (best trial per method). Each point is a non-dominated molecule sampled during optimization. Our method (green) identifies a broader frontier, particularly at high-logP / low-TPSA trade-offs.",
+            "table1": "Final hypervolume values across 5 independent optimization runs for each method on the multi-objective (logP–TPSA) benchmark problem."
+        },
+        "question": "Which method in Chart 1 is primarily concentrated in the logP < 0 region? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "VAE+BO",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 57,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.11526v1\\chart1.jpg",
+            "table1": "2512.11526v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Effect of λCL on MAE (left) and MSE (right) under anomalous conditions for input-only and input-to-output scenarios.",
+            "table1": "Forecasting performance on the Cash Demand dataset. MAE, MSE, and SMAPE (mean over 3 seeds). Δ shows relative improvement (%) of +Co-TSFA over baseline (negative = better). Red indicates equal or improved performance."
+        },
+        "question": "Which model shows the largest SMAPE improvement in Table 1? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "TimesNet",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 51,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.09275v1\\chart1.jpg",
+            "table1": "2512.09275v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Mean Attacked Generalization Gap vs. Context Length (t) under a fixed PGD attack (ε = 0.02).",
+            "table1": "Generalization Gap Comparison across Different Context Lengths t."
+        },
+        "question": "In Table 1, for how many context lengths does RoPE have a smaller Generalization Gap than Without PE? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 72,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2601.00461v1\\chart1.jpg",
+            "table1": "2601.00461v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of the choice of random graph models.",
+            "table1": "Ablation over number of users n (final cumulative regret; mean±SE)."
+        },
+        "question": "At n = 200 in Table 1, which algorithm achieves the smallest mean cumulative regret? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "LK-GP-UCB",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 66,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.19373v1\\chart1.jpg",
+            "table1": "2512.19373v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Root mean square error (RMSE) of the random Fourier feature model as the number of resampling iterations increases.",
+            "table1": "Comparison of training and test RMSE for different models on the California Housing dataset."
+        },
+        "question": "Which model in Table 1 has the smallest reported standard deviation for Test RMSE? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "RFF model",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 1,
+        "items": ["chart1", "chart2", "table1", "table2"],
+        "path": {
+            "chart1": "2511.19039v1\\chart1.jpg",
+            "chart2": "2511.19039v1\\chart2.jpg",
+            "table1": "2511.19039v1\\table1.jpg",
+            "table2": "2511.19039v1\\table2.jpg"
+        },
+        "caption": {
+            "chart1": "Boxplots of log risk ratio error under three RR calculation methods (Mean Prediction, PPI, PPI with Propensity Score Weighting) for Pre-Industrial and SSP5-8.5 End-of-Century conditions.",
+            "chart2": "Estimated risk ratios across extreme fire days for Pre-Industrial and SSP5-8.5 End-of-Century scenarios, with uncertainty ranges shown by horizontal lines.",
+            "table1": "Aggregate risk ratio estimates comparing Pre-Industrial vs Present-Day and Present-Day vs SSP5-8.5 End-of-Century for five machine learning methods.",
+            "table2": "Regret metrics including AUC, Brier Skill Score, and Mean Calibration Error for Pre-Industrial and SSP5-8.5 End-of-Century conditions."
+        },
+        "question": "In the Pre-Industrial panel of chart1, which RR calculation method has a median log risk ratio error closest to zero? A. Mean Prediction B. PPI C. PPI with Propensity Score Weighting Respond only with the choice.",
+        "question_type": "perceptual",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.19075v1\\chart1.jpg",
+            "table1": "2511.19075v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Line chart of Label Transfer Accuracy versus Iteration for four λ settings (+inf, 1.3, 1.5, 1.0).",
+            "table1": "Table of Label Transfer Accuracy (LTA) for different λ values under Subsampled scGEM and Full scGEM."
+        },
+        "question": "According to table1, what is the LTA value for λ = 1.3 under Full scGEM? Answer only with the numeric value.",
+        "question_type": "perceptual",
+        "answer": "0.689",
+        "answer_type": "numeric"
+    },
+
+
+    {
+        "question_id": 8,
+        "items": ["chart1", "chart2", "table1"],
+        "path": {
+            "chart1": "2511.19574v1\\chart1.jpg",
+            "chart2": "2511.19574v1\\chart2.jpg",
+            "table1": "2511.19574v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Heatmap of pairwise relative risk comparisons among ACE variables, where red indicates statistically significant cases where row variable has higher risk than column variable.",
+            "chart2": "Bar chart showing relative risk uplift (RR − 1) for each ACE variable, ordered from highest to lowest.",
+            "table1": "Definitions and encoding methods for collapsed ACE items used in the analysis."
+        },
+        "question": "Based on table1, what is the encoding method used for the ACE variable 'ACEPRISN'? Answer only with the encoding method.",
+        "question_type": "perceptual",
+        "answer": "'Yes' encoded as 1, 'No' encoded as 0",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 11,
+        "items": ["chart1", "table1", "table2"],
+        "path": {
+            "chart1": "2511.20183v1\\chart1.jpg",
+            "table1": "2511.20183v1\\table1.jpg",
+            "table2": "2511.20183v1\\table2.jpg"
+        },
+        "caption": {
+            "chart1": "Calibration curves (CICPα and PICPα) for MF-GP, HF-only-GP, and LF models, with ideal target shown as a dashed line.",
+            "table1": "Mean CICPα values for MF-GP, HF-only-GP, and MF-PCE models at different target α levels.",
+            "table2": "Mean PICPα values for MF-GP, HF-only-GP, and MF-PCE models at different target α levels."
+        },
+        "question": "According to table1, for target α = 0.9 and σ²ε,H = 0.083, which model has the highest mean CICP value? Answer only with the model name.",
+        "question_type": "perceptual",
+        "answer": "MF-PCE",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 39,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.12343v1\\chart1.jpg",
+            "table1": "2511.12343v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Line plot of autocorrelation function (ACF) versus lag index for five methods: TV-SPA, RED-RPnP-ULA, BSD-RPnP-ULA, RED-HRLwSGS, and BSD-HRLwSGS. The x-axis is lag (0–100) and the y-axis is ACF.",
+            "table1": "Table reporting denoising experiment results with mean and standard deviation for PSNR (dB), SSIM, and LPIPS for multiple methods including TV-SPA, RED-RPnP-ULA, BSD-RPnP-ULA, RED-HRLwSGS, and BSD-HRLwSGS."
+        },
+        "question": "According to table1, what is the Coverage (%) of PLMI for parameter β1 when r = 1? Answer with a single numeric value from the table.",
+        "question_type": "perceptual",
+        "answer": 82.8,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 58,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.11779v1\\chart1.jpg",
+            "table1": "2512.11779v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Illustration of the estimation of ERT for different classifiers as a number of sampled data available. physiochemical_protein dataset.",
+            "table1": "ERT recovered by different methods, relative to the highest value among all methods and number of samples, averaged over all number of test samples and datasets. Experiments are repeated 10 times, and the index number is the standard deviation across those 10 experiments."
+        },
+        "question": "How many classifiers are shown in the legend of Chart 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 7,
+        "answer_type": "numeric"
+    }
+]

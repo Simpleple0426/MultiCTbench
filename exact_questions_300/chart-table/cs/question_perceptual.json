@@ -1,0 +1,324 @@
+[
+    {
+        "question_id": 4,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.09525v1\\chart1.jpg",
+            "table1": "2509.09525v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Relative cost of Serverless (C_s) compared with LLM (C_LLM).",
+            "table1": "The LLM token usage in representative agents."
+        },
+        "question": "For the agent whose GPT-4.1-mini relative cost is approximately 11% in Chart 1, what is its Input Tok value in Table 1? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 75121,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 50,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.21028v1\\chart1.jpg",
+            "table1": "2512.21028v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "New passing (solid) and failing (transparent) tests across models and prompting strategies compared to the baseline.",
+            "table1": "Pass@1 and Pass@5 results for different prompting strategies across models"
+        },
+        "question": "How many prompting strategies appear in both Chart 1 and Table 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 134,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23961v1\\chart1.jpg",
+            "table1": "2512.23961v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparisons of performance among 5 categories. Baseline in blue color, no KYC in orange color, basic KYC in green color, advanced KYC in red color and advanced KYC and circles in purple color respectively.",
+            "table1": "nDCG@1 Performances Among Comparison of Recommendation Systems."
+        },
+        "question": "What is the column name in Table 1 corresponding to the purple-colored method in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "Ours (Adv. KYC + Circles)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 145,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24243v1\\chart1.jpg",
+            "table1": "2512.24243v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of event-image fusion segmentation methods in terms of mIoU (%), Parameters (M), and multiply-accumulate operations (G).",
+            "table1": "Model complexity on DDD17 dataset.Model complexity on DDD17 dataset."
+        },
+        "question": "What approximate Params (M) value in Table 1 corresponds to the largest bubble category in Chart 1? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 66.56,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 25,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.11885v1\\chart1.jpg",
+            "table1": "2511.11885v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Flash-Fusion Latency versus LLM Only. Flash-Fusion cuts query latency by 95% compared to the LLM Only baseline across five queries. Its single condensed API call replaces six sequential calls for chunk processing and synthesis. Whiskers show the minimum and maximum latencies over three query runs.",
+            "table1": "Cost and Token Comparison. Flash-Fusion reduces total token usage (input + output) and API costs by over 98% on average across all queries."
+        },
+        "question": "Under the Flash-Fusion configuration, extract the following values for the Moderate Behavior query from Chart 1 and Table 1: The latency value in seconds from Chart 1 The token count from Table 1 Organize the results into a list in the form [Latency, Tokens]. Respond only with the list.",
+        "question_type": "perceptual",
+        "answer": [0.22, 384],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 81,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23176v1\\chart1.jpg",
+            "table1": "2512.23176v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "3D Detection Performance on ScanNetV2 with varying test views. We plot mAP@0.25 (top) and mAP@0.50 (bottom) against the number of input views ranging from 5 to 70. GVSynergy-Det (red line) consistently outperforms competing methods, demonstrating superior robustness particularly in sparse-view scenarios.",
+            "table1": "3D Detection Performance with Different Testing Views on the ScanNetV2 dataset. 20 views are used for training for all approaches."
+        },
+        "question": "How many methods appear in both Chart 1 and Table 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 62,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.21781v1\\chart1.jpg",
+            "table1": "2512.21781v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution of the 170 manually analyzed tools across Open-source vs. Proprietary. DualFormat tools support both formats.",
+            "table1": "The Pearson residuals and contribution proportion (%) comparison between the use cases of SPDX, CycloneDX, and dual-format (DF) SBOM tools."
+        },
+        "question": "Identify the use case with the highest DualFormat percentage in Chart 1, then report its DF (%) from Table 1. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 4.239,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 122,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23686v1\\chart1.jpg",
+            "table1": "2512.23686v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Top-5 entity types by domain. Each bar reports within-domain percentage for the five most frequent entity types in Finance, Medicine, Legal, and Technology. The concentration of domain-critical categories motivates entity-centric evaluation alongside conventional WER.",
+            "table1": "SER on ProfASR-Bench. Lower is better. Note the trade-off vs. WER: Qwen yields many perfect utterances (low SER) but a higher average edit rate (WER)."
+        },
+        "question": "Report the number of entity types in the Legal domain of Chart 1 and the number of model values in the Legal row of Table 1. Respond only with a list of two integers in the format [Chart, Table].",
+        "question_type": "perceptual",
+        "answer": [5, 4],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 60,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.21653v1\\chart1.jpg",
+            "table1": "2512.21653v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Bitrate–quality trade-off of SemDAC versus DAC, evaluated with PESQ and WER.",
+            "table1": "Objective evaluation of the proposed codec at varying bitrates, compared with competing approaches."
+        },
+        "question": "Which Opus bitrate in Table 1 is the lowest and comparable to the low-bitrate region in Chart 1? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 115,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23545v1\\chart1.jpg",
+            "table1": "2512.23545v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Qualitative Results on Nuclear Grading from TCGA-RCC.",
+            "table1": "Overall performance on four datasets covering three fine-grained tasks. NG: nuclear grading. P.Acc: primary accuracy. C.Acc: combined accuracy. Prec.: precision. Rec.: Recall. Bold suggests the best performance and italic suggests the second."
+        },
+        "question": "Compute the sum of the number of cases shown in Chart 1 and the number of task categories in Table 1. Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 12,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.15755v1\\chart1.jpg",
+            "table1": "2510.15755v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Task preemption effectiveness. FCFS shows the worst case when tasks are deployed in the x-axis order, which lets low-priority tasks occupy FPGAs.",
+            "table1": "Execution time and priority in each scenario."
+        },
+        "question": "For applications labeled as Short in Table 1, how many bars do they correspond to in Chart 1(a) across all scheduling policies? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 12,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 138,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23988v1\\chart1.jpg",
+            "table1": "2512.23988v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Statistics of reasoning behavior shifts induced by SAE column interventions are reported across different models and tasks, where the SAE columns are consistent across tasks.",
+            "table1": "Generalization of SAE columns under domain shift. The SAE columns are learned from the MATH500 dataset and applied to other domains."
+        },
+        "question": "What color represents the Positive steering condition in Chart 1? Respond only with a single color name.",
+        "question_type": "perceptual",
+        "answer": "light orange",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 52,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.21332v1\\chart1.jpg",
+            "table1": "2512.21332v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "MTEB-Code leaderboard. C2LLM-7B ranks 1st among all models, surpasssing the best closed-source models, while C2LLM-0.5B ranks 1st among models with less than 1B parameters, and 6th overall.",
+            "table1": "Top 10 models on the MTEB-Code leaderboard as of the submission date (2025-12-25). “NA” in the model size column indicates closed-source model whose size is not available."
+        },
+        "question": "English: In Table 1, how many evaluation task columns are listed excluding Model, Size, Avg, and Rank? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 8,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 157,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24565v1\\chart1.jpg",
+            "table1": "2512.24565v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Evaluation Results of TFS and TEFS.",
+            "table1": "TFS avg@4 by Task Category"
+        },
+        "question": "In Table 1, what is the value of qwen3-235b-a22b-instruct-2507 under Professional – Multi? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 31.94,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 164,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24731v1\\chart1.jpg",
+            "table1": "2512.24731v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The relationship of Instruction Adherence (x-axis) plotted against Audio–Visual Coherence (y-axis) of models shows Visual Dominance Bias.",
+            "table1": "Main Evaluation Results with metrics for Controllability (TempCtl: Temporal Controllability, TimbCtl: Timbre Controllability, VolCtl: Volume Controllability), Audio quality (PQ: Production Quality, PC: Production Complexity, CE: Content Enjoyment, CU: Content Usefulness), and human evaluation (Instr.: Instruction Adherence, A–V Coh.: Audio–Visual Coherence, Qual.: Perceptual Quality). The best-performing value per metric is bolded, and the second-best value is underlined."
+        },
+        "question": "How many elliptical highlight regions are shown in Chart 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 1,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 109,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23485v1\\chart1.jpg",
+            "table1": "2512.23485v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Training loss curves of different LoRA methods and full fine-tuning on Cars. The shaded areas in the figure represent the error bounds of different methods. We randomly sample five seed values.",
+            "table1": "Performance comparison of RoBERTa-large with different methods on 7 GLUE tasks. The symbol † indicates that the results are taken from Fan et al. (2025)."
+        },
+        "question": "How many methods in Table 1 are marked with the † symbol? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 2,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2508.08438v1\\chart1.jpg",
+            "table1": "2508.08438v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Normalized performance of TTFT between SGLang (global-sharing) and Cache-Partition (isolated-per-user).",
+            "table1": "Intra-session and inter-session KV-cache reuse rates across different datasets."
+        },
+        "question": "What colors are used in Chart 1 to represent SGLang and Cache-Partition? Respond only with a list of strings in the order [SGLang, Cache-Partition].",
+        "question_type": "perceptual",
+        "answer": "[orange, green]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 172,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.25000v1\\chart1.jpg",
+            "table1": "2512.25000v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "AF PERFORMANCE ON TRAINING ORDER-1.",
+            "table1": "Performance Comparison of existing methods."
+        },
+        "question": "How many methods are listed as rows in Table 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 8,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 168,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24885v1\\chart1.jpg",
+            "table1": "2512.24885v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Experimental results on CaSiNo. Each experiment is performed for three times except for those with GPT-4 backbone.",
+            "table1": ": Experimental results on Conditional Keeper-Burglar Game (CKBG) dataset. All experiments are performed three times and we report the mean."
+        },
+        "question": "How many backbone models are reported as columns in Table 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 7,
+        "answer_type": "numeric"
+    }
+]

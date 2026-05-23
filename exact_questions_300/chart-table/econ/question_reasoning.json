@@ -1,0 +1,224 @@
+[
+    {
+        "question_id": 23,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2510.16021v2\\chart1.jpg",
+            "table1": "2510.16021v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Profit uplift relative to spot-only, mean trade counts, and 5% CVaR across the evaluated scenarios. Error bars denote 95% confidence intervals.",
+            "table1": "Out-of-sample comparison for the feature-driven RL policy (FDRL). Profits and CVaR are in thousands of euros; 95% CIs correspond to half-widths across five seeds."
+        },
+        "question": "In chart1, identify the scenarios with the highest and lowest trade counts. Using the trade count values of these scenarios from table1, calculate the difference. Respond only with a single number.",
+        "question_type": "reasoning",
+        "answer": 26,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["table1", "chart1", "chart2"],
+        "path": {
+            "table1": "2511.16932v1\\table1.jpg",
+            "chart1": "2511.16932v1\\chart1.jpg",
+            "chart2": "2511.16932v1\\chart2.jpg"
+        },
+
+        "caption": {
+            "table1": "Comparison of government expenditures under different strategies.",
+            "chart1": "Allocation of government expenditures by component under various vaccination strategies.",
+            "chart2": "Comparison of policy expenditures on cost components during disease progression."
+        },
+        "question":"Using the values in table, determine which strategy has the largest proportion of this diagonally-hatched segment relative to its total bar height. Respond only the name of the strategy, such as Actual vaccination.",
+        "question_type": "reasoning",
+        "answer": "No vaccination",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 2,
+        "items": ["table1", "chart1", "chart2"],
+        "path": {
+            "table1": "2511.16932v1\\table1.jpg",
+            "chart1": "2511.16932v1\\chart1.jpg",
+            "chart2": "2511.16932v1\\chart2.jpg"
+        },
+
+        "caption": {
+            "table1": "Comparison of government expenditures under different strategies.",
+            "chart1": "Allocation of government expenditures by component under various vaccination strategies.",
+            "chart2": "Comparison of policy expenditures on cost components during disease progression."
+        },
+        "question":"How much higher is the yellow bar than the light-blue bar? Use the values in table, and respond only with the numerical value.",
+        "question_type": "reasoning",
+        "answer": 4.76,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["table1", "chart1"],
+        "path": {
+            "table1": "2511.14133v1\\table1.jpg",
+            "chart1": "2511.14133v1\\chart1.jpg"
+        },
+
+        "caption": {
+            "table1": "Sup-norm error summary for Cox and Aalen DGPs. Reported are mean ± standard deviation across simulations.",
+            "chart1": "SSC sup-norm errors across sample sizes. Distribution of sup-norm estimation errors for SSC under Cox and Aalen DGPs over 20 simulations each. Errors decrease rapidly with increasing sample size K, and variability contracts accordingly"
+        },
+        "question":"Under the Cox DGP, as the sample size K increases from 100 to 700, how do the median and the mean of the SSC sup-norm error change? A. Both the median and the mean decrease as K increases. B. The median decreases, but the mean increases as K increases. C. The median increases, but the mean decreases as K increases. D. Both the median and the mean increase as K increases. Respond only with the choice. ",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 9,
+        "items": ["table1", "chart1", "chart2"],
+        "path": {
+            "table1": "2511.04935v1\\table1.jpg",
+            "chart1": "2511.04935v1\\chart1.jpg",
+            "chart2": "2511.04935v1\\chart2.jpg"
+        },
+
+        "caption": {
+            "table1": "Word Count Statistics by Dataset",
+            "chart1": "Mean Number of Words in Filings Over Time",
+            "chart2": "Median Number of Words in Filings Over Time"
+        },
+        "question":"Using the mean reported in table1 for the corresponding dataset, determine the first year in which the orange series in chart1 exceeds that mean reported in table1. Respond only with the year.",
+        "question_type": "reasoning",
+        "answer": 2004,
+        "answer_type": "numeric"
+    },
+
+
+    {
+        "question_id": 11,
+        "items": ["table1", "chart1"],
+        "path": {
+            "table1": "2510.26810v1\\table1.jpg",
+            "chart1": "2510.26810v1\\chart1.jpg"
+        },
+
+        "caption": {
+            "table1": "Spatial Heterogeneity: Urban vs Rural Respond Times",
+            "chart1": "Urban vs Rural Respond Time Patterns"
+        },
+        "question":"In table1, the difference between urban and rural 8-minute coverage rates is only 0.5 percentage points. Which panel in chart1 best shows that this difference is negligible?A. Top-left panel (geographic distribution)B. Top-right panel (Respond time distribution)C. Bottom-left panel (coverage curves) D. Bottom-right panel (incident urgency distribution). Respond only with the option, such as A.",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.01597v1\\chart1.jpg",
+            "table1": "2511.01597v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Mean second-order belief by presentation form with 95% CI",
+            "table1": "Frequency of categories in which sellers justified their choices"
+        },
+        "question": "Compute the average percentage of the “Other” category across the four presentation forms (excluding All) in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 15.85,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 1,
+        "items": ["table1", "chart1", "chart2"],
+        "path": {
+            "table1": "2511.16932v1\\table1.jpg",
+            "chart1": "2511.16932v1\\chart1.jpg",
+            "chart2": "2511.16932v1\\chart2.jpg"
+        },
+
+        "caption": {
+            "table1": "Comparison of government expenditures under different strategies.",
+            "chart1": "Allocation of government expenditures by component under various vaccination strategies.",
+            "chart2": "Comparison of policy expenditures on cost components during disease progression."
+        },
+        "question":"Using only the values in table, check whether the ordering of the three cost categories (policy cost, healthcare cost, and economic cost) within each strategy follows the same ranking pattern across all four strategies. If the within-strategy cost ranking is identical for all strategies, list that ranking from highest to lowest， e.g. Healthcare, Economi, Policy. If the rankings differ across strategies, respond with “no.” Output only the required answer.",
+        "question_type": "reasoning",
+        "answer": "Economic, Healthcare, Policy",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["table1", "chart1", "chart2"],
+        "path": {
+            "table1": "2510.16886v1\\table1.jpg",
+            "chart1": "2510.16886v1\\chart1.jpg",
+            "chart2": "2510.16886v1\\chart2.jpg"
+
+        },
+
+        "caption": {
+            "table1": "Estimation times (in seconds) for LMDC’s synthetic datasets.",
+            "chart1": "Estimation times (in seconds) for LMDC’s synthetic data, comparing NFXP and ECP. Each dataset is identified by the number of alternatives (#alt) and the corresponding [L,U] range.",
+            "chart2": "Estimation times (in seconds) for LMDC’s synthetic data as a function of the number of parameters."
+        },
+        "question":"Assume that the system’s computational budget requires the estimation method to run within 1 second. Based on table 1, which alt–[L,U] combinations cannot use NFXP? Provide all combinations in the format: alt = X, [L,U] = [a,b]，alt = X, [L,U] = [a,b]...",
+        "question_type": "reasoning",
+        "answer": "alt = 30, [L,U] = [0,20], alt = 50, [L,U] = [0,20], alt = 50, [L,U] = [0,30]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2509.11501v1\\chart1.jpg",
+            "table1": "2509.11501v1\\table1.jpg"
+        },
+        "caption": {
+            "table1": "Event-Study Difference-in-Differences: Wage Effects",
+            "chart1": "Event Study: Impact of Hurricane Harvey on Construction Sector Wages"
+        },
+        "question":"Using the coefficient values in Table 1, compute the following two increases: The increase from quarter 1 → quarter 2. The increase from quarter 2 → quarter 3. Respond in the format: [increase1, increase2]. Respond only with the list.",
+        "question_type": "reasoning",
+        "answer": "[0.0518, -0.0135]",
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.12289v2\\chart1.jpg",
+            "table1": "2510.12289v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Spatial decay of NO₂ concentrations around coal power plants from 2019 to 2021, comparing parametric exponential and nonparametric kernel regression estimates, with MAE reported.",
+            "table1": "Prediction Accuracy: Parametric vs Nonparametric"
+        },
+        "question": "Which year shows the smallest gap between Parametric and Nonparametric curves in the 20–50 km range in Chart 1? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": 2021,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 11,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2509.11501v1\\chart1.jpg",
+            "table1": "2509.11501v1\\table1.jpg"
+        },
+        "caption": {
+            "table1": "Event-Study Difference-in-Differences: Wage Effects",
+            "chart1": "Event Study: Impact of Hurricane Harvey on Construction Sector Wages"
+        },
+        "question":"Using the chart1, check whether the coefficients for quarters 5–9 all fall within the interval [0.03, 0.07]. If yes, respond only with yes; if not, respond with the quarter number(s) outside the interval, Respond only with the number.",
+        "question_type": "reasoning",
+        "answer": "8",
+        "answer_type": "numeric"
+    }
+]

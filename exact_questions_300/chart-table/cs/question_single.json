@@ -1,0 +1,273 @@
+[
+    {
+        "question_id": 60,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.21653v1\\chart1.jpg",
+            "table1": "2512.21653v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Bitrate–quality trade-off of SemDAC versus DAC, evaluated with PESQ and WER.",
+            "table1": "Objective evaluation of the proposed codec at varying bitrates, compared with competing approaches."
+        },
+        "question": "Compute the relative decrease in WER of Opus from 3 kbps to 6 kbps in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.389,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.15039v1\\chart1.jpg",
+            "table1": "2512.15039v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Progressive enhancement path",
+            "table1": "COMPONENT-WISE CONTRIBUTIONS."
+        },
+        "question": "What fraction of nodes in Chart 1 have F1 scores greater than 0.9? Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.13059v1\\chart1.jpg",
+            "table1": "2511.13059v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Overall caching speedups across systems for Redbench (generation-based, matching-based) and a traditional benchmark baseline (JOB & CEB). Traditional benchmarks show no speedup (misleadingly), suggesting that caching is ineffective. On the same systems, Redbench workloads reveal substantial caching potential: generation-based yields moderate, trace-faithful improvements (1.10–2.00×), while matching-based demonstrates upper-bound caching effects (12.2–98×) due to higher repetition density.",
+            "table1": "Query Repetition Rate (QRR) and Scan-set Repetition Rate (SRR) denote the fraction of SELECT queries that repeat previous queries (QRR) or scan-sets (SRR). QRR_DML and SRR_DML indicate DML-aware repetition rates. Generation-based synthesis closely matches the original Redset trace, while matching-based synthesis produces higher repetition due to reusing a limited query pool. The baseline fails to capture realistic repetition patterns."
+        },
+        "question": "From Chart 1, extract the speedup value of Redbench (Matching) under SELECT + DML for System D. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 2.11,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 149,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24330v1\\chart1.jpg",
+            "table1": "2512.24330v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Overall performance of SenseNova-MARS-8B across six benchmarks, outperforming other models on search-oriented and high-resolution perception tasks.",
+            "table1": "Performance on visual understanding benchmarks"
+        },
+        "question": "Which model ranks second on HR-Bench 8K in Table 1? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "DeepEyesV2",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.11481v1\\chart1.jpg",
+            "table1": "2511.11481v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The figure above shows the weight allocation for the equal weights portfolio and the DRL portfolio, which rebalances the weights at each time step or when it iterates using a policy that maximizes the portfolio’s cumulative value.",
+            "table1": "Covariance Matrix for Optimal Assets"
+        },
+        "question": "Compute the ratio of the maximum to the minimum covariance value in Table 1. Respond only with a single numeric value (round to three decimals).",
+        "question_type": "reasoning",
+        "answer": 7.568,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 162,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24665v1\\chart1.jpg",
+            "table1": "2512.24665v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Performance comparison between Saliency and Random selection methods.",
+            "table1": "Performance comparison under other defense mechanisms."
+        },
+        "question": "Compute the average ASR under the OD defense for ACM in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.8858,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 74,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.22627v1\\chart1.jpg",
+            "table1": "2512.22627v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The performance of our approach with different numbers of maximum correction rounds MCR = {1, 2, 3, 4, 5, 10} on the TMQA dataset.",
+            "table1": "Performance comparison of baselines and existing TSQA methods on benchmark datasets."
+        },
+        "question": "Compute the average Accuracy across all four tasks at MCR = 3 in Chart 1. Round to three decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.623,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2508.08438v1\\chart1.jpg",
+            "table1": "2508.08438v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Normalized performance of TTFT between SGLang (global-sharing) and Cache-Partition (isolated-per-user).",
+            "table1": "Intra-session and inter-session KV-cache reuse rates across different datasets."
+        },
+        "question": "Compute the arithmetic mean of the Intra-User Reuse percentages in Table 1. Respond only with a single numeric value (round to two decimals).",
+        "question_type": "reasoning",
+        "answer": 12.84,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 138,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23988v1\\chart1.jpg",
+            "table1": "2512.23988v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Statistics of reasoning behavior shifts induced by SAE column interventions are reported across different models and tasks, where the SAE columns are consistent across tasks.",
+            "table1": "Generalization of SAE columns under domain shift. The SAE columns are learned from the MATH500 dataset and applied to other domains."
+        },
+        "question": "What color represents the Positive steering condition in Chart 1? Respond only with a single color name.",
+        "question_type": "perceptual",
+        "answer": "light orange",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 52,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.21332v1\\chart1.jpg",
+            "table1": "2512.21332v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "MTEB-Code leaderboard. C2LLM-7B ranks 1st among all models, surpasssing the best closed-source models, while C2LLM-0.5B ranks 1st among models with less than 1B parameters, and 6th overall.",
+            "table1": "Top 10 models on the MTEB-Code leaderboard as of the submission date (2025-12-25). “NA” in the model size column indicates closed-source model whose size is not available."
+        },
+        "question": "English: In Table 1, how many evaluation task columns are listed excluding Model, Size, Avg, and Rank? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 8,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 157,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24565v1\\chart1.jpg",
+            "table1": "2512.24565v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Evaluation Results of TFS and TEFS.",
+            "table1": "TFS avg@4 by Task Category"
+        },
+        "question": "In Table 1, what is the value of qwen3-235b-a22b-instruct-2507 under Professional – Multi? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 31.94,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 164,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24731v1\\chart1.jpg",
+            "table1": "2512.24731v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The relationship of Instruction Adherence (x-axis) plotted against Audio–Visual Coherence (y-axis) of models shows Visual Dominance Bias.",
+            "table1": "Main Evaluation Results with metrics for Controllability (TempCtl: Temporal Controllability, TimbCtl: Timbre Controllability, VolCtl: Volume Controllability), Audio quality (PQ: Production Quality, PC: Production Complexity, CE: Content Enjoyment, CU: Content Usefulness), and human evaluation (Instr.: Instruction Adherence, A–V Coh.: Audio–Visual Coherence, Qual.: Perceptual Quality). The best-performing value per metric is bolded, and the second-best value is underlined."
+        },
+        "question": "How many elliptical highlight regions are shown in Chart 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 1,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 109,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23485v1\\chart1.jpg",
+            "table1": "2512.23485v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Training loss curves of different LoRA methods and full fine-tuning on Cars. The shaded areas in the figure represent the error bounds of different methods. We randomly sample five seed values.",
+            "table1": "Performance comparison of RoBERTa-large with different methods on 7 GLUE tasks. The symbol † indicates that the results are taken from Fan et al. (2025)."
+        },
+        "question": "How many methods in Table 1 are marked with the † symbol? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 2,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2508.08438v1\\chart1.jpg",
+            "table1": "2508.08438v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Normalized performance of TTFT between SGLang (global-sharing) and Cache-Partition (isolated-per-user).",
+            "table1": "Intra-session and inter-session KV-cache reuse rates across different datasets."
+        },
+        "question": "What colors are used in Chart 1 to represent SGLang and Cache-Partition? Respond only with a list of strings in the order [SGLang, Cache-Partition].",
+        "question_type": "perceptual",
+        "answer": "[orange, green]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 172,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.25000v1\\chart1.jpg",
+            "table1": "2512.25000v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "AF PERFORMANCE ON TRAINING ORDER-1.",
+            "table1": "Performance Comparison of existing methods."
+        },
+        "question": "How many methods are listed as rows in Table 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 8,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 168,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24885v1\\chart1.jpg",
+            "table1": "2512.24885v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Experimental results on CaSiNo. Each experiment is performed for three times except for those with GPT-4 backbone.",
+            "table1": ": Experimental results on Conditional Keeper-Burglar Game (CKBG) dataset. All experiments are performed three times and we report the mean."
+        },
+        "question": "How many backbone models are reported as columns in Table 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 7,
+        "answer_type": "numeric"
+    }
+]

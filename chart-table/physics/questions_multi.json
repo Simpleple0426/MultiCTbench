@@ -1,0 +1,914 @@
+[
+    {
+        "question_id": 1,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.18758v1\\chart1.jpg",
+            "table1": "2509.18758v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "In-degree and Out-degree distributions generated for Erdős–Rényi (ER) and Scale-Free (SF) network topologies with varying minimum out-degree values (k₀).",
+            "table1": "Total Number of Links for Each Generated Network Across Different Minimum Out-degree Values (k₀)."
+        },
+        "question": "Both Chart 1 and Table 1 use k₀ as a key parameter. List all k₀ values that appear in both. Respond only with a list of integers.",
+        "question_type": "perceptual",
+        "answer": [1, 2, 3, 4, 5],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 2,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.12614v1\\chart1.jpg",
+            "table1": "2510.12614v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Iₘₐₓ as a function of the exact R₀, denoted as ρ, given by Eq. (23). Both layers of the network have a Poisson degree distribution. In each considered scenario, all the parameters of the system are fixed except for one, which varies in a certain range (see Table 1 for details).",
+            "table1": "Parameters used in each curve shown in Fig. 2. Both layers of the network have a Poisson degree distribution with mean λ₁ and λ₂ respectively."
+        },
+        "question": "How many curves in Chart 1 correspond to scenarios where β₂ is fixed at 0.025 in Table 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 6,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.14440v2\\chart1.jpg",
+            "table1": "2510.14440v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Relative error of the Bayesian fit model for three cases using reduced datasets, where activity data points from pairs of foils are removed simultaneously from the high- and low-energy ends of the stack. Dashed lines represent the relative errors obtained with all available foils. The relative errors of the ‘After Scatterer’ (②) and ‘STS Energy’ (④) measurements are nearly identical, with their respective dashed lines almost entirely overlapping.",
+            "table1": "Comparison of best-fit energy parameters obtained when using the two different natTi(p,x)⁴⁸V cross-sections from Figure 6 as input to the Bayesian model."
+        },
+        "question": "Considering both Chart 1 and Table 1, which measurement shows the lowest relative error at high sample sizes and also has a Custom Fit uncertainty below 0.1 MeV? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "BTL Energy",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.16312v1\\chart1.jpg",
+            "table1": "2510.16312v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "erformance of precision and σₛ in real networks. Different colored circles represent different real networks, and the size of each circle is proportional to the network predictability σₛ. The x-axis represents the value of σₛ, and the y-axis represents the Max Precision of link prediction algorithms—the higher the value, the better the algorithm’s maximum accuracy. Source: The figure is reproduced from Ref. [252].",
+            "table1": "Precisions of link prediction algorithms in real networks. Source: The table is reproduced from Ref. [252]."
+        },
+        "question": "How many networks in Chart 1 with x ≈ 1.0 have σₛ ≥ 0.998 in Table 1? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 6,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.22848v1\\chart1.jpg",
+            "table1": "2510.22848v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Training performance of NASP–PINN under different loss configurations. Shown are NRMSE curves for four variants: data only (red), data+ic+Phy1 (yellow), data+Phy2 (blue), and data+ic+Phy1+Phy2 (green). Physics-informed terms (Phy1, Phy2) accelerate convergence and reduce error, with the full model achieving fastest convergence and the smallest generalization gap, and most stable training.",
+            "table1": "NRMSE for NASP variants under different loss combinations."
+        },
+        "question": "Between the two models with identical Test NRMSE in Table 1, which one converges faster in Chart 1? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Data + ic + Phy1",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 6,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.00044v2\\chart1.jpg",
+            "table1": "2511.00044v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "ReLaX-Net performance on MNIST image classification: impact of changing the number of weights (Lw) on error rate or test loss and parameter footprint, with the number of layers fixed.",
+            "table1": "SVHN classification performance comparison: accuracy and parameter composition of ReLaX-Net and baseline models."
+        },
+        "question": "What datasets are used in Chart 1 and Table 1 respectively? Respond only with a list of two strings in the order [Chart1, Table1].",
+        "question_type": "perceptual",
+        "answer": "[MNIST, SVHN]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["chart1","chart2", "table1"],
+        "path": {
+            "chart1": "2511.01075v1\\chart1.jpg",
+            "chart2": "2511.01075v1\\chart2.jpg",
+            "table1": "2511.01075v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Background hit densities in the barrel subdetectors, averaged over an entire bunch train, for various C³ running scenarios. HPP and IPC contributions are shown as stacked segments (lighter and darker hues), while collider energy is encoded by hatching.",
+            "chart2": "Background hit densities in the endcap subdetectors, averaged over an entire bunch train, for various C³ running scenarios. HPP and IPC contributions are shown as stacked segments (lighter and darker hues), while collider energy is encoded by hatching.",
+            "table1": "Number of hits per ns from the combined contribution of the HPP and IPC backgrounds, averaged over an entire bunch train in each case. The errors given correspond to the 68% CL uncertainties of the constant value fits."
+        },
+        "question": "Which visual style in Chart 1 corresponds to the C³-550 high-ℒ configuration in Table 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "Green hatched bars",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.09029v1\\chart1.jpg",
+            "table1": "2511.09029v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Loudness over dimension 4 in the 6 dimensional MDS.",
+            "table1": "Acoustic and psychoacoustic measures of the 9 room impulse responses. Concert spaces are F = Fabrik, M = Markthalle, L =  Leiszhalle, numbers are internal IRs taken."
+        },
+        "question": "Using Chart 1 and Table 1, how many stimuli have positive Dimension 4 values and Loudness above the mean? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 9,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.09029v1\\chart1.jpg",
+            "table1": "2511.09029v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Loudness over dimension 4 in the 6 dimensional MDS.",
+            "table1": "Acoustic and psychoacoustic measures of the 9 room impulse responses. Concert spaces are F = Fabrik, M = Markthalle, L =  Leiszhalle, numbers are internal IRs taken."
+        },
+        "question": "For stimuli located above the regression line in Chart 1, compute their mean RT₂₀ using Table 1. Respond only with a single numeric value rounded to two decimals.",
+        "question_type": "reasoning",
+        "answer": 1.69,
+        "answer_type": "numeric"
+    },
+
+
+    {
+        "question_id": 10,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.22547v1\\chart1.jpg",
+            "table1": "2511.22547v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The dispersion relation of the pion state. The data with up to 3 GeV can be described with the formula in Eq. (12) with m_pi = 136.0(7.2), b1 = 1.0034(83), and b2 = -0.042(14).",
+            "table1": "Details of the parameters used for the calculations on each ensembles. The number of gauge configurations is denoted as N_cfg, and for each configuration, N_meas measurements are performed."
+        },
+        "question": "How many ensembles with lattice spacing 𝑎 = 0.10530  fm appear in Chart 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 11,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.02207v1\\chart1.jpg",
+            "table1": "2512.02207v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Spin distribution obtained from the projection (eq. 9) compared to the spin cut-off formula (eq. 3) assuming the uncertainty principle (eq. 4) for the light (top) and heavy (bottom) fragments.",
+            "table1": "Spin cut-off parameter for each fissioning nucleus and fragment deduced from the angle fluctuations coupled with the uncertainty principle (σ_L), from the overlap values (σ_J), and from the exact projections (σ_J)."
+        },
+        "question": "Which column in Table 1 corresponds to the “Projection” data shown in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "σ_J (proj)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.05210v2\\chart1.jpg",
+            "table1": "2512.05210v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Results from ibm_pittsburgh for ⟨Ẑ⟩ in an L = 3 system, showing charge distribution (left) and histograms of ⟨Ẑ⟩ for qubit pairs (right).",
+            "table1": "Values of ⟨Ẑ⟩ measured on ibm_pittsburgh for an L = 3 system, comparing raw, ODR, and exact results across qubit pairs."
+        },
+        "question": "The center of the ⟨Ẑ⟩ distribution for qubit pair 0,1 in Chart 1 (right panel) corresponds to which result type in Table 1? Choose one option. A. raw B. ODR C. exact Respond only with a single letter.",
+        "question_type": "perceptual",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.06061v1\\chart1.jpg",
+            "table1": "2512.06061v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Number of hits in the pfRICH geometry from simulations of 50,000 electrons with momentum 5 MeV/c as a function of the maximum allowed photon reflections. The number of hits plateaus around a reflection limit of ≈24, agreeing with the baseline CPU Geant4 simulation within statistical uncertainty.",
+            "table1": "GPU simulation time required to simulate 50,000 electrons with a momentum of 5 MeV/c for different maximum photon reflection settings."
+        },
+        "question": "Between 16 and 24 reflections, which changes more significantly: hit count or simulation time? Choose one option. A. Hit count B. Time C. Both equally D. Neither Respond only with a single letter.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 14,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.09033v1\\chart1.jpg",
+            "table1": "2512.09033v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "ρ(1450) pole positions obtained from analytic continuation of the F⁰⁺ FDR, compared with RPP estimates and ππ-mode results.",
+            "table1": "Dispersive determinations of the ρ(770) pole parameters using different global fits and methods (FDR_C and GKPY)."
+        },
+        "question": "Which component of the pole expression in Table 1 corresponds to the y-axis (−Γ/2) in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "imaginary part",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.11324v1\\chart1.jpg",
+            "table1": "2512.11324v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Measured t-quark charge asymmetry as a function of the muon pseudorapidity, compared with theoretical predictions at NLO.",
+            "table1": "Measured t-quark charge asymmetry as a function of η_μ. Uncertainties are statistical and systematic, respectively. The significance quantifies the deviation from zero."
+        },
+        "question": "Using Chart 1 and Table 1, which η_μ range has the smallest difference between the Data value and the POWHEG CT18 prediction? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "2.000–2.625",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 16,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.12484v1\\chart1.jpg",
+            "table1": "2512.12484v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Mean squared error (MSE) versus temperature for superpulse fitting of crystal A35; a similar trend is observed for A36, with slightly lower MSE.",
+            "table1": "Mean squared error (MSE) between corrected simulated and measured superpulses across temperatures for crystals A35 and A36."
+        },
+        "question": "Which crystal’s data shown in Chart 1 corresponds to Table 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "A35",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.12850v1\\chart1.jpg",
+            "table1": "2512.12850v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "PPO training on HalfCheetah-v5 with 5 seeds. The quantized KAN actor (8-bit) outperforms both the KAN (FP) and the larger MLP (FP), despite using ~5× fewer parameters, showing robustness to quantization and strong parameter efficiency.",
+            "table1": "FPGA performance of the KAN 8-bit model on the HalfCheetah RL task targeting the xczu7ev-ffvc1156-2-e FPGA. The MLP 8-bit actor does not fit on the FPGA, so its power estimate is unavailable and resource usage is reported from HLS estimates, while KAN 8-bit results are obtained after place-and-route in out-of-context mode."
+        },
+        "question": "Which model shown in Chart 1 with the lowest final reward corresponds to which model name in Table 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "MLP 8-bit hls4ml",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.14297v1\\chart1.jpg",
+            "table1": "2512.14297v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Mean end-to-end latency (ms) across TC1–TC9 over five independent runs.",
+            "table1": "Aggregated performance metrics across test cases (mean ± 95% CI across 5 seeds)."
+        },
+        "question": "Using both Chart 1 and Table 1, which Test Case is the first to have mean latency > 3 ms and throughput < 40 Mbps? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "TC6",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.16429v1\\chart1.jpg",
+            "table1": "2512.16429v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Pressure, P, in pure neutron matter as a function of baryon density ratio, ρ_B/ρ_0. The empirical constraints on the nuclear equation of state extracted from particle-flow analyses in heavy-ion collisions are also provided [14].",
+            "table1": "Coupling constants and selected properties of isospin-asymmetric nuclear matter for the OMEG family. The parameter g₂ is in units of fm⁻¹. The nuclear symmetry energy E_sym(ρ₀) and its slope and curvature parameters L and K_sym are given in MeV."
+        },
+        "question": "Which quantity plotted in Chart 1 is indirectly constrained by the L parameter listed in Table 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "Pressure",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 20,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.17011v1\\chart1.jpg",
+            "table1": "2512.17011v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Relative accuracy over a test dataset for Z + 4g amplitude regression. Error bands indicate the standard deviation across three different random seeds.",
+            "table1": "Performance for Z + 4g amplitude regression, reporting MSE performance, computational cost in terms of FLOPs, and training time on an H100 GPU."
+        },
+        "question": "Compute the average MSE in Table 1 for the top three models shown in Chart 1. Respond only with a single numeric value rounded to two decimals.",
+        "question_type": "reasoning",
+        "answer": 2.67,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 21,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.17273v1\\chart1.jpg",
+            "table1": "2512.17273v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Relative errors for the 1D time-fractional diffusion problem in Experiment III. Results are shown for different fractional orders, temporal discretizations, and model types.",
+            "table1": "Results for Experiment I in inverse mode, showing relative errors for different values of the parameter across multiple models."
+        },
+        "question": "Which error metric appears in Table 1 but not in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "E(k)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["chart1", "chart2", "table1"],
+        "path": {
+            "chart1": "2512.17311v1\\chart1.jpg",
+            "chart2": "2512.17311v1\\chart2.jpg",
+            "table1": "2512.17311v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Two-neutron separation energies as a function of mass number for Ca isotopes. Results from CCSD and BCCSD calculations using two different interactions are compared with experimental data.",
+            "chart2": "Two-neutron separation energies as a function of mass number for Ni isotopes. Results from CCSD and BCCSD calculations using two different interactions are compared with experimental data.",
+            "table1": "Ground-state energies of Ca and Ni isotopes calculated with the ΔNNLOGO(394) interaction. Results are given in MeV for CCSD, BCCSD, and, when available, 2PA-EOM and 2PR-EOM methods. The last column reports estimated triples contributions."
+        },
+        "question": "Compute the average S2n from 48Ca to 52Ca using CCSD energies in Table 1 and check whether Chart 1 places this range between 25–35 MeV. Choose one option. A. Yes B. No Respond only with a single letter.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 23,
+        "items": ["chart1", "chart2", "table1"],
+        "path": {
+            "chart1": "2512.17550v1\\chart1.jpg",
+            "chart2": "2512.17550v1\\chart2.jpg",
+            "table1": "2512.17550v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Posterior distributions of detector-frame total mass and mass ratio recovered using four different waveform models. The contours represent 90% confidence intervals.",
+            "chart2": "Posterior distributions of luminosity distance recovered using four different waveform models.",
+            "table1": "Bayesian evidence for each waveform model when analyzing GW231123. Results are shown for the isolated signal model and the overlapping signals model. The last row reports log Bayes factors comparing the overlapping signals model to the isolated signal model, where positive values favor the overlapping signals model."
+        },
+        "question": "How many waveform models appear in both Chart 1 and Table 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 24,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.17990v1\\chart1.jpg",
+            "table1": "2512.17990v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Detection sensitivity (h_rss at 90% efficiency) as a function of signal frequency for three gravitational-wave burst search pipelines at a 3σ detection threshold. Different markers indicate different pipelines, and multiple points at the same frequency correspond to different damping times.",
+            "table1": "Parameters of the damped sinusoid injection sets used by each gravitational-wave search pipeline."
+        },
+        "question": "Which f_gw values listed in Table 1 are used by at least two pipelines and appear in Chart 1? Respond only with a list of numeric values.",
+        "question_type": "perceptual",
+        "answer": [650, 1100, 2100, 3900],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 25,
+        "items": ["chart1", "chart2", "table1"],
+        "path": {
+            "chart1": "2512.18881v1\\chart1.jpg",
+            "chart2": "2512.18881v1\\chart2.jpg",
+            "table1": "2512.18881v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Shadow radius as a function of parameter α for different values of a.",
+            "chart2": "Shadow radius as a function of parameter a for different values of α.",
+            "table1": "PS radius and shadow radius in the EMU model for different parameter values."
+        },
+        "question": "Using Chart 1 and Table 1, for a = 0.5, which α value gives R_sh/M closest to the Schwarzschild reference? Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.15,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.19030v1\\chart1.jpg",
+            "table1": "2512.19030v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Final synchronization level va as a function of system size N for the four models SVM, RVM, LPVM, and LVVM.",
+            "table1": "Fitted parameters of the stretched exponential relationship for all models and system sizes N."
+        },
+        "question": "The R² values in Table 1 correspond to the fitting of which type of quantity shown in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "Final synchronization level",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.19265v1\\chart1.jpg",
+            "table1": "2512.19265v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Mixed action effects for different valence fermion actions and their mixed combinations, compared across multiple lattice ensembles.",
+            "table1": "Mixed action effects measured on different ensembles using various valence quark actions (OV, SC, HC), including results for mixed combinations."
+        },
+        "question": "For ensembles with Δ_mix < 0.01 in Chart 1, compute the average SC+HC value from Table 1. Respond only with a single numeric value rounded to three decimals.",
+        "question_type": "reasoning",
+        "answer": 0.002,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.19290v1\\chart1.jpg",
+            "table1": "2512.19290v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The total mass of inner shielding copper as a function of pressure for (left) enriched  and (right) natural detector assuming 12 cm thickness.",
+            "table1": "Longitudinal and transverse diffusion coefficients for different gas mixtures as a function of CO₂ percentage or helium content, calculated at a drift electric field of 60 V/cm/bar."
+        },
+        "question": "How many pressure points are consistently used in both Chart 1 and Table 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 29,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.19294v1\\chart1.jpg",
+            "table1": "2512.19294v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Contribution of the different lattice ensembles to the statistical error squared in Eq. (4.16).",
+            "table1": "Measurements of p2, p4, and the ratio fK/fπ for Wilson unitary and mixed-action setups, including results for different ensembles."
+        },
+        "question": "Which ensemble contributes the largest share in Chart 1 and also appears in Table 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "J303",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 30,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.19298v1\\chart1.jpg",
+            "table1": "2512.19298v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Upper limits at 95% confidence level on axion-related couplings for individual massive stars and for the combined analysis of the full star sample.",
+            "table1": "List of massive stars used in this analysis, including their Galactic coordinates, distances, and masses. The table also reports conservative upper limits on axion-related couplings, gamma-ray flux upper limits at 511 keV and 1.8 MeV, and the expected26 Al mass inferred from the 1.8 MeV flux."
+        },
+        "question": "How many objects appear as star names in both Chart 1 and Table 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 19,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 31,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.19420v1\\chart1.jpg",
+            "table1": "2512.19420v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of energy error distributions on the 20-qubit ibm_fez processor for different sample sources (ibm_fez, Transformer, Mamba) and sample sizes (1k, 5k, 10k), showing results for Krylov dimensions D=5 and D=10.",
+            "table1": "RMSE comparison for KQD energy prediction across different qubit numbers and measurement shots."
+        },
+        "question": "Treating the 5-qubit RMSE in Table 1 as a low-dimensional reference, which Krylov dimension in Chart 1 (D=5 or D=10) is closer to that error level? Choose one option. A. D=5 B. D=10 Respond only with a single letter.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 32,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.19603v1\\chart1.jpg",
+            "table1": "2512.19603v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Effective areas for gamma rays as a function of incoming gamma-ray energy for the gamma-ray telescopes HAWC, LHAASO, SWGO, and CTA North and South.",
+            "table1": "Approximate experimental specifications of the gamma-ray observatories HAWC, LHAASO, SWGO, and CTA North and South. We give the cosmic ray backgrounds for the HAWC θ₁ band and the sum of the SWGO zones. A † indicates our motivated assumptions. See text for further details."
+        },
+        "question": "Which observatories in Chart 1 show non-zero effective area below 100 GeV? Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[CTA North, CTA South]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 33,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.19825v1\\chart1.jpg",
+            "table1": "2512.19825v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Critical density versus anisotropy parameter for the Horvat, Bowers–Liang, and covariant models. Solid lines show semi-analytical results, points show numerical simulations, dashed lines show analytical fits, and shaded regions indicate uncertainties.",
+            "table1": "Relative error between the fundamental frequency from linear stability analysis and full general relativity simulations."
+        },
+        "question": "In the Bowers–Liang model, which EOS has data at λ_BL = 1.0 in Table 1 and also appears as a curve in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "QHC21",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 34,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.19961v1\\chart1.jpg",
+            "table1": "2512.19961v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Strength distribution of isovector dipole excitations in ¹⁶O, calculated by RPA (top) and different SSRPA approaches (bottom). The distributions are smoothed using a Lorentzian function.",
+            "table1": "Center energies, widths, and centroid energies of the strength distributions for isoscalar monopole, isovector dipole, and isoscalar quadrupole modes, obtained from RPA and SSRPA calculations."
+        },
+        "question": "Which curve shown in the bottom panel of Chart 1 does NOT have a corresponding column in Table 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "SSRPA_D",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.20141v1\\chart1.jpg",
+            "table1": "2512.20141v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of gravitational wave spectra at the benchmark points of the xSM from Table 1. Four different scalar masses are considered, as indicated at the top of each plot. Two different wall velocities are assumed: vw = 0.92 in the left panels and vw = 0.56 in the right panels.",
+            "table1": "The characteristic quantities for the benchmark point ms ≈ 615 GeV under different levels of dilgence."
+        },
+        "question": "How many scalar mass (m_s) values appear in Chart 1, and which approximate m_s benchmark is used in Table 1? Respond with a list: [number_of_masses, benchmark_mass].",
+        "question_type": "perceptual",
+        "answer": [4, 615],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.20295v1\\chart1.jpg",
+            "table1": "2512.20295v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Critical temperatures of Sierpiński carpets SCₖ(a, b). The parameter b decreases with the critical temperature, while k increases from 2 to the maximum value considered. The marker size is proportional to the logarithm of the number of elements, illustrating the rapid growth of computational complexity.",
+            "table1": "Data for the carpet SCk(3, 1)."
+        },
+        "question": "Which column in Table 1 determines the x-axis placement of points in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "L",
+        "answer_type": "text"
+    },
+
+
+    {
+        "question_id": 37,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.20371v1\\chart1.jpg",
+            "table1": "2512.20371v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of charmonium experimental decay constants with the decay constants predicted by the model with two parameters and by the best fit of the model with three parameters.",
+            "table1": "Comparison of charmonium experimental decay constants with the decay constants predicted by the model with two parameters and by the best fit of the model with three parameters. All values are in MeV."
+        },
+        "question": "Based on Chart 1 and Table 1, which state has the largest experimental error bar? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "4S",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 38,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.20435v1\\chart1.jpg",
+            "table1": "2512.20435v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Duration for the transpiled QEC gadgets: Duration of the gates, recooling and transport for the logical state preparation, stabilizer readout and lattice surgery of the three architectures under the three timing scenarios. The durations of the stabilizer readout only include one type of stabilizer sub-round (X or Z) and the durations of the lattice surgery only include one measurement of the joint logical X operator.",
+            "table1": "Gate, readout and reset performance. Depolarizing probabilities for single- and two-qubit gates as well as readout and reset errors for all architectures. Values in red show the current values while orange and green show intermediate and optimistic improvements."
+        },
+        "question": "Which architecture has the highest Transport proportion in Chart 1 and lacks Cross-talk data in Table 1? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "AbaQus-S",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 39,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.20448v1\\chart1.jpg",
+            "table1": "2512.20448v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Convergence trends over training iterations for different models and evaluation metrics (FID, KID, IS, and Accuracy). Each plot shows the evolution of performance across iterations for the classical baseline, the QVCU-Net, and the proposed QCU-Net.",
+            "table1": "Comparison of performance metrics for each class across Classical model, QVCU-Net, and QCU-Net. Best values per row are highlighted in bold."
+        },
+        "question": "What type of task do both Chart 1 and Table 1 evaluate? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "image classification",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 40,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.20454v1\\chart1.jpg",
+            "table1": "2512.20454v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Combinations of the three-nucleon low-energy constants cD and cE that reproduce the tritium binding energy for the EMN N2LO 450 MeV interaction at different F2 values. Dashed lines show unevolved interactions and solid lines show low-resolution interactions. Circles and diamonds indicate fitted values using tritium and oxygen-16 observables.",
+            "table1": "Details of the fitted EMN 450 interactions used in this work, including three-nucleon parameters, cutoff and SRG scales, chiral order, fitting strategy, and plot labels. GT and O16 denote tritium and oxygen-16 fitting strategies, respectively."
+        },
+        "question": "What color represents the GT fit with F2 = 0.10 from Table 1 in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "green",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.20537v1\\chart1.jpg",
+            "table1": "2512.20537v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Performance comparison of the SSO algorithm and its post-processed version (SSO+All) with MPD and its optimized variants across four lattice Hamiltonian models.",
+            "table1": "Definitions of the compared methods."
+        },
+        "question": "Which design choice in Table 1 best explains the sharp ε_S drop of SSO at shallow layers in Chart 1? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Schmidt Spectra loss",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.20554v2\\chart1.jpg",
+            "table1": "2512.20554v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of the shuttling operation count using different packing algorithms on the MTS-QCCD compiler.",
+            "table1": "Comparison of different packing algorithms. The fidelity values were obtained using the QCCDSim [34]."
+        },
+        "question": "In Chart 1, which algorithm is represented by the green line? From Table 1, extract the Makespan value of this algorithm at Size = 100. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 379,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 43,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.20554v2\\chart1.jpg",
+            "table1": "2512.20554v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of the shuttling operation count using different packing algorithms on the MTS-QCCD compiler.",
+            "table1": "Comparison of different packing algorithms. The fidelity values were obtained using the QCCDSim [34]."
+        },
+        "question": "In Chart 1, which algorithm shows the most pronounced overall increasing trend in shuttles as the Circuit Queue Size increases (minor local fluctuations allowed)? After identifying this algorithm, compute the difference in Fidelity between Size = 150 and Size = 20 (150 − 20) using Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": -30.34,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 44,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.20579v1\\chart1.jpg",
+            "table1": "2512.20579v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The posteriors of the mass ratio and effective spin parameter for three binary configurations, showing results from quasi-circular waveform analysis and the corresponding injected signal values.",
+            "table1": "Summary of the simulations. The total mass is fixed, and two eccentricity settings are considered: a high-eccentricity case and a low-eccentricity case."
+        },
+        "question": "For the run with the narrowest χ_eff posterior in Chart 1, what are its (χ₁, χ₂) values in Table 1? Respond only with a list of numeric values.",
+        "question_type": "perceptual",
+        "answer": [0.5, 0.4],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 45,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.20694v1\\chart1.jpg",
+            "table1": "2512.20694v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Centroid energies of the low-energy and high-energy ISGMR peaks in ¹⁷²Yb, comparing experimental results with QFAM and QRPA calculations, and with experimental data from ¹⁵⁴Sm.",
+            "table1": "Experimental fitting parameters of the ISGMR strength in ¹⁷²Yb, including centroid energy, width, and EWSR for the low-energy (LE) and high-energy (HE) components."
+        },
+        "question": "Which column in Table 1 corresponds to the energy range of the HE experimental band in Chart 1? Respond only with a single string",
+        "question_type": "perceptual",
+        "answer": "E_x (MeV)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 46,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.20699v1\\chart1.jpg",
+            "table1": "2512.20699v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Percentage of sky maps with up to eight or more disconnected modes, shown by color, for different detector configurations.",
+            "table1": "Percentage of injections with estimated sky localization errors within specified areas for different detector configurations."
+        },
+        "question": "How many detector configurations appear in both Chart 1 and Table 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 7,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 47,
+        "items": ["chart1", "chart2", "table1"],
+        "path": {
+            "chart1": "2512.20799v1\\chart1.jpg",
+            "chart2": "2512.20799v1\\chart2.jpg",
+            "table1": "2512.20799v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Pressure versus horizon radius for different Maxwell charges, illustrating van der Waals–like oscillations at higher charge and Hawking–Page–like behavior at lower charge, with the critical case highlighted.",
+            "chart2": "Temperature versus horizon radius for different Maxwell charges, showing van der Waals–like inflection behavior at higher charge and a single-minimum Hawking–Page–like profile at lower charge.",
+            "table1": "Critical thermodynamic parameters for the van der Waals–like regime at fixed coupling, listing the critical horizon radius, temperature, and pressure for selected Maxwell charges."
+        },
+        "question": "Based on the Q range where van der Waals–like oscillations disappear in Chart 1 and the Q values listed in Table 1, compute the proportion of Q values falling into the non-oscillatory regime. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.429,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 48,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.20832v1\\chart1.jpg",
+            "table1": "2512.20832v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Evolution of the dark energy equation of state as a function of redshift, inferred from DESI and CMB data combined with different supernova samples. Shaded regions indicate confidence levels from high to low likelihood.",
+            "table1": "Statistical comparison between thawing quintessence and ΛCDM using DESI, CMB, and different supernova datasets, reporting Bayesian evidence, information criteria, likelihood improvement, and model complexity measures."
+        },
+        "question": "Which dataset in Table 1 corresponds to the purple-shaded panel in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "DESI+CMB+D5*",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 49,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.20965v1\\chart1.jpg",
+            "table1": "2512.20965v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Probability density (left) and cumulative (right) distributions of merger entropy indices for GW241011 and GW241110, compared with mergers from dense star clusters (CMC) and the PP model.",
+            "table1": "Model comparison results."
+        },
+        "question": "Combining the cumulative distributions in Chart 1 and the KS values in Table 1, which event is more consistent with the 1G distribution under the PP model? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "GW241110",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 50,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.21023v1\\chart1.jpg",
+            "table1": "2512.21023v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Temperature dependence of the Lyapunov exponent.",
+            "table1": "Values of the Lyapunov exponent at different temperatures and their scaling behavior."
+        },
+        "question": "Which temperature value in Table 1 corresponds to the rightmost red data point in Chart 1? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 13,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 51,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.21087v1\\chart1.jpg",
+            "table1": "2512.21087v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Size of excitation operator pools generated by SymUCCSD, HiUCCSD, and UCCSD for various molecules. Low-precision SymUCCSD cases are highlighted.",
+            "table1": "Summary of molecular properties for VQE calculations, including required qubit counts, bond types, equilibrium bond lengths, and electronic correlation energies."
+        },
+        "question": "For the molecule with a C–H bond type in Table 1, what is its SymUCCSD (Normal) value in Chart 1? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 146,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 52,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.21181v1\\chart1.jpg",
+            "table1": "2512.21181v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "ibm_kingston hardware results for the TAP instance: measured energy distributions for FPC-QAOA, QAOA, and random sampling. (a) Experiments executed with N = 3 Trotter steps. (b) Experiments executed with N = 5 Trotter steps. Each experiment considers a maximum of 25 function evaluations in the classical optimizer.",
+            "table1": "Performance comparison of FPC-QAOA and QAOA on the hardware TAP instance."
+        },
+        "question": "What color represents the algorithm with the maximum number of iterations in Table 1 as shown in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "orange",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 53,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.21282v1\\chart1.jpg",
+            "table1": "2512.21282v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Fits to QPU data for the three largest lattice box sizes. The complete set of fits is reported in Table I. Data up to t = 5.2 are used in the fits.",
+            "table1": "Data from IonQ-Forte and IBMQ-Fez quantum processing units and an ideal simulator (L = 12). The parameters A, gamma, and omega are obtained from fits to data up to total time t = 5.2 with time interval Delta t = 0.4, using lattice units."
+        },
+        "question": "What is the fitted A value in Table 1 corresponding to the L = 12 curve shown in Chart 1? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": -9.83,
+        "answer_type": "numeric"
+    }
+]

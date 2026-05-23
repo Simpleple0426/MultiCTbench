@@ -1,0 +1,205 @@
+[
+    {
+        "question_id": 13,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.21161v2\\chart1.jpg",
+            "table1": "2510.21161v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "RiboPO improves both sampling efficiency and the quality distribution of generated sequences. Pass@k performance shows RiboPO consistently dominates gRNAde across all sample sizes k, with the largest gains at the small-k screening regime crucial for practical applications.",
+            "table1": "Table 2: Pass@k results for generating a sequence with RMSD < 12 A, pLDDT ˚ > 0.50, TM-score > 0.05, and MFE < −4.0 kcal/mol (T = 0.5). RiboPO demonstrates superior sampling efficiency with Multi-round RiboPO achieving the best performance."
+        },
+        "question":"Using Table 1, compute the average pass@k improvement of RiboPO (Round 4) over gRNAde across all k values. Respond only with a single numeric value rounded to three decimals.",
+        "question_type": "reasoning",
+        "answer": 0.093,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.25132v1\\chart1.jpg",
+            "table1": "2510.25132v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of kcat distribution.",
+            "table1": "Ablating EnzyControl’s components. Green denotes relative performance change."
+        },
+        "question":"Using Table 1, compute the relative decrease rate of kcat after removing EnzyAdapter. Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 0.1143,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.12266v1\\chart1.jpg",
+            "table1": "2509.12266v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Trade-off between tuning efficiency and performance. The figure shows memory usage in gigabytes (GB), throughput in kilotokens per second (KTok/s), and averaged scores on the GUE benchmark for three models: DNABERT-2, HyenaDNA-160k, and Nucleotide Transformer-500M. We report results for full-tuning (Full), low-rank adaptation (LoRA), and adapter-based fine-tuning (Adapter). The results highlight the trade-offs between resource efficiency and predictive performance",
+            "table1": "Benchmark across models and tuning methods. We report results on both the GUE benchmark and Genomic Benchmarks. “—” marks settings we did not evaluate due to computational constraints. We exclude EVO (7B) from full fine-tuning due to the high computation cost. Full denotes full-parameter fine-tuning, LoRA denotes low-rank adaptation, and Adapter denotes adapter-based tuning"
+        },
+        "question": "Using Table 1, compute the relative change rate of Adapter compared to LoRA for HyenaDNA-160k on GUE, defined as (Adapter − LoRA) / LoRA. Respond only with a single numeric value rounded to three decimals.",
+        "question_type": "reasoning",
+        "answer": -0.509,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2507.05101v2\\chart1.jpg",
+            "table1": "2507.05101v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Cross-species generalization performance evaluated via graph similarity score.",
+            "table1": ": Overall results of intra-species (Human) PPI network construction task. We use three color scales of blue to denote the first, second, and third best performance. RD closer to 1 is better."
+        },
+        "question":"In the Human to Arath subplot of Chart 1, which model shows the largest decrease in Graph Similarity when moving from BFS to DFS? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "PLM-interact (650M)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 29,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.23543v1\\chart1.jpg",
+            "table1": "2509.23543v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of classification performance across BioBERT, SciBERT, and text-embedding-ada-002 models in the C28, C33, C36, and C43 dataset, evaluated by accuracy, F1 score, and Cohen’s Kappa.",
+            "table1": "PERFORMANCE COMPARISON OF SEURAT AND TEXT-BASED EMBEDDING MODELS ON RGC CLASSIFICATION"
+        },
+        "question":"Which model has the highest average score across the three metrics in Table 1? Respond only with the list [model name, average score].",
+        "question_type": "reasoning",
+        "answer": "[SciBERT, 0.851]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 48,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.20162v1\\chart1.jpg",
+            "table1": "2511.20162v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Mean accuracy vs. detection error tolerance. A correct detection of the models represents a predicted frame within the allowed error tolerance, where an error tolerance of zero means the exact true frame was predicted. Results of Qwen-2.5VL-72B is shown for the difference ICL regimes under the ”with reasoning” condition. Note, that the length of all videos in the experimental dataset is 10 frames.",
+            "table1": "Reasoning effect on LMMs’ performance. Models are instructed to describe step-by-step the reasoning behind their prediction of the frame where the interaction occurs. Mean accuracy is measured for the detection of the frame where the test event occurs, within an allowed error tolerance (here the exact or two frames off the true frame). Results are reported as per 3 ICL regimes (ZS, OS, TS) for the models: (i) Qwen-2.5VL-72B and (ii) GPT-4o."
+        },
+        "question":"In Table 1 under ZS, compute the accuracy gain of Qwen (Exact) when using reasoning vs. without reasoning. Respond only with a numeric value.",
+        "question_type": "reasoning",
+        "answer": 4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 14,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.25132v1\\chart1.jpg",
+            "table1": "2510.25132v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of kcat distribution.",
+            "table1": "Ablating EnzyControl’s components. Green denotes relative performance change."
+        },
+        "question":"What color represents the “With EnzyAdapter” distribution in Chart 1? Respond only with the color name.",
+        "question_type": "perceptual",
+        "answer": "blue",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 40,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2507.03209v1\\chart1.jpg",
+            "table1": "2507.03209v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Relative error distribution across different models. This figure presents the relative error histograms for nine models evaluated, including two MLP variants trained with Morgan fingerprints (MLP-M) and Morgan fingerprints combined with expert descriptors (MLP-M-E). For models utilizing multiple feature sets, the best-performing configuration is selected based on predictive accuracy. The distribution of errors highlights the reliability and precision of each model, with narrower and more concentrated histograms indicating superior predictive performance.",
+            "table1": "Performance comparison across models and feature sets under Murcko scaffold split. This table presents the predictive performance of various ML models trained with different feature representations, including Morgan fingerprints, expert descriptors, and end-to-end learned embeddings. Bold highlight the best performance, and underlined denote the second-best. Due to the more challenging scaffold-based data split, overall performance is lower compared to random splitting. While most models show a decline in accuracy, kNN and Chemprop maintain similar performance levels, suggesting their robustness to distribution shifts. kNN achieves the best performance, followed by MLP, while AGILE exhibits the lowest predictive accuracys"
+        },
+        "question":"How many distinct feature set combinations appear in the Feature Set section of Table 1, where each combination is defined by the ✓ / ✗ pattern across the Morgan, Expert, and End-to-End columns?Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 71,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.07064v1\\chart1.jpg",
+            "table1": "2512.07064v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Effect of masking distributions on MoleculeNet classification",
+            "table1": "Categorization of methods"
+        },
+        "question":"How many masking distributions are visualized in Chart 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 46,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.04838v1\\chart1.jpg",
+            "table1": "2511.04838v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Time vs. MAE across models and datasets. Each point represents the average runtime (log scale) and mean absolute error (MAE) of a model–dataset pair. Black hollow circles and connecting lines indicate the Pareto frontier for each dataset.",
+            "table1": "Joint distribution plots of molecular properties versus task targets for original (blue, circles, solid marginals) and augmented (orange, crosses, dashed marginals) molecules. Each row corresponds to a dataset (FreeSolv, ESOL, Lipo), and each column shows one computed property (LogP, SA, QED, MW, BT)"
+        },
+        "question":"What line style is used to draw the Pareto frontier in Chart 1? Respond only with the line style.",
+        "question_type": "perceptual",
+        "answer": "solid",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 47,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.13733v1\\chart1.jpg",
+            "table1": "2511.13733v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The overall performance comparison on 10 EEG datasets.",
+            "table1": "SummaryofEEGdatasetsusedindownstreamtasks."
+        },
+        "question":"What color is used to represent BAR-Huge (Ours) in the legend of Chart 1? Respond only with the color name.",
+        "question_type": "perceptual",
+        "answer": "yellow",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.09923v1\\chart1.jpg",
+            "table1": "2509.09923v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Confusion matrices for the three-class problems.",
+            "table1": "Classification report for the three-class problem (HC, UC, CD)."
+        },
+        "question":"From Chart 1, extract the number of samples whose true label is UC and predicted label is CD. Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 24,
+        "answer_type": "numeric"
+    }
+]

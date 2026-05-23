@@ -1,0 +1,1308 @@
+[
+    {
+        "question_id": 1,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1": "2511.19305v1/table1.jpg",
+            "table2": "2511.19305v1/table2.jpg",
+            "table3": "2511.19305v1/table3.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports co-authorship network characteristics (N, %, average degree, average betweenness, density) across categories of field, role, and location.",
+            "table2": "Table 2 reports the frequency of leaders by field, role, and location across periphery and core clusters.",
+            "table3": "Table 3 reports the frequency of regional leaders by field and role across periphery and core clusters."
+        },
+        "question": "Comparing Table 2 and Table 3, which table has the larger Total Core count? Respond only with the choice. A. Table 2 B. Table 3",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 2,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1": "2511.19305v1/table1.jpg",
+            "table2": "2511.19305v1/table2.jpg",
+            "table3": "2511.19305v1/table3.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports co-authorship network characteristics (N, %, average degree, average betweenness, density) across categories of field, role, and location.",
+            "table2": "Table 2 reports the frequency of leaders by field, role, and location across periphery and core clusters.",
+            "table3": "Table 3 reports the frequency of regional leaders by field and role across periphery and core clusters."
+        },
+        "question": "Using Table 2 and Table 3, compute the difference between the Core count for the field 'Statistics' in Table 3 and the Core count for the field 'Statistics' in Table 2 (Table 3 minus Table 2). Answer with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 22,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.19234v1/table1.jpg",
+            "table2": "2511.19234v1/table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports out-of-sample performance metrics (Log-score, CRPS, RMSE, MAE, AIC, and computation time) for models M1–M4 and Model (12) in the electricity net-demand application.",
+            "table2": "Table 2 reports out-of-sample performance metrics (Log-score, CRPS, RMSE, MAE, AIC, and computation time) for models M1–M4 and Model (12) in the electricity net-demand application."
+        },
+        "question": "Comparing Table 1 and Table 2, how many metric are listed in both tables? Answer with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": "6",
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.19234v1/table1.jpg",
+            "table2": "2511.19234v1/table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports out-of-sample performance metrics (Log-score, CRPS, RMSE, MAE, AIC, and computation time) for models M1–M4 and Model (12) in the electricity net-demand application.",
+            "table2": "Table 2 reports out-of-sample performance metrics (Log-score, CRPS, RMSE, MAE, AIC, and computation time) for models M1–M4 and Model (12) in the electricity net-demand application."
+        },
+        "question": "Generate Python code to plot a bar chart of RMSE values for all models in Table 1. Answer with code only.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "bar_chart",
+            "data": [[720.1707, 692.4466, 673.1477, 634.9627, 622.3888]],
+            "operation": null,
+            "title": "RMSE Comparison of Models",
+            "xlabel": "Model",
+            "ylabel": "RMSE",
+            "legend": null,
+            "tick": {
+                "xticklabels": ["M1", "M2", "M3", "M4", "Model (12)"], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1": "2511.19574v1/table1.jpg",
+            "table2": "2511.19574v1/table2.jpg",
+            "table3": "2511.19574v1/table3.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports screening performance metrics (PPR, sensitivity, specificity, PPV, and NPV) for different ACE score thresholds on the BRFSS 2022 dataset, including a replicable higher-risk subgroup.",
+            "table2": "Table 2 reports corner combinations under frequency coding for the full sample, with each row representing a corner configuration and each column representing a binary or categorical ACE indicator.",
+            "table3": "Table 3 reports corner combinations under frequency coding for the replicable high-risk subgroup, using the same ACE indicator columns as Table 2."
+        },
+        "question": "Comparing Table 2 and Table 3, which table contains more corners with ACESWEAR equal to 2? Respond only with the choice. A. Table 2 B. Table 3 C. Both tables have the same number of corners with ACESWEAR equal to 2",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 6,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1": "2511.19574v1/table1.jpg",
+            "table2": "2511.19574v1/table2.jpg",
+            "table3": "2511.19574v1/table3.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports screening performance metrics (PPR, sensitivity, specificity, PPV, and NPV) for different ACE score thresholds on the BRFSS 2022 dataset, including a replicable higher-risk subgroup.",
+            "table2": "Table 2 reports corner combinations under frequency coding for the full sample, with each row representing a corner configuration and each column representing a binary or categorical ACE indicator.",
+            "table3": "Table 3 reports corner combinations under frequency coding for the replicable high-risk subgroup, using the same ACE indicator columns as Table 2."
+        },
+        "question": "Using Table 1 and Table 3, which statement best describes the relationship between screening metrics and representation of high-risk corners? Respond only with the choice. A. Stricter ACE thresholds correspond to higher specificity and fewer but more concentrated high-risk corner patterns B. Stricter thresholds reduce both specificity and corner concentration C. Threshold changes do not affect corner patterns D. High-risk corners disappear entirely at higher thresholds",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.19672v1/table1.jpg",
+            "table2": "2511.19672v1/table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports the five highest Ps values among pitchers for each pitch category (Fastball, Breaking Ball, Offspeed) in the 2021 regular season.",
+            "table2": "Table 2 reports the five highest DS values among batters for each pitch category (Fastball, Breaking Ball, Offspeed) in the 2024 regular season."
+        },
+        "question": "Comparing Table 1 and Table 2, which pitch category has the highest top-ranked metric value when considering Ps in Table 1 and DS in Table 2? Respond only with the choice. A. Fastball B. Breaking Ball C. Offspeed",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.19672v1/table1.jpg",
+            "table2": "2511.19672v1/table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports the five highest Ps values among pitchers for each pitch category (Fastball, Breaking Ball, Offspeed) in the 2021 regular season.",
+            "table2": "Table 2 reports the five highest DS values among batters for each pitch category (Fastball, Breaking Ball, Offspeed) in the 2024 regular season."
+        },
+        "question": "Considering both tables, which pitch category shows the largest gap between its top Ps value (Table 1) and top DS value (Table 2)? Respond only with the choice. A. Fastball B. Breaking Ball C. Offspeed",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 9,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.19796v1/table1.jpg",
+            "table2": "2511.19796v1/table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports estimated parameters of ARMA and TAR models fitted to the factor process, based on the first 65 observations, including coefficients, thresholds, variance (sigma^2), and AIC for different models/series/regimes.",
+            "table2": "Table 2 reports estimated parameters of ARMA and TAR models fitted to the factor process, based on the entire sample, including coefficients, thresholds, variance (sigma^2), and AIC for different models/series/regimes."
+        },
+        "question": "Comparing Table 1 and Table 2, which table reports a lower AIC for the TFM-cp ARMA model with series factor2? Respond only with the choice. A. Table 1 B. Table 2",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.19796v1/table1.jpg",
+            "table2": "2511.19796v1/table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports estimated parameters of ARMA and TAR models fitted to the factor process, based on the first 65 observations, including coefficients, thresholds, variance (sigma^2), and AIC for different models/series/regimes.",
+            "table2": "Table 2 reports estimated parameters of ARMA and TAR models fitted to the factor process, based on the entire sample, including coefficients, thresholds, variance (sigma^2), and AIC for different models/series/regimes."
+        },
+        "question": "Using both tables, compute the increase in sigma^2 for the VFM ARMA model with series factor1 from Table 1 to Table 2 (Table 2 minus Table 1). Answer with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 6.89,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 11,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.20183v1/table1.jpg",
+            "table2": "2511.20183v1/table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports mean CICP_alpha values for MF-GP, HF-only-GP, and MF-PCE models under different target alpha levels and noise variances sigma_{epsilon,H}.",
+            "table2": "Table 2 reports mean PICP_alpha values for MF-GP, HF-only-GP, and MF-PCE models under different target alpha levels and noise variances sigma_{epsilon,H}."
+        },
+        "question": "For target alpha = 0.9 and sigma_{epsilon,H} = 0.083, which model shows the smallest absolute difference between its CICP value in Table 1 and its PICP value in Table 2? Respond only with the choice. A. MF-GP B. HF-only-GP C. MF-PCE",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.20183v1/table1.jpg",
+            "table2": "2511.20183v1/table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports mean CICP_alpha values for MF-GP, HF-only-GP, and MF-PCE models under different target alpha levels and noise variances sigma_{epsilon,H}.",
+            "table2": "Table 2 reports mean PICP_alpha values for MF-GP, HF-only-GP, and MF-PCE models under different target alpha levels and noise variances sigma_{epsilon,H}."
+        },
+        "question": "Comparing Table 1 and Table 2, which model most consistently achieves coverage values closest to the target alpha across both metrics (CICP and PICP) as alpha increases? Respond only with the choice. A. MF-GP B. HF-only-GP C. MF-PCE",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.20819v1/table1.jpg",
+            "table2": "2511.20819v1/table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports logistic regression results for the sensitivity model, including odds ratios and p-values for predictors such as method, forest size, epidemic size, parameter differences, and interaction terms.",
+            "table2": "Table 2 reports linear regression results for the mean scaled entropy model, including coefficient estimates and p-values for epidemic size, reproduction number, and dispersion parameters."
+        },
+        "question": "Comparing Table 1 and Table 2, which predictor shows a monotonic increase in effect size as epidemic size increases? Respond only with the choice. A. Epidemic size B. Forest size C. Reproduction number D. Dispersion",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 14,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.20819v1/table1.jpg",
+            "table2": "2511.20819v1/table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports logistic regression results for the sensitivity model, including odds ratios and p-values for predictors such as method, forest size, epidemic size, parameter differences, and interaction terms.",
+            "table2": "Table 2 reports linear regression results for the mean scaled entropy model, including coefficient estimates and p-values for epidemic size, reproduction number, and dispersion parameters."
+        },
+        "question": "Using both tables, which statement best describes the effect of increasing epidemic size on model outcomes? Respond only with the choice. A. Increasing epidemic size reduces sensitivity but increases mean scaled entropy B. Increasing epidemic size increases both sensitivity and entropy C. Increasing epidemic size reduces both sensitivity and entropy D. Epidemic size has no consistent effect across models Answer with a single choice.",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.21221v1/table1.jpg",
+            "table2": "2511.21221v1/table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports the SSR performance of different portfolio strategies (TL, TL_equal, Non-transfer, Pool) across six target markets including real estate, financial, construction, furniture, manufacturing, and marketing.",
+            "table2": "Table 2 reports the SSR index achieved by different portfolio strategies across four sectors (energy, manufacturing, financial, medical) under A-shares and H-shares markets."
+        },
+        "question": "Comparing Table 1 and Table 2, which market–sector combination shows the highest investment effect for the TL strategy overall? Respond only with the choice. A. Financial market in Table 1 B. Energy (H-shares) in Table 2 C. Medical (H-shares) in Table 2 D. Manufacturing market in Table 1",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 16,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.21221v1/table1.jpg",
+            "table2": "2511.21221v1/table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports the SSR performance of different portfolio strategies (TL, TL_equal, Non-transfer, Pool) across six target markets including real estate, financial, construction, furniture, manufacturing, and marketing.",
+            "table2": "Table 2 reports the SSR index achieved by different portfolio strategies across four sectors (energy, manufacturing, financial, medical) under A-shares and H-shares markets."
+        },
+        "question": "Using both tables, which statement best describes the relative advantage of the TL strategy over the Pool strategy? A. TL consistently outperforms Pool across all markets and sectors B. TL outperforms Pool mainly in financial-related markets C. Pool outperforms TL in most manufacturing settings D. TL and Pool perform identically across tables. Respond only with the choice. ",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1": "2511.21773v1/table1.jpg",
+            "table2": "2511.21773v1/table2.jpg",
+            "table3": "2511.21773v1/table3.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports regional power generation results, including total power, number of fixed machines, annual revenue, annual depreciation, and final net profit for three regions.",
+            "table2": "Table 2 reports site screening parameters for each region, including required net area and unit site size.",
+            "table3": "Table 3 reports the number of suitable site units for each region, including initial unit count and available unit count."
+        },
+        "question": "Considering Table 1 and Table 3, which region combines the highest final net profit with the smallest available unit count? A. Yongin B. Damyang C. Miryang Respond only with the choice.",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1": "2511.21773v1/table1.jpg",
+            "table2": "2511.21773v1/table2.jpg",
+            "table3": "2511.21773v1/table3.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports regional power generation results, including total power, number of fixed machines, annual revenue, annual depreciation, and final net profit for three regions.",
+            "table2": "Table 2 reports site screening parameters for each region, including required net area and unit site size.",
+            "table3": "Table 3 reports the number of suitable site units for each region, including initial unit count and available unit count."
+        },
+        "question": "Using all three tables, which region appears to face the strongest space constraint relative to its economic outcome? A. Yongin B. Damyang C. Miryang Respond only with the choice. ",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.22430v1/table1.jpg",
+            "table2": "2511.22430v1/table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports average maximum error and average RMSE (in km) for different filtering methods under Gaussian measurement error, evaluated at multiple time step sizes h.",
+            "table2": "Table 2 reports average maximum error and average RMSE (in km) for different filtering and particle filter methods under Student’s t-distributed measurement errors, evaluated at multiple time step sizes h."
+        },
+        "question": "Comparing Table 1 and Table 2, which measurement error setting yields a lower minimum average RMSE at h = 1 min? Respond only with the choice. A. Gaussian measurement error (Table 1) B. Student’s t-distributed measurement error (Table 2)",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 20,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.22430v1/table1.jpg",
+            "table2": "2511.22430v1/table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports average maximum error and average RMSE (in km) for different filtering methods under Gaussian measurement error, evaluated at multiple time step sizes h.",
+            "table2": "Table 2 reports average maximum error and average RMSE (in km) for different filtering and particle filter methods under Student’s t-distributed measurement errors, evaluated at multiple time step sizes h."
+        },
+        "question": "Using both tables, which statement best describes the effect of penalization on filtering performance across different noise distributions? Respond only with the choice. A. Penalization consistently reduces RMSE across both Gaussian and heavy-tailed noise B. Penalization only improves performance under Gaussian noise C. Penalization only improves performance under Student’s t noise D. Penalization has no clear impact in either table",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 21,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2512.00100v1/table1.jpg",
+            "table2": "2512.00100v1/table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports aggregate performance metrics (MSE and MAE) averaged across 22 states, comparing a baseline method with a proposed mechanism and showing relative improvement.",
+            "table2": "Table 2 reports state-specific performance metrics (MSE and MAE) for Massachusetts, Arizona, and New York, comparing baseline and mechanism methods."
+        },
+        "question": "Comparing Table 1 and Table 2, which metric shows a larger relative improvement at the aggregate level and also decreases consistently across all three states? Respond only with the choice. A. MSE B. MAE Answer with a single choice.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2512.00203v1/table1.jpg",
+            "table2": "2512.00203v1/table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports the top 10 and bottom 10 player-seasons ranked by shots over expected (SOE), including season, player name, shots, expected shots (xS), SOE, and matches played.",
+            "table2": "Table 2 reports the top 10 player-seasons ranked by goals over expected (GOE) relative to xG+ and xG, including goals scored and matches played, for EPL seasons from 2022 to 2025."
+        },
+        "question": "Across Table 1 and Table 2, which player appears in both tables and has the highest SOE in Table 1 among those shared players? Respond only with the choice. A. Erling Haaland B. Mohamed Salah C. Harry Kane D. Cole Palmer",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 23,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2512.00203v1/table1.jpg",
+            "table2": "2512.00203v1/table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports the top 10 and bottom 10 player-seasons ranked by shots over expected (SOE), including season, player name, shots, expected shots (xS), SOE, and matches played.",
+            "table2": "Table 2 reports the top 10 player-seasons ranked by goals over expected (GOE) relative to xG+ and xG, including goals scored and matches played, for EPL seasons from 2022 to 2025."
+        },
+        "question": "For Erling Haaland in the 2022–23 season, what is the difference between his SOE value in Table 1 and his GOE value relative to xG+ in Table 2 (SOE minus GOE)? Answer with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 41.08,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 24,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2512.00640v1/table1.jpg",
+            "table2": "2512.00640v1/table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports cross-validation RMSPE results for multiple forecasting models across Stint 1–3 and the total, including ARIMA(2,1,2), Base Model, Extension 1, Extension 2, and Skewed T distribution.",
+            "table2": "Table 2 reports Continuous Rank Probability Score (CRPS) results for multiple forecasting models across Stint 1–3 and an overall CRPS row, including Base, Extension 1, Extension 2, Skew-T, and ARIMA(2,1,2)."
+        },
+        "question": "For Stint 2, which model has the lowest value in Table 1 (RMSPE) and also has the lowest value in Table 2 (CRPS) among the same set of models? Respond only with the choice. A. Base (Base Model) B. Extension 1 C. Extension 2 D. Skew-T (Skewed T Dist.) E. ARIMA(2,1,2)",
+        "question_type": "reasoning",
+        "answer": "D",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 25,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2512.00640v1/table1.jpg",
+            "table2": "2512.00640v1/table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports cross-validation RMSPE results for multiple forecasting models across Stint 1–3 and the total, including ARIMA(2,1,2), Base Model, Extension 1, Extension 2, and Skewed T distribution.",
+            "table2": "Table 2 reports Continuous Rank Probability Score (CRPS) results for multiple forecasting models across Stint 1–3 and an overall CRPS row, including Base, Extension 1, Extension 2, Skew-T, and ARIMA(2,1,2)."
+        },
+        "question": "Using the Total row in Table 1 and the CRPS row in Table 2, compute (ARIMA(2,1,2) value minus Skew-T value) for each table, then report the two results as a numeric list in this order: [Table 1 difference, Table 2 difference]. Answer the numeric list exactly, e.g. [x, y].",
+        "question_type": "reasoning",
+        "answer": [0.438, 0.122],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2512.02092v1/table1.jpg",
+            "table2": "2512.02092v1/table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports forecasting performance metrics (MSFE, RMSFE, and MAFE) for different models across multiple sub-periods including Overall, Pre-COVID, COVID, Post-COVID, and Excluding COVID.",
+            "table2": "Table 2 reports RMSFE ratios of different models relative to benchmark models (Random Walk, AR(3), and Dynamic Factor Model) across the same sub-periods."
+        },
+        "question": "For the Elastic net model during the COVID period, compute the difference between its RMSFE in Table 1 and its RMSFE ratio relative to Random Walk in Table 2 (Table 1 value minus Table 2 value). Answer with the exact numeric value.",
+        "question_type": "reasoning",
+        "answer": 1.727,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2512.02092v1/table1.jpg",
+            "table2": "2512.02092v1/table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports forecasting performance metrics (MSFE, RMSFE, and MAFE) for different models across multiple sub-periods including Overall, Pre-COVID, COVID, Post-COVID, and Excluding COVID.",
+            "table2": "Table 2 reports RMSFE ratios of different models relative to benchmark models (Random Walk, AR(3), and Dynamic Factor Model) across the same sub-periods."
+        },
+        "question": "Among the dimensionality reduction-based models, which model has the lower RMSFE relative to AR(3) during the COVID period? Respond only with the choice. A. Principal component regression B. Partial least squares regression",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2512.02203v1/table1.jpg",
+            "table2": "2512.02203v1/table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports random effects meta-analysis estimates with 95% confidence intervals for parameters beta_a, beta_sc, and beta_ss under different subsample proportions and estimation methods.",
+            "table2": "Table 2 reports computational statistics across subsample proportions, including graph size measures and average running times (in minutes) for PPML, PPML (debiased), and Polyads."
+        },
+        "question": "At the 4% subsample proportion, which method yields the smallest absolute point estimate of beta_ss in Table 1 and also has the shortest running time in Table 2? Respond only with the choice. A. PPML B. PPML (debiased) C. Polyads",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 29,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2512.02203v1/table1.jpg",
+            "table2": "2512.02203v1/table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports random effects meta-analysis estimates with 95% confidence intervals for parameters beta_a, beta_sc, and beta_ss under different subsample proportions and estimation methods.",
+            "table2": "Table 2 reports computational statistics across subsample proportions, including graph size measures and average running times (in minutes) for PPML, PPML (debiased), and Polyads."
+        },
+        "question": "In table2, identify the model with lowest running time at the 2% subsample proportion. Then, using table1, what's the value of beta_sc for this model at 4% subsample? Answer with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": -4.52,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 30,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2512.02210v1/table1.jpg",
+            "table2": "2512.02210v1/table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports shot types and counts of successful and unsuccessful shots for professional players in Region 1 and Region 2.",
+            "table2": "Table 2 reports shot types and counts of successful and unsuccessful shots for professional players in Region 3 and Region 4."
+        },
+        "question": "Comparing Table 1 and Table 2, which region records the highest number of successful Parallel shots overall? Respond only with the choice. A. Region 1 B. Region 2 C. Region 3 D. Region 4",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 31,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2512.02210v1/table1.jpg",
+            "table2": "2512.02210v1/table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports shot types and counts of successful and unsuccessful shots for professional players in Region 1 and Region 2.",
+            "table2": "Table 2 reports shot types and counts of successful and unsuccessful shots for professional players in Region 3 and Region 4."
+        },
+        "question": "Across all regions shown in both tables, which region has the smallest total number of unsuccessful shots? Respond only with the choice. A. Region 1 B. Region 2 C. Region 3 D. Region 4",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 32,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.05842v1\\table1.jpg",
+            "table2": "2511.05842v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports correct classification rates with standard deviations for five methods (DCE, FCE, Avg C-learning, Initial, Full C-learning) under different scenarios and sample size settings.",
+            "table2": "Table 2 reports mean empirical values with standard deviations for the same five methods under the same scenarios and sample size settings."
+        },
+        "question": "Under Scenario c with N = 1000 and n = 200, which method achieves the highest correct classification rate in Table 1 and what is its corresponding mean empirical value in Table 2? Answer with the numeric list in the order [classification rate, mean value].",
+        "question_type": "reasoning",
+        "answer": [0.971, 2.797],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 33,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.05842v1\\table1.jpg",
+            "table2": "2511.05842v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports correct classification rates with standard deviations for five methods (DCE, FCE, Avg C-learning, Initial, Full C-learning) under different scenarios and sample size settings.",
+            "table2": "Table 2 reports mean empirical values with standard deviations for the same five methods under the same scenarios and sample size settings."
+        },
+        "question": "For Scenario d with N = 5000 and n = 500, does the method with the highest correct classification rate in Table 1 also have the smallest mean empirical value in Table 2? Respond only with the choice. A. Yes B. No",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 34,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.06351v1\\table1.jpg",
+            "table2": "2511.06351v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports final epsilon values for different models under varying numbers of mixture components, including an automatic selection setting.",
+            "table2": "Table 2 reports final Wasserstein loss values for the same models under the same mixture component settings."
+        },
+        "question": "For the SLCP model with 10 mixture components, what are the final epsilon value in Table 1 and the Wasserstein loss in Table 2? Answer with the numeric list in the order [epsilon, Wasserstein loss].",
+        "question_type": "reasoning",
+        "answer": [0.660, 1.02],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.06351v1\\table1.jpg",
+            "table2": "2511.06351v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports final epsilon values for different models under varying numbers of mixture components, including an automatic selection setting.",
+            "table2": "Table 2 reports final Wasserstein loss values for the same models under the same mixture component settings."
+        },
+        "question": "Comparing Table 1 and Table 2, which model achieves its minimum epsilon value and its minimum Wasserstein loss at the same mixture component count? Respond only with the choice. A. GM B. MG1 C. quadratic D. SEIR E. SLCP",
+        "question_type": "reasoning",
+        "answer": "E",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.07786v2\\table1.jpg",
+            "table2": "2511.07786v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports 1-Wasserstein distances of different dynamics interpolation algorithms across three datasets (Cite, EB, Multi) using a 5-dimensional PCA representation.",
+            "table2": "Table 2 reports leave-one-timepoint-out 1-Wasserstein distances for different algorithms under 50- and 100-dimensional representations on Cite and Multi datasets."
+        },
+        "question": "For the TFSB algorithm, compare its performance on the Multi dataset between Table 1 and Table 2 (50-dimensional representation). Which table reports the smaller 1-Wasserstein distance? Respond only with the choice. A. Table 1 B. Table 2",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.07786v2\\table1.jpg",
+            "table2": "2511.07786v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports 1-Wasserstein distances of different dynamics interpolation algorithms across three datasets (Cite, EB, Multi) using a 5-dimensional PCA representation.",
+            "table2": "Table 2 reports leave-one-timepoint-out 1-Wasserstein distances for different algorithms under 50- and 100-dimensional representations on Cite and Multi datasets."
+        },
+        "question": "Using both tables, for the OT-CFM algorithm on the Cite dataset, how does the 1-Wasserstein distance change when moving from Table 1 to Table 2 with 50 dimensions? Answer with the exact numeric difference (Table 2 minus Table 1).",
+        "question_type": "reasoning",
+        "answer": 37.878,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 38,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.08180v1\\table1.jpg",
+            "table2": "2511.08180v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports standard error estimates from ifit for different models and parameters, including sc, average estimated standard error, and standard deviation of estimated standard errors.",
+            "table2": "Table 2 reports the importance of Monte Carlo errors in ifit for the same models and parameters."
+        },
+        "question": "For parameter θ₁ of the enzyme model, report its sc value from Table 1 and its Monte Carlo error importance from Table 2. Answer with the numeric list in the order [sc, Monte Carlo error importance].",
+        "question_type": "reasoning",
+        "answer": [0.076, 0.0081],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 39,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.08180v1\\table1.jpg",
+            "table2": "2511.08180v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports standard error estimates from ifit for different models and parameters, including sc, average estimated standard error, and standard deviation of estimated standard errors.",
+            "table2": "Table 2 reports the importance of Monte Carlo errors in ifit for the same models and parameters."
+        },
+        "question": "Comparing the trait model across both tables, which parameter has both the smallest sc in Table 1 and the smallest Monte Carlo error importance in Table 2? Respond only with the choice. A. γ B. μ C. σ D. ω",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 40,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.10048v1\\table1.jpg",
+            "table2": "2511.10048v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports ranking results for different imputation methods across iris, yacht, and concrete datasets under three criteria (MOO, MOORT, MOOEN), evaluated with Mask and Oracle settings.",
+            "table2": "Table 2 reports ranking results for the same methods, datasets, and criteria under a different experimental setting."
+        },
+        "question": "For the Random Hot Deck method under the MOO criterion on the concrete dataset, what are the Mask rankings reported in Table 1 and Table 2? Answer with the numeric list in the order [Table 1, Table 2].",
+        "question_type": "reasoning",
+        "answer": [7, 7],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.10048v1\\table1.jpg",
+            "table2": "2511.10048v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports ranking results for different imputation methods across iris, yacht, and concrete datasets under three criteria (MOO, MOORT, MOOEN), evaluated with Mask and Oracle settings.",
+            "table2": "Table 2 reports ranking results for the same methods, datasets, and criteria under a different experimental setting."
+        },
+        "question": "Comparing Table 1 and Table 2, does the EM method have the same Mask ranking on the yacht dataset under the MOO criterion? Respond only with the choice. A. Yes B. No",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.11318v1\\table1.jpg",
+            "table2": "2511.11318v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports total runtime, number of iterations, and average per-iteration time for different optimization methods in Experiment 1 under N = 4 and N = 8.",
+            "table2": "Table 2 reports total runtime, iteration count, and average per-iteration time for different optimization methods in Experiment 2."
+        },
+        "question": "In both table1 and table2, which method has the highest iterations? A. Dual-Newton α = 0 B. Natural Gradient C. Adam Answer only with the choice.",
+        "question_type": "perceptual",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 43,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.11318v1\\table1.jpg",
+            "table2": "2511.11318v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports total runtime, number of iterations, and average per-iteration time for different optimization methods in Experiment 1 under N = 4 and N = 8.",
+            "table2": "Table 2 reports total runtime, iteration count, and average per-iteration time for different optimization methods in Experiment 2."
+        },
+        "question": "Comparing Table 1 (Experiment 1, N = 4) and Table 2, does the Adam method have a smaller average per-iteration time in Experiment 1 than in Experiment 2? Respond only with the choice. A. Yes B. No",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 44,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.12257v1\\table1.jpg",
+            "table2": "2511.12257v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports denoising performance with mean and standard deviation for PSNR, SSIM, and LPIPS under different noise levels.",
+            "table2": "Table 2 reports PET reconstruction performance of different methods measured by PSNR, SSIM, and LPIPS."
+        },
+        "question": "Which method appears in both tables and achieves the lowest LPIPS value in the PET reconstruction experiment? Respond only with the choice. A. TV-PIDAL B. TV-SPA C. RED-RPnP-ULA D. RED-HRLwSGS",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 45,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.12257v1\\table1.jpg",
+            "table2": "2511.12257v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports denoising performance with mean and standard deviation for PSNR, SSIM, and LPIPS under different noise levels.",
+            "table2": "Table 2 reports PET reconstruction performance of different methods measured by PSNR, SSIM, and LPIPS."
+        },
+        "question": "For the RED-HRLwSGS method, which metric shows the largest absolute difference between Table 1 (σ = 40) and Table 2? Respond only with the choice. A. PSNR B. SSIM C. LPIPS",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 46,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.12343v1\\table1.jpg",
+            "table2": "2511.12343v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports denoising performance with mean and standard deviation for PSNR, SSIM, and LPIPS under different noise levels.",
+            "table2": "Table 2 reports PET reconstruction performance of different methods measured by PSNR, SSIM, and LPIPS."
+        },
+        "question": "Which parameter appears in both tables and achieves coverage above 88% under the PLMic method in all reported scenarios? Respond only with the choice. A. beta2 B. beta1 C. beta0",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 47,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.12343v1\\table1.jpg",
+            "table2": "2511.12343v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports denoising performance with mean and standard deviation for PSNR, SSIM, and LPIPS under different noise levels.",
+            "table2": "Table 2 reports PET reconstruction performance of different methods measured by PSNR, SSIM, and LPIPS."
+        },
+        "question": "Comparing Table 1 and Table 2, which method most frequently attains the highest coverage across parameters and scenarios? Respond only with the choice. A. PLMic B. PLMI C. TS.OLS D. Perfect",
+        "question_type": "reasoning",
+        "answer": "D",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 48,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.13296v4\\table1.jpg",
+            "table2": "2511.13296v4\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports estimated scalability rates of EM and CIRLS algorithms under different p and D_r settings when the responses and predictor variables are independent.",
+            "table2": "Table 2 reports estimated scalability rates of EM and CIRLS algorithms under the same p and D_r settings when the responses and predictor variables are dependent."
+        },
+        "question": "For the CIRLS algorithm with p = 20 and D_r = 3, which table reports a higher scalability rate? Respond only with the choice. A. Table 1 B. Table 2",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 49,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.13296v4\\table1.jpg",
+            "table2": "2511.13296v4\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports estimated scalability rates of EM and CIRLS algorithms under different p and D_r settings when the responses and predictor variables are independent.",
+            "table2": "Table 2 reports estimated scalability rates of EM and CIRLS algorithms under the same p and D_r settings when the responses and predictor variables are dependent."
+        },
+        "question": "Considering p = 10 across both tables, which algorithm most consistently attains the highest scalability rate across different D_r values? Respond only with the choice. A. EM-1 B. EM-2 C. CIRLS",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 50,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.14509v1\\table1.jpg",
+            "table2": "2511.14509v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports MAE (mean ± standard deviation) and average computation time for Likelihood, EM, and Inlabru methods under Scenario 4(a), along with the estimated value of Ê(N).",
+            "table2": "Table 2 reports MAE (mean ± standard deviation) and average computation time for Likelihood, EM, and Inlabru methods under Scenario 4(b), along with the estimated value of Ê(N)."
+        },
+        "question": "Comparing the EM method across both tables, in which scenario does EM achieve a lower MAE mean for parameter β? Respond only with the choice. A. Scenario 4(a) B. Scenario 4(b)",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 51,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.14509v1\\table1.jpg",
+            "table2": "2511.14509v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports MAE (mean ± standard deviation) and average computation time for Likelihood, EM, and Inlabru methods under Scenario 4(a), along with the estimated value of Ê(N).",
+            "table2": "Table 2 reports MAE (mean ± standard deviation) and average computation time for Likelihood, EM, and Inlabru methods under Scenario 4(b), along with the estimated value of Ê(N)."
+        },
+        "question": "Across both tables, which method consistently has the shortest average computation time? Respond only with the choice. A. Likelihood B. EM C. Inlabru",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 52,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.14784v1\\table1.jpg",
+            "table2": "2511.14784v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports AMI values of different clustering algorithms across multiple datasets.",
+            "table2": "Table 2 reports ARI, AMI, and k* performance of different clustering algorithms on the Wisconsin dataset under varying noise levels."
+        },
+        "question": "Which algorithm achieves the highest AMI on the Iris dataset in Table 1 and also has the highest AMI at noise level 0 in Table 2? Respond only with the choice. A. KM B. CC C. MKM D. COMET",
+        "question_type": "reasoning",
+        "answer": "D",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 53,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.14784v1\\table1.jpg",
+            "table2": "2511.14784v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports AMI values of different clustering algorithms across multiple datasets.",
+            "table2": "Table 2 reports ARI, AMI, and k* performance of different clustering algorithms on the Wisconsin dataset under varying noise levels."
+        },
+        "question": "Comparing COMET across both tables, does its AMI decrease as noise increases in Table 2 compared to its near-perfect AMI values across datasets in Table 1? Respond only with the choice. A. Yes, AMI decreases with noise B. No, AMI remains constant",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 54,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.15942v1\\table1.jpg",
+            "table2": "2511.15942v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 compares classical and robust multi-fidelity estimators across different contamination magnitudes m and frequencies η, reporting MAE, RMSE, and relative efficiency.",
+            "table2": "Table 2 reports cross-validated MAE and RMSE of different predictive models across multiple temporal windows."
+        },
+        "question": "Which table reports a larger RMSE value: the Robust estimator in Table 1 at m = 10, η = 0.5, or the Robust SF model in Table 2 at time window 11? Respond only with the choice. A. Table 1 B. Table 2",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 55,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.15942v1\\table1.jpg",
+            "table2": "2511.15942v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 compares classical and robust multi-fidelity estimators across different contamination magnitudes m and frequencies η, reporting MAE, RMSE, and relative efficiency.",
+            "table2": "Table 2 reports cross-validated MAE and RMSE of different predictive models across multiple temporal windows."
+        },
+        "question": "Which table more consistently shows the advantage of robust methods over classical or baseline models in terms of RMSE? Respond only with the choice. A. Table 1 B. Table 2",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 56,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.08828v1\\table1.jpg",
+            "table2": "2512.08828v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance of ML models. Results are for predicting downward and are averaged over N = 500 individuals in simulated test dataset. Best performing model’s average length bolded. Abbreviations: Cov, Coverage; PCov, Pseudo-outcome coverage; AL, Average length; LIN, Linear model with L1 penalty (LASSO); NN, Neural network; RF, Random forest.",
+            "table2": "Performance of ML models when creating prediction intervals for IHS data when predicting downward. Results averaged over all individuals and decision points in the test data. Best performing model’s average length bolded. Abbreviations: PCov, Pseudo-outcome coverage; AL, Average length; LIN, Linear model with L1 penalty (LASSO); NN, Neural network; RF, Random forest."
+        },
+        "question": "Across Table 1 and Table 2, how many AL values are reported for the NN model in total? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 57,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.08895v2\\table1.jpg",
+            "table2": "2512.08895v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "KLD and EMD on 2D datasets. Mean ± std over 500 trials",
+            "table2": "All 3D datasets (mean ± std). Best valid KLD bolded."
+        },
+        "question": "How many methods appear in both Table 1 and Table 2? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 9,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 58,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.09224v1\\table1.jpg",
+            "table2": "2512.09224v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Investment performance across evaluation years, reporting mean return, volatility, Sharpe ratio, and their MLE-based counterparts. Values are shown as mean with Monte Carlo standard errors.",
+            "table2": "Investment performance in 2018 after retraining, reporting mean return, volatility, and Sharpe ratio with Monte Carlo standard errors."
+        },
+        "question": "Extract the mean return values for year 2018 from Table 1 and Table 2, respectively. Respond only with a list of numeric values in the format [Table 1, Table 2].",
+        "question_type": "perceptual",
+        "answer": [0.9975, 1.0598],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 59,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.10032v1\\table1.jpg",
+            "table2": "2512.10032v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of PC and Cluster-PC performance metrics in Simulations 1 and 2.",
+            "table2": "Comparison of FCI, C-FCI, and FCITiers performance metrics in Simulations 3 and 4."
+        },
+        "question": "How many distinct evaluation metrics are reported in Table 1 and Table 2, respectively? Respond only with a list of two integers [Table1, Table2].",
+        "question_type": "perceptual",
+        "answer": [8, 8],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 60,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.10401v1\\table1.jpg",
+            "table2": "2512.10401v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Sliced 1-Wasserstein distance (SWD, scaled by 10⁻¹) and resampling variance for the mean estimator (scaled by 10⁻²), for the Gaussian mixture resampling experiment in Section 4.1.",
+            "table2": "The errors of loss function, filtering (scaled by 10⁻¹), and parameter estimation (scaled by 10⁻¹) for Section 4.2. Divergent NaN results are explained in Appendix H."
+        },
+        "question": "Are Diffusion methods reported with multiple configurations in both Table 1 and Table 2? Respond only with a list of two integers indicating the number of configurations in each table.",
+        "question_type": "perceptual",
+        "answer": [2, 3],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 61,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.12797v1\\table1.jpg",
+            "table2": "2512.12797v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Velocity–model metrics (mean±std) for synthetic datasets. Bold indicates best (lower is better except for Pearson r).",
+            "table2": "Data–domain metrics (mean±std) for synthetic datasets. Bold is best (lower is better except Trace corr)."
+        },
+        "question": "How many metrics are marked as “lower is better” in Table 1 and Table 2, respectively?  Respond only with a list of two integers.",
+        "question_type": "perceptual",
+        "answer": [6, 5],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 62,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.13069v1\\table1.jpg",
+            "table2": "2512.13069v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance indicators of the model applied to the Airfoils database for different LF/HF dimension ratios. They include MAE, RMSE, and R², which have been computed using the test and complementary test datasets.",
+            "table2": "Coverage metrics obtained with the MSCP method on the Airfoils database for several LF/HF dimensionality ratios. The table reports two types of coverage: (1) Nominal coverage (fraction of full curves contained within the prediction band), and (2) Pointwise coverage (average per-coordinate coverage). The Band Width + Std column corresponds to the mean of the calibrated prediction band, where the standard deviation refers to the variability of the band width. Results are provided for both the Normalized L2 norm and the Linf norm scoring functions."
+        },
+        "question": "At LF/HF Dim = 60%, extract the Test RMSE from Table 1, and extract the Test Normalized L2 Nominal coverage from Table 2. Respond only with a list of two numeric values in the order [Table 1 value, Table 2 value].",
+        "question_type": "perceptual",
+        "answer": [0.062, 0.85],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 63,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.13069v1\\table1.jpg",
+            "table2": "2512.13069v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance indicators of the model applied to the Airfoils database for different LF/HF dimension ratios. They include MAE, RMSE, and R², which have been computed using the test and complementary test datasets.",
+            "table2": "Coverage metrics obtained with the MSCP method on the Airfoils database for several LF/HF dimensionality ratios. The table reports two types of coverage: (1) Nominal coverage (fraction of full curves contained within the prediction band), and (2) Pointwise coverage (average per-coordinate coverage). The Band Width + Std column corresponds to the mean of the calibrated prediction band, where the standard deviation refers to the variability of the band width. Results are provided for both the Normalized L2 norm and the Linf norm scoring functions."
+        },
+        "question": "Compute the difference between the Test R² in Table 1 and the Test Normalized L2 Nominal coverage in Table 2 at LF/HF Dim = 100%. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.497,
+        "answer_type": "numeric"
+    },
+
+
+    {
+        "question_id": 64,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.16046v1\\table1.jpg",
+            "table2": "2512.16046v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Forecasting Performance in the Brazos Basin (1973 - 1977). The best performance in each column is in bold, and the second-best is underlined.",
+            "table2": "Forecasting Performance (NSE) across Three Basins."
+        },
+        "question": "How many metrics are reported per range in Table 1, and how many basins are reported per range in Table 2? Respond only with a list of two integers [metrics, basins].",
+        "question_type": "perceptual",
+        "answer": [4, 3],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 65,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.16626v1\\table1.jpg",
+            "table2": "2512.16626v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Pairwise preference comparisons between the responses of Qwen2.5-0.5B, RLOO, Nash-MD-PG, and StackelbergGDA algorithms. Each cell represents the preference model’s average score for the row algorithm over the column algorithm.",
+            "table2": "Inference-time refinement using different models for the initial response (Leader) and the improvement (Follower). Each cell represents the preference model’s average score for the Follower’s responses over the Leader’s responses."
+        },
+        "question": "What are the scores for RLOO over Qwen2.5-0.5B in Table 1, and for RLOO as Follower over Qwen2.5-0.5B as Leader in Table 2? Respond only with a list of two numeric values.",
+        "question_type": "perceptual",
+        "answer": [0.593, 0.534],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 66,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.17473v2\\table1.jpg",
+            "table2": "2512.17473v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Relative reconstruction error with respect to the clean ground truth for different noise levels and models.",
+            "table2": "Relative reconstruction error for different nonlinearities and loss functions."
+        },
+        "question": "Which option correctly compares the average error of ReLU + ℓ1 in Table 1 with MinMax + KL in Table 2? A. ReLU + ℓ1 is smaller B. MinMax + KL is smaller C. Equal Respond only with a single letter.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 67,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.18129v2\\table1.jpg",
+            "table2": "2512.18129v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Mean & standard deviation Integrated Brier Score (IBS) over a 5-fold cross-validation. Lower is better. † indicates p < 0.05. ¹ Covariate Embedding with Time-Decay. ² Factorized Attention. Table with standard deviation in Supp. Mat. B2.",
+            "table2": "Mean & standard deviation Concordance Index (Ctd) over a 5-fold cross-validation. Higher is better. † indicates p < 0.05. ¹ Covariate Embedding with Time-Decay. ² Factorized Attention. Table with standard deviation in Supp. Mat. B2."
+        },
+        "question": "Which metric in Table 1 and Table 2 corresponds to “Lower is better” and “Higher is better”, respectively? Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[IBS, Ctd]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 68,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.19913v1\\table1.jpg",
+            "table2": "2512.19913v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of neural network architectures",
+            "table2": "Hyperparameter configurations for each model"
+        },
+        "question": "For models using BCE loss in Table 2, how many neurons are used in their Hidden 1 layer according to Table 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 128,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 69,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.20305v1\\table1.jpg",
+            "table2": "2512.20305v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance Comparison of AFT, DeepAFT, and KAN-AFT Models on the Linear Synthetic Data. Metrics include Concordance Index (C-index) and Mean Squared Error (MSE) on both the training and testing sets.",
+            "table2": "Performance Comparison of AFT, DeepAFT, and KAN-AFT Models on the Non Linear Synthetic Data. Metrics include Concordance Index (C-index) and Mean Squared Error (MSE) on both the training and testing sets."
+        },
+        "question": "Compute the average Test C-index of DeepAFT-IPCW across Table 1 and Table 2. Round to 4 decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.7908,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 70,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.20762v1\\table1.jpg",
+            "table2": "2512.20762v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Best F1 score obtained by different implementations of DDGroup in the example from Fig. 1. By using the CRS, it is possible to tune DDGroup to find the correct subgroup. Even with the best possible hyperparameter tuning, the other versions that do not take advantage of the EPE and CRS cannot recover R*.",
+            "table2": "Comparison of methods on F1, Test EPE, and Test C-index. DDGroup (DG) obtains the best performance in terms of recovering R*. The other methods generally have worse performance, though they all perform better than the baseline (non-subgroup) approach, with the exception of the survival tree and PRIM."
+        },
+        "question": "Compute the F1 improvement from Base to the best-performing method in Table 1 and Table 2, respectively, and report the larger improvement value. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.68,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 71,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.21211v1\\table1.jpg",
+            "table2": "2512.21211v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of causal effect estimation accuracy using the true causal graph versus the predicted graph. Lower RRMSE and MAPE indicate better estimation accuracy, while higher Spearman correlation reflects better rank preservation.",
+            "table2": "Estimation performance across DAG depths. Values report mean ± standard deviation over 200 simulations per depth."
+        },
+        "question": "Compute the preservation ratio of Spearman correlation: (True DAG All in Table 2) / (True Graph in Table 1). Respond only with a single numeric value rounded to three decimals.",
+        "question_type": "reasoning",
+        "answer": 0.890,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 72,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.21593v1\\table1.jpg",
+            "table2": "2512.21593v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "valuation results on the FMNIST dataset. For each metric, the number following “@” indicates the number of inference steps, and the values in parentheses denote standard deviations.",
+            "table2": "Performance comparison under different model sizes on the Butterflies dataset"
+        },
+        "question": "Extract the mean CW-1WD@3 for DDPM from Table 1 and the mean 1WD@3 for DDPM from Table 2. Respond only with a list of two numeric values [Table1, Table2].",
+        "question_type": "perceptual",
+        "answer": [18.90, 141.86],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 73,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.22150v1\\table1.jpg",
+            "table2": "2512.22150v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Quantitative results on synthetic physics environments (Pendulum & Flow). Mean ± std over 10 seeds. LANCA consistently achieves the lowest structural errors (SHD, SID) across both environments and good latent factor alignment (MMI) on the complex Flow dataset.",
+            "table2": "Results on the photorealistic CANDLE dataset. Mean ± std over 10 seeds. LANCA achieves the best IRS and UC, verifying its ability to separate causal factors from the background scene confounders."
+        },
+        "question": "Extract the MIG values of Factor-VAE from Table 1 (Pendulum) and Table 2. Respond only with a list of numeric values in the order [Table 1, Table 2].",
+        "question_type": "perceptual",
+        "answer": [0.311, 0.019],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 74,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23694v1\\table1.jpg",
+            "table2": "2512.23694v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Main results with sample splitting (quantile binning included).",
+            "table2": "Main results without sample splitting (quantile binning included)."
+        },
+        "question": "For n = 50,000 and the Linear model, what are the mean Iso values in Table 1 and Table 2, respectively? Respond only with a list of two numeric values in the order [Table 1, Table 2].",
+        "question_type": "perceptual",
+        "answer": [0.614, 0.613],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 75,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24545v1\\table1.jpg",
+            "table2": "2512.24545v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Perplexities (↓) on WikiText2 for each model. Rows indicate the target bitwidth, and columns correspond to bit-parameters (l, P). DBF uses the same parameter format as (l, P) = (1, 1), and LittleBit uses the same format as (l, P) = (1, 2).",
+            "table2": "Average zero-shot accuracy (↑) on ARC-Easy and PIQA. Rows indicate the target bitwidth, and columns correspond to bit-parameters (l, P). Notably, DBF uses the same parameter format as (l, P) = (1, 1), and LittleBit uses the same format as (l, P) = (1, 2)."
+        },
+        "question": "Extract the Perplexity and Zero-shot Accuracy of LLaMA3 (8B) at bit=1.50 and (l=8, P=1). Respond only with a list of two numeric values.",
+        "question_type": "perceptual",
+        "answer": [30.14, 0.5069],
+        "answer_type": "numeric_list"
+    }
+]

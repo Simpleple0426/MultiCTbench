@@ -1,0 +1,826 @@
+[
+    {
+        "question_id": 1,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1":"2511.19121v1\\table1.jpg",
+            "table2":"2511.19121v1\\table2.jpg",
+            "table3":"2511.19121v1\\table3.jpg" 
+        },
+
+        "caption": {
+            "table1": "Two-Stage RMS with Kernel First Stage: J = 2",
+            "table2": "Two-Stage RMS with Neural-Net First Stage: J = 2",
+            "table3": "Joint DNN-Based Estimation: J = 2"
+        },
+        "question":"In the two-index (J = 2) simulation results, focus on the two-stage RMS estimator with a separate neural-network first stage. When the sample size is N = 1000, what is the reported value of SD of θ₂ under this method? Please provide the number value only.",
+        "question_type": "perceptual",
+        "answer": 0.14536,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 2,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1":"2511.19121v1\\table1.jpg",
+            "table2":"2511.19121v1\\table2.jpg",
+            "table3":"2511.19121v1\\table3.jpg" 
+        },
+
+        "caption": {
+            "table1": "Two-Stage RMS with Kernel First Stage: J = 2",
+            "table2": "Two-Stage RMS with Neural-Net First Stage: J = 2",
+            "table3": "Joint DNN-Based Estimation: J = 2"
+        },
+        "question":"In the two-index (J = 2) simulation, consider the method two-stage RMS with a separate neural-network first stage. When the sample size increases from N = 1000 to N = 5000, how do the absolute values of the metrics—MSE, absolute bias, standard deviation, L1 error, and the L2 norm of bias—change across the three θ components? A. All metrics decrease, B. All metrics increase, C. Some metrics decrease and some increase. Respond with A, B, or C only. ",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1":"2511.18550v1\\table1.jpg",
+            "table2":"2511.18550v1\\table2.jpg"
+        },
+
+        "caption": {
+            "table1": "Firm-Level R&D Regressions and Heterogeneity Tests Results",
+            "table2": "Democracy Regressions and Heterogeneity Tests Results"
+        },
+        "question":"In the regression results for the firm-level R&D application, what is the TSK estimate of the Δlog Xst coefficient for Group 1? Please provide the number value only.",
+        "question_type": "perceptual",
+        "answer": 2.53,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1": "2511.17117v1\\table1.jpg",
+            "table2": "2511.17117v1\\table2.jpg",
+            "table3": "2511.17117v1\\table3.jpg"
+        },
+
+        "caption": {
+            "table1": "RESULTS FOR SYNTHETIC DATA (1) NORMAL PRIOR",
+            "table2": "RESULTS FOR SYNTHETIC DATA (2) NIG-HOMO PRIO",
+            "table3": "RESULTS FOR SYNTHETIC DATA (3) NIG-HETERO PRIOR"
+        },
+        "question":"Under the Normal prior, when comparing all combinations of n and k, does any method(MCMC, DA–MCMC, DA–MCMC–Exact, DA–MCMC–Approx) consistently achieve the highest mESS/iter across all settings? If yes, output only the method name; if not, output none.",
+        "question_type": "reasoning",
+        "answer": "DA–MCMC–Exact",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.03236v1\\table1.jpg",
+            "table2": "2510.03236v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Model performance for 5-day forecasts during each time period. Divide MSE values by 1,000,000. Performance is compared based on MSE values.",
+            "table2": "Model performance for 10-day forecasts during each time period. Divide MSE values by 1,000,000. Performance is compared based on MSE values."
+        },
+        "question":"Assume we evaluate model performance using the following “Total Error Cost Function”: TotalCost=0.7×MSE+0.3×MAPE Using the Post-COVID data from the Dual-Recursive section of Table 1, compute the TotalCost for each of the four models (Standard HAR, Markov Soft EM, Dist. Clustering, Coeff. Clustering). Identify which model has the lowest TotalCost. Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "Coeff. Clustering",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 6,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.03236v1\\table1.jpg",
+            "table2": "2510.03236v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Model performance for 5-day forecasts during each time period. Divide MSE values by 1,000,000. Performance is compared based on MSE values.",
+            "table2": "Model performance for 10-day forecasts during each time period. Divide MSE values by 1,000,000. Performance is compared based on MSE values."
+        },
+        "question":"Using the Dual-Recursive results from Table 2, create a bar chart visualizing the MSE values of the four models (Standard HAR, Markov Soft EM, Dist. Clustering, Coeff. Clustering) across the three periods (Pre-COVID, COVID, Post-COVID). Provide executable Python code using matplotlib to generate the plot. Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "grouped_bar_chart",
+            "data": [
+                [6.17, 6.15, 6.19, 5.50],
+                [155.0, 149.7, 77.85, 391.1],
+                [16.44, 16.04, 18.30, 14.38]
+            ],
+            "operation": null,
+            "title": "MSE Values of Dual-Recursive Models Across Periods",
+            "xlabel": "Model",
+            "ylabel": "MSE",
+            "tick": {
+                "xticklabels": ["Pre-COVID", "COVID", "Post-COVID"], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["table1", "table2", "table3", "table4"],
+        "path": {
+            "table1": "2509.18857v1\\table1.jpg",
+            "table2": "2509.18857v1\\table2.jpg",
+            "table3": "2509.18857v1\\table3.jpg",
+            "table4": "2509.18857v1\\table4.jpg"
+        },
+        "caption": {
+            "table1": "Simulation: point estimates (Lee)",
+            "table2": "Simulation: point estimates N=100",
+            "table3": "Simulation Results. DGP = Lee",
+            "table4": "Simulation Results. N = 100"
+        },
+        "question":"Under the flat setting in Table 4, which method has the shortest CI length? Reponse only with the method name.",
+        "question_type": "perceptual",
+        "answer": "rdbinary",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["table1", "table2", "table3", "table4"],
+        "path": {
+            "table1": "2509.18857v1\\table1.jpg",
+            "table2": "2509.18857v1\\table2.jpg",
+            "table3": "2509.18857v1\\table3.jpg",
+            "table4": "2509.18857v1\\table4.jpg"
+        },
+        "caption": {
+            "table1": "Simulation: point estimates (Lee)",
+            "table2": "Simulation: point estimates N=100",
+            "table3": "Simulation Results. DGP = Lee",
+            "table4": "Simulation Results. N = 100"
+        },
+        "question":"In Table 3, compute the coverage variability for each method by taking the difference between the maximum and minimum coverage values across the three sample sizes (N = 50, N = 100, N = 500). Based on this variability measure, identify the method whose coverage is the least stable as the sample size changes. Respond with the method name only.",
+        "question_type": "reasoning",
+        "answer": "rdrobust",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 9,
+        "items": ["table1", "table2", "table3", "table4"],
+        "path": {
+            "table1": "2509.18857v1\\table1.jpg",
+            "table2": "2509.18857v1\\table2.jpg",
+            "table3": "2509.18857v1\\table3.jpg",
+            "table4": "2509.18857v1\\table4.jpg"
+        },
+        "caption": {
+            "table1": "Simulation: point estimates (Lee)",
+            "table2": "Simulation: point estimates N=100",
+            "table3": "Simulation Results. DGP = Lee",
+            "table4": "Simulation Results. N = 100"
+        },
+        "question":"Using the MSE values from Table 1 for the four methods (rdbinary, gauss, rd.mnl, rdrobust) across the three sample sizes (N = 50, 100, 500), create a line chart that shows how MSE changes with the sample size. The x-axis should represent N, and the y-axis should represent the MSE values. Each method should appear as a separate line. Provide executable Python code using the matplotlib library. Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "line_chart",
+            "data": [
+                [50, 100, 500],
+                [0.264, 0.223, 0.141],
+                [0.302, 0.248, 0.149],
+                [0.356, 0.284, 0.142],
+                [0.578, 0.423, 0.190]
+            ],
+            "operation": null,
+            "title": "MSE vs Sample Size for Different Methods",
+            "xlabel": "Sample Size (N)",
+            "ylabel": "MSE",
+            "legend": true,
+            "tick": {
+                "xticklabels": ["50", "100", "500"], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": true,
+                "marker": true,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1": "2508.09040v1\\table1.jpg",
+            "table2": "2508.09040v1\\table2.jpg",
+            "table3": "2508.09040v1\\table3.jpg"
+        },
+        "caption": {
+            "table1": "Root mean squared error (RMSE) and empirical coverage probabilities (ECP) (d = 6)",
+            "table2": "Root mean squared error (RMSE) and empirical coverage probabilities (ECP) (d = 8)",
+            "table3": "Root mean squared error (RMSE) and empirical coverage probabilities (ECP) (d = 10)"
+        },
+        "question":"Using Table 1 (d = 6), examine the RMSE values of T̂n for ρ = 0.7 across the sample sizes n = 300, 600, and 900. Determine whether the rate of RMSE reduction accelerates, decelerates, or remains approximately constant as n increases. Respond with one of the following options: accelerates, decelerates, or constant. Respond only with the option!",
+        "question_type": "reasoning",
+        "answer": "decelerates",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 11,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1": "2508.09040v1\\table1.jpg",
+            "table2": "2508.09040v1\\table2.jpg",
+            "table3": "2508.09040v1\\table3.jpg"
+        },
+        "caption": {
+            "table1": "Root mean squared error (RMSE) and empirical coverage probabilities (ECP) (d = 6)",
+            "table2": "Root mean squared error (RMSE) and empirical coverage probabilities (ECP) (d = 8)",
+            "table3": "Root mean squared error (RMSE) and empirical coverage probabilities (ECP) (d = 10)"
+        },
+        "question":"Using the RMSE values of T̂n in Table 2 (d = 8), construct a line chart showing how RMSE varies with ρ (from 0 to 0.9) under each sample size n = 300, 600, and 900. Plot three separate lines—one for each n—using matplotlib only. Provide executable Python code that generates this line chart. Respone only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "line_chart",
+            "data": [
+                [0, 0.3, 0.5, 0.7, 0.9],
+                [0.0654, 0.0718, 0.0770, 0.0974, 0.1559],
+                [0.0475, 0.0487, 0.0564, 0.0771, 0.1300],
+                [0.0391, 0.0397, 0.0484, 0.0663, 0.1155]
+            ],
+            "operation": null,
+            "title": "RMSE vs ρ for different sample sizes (n = 300, 600, 900)",
+            "xlabel": "ρ",
+            "ylabel": "MSE",
+            "legend": true,
+            "tick": {
+                "xticklabels": ["0", "0.3", "0.5", "0.7", "0.9"], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": true,
+                "marker": true,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.20634v1\\table1.jpg",
+            "table2": "2509.20634v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Peer Effects in Class Probabilities (Female)",
+            "table2": "Peer Effects in Class Probabilities (Male)"
+        },
+        "question":"In the Sender Profiles panel of Table 1, which peer variable has the largest coefficient? Respond only with the peer variable.",
+        "question_type": "reasoning",
+        "answer": "Peer Community Support ALR",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.02705v1\\table1.jpg",
+            "table2": "2510.02705v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Baseline FOMC Effects on Network Connectivity",
+            "table2": "Heterogeneous Effects of FOMC Tone on Network Connectivity"
+        },
+        "question":"In Table 1, what is the sign of the FOMC coefficient at k = 7 ? Respond only with positive or negative.",
+        "question_type": "perceptual",
+        "answer": "negative",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 14,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.02705v1\\table1.jpg",
+            "table2": "2510.02705v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Baseline FOMC Effects on Network Connectivity",
+            "table2": "Heterogeneous Effects of FOMC Tone on Network Connectivity"
+        },
+        "question":"Based on Table 2, which option best describes the Hawkish pattern from k = 7 to k = 14? A. Negative throughout, becoming more negative. B. Negative at first, turning positive at k = 14. C. Positive throughout. D. No clear pattern. Respond only with the choice.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.16537v1\\table1.jpg",
+            "table2": "2510.16537v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Top 5 Strategies by Welfare and GDP at T=40.",
+            "table2": "Median Trajectories of Debt and Welfare for Representative Strategies"
+        },
+        "question":"Among the five strategies listed in Table 1, which one most closely matches the ideal combination of “high GDP + low Debt + high Welfare”? A. AggRecomp_GI+TR_modDebt_IFI_LVT. B. Balanced-Recomp+PSI+OSI+IFI. C. AggRecomp_GI+TR_noDebt_LVT. D. AggRecomp_GI+TR_lowDebt_IFI_LVT. Respond only with a choice.",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 16,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.16537v1\\table1.jpg",
+            "table2": "2510.16537v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Top 5 Strategies by Welfare and GDP at T=40.",
+            "table2": "Median Trajectories of Debt and Welfare for Representative Strategies"
+        },
+        "question":"Using the data provided in table2, create a line chart using matplotlib that visualizes the evolution of the Median Debt over time (T = 0, 16, 40) for all four strategies. Provide only the Python code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "line_chart",
+            "data": [
+                [0, 16, 40],
+                [110.0, 91.49, 106.25],
+                [110.0, 83.59, 135.62], 
+                [110.0, 121.49, 162.01], 
+                [110.0, 163.20, 201.38]
+            ],
+            "operation": null,
+            "title": "Evolution of Median Debt over Time",
+            "xlabel": "Time (T)",
+            "ylabel": "Median Debt (%)",
+            "legend": true,
+            "tick": {
+                "xticklabels":  ["0", "16", "40"], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": true,
+                "marker": true,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2509.15090v1\\table1.jpg",
+            "table2": "2509.15090v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Synthetic Utility Table 1",
+            "table2": "Synthetic Utility Table 2"
+        },
+        "question": "In Table 1, what is the Alice value for State S2 under Policy C? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.538,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2509.16125v1\\table1.jpg",
+            "table2": "2509.16125v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Varying-Beta-exponential-equilibria",
+            "table2": "Beta-times-exponential-dictatorial"
+        },
+        "question": "Compute the difference in A* between s1=10.000 and s1=0.100 in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.295,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2509.17225v1\\table1.jpg",
+            "table2": "2509.17225v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Descriptive statistics for returns Li , i = 1, 2, . . . , 6. The unit of the calibrated values is percentage.",
+            "table2": "Tail Gini correlation coefficient matrix of (L1, L2, . . . , L6) ′ at the prudence level p = 0.10."
+        },
+        "question": "In Table 1, what is the standard deviation Std(σᵢ) of asset LCB? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.38349,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 20,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2510.14872v1\\table1.jpg",
+            "table2": "2510.14872v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Logistic Regression Model Predicting Voting According to Signal (IsTrue)",
+            "table2": "Logistic Regression Model Predicting Risk Aversion (RA)"
+        },
+        "question": "In Table 1, compute the difference between the Upper 95% CI and the Odds Ratio of the intercept. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 3.720,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 21,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2510.19630v2\\table1.jpg",
+            "table2": "2510.19630v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Summary Statistics: European Banking Sample",
+            "table2": "Network Structure: Descriptive Statistics"
+        },
+        "question": "In Table 2, how many nodes are reported for the network in 2018? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 48,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2510.22294v1\\table1.jpg",
+            "table2": "2510.22294v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Self-Flow Rates",
+            "table2": "Team Definition Summary Statistics"
+        },
+        "question": "In Table 2, what is the Standard Deviation of OCC1 per Establishment? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 1.26,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 23,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2510.23178v1\\table1.jpg",
+            "table2": "2510.23178v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Test for Hypothesis 1 (Same profit)",
+            "table2": "Test for Hypothesis 2 (Zero profit)"
+        },
+        "question": "Compute the difference between the F–R correlation and the R–C10 correlation in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": -0.895,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 24,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2510.24344v1\\table1.jpg",
+            "table2": "2510.24344v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Voter Turnout in the U.S. Elections by President",
+            "table2": "Voter Turnout in Iran Elections by President"
+        },
+        "question": "Compute the average voter participation rate during S. M. Khatami’s presidency in Table 2. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 73.345,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 25,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2510.25782v1\\table1.jpg",
+            "table2": "2510.25782v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Donor weight allocation by estimator",
+            "table2": "Donor weight comparison across estimators"
+        },
+        "question": "In Table 2, what is the upper bound of the Separate Estimator range for Arecibo? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 85.7,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.13860v1\\table1.jpg",
+            "table2": "2511.13860v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Agent Effect on Performance Metrics",
+            "table2": "Comparison of Email Processing Times"
+        },
+        "question": "Compute the average Factor Increase across all counterfactual scenarios in Table 1. Round to two decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 4.03,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.16760v1\\table1.jpg",
+            "table2": "2511.16760v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "New supervision tool validation",
+            "table2": "New supervision tool validation"
+        },
+        "question": "What is the value of y for the Correlation method in Table 1? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.48,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.16760v1\\table1.jpg",
+            "table2": "2511.16760v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "New supervision tool validation",
+            "table2": "New supervision tool validation"
+        },
+        "question": "Compute the average y value across all methods in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.36,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 29,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.22834v1\\table1.jpg",
+            "table2": "2511.22834v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Experimental Design",
+            "table2": "Summary Table: Reporting Accuracy"
+        },
+        "question": "Compute the average of the four Kendall Distance values for SD-WEIGHT in Table 2. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.42,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 30,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.03596v1\\table1.jpg",
+            "table2": "2512.03596v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparative ICERs across perspectives.",
+            "table2": "Value of Perspective (VoP) Analysis. VoP represents the per-person opportunity cost of making the wrong funding decision by ignoring societal costs and benefits."
+        },
+        "question": "Compute the average Health System ICER across all interventions in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 8666,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 31,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.06583v1\\table1.jpg",
+            "table2": "2512.06583v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Random Assignment Results (Mean over 100 simulations)",
+            "table2": "Biased Assignment Results (Mean over 100 simulations)"
+        },
+        "question": "What is the percentage of Correct Classifications for Promotions in Table 1? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 68,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 32,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.15296v1\\table1.jpg",
+            "table2": "2512.15296v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Parameters for Strong/Weak economies.",
+            "table2": "Parameter configurations for baseline and extreme scenarios."
+        },
+        "question": "What are the values of r and σ for the Weak economy in Table 1? Respond only with a list of two numeric values in the order [r, σ].",
+        "question_type": "perceptual",
+        "answer": [0.29, 0.6],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 33,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.15296v1\\table1.jpg",
+            "table2": "2512.15296v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Parameters for Strong/Weak economies.",
+            "table2": "Parameter configurations for baseline and extreme scenarios."
+        },
+        "question": "Compute the absolute difference in g₀ between the Strong and Weak economies in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.025,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 34,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.19675v1\\table1.jpg",
+            "table2": "2512.19675v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "STAGE I BENCHMARKING RESULTS",
+            "table2": "STAGE II BENCHMARKING RESULTS"
+        },
+        "question": "Compute the number of unmatched entries for the Title variable under Student-constructed in Table 2. Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 42,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.19675v1\\table1.jpg",
+            "table2": "2512.19675v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "STAGE I BENCHMARKING RESULTS",
+            "table2": "STAGE II BENCHMARKING RESULTS"
+        },
+        "question": "Visualize the Matched Entries of all approaches in Table 1. Plot requirements: Use Python with matplotlib. Create a horizontal bar chart. Y-axis: approach names, X-axis: Matched Entries. Add a title and axis labels. Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "barh_chart",
+            "data": [
+                [1360, 1378, 1358]
+            ],
+            "operation": null,
+            "title": "Matched Entries of All Approaches",
+            "xlabel": "Matched Entries",
+            "ylabel": "Approach Names",
+            "legend": null,
+            "tick": {
+                "xticklabels":  ["Extraction (Gemini-2.5-Pro)", "Reparation (Gemini-2.5-Flash-Lite)", "Student-Constructed"],
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.22917v1\\table1.jpg",
+            "table2": "2512.22917v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Price Increase Leadership by Type",
+            "table2": "Markup Patterns Across Price Tiers"
+        },
+        "question": "Compute the simple average of the quantity-weighted average markups for Salcobrand across all three tiers. Round to three decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.137,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.22917v1\\table1.jpg",
+            "table2": "2512.22917v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Price Increase Leadership by Type",
+            "table2": "Markup Patterns Across Price Tiers"
+        },
+        "question": "Using Table 1 (Price Increase Leadership by Type), visualize the distribution of FASA’s sample counts across all reported categories as a pie chart. Categories include: All Sample, Successful, Unsuccessful, First Increase, Additional. Plot requirements: Use Python with matplotlib. Create a pie chart. Slices correspond to the five categories listed above. Use FASA’s sample counts from Table 1 as weights. Display percentages using autopct. Add a title. Ensure the pie chart is circular. Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "pie_chart",
+            "data": [[71, 63, 8, 49, 22]],
+            "operation": null,
+            "title": "FASA Sample Distribution by Category",
+            "xlabel": null,
+            "ylabel": null,
+            "legend": null,
+            "tick": {
+                "xticklabels": null,
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 38,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23110v1\\table1.jpg",
+            "table2": "2512.23110v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Panel Fix-effect test result",
+            "table2": "Panel Random-effect test result"
+        },
+        "question": "Compute the difference between the maximum and minimum absolute t-test values in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 18.25,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 39,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2601.00770v1\\table1.jpg",
+            "table2": "2601.00770v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Metaheuristic algorithm performance on the Hang Seng (N = 31) training set.",
+            "table2": "Self-assessed descriptions of generated algorithms."
+        },
+        "question": "Compute the average MPE value across all algorithms in Table 1. Respond only with a single numeric value rounded to four decimal places.",
+        "question_type": "reasoning",
+        "answer": 3.7463,
+        "answer_type": "numeric"
+    }
+]

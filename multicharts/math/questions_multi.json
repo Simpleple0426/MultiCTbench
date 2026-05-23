@@ -1,0 +1,774 @@
+[
+    {
+        "question_id": 1,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2509.13570v1\\chart1.jpg",
+            "chart2": "2509.13570v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "",
+            "chart2": ""
+        },
+        "question": "Identify the chart type used in Chart1 and Chart2. Respond only with a list with two types, [type1, type2].",
+        "question_type": "perceptual",
+        "answer": "[Grouped bar chart, Pie chart]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 2,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.16622v1\\chart1.jpg",
+            "chart2": "2511.16622v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Mean log-height E[h(f) | G] for each non-S7 Galois group.",
+            "chart2": "Scatter plot of h(f) versus the complexity index c(G). Each vertical strip corresponds to one Galois group."
+        },
+        "question": "What are the chart types used in Chart 1 and Chart 2, respectively? Respond only with a list in the form [type1, type2]. Respond only with a list of two strings.",
+        "question_type": "perceptual",
+        "answer": "[bar chart, scatter plot]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.16622v1\\chart1.jpg",
+            "chart2": "2511.16622v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Mean log-height E[h(f) | G] for each non-S7 Galois group.",
+            "chart2": "Scatter plot of h(f) versus the complexity index c(G). Each vertical strip corresponds to one Galois group."
+        },
+        "question": "Is there a high-complexity group that still shows large log-height outliers in Chart 2? Provide the corresponding complexity index. Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.21333v1\\chart1.jpg",
+            "chart2": "2511.21333v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Histogram for the number of components of VG for connected graphs with ℓ = 6.",
+            "chart2": "Histogram for the number of components of VG for connected graphs with ℓ = 7."
+        },
+        "question": "Approximately how much larger is the maximum component count in Chart 2 compared to Chart 1? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 35,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.21763v1\\chart1.jpg",
+            "chart2": "2511.21763v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "A comparison of the outer/inner height in (1.2)–(1.3) and direct localisation in (1.4).",
+            "chart2": "A comparison of the outer/inner radius in (1.2)– (1.3)."
+        },
+        "question": "Compute the difference between the percentage improvement of Inner Height in Chart 1 and Inner Radius in Chart 2. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 12.5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 6,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.21763v1\\chart1.jpg",
+            "chart2": "2511.21763v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "A comparison of the outer/inner height in (1.2)–(1.3) and direct localisation in (1.4).",
+            "chart2": "A comparison of the outer/inner radius in (1.2)– (1.3)."
+        },
+        "question": "Compute the sum of the percentage change of Outer Radius in Chart 2 and Outer Height in Chart 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": -15.6,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.21763v1\\chart1.jpg",
+            "chart2": "2511.21763v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "A comparison of the outer/inner height in (1.2)–(1.3) and direct localisation in (1.4).",
+            "chart2": "A comparison of the outer/inner radius in (1.2)– (1.3)."
+        },
+        "question": "Using both Chart 1 and Chart 2, extract all metrics that have explicitly annotated improvement percentages and organize them into the following table with the header row: [[Metric, Improvement_Percentage], ...]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Metric", "Improvement_Percentage"],
+            ["Inner Height", -79.5],
+            ["Outer Height", -36.6],
+            ["Direct Localisation", -88.8],
+            ["Inner Radius", -92.0],
+            ["Outer Radius", 21.0]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.21961v1\\chart1.jpg",
+            "chart2": "2511.21961v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Transposition of vertices: average number of arcs in the depth poset that differ before and after the transposition during a straight-line homotopy between two random functions on the 2-torus.",
+            "chart2": "Transposition of vertices: average number of arcs in the transitive reduction of the depth poset that differ before and after the transposition during a straight-line homotopy between two random functions on the 2-torus."
+        },
+        "question": "Across both Chart 1 and Chart 2, identify the transposition type whose values are monotonically non-decreasing with respect to x. If no transposition type satisfies this condition in both charts, respond with none. Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "none",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 9,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.22507v2\\chart1.jpg",
+            "chart2": "2511.22507v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Density (6.6) plotted for t = 1 and ζ ∈ {0.1, 0.3, 0.5, 0.7, 0.9}",
+            "chart2": "Density (6.7) plotted for t ∈ {0.2, 0.4, 0.6, 0.8, 1}."
+        },
+        "question": "Estimate the FWHM for ζ = 0.3 and for t = 0.4. Compute the difference (ζ − t), measured in units of π. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["chart1","chart2", "chart3"],
+        "path": {
+            "chart1": "2512.09170v3\\chart1.jpg",
+            "chart2": "2512.09170v3\\chart2.jpg",
+            "chart3": "2512.09170v3\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Cross-order comparison and scaling analysis. Convex hull volume increases with order, reflecting the larger range of z-values.",
+            "chart2": "Cross-order comparison and scaling analysis. The fraction of points on the hull boundary decreases as interior points proliferate.",
+            "chart3": "Cross-order comparison and scaling analysis. The magic constant M(n) = n(n 2 + 1)/2 grows quadratically."
+        },
+        "question": "Do both Chart 1 and Chart 3 display exact numeric annotations for each bar? If so, return the annotated values at n = 5 as [Chart1, Chart3]. Respond only with a list of numeric values.",
+        "question_type": "perceptual",
+        "answer": [276.7, 65],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 11,
+        "items": ["chart1","chart2", "chart3"],
+        "path": {
+            "chart1": "2512.09170v3\\chart1.jpg",
+            "chart2": "2512.09170v3\\chart2.jpg",
+            "chart3": "2512.09170v3\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Cross-order comparison and scaling analysis. Convex hull volume increases with order, reflecting the larger range of z-values.",
+            "chart2": "Cross-order comparison and scaling analysis. The fraction of points on the hull boundary decreases as interior points proliferate.",
+            "chart3": "Cross-order comparison and scaling analysis. The magic constant M(n) = n(n 2 + 1)/2 grows quadratically."
+        },
+        "question": "Using all three charts, construct a 2D table with order n as rows and the three metrics as columns with the header row: [[Order_n, Hull_Volume, Hull_Vertex_Fraction, Magic_Constant], …] Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Order_n", "Hull_Volume", "Hull_Vertex_Fraction", "Magic_Constant"],
+            ["3", 18.0, 0.89, 15],
+            ["4", 95.0, 0.75, 34],
+            ["5", 276.7, 0.48, 65]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.12099v1\\chart1.jpg",
+            "chart2": "2512.12099v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Relative error in energy over time.",
+            "chart2": "Relative error in the angular momentum magnitude."
+        },
+        "question": "What is the order of magnitude of the S-Y(4) error in Chart 1 after t ≈ 3000? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": -3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.12099v1\\chart1.jpg",
+            "chart2": "2512.12099v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Relative error in energy over time.",
+            "chart2": "Relative error in the angular momentum magnitude."
+        },
+        "question": "What is the order of magnitude of the error maintained by MTPI throughout Chart 1 (as a power of 10)? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": -11,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 14,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.13310v1\\chart1.jpg",
+            "chart2": "2512.13310v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Boxplots of estimation errors",
+            "chart2": "Boxplots of estimation errors"
+        },
+        "question": "How many (p, n) configurations appear in both Chart 1 and Chart 2? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 9,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.14361v1\\chart1.jpg",
+            "chart2": "2512.14361v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "[Lower is better, NSHD ] for random graphs of sizes D ∈ {5, 10, 15} for regularly sampled data (left) and irregularly sampled data (right). CADYT finds graphs closer to the ground truth resulting in a lower NSHD.",
+            "chart2": "[Higher is better, F1 score (top) and AUPRC (bottom)] for random graphs of sizes D ∈ {5, 10, 15} for regularly (left) resp. irregularly sampled data (right). CADYT improves over baselines in terms of F1. CADYT having high AUPRC indicates higher confidence about the correct causal edges as opposed to spurious ones."
+        },
+        "question": "Which experimental settings are shared by both Chart 1 and Chart 2? Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[Regular, Irregular]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 16,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.15455v1\\chart1.jpg",
+            "chart2": "2512.15455v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of RHQR and RGS on a difficult example. Condition number of basis Q and a posteriori sketch ΩQ built by RHQR, compared with RGS.",
+            "chart2": "Comparison of RHQR and RGS on a difficult example. Relative Frobenius factorization errors of RHQR in both single and mixed precisions, compared with RGS and Householder QR."
+        },
+        "question": "Considering both charts, which method achieves both the lowest condition number and the lowest factorization error? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "RHQR",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.15455v1\\chart1.jpg",
+            "chart2": "2512.15455v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of RHQR and RGS on a difficult example. Condition number of basis Q and a posteriori sketch ΩQ built by RHQR, compared with RGS.",
+            "chart2": "Comparison of RHQR and RGS on a difficult example. Relative Frobenius factorization errors of RHQR in both single and mixed precisions, compared with RGS and Householder QR."
+        },
+        "question": "Which methods satisfy both condition number < 10 in Chart 1 and error < 1e-6 in Chart 2? Respond only with a list of strings.",
+        "question_type": "reasoning",
+        "answer": "[RHQR, RHQR mixed]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.15495v1\\chart1.jpg",
+            "chart2": "2512.15495v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Evolution of the discrete principal eigenvalue for different realizations of the noise for h˜ = 1/16",
+            "chart2": "Evolution of the discrete principal eigenvalue for different realizations of the noise for h˜ = 1/32"
+        },
+        "question": "Across both charts, which curve color is least sensitive to halving h̃ (1/16 → 1/32) in terms of spike height? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "green",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["chart1","chart2", "chart3"],
+        "path": {
+            "chart1": "2512.15631v1\\chart1.jpg",
+            "chart2": "2512.15631v1\\chart2.jpg",
+            "chart3": "2512.15631v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "L2-errors in the computation of the electric and magnetic fields",
+            "chart2": "divergence constraints: || div E − ρ ||, || div B||",
+            "chart3": "elapsed time for the full grid calculation vs TT representation."
+        },
+        "question": "What physical quantity is represented by the red curves in both Chart 1 and Chart 2? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "magnetic field",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 20,
+        "items": ["chart1","chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2512.16000v1\\chart1.jpg",
+            "chart2": "2512.16000v1\\chart2.jpg",
+            "chart3": "2512.16000v1\\chart3.jpg",
+            "chart4": "2512.16000v1\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "Mean and variance of L1 coefficient loss versus noise level for SINDy trained on different data sampling strategies of the Lorenz system, with initial condition [1, 3, 5].",
+            "chart2": "Mean and variance of L1 coefficient loss versus noise level for SINDy trained on different data sampling strategies of the Lorenz system, with initial condition [3, 3, 5].",
+            "chart3": "Mean and variance of L1 coefficient loss versus sampling percentage at selected noise levels for SINDy trained on the Lorenz system, with initial condition [1, 3, 5].",
+            "chart4": "Mean and variance of L1 coefficient loss versus sampling percentage at selected noise levels for SINDy trained on the Lorenz system, with initial condition [3, 3, 5]."
+        },
+        "question": "At noise level 0.30, is the best-performing strategy the same in both charts? If so, output the strategy name. Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "random 30% data",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 21,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.16418v1\\chart1.jpg",
+            "chart2": "2512.16418v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Histogram that compares Picard vs Euler, comparison of the Y component evaluated at t = 0.",
+            "chart2": "Histogram that compares Picard vs Euler, comparison of the Z component evaluated at t = 0."
+        },
+        "question": "Which method is closer to the MC Baseline in both Chart 1 and Chart 2? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Picard",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.16525v1\\chart1.jpg",
+            "chart2": "2512.16525v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Total number of Newton iterations for the proposed schemes across five refinement levels (about 200000 triangular elements on level 4), using a velocity of v = (1/2, 1/2)T and time step sizes as defined in the Table 2",
+            "chart2": "Total computation time for the proposed schemes across five refinement levels (about 200000 triangular elements on level 4), using a velocity of v = (1/2, 1/2)T and time step sizes as defined in the Table 2."
+        },
+        "question": "At refinement level 2, which scheme satisfies both Newton iterations < 1000 and computation time < 20 seconds? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "VFVM / Implicit Euler",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 23,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.16824v1\\chart1.jpg",
+            "chart2": "2512.16824v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Iterative refinement for Van der Pol oscillator. Control evolution showing dramatically reduced variance across iterations. Initial predictions (purple) have high uncertainty; final iteration (yellow) converges to consistent damping strategy.",
+            "chart2": "Iterative refinement for Van der Pol oscillator. Cost reduction of approximately 90% from iteration 0 to 3"
+        },
+        "question": "Identify the chart types for Chart 1 and Chart 2 in order. Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[line plot, bar chart]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 24,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.16865v1\\chart1.jpg",
+            "chart2": "2512.16865v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Trends and distribution of the Orienteering Problem research themes (2017–2025). Article distribution by theme and year.",
+            "chart2": "Trends and distribution of the Orienteering Problem research themes (2017–2025). Cumulative trend of articles by theme."
+        },
+        "question": "How many research themes are shared between Chart 1 and Chart 2? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 22,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 25,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.16865v1\\chart1.jpg",
+            "chart2": "2512.16865v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Trends and distribution of the Orienteering Problem research themes (2017–2025). Article distribution by theme and year.",
+            "chart2": "Trends and distribution of the Orienteering Problem research themes (2017–2025). Cumulative trend of articles by theme."
+        },
+        "question": "Compute the ratio of the cumulative “Set” articles in 2025 from Chart 2 to the total articles in 2025 from Chart 1. Respond only with a single numeric value rounded to two decimals.",
+        "question_type": "reasoning",
+        "answer": 0.85,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.17177v1\\chart1.jpg",
+            "chart2": "2512.17177v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "",
+            "chart2": ""
+        },
+        "question": "Which order of magnitude in Chart 2 corresponds to the peak dim observed in Chart 1? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 16,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.17417v1\\chart1.jpg",
+            "chart2": "2512.17417v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Solved instances over time for paley_power graph family. Comparing all methods",
+            "chart2": "Solved instances over time for paley_power graph family. Comparing Boscia variants"
+        },
+        "question": "At 600 seconds, how many instances are solved by Boscia in Chart 1 and Chart 2 respectively? Respond only with a list of two integers.",
+        "question_type": "perceptual",
+        "answer": [15, 15],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.17417v1\\chart1.jpg",
+            "chart2": "2512.17417v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Solved instances over time for paley_power graph family. Comparing all methods",
+            "chart2": "Solved instances over time for paley_power graph family. Comparing Boscia variants"
+        },
+        "question": "At 600 seconds, how many more instances does DFS_clique in Chart 2 solve compared to Spectral in Chart 1? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 7,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 29,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.17619v1\\chart1.jpg",
+            "chart2": "2512.17619v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison between the cis- isomer graded persistent Betti curves of edge ideals of the dichloroethene molecule derived from the Vietoris–Rips edge ideal filtration.",
+            "chart2": "Comparison between the trans- isomer graded persistent Betti curves of edge ideals of the dichloroethene molecule derived from the Vietoris–Rips edge ideal filtration."
+        },
+        "question": "How many Betti curve entries are shown in the legend of both Chart 1 and Chart 2? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 8,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 30,
+        "items": ["chart1","chart2", "chart3"],
+        "path": {
+            "chart1": "2512.17713v1\\chart1.jpg",
+            "chart2": "2512.17713v1\\chart2.jpg",
+            "chart3": "2512.17713v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Difference in bound losses δd − δd sp between dense and sparse certification schemes for Bell inequalities A2–A89 at relaxation orders d = 1",
+            "chart2": "Difference in bound losses δd − δd sp between dense and sparse certification schemes for Bell inequalities A2–A89 at relaxation orders d = 2",
+            "chart3": "Difference in bound losses δd − δd sp between dense and sparse certification schemes for Bell inequalities A2–A89 at relaxation orders d = 3"
+        },
+        "question": "In Chart 1 (d = 1), Chart 2 (d = 2), and Chart 3 (d = 3), different scatter point colors are used to represent different relaxation orders. List the scatter point colors corresponding to d = 1, d = 2, and d = 3, in this order. Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[blue, red, green]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 31,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.17714v1\\chart1.jpg",
+            "chart2": "2512.17714v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Error for sampling the invariant distribution of the preconditioned SPDE in the spatial domain [0, 1] using explicit and implicit Euler methods, their postprocessed counterparts based on the Leimkuhler–Matthews method, the RK2 method, and the Crank–Nicholson scheme. The experiments are conducted with zero forcing, a Laplacian operator, a Gaussian test function, and a total of 10^8 trajectories.",
+            "chart2": "Error for sampling the invariant distribution of the preconditioned SPDE in the spatial domain [0, 1] using explicit and implicit Euler methods, their postprocessed counterparts based on the Leimkuhler–Matthews method, the RK2 method, and the Crank–Nicholson scheme. The experiments are conducted with a nonlinear forcing term, a Laplacian operator, a Gaussian test function, and a total of 10^8 trajectories."
+        },
+        "question": "What marker shape is used for the CN method in both charts? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "circle",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 32,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.17714v1\\chart1.jpg",
+            "chart2": "2512.17714v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Error for sampling the invariant distribution of the preconditioned SPDE in the spatial domain [0, 1] using explicit and implicit Euler methods, their postprocessed counterparts based on the Leimkuhler–Matthews method, the RK2 method, and the Crank–Nicholson scheme. The experiments are conducted with zero forcing, a Laplacian operator, a Gaussian test function, and a total of 10^8 trajectories.",
+            "chart2": "Error for sampling the invariant distribution of the preconditioned SPDE in the spatial domain [0, 1] using explicit and implicit Euler methods, their postprocessed counterparts based on the Leimkuhler–Matthews method, the RK2 method, and the Crank–Nicholson scheme. The experiments are conducted with a nonlinear forcing term, a Laplacian operator, a Gaussian test function, and a total of 10^8 trajectories."
+        },
+        "question": "Which methods maintain errors below 10⁻⁴ across all timesteps in both charts? Respond only with a list of strings.",
+        "question_type": "reasoning",
+        "answer": "[CN, RK2]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 33,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.17825v1\\chart1.jpg",
+            "chart2": "2512.17825v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Effect of varying the parameter values at fixed dosing constant",
+            "chart2": "Effect of varying cost sensitivity parameter β"
+        },
+        "question": "While L(t) stabilizes in Chart 1 for t > 60, does u(t) in Chart 2 continue to show periodic pulses during the same period? If so, provide the pulse interval. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 10,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 34,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.18358v1\\chart1.jpg",
+            "chart2": "2512.18358v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Plot of equilibrium densities for m = 0.5 and d = 2; these values correspond to case i from Proposition 3.1, and the equilibrium densities exist for all κ greater than κ₁.",
+            "chart2": "Plot of equilibrium densities for m = 0.25 and d = 3; these values correspond to case ii from Proposition 3.1, and the equilibrium densities exist for κ₁ less than κ less than κ₂ in this case (here κ₂ is approximately 12.4453)."
+        },
+        "question": "Is the same color used for κ = κ₁ in both charts, and if so, what is it? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "blue",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.18358v1\\chart1.jpg",
+            "chart2": "2512.18358v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Plot of equilibrium densities for m = 0.5 and d = 2; these values correspond to case i from Proposition 3.1, and the equilibrium densities exist for all κ greater than κ₁.",
+            "chart2": "Plot of equilibrium densities for m = 0.25 and d = 3; these values correspond to case ii from Proposition 3.1, and the equilibrium densities exist for κ₁ less than κ less than κ₂ in this case (here κ₂ is approximately 12.4453)."
+        },
+        "question": "What are the maximum displayed y-axis values in Chart 1 and Chart 2 respectively? Respond only with a list of two numeric values.",
+        "question_type": "perceptual",
+        "answer": [3, 12],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.18418v1\\chart1.jpg",
+            "chart2": "2512.18418v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Heatmap of Pearson correlations between the quadratic equation coefficients (E, F, G) and the roots (H, I).",
+            "chart2": "Histogram of the distribution of C values with an overlaid probability density function."
+        },
+        "question": "Are the numerical values in Chart 1 and Chart 2 discrete or continuous respectively? Respond only with a list of two strings.",
+        "question_type": "perceptual",
+        "answer": "[Discrete, Continuous]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.18418v1\\chart1.jpg",
+            "chart2": "2512.18418v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Heatmap of Pearson correlations between the quadratic equation coefficients (E, F, G) and the roots (H, I).",
+            "chart2": "Histogram of the distribution of C values with an overlaid probability density function."
+        },
+        "question": "Which interpretation best aligns the observations from Chart 1 and Chart 2 regarding variable C? A. High correlation and concentrated distribution B. Low correlation and uniform distribution C. No clear relationship Respond only with a single letter.",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 38,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.18418v1\\chart1.jpg",
+            "chart2": "2512.18418v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Heatmap of Pearson correlations between the quadratic equation coefficients (E, F, G) and the roots (H, I).",
+            "chart2": "Histogram of the distribution of C values with an overlaid probability density function."
+        },
+        "question": "Based on Charts 1 and 2, how should variable C best be characterized? A. Weakly related and symmetric B. Strongly related and skewed C. Weakly related and skewed Respond only with a single letter.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 39,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.18701v1\\chart1.jpg",
+            "chart2": "2512.18701v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Numerical approximation of the solution at final time T = 0.5 for the constant kernel with eta = 0.5, using monotonically increasing initial data.",
+            "chart2": "Numerical approximation of the solution at final time T = 0.5 for the constant kernel with eta = 0.5, using monotonically decreasing initial data."
+        },
+        "question": "Do both charts use the same kernel type? A. Constant kernel B. Variable kernel Respond only with a single letter.",
+        "question_type": "perceptual",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 40,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.18799v1\\chart1.jpg",
+            "chart2": "2512.18799v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Regions of a and β regarding the positivity of pa(t, β) determined by the existence of the positive real root in Equation (4.17) is shown. Thus, the positivity of u+ is rejected or possible accordingly. The regions are separated by the critical curve aβ − a + 1 = 0.",
+            "chart2": "Adjusted schematic diagram with the theoretically certified region for positivity and the numerically rejected region"
+        },
+        "question": "In Chart 2, what is the logical relationship between the Certified region and the Possible region? A. Certified ⊂ Possible B. Possible ⊂ Certified C. Certified = Possible Respond only with a single letter.",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.19646v1\\chart1.jpg",
+            "chart2": "2512.19646v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Normalized mean first passage time (MFPT) versus interpretation parameter α for perfect and imperfect targets.",
+            "chart2": "Probability of hitting the right target versus interpretation parameter α for perfect and imperfect targets."
+        },
+        "question": "If the two charts use the same marker shape for imperfect targets, respond with the marker shape; otherwise respond with “different”.",
+        "question_type": "perceptual",
+        "answer": "square",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.20777v1\\chart1.jpg",
+            "chart2": "2512.20777v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Experimental results for ImageNet32 dataset. Lowest and highest relative error rate.",
+            "chart2": "Experimental results for ImageNet64 dataset. Lowest and highest relative error rate"
+        },
+        "question": "What is the average percentage of expm_flow in the “Lowest relative error rate” pie charts across Chart 1 and Chart 2? Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 5.5,
+        "answer_type": "numeric"
+    },
+    
+    {
+        "question_id": 43,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.20777v1\\chart1.jpg",
+            "chart2": "2512.20777v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Experimental results for ImageNet32 dataset. Lowest and highest relative error rate.",
+            "chart2": "Experimental results for ImageNet64 dataset. Lowest and highest relative error rate"
+        },
+        "question": "Across Chart 1 and Chart 2, extract the percentages of expm_flow under Lowest and Highest relative error rate conditions for both datasets and organize them into the following 2D table with the header row: [ [Dataset, Lowest, Highest], [ImageNet32, x, x], [ImageNet64, x, x] ] Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Dataset", "Lowest", "Highest"],
+            ["ImageNet32", 6, 84],
+            ["ImageNet64", 5, 87]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 44,
+        "items": ["chart1","chart2", "chart3"],
+        "path": {
+            "chart1": "2512.21096v1\\chart1.jpg",
+            "chart2": "2512.21096v1\\chart2.jpg",
+            "chart3": "2512.21096v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Asymptotic H2 approximation bias of the diffusion process under Gaussian perturbations of the true system poles, visualized using a multi-kernel density estimate (KDE).",
+            "chart2": "Asymptotic H2 approximation bias of the diffusion process under Gaussian perturbations of the true system poles, visualized using a multi-kernel density estimate (KDE).",
+            "chart3": "Asymptotic H2 approximation bias of the diffusion process under Gaussian perturbations of the true system poles, visualized using a multi-kernel density estimate (KDE)."
+        },
+        "question": "How many methods are consistently compared in both Chart 1 and Chart 2? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 6,
+        "answer_type": "numeric"
+    }
+]
+

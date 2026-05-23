@@ -1,0 +1,1067 @@
+[
+    {
+        "question_id": 1,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2502.10923v2\\chart1.jpg",
+            "chart2": "2502.10923v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "UPI interference under multi-application scenarios, showing normalized cycles with page-walk overhead highlighted and performance improvement annotated relative to Mitosis.",
+            "chart2": "Memory bandwidth interference under multi-application scenarios, showing normalized cycles with page-walk overhead highlighted and performance improvement annotated relative to Mitosis."
+        },
+        "question": "How consistent is the workload ordering between the two charts? A. Fully consistent B. Partially consistent C. Completely different Respond only with a single letter.",
+        "question_type": "perceptual",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 2,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2502.10923v2\\chart1.jpg",
+            "chart2": "2502.10923v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "UPI interference under multi-application scenarios, showing normalized cycles with page-walk overhead highlighted and performance improvement annotated relative to Mitosis.",
+            "chart2": "Memory bandwidth interference under multi-application scenarios, showing normalized cycles with page-walk overhead highlighted and performance improvement annotated relative to Mitosis."
+        },
+        "question": "Which workload shows high sensitivity to page-walk overhead in both charts? A. Redis B. GUPS C. Graph500 D. BTree Respond only with a single letter.",
+        "question_type": "perceptual",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.15076v1\\chart1.jpg",
+            "chart2": "2512.15076v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Overall performance comparison of BODE-GEN and baseline prompting methods using ChatGPT-3.5 (Turbo) as the base LLM, measured by the percentage of HumanEval+ tasks solved with 100% correctness.",
+            "chart2": "Overall performance comparison of BODE-GEN and baseline prompting methods using CodeLlama-7b as the base LLM, measured by the percentage of HumanEval+ tasks solved with 100% correctness."
+        },
+        "question": "Compute the performance drop of BODE-GEN from Chart 1 to Chart 2. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.39,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.15076v1\\chart1.jpg",
+            "chart2": "2512.15076v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Overall performance comparison of BODE-GEN and baseline prompting methods using ChatGPT-3.5 (Turbo) as the base LLM, measured by the percentage of HumanEval+ tasks solved with 100% correctness.",
+            "chart2": "Overall performance comparison of BODE-GEN and baseline prompting methods using CodeLlama-7b as the base LLM, measured by the percentage of HumanEval+ tasks solved with 100% correctness."
+        },
+        "question": "Using both Chart 1 and Chart 2, extract the performance of each prompting method under the two base LLMs and organize them into the following 2D table with header row: [[Method, ChatGPT3.5_Performance, CodeLlama7B_Performance], …]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Method", "ChatGPT3.5_Performance", "CodeLlama7B_Performance"],
+                ["Initial Prompt", 0.61, 0.23],
+                ["BODE-GEN", 0.89, 0.50],
+                ["CoT", 0.63, 0.22],
+                ["OPRO", 0.78, 0.38]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.19509v1\\chart1.jpg",
+            "chart2": "2512.19509v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Transfer learning performance on low-resource languages for code summarization, showing BLEU scores and improvement rates over the non-fine-tuned baseline.",
+            "chart2": "Transfer learning performance on low-resource languages for code search, showing accuracy and improvement rates over the non-fine-tuned baseline."
+        },
+        "question": "Using Chart 1 and Chart 2, extract the Java-SFT improvement rates (IR) for AppleScript in BLEU and Accuracy, and return them as a list in the order [BLEU_IR, Accuracy_IR]. Respond only with a list of numeric values.",
+        "question_type": "perceptual",
+        "answer": [5.68, 5.09],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 6,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.19509v1\\chart1.jpg",
+            "chart2": "2512.19509v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Transfer learning performance on low-resource languages for code summarization, showing BLEU scores and improvement rates over the non-fine-tuned baseline.",
+            "chart2": "Transfer learning performance on low-resource languages for code search, showing accuracy and improvement rates over the non-fine-tuned baseline."
+        },
+        "question": "Which language is most sensitive to transfer learning in BLEU but shows relatively limited improvement in Accuracy? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Swift",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.22443v1\\chart1.jpg",
+            "chart2": "2512.22443v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Multi-Calculation Benchmark (3-shot CoT): Accuracy comparison across different models.",
+            "chart2": "Accounting-Reasoning Benchmark (3-shot CoT): Model accuracy across difficulty levels."
+        },
+        "question": "Extract GPT-4’s Accuracy from Chart 1 and GPT-4’s Accuracy under Easy difficulty from Chart 2, and return them in order. Respond only with a list of numeric values.",
+        "question_type": "perceptual",
+        "answer": [91.45, 27.14],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.22443v1\\chart1.jpg",
+            "chart2": "2512.22443v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Multi-Calculation Benchmark (3-shot CoT): Accuracy comparison across different models.",
+            "chart2": "Accounting-Reasoning Benchmark (3-shot CoT): Model accuracy across difficulty levels."
+        },
+        "question": "Considering both Chart 1 and Chart 2, which model shows higher overall stability across benchmarks and difficulty levels? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "GPT-4",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 9,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.22615v1\\chart1.jpg",
+            "chart2": "2512.22615v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "BlockWorlds (grounding): Performance of VLMs on grounding tasks in the BlockWorlds setting across action/task types and difficulty levels.",
+            "chart2": "BlockWorlds (planning): Performance of VLMs on planning tasks in the BlockWorlds setting across action/task types and difficulty levels."
+        },
+        "question": "Extract the Accuracy of InternVL3-8B under Action·Simple from Chart 1 and Chart 2, in this order. Respond only with a list of numeric values.",
+        "question_type": "perceptual",
+        "answer": [0.26, 0.11],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.22615v1\\chart1.jpg",
+            "chart2": "2512.22615v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "BlockWorlds (grounding): Performance of VLMs on grounding tasks in the BlockWorlds setting across action/task types and difficulty levels.",
+            "chart2": "BlockWorlds (planning): Performance of VLMs on planning tasks in the BlockWorlds setting across action/task types and difficulty levels."
+        },
+        "question": "Using both Chart 1 and Chart 2, extract the Accuracy of Qwen2.5-VL-7B-Instruct under all Action difficulty levels (Simple, Medium, Hard), and organize them into the following 2D table with the header row, where each row corresponds to a setting: [[Setting, Action_Simple, Action_Medium, Action_Hard], …]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Setting", "Action_Simple", "Action_Medium", "Action_Hard"],
+            ["Grounding", 0.87, 0.24, 0.07],
+            ["Planning", 0.18, 0.09, 0.04]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 11,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.22705v1\\chart1.jpg",
+            "chart2": "2512.22705v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "English dataset label distribution",
+            "chart2": "Urdu dataset label distribution"
+        },
+        "question": "Using both Chart 1 and Chart 2, extract the sample counts of each label under English and Urdu datasets, and organize them into the following 2D table with a header row: [[Label, English_Count, Urdu_Count], …]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Label", "English_Count", "Urdu_Count"],
+            ["Generalized Hope", 1284, 1107],
+            ["Not Hope", 2245, 2430],
+            ["Realistic Hope", 540, 331],
+            ["Unrealistic Hope", 472, 745]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.22705v1\\chart1.jpg",
+            "chart2": "2512.22705v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "English dataset label distribution",
+            "chart2": "Urdu dataset label distribution"
+        },
+        "question": "Which type of Hope expression is more weakened in Chart 2 compared to Chart 1? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Realistic Hope",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.22738v1\\chart1.jpg",
+            "chart2": "2512.22738v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Heatmap of F1-scores showing the effect of different curated data ratios, indicating an optimal performance around 50%.",
+            "chart2": "Performance comparison between a homologous weak model (BioSelectTune-8B at 50%) and a domain-specific weak model (BioSelectTune with BioGPT) for data filtering, showing consistent superiority of the homologous model across datasets."
+        },
+        "question": "Which dataset appears in both Chart 1 and Chart 2 and is shown at the rightmost position? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "BC2GM",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 14,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.22738v1\\chart1.jpg",
+            "chart2": "2512.22738v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Heatmap of F1-scores showing the effect of different curated data ratios, indicating an optimal performance around 50%.",
+            "chart2": "Performance comparison between a homologous weak model (BioSelectTune-8B at 50%) and a domain-specific weak model (BioSelectTune with BioGPT) for data filtering, showing consistent superiority of the homologous model across datasets."
+        },
+        "question": "Based on both charts, which weak model type is more suitable for data filtering? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Homologous weak model",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23078v1\\chart1.jpg",
+            "chart2": "2512.23078v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Relative accuracy gain from including images, by medium.",
+            "chart2": "Relative accuracy gain from including images, by category."
+        },
+        "question": "Count the number of bars displayed in Chart 1 and Chart 2, and return them in the following order: [number of bars in Chart 1, number of bars in Chart 2]. Respond only with a list of two numeric values.",
+        "question_type": "perceptual",
+        "answer": [10, 7],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 16,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23196v1\\chart1.jpg",
+            "chart2": "2512.23196v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Test Accuracy of deep learning models on the 3-band (V3) and 4-band (V4) datasets.",
+            "chart2": "IoU performance of deep learning models on the 3-band (V3) and 4-band (V4) datasets."
+        },
+        "question": "From Chart 1 and Chart 2, extract the Accuracy and IoU of ResNet50-segnet under the 4-band setting. Respond only with a list of numeric values.",
+        "question_type": "perceptual",
+        "answer": [93.47, 0.8977],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23196v1\\chart1.jpg",
+            "chart2": "2512.23196v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Test Accuracy of deep learning models on the 3-band (V3) and 4-band (V4) datasets.",
+            "chart2": "IoU performance of deep learning models on the 3-band (V3) and 4-band (V4) datasets."
+        },
+        "question": "English Which model shows minimal sensitivity to band changes in both Accuracy (Chart 1) and IoU (Chart 2)? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "ResUNet",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23206v1\\chart1.jpg",
+            "chart2": "2512.23206v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "The distribution of source abstracts’ discipline in BiomedTLDR.",
+            "chart2": "The distribution of source abstracts’ discipline in CiteSum."
+        },
+        "question":"Extract the percentage values of Philosophy from Chart 1 and Chart 2. Respond only with a list of numeric values.",
+        "question_type": "perceptual",
+        "answer": [0.02, 0.019],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23206v1\\chart1.jpg",
+            "chart2": "2512.23206v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "The distribution of source abstracts’ discipline in BiomedTLDR.",
+            "chart2": "The distribution of source abstracts’ discipline in CiteSum."
+        },
+        "question": "From both Chart 1 and Chart 2, extract the percentage values of the following specified disciplines: Biology, Chemistry, Medicine, Psychology, Computer Science, Physics, Economics, Sociology, Philosophy, and Art, and organize them into the following 2D table with a header row: [[Discipline, Chart1_Percentage, Chart2_Percentage], …]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Discipline", "Chart1_Percentage", "Chart2_Percentage"],
+            ["Biology", 65.26, 0.691],
+            ["Chemistry", 11.56, 0.085],
+            ["Medicine", 10.12, 2.127],
+            ["Psychology", 3.69, 0.659],
+            ["Computer Science", 2.71, 80.400],
+            ["Physics", 0.94, 0.771],
+            ["Economics", 0.09, 0.417],
+            ["Sociology", 0.05, 0.135],
+            ["Philosophy", 0.02, 0.019],
+            ["Art", 0.01, 0.005]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 20,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23347v1\\chart1.jpg",
+            "chart2": "2512.23347v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Impact of Lead Dropout on Morphology vs. Rhythm. Morphology classes (red) degrade significantly without spatial context (−12.0%), while Rhythm classes (green) remain robust (+2.1%), validating the physiological disentanglement hypothesis.",
+            "chart2": "Comprehensive ablation study. The significant performance drop when removing either the Context (Mamba) or Rhythm (HRV) component validates the necessity of the proposed multi-view design."
+        },
+        "question": "Which visual encoding is most similarly used to distinguish categories in Chart 1 and Chart 2? A. Marker shapes B. Line styles C. Bar colors D. Axis separation Respond only with a single letter.",
+        "question_type": "perceptual",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 21,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23347v1\\chart1.jpg",
+            "chart2": "2512.23347v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Impact of Lead Dropout on Morphology vs. Rhythm. Morphology classes (red) degrade significantly without spatial context (−12.0%), while Rhythm classes (green) remain robust (+2.1%), validating the physiological disentanglement hypothesis.",
+            "chart2": "Comprehensive ablation study. The significant performance drop when removing either the Context (Mamba) or Rhythm (HRV) component validates the necessity of the proposed multi-view design."
+        },
+        "question": "The degradation pattern of Morphology in Chart 1 is most consistent with which ablation result in Chart 2? A. No HRV B. No Context C. No Morphology D. Lead Dropout Respond only with a single letter.",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23427v1\\chart1.jpg",
+            "chart2": "2512.23427v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Pearson correlation coefficient ρ between error maps and uncertainty maps for each method, averaged across samples per dataset. Higher positive values indicate better correlation, with the LA giving the strongest error alignment.",
+            "chart2": "Radar plot illustrating Brier scores of the UQ methods, averaged across samples per dataset. Lower scores indicate better probabilistic performance."
+        },
+        "question": "For the ISTD dataset, extract the values of Variance Network from Chart 1 and Chart 2. Respond only with a list of numeric values in the order [ρ, Brier].",
+        "question_type": "perceptual",
+        "answer": [0.07, 0.58],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 23,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23512v2\\chart1.jpg",
+            "chart2": "2512.23512v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Ablation results on MMBench for different vision generation configurations, comparing baseline with +ploss, +diffuloss, and +warmup across training scales.",
+            "chart2": "Ablation results on SeedBench for different vision generation configurations, comparing baseline with +ploss, +diffuloss, and +warmup across training scales."
+        },
+        "question": "Considering both charts, which method is least suitable as a default configuration? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "+diffuloss",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 24,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23545v1\\chart1.jpg",
+            "chart2": "2512.23545v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Ablation study on the combination of input RoIs when screening RCC.",
+            "chart2": "Ablation study on the number of ICL samples."
+        },
+        "question": "Based on both charts, which type of adjustment is more likely to introduce performance instability? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "RoIs combination strategies",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 25,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23565v2\\chart1.jpg",
+            "chart2": "2512.23565v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution of Question Types in the SF-QA Dataset. The dataset covers 6 balanced types of tasks, ranging from fundamental information extraction to advanced mechanistic reasoning and structural recognition.",
+            "chart2": "Comparative performance analysis of inference-time reasoning (“Think”) versus standard instruction-tuned (“Instruct”) models across diverse cognitive tasks. The visualization highlights the “reasoning leap” in complex mechanistic and synthetic tasks achieved by thinking models (red/green lines) compared to standard baselines (blue/yellow lines), while also illustrating the universal bottleneck in precise structure recognition."
+        },
+        "question": "Which dimension satisfies all three conditions across both charts? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Structure Recognition",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23565v2\\chart1.jpg",
+            "chart2": "2512.23565v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution of Question Types in the SF-QA Dataset. The dataset covers 6 balanced types of tasks, ranging from fundamental information extraction to advanced mechanistic reasoning and structural recognition.",
+            "chart2": "Comparative performance analysis of inference-time reasoning (“Think”) versus standard instruction-tuned (“Instruct”) models across diverse cognitive tasks. The visualization highlights the “reasoning leap” in complex mechanistic and synthetic tasks achieved by thinking models (red/green lines) compared to standard baselines (blue/yellow lines), while also illustrating the universal bottleneck in precise structure recognition."
+        },
+        "question": "Which option best describes the relationship? A. Yes, smallest variance B. Yes, largest variance C. No, variance is moderate D. No, variance is largest Respond only with a single letter.",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23628v1\\chart1.jpg",
+            "chart2": "2512.23628v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Effect of guidance scale on memorization in the base model, showing training and test Fréchet Distance as a function of guidance scale w.",
+            "chart2": "Effect of guidance scale on memorization in the large model, showing training and test Fréchet Distance as a function of guidance scale w."
+        },
+        "question": "What color is used for the memorization=0 reference line in both charts? Respond only with a single color name.",
+        "question_type": "perceptual",
+        "answer": "dark green",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23628v1\\chart1.jpg",
+            "chart2": "2512.23628v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Effect of guidance scale on memorization in the base model, showing training and test Fréchet Distance as a function of guidance scale w.",
+            "chart2": "Effect of guidance scale on memorization in the large model, showing training and test Fréchet Distance as a function of guidance scale w."
+        },
+        "question": "From Chart 1 and Chart 2, extract the training Fréchet Distance at each shared guidance scale and organize them into the following 2D table with the header row: [[w, Chart1_Training_FD, Chart2_Training_FD], …]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["w", "Chart1_Training_FD", "Chart2_Training_FD"],
+            ["0", 330, 340],
+            ["1", 210, 150],
+            ["3", 145, 135],
+            ["5", 142, 138],
+            ["7", 145, 140],
+            ["10", 150, 145]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 29,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23647v1\\chart1.jpg",
+            "chart2": "2512.23647v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Performance of the proposed NestBrowse on the challenging BrowseComp deep IS benchmark.",
+            "chart2": "Intra-page exploration performance over inner-loop instances, evaluated using 100 trajectories per benchmark."
+        },
+        "question": "Which visual encoding is used in both Chart 1 and Chart 2? A. Marker shapes B. Line styles C. Color-coded bars D. Pattern-filled bars Respond only with a single letter.",
+        "question_type": "perceptual",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 30,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23766v1\\chart1.jpg",
+            "chart2": "2512.23766v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Median cluster purity for Indian Pines.",
+            "chart2": "Median cluster purity for UCF YouTube Action."
+        },
+        "question": "In which dataset does SVBF show a stronger advantage over mean? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "UCF11",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 31,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23773v1\\chart1.jpg",
+            "chart2": "2512.23773v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Routing result of VAEs along time during the test phase. The x-axis represents the timestamp. The y-axis represents the proportion of different market dynamics.",
+            "chart2": "Risk-aware routing performance over time. The x-axis denotes the timestamp, and the y-axis shows the returns of FineFT and the subagents."
+        },
+        "question": "Identify the chart types of Chart 1 and Chart 2, and return their types in order (Chart 1 first, Chart 2 second). Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[stacked bar chart, line chart]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 32,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23835v1\\chart1.jpg",
+            "chart2": "2512.23835v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Top Bias Indicators for the bias-detector model.",
+            "chart2": "Top Bias Indicators for the bias-detector model."
+        },
+        "question": "Which model exhibits a wider range of Mean |SHAP| values? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "DA-RoBERTa-BABE-FT",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 33,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23835v1\\chart1.jpg",
+            "chart2": "2512.23835v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Top Bias Indicators for the bias-detector model.",
+            "chart2": "Top Bias Indicators for the bias-detector model."
+        },
+        "question": "Which model includes more verb- or action-oriented bias indicators within its top-10 list? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer":  "bias-detector",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 34,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23898v1\\chart1.jpg",
+            "chart2": "2512.23898v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Model Comparison on the Test Dataset: Performance Metrics Comparison and Inference Throughput Comparison",
+            "chart2": "Radar Chart of Standardized Performance Metrics"
+        },
+        "question": "Which model is consistently the weakest in terms of performance stability across Chart 1 and Chart 2? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "1D-CNN",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23898v1\\chart1.jpg",
+            "chart2": "2512.23898v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Model Comparison on the Test Dataset: Performance Metrics Comparison and Inference Throughput Comparison",
+            "chart2": "Radar Chart of Standardized Performance Metrics"
+        },
+        "question": "Which model ranks high in Chart 1 but shows diminished relative advantage in Chart 2? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "MLP",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23994v1\\chart1.jpg",
+            "chart2": "2512.23994v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Audio-physics distribution of PhyAVBench.",
+            "chart2": "Scenario distribution of PhyAVBench across different scenario types."
+        },
+        "question": "For the category with the most subcategories in Chart 1, compute its proportion of total test pairs in Chart 2. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.28,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24002v1\\chart1.jpg",
+            "chart2": "2512.24002v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Paced Rhythm: Activation ratio distribution across 7 group combinations from HUG under the Paced Rhythm condition.",
+            "chart2": "Supraventricular Arrhythmia: Activation ratio distribution across 7 group combinations from HUG under the Supraventricular Arrhythmia condition."
+        },
+        "question": "How many group combinations appear in both Chart 1 and Chart 2? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 38,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24023v1\\chart1.jpg",
+            "chart2": "2512.24023v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Performance comparison on RefCOCO and RefCOCO+ benchmarks (val/testA/testB) using a radar chart.",
+            "chart2": "Performance comparison on ReasonSeg benchmark (val and test) in terms of gIoU and cIoU across different methods."
+        },
+        "question": "Which model shows a strong advantage in Chart 1 but a reduced advantage in Chart 2? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "LISA 7B",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 39,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24077v1\\chart1.jpg",
+            "chart2": "2512.24077v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Evolutionary Effect & Efficiency.",
+            "chart2": "Score Convergence over Time. Note: Faint lines represent individual runs (N = 3), and bold lines represent the average trajectory."
+        },
+        "question": "How many modes end with a final Top Score below 0.97 in Chart 2, and how many of them also have Top Scores below 0.97 in Chart 1? Respond only with a list of two integers.",
+        "question_type": "reasoning",
+        "answer": [1, 1],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 40,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24077v1\\chart1.jpg",
+            "chart2": "2512.24077v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Evolutionary Effect & Efficiency.",
+            "chart2": "Score Convergence over Time. Note: Faint lines represent individual runs (N = 3), and bold lines represent the average trajectory."
+        },
+        "question": "Considering both charts, which mode achieves both the highest final performance and the fastest convergence? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Full Fuse Mode",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24100v1\\chart1.jpg",
+            "chart2": "2512.24100v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Information Sparsity Probe (1× Down-Sampling). We evaluate semantic robustness by testing retrieval performance under random token dropping, showing that the high-frequency representation exhibits higher redundancy with slower decay in Cosine similarity and Top-1 accuracy.",
+            "chart2": "Information Sparsity Probe (4× Down-Sampling). We evaluate semantic robustness under stronger temporal compression, showing faster performance degradation under token dropping compared to the 1× representation, indicating lower redundancy and higher semantic density."
+        },
+        "question": "Compute the difference in Top-1 accuracy under Drop-20% between Chart 1 and Chart 2. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 2.9,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24100v1\\chart1.jpg",
+            "chart2": "2512.24100v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Information Sparsity Probe (1× Down-Sampling). We evaluate semantic robustness by testing retrieval performance under random token dropping, showing that the high-frequency representation exhibits higher redundancy with slower decay in Cosine similarity and Top-1 accuracy.",
+            "chart2": "Information Sparsity Probe (4× Down-Sampling). We evaluate semantic robustness under stronger temporal compression, showing faster performance degradation under token dropping compared to the 1× representation, indicating lower redundancy and higher semantic density."
+        },
+        "question": "Which metrics are encoded with the same color consistently across both Chart 1 and Chart 2? (Select all that apply.) A. FID. B. Top-1. C. MPJPE. D. Cosine. Respond only with a list with letters.",
+        "question_type": "perceptual",
+        "answer": "[A, B, C, D]",
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 43,
+        "items": ["chart1","chart2", "chart3"],
+        "path": {
+            "chart1": "2512.24103v1\\chart1.jpg",
+            "chart2": "2512.24103v1\\chart2.jpg",
+            "chart3": "2512.24103v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Performance on Blocksworld with increasing number of few-shot exemplars in the planning prompt.",
+            "chart2": "Performance on Mini-Grid with increasing number of few-shot exemplars in the planning prompt.",
+            "chart3": "Performance on Logistics with increasing number of few-shot exemplars in the planning prompt." 
+        },
+        "question": "Comparing Chart 1 and Chart 2, in which task does Self-Critique show a larger average improvement over No-Critique? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "MiniGrid",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 44,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24125v1\\chart1.jpg",
+            "chart2": "2512.24125v1\\chart2.jpg",
+            "chart3": "2512.24125v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Real-robot language following evaluation. GenieReasoner consistently outperforms continuous baselines (e.g., π₀, π₀.₅), confirming that aligning the action space with the VLM’s discrete reasoning space significantly reduces target identification errors.",
+            "chart2": "Real-robot task success rates. This metric measures the full completion of the task, specifically whether the robot successfully grasps and manipulates the target object.",
+            "chart3": "Overall performance comparison in the real world. This metric prioritizes stable execution while accounting for semantic correctness."
+        },
+        "question": "Which task category shows the largest inter-model performance gap in both Chart 1 and Chart 2? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Semantic Understanding",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 45,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24138v1\\chart1.jpg",
+            "chart2": "2512.24138v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Learning curves and out-of-distribution (o.o.d.) generalization results on the GenEval task.",
+            "chart2": "Learning curves and out-of-distribution (o.o.d.) generalization results on the OCR task."
+        },
+        "question": "From the radar charts of Chart 1 and Chart 2, extract the values of GARDO (Ours) for all eight shared metrics and organize them into the following 2D table with a header row: [[Metric, Chart1_Value, Chart2_Value], …]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Metric", "Chart1_Value", "Chart2_Value"],
+                ["GenEval (Proxy)", 0.95, 0.65],
+                ["OCR (Proxy)", 0.68, 0.92],
+                ["Aesthetic", 5.09, 5.07],
+                ["PickScore", 22.34, 22.41],
+                ["ImgRwd", 0.95, 0.92],
+                ["ClipScore", 29.40, 28.70],
+                ["HPSv3", 9.27, 9.75],
+                ["Diversity", 24.95, 21.60]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 46,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24138v1\\chart1.jpg",
+            "chart2": "2512.24138v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Learning curves and out-of-distribution (o.o.d.) generalization results on the GenEval task.",
+            "chart2": "Learning curves and out-of-distribution (o.o.d.) generalization results on the OCR task."
+        },
+        "question": "Comparing both learning curves, in which task is the final reward gap between GARDO and the second-best method smaller? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "GenEval Task",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 47,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24263v1\\chart1.jpg",
+            "chart2": "2512.24263v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "The average generation length of models trained with different algorithms, sampled under helpfulness and harmlessness prompts.",
+            "chart2": "The average generation length of models trained with different algorithms, sampled under helpfulness and harmlessness prompts."
+        },
+        "question": "Across both charts, which algorithm family overall exhibits the longest average generation lengths? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "SACPO (P)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 48,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24263v1\\chart1.jpg",
+            "chart2": "2512.24263v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "The average generation length of models trained with different algorithms, sampled under helpfulness and harmlessness prompts.",
+            "chart2": "The average generation length of models trained with different algorithms, sampled under helpfulness and harmlessness prompts."
+        },
+        "question": "From Chart 1 and Chart 2, extract the average generation lengths of all models represented by green bars in each chart, and organize them into the following 2D table: [[Model, Chart1_Length, Chart2_Length], …] Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Model", "Chart1_Length", "Chart2_Length"],
+            ["SACPO (P) [0.90]", 505, 406],
+            ["RSA (P) [0.75]", 525, 678],
+            ["SACPO (P) [0.25]", 690, 908],
+            ["SACPO (P) [0.5]", 919, 1212],
+            ["SACPO (P) [0.75]", 1083, 1271],
+            ["SACPO (P) [0.99]", 1169, 1512]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 49,
+        "items": ["chart1","chart2", "chart3"],
+        "path": {
+            "chart1": "2512.24278v1\\chart1.jpg",
+            "chart2": "2512.24278v1\\chart2.jpg",
+            "chart3": "2512.24278v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Precision–recall area under the curve (PR-AUC) across four rare-lesion categories and the macro-average (Overall), comparing eight data generation strategies.",
+            "chart2": "Receiver operating characteristic area under the curve (ROC-AUC) across four rare-lesion categories and the macro-average (Overall), comparing eight data generation strategies.",
+            "chart3": "TPR@20% FPR (true positive rate at a fixed 20% false positive rate) across four rare-lesion categories and the macro-average (Overall), comparing eight data generation strategies."
+        },
+        "question": "In Juvenile Polyposis Syndrome, which strategy has the lowest value in both Chart 1 and Chart 2? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "No Augment",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 50,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24391v1\\chart1.jpg",
+            "chart2": "2512.24391v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Whisker boxplots of reconstruction error for the seven BiGAN model variants used in the ablation study in Stage 1. Each boxplot illustrates the IQR ranges between 1st quartile (Q1) and the 3rd quartile (Q3) and extends upto the Lower (LL) and Upper Limits (UL).",
+            "chart2": "Graph illustrating the performance of FAST-IDS (Stage 1) with respect to other SOTA baselines in terms of recall percentages."
+        },
+        "question": "How many models or methods are shown in Chart 1 and Chart 2 respectively? Respond only with a list of two integers in the order [Chart1, Chart2].",
+        "question_type": "perceptual",
+        "answer": [7, 5],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 51,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24449v1\\chart1.jpg",
+            "chart2": "2512.24449v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "K Cache Compression Ratio vs Pack Size, evaluated under the optimal repacking method at each data point.",
+            "chart2": "V Cache Compression Ratio vs Pack Size, evaluated under the optimal repacking method at each data point."
+        },
+        "question": "At Pack Size = 8, which model has the largest difference between its K Cache and V Cache Compression Ratios? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "phi-4",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 52,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24470v1\\chart1.jpg",
+            "chart2": "2512.24470v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Model awareness vs latency, showing only the pareto frontier.",
+            "chart2": "Awareness leaderboard, only showing the per-provider pareto frontier."
+        },
+        "question": "Determine whether the number of green (OpenAI) bars/points is the same in Chart 1 and Chart 2. If the numbers are the same, respond with the exact count as a single integer. If the numbers are different, respond only with No. Respond only with a single integer or No.",
+        "question_type": "perceptual",
+        "answer": 6,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 53,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24687v1\\chart1.jpg",
+            "chart2": "2512.24687v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Fidelity between the target words constructed using glosses from WordNet and those constructed using glosses from ChatGPT 3.5. A shows that a large number of samples did not achieve 90% fidelity, indicating a semantic bias between WordNet and ChatGPT 3.5. B shows that after representation with quantum superposition states, the fidelity between WordNet and ChatGPT 3.5 reached 95%, suggesting hope for mitigating semantic bias.",
+            "chart2": "In the samples where CIM made incorrect disambiguations, the output value by both CIM and Q-VWSD."
+        },
+        "question": "How many distinct methods or models are labeled across both Chart 1 and Chart 2? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 54,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24796v1\\chart1.jpg",
+            "chart2": "2512.24796v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Formal proof accuracy (pass@4) across LeanCat model baselines.",
+            "chart2": "Intermediate natural-language (NL) vs. formal-language (FL) (pass@4) accuracy on LeanCat, highlighting the natural-to-formal gap."
+        },
+        "question": "What visual encoding dimension is shared by both charts to distinguish different results? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "color",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 55,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24796v1\\chart1.jpg",
+            "chart2": "2512.24796v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Formal proof accuracy (pass@4) across LeanCat model baselines.",
+            "chart2": "Intermediate natural-language (NL) vs. formal-language (FL) (pass@4) accuracy on LeanCat, highlighting the natural-to-formal gap."
+        },
+        "question": "Across both charts, at which difficulty level is the inter-model performance gap smallest? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "High",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 56,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24867v1\\chart1.jpg",
+            "chart2": "2512.24867v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Performance comparison between single-statement judgment and multi-statement comprehensive understanding tasks.",
+            "chart2": "Accuracy of Qwen3 hybrid models (0.6B–32B) under non-thinking and thinking modes."
+        },
+        "question": "Across Chart 1 and Chart 2, how many distinct model names appear in total (deduplicated by name)? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 10,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 57,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24922v1\\chart1.jpg",
+            "chart2": "2512.24922v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution of volumes of vehicle annotations. These distributions result from the cultural and geographical features as well as from the labeling guideline.",
+            "chart2": "Distribution of LiDAR points in the annotation boxes. These distributions result from the point cloud density and the labeling policy."
+        },
+        "question": "Which dataset shows larger volumes in Chart 1 and also generally higher LiDAR point counts in Chart 2? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Waymo",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 58,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24985v1\\chart1.jpg",
+            "chart2": "2512.24985v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Room category distribution",
+            "chart2": "Question category distribution"
+        },
+        "question": "How many categories have even percentage values in Chart 1 and Chart 2 respectively? Respond only with a list of two integers.",
+        "question_type": "perceptual",
+        "answer": [3, 3],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 59,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24985v1\\chart1.jpg",
+            "chart2": "2512.24985v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Room category distribution",
+            "chart2": "Question category distribution"
+        },
+        "question": "What is the joint probability (in percentage) that a randomly drawn sample from each chart belongs to the largest category in its respective chart? Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 13.02,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 60,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.25070v1\\chart1.jpg",
+            "chart2": "2512.25070v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Results on OpenForesight May–Aug 2025, showing accuracy and calibration (Brier score) improvements from forecasting training on open-ended questions.",
+            "chart2": "Results on FutureX July–Aug 2025, showing accuracy and calibration (Brier score) improvements from forecasting training on an external benchmark."
+        },
+        "question": "Which model shows the largest improvement in Accuracy ranking from Chart 1 to Chart 2? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Qwen3-8B",
+        "answer_type": "text"
+    }
+]

@@ -1,0 +1,1642 @@
+[
+    {
+        "question_id": 1,
+        "items": ["chart1", "chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2511.15075v1\\chart1.jpg",
+            "chart2": "2511.15075v1\\chart2.jpg",
+            "chart3": "2511.15075v1\\chart3.jpg",
+            "chart4": "2511.15075v1\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "90% upper conformal prediction intervals for continued smoking are given by the black dashed lines. 90% upper prediction intervals for quitting smoking are given by the blue line.",
+            "chart2": "90% upper conformal prediction intervals for continued smoking are given by the black dashed lines. 90% upper prediction intervals for quitting smoking are given by the blue line.",
+            "chart3": "Average dose-response curve and 95% confidence interval. Points are randomly selected participant’s observed total medical expenditure.",
+            "chart4": "Histogram of Total Medical Expenditure by Median Age."
+        },
+        "question":"As Treatment increases in chart3, does the width of the gray confidence band become wider, narrower, or remain roughly constant? Respond only with wider, narrower, or constant.",
+        "question_type": "perceptual",
+        "answer": "wider",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 2,
+        "items": ["chart1", "chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2511.15075v1\\chart1.jpg",
+            "chart2": "2511.15075v1\\chart2.jpg",
+            "chart3": "2511.15075v1\\chart3.jpg",
+            "chart4": "2511.15075v1\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "90% upper conformal prediction intervals for continued smoking are given by the black dashed lines. 90% upper prediction intervals for quitting smoking are given by the blue line.",
+            "chart2": "90% upper conformal prediction intervals for continued smoking are given by the black dashed lines. 90% upper prediction intervals for quitting smoking are given by the blue line.",
+            "chart3": "Average dose-response curve and 95% confidence interval. Points are randomly selected participant’s observed total medical expenditure.",
+            "chart4": "Histogram of Total Medical Expenditure by Median Age."
+        },
+        "question":"Based on the fitted curve in chart3, does total medical expenditure generally increase or decrease as Treatment increases? Respond only with increase or decrease.",
+        "question_type": "perceptual",
+        "answer": "increase",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["chart1", "chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2511.15075v1\\chart1.jpg",
+            "chart2": "2511.15075v1\\chart2.jpg",
+            "chart3": "2511.15075v1\\chart3.jpg",
+            "chart4": "2511.15075v1\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "90% upper conformal prediction intervals for continued smoking are given by the black dashed lines. 90% upper prediction intervals for quitting smoking are given by the blue line.",
+            "chart2": "90% upper conformal prediction intervals for continued smoking are given by the black dashed lines. 90% upper prediction intervals for quitting smoking are given by the blue line.",
+            "chart3": "Average dose-response curve and 95% confidence interval. Points are randomly selected participant’s observed total medical expenditure.",
+            "chart4": "Histogram of Total Medical Expenditure by Median Age."
+        },
+        "question":"Based on the overlapping histograms and density curves in chart4, which age group generally incurs higher total medical expenditure? Respond only with Above Med or Below Med.",
+        "question_type": "reasoning",
+        "answer": "Above Med",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["chart1", "chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2511.15075v1\\chart1.jpg",
+            "chart2": "2511.15075v1\\chart2.jpg",
+            "chart3": "2511.15075v1\\chart3.jpg",
+            "chart4": "2511.15075v1\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "90% upper conformal prediction intervals for continued smoking are given by the black dashed lines. 90% upper prediction intervals for quitting smoking are given by the blue line.",
+            "chart2": "90% upper conformal prediction intervals for continued smoking are given by the black dashed lines. 90% upper prediction intervals for quitting smoking are given by the blue line.",
+            "chart3": "Average dose-response curve and 95% confidence interval. Points are randomly selected participant’s observed total medical expenditure.",
+            "chart4": "Histogram of Total Medical Expenditure by Median Age."
+        },
+        "question":"Which group exhibits greater variability in total medical expenditure across the observed range? Respond only with Above Med or Below Med.",
+        "question_type": "reasoning",
+        "answer": "Above Med",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["chart1", "chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2511.15099v1\\chart1.jpg",
+            "chart2": "2511.15099v1\\chart2.jpg",
+            "chart3": "2511.15099v1\\chart3.jpg",
+            "chart4": "2511.15099v1\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "Acute respiratory illnesses (ARIs) caused by off-target pathogens were unaffected by mRNA-1273 vaccination in COVE’s blinded phase, highlighting their validity as negative control outcomes. Cumulative incidence estimators adjusted for sex, racial/ethnic underrepresented minority status, randomization stratum, and a continuous baseline risk score",
+            "chart2": "Stacked histogram showing weekly incident COVID-19 and off-target ARI endpoints during the booster phase of COVE. Also shown are rolling weekly COVID-19 incidence per 100,000 US residents from NYT/JHU (Tsueng et al., 2023) SARS-CoV-2 variant compositions in US obtained from Global Initiative on Sharing All Influenza Data (GISAID) (Khare et al., 2021)",
+            "chart3": "Summary of single mRNA-1273 booster efficacy in Delta (left) and Omicron period (right).",
+            "chart4": "esults of example data application comparing naive Cox regression to our proposed estimators"
+        },
+        "question": "In chart2, what is the maximum numeric value labeled on the left-hand Y-axis (Incident Cases)? Respond only with the number.",
+        "question_type": "perceptual",
+        "answer": 400,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 6,
+        "items": ["chart1", "chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2511.15099v1\\chart1.jpg",
+            "chart2": "2511.15099v1\\chart2.jpg",
+            "chart3": "2511.15099v1\\chart3.jpg",
+            "chart4": "2511.15099v1\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "Acute respiratory illnesses (ARIs) caused by off-target pathogens were unaffected by mRNA-1273 vaccination in COVE’s blinded phase, highlighting their validity as negative control outcomes. Cumulative incidence estimators adjusted for sex, racial/ethnic underrepresented minority status, randomization stratum, and a continuous baseline risk score",
+            "chart2": "Stacked histogram showing weekly incident COVID-19 and off-target ARI endpoints during the booster phase of COVE. Also shown are rolling weekly COVID-19 incidence per 100,000 US residents from NYT/JHU (Tsueng et al., 2023) SARS-CoV-2 variant compositions in US obtained from Global Initiative on Sharing All Influenza Data (GISAID) (Khare et al., 2021)",
+            "chart3": "Summary of single mRNA-1273 booster efficacy in Delta (left) and Omicron period (right).",
+            "chart4": "esults of example data application comparing naive Cox regression to our proposed estimators"
+        },
+        "question": "Based on the subplot down below in the chart2, which variant label is associated with the dark blue area that becomes dominant after January 2022? Respond only with the exact text found inside the chart.",
+        "question_type": "perceptual",
+        "answer": "Omicron GRA",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["chart1", "chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2511.15099v1\\chart1.jpg",
+            "chart2": "2511.15099v1\\chart2.jpg",
+            "chart3": "2511.15099v1\\chart3.jpg",
+            "chart4": "2511.15099v1\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "Acute respiratory illnesses (ARIs) caused by off-target pathogens were unaffected by mRNA-1273 vaccination in COVE’s blinded phase, highlighting their validity as negative control outcomes. Cumulative incidence estimators adjusted for sex, racial/ethnic underrepresented minority status, randomization stratum, and a continuous baseline risk score",
+            "chart2": "Stacked histogram showing weekly incident COVID-19 and off-target ARI endpoints during the booster phase of COVE. Also shown are rolling weekly COVID-19 incidence per 100,000 US residents from NYT/JHU (Tsueng et al., 2023) SARS-CoV-2 variant compositions in US obtained from Global Initiative on Sharing All Influenza Data (GISAID) (Khare et al., 2021)",
+            "chart3": "Summary of single mRNA-1273 booster efficacy in Delta (left) and Omicron period (right).",
+            "chart4": "esults of example data application comparing naive Cox regression to our proposed estimators"
+        },
+        "question": "According to the trend in the subplot down below in the chart2, during which month does the 'Delta GK' variant experience the sharpest decline in its composition share? A. Oct 2021. B. Dec 2021. C. Feb 2022. D. Apr 2022. Respond only with the choice.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.15446v1\\chart1.jpg",
+            "chart2": "2511.15446v1\\chart2.jpg",
+            "chart3": "2511.15446v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "modified empirical Lorenz curve",
+            "chart2": "modified CAP",
+            "chart3": "boxplots of the individual risk contributions"
+        },
+        "question": "In chart2, what is the specific value of 'area B' for the red curve as shown in the legend? Respond only with the numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.15,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 9,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.15446v1\\chart1.jpg",
+            "chart2": "2511.15446v1\\chart2.jpg",
+            "chart3": "2511.15446v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "modified empirical Lorenz curve",
+            "chart2": "modified CAP",
+            "chart3": "boxplots of the individual risk contributions"
+        },
+        "question": "In chart2, what does the shaded pink region represent? A. The area under the orange curve. B. The difference between the orange and red curves. C. The area between the red curve and the diagonal dashed line. D. The total area of the plot. Respond only with the choice.",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.15896v1\\chart1.jpg",
+            "chart2": "2511.15896v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Approximation errors for selected variables in three estimators across all settings.",
+            "chart2": "Learned weights from cross-balancing, with variables selected using cross-validated Lasso. The left panel shows the empirical distributions of the weights for three dictionaries. The middle and right panels display pairwise comparisons of individual weights estimated with each dictionary."
+        },
+        "question": "In chart1, in Setting 1 under Outcome approximation error, which variable selection method shows the highest error?A. lm. B. aic. C. lasso. Respond only with the choice.",
+        "question_type": "perceptual",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 11,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.15896v1\\chart1.jpg",
+            "chart2": "2511.15896v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Approximation errors for selected variables in three estimators across all settings.",
+            "chart2": "Learned weights from cross-balancing, with variables selected using cross-validated Lasso. The left panel shows the empirical distributions of the weights for three dictionaries. The middle and right panels display pairwise comparisons of individual weights estimated with each dictionary."
+        },
+        "question": "What is the label of the y-axis in the leftmost subplot in chart2?",
+        "question_type": "perceptual",
+        "answer": "Frequency",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.15896v1\\chart1.jpg",
+            "chart2": "2511.15896v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Approximation errors for selected variables in three estimators across all settings.",
+            "chart2": "Learned weights from cross-balancing, with variables selected using cross-validated Lasso. The left panel shows the empirical distributions of the weights for three dictionaries. The middle and right panels display pairwise comparisons of individual weights estimated with each dictionary."
+        },
+        "question": "In chart2, which basis function comparison is shown in the rightmost subplot? A. cubic vs cubic. B. cubic vs cubic * inter. C. cubic * inter vs cubic + inter. Respond only with the choice.",
+        "question_type": "perceptual",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.15917v1\\chart1.jpg",
+            "chart2": "2511.15917v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Spatial maps of standard errors (SE) for HAZ and WAZ, shown under weighted and unweighted specifications across four subplots.",
+            "chart2": "Scatter plots comparing area-level and unit-level estimates for HAZ and WAZ, with a diagonal reference line indicating equality."
+        },
+        "question": "In chart1, which subplot displays the highest SE values overall based on the color scale? A. SE HAZ Weighted. B. SE WAZ Weighted. C. SE HAZ Unweighted. D. SE WAZ Unweighted. Respond only with the choice.",
+        "question_type": "perceptual",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 14,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.15917v1\\chart1.jpg",
+            "chart2": "2511.15917v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Spatial maps of standard errors (SE) for HAZ and WAZ, shown under weighted and unweighted specifications across four subplots.",
+            "chart2": "Scatter plots comparing area-level and unit-level estimates for HAZ and WAZ, with a diagonal reference line indicating equality."
+        },
+        "question": "Comparing the unweighted subplots in chart1, which indicator shows generally lower SE values across regions? A. HAZ. B. WAZ.",
+        "question_type": "perceptual",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.15917v1\\chart1.jpg",
+            "chart2": "2511.15917v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Spatial maps of standard errors (SE) for HAZ and WAZ, shown under weighted and unweighted specifications across four subplots.",
+            "chart2": "Scatter plots comparing area-level and unit-level estimates for HAZ and WAZ, with a diagonal reference line indicating equality."
+        },
+        "question": "In chart2, which panel shows points more closely clustered around the diagonal reference line? A. HAZ. B. WAZ.",
+        "question_type": "perceptual",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 16,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.15917v1\\chart1.jpg",
+            "chart2": "2511.15917v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Spatial maps of standard errors (SE) for HAZ and WAZ, shown under weighted and unweighted specifications across four subplots.",
+            "chart2": "Scatter plots comparing area-level and unit-level estimates for HAZ and WAZ, with a diagonal reference line indicating equality."
+        },
+        "question": "Which statement best describes the relationship shown in chart2? A. Both HAZ and WAZ deviate strongly from the diagonal. B. HAZ aligns more closely with the diagonal than WAZ. C. WAZ aligns more closely with the diagonal than HAZ. D. Neither panel shows a linear trend. Respond only with the choice.",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.15929v1\\chart1.jpg",
+            "chart2": "2511.15929v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Percent bias (top row) and coverage (bottom row) for three parameters (Intercept: β₀, A–X: β₁, Z: β₂) across increasing percent censored, comparing multiple estimators.",
+            "chart2": "Efficiency ratios comparing standard errors across estimators, shown as Mean SE (left column) and Empirical SD (right column) for three parameters over increasing sample sizes."
+        },
+        "question": "In chart1, which parameter’s coverage drops most sharply at the highest percent censored? A. Intercept: β₀. B. A–X: β₁. C. Z: β₂. Respond only with the choice.",
+        "question_type": "perceptual",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.15929v1\\chart1.jpg",
+            "chart2": "2511.15929v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Percent bias (top row) and coverage (bottom row) for three parameters (Intercept: β₀, A–X: β₁, Z: β₂) across increasing percent censored, comparing multiple estimators.",
+            "chart2": "Efficiency ratios comparing standard errors across estimators, shown as Mean SE (left column) and Empirical SD (right column) for three parameters over increasing sample sizes."
+        },
+        "question": "In chart1, which estimator maintains coverage closest to the nominal level across censoring levels? A. Oracle. B. IPW. C. AIPW. D. AIPW with Λ. Respond only with the choice.",
+        "question_type": "perceptual",
+        "answer": "D",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.15929v1\\chart1.jpg",
+            "chart2": "2511.15929v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Percent bias (top row) and coverage (bottom row) for three parameters (Intercept: β₀, A–X: β₁, Z: β₂) across increasing percent censored, comparing multiple estimators.",
+            "chart2": "Efficiency ratios comparing standard errors across estimators, shown as Mean SE (left column) and Empirical SD (right column) for three parameters over increasing sample sizes."
+        },
+        "question": "In chart2, which estimator consistently shows efficiency ratios above the 100% reference line? A. AIPW (oracle). B. AIPW with Λ (oracle). C. AIPW (augment: incorrect). D. MLE (oracle). Respond only with the choice.",
+        "question_type": "perceptual",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 20,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.15929v1\\chart1.jpg",
+            "chart2": "2511.15929v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Percent bias (top row) and coverage (bottom row) for three parameters (Intercept: β₀, A–X: β₁, Z: β₂) across increasing percent censored, comparing multiple estimators.",
+            "chart2": "Efficiency ratios comparing standard errors across estimators, shown as Mean SE (left column) and Empirical SD (right column) for three parameters over increasing sample sizes."
+        },
+        "question": "Which panel label appears on the right side of the bottom row in chart2? Answer with the exact text.",
+        "question_type": "perceptual",
+        "answer": "Z: β₂",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 21,
+        "items": ["chart1", "chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2511.15942v1\\chart1.jpg",
+            "chart2": "2511.15942v1\\chart2.jpg",
+            "chart3": "2511.15942v1\\chart3.jpg",
+            "chart4": "2511.15942v1\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "Time series of PM2.5 concentrations measured at Station 1577 (Type: SDS011) over the year 2021.",
+            "chart2": "Scenario 1 time series comparing Test data with Classic and Robust predictions, with MAE and RMSE reported in the title.",
+            "chart3": "Map of air quality monitoring stations distinguishing High-Fidelity (HF) stations and Low-Fidelity (LF) citizen sensors.",
+            "chart4": "Bar chart of Mean Absolute Error (MAE) across Outer Index values for Classic, Robust1, and Robust2 methods."
+        },
+        "question": "In chart4, which method shows the highest MAE at Outer Index 2? A. Classic. B. Robust1. C. Robust2. Respond only with the choice.",
+        "question_type": "perceptual",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["chart1", "chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2511.15942v1\\chart1.jpg",
+            "chart2": "2511.15942v1\\chart2.jpg",
+            "chart3": "2511.15942v1\\chart3.jpg",
+            "chart4": "2511.15942v1\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "Time series of PM2.5 concentrations measured at Station 1577 (Type: SDS011) over the year 2021.",
+            "chart2": "Scenario 1 time series comparing Test data with Classic and Robust predictions, with MAE and RMSE reported in the title.",
+            "chart3": "Map of air quality monitoring stations distinguishing High-Fidelity (HF) stations and Low-Fidelity (LF) citizen sensors.",
+            "chart4": "Bar chart of Mean Absolute Error (MAE) across Outer Index values for Classic, Robust1, and Robust2 methods."
+        },
+        "question": "In chart3, which station type is represented by triangular markers? Answer with the full name as shown in the chart legend.",
+        "question_type": "perceptual",
+        "answer": "HF — High-Fidelity (station data)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 23,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.16530v1\\chart1.jpg",
+            "chart2": "2511.16530v1\\chart2.jpg",
+            "chart3": "2511.16530v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Four subplots (a–d) showing PSEL as a function of 1 in the range −1 to 1, comparing Percentile of Residual, Percentile of BLUP, PEPP with MLE, and ROPPER.",
+            "chart2": "Four subplots (a–d) showing PSEL as a function of 1 or 2 in the range 0 to 0.8, comparing Percentile of Residual, Percentile of BLUP, PEPP with MLE, and ROPPER.",
+            "chart3": "PSEL comparison between PEPP with MLE and ROPPER with different H values (H=1, H=2, H=3) over 1 in the range −1 to 1."
+        },
+        "question": "In chart3, which method corresponds to the dashed blue line in the legend? Answer with the exact text as shown in the legend.",
+        "question_type": "perceptual",
+        "answer": "PEPP with MLE",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 24,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.16530v1\\chart1.jpg",
+            "chart2": "2511.16530v1\\chart2.jpg",
+            "chart3": "2511.16530v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Four subplots (a–d) showing PSEL as a function of 1 in the range −1 to 1, comparing Percentile of Residual, Percentile of BLUP, PEPP with MLE, and ROPPER.",
+            "chart2": "Four subplots (a–d) showing PSEL as a function of 1 or 2 in the range 0 to 0.8, comparing Percentile of Residual, Percentile of BLUP, PEPP with MLE, and ROPPER.",
+            "chart3": "PSEL comparison between PEPP with MLE and ROPPER with different H values (H=1, H=2, H=3) over 1 in the range −1 to 1."
+        },
+        "question": "In chart1, which method generally shows the highest PSEL across subplots (a)–(d)? A. Percentile of Residual. B. Percentile of BLUP. C. PEPP with MLE. D. ROPPER. Respond only with the choice.",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 25,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.16551v1\\chart1.jpg",
+            "chart2": "2511.16551v1\\chart2.jpg",
+            "chart3": "2511.16551v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Six line plots of Type I error/power versus Treatment effect (β), arranged by Independent/Dependent rows and Augmentation (x3.0, x1.5) and Replacement columns, comparing HI-VAE_weibull, HI-VAE_piecewise, Surv-GAN, Surv-VAE, and two Theoretical curves.",
+            "chart2": "Six line plots of Type I error/power versus Treatment effect (β), arranged by Independent/Dependent rows and Augmentation case (x3.0, x1.5) and Replacement case columns, comparing HI-VAE_weibull, HI-VAE_piecewise, Surv-GAN, Surv-VAE, and two Theoretical curves.",
+            "chart3": "Six bar charts of Proportion for Independent/Dependent rows under Augmentation (x3, x2) and Replacement columns, comparing HI-VAE_weibull, HI-VAE_piecewise, Surv-GAN, and Surv-VAE."
+        },
+        "question": "In chart1, what is the title of the leftmost column in the top row? Answer with the exact text as shown in the chart.",
+        "question_type": "perceptual",
+        "answer": "Augmentation: x3.0",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.16551v1\\chart1.jpg",
+            "chart2": "2511.16551v1\\chart2.jpg",
+            "chart3": "2511.16551v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Six line plots of Type I error/power versus Treatment effect (β), arranged by Independent/Dependent rows and Augmentation (x3.0, x1.5) and Replacement columns, comparing HI-VAE_weibull, HI-VAE_piecewise, Surv-GAN, Surv-VAE, and two Theoretical curves.",
+            "chart2": "Six line plots of Type I error/power versus Treatment effect (β), arranged by Independent/Dependent rows and Augmentation case (x3.0, x1.5) and Replacement case columns, comparing HI-VAE_weibull, HI-VAE_piecewise, Surv-GAN, Surv-VAE, and two Theoretical curves.",
+            "chart3": "Six bar charts of Proportion for Independent/Dependent rows under Augmentation (x3, x2) and Replacement columns, comparing HI-VAE_weibull, HI-VAE_piecewise, Surv-GAN, and Surv-VAE."
+        },
+        "question": "In chart2, what is the x-axis label shown beneath the plots? Answer with the exact text as shown in the chart.",
+        "question_type": "perceptual",
+        "answer": "Treatment effect (β)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.16551v1\\chart1.jpg",
+            "chart2": "2511.16551v1\\chart2.jpg",
+            "chart3": "2511.16551v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Six line plots of Type I error/power versus Treatment effect (β), arranged by Independent/Dependent rows and Augmentation (x3.0, x1.5) and Replacement columns, comparing HI-VAE_weibull, HI-VAE_piecewise, Surv-GAN, Surv-VAE, and two Theoretical curves.",
+            "chart2": "Six line plots of Type I error/power versus Treatment effect (β), arranged by Independent/Dependent rows and Augmentation case (x3.0, x1.5) and Replacement case columns, comparing HI-VAE_weibull, HI-VAE_piecewise, Surv-GAN, Surv-VAE, and two Theoretical curves.",
+            "chart3": "Six bar charts of Proportion for Independent/Dependent rows under Augmentation (x3, x2) and Replacement columns, comparing HI-VAE_weibull, HI-VAE_piecewise, Surv-GAN, and Surv-VAE."
+        },
+        "question": "In chart3, in the Independent row under Augmentation: x3, which method has the lowest proportion? A. HI-VAE_weibull. B. HI-VAE_piecewise. C. Surv-GAN. D. Surv-VAE. Respond only with the choice.",
+        "question_type": "perceptual",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.16551v1\\chart1.jpg",
+            "chart2": "2511.16551v1\\chart2.jpg",
+            "chart3": "2511.16551v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Six line plots of Type I error/power versus Treatment effect (β), arranged by Independent/Dependent rows and Augmentation (x3.0, x1.5) and Replacement columns, comparing HI-VAE_weibull, HI-VAE_piecewise, Surv-GAN, Surv-VAE, and two Theoretical curves.",
+            "chart2": "Six line plots of Type I error/power versus Treatment effect (β), arranged by Independent/Dependent rows and Augmentation case (x3.0, x1.5) and Replacement case columns, comparing HI-VAE_weibull, HI-VAE_piecewise, Surv-GAN, Surv-VAE, and two Theoretical curves.",
+            "chart3": "Six bar charts of Proportion for Independent/Dependent rows under Augmentation (x3, x2) and Replacement columns, comparing HI-VAE_weibull, HI-VAE_piecewise, Surv-GAN, and Surv-VAE."
+        },
+        "question": "In chart3, which scenario shows the largest gap between Surv-VAE and Surv-GAN in the Dependent row? A. Augmentation: x3. B. Augmentation: x2. C. Replacement. Respond only with the choice.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 29,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.16628v2\\chart1.jpg",
+            "chart2": "2511.16628v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Fisher information comparison as a function of sensor location x/L, showing three sensor positions with highlighted maxima.",
+            "chart2": "Root mean squared error (RMSE) of EI evaluated at x = L/2 versus number of elements N, shown for different values of R."
+        },
+        "question": "In chart1, what is the x/L value corresponding to the blue solid curve indicated in the legend? Answer with the exact numeric value.",
+        "question_type": "perceptual",
+        "answer": "0.25",
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 30,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.16628v2\\chart1.jpg",
+            "chart2": "2511.16628v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Fisher information comparison as a function of sensor location x/L, showing three sensor positions with highlighted maxima.",
+            "chart2": "Root mean squared error (RMSE) of EI evaluated at x = L/2 versus number of elements N, shown for different values of R."
+        },
+        "question": "In chart1, which sensor position reaches its maximum Fisher information at x/L approximately equal to 0.35? A. Sensor x/L = 0. B. Sensor x/L = 0.25. C. Sensor x/L = 1. Respond only with the choice.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 31,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.16628v2\\chart1.jpg",
+            "chart2": "2511.16628v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Fisher information comparison as a function of sensor location x/L, showing three sensor positions with highlighted maxima.",
+            "chart2": "Root mean squared error (RMSE) of EI evaluated at x = L/2 versus number of elements N, shown for different values of R."
+        },
+        "question": "In chart2, when the number of elements N is 20, which R value produces the highest RMSE? Answer with the exact numeric value.",
+        "question_type": "reasoning",
+        "answer": "4",
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 32,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.16816v1\\chart1.jpg",
+            "chart2": "2511.16816v1\\chart2.jpg",
+            "chart3": "2511.16816v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of posterior density estimates for yield using individual data sources and their fused combination.",
+            "chart2": "Damage level percentages and number of pixels exceeding damage thresholds as a function of distance, shown for different percentile cutoffs.",
+            "chart3": "RMSE of posterior median estimates across scenarios and fusion methods."
+        },
+        "question": "In chart2 subplot (a), at distance 1000 m, which percentile curve shows the highest damage level? Respond only with the choice. A. 80th PC B. 90th PC C. 95th PC",
+        "question_type": "perceptual",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 33,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.16954v1\\chart1.jpg",
+            "chart2": "2511.16954v1\\chart2.jpg",
+            "chart3": "2511.16954v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Two boxplots comparing PDS under different distance metrics. Subplot (a) shows PDS distributions for ℓ₁, ℓ₂, cosine, and sign-based cosine, with average values annotated. Subplot (b) shows PDS distributions for ℓ₁ and ℓ₂ under norm-matched settings, with average values annotated.",
+            "chart2": "Three subplots analyzing normalization effects. The left subplot plots ℓ₂ norm of perturbation effects under median normalization versus per-10k normalization. The middle subplot plots ℓ₁ norm under median normalization versus per-10k normalization. The right subplot shows boxplots of effect similarity comparing cosine and sign-based cosine, with average values annotated.",
+            "chart3": "A line plot showing the effect of scaling factor c on mean PDS for ℓ₁-based and ℓ₂-based metrics, with both curves plotted across increasing scaling factors."
+        },
+        "question": "In chart1 subplot (b), what is the annotated average PDS value for the ℓ₂ metric? Respond only with the number.",
+        "question_type": "perceptual",
+        "answer": 0.55,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 34,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.16954v1\\chart1.jpg",
+            "chart2": "2511.16954v1\\chart2.jpg",
+            "chart3": "2511.16954v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Two boxplots comparing PDS under different distance metrics. Subplot (a) shows PDS distributions for ℓ₁, ℓ₂, cosine, and sign-based cosine, with average values annotated. Subplot (b) shows PDS distributions for ℓ₁ and ℓ₂ under norm-matched settings, with average values annotated.",
+            "chart2": "Three subplots analyzing normalization effects. The left subplot plots ℓ₂ norm of perturbation effects under median normalization versus per-10k normalization. The middle subplot plots ℓ₁ norm under median normalization versus per-10k normalization. The right subplot shows boxplots of effect similarity comparing cosine and sign-based cosine, with average values annotated.",
+            "chart3": "A line plot showing the effect of scaling factor c on mean PDS for ℓ₁-based and ℓ₂-based metrics, with both curves plotted across increasing scaling factors."
+        },
+        "question": "In chart1 subplot (b), what is the annotated average PDS value for the ℓ₂ metric? Respond only with the number.",
+        "question_type": "perceptual",
+        "answer": 0.55,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.16954v1\\chart1.jpg",
+            "chart2": "2511.16954v1\\chart2.jpg",
+            "chart3": "2511.16954v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Two boxplots comparing PDS under different distance metrics. Subplot (a) shows PDS distributions for ℓ₁, ℓ₂, cosine, and sign-based cosine, with average values annotated. Subplot (b) shows PDS distributions for ℓ₁ and ℓ₂ under norm-matched settings, with average values annotated.",
+            "chart2": "Three subplots analyzing normalization effects. The left subplot plots ℓ₂ norm of perturbation effects under median normalization versus per-10k normalization. The middle subplot plots ℓ₁ norm under median normalization versus per-10k normalization. The right subplot shows boxplots of effect similarity comparing cosine and sign-based cosine, with average values annotated.",
+            "chart3": "A line plot showing the effect of scaling factor c on mean PDS for ℓ₁-based and ℓ₂-based metrics, with both curves plotted across increasing scaling factors."
+        },
+        "question": "In chart2, what is the annotated average effect similarity value for the cosine metric? Respond only with the number.",
+        "question_type": "perceptual",
+        "answer": 0.96,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.17071v2\\chart1.jpg",
+            "chart2": "2511.17071v2\\chart2.jpg",
+            "chart3": "2511.17071v2\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Six subplots of density versus max depth (m). Panels (a,c,e) show Parametric, Nonparametric, and Unimodal models with histograms and three colored curves (shallow, mid, deep). Panels (b,d,f) show the corresponding tail views with the x-axis restricted to higher depths.",
+            "chart2": "Four density plots versus observations with many thin simulated curves and a thick black curve in each panel. Panels are titled (a) Skew normal - t, (b) Normal, (c) Nonparametric, and (d) Unimodal.",
+            "chart3": "Horizontal boxplots of AUC for four methods: Skew normal - t, Normal, Nonparametric, and Unimodal. The x-axis ranges from about 0.970 to 1.000 and includes a vertical dashed reference line."
+        },
+        "question": "In chart1, how many subplots have titles ending with \"- tail\"? Respond only with the number.",
+        "question_type": "perceptual",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.17071v2\\chart1.jpg",
+            "chart2": "2511.17071v2\\chart2.jpg",
+            "chart3": "2511.17071v2\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Six subplots of density versus max depth (m). Panels (a,c,e) show Parametric, Nonparametric, and Unimodal models with histograms and three colored curves (shallow, mid, deep). Panels (b,d,f) show the corresponding tail views with the x-axis restricted to higher depths.",
+            "chart2": "Four density plots versus observations with many thin simulated curves and a thick black curve in each panel. Panels are titled (a) Skew normal - t, (b) Normal, (c) Nonparametric, and (d) Unimodal.",
+            "chart3": "Horizontal boxplots of AUC for four methods: Skew normal - t, Normal, Nonparametric, and Unimodal. The x-axis ranges from about 0.970 to 1.000 and includes a vertical dashed reference line."
+        },
+        "question": "In chart2, which panel is titled 'Normal'? A. (a) B. (b) C. (c) D. (d) Respond only with the choice.",
+        "question_type": "perceptual",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 38,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.17071v2\\chart1.jpg",
+            "chart2": "2511.17071v2\\chart2.jpg",
+            "chart3": "2511.17071v2\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Six subplots of density versus max depth (m). Panels (a,c,e) show Parametric, Nonparametric, and Unimodal models with histograms and three colored curves (shallow, mid, deep). Panels (b,d,f) show the corresponding tail views with the x-axis restricted to higher depths.",
+            "chart2": "Four density plots versus observations with many thin simulated curves and a thick black curve in each panel. Panels are titled (a) Skew normal - t, (b) Normal, (c) Nonparametric, and (d) Unimodal.",
+            "chart3": "Horizontal boxplots of AUC for four methods: Skew normal - t, Normal, Nonparametric, and Unimodal. The x-axis ranges from about 0.970 to 1.000 and includes a vertical dashed reference line."
+        },
+        "question": "In chart3, what is the leftmost labeled tick value on the AUC x-axis? Respond only with the number.",
+        "question_type": "perceptual",
+        "answer": 0.970,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 39,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.17071v2\\chart1.jpg",
+            "chart2": "2511.17071v2\\chart2.jpg",
+            "chart3": "2511.17071v2\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Six subplots of density versus max depth (m). Panels (a,c,e) show Parametric, Nonparametric, and Unimodal models with histograms and three colored curves (shallow, mid, deep). Panels (b,d,f) show the corresponding tail views with the x-axis restricted to higher depths.",
+            "chart2": "Four density plots versus observations with many thin simulated curves and a thick black curve in each panel. Panels are titled (a) Skew normal - t, (b) Normal, (c) Nonparametric, and (d) Unimodal.",
+            "chart3": "Horizontal boxplots of AUC for four methods: Skew normal - t, Normal, Nonparametric, and Unimodal. The x-axis ranges from about 0.970 to 1.000 and includes a vertical dashed reference line."
+        },
+        "question": "In chart3, which method has the highest median AUC (the black median line positioned furthest to the right)? A. Skew normal - t. B. Normal. C. Nonparametric. D. Unimodal. Respond only with the choice.",
+        "question_type": "reasoning",
+        "answer": "D",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 40,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.17148v1\\chart1.jpg",
+            "chart2": "2511.17148v1\\chart2.jpg",
+            "chart3": "2511.17148v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "A 2×2 grid of line charts for June, July, August, and September showing daily max temperature (°C) versus day of month. Each panel has two lines: a black line for 2012–2021 and a red line for 2022.",
+            "chart2": "A 2×2 grid of line charts for June, July, August, and September showing ozone versus day of month. Each panel has two lines: a black line for 2012–2021 and a red line for 2022.",
+            "chart3": "A choropleth-style map with regions shaded in varying intensities of red, with visible administrative boundaries; no colorbar is shown."
+        },
+        "question": "In chart1, how many monthly subplots are shown (June, July, August, September)? Respond only with the number.",
+        "question_type": "perceptual",
+        "answer": 4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.17148v1\\chart1.jpg",
+            "chart2": "2511.17148v1\\chart2.jpg",
+            "chart3": "2511.17148v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "A 2×2 grid of line charts for June, July, August, and September showing daily max temperature (°C) versus day of month. Each panel has two lines: a black line for 2012–2021 and a red line for 2022.",
+            "chart2": "A 2×2 grid of line charts for June, July, August, and September showing ozone versus day of month. Each panel has two lines: a black line for 2012–2021 and a red line for 2022.",
+            "chart3": "A choropleth-style map with regions shaded in varying intensities of red, with visible administrative boundaries; no colorbar is shown."
+        },
+        "question": "In chart2, what is the y-axis label? Respond only with the label text.",
+        "question_type": "perceptual",
+        "answer": "Ozone",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.17148v1\\chart1.jpg",
+            "chart2": "2511.17148v1\\chart2.jpg",
+            "chart3": "2511.17148v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "A 2×2 grid of line charts for June, July, August, and September showing daily max temperature (°C) versus day of month. Each panel has two lines: a black line for 2012–2021 and a red line for 2022.",
+            "chart2": "A 2×2 grid of line charts for June, July, August, and September showing ozone versus day of month. Each panel has two lines: a black line for 2012–2021 and a red line for 2022.",
+            "chart3": "A choropleth-style map with regions shaded in varying intensities of red, with visible administrative boundaries; no colorbar is shown."
+        },
+        "question": "In chart1, in the September panel at the end of the month, is the red (2022) line below the black (2012–2021) line at day 10? Respond only with yes or no.",
+        "question_type": "perceptual",
+        "answer": "no",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 43,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.17148v1\\chart1.jpg",
+            "chart2": "2511.17148v1\\chart2.jpg",
+            "chart3": "2511.17148v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "A 2×2 grid of line charts for June, July, August, and September showing daily max temperature (°C) versus day of month. Each panel has two lines: a black line for 2012–2021 and a red line for 2022.",
+            "chart2": "A 2×2 grid of line charts for June, July, August, and September showing ozone versus day of month. Each panel has two lines: a black line for 2012–2021 and a red line for 2022.",
+            "chart3": "A choropleth-style map with regions shaded in varying intensities of red, with visible administrative boundaries; no colorbar is shown."
+        },
+        "question": "In chart3, what is the primary color used to represent intensity on the map? A. red B. blue C. green D. yellow Respond only with the choice.",
+        "question_type": "perceptual",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 44,
+        "items": ["chart1", "chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2511.17275v1\\chart1.jpg",
+            "chart2": "2511.17275v1\\chart2.jpg",
+            "chart3": "2511.17275v1\\chart3.jpg",
+            "chart4": "2511.17275v1\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "A heatmap of RMSSE values across five market clusters (0–4) and multiple forecasting models, with each cell annotated by its numeric RMSSE value.",
+            "chart2": "A grouped bar chart showing WMAPE across hierarchy levels (Brand to Market-Product Type) for different reconciliation methods.",
+            "chart3": "A line chart showing WMAPE across hierarchy levels for different values of α₄ and a baseline.",
+            "chart4": "A multi-line chart showing scaled pinball loss across quantiles for several forecasting models."
+        },
+        "question": "In chart1, what is the RMSSE value for Market Cluster 2 using the DeepAR model? Respond only with the number.",
+        "question_type": "perceptual",
+        "answer": 0.44,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 45,
+        "items": ["chart1", "chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2511.17275v1\\chart1.jpg",
+            "chart2": "2511.17275v1\\chart2.jpg",
+            "chart3": "2511.17275v1\\chart3.jpg",
+            "chart4": "2511.17275v1\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "A heatmap of RMSSE values across five market clusters (0–4) and multiple forecasting models, with each cell annotated by its numeric RMSSE value.",
+            "chart2": "A grouped bar chart showing WMAPE across hierarchy levels (Brand to Market-Product Type) for different reconciliation methods.",
+            "chart3": "A line chart showing WMAPE across hierarchy levels for different values of α₄ and a baseline.",
+            "chart4": "A multi-line chart showing scaled pinball loss across quantiles for several forecasting models."
+        },
+        "question": "In chart2, which hierarchy level corresponds to 'Market-Product Cluster'? Respond only with the level index.",
+        "question_type": "perceptual",
+        "answer": 2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 46,
+        "items": ["chart1", "chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2511.17275v1\\chart1.jpg",
+            "chart2": "2511.17275v1\\chart2.jpg",
+            "chart3": "2511.17275v1\\chart3.jpg",
+            "chart4": "2511.17275v1\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "A heatmap of RMSSE values across five market clusters (0–4) and multiple forecasting models, with each cell annotated by its numeric RMSSE value.",
+            "chart2": "A grouped bar chart showing WMAPE across hierarchy levels (Brand to Market-Product Type) for different reconciliation methods.",
+            "chart3": "A line chart showing WMAPE across hierarchy levels for different values of α₄ and a baseline.",
+            "chart4": "A multi-line chart showing scaled pinball loss across quantiles for several forecasting models."
+        },
+        "question": "In chart4, at quantile 0.995, which model has the highest scaled pinball loss? Respond only with the model name.",
+        "question_type": "perceptual",
+        "answer": "DeepAR",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 47,
+        "items": ["chart1", "chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2511.17275v1\\chart1.jpg",
+            "chart2": "2511.17275v1\\chart2.jpg",
+            "chart3": "2511.17275v1\\chart3.jpg",
+            "chart4": "2511.17275v1\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "A heatmap of RMSSE values across five market clusters (0–4) and multiple forecasting models, with each cell annotated by its numeric RMSSE value.",
+            "chart2": "A grouped bar chart showing WMAPE across hierarchy levels (Brand to Market-Product Type) for different reconciliation methods.",
+            "chart3": "A line chart showing WMAPE across hierarchy levels for different values of α₄ and a baseline.",
+            "chart4": "A multi-line chart showing scaled pinball loss across quantiles for several forecasting models."
+        },
+        "question": "In chart4, at quantile 0.995, which model has the highest scaled pinball loss? Respond only with the model name.",
+        "question_type": "perceptual",
+        "answer": "DeepAR",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 48,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.18844v1\\chart1.jpg",
+            "chart2": "2511.18844v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "A 2×2 grid of heatmaps with contour lines, showing values over parameters a1 (x-axis) and a2 (y-axis). The four panels are labeled with parameter values: =0.15, =0.25, =0.5, and =1, and each panel has its own colorbar.",
+            "chart2": "Three stacked line plots of QFCRI versus quantile level, comparing two series: QFCRI(X,Y) (blue) and QFCRI(Y,X) (yellow). Panel titles are 2008–2010 vs 2020–2021 (Crisis vs Pandemic), 2020–2021 vs 2022–2024 (Pandemic vs Inflation), and 2011–2013 vs 2016–2018 (Slowdown vs Bullrun)."
+        },
+        "question": "In chart1, what parameter value is shown in the title of the top-left heatmap panel? Respond only with the number.",
+        "question_type": "perceptual",
+        "answer": 0.15,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 49,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.18844v1\\chart1.jpg",
+            "chart2": "2511.18844v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "A 2×2 grid of heatmaps with contour lines, showing values over parameters a1 (x-axis) and a2 (y-axis). The four panels are labeled with parameter values: =0.15, =0.25, =0.5, and =1, and each panel has its own colorbar.",
+            "chart2": "Three stacked line plots of QFCRI versus quantile level, comparing two series: QFCRI(X,Y) (blue) and QFCRI(Y,X) (yellow). Panel titles are 2008–2010 vs 2020–2021 (Crisis vs Pandemic), 2020–2021 vs 2022–2024 (Pandemic vs Inflation), and 2011–2013 vs 2016–2018 (Slowdown vs Bullrun)."
+        },
+        "question": "In chart2, what is the y-axis label shown on the left of the plots? Respond only with the label text.",
+        "question_type": "perceptual",
+        "answer": "QFCRI",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 50,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.18948v1\\chart1.jpg",
+            "chart2": "2511.18948v1\\chart2.jpg",
+            "chart3": "2511.18948v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Four panels showing Maximum Power Loss versus -log10(alpha) under two methods (S_new and SKATO) and two parameter settings: mu_A > 0, tau_A = 0 (top row) and tau_A > 0, mu_A = 0 (bottom row). Each panel contains curves for k = 10 and k = 50 under different test statistics.",
+            "chart2": "Four panels showing statistical power versus effect size parameters (mu or tau) for autosomal variants under MAF = runif(0, 0.5) and alpha = 5e-04. Panels compare multiple methods including Burden, SKAT, Hotelling T, Fisher, S_new, and SKATO for k = 10 and k = 50.",
+            "chart3": "Nine panels showing statistical power for common variants (k = 50) under different combinations of mean effects (mu_f, mu_d, mu_m) and variance components (tau_f, tau_d, tau_m). Each panel compares 1-df and CCT methods."
+        },
+        "question": "In chart1, what is the y-axis label shared by all subplots? Respond only with the label text.",
+        "question_type": "perceptual",
+        "answer": "Maximum Power Loss",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 51,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.18948v1\\chart1.jpg",
+            "chart2": "2511.18948v1\\chart2.jpg",
+            "chart3": "2511.18948v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Four panels showing Maximum Power Loss versus -log10(alpha) under two methods (S_new and SKATO) and two parameter settings: mu_A > 0, tau_A = 0 (top row) and tau_A > 0, mu_A = 0 (bottom row). Each panel contains curves for k = 10 and k = 50 under different test statistics.",
+            "chart2": "Four panels showing statistical power versus effect size parameters (mu or tau) for autosomal variants under MAF = runif(0, 0.5) and alpha = 5e-04. Panels compare multiple methods including Burden, SKAT, Hotelling T, Fisher, S_new, and SKATO for k = 10 and k = 50.",
+            "chart3": "Nine panels showing statistical power for common variants (k = 50) under different combinations of mean effects (mu_f, mu_d, mu_m) and variance components (tau_f, tau_d, tau_m). Each panel compares 1-df and CCT methods."
+        },
+        "question": "In chart2, how many distinct methods are shown in the legend? Respond only with the number.",
+        "question_type": "perceptual",
+        "answer": 6,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 52,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.18948v1\\chart1.jpg",
+            "chart2": "2511.18948v1\\chart2.jpg",
+            "chart3": "2511.18948v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Four panels showing Maximum Power Loss versus -log10(alpha) under two methods (S_new and SKATO) and two parameter settings: mu_A > 0, tau_A = 0 (top row) and tau_A > 0, mu_A = 0 (bottom row). Each panel contains curves for k = 10 and k = 50 under different test statistics.",
+            "chart2": "Four panels showing statistical power versus effect size parameters (mu or tau) for autosomal variants under MAF = runif(0, 0.5) and alpha = 5e-04. Panels compare multiple methods including Burden, SKAT, Hotelling T, Fisher, S_new, and SKATO for k = 10 and k = 50.",
+            "chart3": "Nine panels showing statistical power for common variants (k = 50) under different combinations of mean effects (mu_f, mu_d, mu_m) and variance components (tau_f, tau_d, tau_m). Each panel compares 1-df and CCT methods."
+        },
+        "question": "In chart3, how many subplots are arranged in total? Respond only with the number.",
+        "question_type": "perceptual",
+        "answer": 9,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 53,
+        "items": ["chart1"],
+        "path": {
+            "chart1": "2511.05709v1\\chart1.jpg"
+        },
+        "caption": {
+            "chart1": "Four subplots showing p-value versus number of iterations for three methods (Markov, SAT (CMSGen), and Hybrid). Each subplot plots p-values over iterations with separate curves for the three methods."
+        },
+        "question": "In the first (leftmost) subplot of chart1, which method converges to the highest p-value at large numbers of iterations? Respond only with the method name in the legend.",
+        "question_type": "perceptual",
+        "answer": "SAT (CMSGen)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 54,
+        "items": ["chart1"],
+        "path": {
+            "chart1": "2511.05709v1\\chart1.jpg"
+        },
+        "caption": {
+            "chart1": "Four subplots showing p-value versus number of iterations for three methods (Markov, SAT (CMSGen), and Hybrid). Each subplot plots p-values over iterations with separate curves for the three methods."
+        },
+        "question": "In the third subplot from the left of chart1, which method has the steadiest p-values across all iterations? Respond only with the method name in the legend.",
+        "question_type": "perceptual",
+        "answer": "SAT (CMSGen)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 55,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.06351v1\\chart1.jpg",
+            "chart2": "2511.06351v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Two-row scatter plots reporting epsilon (top row) and loss (bottom row) across five benchmarks (quadratic, MG1, SLCP, SEIR, GM) under three flow architectures: spline, spline_two_layers, and coupling.",
+            "chart2": "Two-row scatter plots reporting epsilon (top row) and loss (bottom row) across the same five benchmarks under four proposal strategies: classic RW, classic ind, mix, and flow. Marker shapes distinguish two targets (A_t and B_t)."
+        },
+        "question": "In chart1, under the quadratic benchmark, which flow method attains the lowest epsilon values? Respond only with the flow name.",
+        "question_type": "perceptual",
+        "answer": "spline",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 56,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.06351v1\\chart1.jpg",
+            "chart2": "2511.06351v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Two-row scatter plots reporting epsilon (top row) and loss (bottom row) across five benchmarks (quadratic, MG1, SLCP, SEIR, GM) under three flow architectures: spline, spline_two_layers, and coupling.",
+            "chart2": "Two-row scatter plots reporting epsilon (top row) and loss (bottom row) across the same five benchmarks under four proposal strategies: classic RW, classic ind, mix, and flow. Marker shapes distinguish two targets (A_t and B_t)."
+        },
+        "question": "In chart2, for the GM benchmark, which proposal method shows the lowest loss values? Respond only with the proposal name.",
+        "question_type": "perceptual",
+        "answer": "mix",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 57,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.06967v1\\chart1.jpg",
+            "chart2": "2511.06967v1\\chart2.jpg",
+            "chart3": "2511.06967v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Posterior density plots for three regression coefficients (β1, β2, β3), comparing MCMC, Expectation Propagation (EP), Mean-Field (MF), and Partially Factorized Mean-Field (PMF). Each panel reports posterior densities and accuracy scores for EP, MF, and PMF.",
+            "chart2": "Boxplots of absolute error (log scale) for posterior means (top row) and posterior standard deviations (bottom row) across different sample sizes and dimensions (p = 5, 25, 50), comparing EP, MF, and PMF.",
+            "chart3": "Elapsed computation time (log scale) versus sample size for MCMC, EP, MF, and PMF under different dimensional settings (p = 5, 25, 50)."
+        },
+        "question": "In chart1, which approximation method achieves the highest accuracy score for β2? Respond only with the method name.",
+        "question_type": "perceptual",
+        "answer": "Expectation Propagation",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 58,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.06967v1\\chart1.jpg",
+            "chart2": "2511.06967v1\\chart2.jpg",
+            "chart3": "2511.06967v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Posterior density plots for three regression coefficients (β1, β2, β3), comparing MCMC, Expectation Propagation (EP), Mean-Field (MF), and Partially Factorized Mean-Field (PMF). Each panel reports posterior densities and accuracy scores for EP, MF, and PMF.",
+            "chart2": "Boxplots of absolute error (log scale) for posterior means (top row) and posterior standard deviations (bottom row) across different sample sizes and dimensions (p = 5, 25, 50), comparing EP, MF, and PMF.",
+            "chart3": "Elapsed computation time (log scale) versus sample size for MCMC, EP, MF, and PMF under different dimensional settings (p = 5, 25, 50)."
+        },
+        "question": "In chart2, for p = 50 and sample size 10000, which method yields the smallest absolute error for posterior means? Respond only with the method name.",
+        "question_type": "perceptual",
+        "answer": "Expectation Propagation",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 59,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.06967v1\\chart1.jpg",
+            "chart2": "2511.06967v1\\chart2.jpg",
+            "chart3": "2511.06967v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Posterior density plots for three regression coefficients (β1, β2, β3), comparing MCMC, Expectation Propagation (EP), Mean-Field (MF), and Partially Factorized Mean-Field (PMF). Each panel reports posterior densities and accuracy scores for EP, MF, and PMF.",
+            "chart2": "Boxplots of absolute error (log scale) for posterior means (top row) and posterior standard deviations (bottom row) across different sample sizes and dimensions (p = 5, 25, 50), comparing EP, MF, and PMF.",
+            "chart3": "Elapsed computation time (log scale) versus sample size for MCMC, EP, MF, and PMF under different dimensional settings (p = 5, 25, 50)."
+        },
+        "question": "In chart3, which method consistently shows the largest computation time across all sample sizes and dimensions? Respond only with the method name.",
+        "question_type": "perceptual",
+        "answer": "MCMC",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 60,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.07027v1\\chart1.jpg",
+            "chart2": "2511.07027v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Parallel coordinates plot showing normalized diagnostic indices for multiple time series, including country_avg_dist, within_group_avg_dist, sil_width, trend_strength, linearity, curvature, smoothness, crossing_points, flat_spot, and acf, colored by region.",
+            "chart2": "Faceted scatter plots showing the distributions of individual diagnostic indices (country_avg_dist, within_group_avg_dist, sil_width, trend_strength, linearity, curvature, smoothness, crossing_points, flat_spot, acf) across regions."
+        },
+        "question": "In chart1, which diagnostic index shows consistently high values close to 1.0 across most regions? Respond only with the index name.",
+        "question_type": "perceptual",
+        "answer": "acf",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 61,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.07027v1\\chart1.jpg",
+            "chart2": "2511.07027v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Parallel coordinates plot showing normalized diagnostic indices for multiple time series, including country_avg_dist, within_group_avg_dist, sil_width, trend_strength, linearity, curvature, smoothness, crossing_points, flat_spot, and acf, colored by region.",
+            "chart2": "Faceted scatter plots showing the distributions of individual diagnostic indices (country_avg_dist, within_group_avg_dist, sil_width, trend_strength, linearity, curvature, smoothness, crossing_points, flat_spot, acf) across regions."
+        },
+        "question": "In chart2, which diagnostic index exhibits values primarily concentrated near zero across all regions? Respond only with the index name.",
+        "question_type": "perceptual",
+        "answer": "smoothness",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 62,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.07050v1\\chart1.jpg",
+            "chart2": "2511.07050v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Grid of boxplots showing log-likelihood values for four datasets (Fish, Iris, Wine, Seeds) across different sample sizes (m = 25, 50, 100, 150). Each panel compares three methods: H, M1, and M2.",
+            "chart2": "Grid of bar charts showing classification accuracy for different numbers of clusters (K = 2, 4, 8, 16) and sample sizes (m = 100, 200, 400, 800), comparing methods H, M1, and M2."
+        },
+        "question": "In chart1, for the Wine dataset at m = 25, which method achieves the highest median log-likelihood? A. H B. M1 C. M2 Respond with a single choice",
+        "question_type": "perceptual",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 63,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.07050v1\\chart1.jpg",
+            "chart2": "2511.07050v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Grid of boxplots showing log-likelihood values for four datasets (Fish, Iris, Wine, Seeds) across different sample sizes (m = 25, 50, 100, 150). Each panel compares three methods: H, M1, and M2.",
+            "chart2": "Grid of bar charts showing classification accuracy for different numbers of clusters (K = 2, 4, 8, 16) and sample sizes (m = 100, 200, 400, 800), comparing methods H, M1, and M2."
+        },
+        "question": "In chart2, when K = 8 and m = 400, which method attains the highest classification accuracy? A. H B. M1 C. M2 Respond with a single choice",
+        "question_type": "perceptual",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 64,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.07261v1\\chart1.jpg",
+            "chart2": "2511.07261v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Six line plots comparing filtering methods for the Ornstein–Uhlenbeck process (left) and the bistable process (right). From top to bottom, the metrics are relative mean absolute error (rMAE), filtered mean error (FME), and Kullback–Leibler divergence (KLD), plotted as functions of time t.",
+            "chart2": "Six line plots comparing filtering methods for the Ornstein–Uhlenbeck process (left) and the bistable process (right). From top to bottom, the metrics are relative mean absolute error (rMAE), filtered mean error (FME), and Kullback–Leibler divergence (KLD), plotted as functions of time t."
+        },
+        "question": "In the Ornstein–Uhlenbeck panels, which method achieves the lowest KLD values across most time points? Respond only with the method name.",
+        "question_type": "perceptual",
+        "answer": "LogBSDEF",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 65,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.07261v1\\chart1.jpg",
+            "chart2": "2511.07261v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Six line plots comparing filtering methods for the Ornstein–Uhlenbeck process (left) and the bistable process (right). From top to bottom, the metrics are relative mean absolute error (rMAE), filtered mean error (FME), and Kullback–Leibler divergence (KLD), plotted as functions of time t.",
+            "chart2": "Six line plots comparing filtering methods for the Ornstein–Uhlenbeck process (left) and the bistable process (right). From top to bottom, the metrics are relative mean absolute error (rMAE), filtered mean error (FME), and Kullback–Leibler divergence (KLD), plotted as functions of time t."
+        },
+        "question": "In the bistable process rMAE panel, which method exhibits the highest rMAE around t = 0.5? A. BSDEF B. DSF C. PF 10^5 D. PF 10^6 Respond with a single choice.",
+        "question_type": "perceptual",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 66,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.08124v1\\chart1.jpg",
+            "chart2": "2511.08124v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Overlayed time-series trajectories of an SIR model with three compartments (Susceptible, Infected, Recovered). The x-axis is Time and the y-axis is Individuals.",
+            "chart2": "Time-series plot titled \"Case count of HPAI\" showing four compartments (Susceptible, Exposed, Infected, Removed). The x-axis is Time (Days) and the y-axis is Count."
+        },
+        "question": "In chart1, how many compartment names are listed in the legend? Respond only with the number.",
+        "question_type": "perceptual",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 67,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.08124v1\\chart1.jpg",
+            "chart2": "2511.08124v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Overlayed time-series trajectories of an SIR model with three compartments (Susceptible, Infected, Recovered). The x-axis is Time and the y-axis is Individuals.",
+            "chart2": "Time-series plot titled \"Case count of HPAI\" showing four compartments (Susceptible, Exposed, Infected, Removed). The x-axis is Time (Days) and the y-axis is Count."
+        },
+        "question": "In chart2, what is the exact chart title shown at the top? Respond with the title text only.",
+        "question_type": "perceptual",
+        "answer": "Case count of HPAI",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 68,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.08180v1\\chart1.jpg",
+            "chart2": "2511.08180v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Boxplots of posterior estimates for logit parameters ϑ₁, ϑ₂, ϑ₃, and ϑ₄ under different inference methods (ifit, ssfit, apmc, abcrf, mle, jags). Black dots indicate posterior means and dashed horizontal lines indicate true values.",
+            "chart2": "Boxplots of posterior estimates for trait parameters γ, μ, σ, and ω under different inference methods (ifit, ssfit, apmc, abcrf). Black dots indicate posterior means and dashed horizontal lines indicate true values."
+        },
+        "question": "In chart1, for parameter ϑ₂, which method shows the highest posterior mean relative to the dashed true-value line? A. ifit B. ssfit C. apmc D. abcrf E. mle F. jags Respond only with the choice.",
+        "question_type": "perceptual",
+        "answer": "D",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 69,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.08180v1\\chart1.jpg",
+            "chart2": "2511.08180v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Boxplots of posterior estimates for logit parameters ϑ₁, ϑ₂, ϑ₃, and ϑ₄ under different inference methods (ifit, ssfit, apmc, abcrf, mle, jags). Black dots indicate posterior means and dashed horizontal lines indicate true values.",
+            "chart2": "Boxplots of posterior estimates for trait parameters γ, μ, σ, and ω under different inference methods (ifit, ssfit, apmc, abcrf). Black dots indicate posterior means and dashed horizontal lines indicate true values."
+        },
+        "question": "In chart2, which trait parameter shows the smallest spread (narrowest boxplots) across methods? A. γ B. μ C. σ D. ω Respond only with the choice.",
+        "question_type": "perceptual",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 70,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.08223v2\\chart1.jpg",
+            "chart2": "2511.08223v2\\chart2.jpg",
+            "chart3": "2511.08223v2\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Line plots showing trimmed wall-clock time (95% bootstrap CI) versus sample size for three covariance construction methods (Centered, Bariance-style, NumPy cov) under p = 10 and p = 50.",
+            "chart2": "Bar chart comparing trimmed wall-clock time for FE score-matrix covariance computation using Centered, Bariance, and NumPy methods at n = 20000 and n = 36000.",
+            "chart3": "Summary comparison of trimmed wall-clock time across covariance estimation methods under large-sample fixed settings."
+        },
+        "question": "In chart1, for p = 10, which covariance construction method has the lowest trimmed wall-clock time at the largest sample size shown? A. Centered B. Bariance-style C. NumPy cov Respond only with the choice.",
+        "question_type": "perceptual",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 71,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.08223v2\\chart1.jpg",
+            "chart2": "2511.08223v2\\chart2.jpg",
+            "chart3": "2511.08223v2\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Line plots showing trimmed wall-clock time (95% bootstrap CI) versus sample size for three covariance construction methods (Centered, Bariance-style, NumPy cov) under p = 10 and p = 50.",
+            "chart2": "Bar chart comparing trimmed wall-clock time for FE score-matrix covariance computation using Centered, Bariance, and NumPy methods at n = 20000 and n = 36000.",
+            "chart3": "Summary comparison of trimmed wall-clock time across covariance estimation methods under large-sample fixed settings."
+        },
+        "question": "In chart2, at n = 36000, which method has the highest trimmed wall-clock time? A. Centered B. Bariance C. NumPy Respond only with the choice.",
+        "question_type": "perceptual",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 72,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.10048v1\\chart1.jpg",
+            "chart2": "2511.10048v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Prediction Imputation (PI) Diagram under MOORT risk for five datasets and multiple imputation methods.",
+            "chart2": "Prediction Imputation (PI) Diagram under MOOEN risk for the same datasets and methods."
+        },
+        "question": "In chart1's legend, which method corresponds to the open circle marker? Respond with the method name only.",
+        "question_type": "perceptual",
+        "answer": "NN HD",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 73,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.10048v1\\chart1.jpg",
+            "chart2": "2511.10048v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Prediction Imputation (PI) Diagram under MOORT risk for five datasets and multiple imputation methods.",
+            "chart2": "Prediction Imputation (PI) Diagram under MOOEN risk for the same datasets and methods."
+        },
+        "question": "In chart2's legend, what marker symbol is used for the Random HD method? A. '+' B. '-' C. '*' Respond with the symbol only.",
+        "question_type": "perceptual",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 74,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.10363v1\\chart1.jpg",
+            "chart2": "2511.10363v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Line plot showing the number of operations versus time steps T for multiple GPU scan implementations, including PKF, PRTS, and PTFS variants.",
+            "chart2": "Bar charts showing execution time for different GPU implementations at multiple values of T (1000, 10000, 100000, 1000000)."
+        },
+        "question": "In chart1, which GPU implementation consistently shows the highest number of operations across increasing T? A. GPU PKF Blelloch B. GPU PKF Hillis-Steele C. GPU PRTS Hillis-Steele D. GPU PTFS Sengupta B Respond only with the choice.",
+        "question_type": "perceptual",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 75,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.10363v1\\chart1.jpg",
+            "chart2": "2511.10363v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Line plot showing the number of operations versus time steps T for multiple GPU scan implementations, including PKF, PRTS, and PTFS variants.",
+            "chart2": "Bar charts showing execution time for different GPU implementations at multiple values of T (1000, 10000, 100000, 1000000)."
+        },
+        "question": "In chart2 at T = 1000000, which GPU implementation has the lowest execution time? A. GPU PRTS Blelloch B. GPU PRTS Inplace LaFi C. GPU PRTS Sengupta A D. GPU PRTS Sengupta B Respond only with the choice.",
+        "question_type": "perceptual",
+        "answer": "D",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 76,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.10950v1\\chart1.jpg",
+            "chart2": "2511.10950v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Boxplots of CRPS (log scale) for four benchmark functions (Higdon, Hartmann, Colville, Borehole) under different prior choices.",
+            "chart2": "Boxplots of CRPS (log scale) aggregated across priors for a single benchmark setting."
+        },
+        "question": "In chart1, for the Borehole benchmark, which prior has the highest median CRPS? A. Inverse-Gamma B. Beta C. Half-Cauchy D. Gamma E. Log-Normal F. Jeffreys. Respond only with the choice.",
+        "question_type": "perceptual",
+        "answer": "D",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 77,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.10950v1\\chart1.jpg",
+            "chart2": "2511.10950v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Boxplots of CRPS (log scale) for four benchmark functions (Higdon, Hartmann, Colville, Borehole) under different prior choices.",
+            "chart2": "Boxplots of CRPS (log scale) aggregated across priors for a single benchmark setting."
+        },
+        "question": "Based on chart2, which prior shows the largest variability in CRPS values? A. Inverse-Gamma B. Beta C. Half-Cauchy D. Gamma E. Log-Normal F. Jeffreys. Respond only with the choice.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 78,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.11318v1\\chart1.jpg",
+            "chart2": "2511.11318v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Log-scale plot of the L2 norm of the R-gradient versus iteration count for Dual-Newton with different α values.",
+            "chart2": "Log-scale plot of the L2 norm of the R-gradient versus iteration count for Dual-Newton with different α values under a different α grid."
+        },
+        "question": "In chart1, which Dual-Newton setting reaches the smallest L2 norm of the R-gradient by iteration 3? A. Dual-Newton α = 1 B. Dual-Newton α = 0.5 C. Dual-Newton α = 0 D. Dual-Newton α = -0.5 Answer only with the choice.",
+        "question_type": "perceptual",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 79,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.11318v1\\chart1.jpg",
+            "chart2": "2511.11318v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Log-scale plot of the L2 norm of the R-gradient versus iteration count for Dual-Newton with different α values.",
+            "chart2": "Log-scale plot of the L2 norm of the R-gradient versus iteration count for Dual-Newton with different α values under a different α grid."
+        },
+        "question": "In chart2, which Dual-Newton setting is still above 10⁻² at iteration 4? A. Dual-Newton α = 0 B. Dual-Newton α = 0.75 C. Dual-Newton α = 1 Answer only with the choice.",
+        "question_type": "perceptual",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id":80,
+        "items": ["chart1","chart2", "chart3"],
+        "path": {
+            "chart1": "2512.10457v1\\chart1.jpg",
+            "chart2": "2512.10457v1\\chart2.jpg",
+            "chart3": "2512.10457v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Model performance across MAE, R², and MAPE for the four FO water flux models. The Hybrid Robust GPR model consistently outperforms all variants.",
+            "chart2": "Model performance across MAE, R², and MAPE for the four FO water flux models. The Hybrid Robust GPR model consistently outperforms all variants.",
+            "chart3": "Model performance across MAE, R², and MAPE for the four FO water flux models. The Hybrid Robust GPR model consistently outperforms all variants."
+        },
+        "question": "What color category is used for the bar representing “Pure ANN” in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "blue",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 81,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.10794v1\\chart1.jpg",
+            "chart2": "2512.10794v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "",
+            "chart2": ""
+        },
+        "question": "What is the average gFID of the learning-based features (DinoV2-B and VGG) in Chart 1? Respond only with a single numeric value rounded to two decimals.",
+        "question_type": "reasoning",
+        "answer": 8.74,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 82,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.12101v1\\chart1.jpg",
+            "chart2": "2512.12101v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Model performance at three bounding-box scales on optical vs holographic images. MobileNetV3L, manual labels",
+            "chart2": "Model performance at three bounding-box scales on optical vs holographic images. MobileNetV3L, automated labels"
+        },
+        "question": "How many categories (bars) are shown in Chart 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 83,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.12101v1\\chart1.jpg",
+            "chart2": "2512.12101v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Model performance at three bounding-box scales on optical vs holographic images. MobileNetV3L, manual labels",
+            "chart2": "Model performance at three bounding-box scales on optical vs holographic images. MobileNetV3L, automated labels"
+        },
+        "question": "Compute the accuracy difference between optical and holographic (expansion 0%) in Chart 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.55,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 84,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.12442v1\\chart1.jpg",
+            "chart2": "2512.12442v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of LCP computation time between our method and the baseline on the tangle and ethanol datasets. Our method scales with the number of non-zero cells, while the baseline is more expensive and insensitive to cell count.",
+            "chart2": "LCP field average error (RMSE) for our method on the tangle dataset and across different iso-values on the ethanol dataset, with the number of non-zero probability cells shown for comparison."
+        },
+        "question": "Which graphical element is used to represent RMSE in Chart 2? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "blue bar",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 85,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.12947v1\\chart1.jpg",
+            "chart2": "2512.12947v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Model performance across masking rates. GCN outperforms LR and SVM at all levels, with the largest gap at 90% masking where GCN achieves 0.835 compared to LR’s 0.775.",
+            "chart2": "Feature ablation at 0% masking. With random features, LR and SVM collapse to near-random performance while GCN retains full performance, demonstrating that structure alone drives GCN predictions on this dataset."
+        },
+        "question": "Compute the average Macro-F1 score across all models under Random features in Chart 2. Respond only with a single numeric value rounded to three decimals.",
+        "question_type": "reasoning",
+        "answer": 0.337,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 86,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.12947v1\\chart1.jpg",
+            "chart2": "2512.12947v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Model performance across masking rates. GCN outperforms LR and SVM at all levels, with the largest gap at 90% masking where GCN achieves 0.835 compared to LR’s 0.775.",
+            "chart2": "Feature ablation at 0% masking. With random features, LR and SVM collapse to near-random performance while GCN retains full performance, demonstrating that structure alone drives GCN predictions on this dataset."
+        },
+        "question": "From Chart 1, extract the Macro-F1 scores of the three models under all masking rates and organize them into the following 2D table with the header row: [[Model, 90%, 50%, 0%], …] Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Model", "90%", "50%", "0%"],
+            ["GCN", 0.835, 0.848, 0.849],
+            ["LR", 0.774, 0.830, 0.832],
+            ["SVM", 0.735, 0.825, 0.836]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 87,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.12981v1\\chart1.jpg",
+            "chart2": "2512.12981v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Layer-wise compression patterns learned by CoDeQ for ResNet-18 on ImageNet. Layer-wise compression for a ResNet-18 model with MP. Negative y-axis shows bit-width (descending) and positive y-axis shows sparsity (ascending).",
+            "chart2": "Layer-wise compression patterns learned by CoDeQ for ResNet-18 on ImageNet. Layer-wise compression for a ResNet-18 model with fixed 4-bit weights. Negative y-axis shows bit-width (descending) and positive y-axis shows sparsity (ascending)."
+        },
+        "question": "Does Chart 1 contain layers that simultaneously have sparsity above 0.9 and bit-width no greater than 3 bits? Respond only with a single integer (count).",
+        "question_type": "reasoning",
+        "answer": 2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 88,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.17131v1\\chart1.jpg",
+            "chart2": "2512.17131v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Final validation loss of AdamW, single-worker DiLoCo, and GPA on LLaMA-160M across different effective numbers of inner steps.",
+            "chart2": "Training speedup of single-worker DiLoCo and GPA, measured by the reduction in steps needed to reach AdamW’s final validation loss, across different effective numbers of inner steps."
+        },
+        "question": "At which inner step does GPA-AdamW achieve its lowest validation loss in Chart 1? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 32,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 89,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.22471v1\\chart1.jpg",
+            "chart2": "2512.22471v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Layer-wise ablation across multiple seeds: removing any single layer substantially increases mean absolute entropy error, indicating a hierarchical and compositional computation.",
+            "chart2": "Head-wise ablation: a small number of critical attention heads dominate performance, while many others are partially redundant."
+        },
+        "question": "What metric is encoded by the colorbar in Chart 2? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "Δ Final Accuracy (%)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 90,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.22768v1\\chart1.jpg",
+            "chart2": "2512.22768v1\\chart2.jpg",
+            "chart3": "2512.22768v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Illustration of convergent quantities in Definition 1; note that cn captures the efficiency of HP transfer. Loss gap an.",
+            "chart2": "Illustration of convergent quantities in Definition 1; note that cn captures the efficiency of HP transfer. Hyperparameter gap bn.",
+            "chart3": "Illustration of convergent quantities in Definition 1; note that cn captures the efficiency of HP transfer. Transfer suboptimality gap cn."
+        },
+        "question": "How many vertical dashed lines are shown to indicate hyperparameter positions in Chart 2? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 6,
+        "answer_type": "numeric"
+    }
+]

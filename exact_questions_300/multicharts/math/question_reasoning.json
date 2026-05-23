@@ -1,0 +1,205 @@
+[
+    {
+        "question_id": 9,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.22507v2\\chart1.jpg",
+            "chart2": "2511.22507v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Density (6.6) plotted for t = 1 and ζ ∈ {0.1, 0.3, 0.5, 0.7, 0.9}",
+            "chart2": "Density (6.7) plotted for t ∈ {0.2, 0.4, 0.6, 0.8, 1}."
+        },
+        "question": "Estimate the FWHM for ζ = 0.3 and for t = 0.4. Compute the difference (ζ − t), measured in units of π. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 40,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.18799v1\\chart1.jpg",
+            "chart2": "2512.18799v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Regions of a and β regarding the positivity of pa(t, β) determined by the existence of the positive real root in Equation (4.17) is shown. Thus, the positivity of u+ is rejected or possible accordingly. The regions are separated by the critical curve aβ − a + 1 = 0.",
+            "chart2": "Adjusted schematic diagram with the theoretically certified region for positivity and the numerically rejected region"
+        },
+        "question": "In Chart 2, what is the logical relationship between the Certified region and the Possible region? A. Certified ⊂ Possible B. Possible ⊂ Certified C. Certified = Possible Respond only with a single letter.",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.16525v1\\chart1.jpg",
+            "chart2": "2512.16525v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Total number of Newton iterations for the proposed schemes across five refinement levels (about 200000 triangular elements on level 4), using a velocity of v = (1/2, 1/2)T and time step sizes as defined in the Table 2",
+            "chart2": "Total computation time for the proposed schemes across five refinement levels (about 200000 triangular elements on level 4), using a velocity of v = (1/2, 1/2)T and time step sizes as defined in the Table 2."
+        },
+        "question": "At refinement level 2, which scheme satisfies both Newton iterations < 1000 and computation time < 20 seconds? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "VFVM / Implicit Euler",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.18418v1\\chart1.jpg",
+            "chart2": "2512.18418v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Heatmap of Pearson correlations between the quadratic equation coefficients (E, F, G) and the roots (H, I).",
+            "chart2": "Histogram of the distribution of C values with an overlaid probability density function."
+        },
+        "question": "Which interpretation best aligns the observations from Chart 1 and Chart 2 regarding variable C? A. High correlation and concentrated distribution B. Low correlation and uniform distribution C. No clear relationship Respond only with a single letter.",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.21763v1\\chart1.jpg",
+            "chart2": "2511.21763v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "A comparison of the outer/inner height in (1.2)–(1.3) and direct localisation in (1.4).",
+            "chart2": "A comparison of the outer/inner radius in (1.2)– (1.3)."
+        },
+        "question": "Compute the difference between the percentage improvement of Inner Height in Chart 1 and Inner Radius in Chart 2. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 12.5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 21,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.16418v1\\chart1.jpg",
+            "chart2": "2512.16418v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Histogram that compares Picard vs Euler, comparison of the Y component evaluated at t = 0.",
+            "chart2": "Histogram that compares Picard vs Euler, comparison of the Z component evaluated at t = 0."
+        },
+        "question": "Which method is closer to the MC Baseline in both Chart 1 and Chart 2? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Picard",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 34,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.18358v1\\chart1.jpg",
+            "chart2": "2512.18358v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Plot of equilibrium densities for m = 0.5 and d = 2; these values correspond to case i from Proposition 3.1, and the equilibrium densities exist for all κ greater than κ₁.",
+            "chart2": "Plot of equilibrium densities for m = 0.25 and d = 3; these values correspond to case ii from Proposition 3.1, and the equilibrium densities exist for κ₁ less than κ less than κ₂ in this case (here κ₂ is approximately 12.4453)."
+        },
+        "question": "At θ = 1 in Chart 1, how many κ curves have ρ_κ values below 0.1? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 39,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.19646v1\\chart1.jpg",
+            "chart2": "2512.19646v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Normalized mean first passage time (MFPT) versus interpretation parameter α for perfect and imperfect targets.",
+            "chart2": "Probability of hitting the right target versus interpretation parameter α for perfect and imperfect targets."
+        },
+        "question": "Does the normalized MFPT of perfect targets increase or decrease as α goes from 0 to 1 in Chart 1? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "decrease",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.16824v1\\chart1.jpg",
+            "chart2": "2512.16824v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Iterative refinement for Van der Pol oscillator. Control evolution showing dramatically reduced variance across iterations. Initial predictions (purple) have high uncertainty; final iteration (yellow) converges to consistent damping strategy.",
+            "chart2": "Iterative refinement for Van der Pol oscillator. Cost reduction of approximately 90% from iteration 0 to 3"
+        },
+        "question": "Which iteration first approaches y = 0 within the first 10 time steps in Chart 1? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.13310v1\\chart1.jpg",
+            "chart2": "2512.13310v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Boxplots of estimation errors",
+            "chart2": "Boxplots of estimation errors"
+        },
+        "question": "At p = 100 and n = 100 in Chart 1, which rho value has the larger median error? Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.8,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.20777v1\\chart1.jpg",
+            "chart2": "2512.20777v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Experimental results for ImageNet32 dataset. Lowest and highest relative error rate.",
+            "chart2": "Experimental results for ImageNet64 dataset. Lowest and highest relative error rate"
+        },
+        "question": "In Chart 1, define concentration as (largest percentage − smallest percentage). What is the concentration of the “Highest relative error rate” pie chart? Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 76,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 1,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2509.13570v1\\chart1.jpg",
+            "chart2": "2509.13570v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "",
+            "chart2": ""
+        },
+        "question": "Identify the category whose percentage is the median value among all categories in Chart 2. Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Not likely",
+        "answer_type": "text"
+    }
+]

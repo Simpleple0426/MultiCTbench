@@ -1,0 +1,205 @@
+[
+    {
+        "question_id": 27,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.09094v1\\chart1.jpg",
+            "chart2": "2512.09094v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Inter-annotator performance for Experiment A under different acquisition settings. Each cell reports the Dice Similarity Coefficient and its relative change. The acquisition-related variation shows predominantly negative changes, indicating limited or no positive contribution to segmentation performance.",
+            "chart2": "Inter-annotator performance for Experiment A under different annotation settings. Each cell reports the Dice Similarity Coefficient and its relative change. The annotation-related variation shows predominantly positive changes, indicating a positive contribution to segmentation performance."
+        },
+        "question": "In Chart 1 and Chart 2, identify the relative percentage change values corresponding to the darkest-colored cells in each chart. Return the values as a list in the format: [Chart1_Value, Chart2_Value]. Respond only with a list of two numeric values.",
+        "question_type": "reasoning",
+        "answer": [-47.50, 52.56],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.08216v1\\chart1.jpg",
+            "chart2": "2512.08216v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Pretraining strategies performance and robustness evaluation on ID test set. Segmentation metrics (DSC and HD95).",
+            "chart2": "Pretraining strategies performance and robustness evaluation on ID test set. Performance across imaging variations."
+        },
+        "question": "For the model with the worst HD95 in Chart 1, which dimension has the lowest score in Chart 2? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Recon3",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.10023v1\\chart1.jpg",
+            "chart2": "2511.10023v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Time complexity analysis of pretrain MobileNet and customized CNN models using Frames Per Second (FPS) computation. Chart1 shows FPS for 46 images with runtimes of 10 and 100 for both models.",
+            "chart2": "Time complexity analysis of pretrain MobileNet and customized CNN models using Frames Per Second (FPS) computation. Chart2 presents runtime for random images."
+        },
+        "question": "Across both charts, compute the mean FPS of each framework (TF, TFLite + Invoke, TFLite) across all models. Return the framework that achieves the highest mean FPS together with its mean FPS value. Respond only with a list in the format: [Framework, Mean_FPS].",
+        "question_type": "reasoning",
+        "answer": "[TFLite, 47.5]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 9,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2510.22588v1\\chart1.jpg",
+            "chart2": "2510.22588v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Distributions of Duration.",
+            "chart2": "Distributions of Number of Words."
+        },
+        "question":"Which category shows the largest increase in distribution span from Chart 1 to Chart 2? Respond only with the category name.",
+        "question_type": "reasoning",
+        "answer": "Response",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 32,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.12952v1\\chart1.jpg",
+            "chart2": "2512.12952v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Performances of per-shot bitrate ladders constructed on fast encoder settings against the convex hull, across various presets of the libx265 codec.",
+            "chart2": "Performances of per-shot bitrate ladders constructed on fast encoder settings against the convex hull, across various presets of the libsvtav1 codec."
+        },
+        "question": "Compute the difference between the average Mean BD-Rate of VIFF in Chart 2 and Chart 1 (Chart2 − Chart1). Round the result to three decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 4.923,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 30,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.12284v1\\chart1.jpg",
+            "chart2": "2512.12284v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of End-to-End Latency Breakdown",
+            "chart2": "Throughput Comparison versus SOTA LLM Accelerators"
+        },
+        "question": "At the 20K sequence length, which system appears in both Chart 1 and Chart 2, has a speedup factor greater than 3 in Chart 1, and remains runnable (not OOM) in Chart 2? Respond only with a list of system names.",
+        "question_type": "reasoning",
+        "answer": "[V-Rex⁸]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 6,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2510.18917v2\\chart1.jpg",
+            "chart2": "2510.18917v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Example comparison of RT60 distributions between two simulated subsets of RIR-Mega (linear and circular arrays). In the next release, this plot will be replaced with a comparison against measured RIRs from public datasets such as the ACE Challenge or OpenAIR to verify the acoustic realism of the simulated data.",
+            "chart2": "Example comparison of DRR distributions between two simulated subsets of RIR-Mega (linear and circular arrays). In the next release, this plot will be replaced with a comparison against measured RIRs from public datasets such as the ACE Challenge or OpenAIR to verify the acoustic realism of the simulated data."
+        },
+        "question":"In Chart 1, at approximately what RT60 value does the Linear distribution peak? Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.50,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 50,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.06536v1\\chart1.jpg",
+            "chart2": "2512.06536v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "SINR at the target grid points for processing method: Scenario A1.",
+            "chart2": "SINR at the target grid points for processing method: Scenario E2."
+        },
+        "question":"In Chart 1, how many Target Index values for the configuration “1 Tile, W = 4×4” fall below the detection threshold? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2510.18169v1\\chart1.jpg",
+            "chart2": "2510.18169v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Violin plots showing the relationship between GPT-4o-audio extracted acoustic features and GPT-4.1 generated illness scores. Diamond markers indicate group means, and the width represents the density of observations at that value. Energy levels decline as health worsens.",
+            "chart2": "Violin plots showing the relationship between GPT-4o-audio extracted acoustic features and GPT-4.1 generated illness scores. Diamond markers indicate group means, and the width represents the density of observations at that value.Signs of discomfort/fatigue increase with declining health status."
+        },
+        "question":"Which health level shows the largest interquartile range of Energy in Chart 1? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2510.22258v1\\chart1.jpg",
+            "chart2": "2510.22258v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Normalized Mixed MSE of the left ear for far-field and near-field BSM filters under Field of View weighting, inside the FoV.",
+            "chart2": "Normalized Mixed MSE of the left ear for far-field and near-field BSM filters under Field of View weighting, outside the FoV."
+        },
+        "question":"At 500 Hz in Chart 1, which FF BSM distance yields the lowest MSE value? Respond only with the distance value.",
+        "question_type": "reasoning",
+        "answer": "1.5m",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2510.22588v1\\chart1.jpg",
+            "chart2": "2510.22588v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Distributions of Duration.",
+            "chart2": "Distributions of Number of Words."
+        },
+        "question": "What is the approximate overlapping duration range between “Instruction” and “Response” in Chart 1? Respond with a list [min, max].",
+        "question_type": "reasoning",
+        "answer": [1, 31],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.01428v1\\chart1.jpg",
+            "chart2": "2512.01428v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Symbol Error Rate (SER) for different modulation schemes at infinite Signal-to-Noise Ratio (SNR) (i.e., non-impaired signals).",
+            "chart2": ": Symbol Error Rate (SER) of the proposed model under Middleton Class-A noise for two Γ values with A set for an average 15% symbol-hit rate."
+        },
+        "question":"Which modulation scheme has the third lowest SER in Chart 1? Respond only with the modulation name.",
+        "question_type": "reasoning",
+        "answer": "QAM-4",
+        "answer_type": "text"
+    }
+]

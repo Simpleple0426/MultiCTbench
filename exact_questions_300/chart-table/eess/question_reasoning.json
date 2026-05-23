@@ -1,0 +1,188 @@
+[
+    {
+        "question_id": 40,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.02088v1\\chart1.jpg",
+            "table1": "2512.02088v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Validation AUC and F1 across tested models. J1 multimodal configurations outperformed J0 and clinical baselines.",
+            "table1": "Summary of multimodal configurations (mean ± Standar across 8 folds). PCA dimension fixed at 12 components."
+        },
+        "question": "Among models outperforming the clinical baseline in Chart 1, how many have Val Acc ≥ 0.8 in Table 1? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 1,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 24,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.09713v1\\chart1.jpg",
+            "table1": "2512.09713v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Impact of speech probability ps on model performance measured by AUC. Highest AUC occurs at ps = 80%.",
+            "table1": "Accuracy and standard deviation σ for MoisesDB, averaged across genres for models trained with ps = 80% and ps = 100%."
+        },
+        "question":"Compute the mean ACC at ps=80% for the three models with the highest AUC in Chart 1. Round the result to four decimal places and respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.9690,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 46,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.12366v1\\chart1.jpg",
+            "table1": "2512.12366v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Scalability analysis of the proposed frameworks compared to baselines as the number of users increases. Subplots show (a) average reward, (b) average perceived PSNR, (c) average response time, and (d) average energy consumption. The results indicate that IPPG maintains near-optimal performance across different user scales, while CPPG and EA-Offloader exhibit higher variability and degradation in performance.",
+            "table1": "Average reward, video quality in terms of PSNR, response time (RT), energy consumption (EC) for 𝐾 = 3 users with weights 𝑤0 = 0.35, 𝑤1 = 0.85, and 𝑤2 = 0.15. Both CPPG and IPPG achieve near-optimal performance with no deadline violations, while EGreedy and EA-Offloader show larger variability, lower rewards, and higher violation rates."
+        },
+        "question":"Identify the method with the smallest reward range in Chart 1(a), then report its RT from Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.57,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 61,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.05686v1\\chart1.jpg",
+            "table1": "2512.05686v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "A success rate comparison of LA-RL, Hybrid-Driving, DiLu, and GRAD across various scenario configurations.",
+            "table1": "Comparison of Avg. Dri. Time and Ctr. Effi."
+        },
+        "question":"Across all settings, compute the average absolute change in Avg. Dri. Time (seconds) per 1% decrease in LA-RL success rate. Respond only with a numeric value rounded to three decimals.",
+        "question_type": "reasoning",
+        "answer": 0.283,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.09090v1\\chart1.jpg",
+            "table1": "2511.09090v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The comparison of inference time for different methods in generating soundtracks for 30-second videos.",
+            "table1": ": Comparison with existing methods. The best results are highlighted in bold, and the second-best are underlined"
+        },
+        "question":"Select the models with inference time below 40 seconds in Chart 1, then compute the average of their FAD values under the Mixed Test Set in Table 1. Respond only with a single numeric value rounded to four decimals.",
+        "question_type": "reasoning",
+        "answer": 20.0614,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 1,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.14411v1\\chart1.jpg",
+            "table1": "2510.14411v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Per-Category Accuracy and Modality Weight at the Decision Layer. The bar chart represents the unimodal prediction accuracy of each modality across categories, while the line chart illustrates the average L1-norm of decision-layer weights for each modality in different categories.",
+            "table1": "Mean values of Weights (×10^−2 ) and Logits across modalities on the CREMAD and Kinetic-Sounds datasets."
+        },
+        "question":"Compute the proportion of categories in Chart 1 where Audio Accuracy exceeds 60%, rounded to three decimal places. Then report the Audio Logits on the Kinetic-Sounds dataset from Table 1, rounded to three decimal places. Respond with a list in the format: [proportion, logits].",
+        "question_type": "reasoning",
+        "answer": [0.129, 2.470],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 63,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.12528v1\\chart1.jpg",
+            "table1": "2512.12528v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Domain-shift robustness. Bars show mean ROC-AUC across repeated runs; error bars indicate one standard deviation",
+            "table1": "ROC-AUC UNDER OPERATING-REGIME SHIFT (DOMAIN MISMATCH)"
+        },
+        "question":"Using table1, compute the average ROC-AUC of WPT-only across all four regimes. Respond only with a single numeric value rounded to three decimals",
+        "question_type": "reasoning",
+        "answer": 0.757,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 65,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.14426v1\\chart1.jpg",
+            "table1": "2512.14426v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Results of the evaluation for three different measurement settings, each averaged over 500 Monte Carlo runs. Black bars indicate time steps during which the object turned. Moderate measurement data",
+            "table1": "Mean error squared GWD for all trackers on 500 Monte Carlo runs of each of the three scenarios. Batch-based methods are separated in their own section"
+        },
+        "question":"In Chart 1, at which trajectory step does MEM-QKF first exceed 2.0 m²? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 23,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.18724v1\\chart1.jpg",
+            "table1": "2510.18724v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Breakdown of insertion (I), deletion (D), and substitution (S) error counts on Arzen. We compare the baseline fine-tuned model (FT) with our WL1.5, separately for embedded and matrix words.",
+            "table1": "ASCEND-fnetuningresultsinMixedErrorRate (MER)andPIER.UnadaptedWhisper(Whisper),standard CEfne-tuned(FT),ourproposedweightedversions(WL).OutsidebracketstheMERisreported(hallucination-free MERreportedinbrackets).Wereportcross-corpusresults onSEAMEtestdata."
+        },
+        "question":"In Chart 1, compute the proportion of substitution (S) errors in the total errors of Embedded (WL1.5). Round to three decimal places and respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.571,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 55,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.07053v1\\chart1.jpg",
+            "table1": "2512.07053v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Average random access delay versus the number of active users. Random access delay is defined as the time elapsed from a user’s initia access attempt to a successful random access. The total number of available preambles is 104.",
+            "table1": "SUMMARY OF RANDOM ACCESS PERFORMANCE METRICS UNDER DIFFERENT USER DENS ITIES."
+        },
+        "question":"Which scheme achieves “Very High” in at least two performance metrics under low density in Table 1? Respond only with the scheme name.",
+        "question_type": "reasoning",
+        "answer": "Proposed",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.21247v1\\chart1.jpg",
+            "table1": "2511.21247v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Time played by every instrument in The Spheres dataset.",
+            "table1": "SIGNAL-TO-DISTORTION RATIO (SDR) OF EVERY INSTRUMENT IN THE STEREO MIX, THE MAIN AND AMB MICROPHONES, AND IN THEIR SECTION MICROPHONE."
+        },
+        "question":"By how many minutes does the total string-instrument duration exceed woodwind duration for Mozart in Chart 1? Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 49,
+        "answer_type": "numeric"
+    }
+]

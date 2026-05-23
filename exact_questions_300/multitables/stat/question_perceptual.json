@@ -1,0 +1,207 @@
+[
+    {
+        "question_id": 62,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.13069v1\\table1.jpg",
+            "table2": "2512.13069v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance indicators of the model applied to the Airfoils database for different LF/HF dimension ratios. They include MAE, RMSE, and R², which have been computed using the test and complementary test datasets.",
+            "table2": "Coverage metrics obtained with the MSCP method on the Airfoils database for several LF/HF dimensionality ratios. The table reports two types of coverage: (1) Nominal coverage (fraction of full curves contained within the prediction band), and (2) Pointwise coverage (average per-coordinate coverage). The Band Width + Std column corresponds to the mean of the calibrated prediction band, where the standard deviation refers to the variability of the band width. Results are provided for both the Normalized L2 norm and the Linf norm scoring functions."
+        },
+        "question": "At LF/HF Dim = 60%, extract the Test RMSE from Table 1, and extract the Test Normalized L2 Nominal coverage from Table 2. Respond only with a list of two numeric values in the order [Table 1 value, Table 2 value].",
+        "question_type": "perceptual",
+        "answer": [0.062, 0.85],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 63,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.13069v1\\table1.jpg",
+            "table2": "2512.13069v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance indicators of the model applied to the Airfoils database for different LF/HF dimension ratios. They include MAE, RMSE, and R², which have been computed using the test and complementary test datasets.",
+            "table2": "Coverage metrics obtained with the MSCP method on the Airfoils database for several LF/HF dimensionality ratios. The table reports two types of coverage: (1) Nominal coverage (fraction of full curves contained within the prediction band), and (2) Pointwise coverage (average per-coordinate coverage). The Band Width + Std column corresponds to the mean of the calibrated prediction band, where the standard deviation refers to the variability of the band width. Results are provided for both the Normalized L2 norm and the Linf norm scoring functions."
+        },
+        "question": "Compute the difference between the Test R² in Table 1 and the Test Normalized L2 Nominal coverage in Table 2 at LF/HF Dim = 100%. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.497,
+        "answer_type": "numeric"
+    },
+
+
+    {
+        "question_id": 64,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.16046v1\\table1.jpg",
+            "table2": "2512.16046v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Forecasting Performance in the Brazos Basin (1973 - 1977). The best performance in each column is in bold, and the second-best is underlined.",
+            "table2": "Forecasting Performance (NSE) across Three Basins."
+        },
+        "question": "How many metrics are reported per range in Table 1, and how many basins are reported per range in Table 2? Respond only with a list of two integers [metrics, basins].",
+        "question_type": "perceptual",
+        "answer": [4, 3],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 65,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.16626v1\\table1.jpg",
+            "table2": "2512.16626v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Pairwise preference comparisons between the responses of Qwen2.5-0.5B, RLOO, Nash-MD-PG, and StackelbergGDA algorithms. Each cell represents the preference model’s average score for the row algorithm over the column algorithm.",
+            "table2": "Inference-time refinement using different models for the initial response (Leader) and the improvement (Follower). Each cell represents the preference model’s average score for the Follower’s responses over the Leader’s responses."
+        },
+        "question": "What are the scores for RLOO over Qwen2.5-0.5B in Table 1, and for RLOO as Follower over Qwen2.5-0.5B as Leader in Table 2? Respond only with a list of two numeric values.",
+        "question_type": "perceptual",
+        "answer": [0.593, 0.534],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.11318v1\\table1.jpg",
+            "table2": "2511.11318v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports total runtime, number of iterations, and average per-iteration time for different optimization methods in Experiment 1 under N = 4 and N = 8.",
+            "table2": "Table 2 reports total runtime, iteration count, and average per-iteration time for different optimization methods in Experiment 2."
+        },
+        "question": "In both table1 and table2, which method has the highest iterations? A. Dual-Newton α = 0 B. Natural Gradient C. Adam Answer only with the choice.",
+        "question_type": "perceptual",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 57,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.08895v2\\table1.jpg",
+            "table2": "2512.08895v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "KLD and EMD on 2D datasets. Mean ± std over 500 trials",
+            "table2": "All 3D datasets (mean ± std). Best valid KLD bolded."
+        },
+        "question": "How many methods appear in both Table 1 and Table 2? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 9,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.10048v1\\table1.jpg",
+            "table2": "2511.10048v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports ranking results for different imputation methods across iris, yacht, and concrete datasets under three criteria (MOO, MOORT, MOOEN), evaluated with Mask and Oracle settings.",
+            "table2": "Table 2 reports ranking results for the same methods, datasets, and criteria under a different experimental setting."
+        },
+        "question": "In Table 1, under the MOO criterion, what is the Mask ranking of the Mean method on the iris dataset? Answer with the exact numeric value from the table.",
+        "question_type": "perceptual",
+        "answer": 6,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.22430v1/table1.jpg",
+            "table2": "2511.22430v1/table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports average maximum error and average RMSE (in km) for different filtering methods under Gaussian measurement error, evaluated at multiple time step sizes h.",
+            "table2": "Table 2 reports average maximum error and average RMSE (in km) for different filtering and particle filter methods under Student’s t-distributed measurement errors, evaluated at multiple time step sizes h."
+        },
+        "question": "In Table 1, which filtering method achieves the smallest average RMSE at h = 1 min? Respond only with the choice. A. KF B. EKF C. Before filter D. Penalized EKF E. Before filter",
+        "question_type": "perceptual",
+        "answer": "D",
+        "answer_type": "choice"
+    },
+
+
+    {
+        "question_id": 22,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2512.00100v1/table1.jpg",
+            "table2": "2512.00100v1/table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports aggregate performance metrics (MSE and MAE) averaged across 22 states, comparing a baseline method with a proposed mechanism and showing relative improvement.",
+            "table2": "Table 2 reports state-specific performance metrics (MSE and MAE) for Massachusetts, Arizona, and New York, comparing baseline and mechanism methods."
+        },
+        "question": "In Table 2, which state achieves the lowest MAE under the mechanism method? Respond only with the choice. A. Massachusetts B. Arizona C. New York Answer with the choice only.",
+        "question_type": "perceptual",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.20819v1/table1.jpg",
+            "table2": "2511.20819v1/table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports logistic regression results for the sensitivity model, including odds ratios and p-values for predictors such as method, forest size, epidemic size, parameter differences, and interaction terms.",
+            "table2": "Table 2 reports linear regression results for the mean scaled entropy model, including coefficient estimates and p-values for epidemic size, reproduction number, and dispersion parameters."
+        },
+        "question": "In Table 2, list the coefficient estimates for epidemic size epsilon equal to 50, 100, and 200 in ascending order of epsilon. Answer the numeric list in the exact order, e.g. [x, y, z].",
+        "question_type": "perceptual",
+        "answer": [0.087, 0.123, 0.147],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.20183v1/table1.jpg",
+            "table2": "2511.20183v1/table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports mean CICP_alpha values for MF-GP, HF-only-GP, and MF-PCE models under different target alpha levels and noise variances sigma_{epsilon,H}.",
+            "table2": "Table 2 reports mean PICP_alpha values for MF-GP, HF-only-GP, and MF-PCE models under different target alpha levels and noise variances sigma_{epsilon,H}."
+        },
+        "question": "In Table 2, list the PICP values of the MF-PCE model for target alpha values 0.9 and 0.95 when sigma_{epsilon,H} equals 0.166. Answer the numeric list in the exact order, e.g. [x, y].",
+        "question_type": "perceptual",
+        "answer": [0.919, 0.962],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.19796v1/table1.jpg",
+            "table2": "2511.19796v1/table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports estimated parameters of ARMA and TAR models fitted to the factor process, based on the first 65 observations, including coefficients, thresholds, variance (sigma^2), and AIC for different models/series/regimes.",
+            "table2": "Table 2 reports estimated parameters of ARMA and TAR models fitted to the factor process, based on the entire sample, including coefficients, thresholds, variance (sigma^2), and AIC for different models/series/regimes."
+        },
+        "question": "In Table 1, what is the AIC value for the VFM ARMA model with series factor2? Answer with the exact numeric value from the table.",
+        "question_type": "perceptual",
+        "answer": 285.23,
+        "answer_type": "numeric"
+    }
+]

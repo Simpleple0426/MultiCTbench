@@ -1,0 +1,785 @@
+[
+    {
+        "question_id": 1,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2510.03087v1\\table1.jpg",
+            "table2": "2510.03087v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance metrics, out-of-sample dataset. Target variable: sign of edges’ impact",
+            "table2": "Performance metrics, out-of-sample dataset. Target variable: sign of edges’ impact"
+        },
+        "question": "Extract the Precision values for Category = 1 from Table 1 and Table 2. Respond only with a list of two numeric values in the order Table1,Table2.",
+        "question_type": "perceptual",
+        "answer": [0.80, 0.93],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 2,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2510.08056v3\\table1.jpg",
+            "table2": "2510.08056v3\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Approximate thresholds under phenomenological noise with perfect measurements (top) and with measurements affected by noise at a rate equal to the qubit bit-flip rate (bottom). All estimates are rounded to the nearest 0.5%. The asynchronous decoders are simulated with Poissonian updates, and thresholds are higher when using the non-Markovian desynchronization scheme described in Section IV B. All quoted thresholds are obtained from numerical simulations.",
+            "table2": "Rough estimates for pc and scaling exponents in the 1d phase transition with (again taking measurement errors and bit-flip errors to occur with equal probability). The values are consistent with hyperscaling with d = 1."
+        },
+        "question": "What are the threshold value for 1d synchronous decoding under perfect measurements in Table 1 and the pc value for synchronous decoding in Table 2? Respond only with a list of two numeric values in the order [Table 1, Table 2].",
+        "question_type": "perceptual",
+        "answer": [17.5, 7.5],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.07355v1\\table1.jpg",
+            "table2": "2511.07355v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Summary of simulation parameters using twisted boundary conditions. We report both the inverse bare coupling and the standard inverse gauge coupling. With the standard algorithm, only the physical replica is simulated and no defect is present. In all cases, the number of over-relaxation sweeps per heat-bath sweep is fixed. The maximum volume corresponds to the largest lattice volume simulated for each parameter setting. For the PTBC algorithm, the number of Monte Carlo steps between measurements is chosen such that the integrated auto-correlation time of the energy observable is approximately one. The reported statistics represent the number of measurements after thermalization, averaged over all simulated volumes for each parameter setting.",
+            "table2": "Simulation parameters of the lattices tuned to fixed values of the TGF coupling for different values of the parameter N. The corresponding lattice spacings are chosen to match fixed physical length scales. The lattice size and the size of the reduced lattice are reported for each parameter configuration."
+        },
+        "question": "Across Table 1 and Table 2, how many distinct N values are reported in total? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.09037v1\\table1.jpg",
+            "table2": "2511.09037v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "The stress integrated over the soundboard for 8′ strings attached to either the outer or inner wall shows no significant difference in soundboard tension. In contrast, other configurations exhibit the highest soundboard stress when the strings are attached to the 4′ hitch pin rail.",
+            "table2": "Stress (N/m²) integrated over different soundboard parts when 8′ strings are attached to the outer or inner wall. The magnitude of stress in each part roughly corresponds to the size of that part."
+        },
+        "question": "Which row in Table 2 corresponds to the configuration with stress = 1530 in Table 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "8′ outer wall",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.14561v1\\table1.jpg",
+            "table2": "2511.14561v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Polymer weights, polydispersity index, and energy levels for the two organic materials used",
+            "table2": "Summary of device thicknesses and fitted parameters obtained using Eq. S1 for devices irradiated with neutrons at NPL. For ease of calculation, all fitting was done using the modulus of drive bias and response current hence the positive values in the table"
+        },
+        "question": "What is the Energy Gap (in eV) of the material used by AH020 according to Table 1? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 1.93,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 6,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.14561v1\\table1.jpg",
+            "table2": "2511.14561v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Polymer weights, polydispersity index, and energy levels for the two organic materials used",
+            "table2": "Summary of device thicknesses and fitted parameters obtained using Eq. S1 for devices irradiated with neutrons at NPL. For ease of calculation, all fitting was done using the modulus of drive bias and response current hence the positive values in the table"
+        },
+        "question": "How many samples in Table 2 use a material with Mw greater than 100,000 Da according to Table 1? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.15346v1\\table1.jpg",
+            "table2": "2511.15346v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Calculated hyperfine constant values for both the ground and excited states of doubly ionized thorium using the DHF, RCCSD, and RCCSDT methods. Corrections from basis set extension, Breit interaction, vacuum polarization, and Bohr–Weisskopf effects are included. The final results are compared with previous calculations. By combining the calculated hyperfine constants with experimental data, the nuclear magnetic dipole moment of thorium is extracted. A weighted average value is recommended and compared with values reported in the literature.",
+            "table2": "Calculated electric quadrupole hyperfine constants for the ground and excited states of doubly ionized thorium using the same computational methods as in the previous table. A weighted average value of the nuclear electric quadrupole moment is derived by combining the calculated constants with experimental measurements. The resulting values show agreement with some studies but differ significantly from others."
+        },
+        "question": "Do both Table 1 and Table 2 report experimental values, and what are the corresponding experimental quantities called? Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[Ahf (Expt), Bhf (Expt.)]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.15493v1\\table1.jpg",
+            "table2": "2511.15493v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Strong interaction parameters for D and Q spin states extracted from constrained fits to real data and SMASH+LL model simulations, compared with predictions from various theoretical models.",
+            "table2": "Gaussian source parameter extracted from the Lednicky–Lyuboshits fit to real data and SMASH+LL model simulations for different collision centrality bins."
+        },
+        "question": "Compute the ratio between the Data value of f0(Q) in Table 1 and the average ⟨mT⟩ (Data) in Table 2. Respond only with a single numeric value rounded to two decimals.",
+        "question_type": "reasoning",
+        "answer": 11.24,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 9,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.15836v1\\table1.jpg",
+            "table2": "2511.15836v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "IMSRG and CC predictions for the average energies of oxygen, calcium, nickel, and tin nuclei using the NNLOsat and ΔNNLOGO (394) interactions, compared with experimental data from the cited references. Experimental data are only available in limited excitation energy ranges, as discussed in the text. All results are given in MeV.",
+            "table2": "RPA, IMSRG, and CC results for the extrapolated value of the nuclear incompressibility obtained from Figure 5 for the NNLOsat and ΔNNLOGO (394) interactions."
+        },
+        "question": "What is the CC prediction for nuclear incompressibility using the ΔNNLOGO (394) interaction in Table 2? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 218,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.17030v1\\table1.jpg",
+            "table2": "2511.17030v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Summary of the resonance sets included in the isobar model calculations for Models I–IV. All models incorporate ρ(770) and ω(782) meson couplings in the t-channel. Diamond symbols indicate resonances whose masses and widths are slightly modified relative to the PDG reference values.",
+            "table2": "Numbers of free parameters, goodness-of-fit values, Akaike Information Criterion, Akaike differences, and Akaike weights for Models I, II, III, and IV."
+        },
+        "question": "For models with Akaike weight wᵢ > 0.1 in Table 2, how many resonances does each model include in Table 1? Respond only with a list of integers in the same order as the models.",
+        "question_type": "perceptual",
+        "answer": [6, 7],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 11,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.17030v1\\table1.jpg",
+            "table2": "2511.17030v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Summary of the resonance sets included in the isobar model calculations for Models I–IV. All models incorporate ρ(770) and ω(782) meson couplings in the t-channel. Diamond symbols indicate resonances whose masses and widths are slightly modified relative to the PDG reference values.",
+            "table2": "Numbers of free parameters, goodness-of-fit values, Akaike Information Criterion, Akaike differences, and Akaike weights for Models I, II, III, and IV."
+        },
+        "question": "For models that include at least 8 resonances in Table 1, compute their average AIC in Table 2. Respond only with a single numeric value rounded to two decimals.",
+        "question_type": "reasoning",
+        "answer": 35.23,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.19817v2\\table1.jpg",
+            "table2": "2511.19817v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Information on the photoneutron sources considered for use in the calibration. The photoneutron sources produce approximately mono-energetic neutrons, with an energy spread of O(10%). The max NR energy describes the max recoil energy on argon.",
+            "table2": "Information on the Thomson scattering sources considered for use in the calibration. The max NR column describes the maximum energy recoil on argon. The high energy 228Th gamma-ray comes from the 208Tl daughter isotope."
+        },
+        "question": "Which common source has the same number of primary gamma energies in both tables? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "124Sb",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.20921v1\\table1.jpg",
+            "table2": "2511.20921v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Experimentally extracted HFS coupling constants for 255Fm for each studied atomic energy level. R1e and R2e represent the first excited level for R1 and R2, respectively. An error of 50% was estimated by Backe et al.",
+            "table2": "Theoretical atomic calculations for the ground-state hyperfine fields from CIPT and MCDHF theory. The values for the A-factor are given in a nuclear spin-independent notation with respect to the gi-factor. Uncertainties are given only for the calculations done for this work. The average values are taken from all calculations and the uncertainties are their associated standard deviations."
+        },
+        "question": "What B-related quantities are reported in Table 1 and Table 2? Respond only with a list of two strings.",
+        "question_type": "perceptual",
+        "answer": "[B [GHz], B/Q_S [GHz/eb]]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 14,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.21091v1\\table1.jpg",
+            "table2": "2511.21091v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Principal Component Loading Matrix",
+            "table2": "Derived Regression Coefficients for Original SDG Variables"
+        },
+        "question": "What are the PC3 loading value of SDG8 in Table 1 and the regression coefficient of SDG8 in Table 2? Respond only with a list of two numeric values.",
+        "question_type": "perceptual",
+        "answer": [0.511, 1.1403],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["table1","table2", "table3"],
+        "path": {
+            "table1": "2511.21880v1\\table1.jpg",
+            "table2": "2511.21880v1\\table2.jpg",
+            "table3": "2511.21880v1\\table3.jpg"
+        },
+        "caption": {
+            "table1": "Dominant scales extracted in the whole excitation energy region from 10 MeV to 24 MeV. Equivalent characteristic energy-scale values are vertically aligned.",
+            "table2": "Dominant MQC scales extracted in the excitation energy region from 10 MeV to 18 MeV. Equivalent characteristic energy-scale values are vertically aligned.",
+            "table3": "Dominant ISGMR energy scales extracted in the excitation energy region from 18 MeV to 24 MeV. Equivalent characteristic energy-scale values are vertically aligned."
+        },
+        "question": "Which dataset names appear in both Table 1 and Table 2? Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[Expt., SkPδ, SVbas]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 16,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.00018v1\\table1.jpg",
+            "table2": "2512.00018v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "FIXED PARAMETERS",
+            "table2": "URGENCY AND SERVICE SETTINGS"
+        },
+        "question": "Which parameters have a value of 0.05 in Table 1 and Table 2? Respond only with a list of two strings in the order [Table 1, Table 2].",
+        "question_type": "perceptual",
+        "answer": "[diffHZ, u_growth]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.01592v1\\table1.jpg",
+            "table2": "2512.01592v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "The extracted values of the QGP temperature (in MeV) for different centrality regions of Au–Au collisions at 54.4 GeV, compared between using charm decayed di-electron spectra with different model setups.",
+            "table2": "The extracted values of the QGP temperature (in MeV) for different centrality regions of Ru–Ru and Zr–Zr collisions at 200 GeV, compared between using heavy quark decayed dielectron spectra with different model setups."
+        },
+        "question": "Compute the difference between the average med.+frag. QGP temperatures across all centrality regions in Table 2 and Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 13,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.10026v1\\table1.jpg",
+            "table2": "2512.10026v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Parameters corresponding to the linear fit for the CoLBT and JEWEL with recoils curves shown in Fig. 6.",
+            "table2": "Values of K obtained by fitting the CoLBT and JEWEL with recoils edge-effects data shown in Fig. 6. These K values correspond to the points plotted in Fig. 8."
+        },
+        "question": "At RL=0.21, which models report values in both Table 1 and Table 2? Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[CoLBT, JEWEL with recoils]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.10047v1\\table1.jpg",
+            "table2": "2512.10047v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Database statistics for the two agents, including transition sampling counts, unique state counts, unique transition counts, and the number of states with sampling times greater than 1.",
+            "table2": "Comparison of expected minimum action size through the potential function and actual minimized action for two agents."
+        },
+        "question": "For the agent with the larger number of Unique States in Table 1, what is its corresponding σ value in Table 2? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 4.38,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 20,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.10790v1\\table1.jpg",
+            "table2": "2512.10790v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Relative PDE calibration using cosmics passing through the center of CB at close to zero zenith angle. Here, C3 is used as the reference so that all detected PEs on other XAs are scaled using the listed scale factors.",
+            "table2": "Comparison of neutron-related light signals in Fluka simulation and PNS run data for each XA module on the cathode. Predicted cosmic background is subtracted from the data distribution. Top left: C1. Top right: C2. Bottom left: C3. Bottom right: C4."
+        },
+        "question": "Which columns related to cosmics appear in Table 1 and Table 2, respectively? Respond only with a list of two strings in the order [Table 1, Table 2].",
+        "question_type": "perceptual",
+        "answer": "[None, Cosmics]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 21,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.11172v1\\table1.jpg",
+            "table2": "2512.11172v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "S-factor (S(E)) and cross-section (σ(E)) data of 3He(3He,2p)4He fusion reaction",
+            "table2": "S-factor (S(E)) and cross-section (σ(E)) data of 6Li(3He,d)7Be fusion reaction"
+        },
+        "question": "What is the common unit used for the energy column in both tables? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "KeV",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.11590v1\\table1.jpg",
+            "table2": "2512.11590v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Wall time (seconds) on Intel i9-12900 (CPU only, 24 threads).",
+            "table2": "Wall time (seconds) on Intel Xeon Gold 6248R + RTX 3090. Speedup relative to reference shown in parentheses."
+        },
+        "question": "For the matrix size 4000 × 4000, extract the Type 2 wall time (in seconds) from Table 1 and Table 2, respectively. Respond only with a list of two numeric values in the order [Table 1, Table 2].",
+        "question_type": "perceptual",
+        "answer": [0.338, 0.539],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 23,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.14447v1\\table1.jpg",
+            "table2": "2512.14447v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Number of pairs per-shell for 12C.",
+            "table2": "Number of pairs per-shell for 40Ca, 48Ca, and 54Fe."
+        },
+        "question": "Which nuclei appear in both Table 1 and Table 2? Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[40Ca, 48Ca, 54Fe]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 24,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.14690v2\\table1.jpg",
+            "table2": "2512.14690v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "ECAL energy resolution and threshold, applied to photons. Global cut: |η| ≤ 3.5.",
+            "table2": "HCAL energy resolution and threshold, applied to neutral hadrons. Global cut: |η| ≤ 3.5."
+        },
+        "question": "Which η region names appear in both Table 1 and Table 2? Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[Backward, Central, Forward]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 25,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.15968v1\\table1.jpg",
+            "table2": "2512.15968v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Summary of the absolute light yield for each WbLS concentration.",
+            "table2": "Summary of the optimal scaling factors for the Cherenkov and non-Cherenkov light components, determined using the fitting procedure described in the text for each WbLS concentration."
+        },
+        "question": "At a WbLS concentration of 0.55%, extract the light yield (Table 1) and the fCherenkov value (Table 2). Respond only with a list of two numeric values in the order [light yield, fCherenkov].",
+        "question_type": "perceptual",
+        "answer": [76.28, 1.1853],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.15998v1\\table1.jpg",
+            "table2": "2512.15998v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of model accuracy, BOPs, and estimated hardware metrics from global search. Note that while all metrics are reported here for consistency, the Baseline was optimized for accuracy, NAC for accuracy and BOPs, and SNAC-Pack for accuracy, estimated average resources and clock cycles. The best values are reported in bold.",
+            "table2": "Hardware resource utilization and latency estimates for the selected models. The baseline is pruned by 50% and quantized to 8 bits. NAC and SNAC-Pack models are both synthesized after their respective local searches. CC is the number of clock cycles. The selected architectures are the result of pruning to approximately 50% and quantization aware training at 8 bit precision. The best values are reported in bold."
+        },
+        "question": "Extract the Accuracy from Table 1 and the latency (ns) from Table 2 for the Baseline model. Respond only with a list of two numeric values in the order [Accuracy, Latency].",
+        "question_type": "perceptual",
+        "answer": [63.77, 105],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.16324v1\\table1.jpg",
+            "table2": "2512.16324v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "SIRimp (dB), RMSE and LRMSE obtained for the second scenario.",
+            "table2": "SIRimp (dB), RMSE and LRMSE obtained for the third  scenario."
+        },
+        "question": "Extract the RMSE values of the LC-LCMP method from Table 1 and Table 2. Respond only with a list of two numeric values in the order [Table 1, Table 2].",
+        "question_type": "perceptual",
+        "answer": [0.09, 0.19],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.16324v1\\table1.jpg",
+            "table2": "2512.16324v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "SIRimp (dB), RMSE and LRMSE obtained for the second scenario.",
+            "table2": "SIRimp (dB), RMSE and LRMSE obtained for the third  scenario."
+        },
+        "question": "Compute the change in RMSE of the LI-LSQ method from Table 1 to Table 2 (Table 2 minus Table 1). Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.18,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 29,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.16773v1\\table1.jpg",
+            "table2": "2512.16773v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Level parameters obtained from fitting the distributions in Fig. 1. The first (lowest-energy) peak was fit with its known value. The second and third peak refer to the next two peaks ordered by increasing energy.",
+            "table2": "Level parameters obtained from fitting the excitation-energy distributions. Three peaks are listed in order of increasing energy."
+        },
+        "question": "Which datasets appear in both Table 1 and Table 2? Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[9C, 13O]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 30,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.17857v1\\table1.jpg",
+            "table2": "2512.17857v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Cutflows for the model of Section 2, assuming mu = 500 GeV, minimal mixing and mN = 70 GeV, based on the recasting of the ATLAS analysis. The number of events corresponds to sqrt(s) = 13 TeV and L = 139 fb-1.",
+            "table2": "Same as Table 1, but for mN = 150 GeV."
+        },
+        "question": "What are the numbers of events for High-pT SR after mDV > 10 GeV in Table 1 and Table 2? Respond only with a list of two numeric values in the order [Table 1, Table 2].",
+        "question_type": "perceptual",
+        "answer": "[5.48, 22.5]",
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 31,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.17969v1\\table1.jpg",
+            "table2": "2512.17969v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Test errors of the CNOs on source and target datasets without transfer strategies. Source dataset errors are from training and testing on the same data, while target dataset errors come from training on source and testing on target data. Target dataset includes Scenario 1 and Scenario 2.",
+            "table2": "Comparison of different transfer strategies for three PDE benchmarks, where distribution shifts are caused by changing input conditions. MMD measures the difference between source and target datasets. Best and second-best results are highlighted. Transfer strategies like NLT significantly reduce test errors compared to no transfer or supervised learning."
+        },
+        "question": "Extract the test error of the Kuramoto-Sivashinsky Equation under Scenario 2 in Table 1, and the test error of the NLT method (K:6→12) in Table 2. Respond only with a list of two numeric values in the order [Table 1, Table 2].",
+        "question_type": "perceptual",
+        "answer": [1.8095, 0.4232],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 32,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.18499v1\\table1.jpg",
+            "table2": "2512.18499v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Results of the region analysis in the context of the CM bootstrap for the equal mass ‘banana’ integrals up to four loops. The lower bound of the two-sided region at three and four loops is given by α1 ≈ -8.51 and α2 ≈ -12.17.",
+            "table2": "Comparison of the performance of the CM bootstrap against AMFlow. The average runtime for the evaluation of one phase space point is shown in seconds."
+        },
+        "question": "For the integral family with 4 basis integrals in Table 1, extract both the CM Bootstrap and AMFlow runtimes from Table 2. Respond only with a list of two numeric values in the order [CM Bootstrap, AMFlow].",
+        "question_type": "perceptual",
+        "answer": [44.76, 23.42],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 33,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.18549v1\\table1.jpg",
+            "table2": "2512.18549v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Results for baryon density, average neutron gap at the local Fermi momentum, superfluid fraction, and proton fraction for different chemical potentials, cell sizes, and interactions (SLy4 and BSk24) with Z = 20.",
+            "table2": "Same as Table 1, but for Z = 40."
+        },
+        "question": "For BSk24 at μₙ = 9.30 MeV, extract the average neutron gap ⟨Δₙ⟩ from Table 1 and Table 2. Respond only with a list of two numeric values in the order [Table 1, Table 2].",
+        "question_type": "perceptual",
+        "answer": [2.55, 2.59],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 34,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.18762v1\\table1.jpg",
+            "table2": "2512.18762v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Standard deviations from the WS4 and HFB models before refinement, and after QIBP and CBP refinements, evaluated on 2253 nuclei from the AME2020 dataset with Z ≥ 20 and N ≥ 20.",
+            "table2": "Raw standard deviations from the WS4 and HFB models and the corresponding values after QIBP refinements, reported separately for the learning set and the validation set."
+        },
+        "question": "Extract the σ_post values of the WS4 model under QIBP from Table 1 and Table 2, respectively. Respond only with a list of two numeric values in the order [Table 1, Table 2].",
+        "question_type": "perceptual",
+        "answer": [0.149, 0.150],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.19073v1\\table1.jpg",
+            "table2": "2512.19073v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Evaluated chi-squared per degree of freedom for the dijet cross section in individual and global y* bins, based on NNLO theoretical predictions using multiple PDF sets (CT18, NNPDF3.1, NNPDF4.0, MSHT2020, and ATLASpdf21T3), including electroweak and non-perturbative corrections applied to the unfolded data.",
+            "table2": "Evaluated chi-squared per degree of freedom for the dijet cross section in individual and global y_boost bins, based on NNLO theoretical predictions using multiple PDF sets (CT18, NNPDF3.1, NNPDF4.0, MSHT2020, and ATLASpdf21T3), including electroweak and non-perturbative corrections applied to the unfolded data."
+        },
+        "question": "Extract the χ²/ndf values for ATLASpdf21T3 in the 1.5–2.0 bins from Table 1 (y*) and Table 2 (y_boost). Respond only with a list of two values.",
+        "question_type": "perceptual",
+        "answer": "[63/36, 35/26]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.19073v1\\table1.jpg",
+            "table2": "2512.19073v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Evaluated chi-squared per degree of freedom for the dijet cross section in individual and global y* bins, based on NNLO theoretical predictions using multiple PDF sets (CT18, NNPDF3.1, NNPDF4.0, MSHT2020, and ATLASpdf21T3), including electroweak and non-perturbative corrections applied to the unfolded data.",
+            "table2": "Evaluated chi-squared per degree of freedom for the dijet cross section in individual and global y_boost bins, based on NNLO theoretical predictions using multiple PDF sets (CT18, NNPDF3.1, NNPDF4.0, MSHT2020, and ATLASpdf21T3), including electroweak and non-perturbative corrections applied to the unfolded data."
+        },
+        "question": "Compute the global χ²/ndf values for the NNPDF4.0NNLO model in Table 1 and Table 2, respectively. Then compute the arithmetic mean of these two χ²/ndf values. Round the final result to three decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 1.300,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.19688v1\\table1.jpg",
+            "table2": "2512.19688v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 describes the starting setup in type IIB string theory formulated in Minkowski spacetime. The time direction and spatial directions are specified, with a stack of coincident D3-branes extending along four directions and a stack of coincident D7-branes extending along eight directions. Their intersection results in four directions with Neumann–Dirichlet boundary conditions.",
+            "table2": "Table 2 describes the configuration near a pole or zero of the parameter y with degree D. In this setup, the D7-branes intersect the coincident D3-branes only along two directions. The resulting intersection has eight Neumann–Dirichlet directions."
+        },
+        "question": "Which coordinate directions are occupied by the D7-branes in both Table 1 and Table 2? Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[x0, x1, x4, x5, x6, x7]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 38,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.19839v1\\table1.jpg",
+            "table2": "2512.19839v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Parameter estimation fitting the lattice propagator data. The parameter c1 has dimensions of inverse mass squared, while c2 has dimensions of inverse mass to the fourth power, where M is a mass scale.",
+            "table2": "Parameter estimation fitting the lattice propagator data. The parameter c1 has dimensions of inverse mass squared, c2 has dimensions of inverse mass to the fourth power, and c3 has dimensions of inverse mass to the sixth power, where M is a mass scale."
+        },
+        "question": "Which β values appear in both Table 1 and Table 2? Respond only with a list of numeric values.",
+        "question_type": "perceptual",
+        "answer": [6.0, 6.2],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 39,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.19887v1\\table1.jpg",
+            "table2": "2512.19887v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Systematic error summary with significant error sources. “Total” includes all errors added in quadrature, and “Total uncorrelated” excludes the energy scale error.",
+            "table2": "Expected number of unoscillated MC signal events, fit number of signal events, and their ratio in each energy and MSG bin. Measurements are given as measurement ± statistical ± systematic error. Systematic errors are only calculated for the 0-1 MSG bins, and only if a signal is observed. When aggregating across all MSG bins, bins are weighted by their statistical error. When aggregating across the datasets, datasets are weighted by their total error."
+        },
+        "question": "Which dataset names appear in both Table 1 and Table 2? Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[WIT, SLE 34-hit]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 40,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.19913v1\\table1.jpg",
+            "table2": "2512.19913v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "SMEFT Results – Chi-squared Scores",
+            "table2": "SMEFT Results – Ds2 Values"
+        },
+        "question": "For the MLP ← L_REVERT model, extract the values of the 4th Muon pT from Table 1 and Table 2. Respond only with a list of two numeric values in the order [Table 1, Table 2].",
+        "question_type": "perceptual",
+        "answer": [1.08, 0.0033],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.19913v1\\table1.jpg",
+            "table2": "2512.19913v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "SMEFT Results – Chi-squared Scores",
+            "table2": "SMEFT Results – Ds2 Values"
+        },
+        "question": "For the MLP ← L_REVERT model, compute the difference between the average Muon chi-squared score in Table 1 and the average Muon Ds2 value in Table 2. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 1.004,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.19961v1\\table1.jpg",
+            "table2": "2512.19961v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Center energies and widths of the IS 0+, IV 1−, and IS 2+ modes, as well as the 0+ component of the corresponding double multipole modes obtained from HF calculations. All values are given in MeV.",
+            "table2": "Center energies and widths extracted from Lorentzian fits, and the centroid energy of the 0+ component of the corresponding double multipole modes obtained from SSRPA. Because the strength distributions for the double IS 0+ and 2+ can be separated into two groups, the corresponding quantities for the first and second groups are listed. All values are given in MeV."
+        },
+        "question": "Which computational frameworks that appear in either Table 1 or Table 2 report width information? Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[RPA, SSRPA_F, HF]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 43,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.20077v1\\table1.jpg",
+            "table2": "2512.20077v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Best fault-inducing configuration per layer in the 5-layer network targeting Layer 1: Dense 1 layer. The “No. of Faults” column corresponds to the number of successful faults observed out of 96 repetitions.",
+            "table2": "Best fault-inducing configuration per layer in the 5-layer network targeting Layer 2: ReLU 1 layer. The “No. of Faults” column corresponds to the number of successful faults observed out of 96 repetitions."
+        },
+        "question": "Which target layers are reported in Table 1 and Table 2, respectively? Respond only with a list of two strings in the order [Table 1, Table 2].",
+        "question_type": "perceptual",
+        "answer": "[Dense 1 layer, ReLU 1 layer]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 44,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.20710v1\\table1.jpg",
+            "table2": "2512.20710v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Parameter settings used in the numerical analysis. The first column lists the values used to generate the plots, while the second column provides more precise reference values used for error estimation.",
+            "table2": "SDPB parameters used for feasibility and maximization runs. These parameters are kept fixed for both the param and param* configurations."
+        },
+        "question": "Compare the precision value used for plotting in Table 1 with the fixed precision used in Table 2. Respond only with a list of two numeric values.",
+        "question_type": "perceptual",
+        "answer": [1152, 1152],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 45,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.20897v1\\table1.jpg",
+            "table2": "2512.20897v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Systematic uncertainty budget of the unpolarized cross section for the produced (final-state) charged pions.",
+            "table2": "Systematic uncertainty budget of the unpolarized cross section for the produced (final-state) charged kaons."
+        },
+        "question": "What are the reported upper bounds of the total systematic uncertainty in Table 1 and Table 2? Respond only with a list of two numeric values in the order [Table 1, Table 2].",
+        "question_type": "perceptual",
+        "answer": [11, 18],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 46,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.21082v1\\table1.jpg",
+            "table2": "2512.21082v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Calculated half-lives for the implemented models as a function of the axial–vector coupling constant, using the shell-model nuclear matrix element as either the CVC value or the standard value. For completeness, the CVC and standard values are listed alongside the long-range nuclear matrix element for each model. All computations conserve the vector coupling constant equal to one.",
+            "table2": "Reduced chi-square values from comparing theoretical spectral shapes with unfolded experimental data for each model. The table lists the parameter choices used to define the theoretical shapes, and the best overall matches for each model are identified within a specific solution set."
+        },
+        "question": "Which models report results at​gA=0.50 in Table 2 and also appear in Table 1? Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[jj44b, glbepn, jun45, MQPM]",
+        "answer_type": "text"
+    }
+]

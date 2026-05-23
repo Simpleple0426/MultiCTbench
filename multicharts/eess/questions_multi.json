@@ -1,0 +1,1025 @@
+[
+    {
+        "question_id": 1,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2510.14249v1\\chart1.jpg",
+            "chart2": "2510.14249v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "imilarity vs human ratings per descriptor for MSCLAP, LAION-CLAP and MuQ-MuLan",
+            "chart2": "MS-CLAP, LAION-CLAP and MuQ-MuLan vs human-rated timbre semantic profile for Western instruments"
+        },
+        "question":"Which of the following models appear in both Chart 1 and Chart 2? (Multiple choices) A. MS-CLAP B. LAION-CLAP C. MuQ-MuLan D. OpenL3 Respond only with a list of letters.",
+        "question_type": "perceptual",
+        "answer": "[A, B, C]",
+        "answer_type": "choice_list"
+    },
+
+    {
+        "question_id": 2,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2510.14551v1\\chart1.jpg",
+            "chart2": "2510.14551v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Inference time at different stages for various methods. The results are averaged over five runs. CA denotes ChannelAttention.",
+            "chart2": "Performance comparison of single-channel (Mic-dependent) and multi-channel methods. NSF-1 denotes NOTSOFAR-1 dataset."
+        },
+        "question":"Considering both Chart 1 and Chart 2, which method significantly increases inference time while achieving consistent DER improvements? Respond only with the method name.",
+        "question_type": "reasoning",
+        "answer": "DOVER-Lap",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2510.14551v1\\chart1.jpg",
+            "chart2": "2510.14551v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Inference time at different stages for various methods. The results are averaged over five runs. CA denotes ChannelAttention.",
+            "chart2": "Performance comparison of single-channel (Mic-dependent) and multi-channel methods. NSF-1 denotes NOTSOFAR-1 dataset."
+        },
+        "question": "Which method most clearly demonstrates a time-for-performance trade-off when considering both charts? Respond only with the method name.",
+        "question_type": "reasoning",
+        "answer": "DOVER-Lap",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2510.18169v1\\chart1.jpg",
+            "chart2": "2510.18169v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Violin plots showing the relationship between GPT-4o-audio extracted acoustic features and GPT-4.1 generated illness scores. Diamond markers indicate group means, and the width represents the density of observations at that value. Energy levels decline as health worsens.",
+            "chart2": "Violin plots showing the relationship between GPT-4o-audio extracted acoustic features and GPT-4.1 generated illness scores. Diamond markers indicate group means, and the width represents the density of observations at that value.Signs of discomfort/fatigue increase with declining health status."
+        },
+        "question":"What visual element represents the interquartile range in both charts?",
+        "question_type": "perceptual",
+        "answer": "Thick vertical black bar",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2510.18169v1\\chart1.jpg",
+            "chart2": "2510.18169v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Violin plots showing the relationship between GPT-4o-audio extracted acoustic features and GPT-4.1 generated illness scores. Diamond markers indicate group means, and the width represents the density of observations at that value. Energy levels decline as health worsens.",
+            "chart2": "Violin plots showing the relationship between GPT-4o-audio extracted acoustic features and GPT-4.1 generated illness scores. Diamond markers indicate group means, and the width represents the density of observations at that value.Signs of discomfort/fatigue increase with declining health status."
+        },
+        "question":"Which health level shows the greatest dispersion in both charts? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 6,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2510.18917v2\\chart1.jpg",
+            "chart2": "2510.18917v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Example comparison of RT60 distributions between two simulated subsets of RIR-Mega (linear and circular arrays). In the next release, this plot will be replaced with a comparison against measured RIRs from public datasets such as the ACE Challenge or OpenAIR to verify the acoustic realism of the simulated data.",
+            "chart2": "Example comparison of DRR distributions between two simulated subsets of RIR-Mega (linear and circular arrays). In the next release, this plot will be replaced with a comparison against measured RIRs from public datasets such as the ACE Challenge or OpenAIR to verify the acoustic realism of the simulated data."
+        },
+        "question": "Considering both Chart 1 and Chart 2, which array shows greater dispersion in both RT60 and DRR? Respond only with the array name.",
+        "question_type": "reasoning",
+        "answer": "Circular",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2510.22258v1\\chart1.jpg",
+            "chart2": "2510.22258v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Normalized Mixed MSE of the left ear for far-field and near-field BSM filters under Field of View weighting, inside the FoV.",
+            "chart2": "Normalized Mixed MSE of the left ear for far-field and near-field BSM filters under Field of View weighting, outside the FoV."
+        },
+        "question":"In Chart 1 and Chart 2, which visual encoding elements are used to distinguish different BSM conditions? (Multiple choices) A. Color B. Line style C. Marker shape D. Line thickness Respond only with a list of letters corresponding to the correct options (e.g., [A, B]).",
+        "question_type": "perceptual",
+        "answer": "[A, B]",
+        "answer_type": "choice_list"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2510.22588v1\\chart1.jpg",
+            "chart2": "2510.22588v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Distributions of Duration.",
+            "chart2": "Distributions of Number of Words."
+        },
+        "question": "Which visual encoding is primarily used to distinguish categories in both charts? Choose one option and respond only with the letter. A. Color B. Line style C. Marker shape D. Line thickness",
+        "question_type": "perceptual",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 9,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2510.22588v1\\chart1.jpg",
+            "chart2": "2510.22588v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Distributions of Duration.",
+            "chart2": "Distributions of Number of Words."
+        },
+        "question":"Which category shows the largest increase in distribution span from Chart 1 to Chart 2? Respond only with the category name.",
+        "question_type": "reasoning",
+        "answer": "Response",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2510.23403v1\\chart1.jpg",
+            "chart2": "2510.23403v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Position as the main effect tonal quality test. Medians and non-parametric 95% confidence intervals.",
+            "chart2": "Position as the main effect spatial quality test. Medians and non-parametric 95% confidence intervals."
+        },
+        "question": "Chart 1 and Chart 2 use the same chart type to visualize the relationship between Position and Similarity Score. What is the chart type used in both figures? Respond only with the chart type name as a single text string.",
+        "question_type": "perceptual",
+        "answer": "scatter plot with error bars",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 11,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2510.23541v2\\chart1.jpg",
+            "chart2": "2510.23541v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Performance of SoulX-Podcast.",
+            "chart2": "Performance of SoulX-Podcast."
+        },
+        "question":"Considering both Chart 1 and Chart 2, which model consistently achieves the strongest overall performance across all metrics? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "SoulX-Podcast",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["chart1","chart2", "chart3"],
+        "path": {
+            "chart1": "2510.23558v1\\chart1.jpg",
+            "chart2": "2510.23558v1\\chart2.jpg",
+            "chart3": "2510.23558v1\\chart3.jpg"
+
+        },
+        "caption": {
+            "chart1": "ASR models performance on single and composite settings.",
+            "chart2": "GR models performance on single and composite settings.",
+            "chart3": "SER models performance on single and composite settings."
+        },
+        "question":"In chart1, chart2 and chart3, which visual encoding is primarily used to distinguish between the Single and Composite settings? Choose one option and respond only with one letter. A. Color B. Hatched (diagonal) fill pattern C. Marker shape D. Line width",
+        "question_type": "perceptual",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2510.24471v1\\chart1.jpg",
+            "chart2": "2510.24471v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Computational complexity in terms of MACs of the FCP (online) and KP-FCP methods with K = 81, K1 = 9, and K2 = 9.",
+            "chart2": "Improvement in PESQ, and FWSNR of the FCP (online) and KP-FCP methods: (a) ∆PESQ and (b) ∆FWSNR. Experimental conditions: SNR = 25 dB, T60 = 400 ms, K = 81, K1 = 9 and K2 = 9."
+        },
+        "question":"What chart type is used in Chart 1 and Chart 2, respectively? Respond only with a list of two strings in the form [Chart1_Type, Chart2_Type].",
+        "question_type": "perceptual",
+        "answer": "[Bar chart, Line chart]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 14,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2510.24693v2\\chart1.jpg",
+            "chart2": "2510.24693v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "A comparison between humans and the Gemini 2.5 Pro with and without audio captions on various audio benchmarks. Our STAR-Bench evaluates linguistically hard-to-describe audio cues. See Appendix B.1 for audio caption details.",
+            "chart2": "The ablation study on temporal reasoning."
+        },
+        "question": "Compare Chart 1 and Chart 2: compute the difference between the average accuracy of Human (Chart 1) and the average accuracy of Gemini-2.5-Pro across all settings (Chart 2). Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 3.35,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.06770v1\\chart1.jpg",
+            "chart2": "2511.06770v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Layerwise Spike Firing Rates for SDT-8-512, illustrating extremely high sparsity for outputs of spiking self-attention",
+            "chart2": "Per-class Average Timestep vs Accuracy for 2-256-t16 SDT on CIFAR10-DVS with CBET=0.99."
+        },
+        "question": "For Chart 1 and Chart 2, how many bars are grouped at each x-axis position? Respond only with a list of two integers.",
+        "question_type": "perceptual",
+        "answer": [3, 2],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 16,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.10023v1\\chart1.jpg",
+            "chart2": "2511.10023v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Time complexity analysis of pretrain MobileNet and customized CNN models using Frames Per Second (FPS) computation. Chart1 shows FPS for 46 images with runtimes of 10 and 100 for both models.",
+            "chart2": "Time complexity analysis of pretrain MobileNet and customized CNN models using Frames Per Second (FPS) computation. Chart2 presents runtime for random images."
+        },
+        "question": "From Chart 1, extract the FPS value of MobileNet (100) under the TFLite framework. From Chart 2, extract the FPS value of MobileNet (100) under the TF framework. Return the two values as a list in the order [Chart1_Value, Chart2_Value]. Respond only with the list.",
+        "question_type": "perceptual",
+        "answer": [53, 19],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.10023v1\\chart1.jpg",
+            "chart2": "2511.10023v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Time complexity analysis of pretrain MobileNet and customized CNN models using Frames Per Second (FPS) computation. Chart1 shows FPS for 46 images with runtimes of 10 and 100 for both models.",
+            "chart2": "Time complexity analysis of pretrain MobileNet and customized CNN models using Frames Per Second (FPS) computation. Chart2 presents runtime for random images."
+        },
+        "question": "Across both charts, compute the mean FPS of each framework (TF, TFLite + Invoke, TFLite) across all models. Return the framework that achieves the highest mean FPS together with its mean FPS value. Respond only with a list in the format: [Framework, Mean_FPS].",
+        "question_type": "reasoning",
+        "answer": "[TFLite, 47.5]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.13628v2\\chart1.jpg",
+            "chart2": "2511.13628v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1":"Graphical comparison of the mean EMI removal percentage across non-background voxels for each EMI removal method for the resolution dots in a standard ACR phantom, as well as the statistical significance of the difference in means as determined by a Welch’s t-test. * indicates p < 0.05, ** indicates p < 0.01, and *** indicates p < 0.001, and ns indicates no significance. A higher mean EMI removal percentage is better. Overall, there were more cases for which STRIDE significantly outperformed both EDITER A and EDITER B, indicating a statistically significant improvement over the two standard implementations.",
+            "chart2":"Graphical comparison of the mean EMI removal percentage across non-background voxels for each EMI removal method for contrast discs in a standard ACR phantom, as well as the statistical significance of the difference in means as determined by a Welch’s t-test. * indicates p < 0.05, ** indicates p < 0.01, and *** indicates p < 0.001, and ns indicates no significance. A higher mean EMI removal percentage is better. Overall, there were more cases for which STRIDE significantly outperformed both EDITER A and EDITER B, indicating a statistically significant improvement over the two standard implementations."
+        },
+        "question":"From the Dots and Discs charts, extract the EMI removal percentages of EDITER B under White noise. Return the values as a list [Dots_Value, Discs_Value].",
+        "question_type": "perceptual",
+        "answer": [61, 97],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.13628v2\\chart1.jpg",
+            "chart2": "2511.13628v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1":"Graphical comparison of the mean EMI removal percentage across non-background voxels for each EMI removal method for the resolution dots in a standard ACR phantom, as well as the statistical significance of the difference in means as determined by a Welch’s t-test. * indicates p < 0.05, ** indicates p < 0.01, and *** indicates p < 0.001, and ns indicates no significance. A higher mean EMI removal percentage is better. Overall, there were more cases for which STRIDE significantly outperformed both EDITER A and EDITER B, indicating a statistically significant improvement over the two standard implementations.",
+            "chart2":"Graphical comparison of the mean EMI removal percentage across non-background voxels for each EMI removal method for contrast discs in a standard ACR phantom, as well as the statistical significance of the difference in means as determined by a Welch’s t-test. * indicates p < 0.05, ** indicates p < 0.01, and *** indicates p < 0.001, and ns indicates no significance. A higher mean EMI removal percentage is better. Overall, there were more cases for which STRIDE significantly outperformed both EDITER A and EDITER B, indicating a statistically significant improvement over the two standard implementations."
+        },
+        "question":"Across all noise types, identify the noise type with the largest absolute difference in STRIDE EMI removal percentage between the Dots and Discs charts, and report the corresponding absolute difference value. Respond only with a list in the format: [Noise_Type, Absolute_Difference].",
+        "question_type": "reasoning",
+        "answer": "[White noise, 33]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 20,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.19537v1\\chart1.jpg",
+            "chart2": "2511.19537v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of model performance across Precision, Recall, F1-Score, and Accuracy metrics",
+            "chart2": "Comparison of F1-scores for solar and non-solar datasets across different models"
+        },
+        "question": "Compute the difference between the average F1-score in Chart 1 and the average No-Solar F1-score in Chart 2. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.009,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 21,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.19537v1\\chart1.jpg",
+            "chart2": "2511.19537v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of model performance across Precision, Recall, F1-Score, and Accuracy metrics",
+            "chart2": "Comparison of F1-scores for solar and non-solar datasets across different models"
+        },
+        "question": "Extract the F1-Score value for the ResNet-152 model from Chart 1 and Chart 2 (Solar dataset), and list the F1-Score for this model in both charts. Respond only with a list of two numbers: [ResNet-152_F1_Chart1, ResNet-152_F1_Chart2_Solar].",
+        "question_type": "perceptual",
+        "answer": [0.945, 0.752],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.01135v1\\chart1.jpg",
+            "chart2": "2512.01135v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Volumetric measurement reliability assessed by intraclass correlation coefficient (ICC2k) across eight brain regions. Bar plots compare ICC values for U-Net, Pix2Pix, diffusion model, and diffusion model with QSM and R2* inputs. Both diffusion-based models achieve substantially higher agreement with ground truth MPRAGE-derived volumes compared to baseline methods, with the addition of QSM and R2* providing comparable or improved consistency, particularly in subcortical regions with high iron content.",
+            "chart2": "Median relative volumetric differences compared to ground truth across eight brain regions. Boxplots show the distribution of relative volume errors (computed as 𝑉model 𝑉 −𝑉GT GT × 100) for each model. The horizontal dashed line at 0 indicates perfect agreement. Statistical significance is indicated by asterisks (: p < 0.0025 after Bonferroni correction). Both diffusion models demonstrate superior volumetric accuracy with median differences close to zero in most regions, substantially outperforming U-Net and Pix2Pix baselines"
+        },
+        "question": "In Chart 1 (ICC Average) and Chart 2 (Median Relative Difference), what color is the Ours-Diffusion model? Respond only with the color.",
+        "question_type": "perceptual",
+        "answer": "green",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 23,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.01913v1\\chart1.jpg",
+            "chart2": "2512.01913v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Progressive deformation refinement analysis across all tasks. Each subplot shows the incremental improvements in registration accuracy through coarse-tofine pyramid refinement and iterative updates: brain (ADNI). The VXM baseline reference is marked by the dotted horizontal line.",
+            "chart2": "Progressive deformation refinement analysis across all tasks. Each subplot shows the incremental improvements in registration accuracy through coarse-tofine pyramid refinement and iterative updates: cardiac. The VXM baseline reference is marked by the dotted horizontal line."
+        },
+        "question": "Extract the Dice Score values of the DWP model at 1/2 resolution from Chart 1 and Chart 2. Respond only with a list of two numbers: [Chart1, Chart2].",
+        "question_type": "perceptual",
+        "answer": [75.17, 83.03],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 24,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.01913v1\\chart1.jpg",
+            "chart2": "2512.01913v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Progressive deformation refinement analysis across all tasks. Each subplot shows the incremental improvements in registration accuracy through coarse-tofine pyramid refinement and iterative updates: brain (ADNI). The VXM baseline reference is marked by the dotted horizontal line.",
+            "chart2": "Progressive deformation refinement analysis across all tasks. Each subplot shows the incremental improvements in registration accuracy through coarse-tofine pyramid refinement and iterative updates: cardiac. The VXM baseline reference is marked by the dotted horizontal line."
+        },
+        "question": "Compute the average Dice Score of the DWCP model at 1/4 resolution across Chart 1 and Chart 2. Round to two decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 77.46,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 25,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.08216v1\\chart1.jpg",
+            "chart2": "2512.08216v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Pretraining strategies performance and robustness evaluation on ID test set. Segmentation metrics (DSC and HD95).",
+            "chart2": "Pretraining strategies performance and robustness evaluation on ID test set. Performance across imaging variations."
+        },
+        "question": "How many segmentation metrics are used in Chart 1, and how many imaging-condition dimensions are used in Chart 2? Respond only with a list of two integers in the order [Chart1, Chart2].",
+        "question_type": "perceptual",
+        "answer": [2, 7],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.08216v1\\chart1.jpg",
+            "chart2": "2512.08216v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Pretraining strategies performance and robustness evaluation on ID test set. Segmentation metrics (DSC and HD95).",
+            "chart2": "Pretraining strategies performance and robustness evaluation on ID test set. Performance across imaging variations."
+        },
+        "question": "For the model with the worst HD95 in Chart 1, which dimension has the lowest score in Chart 2? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Recon3",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.09094v1\\chart1.jpg",
+            "chart2": "2512.09094v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Inter-annotator performance for Experiment A under different acquisition settings. Each cell reports the Dice Similarity Coefficient and its relative change. The acquisition-related variation shows predominantly negative changes, indicating limited or no positive contribution to segmentation performance.",
+            "chart2": "Inter-annotator performance for Experiment A under different annotation settings. Each cell reports the Dice Similarity Coefficient and its relative change. The annotation-related variation shows predominantly positive changes, indicating a positive contribution to segmentation performance."
+        },
+        "question": "In Chart 1 and Chart 2, identify the relative percentage change values corresponding to the darkest-colored cells in each chart. Return the values as a list in the format: [Chart1_Value, Chart2_Value]. Respond only with a list of two numeric values.",
+        "question_type": "reasoning",
+        "answer": [-47.50, 52.56],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.10506v1\\chart1.jpg",
+            "chart2": "2512.10506v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Experimental results for Datasets 1. Each pair of plots shows the L1 distance (left) and the MRSA distance (right) of the DRS output K ∪ Kadd. For λ > 0, each plot shows the mean of the corresponding distance over 50 realizations of Kadd.",
+            "chart2": "Experimental results for Datasets 2. Each pair of plots shows the L1 distance (left) and the MRSA distance (right) of the DRS output K ∪ Kadd. For λ > 0, each plot shows the mean of the corresponding distance over 50 realizations of Kadd."
+        },
+        "question": "Considering both charts, which lambda value (excluding 0) generally exhibits the lowest L1 and MRSA distances across all subplots? Respond only with the numeric value.",
+        "question_type": "reasoning",
+        "answer": 250,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 29,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.11826v1\\chart1.jpg",
+            "chart2": "2512.11826v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Average existing layers and FSL accuracy using different early-exit configurations (Es-Ec). Each CONV block of ResNet18 contains four CONV layers. 5-way 5-shot",
+            "chart2": "Average existing layers and FSL accuracy using different early-exit configurations (Es-Ec). Each CONV block of ResNet18 contains four CONV layers. 10-way 5-shot"
+        },
+        "question": "For the CIFAR100 dataset, compute the Average Existing Layers of the “(1-2)” configuration in Chart 1 and Chart 2, then compute how much Chart 1 reduces compared to Chart 2. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.08,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 30,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.12284v1\\chart1.jpg",
+            "chart2": "2512.12284v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of End-to-End Latency Breakdown",
+            "chart2": "Throughput Comparison versus SOTA LLM Accelerators"
+        },
+        "question": "At the 20K sequence length, which system appears in both Chart 1 and Chart 2, has a speedup factor greater than 3 in Chart 1, and remains runnable (not OOM) in Chart 2? Respond only with a list of system names.",
+        "question_type": "reasoning",
+        "answer": "[V-Rex⁸]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 31,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.12952v1\\chart1.jpg",
+            "chart2": "2512.12952v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Performances of per-shot bitrate ladders constructed on fast encoder settings against the convex hull, across various presets of the libx265 codec.",
+            "chart2": "Performances of per-shot bitrate ladders constructed on fast encoder settings against the convex hull, across various presets of the libsvtav1 codec."
+        },
+        "question":"How many preset categories are shown on the x-axis of the Mean BD-Rate subplot in Chart 1 and Chart 2 respectively? Respond only with a list of two integers in the form [Chart1, Chart2].",
+        "question_type": "perceptual",
+        "answer": [4, 3],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 32,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.12952v1\\chart1.jpg",
+            "chart2": "2512.12952v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Performances of per-shot bitrate ladders constructed on fast encoder settings against the convex hull, across various presets of the libx265 codec.",
+            "chart2": "Performances of per-shot bitrate ladders constructed on fast encoder settings against the convex hull, across various presets of the libsvtav1 codec."
+        },
+        "question": "Compute the difference between the average Mean BD-Rate of VIFF in Chart 2 and Chart 1 (Chart2 − Chart1). Round the result to three decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 4.923,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 33,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.14642v1\\chart1.jpg",
+            "chart2": "2512.14642v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "ACNN configuration. Capacitance value distribution across all 12 L1 ACNs and 4 L2 ACNs, showing contributions from the synapse, bias and ballast capacitors.",
+            "chart2": "ACNN configuration. Pie-chart showing contributions to the total ACNN capacitance of 51pF. Note, controlling the swing of membrane voltages to be constrained between 100mV and 1.0V is expensive."
+        },
+        "question": "How many distinct capacitance categories appear in Chart 1 and Chart 2 respectively? Respond only with a list of two integers in the format: [Chart1_Count, Chart2_Count].",
+        "question_type": "perceptual",
+        "answer": [3, 5],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 34,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.14870v1\\chart1.jpg",
+            "chart2": "2512.14870v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution of samples across source datasets",
+            "chart2": "Number of questions per task category."
+        },
+        "question": "What are the numbers of categories shown in Chart 1 and Chart 2 respectively? Respond only with a list of two integers.",
+        "question_type": "perceptual",
+        "answer": [4, 12],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.14870v1\\chart1.jpg",
+            "chart2": "2512.14870v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution of samples across source datasets",
+            "chart2": "Number of questions per task category."
+        },
+        "question": "If all questions in Chart 2 are evenly distributed across the datasets in Chart 1, how many questions does each dataset receive on average? Round to the nearest integer. Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 6702,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.15505v1\\chart1.jpg",
+            "chart2": "2512.15505v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of the three registration methods on the NIMH T1w dataset. Chart1 shows violin plots of the Dice scores of the top iterative and deep learning registration methods on the NIMH T1w dataset",
+            "chart2": "Comparison of the three registration methods on the NIMH T1w dataset. Chart2 shows Cohen’s d scores for all method pairs, quantifying the practical significance of the differences in Dice scores between the three registration methods."
+        },
+        "question": "Which protocol names appear in both Chart 1 and Chart 2? Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[SLANT, DeepAtropos, SynthSeg]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.15505v1\\chart1.jpg",
+            "chart2": "2512.15505v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of the three registration methods on the NIMH T1w dataset. Chart1 shows violin plots of the Dice scores of the top iterative and deep learning registration methods on the NIMH T1w dataset",
+            "chart2": "Comparison of the three registration methods on the NIMH T1w dataset. Chart2 shows Cohen’s d scores for all method pairs, quantifying the practical significance of the differences in Dice scores between the three registration methods."
+        },
+        "question": "What are the chart types used in Chart 1 and Chart 2, respectively? Respond only with a list of two strings in the order: [Chart1_Type, Chart2_Type].",
+        "question_type": "perceptual",
+        "answer": "[Violin plot, Heatmap]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 38,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.15543v1\\chart1.jpg",
+            "chart2": "2512.15543v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Longitudinal subject participation across collections. Blue bars denote returning participants; orange bars denote new enrollees. Peak participation occurred at Collections 16–17 (n=195–197); the final collection retained 165 subjects (59.8% of total enrollment)",
+            "chart2": "Distribution of subjects across temporal intervals. Color zones indicate enrollment-to-probe duration: ≤1 year, 1–3 years, 3–6 years, and >6 years. The reduction at 48–66 months corresponds to COVID-19 suspension (Collections 9–12)"
+        },
+        "question": "What variables are shown on the y-axes of Chart 1 and Chart 2, respectively? Respond only with a list of two strings in the order [Chart1, Chart2].",
+        "question_type": "perceptual",
+        "answer": "[Number of Subjects, Number of Unique Subjects]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 39,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.01428v1\\chart1.jpg",
+            "chart2": "2512.01428v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Symbol Error Rate (SER) for different modulation schemes at infinite Signal-to-Noise Ratio (SNR) (i.e., non-impaired signals).",
+            "chart2": ": Symbol Error Rate (SER) of the proposed model under Middleton Class-A noise for two Γ values with A set for an average 15% symbol-hit rate."
+        },
+        "question":"Which non-standard modulation scheme is shared by both charts? Respond only with the scheme name.",
+        "question_type": "perceptual",
+        "answer": "MIXED",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 40,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.01428v1\\chart1.jpg",
+            "chart2": "2512.01428v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Symbol Error Rate (SER) for different modulation schemes at infinite Signal-to-Noise Ratio (SNR) (i.e., non-impaired signals).",
+            "chart2": ": Symbol Error Rate (SER) of the proposed model under Middleton Class-A noise for two Γ values with A set for an average 15% symbol-hit rate."
+        },
+        "question":"Which modulation scheme has a mid-range SER in Chart 1 but shows the highest SNR sensitivity in Chart 2? Respond only with the modulation name.",
+        "question_type": "reasoning",
+        "answer": "PSK-16",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.01451v1\\chart1.jpg",
+            "chart2": "2512.01451v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of radio map generation performance across different methods on simulation and real-world radio map datasets",
+            "chart2": "Ablation study on the effects of the TTA and the PiT architecture."
+        },
+        "question":"Extract the RMSE values of RadioPiT from both charts: From Chart 1, take the RMSE of RadioPiT on the Simulation dataset; From Chart 2, take the RMSE of RadioPiT with TTA enabled. Report the results as a list in the order [Chart1_value, Chart2_value]. Respond only with a list of two numeric values.",
+        "question_type": "perceptual",
+        "answer": [0.0620, 0.0676],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.01451v1\\chart1.jpg",
+            "chart2": "2512.01451v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of radio map generation performance across different methods on simulation and real-world radio map datasets",
+            "chart2": "Ablation study on the effects of the TTA and the PiT architecture."
+        },
+        "question": "Across Chart 1 and Chart 2, compute the range of RMSE values for RadioPiT. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.0121,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 43,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.02501v1\\chart1.jpg",
+            "chart2": "2512.02501v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "The channel capacity of the four subarrays at different Rx positions, SNR = 25 dB CF-mMIMO.",
+            "chart2": "The channel capacity of the four subarrays at different Rx positions, SNR = 25 dB Conventional mMIMO."
+        },
+        "question":"What are the maximum measurement-point values shown in Chart 1 and Chart 2? Respond with a list in the order [Chart1_max, Chart2_max].",
+        "question_type": "perceptual",
+        "answer": [16, 14],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 44,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.02626v1\\chart1.jpg",
+            "chart2": "2512.02626v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "F1-scores per patient for the TKRR models.",
+            "chart2": "F1-scores per patient for different values of µ in the Adapt-TKRR model."
+        },
+        "question":"Which models are involved in Chart 1 and Chart 2? Report the answer in the order [Chart1_model, Chart2_model]. Respond only with a list of two model names.",
+        "question_type": "perceptual",
+        "answer": "[TKRR, Adapt-TKRR]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 45,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.05657v1\\chart1.jpg",
+            "chart2": "2512.05657v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Accuracy versus L, considering infinite SNR[dB].",
+            "chart2": "Accuracy versus SNR[dB], considering L = 10."
+        },
+        "question":"In Chart 1 and Chart 2, multiple visual line encodings are used to distinguish different experimental configurations. Which of the following visual line attributes are explicitly used in both charts to differentiate configurations? (Multiple choices) A. Line style B. Color C. Marker shape D. Line thickness E. Transparency Respond only with a list of letters corresponding to the correct options (e.g., [A, B,]).",
+        "question_type": "perceptual",
+        "answer": "[A, B, C]",
+        "answer_type": "choice_list"
+    },
+
+    {
+        "question_id": 46,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.05657v1\\chart1.jpg",
+            "chart2": "2512.05657v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Accuracy versus L, considering infinite SNR[dB].",
+            "chart2": "Accuracy versus SNR[dB], considering L = 10."
+        },
+        "question":"Under Linear alignment, consider the maximum accuracy achieved by each intermediate layer size in Chart 1 and Chart 2, respectively. Which intermediate layer size exhibits the smallest absolute difference between its highest accuracy in Chart 1 and its highest accuracy in Chart 2? Respond only with the layer size.",
+        "question_type": "reasoning",
+        "answer": "64×64",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 47,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.06536v1\\chart1.jpg",
+            "chart2": "2512.06536v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "SINR at the target grid points for processing method: Scenario A1.",
+            "chart2": "SINR at the target grid points for processing method: Scenario E2."
+        },
+        "question":"Considering both Chart 1 and Chart 2, which configuration achieves the highest overall coverage rate above the detection threshold? Respond only with the configuration name.",
+        "question_type": "reasoning",
+        "answer": "8 Tiles, W = 4×4",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 48,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.06909v1\\chart1.jpg",
+            "chart2": "2512.06909v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparative evaluation of different sensing modalities, and feature importance ranking. Classification results of three sensing modalities in terms of accuracy, precision, recall, and F1-score.",
+            "chart2": "Comparative evaluation of different sensing modalities, and feature importance ranking. Average feature importance derived from the RF classifier."
+        },
+        "question":"What type of x-axis scale is used in Chart 1 and Chart 2, respectively? Respond with a list in the order [Chart1_x_axis_type, Chart2_x_axis_type], where each element must be one of: Continuous, Discrete.",
+        "question_type": "perceptual",
+        "answer": "[Discrete, Continuous]",
+        "answer_type": "text"
+    },
+
+
+    {
+        "question_id": 49,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.10074v1\\chart1.jpg",
+            "chart2": "2512.10074v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "A large majority rate real-time inventory tracking as somewhat or extremely important.",
+            "chart2": "Most respondents regard RTLS implementation cost as a moderate or major barrier."
+        },
+        "question":"How many categories are shown in Chart 1 and Chart 2, respectively? Respond with a list in the order [Chart1_count, Chart2_count].",
+        "question_type": "perceptual",
+        "answer": [5, 4],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 50,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.12368v1\\chart1.jpg",
+            "chart2": "2512.12368v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "MCS Index with 7 XR UEs per cell. (a) InH (b) DU.",
+            "chart2": "99th percentile of eCDF of application layer delay. (a) InH (b) DU."
+        },
+        "question": "Which scenarios are involved in both Chart 1 and Chart 2? Respond only with a list of scenario names.",
+        "question_type": "perceptual",
+        "answer": "[InH, DU]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 51,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.15109v1\\chart1.jpg",
+            "chart2": "2512.15109v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Performance comparison of different fusion strategies across modalities (lidar, camera, RF). Data is derived from [22]. The significant gap between “No Fusion” and cooperative methods (e.g., HEAL [88], CoAlign [89], F-Cooper [90], V2X-ViT [91]) demonstrates the necessity of network-level collaboration for the IBSA. AP: average precision; Sync: synchronous; Aync: asynchronous; AM:average transmission cost in mega byte)",
+            "chart2": "Ablation study on perception modalities under different difficulty levels (easy, moderate, hard). Data is derived from [22]. The consistent performance of radar (equivalent to wireless data of IBSA) and the superior performance of fusion models highlight the necessity of incorporating wireless sensing for robust perception. M2-Fusion comes from [92]. PP: PointPillars [93]."
+        },
+        "question":"In Chart 1 and Chart 2, multiple bar fill styles (including solid colors and hatch patterns) are used to distinguish different methods or settings. Which of the following fill styles are used in both charts? (Multiple choices) A. Solid fill B. Diagonal hatch C. Cross hatch D. Dot hatch E. No fill Respond only with a list of letters corresponding to the correct options (e.g., [A, B, C]).",
+        "question_type": "perceptual",
+        "answer": "[A, C]",
+        "answer_type": "choice_list"
+    },
+
+    {
+        "question_id": 52,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.06283v1\\chart1.jpg",
+            "chart2": "2512.06283v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of the total platooning benefit and stability index in different feasible coalition structures.",
+            "chart2": "Comparison of the total platooning benefit and stability index under different platoon size limits."
+        },
+        "question":"When M=9 reaches 90% stability in Chart 2, how much higher is its V(P) compared to the optimal V(P) in Chart 1? Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.05,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 53,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.06283v1\\chart1.jpg",
+            "chart2": "2512.06283v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of the total platooning benefit and stability index in different feasible coalition structures.",
+            "chart2": "Comparison of the total platooning benefit and stability index under different platoon size limits."
+        },
+        "question":"Which M under P* in Chart 2 has a stability index closest to the maximum value in Chart 1? Respond only with the M value.",
+        "question_type": "reasoning",
+        "answer": 6,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 54,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.08465v1\\chart1.jpg",
+            "chart2": "2512.08465v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Risk Index (Ri) for generators.",
+            "chart2": "Combined Risk Index (Ri) for all elements."
+        },
+        "question":"Compute the average Risk Index of all Line components in Chart 2 and the average Risk Index of all Generators in Chart 1. Round both values to three decimal places and respond with a list in the order: [avg_Line_Ri_Chart2, avg_Generator_Ri_Chart1].",
+        "question_type": "reasoning",
+        "answer": [1.390, 0.158],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 55,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.11891v1\\chart1.jpg",
+            "chart2": "2512.11891v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Performance comparison on the SafeLIBERO benchmark. Overall average performance across all tasks.",
+            "chart2": "Performance comparison on the SafeLIBERO benchmark. Results on individual task suites. Our method consistently outperforms baselines in CAR and TSR while maintaining efficiency (ETS)."
+        },
+        "question":"Which performance metrics are reported for each task in Chart 2? Respond with a list of metric names.",
+        "question_type": "perceptual",
+        "answer": "[CAR (%), TSR (%), ETS]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 56,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.11891v1\\chart1.jpg",
+            "chart2": "2512.11891v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Performance comparison on the SafeLIBERO benchmark. Overall average performance across all tasks.",
+            "chart2": "Performance comparison on the SafeLIBERO benchmark. Results on individual task suites. Our method consistently outperforms baselines in CAR and TSR while maintaining efficiency (ETS)."
+        },
+        "question":"What is the difference between the CAR (%) of Ours on the Long task in Chart 2 and the overall CAR (%) of Ours in Chart 1? Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 1.78,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 57,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.14658v1\\chart1.jpg",
+            "chart2": "2512.14658v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Normalized mean feature entropy across PF datasets.",
+            "chart2": "Normalized mean feature entropy across OPF datasets."
+        },
+        "question":"Chart 1 and Chart 2 share an identical visualization type. What is this chart type? Respond only with a single chart type name.",
+        "question_type": "perceptual",
+        "answer": "radar chart",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 58,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.14658v1\\chart1.jpg",
+            "chart2": "2512.14658v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Normalized mean feature entropy across PF datasets.",
+            "chart2": "Normalized mean feature entropy across OPF datasets."
+        },
+        "question":"Chart 1 and Chart 2 are computed based on different datasets. Identify the dataset used in Chart 1 and the dataset used in Chart 2, and report them in the order [Chart1_dataset, Chart2_dataset]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": "[PF, OPF]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 59,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.15189v2\\chart1.jpg",
+            "chart2": "2512.15189v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Convergence of synchronous optimization methods.",
+            "chart2": "Convergence of asynchronous optimization methods."
+        },
+        "question":"Across Chart 1 and Chart 2, considering only the deterministic methods, which method is most sensitive to synchronous vs. asynchronous settings in terms of final training error? Respond only with the method name.",
+        "question_type": "reasoning",
+        "answer": "PG-EXTRA",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 60,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.15189v2\\chart1.jpg",
+            "chart2": "2512.15189v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Convergence of synchronous optimization methods.",
+            "chart2": "Convergence of asynchronous optimization methods."
+        },
+        "question":"Across Chart 1 and Chart 2, considering only the deterministic methods, which method is least sensitive to synchronous vs. asynchronous settings in terms of final training error? Respond only with the method name.",
+        "question_type": "reasoning",
+        "answer": "Prox-DGD",
+        "answer_type": "text"
+    }
+]

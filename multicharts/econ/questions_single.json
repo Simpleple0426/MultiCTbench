@@ -1,0 +1,1226 @@
+[
+    {
+        "question_id": 1,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.03097v2\\chart1.jpg",
+            "chart2": "2511.03097v2\\chart2.jpg"
+        },
+
+        "caption": {
+            "chart1": "Relative root mean squared errors of low-rank models compared to the BVAR-Minn model",
+            "chart2": "Root mean squared errors for competing models"
+        },
+        "question":"In the bottom-right panel of chart1, which model’s RMSE curve remains the lowest across the entire sample range? Respond with the model name only.",
+        "question_type": "perceptual",
+        "answer": "BTAR-TK-Sh",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 2,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.03097v2\\chart1.jpg",
+            "chart2": "2511.03097v2\\chart2.jpg"
+        },
+
+        "caption": {
+            "chart1": "Relative root mean squared errors of low-rank models compared to the BVAR-Minn model",
+            "chart2": "Root mean squared errors for competing models"
+        },
+        "question":"In the MAR panel of chart2, with T = 300, which model approaches the RMSE of BVAR-Minn the earliest as the rank increases? Respond with the model name only.",
+        "question_type": "perceptual",
+        "answer": "BTAR-TK-Sh",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.02632v1\\chart1.jpg",
+            "chart2": "2511.02632v1\\chart2.jpg"
+        },
+
+        "caption": {
+            "chart1": "Empirical coverage and interval lengths for settings (S1), (S2), and (S3) described in Section 7.3. The panels from top to bottom respectively correspond to (S1), (S2), and (S3), where x-axis plots the values of τ*. Normality refers to the Normality CI defined in (43), OBA denotes the OBA CI in (44), and Proposed corresponds to the proposed CI in (31).",
+            "chart2": "Sensitivity of coverage and average length of the proposed CI to varying proportions of feasible solutions.The leftmost and middle panels denote the empirical coverages and means of lengths of confidence intervals.The rightmost panel displays the empirical proportion of feasible solutions for each threshold.x-axes in all panels denote τ*. Prop denotes the threshold for the proportion of feasible solutions among the M = 500 perturbations."
+        },
+        "question":"Across all scenarios in chart1, which method yields the shortest confidence interval length? Respond with the method only!",
+        "question_type": "perceptual",
+        "answer": "Normality",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.02632v1\\chart1.jpg",
+            "chart2": "2511.02632v1\\chart2.jpg"
+        },
+
+        "caption": {
+            "chart1": "Empirical coverage and interval lengths for settings (S1), (S2), and (S3) described in Section 7.3. The panels from top to bottom respectively correspond to (S1), (S2), and (S3), where x-axis plots the values of τ*. Normality refers to the Normality CI defined in (43), OBA denotes the OBA CI in (44), and Proposed corresponds to the proposed CI in (31).",
+            "chart2": "Sensitivity of coverage and average length of the proposed CI to varying proportions of feasible solutions.The leftmost and middle panels denote the empirical coverages and means of lengths of confidence intervals.The rightmost panel displays the empirical proportion of feasible solutions for each threshold.x-axes in all panels denote τ*. Prop denotes the threshold for the proportion of feasible solutions among the M = 500 perturbations."
+        },
+        "question":"In chart2, which scenario (S1, S2, or S3) shows the largest difference in the feasible-solution proportions across the three Prop thresholds (10%, 20%, and 30%)? Respond only with the scenario such as s1, s2, or s3.",
+        "question_type": "reasoning",
+        "answer": "s1",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.02632v1\\chart1.jpg",
+            "chart2": "2511.02632v1\\chart2.jpg"
+        },
+
+        "caption": {
+            "chart1": "Empirical coverage and interval lengths for settings (S1), (S2), and (S3) described in Section 7.3. The panels from top to bottom respectively correspond to (S1), (S2), and (S3), where x-axis plots the values of τ*. Normality refers to the Normality CI defined in (43), OBA denotes the OBA CI in (44), and Proposed corresponds to the proposed CI in (31).",
+            "chart2": "Sensitivity of coverage and average length of the proposed CI to varying proportions of feasible solutions.The leftmost and middle panels denote the empirical coverages and means of lengths of confidence intervals.The rightmost panel displays the empirical proportion of feasible solutions for each threshold.x-axes in all panels denote τ*. Prop denotes the threshold for the proportion of feasible solutions among the M = 500 perturbations."
+        },
+        "question":"In chart2, which scenario (S1, S2, or S3) shows the smallest difference in CI length across the three Prop thresholds (10%, 20%, and 30%)? Respond only with the scenario such as s1, s2, or s3.",
+        "question_type": "reasoning",
+        "answer": "s3",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 6,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.16224v1\\chart1.jpg",
+            "chart2": "2510.16224v1\\chart2.jpg"
+        },
+
+        "caption": {
+            "chart1": "Coverage for exchangeable data with homogeneous varia",
+            "chart2": "Coverage for Exchangeable Data with Hetergeneous Variance"
+        },
+        "question":"Based on chart1 (Coverage for exchangeable data with homogeneous variance), identify the method whose Non-adaptive and Adaptive coverage values differ the least. Respond only with the method name, such as Equal (full).",
+        "question_type": "perceptual",
+        "answer": "JMA (full)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.15594v2\\chart1.jpg",
+            "chart2": "2509.15594v2\\chart2.jpg"
+        },
+
+        "caption": {
+            "chart1": "Simulation results for LDTE estimators under a nonlinear, high-dimensional design (n = 1000). RMSE, average 95% CI length, and empirical coverage are shown across quantiles {0.1, . . . , 0.9} based on 1000 replications. Three estimators are compared: unadjusted, linearly adjusted, and ML-adjusted (gradient boosting with 2-fold cross-fitting). Both adjusted estimators improve RMSE and CI length; the unadjusted estimator attains near-nominal coverage, while ML adjustment slightly over-covers, reflecting conservative inference.",
+            "chart2": "RMSE reduction (%) of adjusted estimators relative to the unadjusted estimator across quantiles and sample sizes. Linear adjustment yields modest efficiency gains (1–10%), while ML adjustment achieves up to 50% reduction, with improvements becoming more pronounced as sample size increases."
+        },
+        "question":"Which estimator in Chart 1 has coverage closest to the nominal 95%? Respond only with the name of the estimator!",
+        "question_type": "perceptual",
+        "answer": "Empirical",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.15594v2\\chart1.jpg",
+            "chart2": "2509.15594v2\\chart2.jpg"
+        },
+
+        "caption": {
+            "chart1": "Simulation results for LDTE estimators under a nonlinear, high-dimensional design (n = 1000). RMSE, average 95% CI length, and empirical coverage are shown across quantiles {0.1, . . . , 0.9} based on 1000 replications. Three estimators are compared: unadjusted, linearly adjusted, and ML-adjusted (gradient boosting with 2-fold cross-fitting). Both adjusted estimators improve RMSE and CI length; the unadjusted estimator attains near-nominal coverage, while ML adjustment slightly over-covers, reflecting conservative inference.",
+            "chart2": "RMSE reduction (%) of adjusted estimators relative to the unadjusted estimator across quantiles and sample sizes. Linear adjustment yields modest efficiency gains (1–10%), while ML adjustment achieves up to 50% reduction, with improvements becoming more pronounced as sample size increases."
+        },
+        "question":"According to chart 1, what is the general trend of the coverage for the Linear-adjusted estimator across the quantiles? A. It stays almost flat and remains close to 95% across all quantiles. B. It fluctuates slightly but consistently stays below the unadjusted estimator’s coverage. C. It shows noticeable variation across quantiles and tends to under-cover relative to the nominal 95%. D. It increases steadily from lower to higher quantiles, exceeding 95% for most quantiles. Respond only with the choice.",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 9,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.15594v2\\chart1.jpg",
+            "chart2": "2509.15594v2\\chart2.jpg"
+        },
+
+        "caption": {
+            "chart1": "Simulation results for LDTE estimators under a nonlinear, high-dimensional design (n = 1000). RMSE, average 95% CI length, and empirical coverage are shown across quantiles {0.1, . . . , 0.9} based on 1000 replications. Three estimators are compared: unadjusted, linearly adjusted, and ML-adjusted (gradient boosting with 2-fold cross-fitting). Both adjusted estimators improve RMSE and CI length; the unadjusted estimator attains near-nominal coverage, while ML adjustment slightly over-covers, reflecting conservative inference.",
+            "chart2": "RMSE reduction (%) of adjusted estimators relative to the unadjusted estimator across quantiles and sample sizes. Linear adjustment yields modest efficiency gains (1–10%), while ML adjustment achieves up to 50% reduction, with improvements becoming more pronounced as sample size increases."
+        },
+        "question": "Using the RMSE panel in Chart 1(left subplot), extract the RMSE values for the three estimators—Empirical, Linear adjustment, and ML adjustment—across all quantiles (0.1 to 0.9). Format your output as a two-dimensional list: [ [Quantile, Empirical, Linear_adjustment, ML_adjustment], [0.1, e1, l1, m1], [0.2, e2, l2, m2], ... [0.9, e9, l9, m9] ] (1)The first row must contain the column labels. (2)All RMSE values must be floats rounded to two decimal places. Respond only with the two-dimensional list.",
+        "question_type": "chart to table",
+        "answer": [["Quantile", "Empirical", "Linear_adjustment", "ML_adjustment"],
+                [0.1, 0.07, 0.07, 0.07],
+                [0.2, 0.10, 0.09, 0.09],
+                [0.3, 0.12, 0.11, 0.09],
+                [0.4, 0.13, 0.12, 0.10],
+                [0.5, 0.13, 0.12, 0.10],
+                [0.6, 0.13, 0.11, 0.09],
+                [0.7, 0.11, 0.10, 0.07],
+                [0.8, 0.10, 0.09, 0.06],
+                [0.9, 0.08, 0.07, 0.04]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["chart1", "chart2", "chart3", "chart4", "chart5", "chart6"],
+        "path": {
+            "chart1": "2508.12716v1\\chart1.jpg",
+            "chart2": "2508.12716v1\\chart2.jpg",
+            "chart3": "2508.12716v1\\chart3.jpg",
+            "chart4": "2508.12716v1\\chart4.jpg",
+            "chart5": "2508.12716v1\\chart5.jpg",
+            "chart6": "2508.12716v1\\chart6.jpg"
+        },
+
+        "caption": {
+            "chart1": "Counterfactual distributions (bootstrapped standard errors are shown in parentheses - Daughters)",
+            "chart2": "Counterfactual distributions (bootstrapped standard errors are shown in parentheses - Sons)",
+            "chart3": "Counterfactual distributions (bootstrapped standard errors are shown in parentheses - Daughters, ρ = 0)",
+            "chart4": "Counterfactual distributions (bootstrapped standard errors are shown in parentheses - Sons, ρ = 0)",
+            "chart5": "Counterfactual distributions (bootstrapped standard errors are shown in parentheses - Daughters, difference due to ρ)",
+            "chart6": "Counterfactual distributions (bootstrapped standard errors are shown in parentheses - Sons, difference due to ρ)"
+        },
+        "question":"In Chart 1 (the joint distribution for Daughters), read the joint probabilities for daughters falling into the lowest income bracket (5k) across all five father-income brackets: {11k, 20k, 23k, 32k, 48k}. Identify which father income bracket has the highest joint probability. Respond only with the numeric value of that father-income bracket (in thousand USD)！",
+        "question_type": "perceptual",
+        "answer": 11,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 11,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2508.10663v2\\chart1.jpg",
+            "chart2": "2508.10663v2\\chart2.jpg",
+            "chart3": "2508.10663v2\\chart3.jpg"
+        },
+
+        "caption": {
+            "chart1": "Values of GC based on household wealth for the United States, China, Canada, and the United Kingdom from 2000 to 2023",
+            "chart2": "Wealth shares held by the top 1% (left) and top 10% (right) in the United States, China, Canada, and the United Kingdom from 2000 to 2023.",
+            "chart3": "Values of GC10 based on household wealth for the United States, China, Canada, and the United Kingdom from 2000 to 2023"
+        },
+        "question":"In chart 1, from which point onward does China’s GC begin its clear rise that eventually leads into the later stabilization period? A. 2000–2006 B. 2006–2010 C. After 2008 D. After 2010 Respond only with the choice.",
+        "question_type": "perceptual",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2508.10663v2\\chart1.jpg",
+            "chart2": "2508.10663v2\\chart2.jpg",
+            "chart3": "2508.10663v2\\chart3.jpg"
+        },
+
+        "caption": {
+            "chart1": "Values of GC based on household wealth for the United States, China, Canada, and the United Kingdom from 2000 to 2023",
+            "chart2": "Wealth shares held by the top 1% (left) and top 10% (right) in the United States, China, Canada, and the United Kingdom from 2000 to 2023.",
+            "chart3": "Values of GC10 based on household wealth for the United States, China, Canada, and the United Kingdom from 2000 to 2023"
+        },
+        "question":"Around which year does China’s GC reach the level of Canada and the UK? A. 2005 B. 2010 C. 2012 D. 2015 Respond only with the choice.",
+        "question_type": "perceptual",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2509.04928v1\\chart1.jpg",
+            "chart2": "2509.04928v1\\chart2.jpg",
+            "chart3": "2509.04928v1\\chart3.jpg"
+        },
+
+        "caption": {
+            "chart1": "Joint forecast performance. - Full evaluation sample from 1992Q1 to 2023Q4",
+            "chart2": "Joint forecast performance. - Pre-COVID evaluation sample from 1992Q1 to 2019Q4",
+            "chart3": "Joint forecast performance. - Pre-GFC evaluation sample from 1992Q1 to 2007Q4"
+        },
+        "question":"Based on Figure 1 (Pre-COVID panel), locate the cell with the deepest red shading across all horizons and models. Report the numeric value displayed in that cell. (Only read the value directly from the figure—no comparison or interpretation is required. Respond only with the number.",
+        "question_type": "perceptual",
+        "answer": 1.076,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 14,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2509.04928v1\\chart1.jpg",
+            "chart2": "2509.04928v1\\chart2.jpg",
+            "chart3": "2509.04928v1\\chart3.jpg"
+        },
+
+        "caption": {
+            "chart1": "Joint forecast performance. - Full evaluation sample from 1992Q1 to 2023Q4",
+            "chart2": "Joint forecast performance. - Pre-COVID evaluation sample from 1992Q1 to 2019Q4",
+            "chart3": "Joint forecast performance. - Pre-GFC evaluation sample from 1992Q1 to 2007Q4"
+        },
+        "question":"In the pre-GFC panel(chart3), in the one-year-ahead horizon, what is the color of the cell corresponding to the linear DFM (homosk.) at D = 8? Choose one option below. A. Deep red B. Light red / pink C. Nearly white D. Light green E. Deep green Respond only with the choice, like A.",
+        "question_type": "perceptual",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2509.04928v1\\chart1.jpg",
+            "chart2": "2509.04928v1\\chart2.jpg",
+            "chart3": "2509.04928v1\\chart3.jpg"
+        },
+
+        "caption": {
+            "chart1": "Joint forecast performance. - Full evaluation sample from 1992Q1 to 2023Q4",
+            "chart2": "Joint forecast performance. - Pre-COVID evaluation sample from 1992Q1 to 2019Q4",
+            "chart3": "Joint forecast performance. - Pre-GFC evaluation sample from 1992Q1 to 2007Q4"
+        },
+        "question":"In the pre-GFC panel(chart3), in the one--quarter-ahead horizon, what is the color of the cell corresponding to the GjpgM-A (SV.) at D = 4? Choose one option below. A. Deep red B. Light red / pink C. Nearly white D. Light green E. Deep green Respond only with the choice, like A！",
+        "question_type": "perceptual",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 16,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.08981v1\\chart1.jpg",
+            "chart2": "2509.08981v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Welfare and Compatibility: first-best vs standard - Welfare",
+            "chart2": "Welfare and Compatibility: first-best vs standard - Compatibility"
+        },
+        "question":"In chart1, as the mandated max s increases from 0.2 to 1, over which interval does the blue (mandated standard equilibrium) welfare curve reach its highest value? A. 0.2–0.4 B. 0.4–0.55 C. 0.55–0.65 D. 0.8–1.0. Respond only with the choice!",
+        "question_type": "perceptual",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.08981v1\\chart1.jpg",
+            "chart2": "2509.08981v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Welfare and Compatibility: first-best vs standard - Welfare",
+            "chart2": "Welfare and Compatibility: first-best vs standard - Compatibility"
+        },
+        "question":"In chart2, as productivity increases from low to high, the three compatibility curves (black, red, blue ) exhibit different rates of decline. Which curve shows the largest total decline? Respond only with the color of the curve.",
+        "question_type": "reasoning",
+        "answer": "Red",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.13141v1\\chart1.jpg",
+            "chart2": "2509.13141v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Incentives for offensive play in the UEFA Champions League - Home team",
+            "chart2": "Incentives for offensive play in the UEFA Champions League - Away team"
+        },
+        "question":"According chart2, in the away-team, compare the blue squares (I2) with the yellow circles (I24). Count how many match types show the blue square having a higher value than the yellow circle. Respond only with the number.",
+        "question_type": "perceptual",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["chart1", "chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2509.13578v1\\chart1.jpg",
+            "chart2": "2509.13578v1\\chart2.jpg",
+            "chart3": "2509.13578v1\\chart3.jpg",
+            "chart4": "2509.13578v1\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "Global Relevance and Exposure: Canada, the U.S., and the Euro Area - Share of World GDP (PPP)",
+            "chart2": "Global Relevance and Exposure: Canada, the U.S., and the Euro Area - Trade-to-GDP Ratios",
+            "chart3": "Global Relevance and Exposure: Canada, the U.S., and the Euro Area - Oil Price Correlation (WCS, Brent, WTI)",
+            "chart4": "Global Relevance and Exposure: Canada, the U.S., and the Euro Area - Oil Dependency Ratio (Net Imports / Consumption)"
+        },
+        "question":"Based on chart2, which economy has the highest trade-to-GDP ratio around the year 2010? Respond only with the economy.",
+        "question_type": "perceptual",
+        "answer": "Euro Area",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 20,
+        "items": ["chart1", "chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2509.13578v1\\chart1.jpg",
+            "chart2": "2509.13578v1\\chart2.jpg",
+            "chart3": "2509.13578v1\\chart3.jpg",
+            "chart4": "2509.13578v1\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "Global Relevance and Exposure: Canada, the U.S., and the Euro Area - Share of World GDP (PPP)",
+            "chart2": "Global Relevance and Exposure: Canada, the U.S., and the Euro Area - Trade-to-GDP Ratios",
+            "chart3": "Global Relevance and Exposure: Canada, the U.S., and the Euro Area - Oil Price Correlation (WCS, Brent, WTI)",
+            "chart4": "Global Relevance and Exposure: Canada, the U.S., and the Euro Area - Oil Dependency Ratio (Net Imports / Consumption)"
+        },
+        "question":"Based on chart4, around which year does the United States shift from being a net oil importer to a net oil exporter? Respond only with the year.",
+        "question_type": "reasoning",
+        "answer": 2019,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 21,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.16734v1\\chart1.jpg",
+            "chart2": "2509.16734v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Multigenerational correlations in different models —— A latent factor model",
+            "chart2": "Multigenerational correlations in different models —— A model with multiplicity"
+        },
+        "question":"Based on chart1, extract the Observed correlation value at generation 4. Respond only with a numeric value rounded to one decimal places.",
+        "question_type": "perceptual",
+        "answer": 0.2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.16734v1\\chart1.jpg",
+            "chart2": "2509.16734v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Multigenerational correlations in different models —— A latent factor model",
+            "chart2": "Multigenerational correlations in different models —— A model with multiplicity"
+        },
+        "question":"In chart1, which option best describes the trend of the Iterated curve? A. Steeper decline at first, then a more gradual decline. B. Rises first and then falls (inverted U-shape). C. Slow, nearly linear decline throughout. D. Flat at first, then suddenly rises. Respond only with the choice!",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 23,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.01551v1\\chart1.jpg",
+            "chart2": "2510.01551v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Temperature histograms —— Temperature",
+            "chart2": "Temperature histograms —— Number of Days"
+        },
+        "question":"At approximately what temperature does the distribution in chart1 reach its highest density? A. 5°C.B. 8°C.C. 12°C.D. 15°C. Respond only with the choice.",
+        "question_type": "perceptual",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 24,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.01551v1\\chart1.jpg",
+            "chart2": "2510.01551v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Temperature histograms —— Temperature",
+            "chart2": "Temperature histograms —— Number of Days"
+        },
+        "question":"In chart2, what type of skewness does the temperature-days distribution exhibit? A. Symmetric. B. Left-skewed (longer left tail). C. Right-skewed (longer right tail). D. Uniform. Respond only with the choice.",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 25,
+        "items": ["chart1"],
+        "path": {
+            "chart1": "2510.06903v1\\chart1.jpg"
+        },
+        "caption": {
+            "chart1": "RMSE under different price trajectories, network-effect strengths, and history lengths. The five panels report LLM agents’ RMSE relative to the FEE benchmark across Static, Decreasing, Increasing, Converging, and Diverging price paths. The horizontal axis indicates the available history window (1, 7, 13), and bars compare weak vs. strong network effects. Longer histories generally reduce RMSE, while stronger network effects consistently increase deviation, especially in non-monotonic trajectories."
+        },
+        "question":"For the Converging Prices panel, which option best describes how the RMSE changes with increasing history for weak and strong network effects? A. Both weak and strong RMSE decline sharply as history increases. B. Weak RMSE declines noticeably, while strong RMSE declines only slightly. C. Weak RMSE increases, while strong RMSE decreases. D. Both weak and strong RMSE remain roughly constant across all history levels. Respond only with a choice.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.08199v1\\chart1.jpg",
+            "chart2": "2510.08199v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Industrial production trajectory within the geographical scope of the model, EU27 (without Cyprus and Malta), UK, Switzerland, Norway, Albania, Bosnia and Herzegovina, Montenegro, North Macedonia, Serbia, and Kosovo, for the five industrial goods considered in the study, in the Continued Decline, Stabilization, and Reindustrialization scenarios. Note that methanol production data exhibit an irregular trend, which may be attributable to inconsistencies or gaps in reporting rather than to underlying structural changes in the sector.",
+            "chart2": "Prices of industrial goods, average across European countries and time steps, for different scenarios. Dotted lines for methanol and plastics represent a price when no carbon price on End Of Life (EOL) emissions is applied."
+        },
+        "question":"In chart2, which panel does not contain a gray shaded area? Respond only with the panel title.",
+        "question_type": "perceptual",
+        "answer": "Cement",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.08199v1\\chart1.jpg",
+            "chart2": "2510.08199v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Industrial production trajectory within the geographical scope of the model, EU27 (without Cyprus and Malta), UK, Switzerland, Norway, Albania, Bosnia and Herzegovina, Montenegro, North Macedonia, Serbia, and Kosovo, for the five industrial goods considered in the study, in the Continued Decline, Stabilization, and Reindustrialization scenarios. Note that methanol production data exhibit an irregular trend, which may be attributable to inconsistencies or gaps in reporting rather than to underlying structural changes in the sector.",
+            "chart2": "Prices of industrial goods, average across European countries and time steps, for different scenarios. Dotted lines for methanol and plastics represent a price when no carbon price on End Of Life (EOL) emissions is applied."
+        },
+        "question":"In chart2, among the panels that include a gray area, which product’s price under the Stabilization scenario in 2050 does not fall within the gray region? Respond only with the title of panel.",
+        "question_type": "reasoning",
+        "answer": "Steel",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.08856v1\\chart1.jpg",
+            "chart2": "2510.08856v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Event Study Results for Paid Labor Outcomes in highly exposed districts as treatment group. Here, the quarter April 2018–June 2018 (t = −1) is used as reference period. Note: Circular dots and vertical lines show estimates and 95% confidence intervals. —— Employment Participation",
+            "chart2": "Event Study Results for Paid Labor Outcomes in highly exposed districts as treatment group. Here, the quarter April 2018–June 2018 (t = −1) is used as reference period. Note: Circular dots and vertical lines show estimates and 95% confidence intervals. —— Event Study: Weekly Working Hours"
+        },
+        "question":"In chart2, is the male estimate at t = 0 above or below the zero axis? Respond only with “above” or “below”. ",
+        "question_type": "perceptual",
+        "answer": "below",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 29,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.08856v1\\chart1.jpg",
+            "chart2": "2510.08856v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Event Study Results for Paid Labor Outcomes in highly exposed districts as treatment group. Here, the quarter April 2018–June 2018 (t = −1) is used as reference period. Note: Circular dots and vertical lines show estimates and 95% confidence intervals. —— Employment Participation",
+            "chart2": "Event Study Results for Paid Labor Outcomes in highly exposed districts as treatment group. Here, the quarter April 2018–June 2018 (t = −1) is used as reference period. Note: Circular dots and vertical lines show estimates and 95% confidence intervals. —— Event Study: Weekly Working Hours"
+        },
+        "question":"Which gender shows a faster recovery (returning closer to the zero axis) in the Weekly Working Hours subplot? Respond only with Men or Women.",
+        "question_type": "reasoning",
+        "answer": "Men",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 30,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.15509v1\\chart1.jpg",
+            "chart2": "2510.15509v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Visualization of publication dates and research methodology —— Publications by Year (2020–2025)",
+            "chart2": "Visualization of publication dates and research methodology —— Research Type Distribution"
+        },
+        "question":"In chart2, which research category corresponds to the darkest-colored segment? Respond with the category name only！",
+        "question_type": "perceptual",
+        "answer": "NGO Document",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 31,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.15509v1\\chart1.jpg",
+            "chart2": "2510.15509v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Visualization of publication dates and research methodology —— Publications by Year (2020–2025)",
+            "chart2": "Visualization of publication dates and research methodology —— Research Type Distribution"
+        },
+        "question":"Based on the trend shown in the chart1, how is research on AI in NGOs most likely to evolve in the coming years? A. Continue to grow. B. Remain stagnant. C. Decline significantly. D. Fluctuate randomly. Respond only with a choice.",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 32,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.15509v1\\chart1.jpg",
+            "chart2": "2510.15509v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Visualization of publication dates and research methodology —— Publications by Year (2020–2025)",
+            "chart2": "Visualization of publication dates and research methodology —— Research Type Distribution"
+        },
+        "question":"Combine all categories except Qualitative and Quantitative (i.e., the remaining four segments). What is their total percentage? Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 38.4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 33,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.16483v1\\chart1.jpg",
+            "chart2": "2510.16483v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Distributions of pre-reform labor income LIi86",
+            "chart2": "Distributions of pre-reform labor income LIi86"
+        },
+        "question":"In chart2, what is the y-axis label associated with the line chart? Respond with the label text only.",
+        "question_type": "perceptual",
+        "answer": "Fraction of treated individuals",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 34,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.16483v1\\chart1.jpg",
+            "chart2": "2510.16483v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Distributions of pre-reform labor income LIi86",
+            "chart2": "Distributions of pre-reform labor income LIi86"
+        },
+        "question":"In chart1, which group has its density peak positioned further to the left (i.e., is more left-skewed)? Respond with either Treated or Control only.",
+        "question_type": "reasoning",
+        "answer": "Control",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["chart1","chart2", "chart3"],
+        "path": {
+            "chart1": "2509.16450v1\\chart1.jpg",
+            "chart2": "2509.16450v1\\chart2.jpg",
+            "chart3": "2509.16450v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Number of function calls and the number of coalitions generated by the PA algorithm as the number of agents increases in the constructed data exchange instance.",
+            "chart2": "Running time of the PA algorithm as a function of the number of agents, distinguishing between Phase I and Phase II (PA) in the constructed data exchange instance.",
+            "chart3": "Total number of iterations required by the PA algorithm as the number of agents increases in the constructed data exchange instance."
+        },
+        "question": "Which statement best describes the growth of function calls in Chart 1? A. Proportional to agent count B. Faster than proportional C. Independent of agent count Respond only with a single letter.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2509.18551v1\\chart1.jpg",
+            "chart2": "2509.18551v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Number of groups across 1000 simulations (games) for each parameter setting, shown as a grid over the upper bound resource range (rmax) and the location upper range (xmax/ymax).",
+            "chart2": "Average number of organizations in stable groups: for each game the average is computed, then averaged across 1000 games, shown over the upper bound resource range (rmax) and the location upper range (xmax/ymax)."
+        },
+        "question": "In Chart 1, what is the number of groups when rmax = 20 and xmax/ymax = 20? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 9.9,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2509.18551v1\\chart1.jpg",
+            "chart2": "2509.18551v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Number of groups across 1000 simulations (games) for each parameter setting, shown as a grid over the upper bound resource range (rmax) and the location upper range (xmax/ymax).",
+            "chart2": "Average number of organizations in stable groups: for each game the average is computed, then averaged across 1000 games, shown over the upper bound resource range (rmax) and the location upper range (xmax/ymax)."
+        },
+        "question": "From Chart 1, extract the number of groups at xmax/ymax = 20 for different rmax values, and additionally compute the difference relative to rmax = 1 and the percentage change relative to rmax = 1. Organize the results into the following 2D table with a header row: [[rmax, groups, diff_from_rmax1, percent_change_from_rmax1], …]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["row_label", "rmax", "groups", "diff_from_rmax1", "percent_change_from_rmax1"],
+        ["rmax_1", 1, 13.0, 0.0, 0.0],
+        ["rmax_20", 20, 9.9, -3.1, -23.85],
+        ["rmax_40", 40, 9.1, -3.9, -30.00],
+        ["rmax_60", 60, 8.8, -4.2, -32.31],
+        ["rmax_80", 80, 8.7, -4.3, -33.08],
+        ["rmax_100", 100, 8.5, -4.5, -34.62]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 38,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2510.03979v1\\chart1.jpg",
+            "chart2": "2510.03979v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of learned mean rewards and true mean rewards across all arms in the NL environment, showing results for the NL and MNL methods together with the true arm means.",
+            "chart2": "Comparison of learned mean rewards and true mean rewards across all arms in the NL environment under a different experimental setting, showing results for the NL and MNL methods together with the true arm means."
+        },
+        "question": "In Chart 1, how many arms does NL underestimate the True Mean? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 39,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2510.04698v1\\chart1.jpg",
+            "chart2": "2510.04698v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Performance of different models on the JRF task measured by the summed ΔAICc metric using the analytical fitting method, showing Bayesian model variants (red) and model variants from Zhang et al. (2020) (blue).",
+            "chart2": "Performance of different models on the JRF task measured by the summed ΔAICc metric using the categorical fitting method, showing Bayesian model variants (red) and model variants from Zhang et al. (2020) (blue)."
+        },
+        "question": "In Chart 1, is the spread of summed ΔAICc values narrower for Bayesian models compared to Zhang et al. (2020) models? Respond only with a single letter. A. Narrower B. Wider C. Similar",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 40,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2510.04698v1\\chart1.jpg",
+            "chart2": "2510.04698v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Performance of different models on the JRF task measured by the summed ΔAICc metric using the analytical fitting method, showing Bayesian model variants (red) and model variants from Zhang et al. (2020) (blue).",
+            "chart2": "Performance of different models on the JRF task measured by the summed ΔAICc metric using the categorical fitting method, showing Bayesian model variants (red) and model variants from Zhang et al. (2020) (blue)."
+        },
+        "question": "From Chart 1, extract the summed ΔAICc values of all Bayesian models and organize them into the following 2D table with a header row: [[Model, Summed_DeltaAICc], …]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Model", "Summed_DeltaAICc"],
+        ["GaussianP, BoundedLOE", 3545],
+        ["GaussianP, UnboundedLOE", 8173],
+        ["UniformP, BoundedE", 13884],
+        ["UniformP, UnboundedE", 14899]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2510.14720v1\\chart1.jpg",
+            "chart2": "2510.14720v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Effect of demand reductions on forest and degraded land areas under the increased organic crop production policy. The panel shows the percentage change in forest land (green, left axis) and degraded land (orange, right axis) relative to the baseline across scenarios with increasing reductions in projected crop and meat demand by 2100.",
+            "chart2": "Effect of demand reductions on forest and degraded land areas under the reduced livestock density policy. The panel shows the percentage change in forest land (green, left axis) and degraded land (orange, right axis) relative to the baseline across scenarios with increasing reductions in projected crop and meat demand by 2100."
+        },
+        "question": "In Chart 1, which description best characterizes the trend of forest land variation as consumption habit variation increases? A. Monotonically decreasing B. Monotonically increasing C. Decreases first, then increases D. Random fluctuation Respond only with a single letter.",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2510.26957v1\\chart1.jpg",
+            "chart2": "2510.26957v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Top 15 feature importance scores from the best-performing LightGBM model for predicting household income.",
+            "chart2": "Top 15 feature importance scores from the best-performing LightGBM model for predicting household water consumption."
+        },
+        "question": "What is the name of the feature ranked 4th in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "sky",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 43,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2510.26957v1\\chart1.jpg",
+            "chart2": "2510.26957v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Top 15 feature importance scores from the best-performing LightGBM model for predicting household income.",
+            "chart2": "Top 15 feature importance scores from the best-performing LightGBM model for predicting household water consumption."
+        },
+        "question": "From Chart 2, extract the top 5 ranked features and their importance scores and organize them into the following 2D table with the header row: [[Feature, Importance_Score], …]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Feature", "Importance_Score"],
+            ["nightlight_scaled", 0.066],
+            ["square_footage_scaled", 0.064],
+            ["population_scaled", 0.061],
+            ["building", 0.042],
+            ["sky", 0.041]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 44,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2510.27636v1\\chart1.jpg",
+            "chart2": "2510.27636v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Algorithm adoption rates across supergames.",
+            "chart2": "Distribution of market types across treatments and supergames. AA refers to fully algorithmic, AH to mixed human-algorithm, and HH to fully human markets."
+        },
+        "question": "At which supergame does Outsourcing reach a local minimum adoption rate in Chart 1? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 45,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2510.27636v1\\chart1.jpg",
+            "chart2": "2510.27636v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Algorithm adoption rates across supergames.",
+            "chart2": "Distribution of market types across treatments and supergames. AA refers to fully algorithmic, AH to mixed human-algorithm, and HH to fully human markets."
+        },
+        "question": "From Chart 2, extract the market shares under Recommendation for each supergame and organize them into the following 2D table with the header row: [[Supergame, AA, AH, HH], …]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Supergame", "AA", "AH", "HH"],
+            ["SG1", 0.72, 0.28, 0.00],
+            ["SG2", 0.70, 0.28, 0.02],
+            ["SG3", 0.72, 0.28, 0.00],
+            ["SG4", 0.62, 0.38, 0.00],
+            ["SG5", 0.62, 0.30, 0.08]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 46,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.01133v1\\chart1.jpg",
+            "chart2": "2511.01133v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Impact of housing policies on state government revenue (in 0.1bn) in the Equal-Affordability property market, showing the effects of early withdrawal and reduced deposit policies, with bars indicating baseline values and annotated changes induced by each policy.",
+            "chart2": "Impact of housing policies on total government revenue (in bn) in the Equal-Affordability property market, showing the combined effects of early withdrawal and reduced deposit policies, with bars indicating baseline values and annotated changes induced by each policy."
+        },
+        "question": "In Chart 1, what is the unit used to measure government revenue for the “Early withdrawal” policy?Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "0.1bn",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 47,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.01211v3\\chart1.jpg",
+            "chart2": "2511.01211v3\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Feature importance (mean absolute SHAP) for predicting log citations.",
+            "chart2": "Feature importance (mean absolute SHAP) for predicting disruption."
+        },
+        "question": "Compared to textual features, how do non-textual features perform in Chart 2? A. Stronger B. Comparable C. Weaker Respond only with a single letter.",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 48,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.01565v1\\chart1.jpg",
+            "chart2": "2511.01565v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Sentiment score by treatment and all genders.",
+            "chart2": "Response engagement index by treatment and all genders."
+        },
+        "question": "What type of metric is used on the y-axis in Chart 2? A. Raw values B. Ratios C. Standardized index D. Log-transformed values Respond only with a single letter.",
+        "question_type": "perceptual",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 49,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.02931v1\\chart1.jpg",
+            "chart2": "2511.02931v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Deals announced by Google in the form of acquisitions and investments, 2010–2024",
+            "chart2": "Google’s investments by affiliate firm, 2010–2024"
+        },
+        "question": "What is the length (in years) of the longest continuous increasing trend in Investments in Chart 1? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 13,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 50,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.02973v1\\chart1.jpg",
+            "chart2": "2511.02973v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Public debt trajectories from 2000 to 2024, showing debt levels by government sector and public debt as a share of GDP.",
+            "chart2": "General government deficit, debt changes, and stock-flow adjustment as a percentage of GDP from 2010 to 2024."
+        },
+        "question": "How many years are covered on the x-axis of Chart 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 25,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 51,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.02973v1\\chart1.jpg",
+            "chart2": "2511.02973v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Public debt trajectories from 2000 to 2024, showing debt levels by government sector and public debt as a share of GDP.",
+            "chart2": "General government deficit, debt changes, and stock-flow adjustment as a percentage of GDP from 2010 to 2024."
+        },
+        "question": "After which year does public debt as a share of GDP first exceed 60% in Chart 1? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 2009,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 52,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.02973v1\\chart1.jpg",
+            "chart2": "2511.02973v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Public debt trajectories from 2000 to 2024, showing debt levels by government sector and public debt as a share of GDP.",
+            "chart2": "General government deficit, debt changes, and stock-flow adjustment as a percentage of GDP from 2010 to 2024."
+        },
+        "question": "From Chart 2, extract the general government fiscal indicators for the years 2010, 2013, 2016, 2019, 2020, and 2024, and organize them into a 2D table with the header row: [[Year, General_Government_Deficit, Change_in_Gross_Debt, Stock_Flow_Adjustment]] Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Year", "General_Government_Deficit", "Change_in_Gross_Debt", "Stock_Flow_Adjustment"],
+            ["2010", 6.6, 8.7, 2.1],
+            ["2013", 5.5, 11.0, 5.6],
+            ["2016", -1.7, -0.7, 1.0],
+            ["2019", 1.8, 1.6, -0.2],
+            ["2020", 7.2, 9.8, 2.5],
+            ["2024", 2.4, 1.2, -1.1]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 53,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.03377v1\\chart1.jpg",
+            "chart2": "2511.03377v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Short PBD: Number of applied-for jobs by fixed durations, showing job application behavior over months relative to unemployment onset for individuals with short potential benefit duration.",
+            "chart2": "Long PBD: Number of applied-for jobs by fixed durations, showing job application behavior over months relative to unemployment onset for individuals with long potential benefit duration."
+        },
+        "question": "In Chart 1, at approximately which month does the realized unemployment duration = 15 first drop below 1 applied-for job? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 14,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 54,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.04299v2\\chart1.jpg",
+            "chart2": "2511.04299v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Contribution to NEOS for topic “Tariffs” identified based on keywords.",
+            "chart2": "Contributions of pre-defined topics using the classification-based approach."
+        },
+        "question": "How many monthly time points are displayed on the x-axis in Chart 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 23,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 55,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.08736v1\\chart1.jpg",
+            "chart2": "2511.08736v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Advanced Fuel Investment vs Strike Price When α1=α2 = 0.6 in EMIR Model",
+            "chart2": "Day-ahead and EIR Awards vs Strike Price when α₁ = α₂ = 0.6"
+        },
+        "question": "In which strike price range is fuel investment most sensitive in Chart 1? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "70–90",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 56,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.08785v1\\chart1.jpg",
+            "chart2": "2511.08785v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution of Bid Time: Pre-LLM vs. Post-LLM",
+            "chart2": "Distribution of Signals: Pre-LLM vs. Post-LLM"
+        },
+        "question": "Which color corresponds to the Pre-LLM distribution in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "teal",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 57,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.18582v1\\chart1.jpg",
+            "chart2": "2511.18582v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Feedback Preference",
+            "chart2": "Self-reported Importance of Signals."
+        },
+        "question": "In Chart 2, which signal has the highest mean value under the “Tasks involving AI” condition? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Confidence in own Judgment",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 58,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.18582v1\\chart1.jpg",
+            "chart2": "2511.18582v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Feedback Preference",
+            "chart2": "Self-reported Importance of Signals."
+        },
+        "question": "From Chart 1, extract the percentages for Control and Treatment across the three feedback signals and organize them into the following 2D table with column labels with the header row: [[Group, Effort, Skill, Confidence]]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Group", "Effort", "Skill", "Confidence"],
+        ["Control", 57.3, 30.8, 11.9],
+        ["Treatment", 48.7, 25.5, 25.8]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 59,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.04142v1\\chart1.jpg",
+            "chart2": "2512.04142v1\\chart2.jpg" 
+        },
+        "caption": {
+            "chart1": "GPU requirements for training GPT-4 under different hardware lifespans (1–3 years).",
+            "chart2": "Elemental consumption across hardware lifespans (1–3 years) shown on a logarithmic scale."
+        },
+        "question": "From Chart 1, extract the number of GPUs required to train GPT-4 when the hardware lifespan is 2 years. Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 2515,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 60,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.05659v1\\chart1.jpg",
+            "chart2": "2512.05659v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Job roles grouped into exposure clusters",
+            "chart2": "Number of tasks by automation category"
+        },
+        "question": "For the Low automation category in Chart 2, which task level shows the most noticeable change between Low std and High std? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "High",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 61,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.05659v1\\chart1.jpg",
+            "chart2": "2512.05659v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Job roles grouped into exposure clusters",
+            "chart2": "Number of tasks by automation category"
+        },
+        "question": "From Chart 2, extract the average number of tasks under the Low std condition for each automation category across task levels, and organize them into the following 2D table with header row: [[Category, Very_Low, Low, Medium, High]]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Category", "Very_Low", "Low", "Medium", "High"],
+            ["Low", 0.0, 4.4, 0.4, 0.0],
+            ["Augmentation", 0.0, 2.7, 3.2, 0.0],
+            ["Adaptation", 0.0, 0.9, 3.8, 1.7],
+            ["Automation", 0.0, 0.0, 1.3, 3.8]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 62,
+        "items": ["chart1","chart2", "chart3"],
+        "path": {
+            "chart1": "2512.11146v1\\chart1.jpg",
+            "chart2": "2512.11146v1\\chart2.jpg",
+            "chart3": "2512.11146v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "5-, 10-, and 15-year emigration rates of US-trained STEM PhD graduates by graduation cohort (1980–2019), compared with the foreign national share of graduates.",
+            "chart2": "Distribution of STEM PhD graduate emigration destinations 5 years after graduation, comparing the 1980s and the 2010s.",
+            "chart3": "Emigration rates of post-2000 STEM PhD graduates by broad field and selected technology areas."
+        },
+        "question": "How many destination regions are stacked within each bar in Chart 2? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 63,
+        "items": ["chart1","chart2", "chart3"],
+        "path": {
+            "chart1": "2512.11146v1\\chart1.jpg",
+            "chart2": "2512.11146v1\\chart2.jpg",
+            "chart3": "2512.11146v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "5-, 10-, and 15-year emigration rates of US-trained STEM PhD graduates by graduation cohort (1980–2019), compared with the foreign national share of graduates.",
+            "chart2": "Distribution of STEM PhD graduate emigration destinations 5 years after graduation, comparing the 1980s and the 2010s.",
+            "chart3": "Emigration rates of post-2000 STEM PhD graduates by broad field and selected technology areas."
+        },
+        "question": "From Chart 3, extract the emigration rates of all Technology categories as numeric values without the percent sign, and organize them into a 2D table with the header row: [[Technology, Emigration_Rate], …]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Technology", "Emigration_Rate"],
+            ["Quantum_Science", 33.7],
+            ["Renewable_Energy", 31.0],
+            ["Materials_Science", 30.0],
+            ["Microelectronics", 30.0],
+            ["Artificial_Intelligence", 29.0],
+            ["Advanced_Computing", 25.8],
+            ["Space_Technology", 22.9],
+            ["Biotechnology", 19.2]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 64,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.11578v1\\chart1.jpg",
+            "chart2": "2512.11578v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "rade balance impacts by region under alternative tariff escalation scenarios (billions USD).",
+            "chart2": "Effective tariff rates applied by region under alternative tariff escalation scenarios (%)."
+        },
+        "question": "From Chart 2, extract the effective tariff rates for all regions and organize them into the following 2D table with a header row: [[Region, Effective_Tariff_Rate_Percent], …]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Region", "Effective_Tariff_Rate_Percent"],
+                ["Europe & Central Asia", 21.6],
+                ["China", 15.5],
+                ["East Asia & Pacific", 11.4],
+                ["South Asia", 10.4],
+                ["Middle East & North Africa", 6.8],
+                ["Latin America & Caribbean", 2.9],
+                ["Sub-Saharan Africa", 0.3],
+                ["North America", 0.1]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 65,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.11578v1\\chart1.jpg",
+            "chart2": "2512.11578v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "rade balance impacts by region under alternative tariff escalation scenarios (billions USD).",
+            "chart2": "Effective tariff rates applied by region under alternative tariff escalation scenarios (%)."
+        },
+        "question": "Considering both Chart 1 and Chart 2, which description best captures the relationship between higher tariff rates and larger trade balance impacts? A. A strong and consistent correspondence B. A partial correspondence C. Little to no correspondence D. An inverse correspondence Respond only with a single letter.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 66,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23078v1\\chart1.jpg",
+            "chart2": "2512.23078v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Artist: Distribution of artworks by selected artists",
+            "chart2": "Medium: Distribution of artworks by medium type"
+        },
+        "question": "Which percentage range best approximates the combined share of the top two artists in Chart 1? A. 30% B. 40% C. 50% D. 60%Respond only with a single letter.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    }
+
+]

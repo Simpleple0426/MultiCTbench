@@ -1,0 +1,205 @@
+[
+    {
+        "question_id": 20,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.12266v1\\chart1.jpg",
+            "table1": "2509.12266v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Trade-off between tuning efficiency and performance. The figure shows memory usage in gigabytes (GB), throughput in kilotokens per second (KTok/s), and averaged scores on the GUE benchmark for three models: DNABERT-2, HyenaDNA-160k, and Nucleotide Transformer-500M. We report results for full-tuning (Full), low-rank adaptation (LoRA), and adapter-based fine-tuning (Adapter). The results highlight the trade-offs between resource efficiency and predictive performance",
+            "table1": "Benchmark across models and tuning methods. We report results on both the GUE benchmark and Genomic Benchmarks. “—” marks settings we did not evaluate due to computational constraints. We exclude EVO (7B) from full fine-tuning due to the high computation cost. Full denotes full-parameter fine-tuning, LoRA denotes low-rank adaptation, and Adapter denotes adapter-based tuning"
+        },
+        "question":"Using Chart 1 and Table 1, which model’s Adapter tuning shows both the largest throughput increase and the largest GUE score drop? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "HyenaDNA-160k",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.11188v1\\chart1.jpg",
+            "table1": "2510.11188v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of human evaluation results. Left: Absolute human rating scores (0–5) for zero-shot model outputs (dark bars) and model outputs with adaptive context exposure (light bars) on three datasets. Right: Pairwise win/lose proportions comparing outputs with and without adaptive context exposure. Each comparison is based on 8 randomly selected cases per subset (48 cases in total across six subsets)",
+            "table1": "Comparison of different approaches in protein question answering. “Fun.”, “Des.”, “Dom.”, and “Cat.” denote the 4 protein-oriented tasks in the Mol-Instructions dataset [11]: protein function prediction (Fun.), general textual description generation (Des.), domain/motif recognition (Dom.), and catalytic activity prediction (Cat.). △ Gain shows the percentage performance increase. ◇ indicates LLMs augmented with our adaptive context construction method. Metric: ROUGE-L."
+        },
+        "question":"Which model shows both a largest human-rating improvement in Chart 1 and a positive Δ Gain in Table 1 on Protein2Text-QA? Respond only with the model name，the value of improvement in chart1 and the Δ Gaini in table1 in this format, [model name, value1, value2]. Respond only with the list.",
+        "question_type": "reasoning",
+        "answer": "[Qwen3-14B, 1.00, 4.91]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.20542v1\\chart1.jpg",
+            "table1": "2509.20542v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Fraction of samples with RMSD < ϵ for different ϵ values (DB5.5 Test Set, 24 Samples, Excluding 1N2C)",
+            "table1": "DB5.5 Test Set Evaluation Top-1 Results: Model Comparison."
+        },
+        "question":"Which curve in Chart 1 shows the steepest rise? Report the model represented by the curve and the runtime of this model in this format, [model name, runtime]. Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": "[GeoDock, 2,24]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 24,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.03976v1\\chart1.jpg",
+            "table1": "2511.03976v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Performance of PETRA under different immune backgrounds. Left: Weighted recall@𝑘 with and without location information. Right: Weighted recall@𝑘 by different sample time.",
+            "table1": "Weighted recall@𝑘 for different variants of PETRA models depend on use of temporal and representative weighting during training. PETRA-NW does not use any weighted sampling methods, PETRA-TW uses the temporal weight only. PETRA-RW uses representative weight only."
+        },
+        "question":"Using Table 1 and the left panel of Chart 1, compute the mean absolute difference between PETRA and each of the following settings across the five recall metrics (Nuc r@1, Nuc r@10, Nuc r@100, Spike r@1, Spike r@10): PETRA-NW, PETRA-TW, PETRA-RW, PETRA-No Location The setting with the largest mean absolute difference is considered to have the worst compatibility with PETRA. Respond only with the setting name.",
+        "question_type": "reasoning",
+        "answer": "PETRA-NW",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 38,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2508.10054v1\\chart1.jpg",
+            "table1": "2508.10054v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Overview of the SurgPub-Video data distribution. (a) The proportion of original journal videos in 11 surgical specialties; (b) the specialty distribution of the SurgPub-Video; (c) The distribution of Benchmark specialties; (d) The coverage ratio of five types of VQA tasks (instrument, anatomy, procedure, planning, and general knowledge) in the Benchmark and complete datasets, demonstrating the credibility of data sources, the balance of specialties, and the diversity of tasks",
+            "table1": "Comparison of our SurgPub-Video with other surgical VQA datasets. Our SurgPub-Video is the only dataset specifically designed to support video-level surgical VQA, offering a unique advantage of temporal surgical scene understanding."
+        },
+        "question":"Use the #Videos of “SurgPub-Video (Ours)” from Table 1 as the total video count, and the Cardiac percentage from Chart 1(b) to estimate the number of Cardiac videos. Round to the nearest integer. Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 1932,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 16,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.02903v1\\chart1.jpg",
+            "table1": "2510.02903v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The ablation experiments of VCWorld.",
+            "table1": "Comparison of AUROC and AUPRC on Differential Expression (DE) prediction."
+        },
+        "question":"For VCWorld-Llama3, compute the difference between its mean Q-Score in Chart 1 and mean AUROC in Table 1 (Q-Score − AUROC). Respond only with a single numeric value rounded to three decimals.",
+        "question_type": "reasoning",
+        "answer": 0.44,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.21161v2\\chart1.jpg",
+            "table1": "2510.21161v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "RiboPO improves both sampling efficiency and the quality distribution of generated sequences. Pass@k performance shows RiboPO consistently dominates gRNAde across all sample sizes k, with the largest gains at the small-k screening regime crucial for practical applications.",
+            "table1": "Table 2: Pass@k results for generating a sequence with RMSD < 12 A, pLDDT ˚ > 0.50, TM-score > 0.05, and MFE < −4.0 kcal/mol (T = 0.5). RiboPO demonstrates superior sampling efficiency with Multi-round RiboPO achieving the best performance."
+        },
+        "question":"Using Table 1, compute the average pass@k improvement of RiboPO (Round 4) over gRNAde across all k values. Respond only with a single numeric value rounded to three decimals.",
+        "question_type": "reasoning",
+        "answer": 0.093,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.25132v1\\chart1.jpg",
+            "table1": "2510.25132v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of kcat distribution.",
+            "table1": "Ablating EnzyControl’s components. Green denotes relative performance change."
+        },
+        "question":"Using Table 1, compute the relative decrease rate of kcat after removing EnzyAdapter. Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 0.1143,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.12266v1\\chart1.jpg",
+            "table1": "2509.12266v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Trade-off between tuning efficiency and performance. The figure shows memory usage in gigabytes (GB), throughput in kilotokens per second (KTok/s), and averaged scores on the GUE benchmark for three models: DNABERT-2, HyenaDNA-160k, and Nucleotide Transformer-500M. We report results for full-tuning (Full), low-rank adaptation (LoRA), and adapter-based fine-tuning (Adapter). The results highlight the trade-offs between resource efficiency and predictive performance",
+            "table1": "Benchmark across models and tuning methods. We report results on both the GUE benchmark and Genomic Benchmarks. “—” marks settings we did not evaluate due to computational constraints. We exclude EVO (7B) from full fine-tuning due to the high computation cost. Full denotes full-parameter fine-tuning, LoRA denotes low-rank adaptation, and Adapter denotes adapter-based tuning"
+        },
+        "question": "Using Table 1, compute the relative change rate of Adapter compared to LoRA for HyenaDNA-160k on GUE, defined as (Adapter − LoRA) / LoRA. Respond only with a single numeric value rounded to three decimals.",
+        "question_type": "reasoning",
+        "answer": -0.509,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2507.05101v2\\chart1.jpg",
+            "table1": "2507.05101v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Cross-species generalization performance evaluated via graph similarity score.",
+            "table1": ": Overall results of intra-species (Human) PPI network construction task. We use three color scales of blue to denote the first, second, and third best performance. RD closer to 1 is better."
+        },
+        "question":"In the Human to Arath subplot of Chart 1, which model shows the largest decrease in Graph Similarity when moving from BFS to DFS? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "PLM-interact (650M)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 29,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.23543v1\\chart1.jpg",
+            "table1": "2509.23543v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of classification performance across BioBERT, SciBERT, and text-embedding-ada-002 models in the C28, C33, C36, and C43 dataset, evaluated by accuracy, F1 score, and Cohen’s Kappa.",
+            "table1": "PERFORMANCE COMPARISON OF SEURAT AND TEXT-BASED EMBEDDING MODELS ON RGC CLASSIFICATION"
+        },
+        "question":"Which model has the highest average score across the three metrics in Table 1? Respond only with the list [model name, average score].",
+        "question_type": "reasoning",
+        "answer": "[SciBERT, 0.851]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 48,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.20162v1\\chart1.jpg",
+            "table1": "2511.20162v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Mean accuracy vs. detection error tolerance. A correct detection of the models represents a predicted frame within the allowed error tolerance, where an error tolerance of zero means the exact true frame was predicted. Results of Qwen-2.5VL-72B is shown for the difference ICL regimes under the ”with reasoning” condition. Note, that the length of all videos in the experimental dataset is 10 frames.",
+            "table1": "Reasoning effect on LMMs’ performance. Models are instructed to describe step-by-step the reasoning behind their prediction of the frame where the interaction occurs. Mean accuracy is measured for the detection of the frame where the test event occurs, within an allowed error tolerance (here the exact or two frames off the true frame). Results are reported as per 3 ICL regimes (ZS, OS, TS) for the models: (i) Qwen-2.5VL-72B and (ii) GPT-4o."
+        },
+        "question":"In Table 1 under ZS, compute the accuracy gain of Qwen (Exact) when using reasoning vs. without reasoning. Respond only with a numeric value.",
+        "question_type": "reasoning",
+        "answer": 4,
+        "answer_type": "numeric"
+    }
+]

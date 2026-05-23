@@ -1,0 +1,205 @@
+[
+    {
+        "question_id": 1,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.08500v1\\table1.jpg",
+            "table2": "2511.08500v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "EXTERNAL BENCHMARK RETENTION (% OF BASELINE). FULL CPT CAUSES SEVERE DEGRADATION ESPECIALLY IN MATHEMATICAL REASONING AND INSTRUCTION FOLLOWING. SPEAR-MM SIGNIFICANTLY MITIGATES FORGETTING.",
+            "table2": "FINANCIAL DOMAIN PERFORMANCE (PERCENTAGE POINT IMPROVEMENT OVER BASE MODEL). CLOSEQA AND OPENQA MEASURED BY ACCURACY (%). SUMMARIZATION MEASURED BY ROUGEGM5 (GEOMETRIC MEAN OF ROUGE-1/2/3/4/L)."
+        },
+        "question": "For SPEAR-MM (Balanced), what are the Avg. retention in Table 1 and the CloseQA improvement in Table 2? Respond only with a list of two numeric values in order.",
+        "question_type": "perceptual",
+        "answer": [88.7, 53.3],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 6,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.21768v1\\table1.jpg",
+            "table2": "2511.21768v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "CPU Cycle Count",
+            "table2": "Agent Memory Usage"
+        },
+        "question": "What are the Max CPU cycles for Decryption in Table 1 and the Max Diff memory usage for Decryption in Table 2? Respond only with a list of two numeric values in order [Table 1, Table 2].",
+        "question_type": "perceptual",
+        "answer": [840098, 0.084],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.05645v1\\table1.jpg",
+            "table2": "2512.05645v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "The numbers bd from (3.7) for small d, and the lower estimate (3.8).",
+            "table2": "Estimates for bd for larger d. Note that (3.8), which is asymptotically equal to (3.9), gives a better approximation than (3.9)."
+        },
+        "question": "What are the values of bd at d = 6 in Table 1 and Upper estimate at d = 100 in Table 2? Respond only with a list of two numeric values in order [Table 1, Table 2].",
+        "question_type": "perceptual",
+        "answer": [0.902, 0.295],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 33,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.19647v1\\table1.jpg",
+            "table2": "2512.19647v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Expected and numerical rates of convergence for the linear stochastic Schr¨odinger equation.",
+            "table2": "Expected and numerical rates of convergence for the stochastic Schr¨odinger equation with a nonlocal nonlinearity"
+        },
+        "question": "Which method has an Expected Rate of 2/3 in both Table 1 and Table 2? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "CNM",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 34,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.20748v1\\table1.jpg",
+            "table2": "2512.20748v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Control performance comparison for target attitude following test case",
+            "table2": "Control performance comparison for waypoint following test case"
+        },
+        "question": "What are the Transient values of PPC for Heading angle in Table 1 and Table 2? Respond only with a list of two numeric values in the order [Table 1, Table 2].",
+        "question_type": "perceptual",
+        "answer": [0.1818, 0.2500],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 39,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.21319v1\\table1.jpg",
+            "table2": "2512.21319v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Mean finite-element loss and mean finite-element error, computed over 100 parameter samples, together with the wall-clock time required to assemble the weight matrix and to solve the partial differential equation using a direct solver, for diffusion and linear elasticity problems with different mesh sizes, finite-element spaces, and numbers of degrees of freedom.",
+            "table2": "Comparison of the mean and standard deviation of the relative errors and of the residual loss for three neural networks on three different problems, based on 500 test samples."
+        },
+        "question": "Across both tables, how many distinct types of error or loss metrics are reported in total? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 6,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.05645v1\\table1.jpg",
+            "table2": "2512.05645v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "The numbers bd from (3.7) for small d, and the lower estimate (3.8).",
+            "table2": "Estimates for bd for larger d. Note that (3.8), which is asymptotically equal to (3.9), gives a better approximation than (3.9)."
+        },
+        "question": "In Table 1, what is the value of bd at d = 6? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.902,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.10467v2\\table1.jpg",
+            "table2": "2512.10467v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "The target FDPs are 6% for Case 1 and 7.5% for Case 2",
+            "table2": "Comparision between Algorithm 1 and the moving-window method"
+        },
+        "question": "In Table 1, what is the average FNP for Case 2 using the B-H method with n = 600? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.64,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.17211v1\\table1.jpg",
+            "table2": "2512.17211v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Example 4.4.",
+            "table2": "Example 4.5, with h = 0.005, m = 4."
+        },
+        "question": "In Table 1, how many data rows are there excluding the header? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 10,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.17301v1\\table1.jpg",
+            "table2": "2512.17301v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Effect of Wages on Work Hours: Mroz (1987) Data",
+            "table2": "Effect of Protestantism on Literacy: Becker and Woessmann (2009) Data"
+        },
+        "question": "What is the lower bound of the 95% confidence interval for the SIV estimate in Table 1? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 1338,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.20844v1\\table1.jpg",
+            "table2": "2512.20844v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Number of MINRES and GMRES iterations required to reach convergence for the preconditioned systems, with λ = 1 and 10⁴, and time steps Δt = 10⁻³ and 10⁻⁶.",
+            "table2": "Number of MINRES and GMRES iterations required to reach convergence for the preconditioned systems, with λ = 1 and 10⁴, and time steps Δt = 10⁻³ and 10⁻⁶."
+        },
+        "question": "In Table 1, what is the number of iterations for GMRES under Scenario I with Δt = 10⁻³, λ = 10⁴, and N = 3680? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 16,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 38,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.21164v1\\table1.jpg",
+            "table2": "2512.21164v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Runtime in seconds and estimated memory usage in GiB for the two-dimensional convection–diffusion–reaction equation using GADI in FP64, FP32, and BF16 formats, GMRES in FP32, and cuDSS in FP64. We report results for increasing grid sizes including 960, 2560, 4096, 8192, and 10000, where the system dimension equals the square of the grid size. All methods achieve a very small relative residual. A missing entry indicated by a dash means either non-convergence within the iteration limit or exhaustion of device memory.",
+            "table2": "Same as Table 2 but for the three-dimensional convection–diffusion equation. We report problems for grid sizes including 180, 256, 320, 360, 400, 450, and 512, where the system dimension equals the cube of the grid size. All methods achieve a very small relative residual."
+        },
+        "question": "In Table 2, what is the runtime (in seconds) of GADI using FP32 at grid size 360? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 23.9,
+        "answer_type": "numeric"
+    }
+]

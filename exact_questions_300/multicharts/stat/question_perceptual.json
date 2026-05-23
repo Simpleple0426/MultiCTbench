@@ -1,0 +1,220 @@
+[
+    {
+        "question_id": 11,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.15446v1\\chart1.jpg",
+            "chart2": "2511.15446v1\\chart2.jpg",
+            "chart3": "2511.15446v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "modified empirical Lorenz curve",
+            "chart2": "modified CAP",
+            "chart3": "boxplots of the individual risk contributions"
+        },
+        "question": "In chart1 and chart2, at what alpha value does the Lorenz curve (the lowermost solid line in both figures) consistently start its trajectory from the origin? Respond only with the number.",
+        "question_type": "perceptual",
+        "answer": 0.0,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 71,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.10950v1\\chart1.jpg",
+            "chart2": "2511.10950v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Boxplots of CRPS (log scale) for four benchmark functions (Higdon, Hartmann, Colville, Borehole) under different prior choices.",
+            "chart2": "Boxplots of CRPS (log scale) aggregated across priors for a single benchmark setting."
+        },
+        "question": "Comparing chart1 and chart2, how many priors appear in both charts? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": "6",
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 85,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.22768v1\\chart1.jpg",
+            "chart2": "2512.22768v1\\chart2.jpg",
+            "chart3": "2512.22768v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Illustration of convergent quantities in Definition 1; note that cn captures the efficiency of HP transfer. Loss gap an.",
+            "chart2": "Illustration of convergent quantities in Definition 1; note that cn captures the efficiency of HP transfer. Hyperparameter gap bn.",
+            "chart3": "Illustration of convergent quantities in Definition 1; note that cn captures the efficiency of HP transfer. Transfer suboptimality gap cn."
+        },
+        "question": "What color is used to represent the n=∞ curve in both Chart 1 and Chart 2? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "red",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 83,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.17131v1\\chart1.jpg",
+            "chart2": "2512.17131v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Final validation loss of AdamW, single-worker DiLoCo, and GPA on LLaMA-160M across different effective numbers of inner steps.",
+            "chart2": "Training speedup of single-worker DiLoCo and GPA, measured by the reduction in steps needed to reach AdamW’s final validation loss, across different effective numbers of inner steps."
+        },
+        "question": "What is the smallest inner step value that appears in both Chart 1 and Chart 2? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 8,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 38,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.17148v1\\chart1.jpg",
+            "chart2": "2511.17148v1\\chart2.jpg",
+            "chart3": "2511.17148v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "A 2×2 grid of line charts for June, July, August, and September showing daily max temperature (°C) versus day of month. Each panel has two lines: a black line for 2012–2021 and a red line for 2022.",
+            "chart2": "A 2×2 grid of line charts for June, July, August, and September showing ozone versus day of month. Each panel has two lines: a black line for 2012–2021 and a red line for 2022.",
+            "chart3": "A choropleth-style map with regions shaded in varying intensities of red, with visible administrative boundaries; no colorbar is shown."
+        },
+        "question": "Which charts use a 2×2 grid layout with month titles (June, July, August, September)? A. Only chart1 B. Only chart2 C. Both chart1 and chart2 D. All three charts Respond only with the choice.",
+        "question_type": "perceptual",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 39,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.17148v1\\chart1.jpg",
+            "chart2": "2511.17148v1\\chart2.jpg",
+            "chart3": "2511.17148v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "A 2×2 grid of line charts for June, July, August, and September showing daily max temperature (°C) versus day of month. Each panel has two lines: a black line for 2012–2021 and a red line for 2022.",
+            "chart2": "A 2×2 grid of line charts for June, July, August, and September showing ozone versus day of month. Each panel has two lines: a black line for 2012–2021 and a red line for 2022.",
+            "chart3": "A choropleth-style map with regions shaded in varying intensities of red, with visible administrative boundaries; no colorbar is shown."
+        },
+        "question": "Considering chart1 and chart2, what is the shared x-axis label text shown below the panels? Respond only with the label text.",
+        "question_type": "perceptual",
+        "answer": "Day of month",
+        "answer_type": "text"
+    },
+    {
+        "question_id": 10,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.15896v1\\chart1.jpg",
+            "chart2": "2511.15896v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Approximation errors for selected variables in three estimators across all settings.",
+            "chart2": "Learned weights from cross-balancing, with variables selected using cross-validated Lasso. The left panel shows the empirical distributions of the weights for three dictionaries. The middle and right panels display pairwise comparisons of individual weights estimated with each dictionary."
+        },
+        "question": "In chart1, in Setting 1 under Outcome approximation error, which variable selection method shows the highest error?A. lm. B. aic. C. lasso. Respond only with the choice.",
+        "question_type": "perceptual",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.15929v1\\chart1.jpg",
+            "chart2": "2511.15929v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Percent bias (top row) and coverage (bottom row) for three parameters (Intercept: β₀, A–X: β₁, Z: β₂) across increasing percent censored, comparing multiple estimators.",
+            "chart2": "Efficiency ratios comparing standard errors across estimators, shown as Mean SE (left column) and Empirical SD (right column) for three parameters over increasing sample sizes."
+        },
+        "question": "In chart1, which parameter’s coverage drops most sharply at the highest percent censored? A. Intercept: β₀. B. A–X: β₁. C. Z: β₂. Respond only with the choice.",
+        "question_type": "perceptual",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.16954v1\\chart1.jpg",
+            "chart2": "2511.16954v1\\chart2.jpg",
+            "chart3": "2511.16954v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Two boxplots comparing PDS under different distance metrics. Subplot (a) shows PDS distributions for ℓ₁, ℓ₂, cosine, and sign-based cosine, with average values annotated. Subplot (b) shows PDS distributions for ℓ₁ and ℓ₂ under norm-matched settings, with average values annotated.",
+            "chart2": "Three subplots analyzing normalization effects. The left subplot plots ℓ₂ norm of perturbation effects under median normalization versus per-10k normalization. The middle subplot plots ℓ₁ norm under median normalization versus per-10k normalization. The right subplot shows boxplots of effect similarity comparing cosine and sign-based cosine, with average values annotated.",
+            "chart3": "A line plot showing the effect of scaling factor c on mean PDS for ℓ₁-based and ℓ₂-based metrics, with both curves plotted across increasing scaling factors."
+        },
+        "question": "In chart2, what is the annotated average effect similarity value for the cosine metric? Respond only with the number.",
+        "question_type": "perceptual",
+        "answer": 0.96,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.17071v2\\chart1.jpg",
+            "chart2": "2511.17071v2\\chart2.jpg",
+            "chart3": "2511.17071v2\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Six subplots of density versus max depth (m). Panels (a,c,e) show Parametric, Nonparametric, and Unimodal models with histograms and three colored curves (shallow, mid, deep). Panels (b,d,f) show the corresponding tail views with the x-axis restricted to higher depths.",
+            "chart2": "Four density plots versus observations with many thin simulated curves and a thick black curve in each panel. Panels are titled (a) Skew normal - t, (b) Normal, (c) Nonparametric, and (d) Unimodal.",
+            "chart3": "Horizontal boxplots of AUC for four methods: Skew normal - t, Normal, Nonparametric, and Unimodal. The x-axis ranges from about 0.970 to 1.000 and includes a vertical dashed reference line."
+        },
+        "question": "In chart1, how many subplots have titles ending with \"- tail\"? Respond only with the number.",
+        "question_type": "perceptual",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.17148v1\\chart1.jpg",
+            "chart2": "2511.17148v1\\chart2.jpg",
+            "chart3": "2511.17148v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "A 2×2 grid of line charts for June, July, August, and September showing daily max temperature (°C) versus day of month. Each panel has two lines: a black line for 2012–2021 and a red line for 2022.",
+            "chart2": "A 2×2 grid of line charts for June, July, August, and September showing ozone versus day of month. Each panel has two lines: a black line for 2012–2021 and a red line for 2022.",
+            "chart3": "A choropleth-style map with regions shaded in varying intensities of red, with visible administrative boundaries; no colorbar is shown."
+        },
+        "question": "In chart2, what is the y-axis label? Respond only with the label text.",
+        "question_type": "perceptual",
+        "answer": "Ozone",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.17148v1\\chart1.jpg",
+            "chart2": "2511.17148v1\\chart2.jpg",
+            "chart3": "2511.17148v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "A 2×2 grid of line charts for June, July, August, and September showing daily max temperature (°C) versus day of month. Each panel has two lines: a black line for 2012–2021 and a red line for 2022.",
+            "chart2": "A 2×2 grid of line charts for June, July, August, and September showing ozone versus day of month. Each panel has two lines: a black line for 2012–2021 and a red line for 2022.",
+            "chart3": "A choropleth-style map with regions shaded in varying intensities of red, with visible administrative boundaries; no colorbar is shown."
+        },
+        "question": "In chart1, in the September panel at the end of the month, is the red (2022) line below the black (2012–2021) line at day 10? Respond only with yes or no.",
+        "question_type": "perceptual",
+        "answer": "no",
+        "answer_type": "text"
+    }
+]

@@ -1,0 +1,920 @@
+[
+    {
+        "question_id": 1,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.21580v2\\table1.jpg",
+            "table2": "2512.21580v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Results on English benchmarks.",
+            "table2": "Multilingual results."
+        },
+        "text": "As shown in Table 1, Gamayun achieves competitive average performance, outperforming LLaMA3.2, EuroLM, and SmolLM2 across most benchmarks despite a significantly smaller pre-training budget. While the latest Qwen iterations (2.5 and 3), leveraging 18T and 36T tokens respectively, demonstrate exceptional MMLU scores, this advantage diminishes on aggregate averages. For instance, the 13.8-point MMLU gap between Qwen 3 and Gamayun narrows to just 0.42 points, suggesting a potential distributional skew in the Qwen pre-training corpus toward MMLU-aligned tasks. Mathematical evaluation on GSM8K categorizes models into three tiers: “math expert” (Qwen3 and Olmo2, 65–69%), “strong performers” (Qwen2.5 and Gamayun, 56–58%), and less capable models (<45%).",
+        "question": "The text defines “strong performers” as models with GSM8K scores. Using Table 1, extract the GSM8K scores of the models that belong to this category. Respond with a list of numbers.",
+        "question_type": "perceptual",
+        "answer": [56.4, 57.9],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 2,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.21580v2\\table1.jpg",
+            "table2": "2512.21580v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Results on English benchmarks.",
+            "table2": "Multilingual results."
+        },
+        "text": "As shown in Table 1, Gamayun achieves competitive average performance, outperforming LLaMA3.2, EuroLM, and SmolLM2 across most benchmarks despite a significantly smaller pre-training budget. While the latest Qwen iterations (2.5 and 3), leveraging 18T and 36T tokens respectively, demonstrate exceptional MMLU scores, this advantage diminishes on aggregate averages. For instance, the 13.8-point MMLU gap between Qwen 3 and Gamayun narrows to just 0.42 points, suggesting a potential distributional skew in the Qwen pre-training corpus toward MMLU-aligned tasks. Mathematical evaluation on GSM8K categorizes models into three tiers: “math expert” (Qwen3 and Olmo2, 65–69%), “strong performers” (Qwen2.5 and Gamayun, 56–58%), and less capable models (<45%).",
+        "question": "The text defines strong performers as models with GSM8K scores. Using Table 1, compute the average GSM8K score of these models. Respond with a single number rounded to one decimal place.",
+        "question_type": "reasoning",
+        "answer": 57.2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.21580v2\\table1.jpg",
+            "table2": "2512.21580v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Results on English benchmarks.",
+            "table2": "Multilingual results."
+        },
+        "text": "As shown in Table 1, Gamayun achieves competitive average performance, outperforming LLaMA3.2, EuroLM, and SmolLM2 across most benchmarks despite a significantly smaller pre-training budget. While the latest Qwen iterations (2.5 and 3), leveraging 18T and 36T tokens respectively, demonstrate exceptional MMLU scores, this advantage diminishes on aggregate averages. For instance, the 13.8-point MMLU gap between Qwen 3 and Gamayun narrows to just 0.42 points, suggesting a potential distributional skew in the Qwen pre-training corpus toward MMLU-aligned tasks. Mathematical evaluation on GSM8K categorizes models into three tiers: “math expert” (Qwen3 and Olmo2, 65–69%), “strong performers” (Qwen2.5 and Gamayun, 56–58%), and less capable models (<45%).",
+        "question": "The text defines less capable models with GSM8K scores. Using Table 1, compute the average GSM8K score of these models. Respond with a single number rounded to one decimal place.",
+        "question_type": "reasoning",
+        "answer": 32.3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.21580v2\\table1.jpg",
+            "table2": "2512.21580v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Results on English benchmarks.",
+            "table2": "Multilingual results."
+        },
+        "text": "As shown in Table 1, Gamayun achieves competitive average performance, outperforming LLaMA3.2, EuroLM, and SmolLM2 across most benchmarks despite a significantly smaller pre-training budget. While the latest Qwen iterations (2.5 and 3), leveraging 18T and 36T tokens respectively, demonstrate exceptional MMLU scores, this advantage diminishes on aggregate averages. For instance, the 13.8-point MMLU gap between Qwen 3 and Gamayun narrows to just 0.42 points, suggesting a potential distributional skew in the Qwen pre-training corpus toward MMLU-aligned tasks. Mathematical evaluation on GSM8K categorizes models into three tiers: “math expert” (Qwen3 and Olmo2, 65–69%), “strong performers” (Qwen2.5 and Gamayun, 56–58%), and less capable models (<45%).",
+        "question": "The text defines less capable models with GSM8K scores. Using Table 1, compute the average MMLU (5-shot) score of these models. Respond with a single number rounded to one decimal place.",
+        "question_type": "reasoning",
+        "answer": 40.7,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.21580v2\\table1.jpg",
+            "table2": "2512.21580v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Results on English benchmarks.",
+            "table2": "Multilingual results."
+        },
+        "text": "As shown in Table 1, Gamayun achieves competitive average performance, outperforming LLaMA3.2, EuroLM, and SmolLM2 across most benchmarks despite a significantly smaller pre-training budget. While the latest Qwen iterations (2.5 and 3), leveraging 18T and 36T tokens respectively, demonstrate exceptional MMLU scores, this advantage diminishes on aggregate averages. For instance, the 13.8-point MMLU gap between Qwen 3 and Gamayun narrows to just 0.42 points, suggesting a potential distributional skew in the Qwen pre-training corpus toward MMLU-aligned tasks. Mathematical evaluation on GSM8K categorizes models into three tiers: “math expert” (Qwen3 and Olmo2, 65–69%), “strong performers” (Qwen2.5 and Gamayun, 56–58%), and less capable models (<45%).",
+        "question": "The text defines “math expert” as models with GSM8K scores. Using Table 1, extract the Average scores of the models that belong to this category. Respond with a list of numbers.",
+        "question_type": "perceptual",
+        "answer": [50.64, 50.78],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 6,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.21706v1\\table1.jpg",
+            "table2": "2512.21706v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance on Synthetic Dataset: Per-class and Overall Metrics, which aggregate performance across all classes within each hierarchy level.",
+            "table2": "GoT pipeline results."
+        },
+        "text": "Detection results on synthetic data are presented in Table 1. Our model demonstrates strong ranking performance (AUC 0.78-0.95) but exhibits more variable classification accuracy (F1 0.47-0.88). Performance varies substantially across categories: constatives (F1: 0.705) and continuation (F1: 0.878) achieve the highest performance, while directives (F1: 0.471), commissives (F1: 0.474), interruption (F1: 0.515), and backchannel (F1: 0.536) show considerably lower scores. This pattern suggests that certain speech acts may be inherently more challenging to classify than others, potentially due to imbalanced data generation processes. ",
+        "question": "Compute the average AUC of the two high-performing categories mentioned in the text . Round the result to three decimal places. Respond with a single number.",
+        "question_type": "reasoning",
+        "answer": 0.885,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.21706v1\\table1.jpg",
+            "table2": "2512.21706v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance on Synthetic Dataset: Per-class and Overall Metrics, which aggregate performance across all classes within each hierarchy level.",
+            "table2": "GoT pipeline results."
+        },
+        "text": "Detection results on synthetic data are presented in Table 1. Our model demonstrates strong ranking performance (AUC 0.78-0.95) but exhibits more variable classification accuracy (F1 0.47-0.88). Performance varies substantially across categories: constatives (F1: 0.705) and continuation (F1: 0.878) achieve the highest performance, while directives (F1: 0.471), commissives (F1: 0.474), interruption (F1: 0.515), and backchannel (F1: 0.536) show considerably lower scores. This pattern suggests that certain speech acts may be inherently more challenging to classify than others, potentially due to imbalanced data generation processes. ",
+        "question": "The text states that the best-performing speech act categories are constatives and continuation. Using Table 1, extract their AUC scores. Respond with a list of numbers.",
+        "question_type": "perceptual",
+        "answer": [0.833, 0.937],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.21709v1\\table1.jpg",
+            "table2": "2512.21709v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Training hyperparameters for fine-tuned Bengali AI text detection models. Learning Rate and Batch Size are abbreviated as LR and BS respectively.",
+            "table2": "Performance comparison of zero-shot transformer models for Bengali AI-paraphrased text detection. Acc, Prec, Rec and F1 stand for Accuracy, Precision, Recall and F1 Score (Binary) respectively. Values are presented in percentage."
+        },
+        "text": "BanglaBERT-Base and MultilingualBERT-Base achieved around 50% accuracy with very high recall (99.55% and 99.70%) but only moderate precision, while IndicBERT-Base reached 50.34% accuracy and 92.47% recall, indicating some misclassification of human text. XLM-RoBERTa-Large-xnli and mDeBERTaV3-Base-xnli performed worst, with accuracy below 50% and recall as low as 6.33%. F1 scores were low for these two models but higher (65–67%) for BanglaBERTBase, IndicBERT-Base and MultilingualBERT-Base. Overall, zero-shot models can detect some AI-generated content but lack task-specific training for reliable classification. Table 2 summarizes the performance metrics.",
+        "question": "The text states that two models performed worst in the evaluation. Using Table 2, extract the F1 scores of these two models. Respond with a list of numbers.",
+        "question_type": "perceptual",
+        "answer": [30.13, 11.07],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 9,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.21709v1\\table1.jpg",
+            "table2": "2512.21709v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Training hyperparameters for fine-tuned Bengali AI text detection models. Learning Rate and Batch Size are abbreviated as LR and BS respectively.",
+            "table2": "Performance comparison of zero-shot transformer models for Bengali AI-paraphrased text detection. Acc, Prec, Rec and F1 stand for Accuracy, Precision, Recall and F1 Score (Binary) respectively. Values are presented in percentage."
+        },
+        "text": "BanglaBERT-Base and MultilingualBERT-Base achieved around 50% accuracy with very high recall (99.55% and 99.70%) but only moderate precision, while IndicBERT-Base reached 50.34% accuracy and 92.47% recall, indicating some misclassification of human text. XLM-RoBERTa-Large-xnli and mDeBERTaV3-Base-xnli performed worst, with accuracy below 50% and recall as low as 6.33%. F1 scores were low for these two models but higher (65–67%) for BanglaBERTBase, IndicBERT-Base and MultilingualBERT-Base. Overall, zero-shot models can detect some AI-generated content but lack task-specific training for reliable classification. Table 2 summarizes the performance metrics.",
+        "question": "The text states that two models performed worst in the evaluation. Using Table 2, compute the average Accuracy of these two models. Round the result to two decimal places. Respond with a single number.",
+        "question_type": "reasoning",
+        "answer": 49.10,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.22562v1\\table1.jpg",
+            "table2": "2512.22562v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance comparison of the proposed All-or-here Attention across various window sizes. “Vanilla” denotes the OLMo-2-0425-1B-SFT model using full attention.",
+            "table2": "Average Full Attention usage of the proposed All-or-here Attention across various window sizes."
+        },
+        "text": "Table 1 summarizes the performance of the proposed All-or-here Attention across various window sizes. We observe a clear positive correlation between the window size and model performance. As the window size w increases, the model’s accuracy progressively recovers, eventually matching the vanilla result of OLMo-2-SFT. Specifically, with window sizes of w = 128 and w = 256, AHA maintains 100.9% and 102.5% of the Vanilla performance, respectively. Even under the extreme constraint of w = 16, the model retains 92.7% of the original performance.",
+        "question": "The text describes an “extreme constraint” setting for the attention window size. Using the description in the text, identify the corresponding window size, and then use Table 1 to extract its GSM8K score. Respond with a list in the format: [window_size, GSM8K_score]",
+        "question_type": "perceptual",
+        "answer": [16, 0.3980],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 11,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.22562v1\\table1.jpg",
+            "table2": "2512.22562v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance comparison of the proposed All-or-here Attention across various window sizes. “Vanilla” denotes the OLMo-2-0425-1B-SFT model using full attention.",
+            "table2": "Average Full Attention usage of the proposed All-or-here Attention across various window sizes."
+        },
+        "text": "Table 1 summarizes the performance of the proposed All-or-here Attention across various window sizes. We observe a clear positive correlation between the window size and model performance. As the window size w increases, the model’s accuracy progressively recovers, eventually matching the vanilla result of OLMo-2-SFT. Specifically, with window sizes of w = 128 and w = 256, AHA maintains 100.9% and 102.5% of the Vanilla performance, respectively. Even under the extreme constraint of w = 16, the model retains 92.7% of the original performance.",
+        "question": "The text states that the reported results are compared against the OLMo-2-SFT model. Using Table 1, extract the MMLU, GSM8K, and News scores for this baseline model. Respond with a list of numbers.",
+        "question_type": "perceptual",
+        "answer": [0.4056, 0.3874, 0.2074],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.22562v1\\table1.jpg",
+            "table2": "2512.22562v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance comparison of the proposed All-or-here Attention across various window sizes. “Vanilla” denotes the OLMo-2-0425-1B-SFT model using full attention.",
+            "table2": "Average Full Attention usage of the proposed All-or-here Attention across various window sizes."
+        },
+        "text": "Table 1 summarizes the performance of the proposed All-or-here Attention across various window sizes. We observe a clear positive correlation between the window size and model performance. As the window size w increases, the model’s accuracy progressively recovers, eventually matching the vanilla result of OLMo-2-SFT. Specifically, with window sizes of w = 128 and w = 256, AHA maintains 100.9% and 102.5% of the Vanilla performance, respectively. Even under the extreme constraint of w = 16, the model retains 92.7% of the original performance.",
+        "question": "The text states that two larger window settings allow the model to match or even surpass the performance of the baseline model. Using Table 1, identify these two window sizes based on the description in the text, and compute the difference in their GSM8K scores (larger window − smaller window). Respond with a single number rounded to four decimal places.",
+        "question_type": "reasoning",
+        "answer": 0.0341,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.22712v1\\table1.jpg",
+            "table2": "2512.22712v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Accuracy (Acc, ↑) and Trace Inconsistency Rate (TIR, ↓) across languages and models. LS = Latin script, NLS = Not Latin script, HRL = Higher-resourced language, LRL = Lower-resourced language. For each model, the highest Accuracy and lowest TIR among individual languages are highlighted in bold.",
+            "table2": "Trace Inconsistency Rate (TIR, ↓) across languages and models, when the model’s final answer was wrong. For each model, the lowest TIR is bolded."
+        },
+        "text": "Table 2 shows TIR for cases where the final answer was wrong, where the rates are substantially higher across all languages and models. Korean, Arabic, and Hindi show the most severe inconsistency when models are incorrect.",
+        "question": "The text mentions that some languages show the most severe inconsistency when the model’s final answer is incorrect. Using the languages identified in the text, compute the average TIR value of Llama-4-Scout-17B-16E-Instruct across those languages in Table 2. Round the result to two decimal places. Respond with a single number.",
+        "question_type": "reasoning",
+        "answer": 25.36,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 14,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.22712v1\\table1.jpg",
+            "table2": "2512.22712v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Accuracy (Acc, ↑) and Trace Inconsistency Rate (TIR, ↓) across languages and models. LS = Latin script, NLS = Not Latin script, HRL = Higher-resourced language, LRL = Lower-resourced language. For each model, the highest Accuracy and lowest TIR among individual languages are highlighted in bold.",
+            "table2": "Trace Inconsistency Rate (TIR, ↓) across languages and models, when the model’s final answer was wrong. For each model, the lowest TIR is bolded."
+        },
+        "text": "Table 2 shows TIR for cases where the final answer was wrong, where the rates are substantially higher across all languages and models. Korean, Arabic, and Hindi show the most severe inconsistency when models are incorrect.",
+        "question": "The text identifies Korean, Arabic, and Hindi as the languages with the most severe inconsistency. Using Table 2, compute the overall average TIR value across all models and these three languages. Round the result to two decimal places. Respond with a single number.",
+        "question_type": "reasoning",
+        "answer": 20.70,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.23147v1\\table1.jpg",
+            "table2": "2512.23147v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "COMPARISON OF OUR DVA AND OTHER APPROACHES.",
+            "table2": "COMPARISON OF OUR GRS AND OTHER APPROACHES."
+        },
+        "text": "The results in Table 1 show that each approach improves the baseline, while our DVA achieves superior performance. Our DVA brings +2.11 mAP overall and gains significant improvement, which indicates that increasing geometric diversity through our augmentation strategy remains beneficial even in the presence of labeled data. Moreover, our method achieves superior performance in the “50–inf” range, which can be attributed to the proposed distant-decay mechanism.",
+        "question": "The text highlights the overall superiority of DVA. Using Table 1, compute how much DVA’s Overall mAP exceeds the average Overall mAP of all methods. Round the result to two decimal places. Respond with a single number.",
+        "question_type": "reasoning",
+        "answer": 0.72,
+        "answer_type": "numeric"
+
+    },
+
+    {
+        "question_id": 16,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.23147v1\\table1.jpg",
+            "table2": "2512.23147v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "COMPARISON OF OUR DVA AND OTHER APPROACHES.",
+            "table2": "COMPARISON OF OUR GRS AND OTHER APPROACHES."
+        },
+        "text": "The results in Table 1 show that each approach improves the baseline, while our DVA achieves superior performance. Our DVA brings +2.11 mAP overall and gains significant improvement, which indicates that increasing geometric diversity through our augmentation strategy remains beneficial even in the presence of labeled data. Moreover, our method achieves superior performance in the “50–inf” range, which can be attributed to the proposed distant-decay mechanism.",
+        "question": "The text states that the proposed method achieves superior performance in the distant range. Using Table 1, extract the mAP value of DVA (Ours) in that range. Respond with a single number.",
+        "question_type": "perceptual",
+        "answer": 36.19,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.23147v1\\table1.jpg",
+            "table2": "2512.23147v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "COMPARISON OF OUR DVA AND OTHER APPROACHES.",
+            "table2": "COMPARISON OF OUR GRS AND OTHER APPROACHES."
+        },
+        "text": "The results in Table 1 show that each approach improves the baseline, while our DVA achieves superior performance. Our DVA brings +2.11 mAP overall and gains significant improvement, which indicates that increasing geometric diversity through our augmentation strategy remains beneficial even in the presence of labeled data. Moreover, our method achieves superior performance in the “50–inf” range, which can be attributed to the proposed distant-decay mechanism.",
+        "question": "The text states that the proposed method achieves superior performance in the farthest distance interval described in the table. Using Table 1, compute the improvement of DVA (Ours) over the second-best model in that interval. Round the result to two decimal places. Respond with a single number.",
+        "question_type": "reasoning",
+        "answer": 0.68,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.23234v1\\table1.jpg",
+            "table2": "2512.23234v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of detection performance between the proposed method and mainstream models on the IIG dataset.",
+            "table2": "Comparison of detection performance between the proposed method and mainstream models on the LangGas dataset."
+        },
+        "text": "The table2 reports the GPT-4V evaluation scores of various models on the RS-GPT4V-Instruct dataset, focusing on two core tasks: complex reasoning & conversation, and detailed description. Scores range from 1 to 10, with higher values representing more accurate and high-quality responses. The overall score is computed as a comprehensive evaluation metric. Our method consistently achieves the best performance across all evaluation aspects.",
+        "question": "The text states that the evaluation focuses on two core tasks. Using Table 2, extract the scores of Full-FT on these two tasks. Respond with a list of numbers.",
+        "question_type": "perceptual",
+        "answer": [6.270, 6.530],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.23234v1\\table1.jpg",
+            "table2": "2512.23234v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of detection performance between the proposed method and mainstream models on the IIG dataset.",
+            "table2": "Comparison of detection performance between the proposed method and mainstream models on the LangGas dataset."
+        },
+        "text": "The table2 reports the GPT-4V evaluation scores of various models on the RS-GPT4V-Instruct dataset, focusing on two core tasks: complex reasoning & conversation, and detailed description. Scores range from 1 to 10, with higher values representing more accurate and high-quality responses. The overall score is computed as a comprehensive evaluation metric. Our method consistently achieves the best performance across all evaluation aspects.",
+        "question": "Using Table 2, count the number of models whose Complex Reasoning & Conversation score is less than 4 points away from the maximum possible score. Respond with a single number.",
+        "question_type": "reasoning",
+        "answer": 4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 20,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.23234v1\\table1.jpg",
+            "table2": "2512.23234v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of detection performance between the proposed method and mainstream models on the IIG dataset.",
+            "table2": "Comparison of detection performance between the proposed method and mainstream models on the LangGas dataset."
+        },
+        "text": "The table2 reports the GPT-4V evaluation scores of various models on the RS-GPT4V-Instruct dataset, focusing on two core tasks: complex reasoning & conversation, and detailed description. Scores range from 1 to 10, with higher values representing more accurate and high-quality responses. The overall score is computed as a comprehensive evaluation metric. Our method consistently achieves the best performance across all evaluation aspects.",
+        "question": "Using Table 2, first identify the best-performing model according to the overall score, and then compute the difference between its overall score and the maximum possible score. Respond with a single number rounded to three decimal places.",
+        "question_type": "reasoning",
+        "answer": 3.462,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 21,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.23273v2\\table1.jpg",
+            "table2": "2512.23273v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison with state-of-the-art Nano-scale detectors across five benchmarks.",
+            "table2": "Comparison of classification performance on ImageNet  dataset"
+        },
+        "text": "As shown in Table2, YOLO-Master-clsN achieves 76.6% Top-1 accuracy on ImageNet, yielding substantial gains of 6.6% and 4.9% over YOLOv11 and YOLOv12, respectively. This highlights the robust feature representation of our backbone.",
+        "question": "The text states that YOLO-Master-cls-N gains 4.9% over YOLOv12 in Top-1 accuracy. Using Table 2, identify the two Top-1 accuracy values whose difference produces this 4.9% gain. Respond with a list of numbers in the format: [a, b].",
+        "question_type": "reasoning",
+        "answer": [76.6, 71.7],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.23273v2\\table1.jpg",
+            "table2": "2512.23273v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison with state-of-the-art Nano-scale detectors across five benchmarks.",
+            "table2": "Comparison of classification performance on ImageNet  dataset"
+        },
+        "text": "As shown in Table2, YOLO-Master-clsN achieves 76.6% Top-1 accuracy on ImageNet, yielding substantial gains of 6.6% and 4.9% over YOLOv11 and YOLOv12, respectively. This highlights the robust feature representation of our backbone.",
+        "question": "Using Table 2, identify the two Top-1 accuracy values whose difference produces this 6.6% gain. Respond with a list of numbers in the format: [a, b].",
+        "question_type": "reasoning",
+        "answer": [76.6, 70.0],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 23,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.23422v1\\table1.jpg",
+            "table2": "2512.23422v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Main performance comparison on mathematical reasoning and general capability benchmarks. For a fair comparison, results are reported from the checkpoint with the highest domain-average score for each method. Our method consistently achieves superior accuracy in mathematical reasoning while effectively preserving or even enhancing general capabilities.",
+            "table2": "Main performance comparison on code generation and general capability benchmarks using Qwen-0.6B."
+        },
+        "text": "Table2 extends these findings to code generation. On Qwen3-0.6B, EntroDrop achieves an 11.62% relative improvement, confirming that the benefits of entropy-guided regularization generalize beyond mathematical reasoning to other structured domains.",
+        "question": "The text highlights the performance of a method on code generation tasks. Using Table 2, extract the average score in the code generation section for the method mentioned in the text. Respond with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 32.97,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 24,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.23422v1\\table1.jpg",
+            "table2": "2512.23422v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Main performance comparison on mathematical reasoning and general capability benchmarks. For a fair comparison, results are reported from the checkpoint with the highest domain-average score for each method. Our method consistently achieves superior accuracy in mathematical reasoning while effectively preserving or even enhancing general capabilities.",
+            "table2": "Main performance comparison on code generation and general capability benchmarks using Qwen-0.6B."
+        },
+        "text": "Table2 extends these findings to code generation. On Qwen3-0.6B, EntroDrop achieves an 11.62% relative improvement, confirming that the benefits of entropy-guided regularization generalize beyond mathematical reasoning to other structured domains.",
+        "question": "The text states that EntroDrop improves structured tasks such as code generation. Using Table 2, compute the difference between the highest and lowest scores of EntroDrop across the three code generation datasets. Respond with a single number rounded to one decimal place.",
+        "question_type": "reasoning",
+        "answer": 10.8,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 25,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.23541v1\\table1.jpg",
+            "table2": "2512.23541v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of Performance on Robotwin 2.0 Simulation Benchmark. Act2Goal outperforms baselines in all Easy-mode tasks and 3 Hard-mode tasks, showing superior generalization.",
+            "table2": "Comparison of Performance on Real-World Manipulation Tasks. Act2Goal demonstrates remarkable performance across all real-world tasks, significantly outperforming all baseline methods. The robust performance in OOD settings strongly validates its superior generalization ability. All results are obtained without any online autonomous improvement, using only offline imitation learning."
+        },
+        "text": "The results in Table 1 demonstrate that Act2Goal significantly outperforms all these baselines. Notably, it exhibits an overwhelming advantage in the Hard mode, particularly in unseen scenarios, highlighting its superior generalization capability.",
+        "question": "Identify which mode shows this strongest advantage. Then, using Table 1, extract the value of Act2Goal on the Pick Bottles task in that mode.",
+        "question_type": "perceptual",
+        "answer": 0.43,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.23541v1\\table1.jpg",
+            "table2": "2512.23541v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of Performance on Robotwin 2.0 Simulation Benchmark. Act2Goal outperforms baselines in all Easy-mode tasks and 3 Hard-mode tasks, showing superior generalization.",
+            "table2": "Comparison of Performance on Real-World Manipulation Tasks. Act2Goal demonstrates remarkable performance across all real-world tasks, significantly outperforming all baseline methods. The robust performance in OOD settings strongly validates its superior generalization ability. All results are obtained without any online autonomous improvement, using only offline imitation learning."
+        },
+        "text": "The results in Table 1 demonstrate that Act2Goal significantly outperforms all these baselines. Notably, it exhibits an overwhelming advantage in the Hard mode, particularly in unseen scenarios, highlighting its superior generalization capability.",
+        "question": "What is the average score across the four tasks in the Hard mode for the method with superior generalization capability? Round the result to two decimal places. Respond with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.21,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.23684v1\\table1.jpg",
+            "table2": "2512.23684v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Decision-level outcome changes under prompt injection",
+            "table2": "Acceptance outcome transitions under prompt injection"
+        },
+        "text": "Table 2 reports high-impact transitions in acceptance outcomes. Under English and Japanese injection, more than half of papers initially rated as acceptable transition to non-accept outcomes, with a substantial fraction shifting directly to strong rejection. Chinese injection produces similarly frequent accept-to-non-accept transitions, though with fewer shifts to strong rejection. Arabic injection results in markedly fewer acceptance reversals.",
+        "question": "Described as having similar accept-to-non-accept frequencies, compute the largest difference between Accept → Non-Accept and Accept → Strong Reject values. Respond with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.298,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.23684v1\\table1.jpg",
+            "table2": "2512.23684v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Decision-level outcome changes under prompt injection",
+            "table2": "Acceptance outcome transitions under prompt injection"
+        },
+        "text": "Table 2 reports high-impact transitions in acceptance outcomes. Under English and Japanese injection, more than half of papers initially rated as acceptable transition to non-accept outcomes, with a substantial fraction shifting directly to strong rejection. Chinese injection produces similarly frequent accept-to-non-accept transitions, though with fewer shifts to strong rejection. Arabic injection results in markedly fewer acceptance reversals.",
+        "question": "Identify the languages for which more than half of papers initially rated as acceptable transition to non-accept outcomes. Respond with a list of language names in the format: [Language1, Language2].",
+        "question_type": "perceptual",
+        "answer": "[English, Japanese]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 29,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.23684v1\\table1.jpg",
+            "table2": "2512.23684v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Decision-level outcome changes under prompt injection",
+            "table2": "Acceptance outcome transitions under prompt injection"
+        },
+        "text": "Table 2 reports high-impact transitions in acceptance outcomes. Under English and Japanese injection, more than half of papers initially rated as acceptable transition to non-accept outcomes, with a substantial fraction shifting directly to strong rejection. Chinese injection produces similarly frequent accept-to-non-accept transitions, though with fewer shifts to strong rejection. Arabic injection results in markedly fewer acceptance reversals.",
+        "question": "Identify the languages described as having similar accept-to-non-accept frequencies. Respond with a list of language names in the format: [Language1, Language2, ...].",
+        "question_type": "perceptual",
+        "answer": "[English, Japanese, Chinese]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 30,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.23684v1\\table1.jpg",
+            "table2": "2512.23684v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Decision-level outcome changes under prompt injection",
+            "table2": "Acceptance outcome transitions under prompt injection"
+        },
+        "text": "Table 2 reports high-impact transitions in acceptance outcomes. Under English and Japanese injection, more than half of papers initially rated as acceptable transition to non-accept outcomes, with a substantial fraction shifting directly to strong rejection. Chinese injection produces similarly frequent accept-to-non-accept transitions, though with fewer shifts to strong rejection. Arabic injection results in markedly fewer acceptance reversals.",
+        "question": "Compute the difference between the Accept → Strong Reject values of the languages described as having Accept → Non-Accept transitions exceeding one half. Respond with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.101,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 31,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.23705v1\\table1.jpg",
+            "table2": "2512.23705v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "QUANTITATIVE COMPARISON FOR VIDEO DEPTH ESTIMATION ON CLEARPOSE AND TRANSPHY3D-TEST. BEST AND SECOND BEST ARE HIGHLIGHED.",
+            "table2": "QUANTITATIVE COMPARISON FOR VIDEO DEPTH ESTIMATION ON THE DREDS DATASETS."
+        },
+        "text": "As shown in Tab. 1and 2, DKT sets a new SOTA across three real-world datasets and one synthetic dataset. The performance gap peaks in ClearPose and TransPhy3D, both of which exclusively involve transparent and highly reflective objects.",
+        "question": "For the datasets that contain only transparent or highly reflective objects, extract the REL values of DKT. Respond with a list of numbers.",
+        "question_type": "perceptual",
+        "answer": [9.72, 2.96],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 32,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.23705v1\\table1.jpg",
+            "table2": "2512.23705v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "QUANTITATIVE COMPARISON FOR VIDEO DEPTH ESTIMATION ON CLEARPOSE AND TRANSPHY3D-TEST. BEST AND SECOND BEST ARE HIGHLIGHED.",
+            "table2": "QUANTITATIVE COMPARISON FOR VIDEO DEPTH ESTIMATION ON THE DREDS DATASETS."
+        },
+        "text": "As shown in Tab. 1and 2, DKT sets a new SOTA across three real-world datasets and one synthetic dataset. The performance gap peaks in ClearPose and TransPhy3D, both of which exclusively involve transparent and highly reflective objects.",
+        "question": "For the datasets that involve only transparent or highly reflective objects, extract the RMSE values of DKT. Respond with a list of numbers.",
+        "question_type": "perceptual",
+        "answer": [14.58, 19.50],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 33,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.23705v1\\table1.jpg",
+            "table2": "2512.23705v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "QUANTITATIVE COMPARISON FOR VIDEO DEPTH ESTIMATION ON CLEARPOSE AND TRANSPHY3D-TEST. BEST AND SECOND BEST ARE HIGHLIGHED.",
+            "table2": "QUANTITATIVE COMPARISON FOR VIDEO DEPTH ESTIMATION ON THE DREDS DATASETS."
+        },
+        "text": "As shown in Tab. 1and 2, DKT sets a new SOTA across three real-world datasets and one synthetic dataset. The performance gap peaks in ClearPose and TransPhy3D, both of which exclusively involve transparent and highly reflective objects.",
+        "question": "Compute the difference between the larger and smaller δ1.05 values of DKT across the datasets involving only transparent or highly reflective objects. Respond with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 49,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 34,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.23765v1\\table1.jpg",
+            "table2": "2512.23765v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Accuracy results on benchmark datasets, where TM denotes the target model, DM denotes the draft model, and PRM denotes the process reward model.",
+            "table2": "Average tokens on benchmark datasets, where TM denotes the target model, DM denotes the draft model, and PRM denotes the process reward model."
+        },
+        "text": "The experimental results in Tables 1 provide a comprehensive comparison between our proposed EASD and several baselines under two different model scales (Qwen2.5-32B/72B as the target model and Qwen2.5-7B as the draft model). We observe three key findings",
+        "question": "Under the experimental configuration where the target model is  Qwen2.5-72B, extract the Olympiad score of EASD from Table 1. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 44.74,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.23813v1\\table1.jpg",
+            "table2": "2512.23813v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Continual Training Hyperparameters",
+            "table2": "Fine-Tuning Hyperparameters"
+        },
+        "text": "Table 1 presents the training configuration. Masked language modeling with 15% dynamic masking is applied following (Liu et al., 2019). The model achieves a final perplexity of 5.22 on the Stress-SMHD corpus.",
+        "question": "For the experiment trained on the Stress-SMHD corpus, compute the product of the final perplexity and the number of epochs. Round the result to two decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 26.10,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.23848v1\\table1.jpg",
+            "table2": "2512.23848v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Internal Retriever on Dev Set",
+            "table2": "External Retriever on Dev Set for the Top 3 Facts"
+        },
+        "text": "Table 1 shows that for the internal retriever, SecBERT Base gives us much higher recall in both top 3 and top 5 retrieved facts compared to the BERT Base model used in our baseline. Since SecBERT is a BERT model entirely trained on 260,773 publicly available 10-K financial documents, it incorporates much more domain knowledge in finance. This domain-specific training can allow SecBERT to retrieve relevant documents more effectively and reduce the likelihood of missing important information.",
+        "question": "For the model trained on 260,773 publicly available 10-K financial documents, extract its Top-3 Recall value from Table 1. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 91.27,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.23848v1\\table1.jpg",
+            "table2": "2512.23848v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Internal Retriever on Dev Set",
+            "table2": "External Retriever on Dev Set for the Top 3 Facts"
+        },
+        "text": "Table 1 shows that for the internal retriever, SecBERT Base gives us much higher recall in both top 3 and top 5 retrieved facts compared to the BERT Base model used in our baseline. Since SecBERT is a BERT model entirely trained on 260,773 publicly available 10-K financial documents, it incorporates much more domain knowledge in finance. This domain-specific training can allow SecBERT to retrieve relevant documents more effectively and reduce the likelihood of missing important information.",
+        "question": "For the model trained on 260,773 publicly available 10-K financial documents, extract its Top-5 Recall value from Table 1. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 95.16,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 38,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.23848v1\\table1.jpg",
+            "table2": "2512.23848v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Internal Retriever on Dev Set",
+            "table2": "External Retriever on Dev Set for the Top 3 Facts"
+        },
+        "text": "Table 1 shows that for the internal retriever, SecBERT Base gives us much higher recall in both top 3 and top 5 retrieved facts compared to the BERT Base model used in our baseline. Since SecBERT is a BERT model entirely trained on 260,773 publicly available 10-K financial documents, it incorporates much more domain knowledge in finance. This domain-specific training can allow SecBERT to retrieve relevant documents more effectively and reduce the likelihood of missing important information.",
+        "question": "What is the Top-5 Recall of the model used as the baseline in the experiment according to Table 1? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 92.75,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 39,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.23848v1\\table1.jpg",
+            "table2": "2512.23848v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Internal Retriever on Dev Set",
+            "table2": "External Retriever on Dev Set for the Top 3 Facts"
+        },
+        "text": "Table 1 shows that for the internal retriever, SecBERT Base gives us much higher recall in both top 3 and top 5 retrieved facts compared to the BERT Base model used in our baseline. Since SecBERT is a BERT model entirely trained on 260,773 publicly available 10-K financial documents, it incorporates much more domain knowledge in finance. This domain-specific training can allow SecBERT to retrieve relevant documents more effectively and reduce the likelihood of missing important information.",
+        "question": "Compute the improvement in Top-3 Recall of the model trained on financial documents compared to the baseline model. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 2.31,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 40,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.23848v1\\table1.jpg",
+            "table2": "2512.23848v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Internal Retriever on Dev Set",
+            "table2": "External Retriever on Dev Set for the Top 3 Facts"
+        },
+        "text": "Table 1 shows that for the internal retriever, SecBERT Base gives us much higher recall in both top 3 and top 5 retrieved facts compared to the BERT Base model used in our baseline. Since SecBERT is a BERT model entirely trained on 260,773 publicly available 10-K financial documents, it incorporates much more domain knowledge in finance. This domain-specific training can allow SecBERT to retrieve relevant documents more effectively and reduce the likelihood of missing important information.",
+        "question": "Compute the average of the two recall metrics of the model trained on financial documents. Round the result to two decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 93.22,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.23848v1\\table1.jpg",
+            "table2": "2512.23848v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Internal Retriever on Dev Set",
+            "table2": "External Retriever on Dev Set for the Top 3 Facts"
+        },
+        "text": "Table 1 shows that for the internal retriever, SecBERT Base gives us much higher recall in both top 3 and top 5 retrieved facts compared to the BERT Base model used in our baseline. Since SecBERT is a BERT model entirely trained on 260,773 publicly available 10-K financial documents, it incorporates much more domain knowledge in finance. This domain-specific training can allow SecBERT to retrieve relevant documents more effectively and reduce the likelihood of missing important information.",
+        "question": "Compute the increase from Top-3 Recall to Top-5 Recall for the baseline model. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 3.79,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.23906v1\\table1.jpg",
+            "table2": "2512.23906v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Threshold accuracies on tile E32N34 for displacement–only inputs. Values are given in percent.",
+            "table2": "Single–step prediction performance on tile E32N34 with multimodal inputs (displacement + static kinematics + temporal encoding)."
+        },
+        "text": "Threshold accuracies in Table 1 provide additional insight. The classical baselines already achieve reasonable fractions of pixels within 1 mm absolute error (around 60–61%), but still lag behind STGCN and the transformer at the strictest thresholds. STGCN attains the highest fraction of pixels within 1 mm and 0.5 mm, while the transformer yields the best performance in the most demanding Acc@0.1mm bin.",
+        "question": "At the most demanding threshold column, extract the accuracy of the best-performing model. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 16.87,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 43,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.23938v1\\table1.jpg",
+            "table2": "2512.23938v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "COMPARISON OF DIFFERENT CROSS-VIEW GEO-LOCALIZATION METHODS ON UNIVERSITY-1652",
+            "table2": "ABLATION EXPERIMENTS ON THE EFFECTIVENESS OF MODEL COMPONENTS"
+        },
+        "text": "The performance of the proposed method was also compared with other existing methods, as summarised in Table1. For the satellite- to-drone task, our method achieved an R@1 of 96.72 and an AP of 93.57. In the drone-to-satellite task, the R@1 and AP achieved 94.41 and 95.40, respectively, outperforming other current methods. It is noteworthy that our model contains only 10 M parameters, which is significantly lower than the mainstream methods listed in the table, accounting for merely 30% of the MEAN parameter count.",
+        "question": "For the method whose parameter count is about 10M and which achieves the best performance in both tasks, compute the difference between its two R@1 values. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 2.31,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 44,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.24058v1\\table1.jpg",
+            "table2": "2512.24058v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Final Composite Reliability Score (CRS) ranking with normalized component scores.",
+            "table2": "Baseline calibration metrics averaged across five QA datasets. Lower values are better."
+        },
+        "text": "Table 2 summarizes baseline calibration. Mistral-8x22B achieves the lowest ECE, Brier Score, and NLL, while Falcon-7B is worst calibrated which reflects strong overconfidence. Mid-sized models such as LLaMA-3-7B and Gemma 2 show moderate calibration quality. These findings indicate that model size alone does not determine calibration and that accuracy cannot be used as a proxy for reliability.",
+        "question": "Among the models described as having moderate calibration quality, identify the one with the larger Avg. ECE and extract its Avg. ECE from Table 2. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.057,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 45,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.24058v1\\table1.jpg",
+            "table2": "2512.24058v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Final Composite Reliability Score (CRS) ranking with normalized component scores.",
+            "table2": "Baseline calibration metrics averaged across five QA datasets. Lower values are better."
+        },
+        "text": "Table 2 summarizes baseline calibration. Mistral-8x22B achieves the lowest ECE, Brier Score, and NLL, while Falcon-7B is worst calibrated which reflects strong overconfidence. Mid-sized models such as LLaMA-3-7B and Gemma 2 show moderate calibration quality. These findings indicate that model size alone does not determine calibration and that accuracy cannot be used as a proxy for reliability.",
+        "question": "Among the models described as having moderate calibration quality, identify the one with the smaller Avg. ECE and extract its Avg. Brier Score from Table 2. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.143,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 46,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.24058v1\\table1.jpg",
+            "table2": "2512.24058v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Final Composite Reliability Score (CRS) ranking with normalized component scores.",
+            "table2": "Baseline calibration metrics averaged across five QA datasets. Lower values are better."
+        },
+        "text": "Table 2 summarizes baseline calibration. Mistral-8x22B achieves the lowest ECE, Brier Score, and NLL, while Falcon-7B is worst calibrated which reflects strong overconfidence. Mid-sized models such as LLaMA-3-7B and Gemma 2 show moderate calibration quality. These findings indicate that model size alone does not determine calibration and that accuracy cannot be used as a proxy for reliability.",
+        "question": "Compute the average Avg. ECE of the models described as having moderate calibration quality. Round the result to three decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.048,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 47,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.24058v1\\table1.jpg",
+            "table2": "2512.24058v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Final Composite Reliability Score (CRS) ranking with normalized component scores.",
+            "table2": "Baseline calibration metrics averaged across five QA datasets. Lower values are better."
+        },
+        "text": "Table 2 summarizes baseline calibration. Mistral-8x22B achieves the lowest ECE, Brier Score, and NLL, while Falcon-7B is worst calibrated which reflects strong overconfidence. Mid-sized models such as LLaMA-3-7B and Gemma 2 show moderate calibration quality. These findings indicate that model size alone does not determine calibration and that accuracy cannot be used as a proxy for reliability.",
+        "question": "Among the models described as having moderate calibration quality, compute the difference between the larger and smaller Avg. NLL values. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.116,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 48,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.24651v1\\table1.jpg",
+            "table2": "2512.24651v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Metrics on test data with 12 agents.",
+            "table2": "Metrics on test data with 3 agents (1 adult, 1 bicycle, 1 child)."
+        },
+        "text": "Table 1 summarizes evaluation on the 1,000-episode test set. We report: SR (success rate); CR (overall collision rate); CR(A), CR(B), CR(C), CR(O) (collision rates with adults, bicycles, children, and static obstacles); Time (average time to reach the goal); and DD(A), DD(B), DD(C) (mean robot–agent distance during “danger” interactions for adults, bicycles, and children, where danger is defined as distance < 30 cm).",
+        "question": "Identify the method with the lowest collision rate with children. Extract its success rate. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.836,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 49,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.24651v1\\table1.jpg",
+            "table2": "2512.24651v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Metrics on test data with 12 agents.",
+            "table2": "Metrics on test data with 3 agents (1 adult, 1 bicycle, 1 child)."
+        },
+        "text": "Table 1 summarizes evaluation on the 1,000-episode test set. We report: SR (success rate); CR (overall collision rate); CR(A), CR(B), CR(C), CR(O) (collision rates with adults, bicycles, children, and static obstacles); Time (average time to reach the goal); and DD(A), DD(B), DD(C) (mean robot–agent distance during “danger” interactions for adults, bicycles, and children, where danger is defined as distance < 30 cm).",
+        "question": "Identify the method with the highest success rate, and extract its average time to reach the goal. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 72.03,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 49,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.24651v1\\table1.jpg",
+            "table2": "2512.24651v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Metrics on test data with 12 agents.",
+            "table2": "Metrics on test data with 3 agents (1 adult, 1 bicycle, 1 child)."
+        },
+        "text": "Table 1 summarizes evaluation on the 1,000-episode test set. We report: SR (success rate); CR (overall collision rate); CR(A), CR(B), CR(C), CR(O) (collision rates with adults, bicycles, children, and static obstacles); Time (average time to reach the goal); and DD(A), DD(B), DD(C) (mean robot–agent distance during “danger” interactions for adults, bicycles, and children, where danger is defined as distance < 30 cm).",
+        "question": "Compute the average of the three mean robot–agent distances during danger interactions with adults, bicycles, and children for EB-CADRL. Round the result to three decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.171,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 50,
+        "items": ["table1","table2", "text"],
+        "path": {
+            "table1": "2512.24971v1\\table1.jpg",
+            "table2": "2512.24971v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Best and worst values for mCE, Compression Rate (CR), and Accuracy (Acc) on the CIFAR-10 dataset.",
+            "table2": "Best and worst values for mCE, Compression Rate (CR), and Accuracy (Acc) on the CIFAR-100 dataset."
+        },
+        "text": "In CIFAR-10, technique #16 stood out with the lowest mCE (76.7) for ResNet-50 and the highest compression rate (9.42) for VGG- 19, demonstrating its multiobjective optimization prowess. Meanwhile, technique #14 achieved the highest accuracy (94.34) on MobileNetV2, indicating varying effectiveness according to the model and the objective. In particular, technique #10 yielded the worst performance in specific settings (ResNet-50 for mCE, VGG-19 for precision).",
+        "question": "Compute the average of the CR values of the experiments that achieve the highest accuracy and the lowest CR on MobileNetV2. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 3.57,
+        "answer_type": "numeric"
+    }
+]

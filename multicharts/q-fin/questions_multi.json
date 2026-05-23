@@ -1,0 +1,1246 @@
+[
+    {
+        "question_id": 1,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2508.14995v1\\chart1.jpg",
+            "chart2": "2508.14995v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Chart1 shows the model’s learning performance on the training and test sets, where the mean squared error decreases steadily over training epochs.",
+            "chart2": "Chart2 compares the model’s predicted solution of the parametric PDE with the true solution for two samples from the test set, demonstrating close agreement between prediction and ground truth."
+        },
+        "question":"Which chart has a y-axis range that spans both positive and negative values? A. chart1. B. chart2. C. Both. D. Neither. Respond only with the choice.",
+        "question_type": "perceptual",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 2,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2508.14995v1\\chart1.jpg",
+            "chart2": "2508.14995v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Chart1 shows the model’s learning performance on the training and test sets, where the mean squared error decreases steadily over training epochs.",
+            "chart2": "Chart2 compares the model’s predicted solution of the parametric PDE with the true solution for two samples from the test set, demonstrating close agreement between prediction and ground truth."
+        },
+        "question": "If in chart1 the test error is briefly lower than the training error, but in chart2 the predicted curve shows larger deviations in high-frequency regions, which explanation is most reasonable? A. The test set is easier to fit in low-frequency regions. B. The training set contains more high-frequency structures the model has not fully learned. C. The model generalizes well but lacks capacity. D. The sample in chart (b) is an outlier.Respond only with a letter.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2508.18679v1\\chart1.jpg",
+            "chart2": "2508.18679v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "This bar chart illustrates the Adjusted R-squared values of using selected raw variables within each category to regress logarithmic volatility of returns. The dashed lines indicate the Adjusted R-squared values obtained from linear regression models using aggregated scores provided by LSEG as regressors (i.e., 15 category scores, 3 pillar scores, single overall score).",
+            "chart2": "Adjusted R-squared values of HVS Step 1 vs. HVS Step 2 for the Energy Sector."
+        },
+        "question":"From chart1 and chart2, count the number of green, orange, and blue bars in a single chart. Output a list in the order [green, orange, blue]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": [3, 6, 5],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2508.18679v1\\chart1.jpg",
+            "chart2": "2508.18679v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "This bar chart illustrates the Adjusted R-squared values of using selected raw variables within each category to regress logarithmic volatility of returns. The dashed lines indicate the Adjusted R-squared values obtained from linear regression models using aggregated scores provided by LSEG as regressors (i.e., 15 category scores, 3 pillar scores, single overall score).",
+            "chart2": "Adjusted R-squared values of HVS Step 1 vs. HVS Step 2 for the Energy Sector."
+        },
+        "question":"If we compare the Governmental group in chart1 and chart2, which chart shows a larger variation within the Governmental group? Respond only with one of the following options: chart1, chart2, or approximately the same.",
+        "question_type": "reasoning",
+        "answer": "approximately the same",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2508.18679v1\\chart1.jpg",
+            "chart2": "2508.18679v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "This bar chart illustrates the Adjusted R-squared values of using selected raw variables within each category to regress logarithmic volatility of returns. The dashed lines indicate the Adjusted R-squared values obtained from linear regression models using aggregated scores provided by LSEG as regressors (i.e., 15 category scores, 3 pillar scores, single overall score).",
+            "chart2": "Adjusted R-squared values of HVS Step 1 vs. HVS Step 2 for the Energy Sector."
+        },
+        "question":"Compare the overall performance of the Social group in chart1 and chart2. Identify which chart shows higher Adjusted R-squared values for the Social group, and specify the Social category with the highest value in that chart. Your answer must follow the format: [chart,category], where the chart must be chart1 or chart2.",
+        "question_type": "reasoning",
+        "answer": "[chart2, EQ]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 6,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.01743v1\\chart1.jpg",
+            "chart2": "2509.01743v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution of log absolute errors for controlled level, slope, and term-structure features under the three-feature setting based on 1, 000 samples.",
+            "chart2": "Histogram of log absolute errors for simultaneous control of level, slope, curvature, and termstructure characteristics."
+        },
+        "question":"Between chart1 and  chart2, which figure has the higher peak density? Respond only with the label of the characteristic corresponding to the highest peak. Respond only with the label.",
+        "question_type": "perceptual",
+        "answer": "Term Structure",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.01743v1\\chart1.jpg",
+            "chart2": "2509.01743v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution of log absolute errors for controlled level, slope, and term-structure features under the three-feature setting based on 1, 000 samples.",
+            "chart2": "Histogram of log absolute errors for simultaneous control of level, slope, curvature, and termstructure characteristics."
+        },
+        "question":"Comparing chart1 and chart2, which of the following statements is correct? A. After introducing Curvature (Figure 16), the error distribution shifts to the right. B. After introducing Curvature (Figure 16), the error distribution shifts to the left. C. The centers of the two distributions are almost identical. Respond only with a letter.",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.14385v1\\chart1.jpg",
+            "chart2": "2509.14385v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Rolling CAGR of PPO vs Equal-Weight and Sharpe-Optimized strategies",
+            "chart2": "Rolling CAGR with stress period overlays for PPO vs Equal-Weight portfolios"
+        },
+        "question":"Compare chart1 and chart2: how many curves are contained in each figure? Respond in the format [num1, num2], where num1 is the number of curves in chart1 and num2 is the number of curves in chart2. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": [9, 6],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 9,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.14385v1\\chart1.jpg",
+            "chart2": "2509.14385v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Rolling CAGR of PPO vs Equal-Weight and Sharpe-Optimized strategies",
+            "chart2": "Rolling CAGR with stress period overlays for PPO vs Equal-Weight portfolios"
+        },
+        "question":"In chart1 and chart2, which figure shows stronger fluctuations in the PPO 10y curve? Respond only with chart1 or chart2.",
+        "question_type": "reasoning",
+        "answer": "chart1",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.14385v1\\chart1.jpg",
+            "chart2": "2509.14385v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Rolling CAGR of PPO vs Equal-Weight and Sharpe-Optimized strategies",
+            "chart2": "Rolling CAGR with stress period overlays for PPO vs Equal-Weight portfolios"
+        },
+        "question":"In chart1 and chart2, in which figure is the gap between PPO 10y and Equal 10y more pronounced? Respond only with chart1 or chart2.",
+        "question_type": "reasoning",
+        "answer": "chart1",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 11,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.15232v1\\chart1.jpg",
+            "chart2": "2509.15232v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Three largest empirical eigenvalues (e.g. λ₁ > λ₂ > λ₃) and their corresponding Tracy–Widom distributions (e.g. TW 1, TW 2, TW 3) for the period from 01/04/2019 to 31/12/2019. All three eigenvalues are informative since they are outside and larger than the Tracy–Widom distributions.",
+            "chart2": "19th, 20th and 21th empirical eigenvalues (e.g. λ₁₉ > λ₂₀ > λ₂₁) and their corresponding Tracy–Widom distributions (e.g. TW 19, TW 20, TW 21) for the period from 01/04/2019 to 31/12/2019. Although these eigenvalues are outside the Tracy–Widom distribution, they are considered as noise since they are much smaller than the Tracy–Widom distributions, meaning that even if they carry real information, this amount is considered negligible."
+        },
+        "question":"Using chart1 and chart2, observe the peak positions of the Tracy–Widom distributions. Identify which distribution has the rightmost peak. Respond only with the label.",
+        "question_type": "reasoning",
+        "answer": "TW 1",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.15232v1\\chart1.jpg",
+            "chart2": "2509.15232v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Three largest empirical eigenvalues (e.g. λ₁ > λ₂ > λ₃) and their corresponding Tracy–Widom distributions (e.g. TW 1, TW 2, TW 3) for the period from 01/04/2019 to 31/12/2019. All three eigenvalues are informative since they are outside and larger than the Tracy–Widom distributions.",
+            "chart2": "19th, 20th and 21th empirical eigenvalues (e.g. λ₁₉ > λ₂₀ > λ₂₁) and their corresponding Tracy–Widom distributions (e.g. TW 19, TW 20, TW 21) for the period from 01/04/2019 to 31/12/2019. Although these eigenvalues are outside the Tracy–Widom distribution, they are considered as noise since they are much smaller than the Tracy–Widom distributions, meaning that even if they carry real information, this amount is considered negligible."
+        },
+        "question":"Which Tracy–Widom distribution is overall closest to zero? Respond only with its label.",
+        "question_type": "reasoning",
+        "answer": "TW 1",
+        "answer_type": "text"
+    },
+
+
+    {
+        "question_id": 13,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.24254v2\\chart1.jpg",
+            "chart2": "2509.24254v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Metatopic Explained Variance —— BKMX",
+            "chart2": "Metatopic Explained Variance —— oLDA"
+        },
+        "question":"Count the total number of outliers (shown as circles) across all boxplots in chart1 (BKMX) and chart2 (oLDA), respectively. Report your answer in the form: [count1, count2]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": [8, 13],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 14,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.24254v2\\chart1.jpg",
+            "chart2": "2509.24254v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Metatopic Explained Variance —— BKMX",
+            "chart2": "Metatopic Explained Variance —— oLDA"
+        },
+        "question":"Suppose we want to choose the model that shows the most stable variance across different topics (i.e., whose boxplots are generally shorter). Based on charts1 and chart2, which model better satisfies this condition? Respond only with BKMX or oLDA.",
+        "question_type": "reasoning",
+        "answer": "oLDA",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.01526v1\\chart1.jpg",
+            "chart2": "2510.01526v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "omparison of QD models fine-tuned differently, using Llama3.1 as QA model. Blue bars reflect QA accuracy (left y-axis), while red bars indicate the average word count of generated questions (right y-axis).",
+            "chart2": "Comparison of inference time consumption and input length across methods. Blue bars represent time consuming (left y-axis), while red bars indicate the average word count of extra inputs (right y-axis)."
+        },
+        "question":"Using chart1 and chart2, compare the average word count of “Fine-tuned by Only Step 2” and “DP2.” Report the larger of the two values. Output a single number only.",
+        "question_type": "reasoning",
+        "answer": 223.0,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 16,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.05487v1\\chart1.jpg",
+            "chart2": "2510.05487v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Distributional comparison between empirical and simulated demand —— Histogram of simulated Negative Binomial demand",
+            "chart2": "Distributional comparison between empirical and simulated demand —— KDE comparison of actual and simulated demand"
+        },
+        "question": "Identify the chart type used in chart1 and chart2. Respond with two chart types in order, using short chart-type names, formatted as a list: [type1, type2]. Respond only with the list.",
+        "question_type": "perceptual",
+        "answer": "[Histogram, KDE]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2503.01591v1\\chart1.jpg",
+            "chart2": "2503.01591v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Topic publications by year.",
+            "chart2": "Financial asset publications per year."
+        },
+        "question": "In chart1 and chart2, how many distinct bar colors are present in each figure? Please report the number of colors for each figure separately. Respond only with a list, [num1, num2].",
+        "question_type": "perceptual",
+        "answer": [4, 9],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2503.10644v1\\chart1.jpg",
+            "chart2": "2503.10644v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Compares reported EU ETS I emissions with newly estimated emissions across 21 NACE industry sectors in Hungary. The estimated values are generally higher, with emissions concentrated in Manufacturing, Transportation and Storage, and Wholesale and Retail.",
+            "chart2": "Shows the sectoral distribution of firms’ sales, distinguishing ETS II emitters, ETS I emitters, and non-emitters. ETS II firms account for the largest share of total sales in most sectors, while ETS I firms contribute substantially only in a few emission-intensive industries."
+        },
+        "question": "Please identify the type of visualizations used in chart1 and chart2. Respond only with a type.",
+        "question_type": "perceptual",
+        "answer": "Stacked bar chart",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2503.15445v1\\chart1.jpg",
+            "chart2": "2503.15445v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Industrial carbon emissions",
+            "chart2": "Total industrial carbon emissions by province from 2010 to 2020"
+        },
+        "question": "What are the chart types of chart1 and chart2? Respond in the format: [type1, type2]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": "[Line chart, Pie chart]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 20,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2503.17778v1\\chart1.jpg",
+            "chart2": "2503.17778v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "HHI as a function of time for aggregated portfolios of (a) Finnish households (blue line), (b) Finnish institutional investors (green line), and (c) foreign investors (red line). We also provide the HHI for the whole market for comparison (orange line).",
+            "chart2": "Time evolution of the value in euro of aggregated portfolios of different macro categories. Specifically, we have Finnish households (blue line), Finnish institutional investors (green line), and foreign investors (red line). We also provide the capitalization for the whole market for reference (orange line)."
+        },
+        "question": "In chart1 and chart2. describe the color and line style of the NI curve(e.g., solid or dashed). Provide the two descriptions in a list, [color, style]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": "[green, solid]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 21,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2505.10370v2\\chart1.jpg",
+            "chart2": "2505.10370v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "A Priori Theorizing. This panel illustrates a setting where ideas are evaluated with equal weighting before results are known. Ideas that exceed the publication threshold show a clear shift toward higher actual quality, reflecting a more reliable selection process in which published work tends to represent genuinely stronger ideas.",
+            "chart2": "Post Hoc Theorizing. This panel depicts a setting where researchers choose the idea that appears most favorable after observing outcomes. This strategy inflates measured quality among published ideas but yields a broader and less reliable distribution of actual quality, highlighting how post hoc selection introduces bias and weakens the credibility of published results."
+        },
+        "question": "Compare the good-type distributions in the left panels of chart1 and chart2. Which figure shows a more concentrated peak? A. chart1 has the more concentrated peak. B. chart2 has the more concentrated peak. C. Both peaks are equally concentrated. D. Cannot be determined from the figure. Respond only with a letter.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2505.10370v2\\chart1.jpg",
+            "chart2": "2505.10370v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "A Priori Theorizing. This panel illustrates a setting where ideas are evaluated with equal weighting before results are known. Ideas that exceed the publication threshold show a clear shift toward higher actual quality, reflecting a more reliable selection process in which published work tends to represent genuinely stronger ideas.",
+            "chart2": "Post Hoc Theorizing. This panel depicts a setting where researchers choose the idea that appears most favorable after observing outcomes. This strategy inflates measured quality among published ideas but yields a broader and less reliable distribution of actual quality, highlighting how post hoc selection introduces bias and weakens the credibility of published results."
+        },
+        "question": "Across the eight distributions in chart1 and chart2, identify the distribution with the highest concentration (sharpest peak and shortest tails). Report your answer in the format: [chart1/chart2, position (left/right), type (good/bad)]. Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": "[chart1, right, good]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 23,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.08096v1\\chart1.jpg",
+            "chart2": "2509.08096v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Average fitting error (expressed as a percentage) for the 1 month and 12 month VIX over 1,000 simulations. Orange bars show fitting errors for calibration using the exact VIX term structure. Blue bars show fitting errors when using the VIX as an approximation of the variance swap rate.",
+            "chart2": "Average fitting error (expressed as a percentage) for the 1 month and 12 month VIX over 1,000 simulations. Orange bars show fitting errors for calibration using the exact VIX term structure. Blue bars show fitting errors when using the VIX as an approximation of the variance swap rate."
+        },
+        "question": "In both the chart1 and chart2, when α = 0.5, which calibration method (Approx. VIX or Exact VIX) consistently produces the higher error? Respond with Approx. VIX or Exact VIX.",
+        "question_type": "reasoning",
+        "answer": "Approx. VIX",
+        "answer_type": "text"
+    },
+
+
+    {
+        "question_id": 24,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.08096v1\\chart1.jpg",
+            "chart2": "2509.08096v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Average fitting error (expressed as a percentage) for the 1 month and 12 month VIX over 1,000 simulations. Orange bars show fitting errors for calibration using the exact VIX term structure. Blue bars show fitting errors when using the VIX as an approximation of the variance swap rate.",
+            "chart2": "Average fitting error (expressed as a percentage) for the 1 month and 12 month VIX over 1,000 simulations. Orange bars show fitting errors for calibration using the exact VIX term structure. Blue bars show fitting errors when using the VIX as an approximation of the variance swap rate."
+        },
+        "question": "If error stability is defined as having smaller variation in error across different α values, compare the Exact VIX curves in the two charts. Which time horizon exhibits more stable errors? Respond only with 1-month or 12-month.",
+        "question_type": "reasoning",
+        "answer": "12-month",
+        "answer_type": "text"
+    },
+
+
+    {
+        "question_id": 25,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.08096v1\\chart1.jpg",
+            "chart2": "2509.08096v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Average fitting error (expressed as a percentage) for the 1 month and 12 month VIX over 1,000 simulations. Orange bars show fitting errors for calibration using the exact VIX term structure. Blue bars show fitting errors when using the VIX as an approximation of the variance swap rate.",
+            "chart2": "Average fitting error (expressed as a percentage) for the 1 month and 12 month VIX over 1,000 simulations. Orange bars show fitting errors for calibration using the exact VIX term structure. Blue bars show fitting errors when using the VIX as an approximation of the variance swap rate."
+        },
+        "question": "From chart1 and chart2, find the α value at which the Exact VIX error of the 1-month curve becomes higher than that of the 12-month curve. For α below this value, the 1-month error is lower; for α at or above this value, the 1-month error is higher. Respond only with the α value. Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 0.5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.21244v1\\chart1.jpg",
+            "chart2": "2509.21244v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Shows the norms of the linear kernels, indicating how each source index influences each target index based on the strength and sign of their linear interactions.",
+            "chart2": "Presents the norms of the off-diagonal components of the quadratic kernels’ rank-one approximation, reflecting the magnitude of second-order cross-effects between different index pairs on a smaller numerical scale."
+        },
+        "question": "Compute the NASDAQ row mean in chart1 minus its row mean in chart2, rounding the result to four decimal places. Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 0.1448,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["chart1", "chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2508.01880v3\\chart1.jpg",
+            "chart2": "2508.01880v3\\chart2.jpg",
+            "chart3": "2508.01880v3\\chart3.jpg",
+            "chart4": "2508.01880v3\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "Factor Loadings and Scree Plots for Equities and Crypto —— Factor Loadings for Equity",
+            "chart2": "Factor Loadings and Scree Plots for Equities and Crypto —— Explained Variance for Equity",
+            "chart3": "Factor Loadings and Scree Plots for Equities and Crypto —— Factor Loadings for Crypto",
+            "chart4": "Factor Loadings and Scree Plots for Equities and Crypto —— Explained Variance for Crypto"
+        },
+        "question": "Using the cumulative explained variance in chart2 and chart4, determine how many principal components are needed for Equity and Crypto to exceed 80% cumulative variance. Answer in the format: [num1, num2]. Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": [4, 2],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["chart1", "chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2508.01880v3\\chart1.jpg",
+            "chart2": "2508.01880v3\\chart2.jpg",
+            "chart3": "2508.01880v3\\chart3.jpg",
+            "chart4": "2508.01880v3\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "Factor Loadings and Scree Plots for Equities and Crypto —— Factor Loadings for Equity",
+            "chart2": "Factor Loadings and Scree Plots for Equities and Crypto —— Explained Variance for Equity",
+            "chart3": "Factor Loadings and Scree Plots for Equities and Crypto —— Factor Loadings for Crypto",
+            "chart4": "Factor Loadings and Scree Plots for Equities and Crypto —— Explained Variance for Crypto"
+        },
+        "question": "Using chart1 and chart3, extract the PC2 loadings for all assets, compute the mean absolute loading of PC2 for each chart, and return the larger of the two numerical values. Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 0.414,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 29,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2508.18868v2\\chart1.jpg",
+            "chart2": "2508.18868v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of optimal Kelly strategies in the presence of estimation risk. The strike price at time 0 is K0 = 110e , (c1, c2) = (0, 0.9) and the probability of an upward move is p = 0.5. The analysis is based on N = 500 simulations over different trading periods.  The KOc strategy is obtained with a = 1/2.",
+            "chart2": "Comparison of optimal Kelly strategies in the presence of estimation risk. The strike price at time 0 is K0 = 110e , (c1, c2) = (0, 0.9) and the probability of an upward move is p = 0.5. The analysis is based on N = 500 simulations over different trading periods. The KOc strategy is obtained with a = 1/2."
+        },
+        "question": "In chart1 (n = 5) and chart2 (n = 300), what is the value of uₘ indicated by the vertical dashed line? Return the answer in the format [num1, num2], where num1 corresponds to chart1 and num2 corresponds to chart2. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": [2.0, 2.0],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 30,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2508.18868v2\\chart1.jpg",
+            "chart2": "2508.18868v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of optimal Kelly strategies in the presence of estimation risk. The strike price at time 0 is K0 = 110e , (c1, c2) = (0, 0.9) and the probability of an upward move is p = 0.5. The analysis is based on N = 500 simulations over different trading periods.  The KOc strategy is obtained with a = 1/2.",
+            "chart2": "Comparison of optimal Kelly strategies in the presence of estimation risk. The strike price at time 0 is K0 = 110e , (c1, c2) = (0, 0.9) and the probability of an upward move is p = 0.5. The analysis is based on N = 500 simulations over different trading periods. The KOc strategy is obtained with a = 1/2."
+        },
+        "question": "Which strategy(KS, KO1, KO2, KO3) shows the most significant change in curve shape when comparing chart1 (n = 5) and chart2 (n = 300)? Respond only with the strategy.",
+        "question_type": "reasoning",
+        "answer": "KOC",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 31,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.24747v1\\chart1.jpg",
+            "chart2": "2509.24747v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Risk aversion for logistic and SAHARA utility functions, depending on different parameters. The dashed vertical lines on the right-hand side mark the values of the parameter d. —— Logistic utility",
+            "chart2": "Risk aversion for logistic and SAHARA utility functions, depending on different parameters. The dashed vertical lines on the right-hand side mark the values of the parameter d. —— SAHARA utility"
+        },
+        "question": "Across both charts (Logistic and SAHARA risk aversion), which statement best describes the common effect of increasing α? A. Increasing α shifts both curves downward. B. Increasing α makes both curves steeper around the center region. C. Increasing α makes the Logistic curve steeper but the SAHARA curve flatter. D. Increasing α makes the Logistic curve flatter but the SAHARA curve steeper. Respond only with a letter.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 32,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.10260v1\\chart1.jpg",
+            "chart2": "2510.10260v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Policy improvement and convergence in Algorithm 4.1 under several ambiguity levels.",
+            "chart2": "Policy improvement and convergence in Algorithm 4.1 under several ambiguity levels."
+        },
+        "question": "The difference in the final v values for ε = 0.0 between the chart1 and chart2 is what? Respond only with a positive number.",
+        "question_type": "reasoning",
+        "answer": 0.967,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 33,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.10260v1\\chart1.jpg",
+            "chart2": "2510.10260v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Policy improvement and convergence in Algorithm 4.1 under several ambiguity levels.",
+            "chart2": "Policy improvement and convergence in Algorithm 4.1 under several ambiguity levels."
+        },
+        "question": "By examining both charts, compute the decrease in the final v value for Put and Call when epsilon increases from 0.0 to 0.4 (i.e., final value at ε=0.0 minus final value at ε=0.4). Report the larger of the two decrease magnitudes as a single numerical value. Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 1.511,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 34,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.11261v2\\chart1.jpg",
+            "chart2": "2510.11261v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of the marginal price distributions under the equilibrium measure (P) and the riskneutral measures (Q) at 1-year and 3-year points for (6.2).",
+            "chart2": "Comparison of the marginal price distribution P and the conditional price distributions P(·|Y top−25%) and P(·|Y bottom−25%) at 3-year point for (6.2)"
+        },
+        "question": "Which figure has the larger maximum y-axis tick value, chart1 or chart2? Respond with the larger y-axis tick value only.",
+        "question_type": "perceptual",
+        "answer": 0.25,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.11261v2\\chart1.jpg",
+            "chart2": "2510.11261v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of the marginal price distributions under the equilibrium measure (P) and the riskneutral measures (Q) at 1-year and 3-year points for (6.2).",
+            "chart2": "Comparison of the marginal price distribution P and the conditional price distributions P(·|Y top−25%) and P(·|Y bottom−25%) at 3-year point for (6.2)"
+        },
+        "question": "Across all curves shown in chart1 and chart2, identify the curve whose peak is located farthest to the left (i.e., the curve with the smallest x-value at its peak). Respond only with the label of curve.",
+        "question_type": "reasoning",
+        "answer": "P(3yr)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2510.20047v1\\chart1.jpg",
+            "chart2": "2510.20047v1\\chart2.jpg",
+            "chart3": "2510.20047v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Grouped correlations of 9 stocks over the period 2021–2024.——KO, AAPL,TSLA",
+            "chart2": "Grouped correlations of 9 stocks over the period 2021–2024.——GOOGL, MSFT, META",
+            "chart3": "Grouped correlations of 9 stocks over the period 2021–2024.——JPM, NVDA, AMZN"
+        },
+        "question": "Across chart1, chart2, and chart3, identify the correlation coefficient with the smallest absolute value and return the two involved labels in alphabetical order (by first letter), in the format: [label1, label2]. Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": "[AMZN, NVDA]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2507.03963v1\\chart1.jpg",
+            "chart2": "2507.03963v1\\chart1.jpg",
+            "chart3": "2507.03963v1\\chart1.jpg"
+        },
+        "caption": {
+            "chart1": "Parameter–metric correlations, 1-year training. Bars show the Pearson correlation of each control parameter (α, β, λ, ω) with the indicated portfolio metric across the full 625-point grid. —— Correlation with Sharpe ratio",
+            "chart2": "Parameter–metric correlations, 1-year training. Bars show the Pearson correlation of each control parameter (α, β, λ, ω) with the indicated portfolio metric across the full 625-point grid. —— Correlation with efficiency",
+            "chart3": "Parameter–metric correlations, 1-year training. Bars show the Pearson correlation of each control parameter (α, β, λ, ω) with the indicated portfolio metric across the full 625-point grid. —— Correlation with HHI"
+        },
+        "question": "The color of the Alpha (α) bar in each of the three charts is the same, and what is it. Respond only with a color, e.g. green.",
+        "question_type": "perceptual",
+        "answer": "red",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 38,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2507.03963v1\\chart1.jpg",
+            "chart2": "2507.03963v1\\chart1.jpg",
+            "chart3": "2507.03963v1\\chart1.jpg"
+        },
+        "caption": {
+            "chart1": "Parameter–metric correlations, 1-year training. Bars show the Pearson correlation of each control parameter (α, β, λ, ω) with the indicated portfolio metric across the full 625-point grid. —— Correlation with Sharpe ratio",
+            "chart2": "Parameter–metric correlations, 1-year training. Bars show the Pearson correlation of each control parameter (α, β, λ, ω) with the indicated portfolio metric across the full 625-point grid. —— Correlation with efficiency",
+            "chart3": "Parameter–metric correlations, 1-year training. Bars show the Pearson correlation of each control parameter (α, β, λ, ω) with the indicated portfolio metric across the full 625-point grid. —— Correlation with HHI"
+        },
+        "question": "Across the three charts, compute the correlation range for each parameter (defined as the maximum correlation value minus the minimum correlation value across the three charts). Which parameter has the largest range, and respond the exact value of this maximum range? Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 0.841,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 39,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2507.03963v1\\chart1.jpg",
+            "chart2": "2507.03963v1\\chart1.jpg",
+            "chart3": "2507.03963v1\\chart1.jpg"
+        },
+        "caption": {
+            "chart1": "Parameter–metric correlations, 1-year training. Bars show the Pearson correlation of each control parameter (α, β, λ, ω) with the indicated portfolio metric across the full 625-point grid. —— Correlation with Sharpe ratio",
+            "chart2": "Parameter–metric correlations, 1-year training. Bars show the Pearson correlation of each control parameter (α, β, λ, ω) with the indicated portfolio metric across the full 625-point grid. —— Correlation with efficiency",
+            "chart3": "Parameter–metric correlations, 1-year training. Bars show the Pearson correlation of each control parameter (α, β, λ, ω) with the indicated portfolio metric across the full 625-point grid. —— Correlation with HHI"
+        },
+        "question": "Using the correlation values shown in Chart 1, Chart 2, and Chart 3 for the four parameters (Alpha, Beta, Lambda, and Omega), construct a 2D table in the format below. The columns should represent the parameter name, its correlation with the Sharpe Ratio, its correlation with the Efficiency Ratio, and its correlation with HHI. [[Parameter, Correlation_with_Sharpe, Correlation_with_Efficiency, Correlation_with_HHI] [Alpha, x, x, x] [Beta, x, x, x] [Lambda, x, x, x] [Omega, x, x, x]] Respond only with the 2D table.",
+        "question_type": "chart to table",
+        "answer": [["Parameter", "Correlation_with_Sharpe", "Correlation_with_Efficiency", "Correlation_with_HHI"],
+            ["Alpha", 0.271, -0.147, -0.204],
+            ["Beta", 0.021, -0.063, 0.001],
+            ["Lambda", 0.036, -0.198, 0.216],
+            ["Omega", -0.480, -0.057, 0.361]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 40,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2508.03704v1\\chart1.jpg",
+            "chart2": "2508.03704v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of Three Strategies",
+            "chart2": "Comparison of Three Strategies"
+        },
+        "question": "What type of chart is used in these two figures? Respond withe a type only.",
+        "question_type": "perceptual",
+        "answer": "bar chart",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2508.03704v1\\chart1.jpg",
+            "chart2": "2508.03704v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of Three Strategies",
+            "chart2": "Comparison of Three Strategies"
+        },
+        "question": "Using both chart1 and chart2, determine whether there exists any strategy that achieves both the highest weight and the highest correlation for the same asset. If such a case exists, identify the asset and the strategy in a list, [assert, strategy]; otherwise, answer none only. Respond only with a list or none.",
+        "question_type": "reasoning",
+        "answer": "[Asset1, Equally Weighted]",
+        "answer_type": "text"
+    },
+
+
+    {
+        "question_id": 42,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.14986v1\\chart1.jpg",
+            "chart2": "2510.14986v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Presents the annualized returns of the proposed RegimeFolio (Regime-Aware Strategy) across varying volatility regimes, demonstrating its adaptability and superior performance relative to the Equal-Weight Portfolio and the Russell 2000 Index.",
+            "chart2": "Shows sector-wise performance from 2020 to 2024, where RegimeFolio (Regime-Aware Strategy) consistently outperforms alternative approaches across all major economic sectors."
+        },
+        "question": "Compare the performance of the Regime-Aware Strategy in Chart1 and Chart2. In which chart does the strategy achieve a higher maximum return? Also report the value of this maximum return (without the percent sign). Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 29.7,
+        "answer_type": "numeric"
+    },
+
+
+    {
+        "question_id": 43,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.17963v1\\chart1.jpg",
+            "chart2": "2511.17963v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Portfolio compositions of Hybrid LSTM+PPO portfolios across two consecutive evaluation weeks (March 24 and March 31, 2024). Top-5 configurations. Increasing K leads to broader diversification and smoother allocation distributions across sectors and asset classes.",
+            "chart2": "Portfolio compositions of Hybrid LSTM+PPO portfolios across two consecutive evaluation weeks (March 24 and March 31, 2024). Top-10 configurations. Increasing K leads to broader diversification and smoother allocation distributions across sectors and asset classes."  
+        },
+        "question": "Based on the number of distinct asset slices shown in the charts, count how many asset categories appear in Chart 1 and Chart 2, respectively, and return the result in the format: [number_in_Chart1, number_in_Chart2]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": [5, 10],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 44,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.17963v1\\chart1.jpg",
+            "chart2": "2511.17963v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Portfolio compositions of Hybrid LSTM+PPO portfolios across two consecutive evaluation weeks (March 24 and March 31, 2024). Top-5 configurations. Increasing K leads to broader diversification and smoother allocation distributions across sectors and asset classes.",
+            "chart2": "Portfolio compositions of Hybrid LSTM+PPO portfolios across two consecutive evaluation weeks (March 24 and March 31, 2024). Top-10 configurations. Increasing K leads to broader diversification and smoother allocation distributions across sectors and asset classes."  
+        },
+        "question": "What type of chart is used in all the figures in Chart 1 and Chart 2? Choose the correct type from the following list and respond only with the type. [bar chart, line chart, scatter plot, pie chart, donut chart, area chart]. Respond only with the type.",
+        "question_type": "perceptual",
+        "answer": "donut chart",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 45,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2410.03552v1\\chart1.jpg",
+            "chart2": "2410.03552v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparing academic levels in LATAM through the research and patents status in the region. Data was sourced from the Emerging Technology Observatory.",
+            "chart2": "Investment status in the technology and AI sector in Latin America. Data was sourced from Dealroom.co and The Emerging Technology Observatory."
+        },
+        "question": "Using Chart 1 and Chart 2, identify all countries that satisfy both of the following conditions: (1) Their scholarly article count in Chart 1 exceeds 3000; (2) Their total AI investment in Chart 2 is more than 1000 million USD. Respond only with a country.",
+        "question_type": "reasoning",
+        "answer": "Chile",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 46,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2410.03552v1\\chart1.jpg",
+            "chart2": "2410.03552v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparing academic levels in LATAM through the research and patents status in the region. Data was sourced from the Emerging Technology Observatory.",
+            "chart2": "Investment status in the technology and AI sector in Latin America. Data was sourced from Dealroom.co and The Emerging Technology Observatory."
+        },
+        "question": "Using Chart 1 and Chart 2, determine whether there exists any country that satisfies both of the following conditions: (1) Its scholarly article count in Chart 1 exceeds 10000; (2) Its total AI investment in Chart 2 ranks within the top five. If such a country exists, return its name; otherwise, return “none.” Respond only a country or none.",
+        "question_type": "reasoning",
+        "answer": "Mexico",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 47,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2502.19349v3\\chart1.jpg",
+            "chart2": "2502.19349v3\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "MAE comparison between linear and transformer-based models",
+            "chart2": "MSE comparison between linear and transformer-based models."
+        },
+        "question": "In Chart 1 and Chart 2, check whether the ULlinear model uses the same bar color. If the colors are identical, respond with the color; otherwise, respond with no. Respond only with the color or no.",
+        "question_type": "perceptual",
+        "answer": "gray",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 48,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2502.19349v3\\chart1.jpg",
+            "chart2": "2502.19349v3\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "MAE comparison between linear and transformer-based models",
+            "chart2": "MSE comparison between linear and transformer-based models."
+        },
+        "question": "In Chart 1 (MAE) and Chart 2 (MSE), find the error values of the Autoformer model for the BTC token. Extract its MAE and MSE, and return them in the format [mae, mse]. Respond only a list with two number.",
+        "question_type": "perceptual",
+        "answer": [0.16, 0.04],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 49,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2502.19349v3\\chart1.jpg",
+            "chart2": "2502.19349v3\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "MAE comparison between linear and transformer-based models",
+            "chart2": "MSE comparison between linear and transformer-based models."
+        },
+        "question": "Using Chart 1 (MAE) and Chart 2 (MSE), extract the MAE and MSE values of the Autoformer model for the eight tokens (BTC, ETH, USDT, BNB, SOL, top10, top15, top20), and organize them into a 2D table in the format: [[Token, Autoformer_MAE, Autoformer_MSE], [BTC, x, y], [ETH, x, y], ...]. Respond only with the 2D list with column label.",
+        "question_type": "chart to table",
+        "answer": [["Token", "Autoformer_MAE", "Autoformer_MSE"],
+            ["BTC", 0.16, 0.04],
+            ["ETH", 0.16, 0.04],
+            ["USDT", 0.39, 0.27],
+            ["BNB", 0.16, 0.04],
+            ["SOL", 0.15, 0.04],
+            ["top10", 0.2, 0.08],
+            ["top15", 0.19, 0.07],
+            ["top20", 0.19, 0.07]],
+        "answer_type": "table_list"
+    },
+
+        
+    {
+        "question_id": 50,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2512.00280v2\\chart1.jpg",
+            "chart2": "2512.00280v2\\chart2.jpg",
+            "chart3": "2512.00280v2\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Earnings Announcements by Retail Investor Horizons —— Earnings Surprise Distribution",
+            "chart2": "Earnings Announcements by Retail Investor Horizons —— Day of the Week Distribution",
+            "chart3": "Earnings Announcements by Retail Investor Horizons —— Earnings Surprise Histogram for Quantiles"
+        },
+        "question": "Compare the highest Long-Term announcement count in Chart 2 with the highest Long-Term announcement count in Chart 3. Which one is larger? Respond in the format: [Chart 2 or Chart 3, corresponding x-axis value]. Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": "[Chart2, 3]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 51,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2507.08193v2\\chart1.jpg",
+            "chart2": "2507.08193v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Multi-label Classification Model Performance",
+            "chart2": "Multi-output Regression Model Performance"
+        },
+        "question": "In chart1 and chart2, which color does performance closer to “bad” tend to correspond to, and which color does performance closer to “good” tend to correspond to? Respond in the format: [bad_color, good_color]. Respond only with the list.",
+        "question_type": "perceptual",
+        "answer": "[red, blue]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 52,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.16066v2\\chart1.jpg",
+            "chart2": "2510.16066v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of AUROC performance across models and feature sets on the training and validation splits. —— AUROC performance on the training split with different features.",
+            "chart2": "Comparison of AUROC performance across models and feature sets on the training and validation splits. —— AUROC performance on the validation split with different features."
+        },
+        "question": "For the Gradient Boosting model, compute the AUROC difference for the “Application Information” feature set between the training split and the validation split. Respond with a positive number only.",
+        "question_type": "reasoning",
+        "answer": 0.059,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 53,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.16066v2\\chart1.jpg",
+            "chart2": "2510.16066v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of AUROC performance across models and feature sets on the training and validation splits. —— AUROC performance on the training split with different features.",
+            "chart2": "Comparison of AUROC performance across models and feature sets on the training and validation splits. —— AUROC performance on the validation split with different features."
+        },
+        "question": "Identify the bar with the darkest color and provide its corresponding feature set. Respond with the feature set only.",
+        "question_type": "perceptual",
+        "answer": "Both",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 54,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.18614v1\\chart1.jpg",
+            "chart2": "2511.18614v1\\chart2.jpg",
+            "chart3": "2511.18614v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Quarterly calibration of (p, s) pairs for Australia over the period 2010–2025. Each red star corresponds to the first quarter of a given year, with color intensity increasing over time to represent the temporal dimension of the calibration. The blue circle marks the starting point (Q1 2010), while the red circle denotes the most recent observation (Q1 2025). The green star corresponds to the global financial crisis (Q4 2008).",
+            "chart2": "Quarterly calibration of (p, s) pairs for Germany over the period 2010–2025. Each red star corresponds to the first quarter of a given year, with color intensity increasing over time to represent the temporal dimension of the calibration. The blue circle marks the starting point (Q1 2010), while the red circle denotes the most recent observation (Q1 2025). The green star corresponds to the global financial crisis (Q4 2008).",
+            "chart3": "Quarterly calibration of (p, s) pairs for Switzerland over the period 2010–2025. Each red star corresponds to the first quarter of a given year, with color intensity increasing over time to represent the temporal dimension of the calibration. The blue circle marks the starting point (Q1 2010), while the red circle denotes the most recent observation (Q1 2025). The green star corresponds to the global financial crisis (Q4 2008)."
+        },
+        "question": "All three charts for Australia, Germany, and Switzerland use the same visualization format. Identify the type of chart used. Respond only with the chart type.",
+        "question_type": "perceptual",
+        "answer": "Scatter plot",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 55,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.18614v1\\chart1.jpg",
+            "chart2": "2511.18614v1\\chart2.jpg",
+            "chart3": "2511.18614v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Quarterly calibration of (p, s) pairs for Australia over the period 2010–2025. Each red star corresponds to the first quarter of a given year, with color intensity increasing over time to represent the temporal dimension of the calibration. The blue circle marks the starting point (Q1 2010), while the red circle denotes the most recent observation (Q1 2025). The green star corresponds to the global financial crisis (Q4 2008).",
+            "chart2": "Quarterly calibration of (p, s) pairs for Germany over the period 2010–2025. Each red star corresponds to the first quarter of a given year, with color intensity increasing over time to represent the temporal dimension of the calibration. The blue circle marks the starting point (Q1 2010), while the red circle denotes the most recent observation (Q1 2025). The green star corresponds to the global financial crisis (Q4 2008).",
+            "chart3": "Quarterly calibration of (p, s) pairs for Switzerland over the period 2010–2025. Each red star corresponds to the first quarter of a given year, with color intensity increasing over time to represent the temporal dimension of the calibration. The blue circle marks the starting point (Q1 2010), while the red circle denotes the most recent observation (Q1 2025). The green star corresponds to the global financial crisis (Q4 2008)."
+        },
+        "question": "Compare the SG values at the 2025Q1 (red circle) position for Australia, Germany, and Switzerland. Identify which country has the highest SG value and respond only with the country name.",
+        "question_type": "reasoning",
+        "answer": "Germany",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 56,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2507.08193v2\\chart1.jpg",
+            "chart2": "2507.08193v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Pearson correlation of the Features (Non-significant features are marked with a cross mark (X)) —— 0.05 Significance Level",
+            "chart2": "Pearson correlation of the Features (Non-significant features are marked with a cross mark (X)) —— 0.01 Significance Level"
+        },
+        "question": "Count the total number of non-significant feature pairs marked with an “X” in Chart 1 and in Chart 2. Which chart contains more X-marks? Respond only with the larger number.",
+        "question_type": "perceptual",
+        "answer": 15,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 57,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2507.08193v2\\chart1.jpg",
+            "chart2": "2507.08193v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Pearson correlation of the Features (Non-significant features are marked with a cross mark (X)) —— 0.05 Significance Level",
+            "chart2": "Pearson correlation of the Features (Non-significant features are marked with a cross mark (X)) —— 0.01 Significance Level"
+        },
+        "question": "In the chart, what does the symbol “X” represent? Respond with a single short sentence.",
+        "question_type": "perceptual",
+        "answer": "In the chart, the symbol X represents non-significant feature pairs",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 58,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2508.15651v1\\chart1.jpg",
+            "chart2": "2508.15651v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "TSG model rankings on the Predictive Utility tasks from 2021 to 2024.",
+            "chart2": "TSG model rankings on the Statistical Arbitrage tasks from 2021 to 2024."
+        },
+        "question": "Both Chart 1 and Chart 2 use the same visualization format. Identify the chart type used in these two figures. Respond only with the type.",
+        "question_type": "perceptual",
+        "answer": "radar chart",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 59,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2508.15651v1\\chart1.jpg",
+            "chart2": "2508.15651v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "TSG model rankings on the Predictive Utility tasks from 2021 to 2024.",
+            "chart2": "TSG model rankings on the Statistical Arbitrage tasks from 2021 to 2024."
+        },
+        "question": "For Chart 1 and Chart 2, count how many models are included in each chart. Respond in the format: [num_chart1, num_chart2]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": [8, 6],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 60,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.15993v1\\chart1.jpg",
+            "chart2": "2510.15993v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Performance Comparison of CenFLARKO and FedFLARKO Against Baseline Models",
+            "chart2": "Performance Comparison of CenFLARKO and FedFLARKO Against Baseline Models"
+        },
+        "question": "Identify the chart types used in the left and right figures. Choose the answers from the following list : [scatter plot, line chart, bar chart, histogram, box plot, area chart, heatmap, pie chart, radar chart, violin plot]. Respond in the format: [chart1_type, chart2_type], selecting only from the list above. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": "[scatter plot, bar chart]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 61,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.15993v1\\chart1.jpg",
+            "chart2": "2510.15993v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Performance Comparison of CenFLARKO and FedFLARKO Against Baseline Models",
+            "chart2": "Performance Comparison of CenFLARKO and FedFLARKO Against Baseline Models"
+        },
+        "question": "Across the two charts, identify the model with the highest Comb@3 value in chart2 and the model with the highest Pref@3 value in chart1. Determine whether these top-performing models are the same. If they are the same, respond with the model name; otherwise, respond with different. Respond only the model or different.",
+        "question_type": "reasoning",
+        "answer": "Qwen3‑1.7B",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 62,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.08588v1\\chart1.jpg",
+            "chart2": "2511.08588v1\\chart2.jpg",
+            "chart3": "2511.08588v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "A comparison of per-round training metrics and SHAP feature importance across Washington, Hawaii, and New York. —— Washington SHAP feature importance",
+            "chart2": "A comparison of per-round training metrics and SHAP feature importance across Washington, Hawaii, and New York. —— Hawaii SHAP feature importance",
+            "chart3": "A comparison of per-round training metrics and SHAP feature importance across Washington, Hawaii, and New York. —— New York SHAP feature importance"
+        },
+        "question": "Using the SHAP feature-importance charts for Washington, Hawaii, and New York, extract the SHAP values of the following five features—Education, Marital Status, Living Arrangements, Annual Income, and Employment—and organize them into a 2D table with states as columns and features as rows, in the following format: [[Feature, Washington_SHAP, Hawaii_SHAP, NewYork_SHAP], [Education, x, x, x], [Marital Status, x, x, x], [Living Arrangements, x, x, x], [Annual Income, x, x, x], [Employment, x, x, x]]. Respond only a 2D table with column label.",
+        "question_type": "chart to table",
+        "answer": [["Feature", "Washington_SHAP", "Hawaii_SHAP", "NewYork_SHAP"],
+            ["Education", 2.42, 2.38, 2.38],
+            ["Marital Status", 2.70, 3.27, 2.96],
+            ["Living Arrangements", 2.89, 2.90, 2.57],
+            ["Annual Income",  2.60, 2.66, 2.67],
+            ["Employment", 2.57, 2.71, 2.44]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 63,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.08588v1\\chart1.jpg",
+            "chart2": "2511.08588v1\\chart2.jpg",
+            "chart3": "2511.08588v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "A comparison of per-round training metrics and SHAP feature importance across Washington, Hawaii, and New York. —— Washington SHAP feature importance",
+            "chart2": "A comparison of per-round training metrics and SHAP feature importance across Washington, Hawaii, and New York. —— Hawaii SHAP feature importance",
+            "chart3": "A comparison of per-round training metrics and SHAP feature importance across Washington, Hawaii, and New York. —— New York SHAP feature importance"
+        },
+        "question": "Using the SHAP charts for Washington, Hawaii, and New York, compute the range of the “Employment” feature (maximum SHAP value minus minimum SHAP value). Respond only with the positive number.",
+        "question_type": "reasoning",
+        "answer": 0.27,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 64,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2507.01963v1\\chart1.jpg",
+            "chart2": "2507.01963v1\\chart2.jpg",
+            "chart3": "2507.01963v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Temporal distribution of wash trading activity per token, relative to its creation date, across different blockchains",
+            "chart2": "Relationship between price increase percentage and buy volume for LPI activities across different blockchains.",
+            "chart3": "Relationship between price increase during pump and decrease during dump across different blockchains."
+        },
+        "question": "In chart1,chart2 and chart3, what marker shape is used for the bsc platform? Respond only with the marker shape. ",
+        "question_type": "perceptual",
+        "answer": "square",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 65,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2507.13023v3\\chart1.jpg",
+            "chart2": "2507.13023v3\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "The relationship between median trade volume and gross returns for each searcher, with bubble size indicating searchers’ total estimated revenue and color encoding their execution pattern.",
+            "chart2": "Bubble plot illustrating searchers’ median profit margin (x-axis) and median estimated PnL per trade (y-axis). The color shows the searcher’s integration level. The bubble size represents the searcher’s total PnL. Due to Graves having a negative total PnL, we show its absolute value. The negative tick of the x-axis (-300%) is not proportionally spaced."
+        },
+        "question": "In Chart 1 and Chart 2, identify the searcher with the largest bubble (i.e., the largest circle) in each chart, and provide their labels. Respond in the format: [label1, label2], where label1 corresponds to Chart 1 and label2 corresponds to Chart 2.",
+        "question_type": "perceptual",
+        "answer": "[Wintermute, Wintermute]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 66,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2507.13023v3\\chart1.jpg",
+            "chart2": "2507.13023v3\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "The relationship between median trade volume and gross returns for each searcher, with bubble size indicating searchers’ total estimated revenue and color encoding their execution pattern.",
+            "chart2": "Bubble plot illustrating searchers’ median profit margin (x-axis) and median estimated PnL per trade (y-axis). The color shows the searcher’s integration level. The bubble size represents the searcher’s total PnL. Due to Graves having a negative total PnL, we show its absolute value. The negative tick of the x-axis (-300%) is not proportionally spaced."
+        },
+        "question": "Do Chart 1 and Chart 2 use the same chart type? If yes, state the type. Respond only with the type or no.",
+        "question_type": "perceptual",
+        "answer": "bubble plot",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 67,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2508.16589v1\\chart1.jpg",
+            "chart2": "2508.16589v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Performance of Always Quoting MM (𝜂 = 0.0, 𝜁 = 0.0)",
+            "chart2": "Performance of 2-Action MM (Train & Test @ vol=2) (η = 0.0, ζ = 0.0)"
+        },
+        "question": "In each chart, how many Adversary Types are shown on the horizontal axis? Respond with the exact number in this format:  [chart1_num, chart2_num]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": [6, 6],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 68,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2508.16589v1\\chart1.jpg",
+            "chart2": "2508.16589v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Performance of Always Quoting MM (𝜂 = 0.0, 𝜁 = 0.0)",
+            "chart2": "Performance of 2-Action MM (Train & Test @ vol=2) (η = 0.0, ζ = 0.0)"
+        },
+        "question": "Determine whether chart1 and chart2 use the same chart type. If yes, respond with the chart type selected from the following list. If not, respond no. Chart type list: [scatter plot, line chart, bar chart, histogram, box plot, violin plot, area chart, heatmap, bubble plot, pie chart, radar chart, density plot, strip plot, swarm plot] Respond only with one chart type from the list above or no.",
+        "question_type": "perceptual",
+        "answer": "violin plot",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 69,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.22341v1\\chart1.jpg",
+            "chart2": "2510.22341v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "",
+            "chart2": ""
+        },
+        "question": "In chart1 and chart, what is the color of the segment with the largest proportion in the pie charts? Respond with the color name only in this format, [chart1, chart2].",
+        "question_type": "perceptual",
+        "answer": "[Pink, Pink]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 70,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.22341v1\\chart1.jpg",
+            "chart2": "2510.22341v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "",
+            "chart2": ""
+        },
+        "question": "From chart1 and chart2, extract the percentage values of the four transaction types in both pie charts (“Number of Transactions by Account Type” and “Value of Transactions by Account Type”), and organize them into the following 2D table with column label: [[Transaction Type, Number Share, Value Share], [OHA→OHA, x, x], [OHA→PHA, x, x], [PHA→OHA, x, x], [PHA→PHA, x, x]]. Use raw numerical values for x (do not include the percent sign). Respond only with the 2D table.",
+        "question_type": "chart to table",
+        "answer": [["Transaction Type", "Number Share", "Value Share"],
+            ["OHA→OHA", 5.6, 3.1],
+            ["OHA→PHA", 7.6, 4.8],
+            ["PHA→OHA", 12.8, 11.8],
+            ["PHA→PHA", 74.0, 80.3]],
+        "answer_type": "table_list"
+    }
+]

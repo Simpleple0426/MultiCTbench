@@ -1,0 +1,259 @@
+[
+    {
+        "question_id": 1,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2502.10923v2\\chart1.jpg",
+            "chart2": "2502.10923v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "UPI interference under multi-application scenarios, showing normalized cycles with page-walk overhead highlighted and performance improvement annotated relative to Mitosis.",
+            "chart2": "Memory bandwidth interference under multi-application scenarios, showing normalized cycles with page-walk overhead highlighted and performance improvement annotated relative to Mitosis."
+        },
+        "question": "How consistent is the workload ordering between the two charts? A. Fully consistent B. Partially consistent C. Completely different Respond only with a single letter.",
+        "question_type": "perceptual",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.19509v1\\chart1.jpg",
+            "chart2": "2512.19509v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Transfer learning performance on low-resource languages for code summarization, showing BLEU scores and improvement rates over the non-fine-tuned baseline.",
+            "chart2": "Transfer learning performance on low-resource languages for code search, showing accuracy and improvement rates over the non-fine-tuned baseline."
+        },
+        "question": "Using Chart 1 and Chart 2, extract the Java-SFT improvement rates (IR) for AppleScript in BLEU and Accuracy, and return them as a list in the order [BLEU_IR, Accuracy_IR]. Respond only with a list of numeric values.",
+        "question_type": "perceptual",
+        "answer": [5.68, 5.09],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.22443v1\\chart1.jpg",
+            "chart2": "2512.22443v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Multi-Calculation Benchmark (3-shot CoT): Accuracy comparison across different models.",
+            "chart2": "Accounting-Reasoning Benchmark (3-shot CoT): Model accuracy across difficulty levels."
+        },
+        "question": "Extract GPT-4’s Accuracy from Chart 1 and GPT-4’s Accuracy under Easy difficulty from Chart 2, and return them in order. Respond only with a list of numeric values.",
+        "question_type": "perceptual",
+        "answer": [91.45, 27.14],
+        "answer_type": "numeric_list"
+    },
+
+
+    {
+        "question_id": 9,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.22615v1\\chart1.jpg",
+            "chart2": "2512.22615v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "BlockWorlds (grounding): Performance of VLMs on grounding tasks in the BlockWorlds setting across action/task types and difficulty levels.",
+            "chart2": "BlockWorlds (planning): Performance of VLMs on planning tasks in the BlockWorlds setting across action/task types and difficulty levels."
+        },
+        "question": "Extract the Accuracy of InternVL3-8B under Action·Simple from Chart 1 and Chart 2, in this order. Respond only with a list of numeric values.",
+        "question_type": "perceptual",
+        "answer": [0.26, 0.11],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 20,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23347v1\\chart1.jpg",
+            "chart2": "2512.23347v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Impact of Lead Dropout on Morphology vs. Rhythm. Morphology classes (red) degrade significantly without spatial context (−12.0%), while Rhythm classes (green) remain robust (+2.1%), validating the physiological disentanglement hypothesis.",
+            "chart2": "Comprehensive ablation study. The significant performance drop when removing either the Context (Mamba) or Rhythm (HRV) component validates the necessity of the proposed multi-view design."
+        },
+        "question": "Which visual encoding is most similarly used to distinguish categories in Chart 1 and Chart 2? A. Marker shapes B. Line styles C. Bar colors D. Axis separation Respond only with a single letter.",
+        "question_type": "perceptual",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 49,
+        "items": ["chart1","chart2", "chart3"],
+        "path": {
+            "chart1": "2512.24278v1\\chart1.jpg",
+            "chart2": "2512.24278v1\\chart2.jpg",
+            "chart3": "2512.24278v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Precision–recall area under the curve (PR-AUC) across four rare-lesion categories and the macro-average (Overall), comparing eight data generation strategies.",
+            "chart2": "Receiver operating characteristic area under the curve (ROC-AUC) across four rare-lesion categories and the macro-average (Overall), comparing eight data generation strategies.",
+            "chart3": "TPR@20% FPR (true positive rate at a fixed 20% false positive rate) across four rare-lesion categories and the macro-average (Overall), comparing eight data generation strategies."
+        },
+        "question": "In Juvenile Polyposis Syndrome, which strategy has the lowest value in both Chart 1 and Chart 2? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "No Augment",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 52,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24470v1\\chart1.jpg",
+            "chart2": "2512.24470v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Model awareness vs latency, showing only the pareto frontier.",
+            "chart2": "Awareness leaderboard, only showing the per-provider pareto frontier."
+        },
+        "question": "Determine whether the number of green (OpenAI) bars/points is the same in Chart 1 and Chart 2. If the numbers are the same, respond with the exact count as a single integer. If the numbers are different, respond only with No. Respond only with a single integer or No.",
+        "question_type": "perceptual",
+        "answer": 6,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 58,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24985v1\\chart1.jpg",
+            "chart2": "2512.24985v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Room category distribution",
+            "chart2": "Question category distribution"
+        },
+        "question": "How many categories have even percentage values in Chart 1 and Chart 2 respectively? Respond only with a list of two integers.",
+        "question_type": "perceptual",
+        "answer": [3, 3],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 49,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24263v1\\chart1.jpg",
+            "chart2": "2512.24263v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "The average generation length of models trained with different algorithms, sampled under helpfulness and harmlessness prompts.",
+            "chart2": "The average generation length of models trained with different algorithms, sampled under helpfulness and harmlessness prompts."
+        },
+        "question": "From Chart 2, what is the average generation length of SACPO (P) [0.5]? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 1212,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23628v1\\chart1.jpg",
+            "chart2": "2512.23628v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Effect of guidance scale on memorization in the base model, showing training and test Fréchet Distance as a function of guidance scale w.",
+            "chart2": "Effect of guidance scale on memorization in the large model, showing training and test Fréchet Distance as a function of guidance scale w."
+        },
+        "question": "What fill color is used to indicate memorization regions in Chart 1? Respond only with a single color name.",
+        "question_type": "perceptual",
+        "answer": "light green",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.24077v1\\chart1.jpg",
+            "chart2": "2512.24077v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Evolutionary Effect & Efficiency.",
+            "chart2": "Score Convergence over Time. Note: Faint lines represent individual runs (N = 3), and bold lines represent the average trajectory."
+        },
+        "question": "From Chart 1, extract the annotated Top Score value of the Executor Ablation – Chat Mode. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.995,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23994v1\\chart1.jpg",
+            "chart2": "2512.23994v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Audio-physics distribution of PhyAVBench.",
+            "chart2": "Scenario distribution of PhyAVBench across different scenario types."
+        },
+        "question": "How many first-level audio-physics categories (inner ring) are shown in Chart 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 6,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23898v1\\chart1.jpg",
+            "chart2": "2512.23898v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Model Comparison on the Test Dataset: Performance Metrics Comparison and Inference Throughput Comparison",
+            "chart2": "Radar Chart of Standardized Performance Metrics"
+        },
+        "question": "How many different performance metrics are displayed in Chart 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 23,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23512v2\\chart1.jpg",
+            "chart2": "2512.23512v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Ablation results on MMBench for different vision generation configurations, comparing baseline with +ploss, +diffuloss, and +warmup across training scales.",
+            "chart2": "Ablation results on SeedBench for different vision generation configurations, comparing baseline with +ploss, +diffuloss, and +warmup across training scales."
+        },
+        "question": "In Chart 1, what color represents the baseline method? Respond only with a single color name.",
+        "question_type": "perceptual",
+        "answer": "green",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.23206v1\\chart1.jpg",
+            "chart2": "2512.23206v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "The distribution of source abstracts’ discipline in BiomedTLDR.",
+            "chart2": "The distribution of source abstracts’ discipline in CiteSum."
+        },
+        "question": "How many discipline categories are displayed in Chart 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 19,
+        "answer_type": "numeric"
+    }
+]

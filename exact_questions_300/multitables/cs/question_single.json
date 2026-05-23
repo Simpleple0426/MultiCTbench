@@ -1,0 +1,171 @@
+[
+    {
+        "question_id": 65,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23852v1\\table1.jpg",
+            "table2": "2512.23852v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance of Trellis and baselines on language modeling and common-sense reasoning tasks.",
+            "table2": "Performance of Trellis and baselines with 1B parameters on S-NIAH task from RULER benchmark. The best results with highest accuracy are highlighted."
+        },
+        "question": "Compute the average accuracy of TTT on PIQA, Hella, and Wino in Table 1. Respond only with a single numeric value rounded to two decimal places.",
+        "question_type": "reasoning",
+        "answer": 52.71,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 48,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23453v1\\table1.jpg",
+            "table2": "2512.23453v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Results on CHAIR benchmark. We limit the maximum number of new tokens to 64. Lower CHAIRs, CHAIRi and higher recall and length indicate better performance. The best results in each setting are bolded, and the second-best are underlined.",
+            "table2": "Results on MME-Hallucination and MMBench benchmark. We present the average MME scores along with their standard deviations over three random seeds for each subset. Additionally, the final column reports the overall accuracy of each method on the MMBench benchmark. Higher values denote better performance. The best results are highlighted in bold, while the second-best are marked with underlining."
+        },
+        "question": "Compute the average of Existence, Count, Position, and Color scores of Ours in Table 2. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 158.505,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 56,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23667v2\\table1.jpg",
+            "table2": "2512.23667v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Single-view intrinsic decomposition results on HyperSim.",
+            "table2": "Single-view depth estimation results."
+        },
+        "question": "Compute the difference between Albedo PSNR and Shading PSNR of IDT (Ours) in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 4.53,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.22712v1\\table1.jpg",
+            "table2": "2512.22712v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Accuracy (Acc, ↑) and Trace Inconsistency Rate (TIR, ↓) across languages and models. LS = Latin script, NLS = Not Latin script, HRL = Higher-resourced language, LRL = Lower-resourced language. For each model, the highest Accuracy and lowest TIR among individual languages are highlighted in bold.",
+            "table2": "Trace Inconsistency Rate (TIR, ↓) across languages and models, when the model’s final answer was wrong. For each model, the lowest TIR is bolded."
+        },
+        "question": "Compute the difference between the maximum and minimum TIR across six languages for Llama-3.3-70B-Instruct in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 8.91,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23234v1\\table1.jpg",
+            "table2": "2512.23234v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of detection performance between the proposed method and mainstream models on the IIG dataset.",
+            "table2": "Comparison of detection performance between the proposed method and mainstream models on the LangGas dataset."
+        },
+        "question": "Compute the average AP of all YOLO-series models in Table 1. Round to one decimal place. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 25.6,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 53,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23541v1\\table1.jpg",
+            "table2": "2512.23541v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of Performance on Robotwin 2.0 Simulation Benchmark. Act2Goal outperforms baselines in all Easy-mode tasks and 3 Hard-mode tasks, showing superior generalization.",
+            "table2": "Comparison of Performance on Real-World Manipulation Tasks. Act2Goal demonstrates remarkable performance across all real-world tasks, significantly outperforming all baseline methods. The robust performance in OOD settings strongly validates its superior generalization ability. All results are obtained without any online autonomous improvement, using only offline imitation learning."
+        },
+        "question": "Compute the difference between the maximum and minimum DP-GC success rates under the Easy setting in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.15,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 73,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24013v1\\table1.jpg",
+            "table2": "2512.24013v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "COMPARISON OF SEGMENTATION METHODS ON BRAIN LESION DATASETS. OUR MODEL, HILBERTMED-SAM, ACHIEVES NEW SOTA PERFORMANCE",
+            "table2": "COMPARISON OF END-TO-END DIAGNOSTIC CLASSIFICATION METHODS. OUR FULL HILBERT-VLM FRAMEWORK DEMONSTRATES CLEAR SUPERIORITY."
+        },
+        "question": "Compute the difference between the maximum and minimum FCD2023 Dice values in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 68.42,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.21706v1\\table1.jpg",
+            "table2": "2512.21706v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance on Synthetic Dataset: Per-class and Overall Metrics, which aggregate performance across all classes within each hierarchy level.",
+            "table2": "GoT pipeline results."
+        },
+        "question": "What is the Macro AUC score reported under Overall (Low) in Table 1? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.915,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.21709v1\\table1.jpg",
+            "table2": "2512.21709v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Training hyperparameters for fine-tuned Bengali AI text detection models. Learning Rate and Batch Size are abbreviated as LR and BS respectively.",
+            "table2": "Performance comparison of zero-shot transformer models for Bengali AI-paraphrased text detection. Acc, Prec, Rec and F1 stand for Accuracy, Precision, Recall and F1 Score (Binary) respectively. Values are presented in percentage."
+        },
+        "question": "Which model in Table 1 uses a sequence length of 128? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "BanglaBERT-Base",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 63,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23813v1\\table1.jpg",
+            "table2": "2512.23813v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Continual Training Hyperparameters",
+            "table2": "Fine-Tuning Hyperparameters"
+        },
+        "question": "What is the final perplexity reported in Table 1? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 5.2,
+        "answer_type": "numeric"
+    }
+]

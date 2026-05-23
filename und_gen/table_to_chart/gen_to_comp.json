@@ -1,0 +1,1935 @@
+[
+    {
+        "question_id": 1,
+        "items": ["table1","table2", "table3", "table4"],
+        "path": {
+            "table1": "2512.21329v1\\table1.jpg",
+            "table2": "2512.21329v1\\table2.jpg",
+            "table3": "2512.21329v1\\table3.jpg",
+            "table4": "2512.21329v1\\table4.jpg"
+        },
+        "caption": {
+            "table1": "Error attribution on Mini-ARC under settings 1(a) and 1(b).",
+            "table2": "Error attribution on Bongard-LOGO under phases 2(a) and 2(b).",
+            "table3": "Error attribution on ACRE under settings 3(a) and 3(b).",
+            "table4": "Error attribution on ACRE with varying P, comparing settings 3(b) and 3(c)."
+        },
+        "question_gen": "Visualize the breakdown of error types for Setting 1(a) and Setting 1(b) in Table 1 (Mini-ARC). Plot requirements: Use Python with matplotlib. Create two pie charts, one for Setting 1(a) and one for Setting 1(b)。 Each pie chart should represent the distribution of the following error types using data from Table 1 only: Perception (Demo)， Reasoning (Inductive)， Perception (Test)， Reasoning (Deductive). Add a clear title to each pie chart indicating the corresponding setting. Display percentage labels on each slice. ",
+        "question_comp": "Based on Table 1 and the pie charts, which error type accounts for the largest share of errors in both Setting 1(a) and Setting 1(b)?. Respond only with the error type.",
+        "question": "Based on Table 1, which error type accounts for the largest share of errors in both Setting 1(a) and Setting 1(b)? Respond only with the error type.",
+        "question_type": "reasoning",
+        "answer": "Perception (Demo)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 2,
+        "items": ["table1","table2", "table3", "table4"],
+        "path": {
+            "table1": "2512.21329v1\\table1.jpg",
+            "table2": "2512.21329v1\\table2.jpg",
+            "table3": "2512.21329v1\\table3.jpg",
+            "table4": "2512.21329v1\\table4.jpg"
+        },
+        "caption": {
+            "table1": "Error attribution on Mini-ARC under settings 1(a) and 1(b).",
+            "table2": "Error attribution on Bongard-LOGO under phases 2(a) and 2(b).",
+            "table3": "Error attribution on ACRE under settings 3(a) and 3(b).",
+            "table4": "Error attribution on ACRE with varying P, comparing settings 3(b) and 3(c)."
+        },
+        "question_gen": "Visualize the breakdown of error types for Setting 1(a) and Setting 1(b) in Table 1 (Mini-ARC). Plot requirements: Use Python with matplotlib. Create two pie charts, one for Setting 1(a) and one for Setting 1(b)。 Each pie chart should represent the distribution of the following error types using data from Table 1 only: Perception (Demo)， Reasoning (Inductive)， Perception (Test)， Reasoning (Deductive). Add a clear title to each pie chart indicating the corresponding setting. Display percentage labels on each slice. Do not generate any additional plots.",
+        "question_comp": "Based on Table 1 and the pie charts, which error type shows the largest increase in percentage share from Setting 1(a) to Setting 1(b)? Respond only with the error type.",
+        "question": "Based on Table 1, which error type shows the largest increase in percentage share from Setting 1(a) to Setting 1(b)? Respond only with the error type.",
+        "question_type": "reasoning",
+        "answer": "Reasoning (Inductive)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.21706v1\\table1.jpg",
+            "table2": "2512.21706v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance on Synthetic Dataset: Per-class and Overall Metrics, which aggregate performance across all classes within each hierarchy level.",
+            "table2": "GoT pipeline results."
+        },
+        "question_gen": "Visualize and compare Synthetic and CANDOR scores across all metrics in Table 2. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: metric names, Y-axis: scores. Add a legend, title, and axis labels. ",
+        "question_comp": "Based on Table 2 and the grouped bar chart, which metric shows the largest performance gap between Synthetic and CANDOR? Respond only with the metric.",
+        "question": "Based on Table 2, which metric shows the largest performance gap between Synthetic and CANDOR? Respond only with the metric.",
+        "question_type": "reasoning",
+        "answer": "Similarity",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.21706v1\\table1.jpg",
+            "table2": "2512.21706v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance on Synthetic Dataset: Per-class and Overall Metrics, which aggregate performance across all classes within each hierarchy level.",
+            "table2": "GoT pipeline results."
+        },
+        "question_gen": "Visualize and compare Synthetic and CANDOR scores across all metrics in Table 2. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: metric names, Y-axis: scores. Add a legend, title, and axis labels. ",
+        "question_comp": "Based on Table 2 and the grouped bar chart, which metric has the lowest score for Synthetic? Respond only with the metric.",
+        "question": "Based on Table 2, which metric has the lowest score for Synthetic? Respond only with the metric.",
+        "question_type": "reasoning",
+        "answer": "ROUGE-L",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.21706v1\\table1.jpg",
+            "table2": "2512.21706v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance on Synthetic Dataset: Per-class and Overall Metrics, which aggregate performance across all classes within each hierarchy level.",
+            "table2": "GoT pipeline results."
+        },
+        "question_gen": "Visualize and compare Synthetic and CANDOR scores across all metrics in Table 2. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: metric names, Y-axis: scores. Add a legend, title, and axis labels. ",
+        "question_comp": "Based on Table 2 and the grouped bar chart, for which metric are the Synthetic and CANDOR scores closest? A. BLEU-1. B. ROUGE-1. C. ROUGE-L. D. Similarity. Respond only with a letter.",
+        "question": "Based on Table 2, for which metric are the Synthetic and CANDOR scores closest? A. BLEU-1. B. ROUGE-1. C. ROUGE-L. D. Similarity. Respond only with a letter.",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 6,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.22442v1\\table1.jpg",
+            "table2": "2512.22442v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Ablation on MMU-RAGent Standard Validation Set",
+            "table2": "Performance on Test2025 (Future Events > Feb 2025)"
+        },
+        "question_gen": "Visualize both ROUGE-L (F1) and DeBERTaScore (F1) for all system configurations in Table 2. Plot requirements: Use Python with matplotlib. Create a horizontal stacked bar chart. Y-axis: system configurations. X-axis: F1 score values. Each bar must consist of two stacked segments corresponding to ROUGE-L (F1) and DeBERTaScore (F1). Add a legend, title, and axis labels. Use the same ordering of system configurations as in Table 2. ",
+        "question_comp": "Based on Table 2 and the horizontal stacked bar chart, which system configuration has the strongest overall performance across the two metrics? Respond only with the system configuration.",
+        "question": "Based on Table 2, which system configuration has the strongest overall performance across the two metrics? Respond only with the system configuration.",
+        "question_type": "reasoning",
+        "answer": "Final (RAG w/ Filters + Rephrase + 2-Turn)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.22442v1\\table1.jpg",
+            "table2": "2512.22442v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Ablation on MMU-RAGent Standard Validation Set",
+            "table2": "Performance on Test2025 (Future Events > Feb 2025)"
+        },
+        "question_gen": "Visualize both ROUGE-L (F1) and DeBERTaScore (F1) for all system configurations in Table 2. Plot requirements: Use Python with matplotlib. Create a horizontal stacked bar chart. Y-axis: system configurations. X-axis: F1 score values. Each bar must consist of two stacked segments corresponding to ROUGE-L (F1) and DeBERTaScore (F1). Add a legend, title, and axis labels. Use the same ordering of system configurations as in Table 2. ",
+        "question_comp": "Based on Table 2 and the horizontal stacked bar chart, which system configuration has the weakest overall performance across the two metrics? Respond only with the system configuration.",
+        "question": "Based on Table 2, which system configuration has the weakest overall performance across the two metrics? Respond only with the system configuration.",
+        "question_type": "reasoning",
+        "answer": "Baseline Q (Raw Query)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.22442v1\\table1.jpg",
+            "table2": "2512.22442v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Ablation on MMU-RAGent Standard Validation Set",
+            "table2": "Performance on Test2025 (Future Events > Feb 2025)"
+        },
+        "question_gen": "Visualize both ROUGE-L (F1) and DeBERTaScore (F1) for all system configurations in Table 2. Plot requirements: Use Python with matplotlib. Create a horizontal stacked bar chart. Y-axis: system configurations. X-axis: F1 score values. Each bar must consist of two stacked segments corresponding to ROUGE-L (F1) and DeBERTaScore (F1). Add a legend, title, and axis labels. Use the same ordering of system configurations as in Table 2. ",
+        "question_comp": "Based on Table 2 and the horizontal stacked bar chart, which metric generally forms the larger segment in every stacked bar? Respond only with the metric.",
+        "question": "Based on Table 2, which metric generally forms the larger segment in every stacked bar? Respond only with the metric.",
+        "question_type": "reasoning",
+        "answer": "DeBERTaScore (F1)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 9,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.22562v1\\table1.jpg",
+            "table2": "2512.22562v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance comparison of the proposed All-or-here Attention across various window sizes. “Vanilla” denotes the OLMo-2-0425-1B-SFT model using full attention.",
+            "table2": "Average Full Attention usage of the proposed All-or-here Attention across various window sizes."
+        },
+        "question_gen": "Visualize the performance of All-or-here Attention in Table 1 across different window sizes (w = 16, 32, 64, 128, 256). Plot three curves in a single line chart: MMLU, CSQA, GSM8K. Plot requirements: Use Python with matplotlib. Create a line chart. X-axis: window size (ascending order). Y-axis: performance scores. Use markers for all curves. Exclude the Vanilla method. Add a legend, title, and axis labels.",
+        "question_comp": "Based on Table 1 and the line chart, which task consistently has the highest performance across all window sizes? Respond only with the task.",
+        "question": "Based on Table 1, which task consistently has the highest performance across all window sizes? Respond only with the task.",
+        "question_type": "reasoning",
+        "answer": "CSQA",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.22562v1\\table1.jpg",
+            "table2": "2512.22562v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance comparison of the proposed All-or-here Attention across various window sizes. “Vanilla” denotes the OLMo-2-0425-1B-SFT model using full attention.",
+            "table2": "Average Full Attention usage of the proposed All-or-here Attention across various window sizes."
+        },
+        "question_gen": "Visualize the performance of All-or-here Attention in Table 1 across different window sizes (w = 16, 32, 64, 128, 256). Plot three curves in a single line chart: MMLU, CSQA, GSM8K. Plot requirements: Use Python with matplotlib. Create a line chart. X-axis: window size (ascending order). Y-axis: performance scores. Use markers for all curves. Exclude the Vanilla method. Add a legend, title, and axis labels.",
+        "question_comp": "Based on Table 1 and the line chart, which task shows the most noticeable upward trend as the window size increases? Respond only with the task.",
+        "question": "Based on Table 1, which task shows the most noticeable upward trend as the window size increases? Respond only with the task.",
+        "question_type": "reasoning",
+        "answer": "GSM8K",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 11,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.22562v1\\table1.jpg",
+            "table2": "2512.22562v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance comparison of the proposed All-or-here Attention across various window sizes. “Vanilla” denotes the OLMo-2-0425-1B-SFT model using full attention.",
+            "table2": "Average Full Attention usage of the proposed All-or-here Attention across various window sizes."
+        },
+        "question_gen": "Visualize the performance of All-or-here Attention in Table 1 across different window sizes (w = 16, 32, 64, 128, 256). Plot three curves in a single line chart: MMLU, CSQA, GSM8K. Plot requirements: Use Python with matplotlib. Create a line chart. X-axis: window size (ascending order). Y-axis: performance scores. Use markers for all curves. Exclude the Vanilla method. Add a legend, title, and axis labels.",
+        "question_comp": "Based on Table 1 and the line chart, which task shows the slowest performance growth as the window size increases? Respond only with the task.",
+        "question": "Based on Table 1, which task shows the slowest performance growth as the window size increases? Respond only with the task.",
+        "question_type": "reasoning",
+        "answer": "CSQA",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.22562v1\\table1.jpg",
+            "table2": "2512.22562v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance comparison of the proposed All-or-here Attention across various window sizes. “Vanilla” denotes the OLMo-2-0425-1B-SFT model using full attention.",
+            "table2": "Average Full Attention usage of the proposed All-or-here Attention across various window sizes."
+        },
+        "question_gen": "Visualize the performance of All-or-here Attention in Table 1 across different window sizes (w = 16, 32, 64, 128, 256). Plot three curves in a single line chart: MMLU, CSQA, GSM8K. Plot requirements: Use Python with matplotlib. Create a line chart. X-axis: window size (ascending order). Y-axis: performance scores. Use markers for all curves. Exclude the Vanilla method. Add a legend, title, and axis labels.",
+        "question_comp": "Based on Table 1 and the line chart, which tasks show a consistent increase in performance as the window size increases? A. MMLU B. CSQA C. GSM8K. Respond only with a list of letters.",
+        "question": "Based on Table 1, which tasks show a consistent increase in performance as the window size increases? A. MMLU. B. CSQA. C. GSM8K. Respond only with a list of letters.",
+        "question_type": "reasoning",
+        "answer": "[A, B, C]",
+        "answer_type": "choice_list"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23049v1\\table1.jpg",
+            "table2": "2512.23049v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Percentage of correct answers on the MultiQA task across different implementations. FT denotes distillation via fine-tuning. Bold denotes best performance or results not significantly worse (p > 0.05, McNemar’s test).",
+            "table2": "Left: The percentage of concepts successfully incorporated into the final story. Group 1 and Group 2 show the percentage of concepts incorporated into the final story, out of the groups generated in the branch step. We report 95% confidence intervals on the difference from baseline. Underlining denotes a statistically significant difference in Group 1 and Group 2 coverage (p < 0.05). Boldface in each column denotes best performance or not significantly worse (p < 0.05). Right: Head-to-head win rates as judged by GPT-4o (prompt in §D, remaining percentage represents ties), with 95% CIs. All statistical tests use the paired bootstrap."
+        },
+        "question_gen": "Visualize Q1, Q2, and Both (%) for all implementations in Table 1. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: implementation names. Y-axis: percentage values. Add a legend, title, and axis labels.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which implementation has the highest Q1 performance? Respond only with the implementation.",
+        "question": "Based on Table 1, which implementation has the highest Q1 performance? Respond only with the implementation.",
+        "question_type": "reasoning",
+        "answer": "baseline",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 14,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23049v1\\table1.jpg",
+            "table2": "2512.23049v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Percentage of correct answers on the MultiQA task across different implementations. FT denotes distillation via fine-tuning. Bold denotes best performance or results not significantly worse (p > 0.05, McNemar’s test).",
+            "table2": "Left: The percentage of concepts successfully incorporated into the final story. Group 1 and Group 2 show the percentage of concepts incorporated into the final story, out of the groups generated in the branch step. We report 95% confidence intervals on the difference from baseline. Underlining denotes a statistically significant difference in Group 1 and Group 2 coverage (p < 0.05). Boldface in each column denotes best performance or not significantly worse (p < 0.05). Right: Head-to-head win rates as judged by GPT-4o (prompt in §D, remaining percentage represents ties), with 95% CIs. All statistical tests use the paired bootstrap."
+        },
+        "question_gen": "Visualize Q1, Q2, and Both (%) for all implementations in Table 1. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: implementation names. Y-axis: percentage values. Add a legend, title, and axis labels.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which implementation shows the largest visual difference between Q1 and Q2 performance? Respond only with the implementation.",
+        "question": "Based on Table 1, which implementation shows the largest visual difference between Q1 and Q2 performance? Respond only with the implementation.",
+        "question_type": "reasoning",
+        "answer": "Choreo. Serial",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23049v1\\table1.jpg",
+            "table2": "2512.23049v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Percentage of correct answers on the MultiQA task across different implementations. FT denotes distillation via fine-tuning. Bold denotes best performance or results not significantly worse (p > 0.05, McNemar’s test).",
+            "table2": "Left: The percentage of concepts successfully incorporated into the final story. Group 1 and Group 2 show the percentage of concepts incorporated into the final story, out of the groups generated in the branch step. We report 95% confidence intervals on the difference from baseline. Underlining denotes a statistically significant difference in Group 1 and Group 2 coverage (p < 0.05). Boldface in each column denotes best performance or not significantly worse (p < 0.05). Right: Head-to-head win rates as judged by GPT-4o (prompt in §D, remaining percentage represents ties), with 95% CIs. All statistical tests use the paired bootstrap."
+        },
+        "question_gen": "Visualize Q1, Q2, and Both (%) for all implementations in Table 1. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: implementation names. Y-axis: percentage values. Add a legend, title, and axis labels.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which implementation performs the best overall across Q1, Q2, and Both? Respond only with the implementation.",
+        "question": "Based on Table 1, which implementation performs the best overall across Q1, Q2, and Both? Respond only with the implementation.",
+        "question_type": "reasoning",
+        "answer": "baseline",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 16,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23232v1\\table1.jpg",
+            "table2": "2512.23232v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Quantitative evaluation (PSNR, LPIPS) of various methods at NFE 100 and 50 for solving linear inverse problems.",
+            "table2": "Quantitative evaluation (PSNR, LPIPS) of various methods at NFE 100 and 50 for solving non-linear inverse problems."
+        },
+        "question_gen": "Visualize the average PSNR of each method at NFE ≈ 100 using data from Table 1. Plot requirements: Use Python with matplotlib. Create a vertical bar chart. X-axis: method names. Y-axis: average PSNR values across all linear inverse tasks. Add a title and axis labels. ",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which method appears to perform the worst overall across most tasks? Respond only with the method.",
+        "question": "Based on Table 1, which method appears to perform the worst overall across most tasks? Respond only with the method.",
+        "question_type": "reasoning",
+        "answer": "DPS(500)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23232v1\\table1.jpg",
+            "table2": "2512.23232v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Quantitative evaluation (PSNR, LPIPS) of various methods at NFE 100 and 50 for solving linear inverse problems.",
+            "table2": "Quantitative evaluation (PSNR, LPIPS) of various methods at NFE 100 and 50 for solving non-linear inverse problems."
+        },
+        "question_gen": "Visualize the average PSNR of each method at NFE ≈ 100 using data from Table 1. Plot requirements: Use Python with matplotlib. Create a vertical bar chart. X-axis: method names. Y-axis: average PSNR values across all linear inverse tasks. Add a title and axis labels. ",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which method appears to perform the best overall across most tasks? Respond only with the method.",
+        "question": "Based on Table 1, which method appears to perform the best overall across most tasks? Respond only with the method.",
+        "question_type": "reasoning",
+        "answer": "SGPS",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23232v1\\table1.jpg",
+            "table2": "2512.23232v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Quantitative evaluation (PSNR, LPIPS) of various methods at NFE 100 and 50 for solving linear inverse problems.",
+            "table2": "Quantitative evaluation (PSNR, LPIPS) of various methods at NFE 100 and 50 for solving non-linear inverse problems."
+        },
+        "question_gen": "Visualize the average PSNR of each method at NFE ≈ 100 using data from Table 1. Plot requirements: Use Python with matplotlib. Create a vertical bar chart. X-axis: method names. Y-axis: average PSNR values across all linear inverse tasks. Add a title and axis labels. ",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which method achieves the best performance on the SR4 task? Respond only with the method.",
+        "question": "Based on Table 1, which method achieves the best performance on the SR4 task? Respond only with the method.",
+        "question_type": "reasoning",
+        "answer": "SGPS",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23234v1\\table1.jpg",
+            "table2": "2512.23234v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of detection performance between the proposed method and mainstream models on the IIG dataset.",
+            "table2": "Comparison of detection performance between the proposed method and mainstream models on the LangGas dataset."
+        },
+        "question_gen": "Visualize APS, APM, and APL of all models in Table 1. Plot requirements: Use Python with matplotlib. Create a stacked bar chart. X-axis: model names. Y-axis: AP values. Add a legend, title, and axis labels.",
+        "question_comp": "Based on Table 1 and the stacked bar chart, which model has the highest overall AP when considering APS, APM, and APL together? Respond only with the model.",
+        "question": "Based on Table 1, which model has the highest overall AP when considering APS, APM, and APL together? Respond only with the model.",
+        "question_type": "reasoning",
+        "answer": "PEG-DRNet",
+        "answer_type": "text"
+    },
+
+
+    {
+        "question_id": 20,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23234v1\\table1.jpg",
+            "table2": "2512.23234v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of detection performance between the proposed method and mainstream models on the IIG dataset.",
+            "table2": "Comparison of detection performance between the proposed method and mainstream models on the LangGas dataset."
+        },
+        "question_gen": "Visualize APS, APM, and APL of all models in Table 1. Plot requirements: Use Python with matplotlib. Create a stacked bar chart. X-axis: model names. Y-axis: AP values. Add a legend, title, and axis labels.",
+        "question_comp": "Based on Table 1 and the stacked bar chart, which model has the lowest overall AP when considering APS, APM, and APL together? Respond only with the model.",
+        "question": "Based on Table 1, which model has the lowest overall AP when considering APS, APM, and APL together? Respond only with the model.",
+        "question_type": "reasoning",
+        "answer": "Yolov10m",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 21,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23234v1\\table1.jpg",
+            "table2": "2512.23234v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of detection performance between the proposed method and mainstream models on the IIG dataset.",
+            "table2": "Comparison of detection performance between the proposed method and mainstream models on the LangGas dataset."
+        },
+        "question_gen": "Visualize APS, APM, and APL of all models in Table 1. Plot requirements: Use Python with matplotlib. Create a stacked bar chart. X-axis: model names. Y-axis: AP values. Add a legend, title, and axis labels.",
+        "question_comp": "Based on Table 1 and the stacked bar chart, which model has the highest APS performance? Respond only with the model.",
+        "question": "Based on Table 1, which model has the highest APS performance? Respond only with the model.",
+        "question_type": "reasoning",
+        "answer": "PEG-DRNet",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23441v1\\table1.jpg",
+            "table2": "2512.23441v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "LINEAR EVALUATION OF WET-AMD CONVERSION PREDICTION ON PRETRAINED MODELS WITHIN TWO TIME-WINDOWS: 6 AND 12 MONTHS ON THE HARBOR DATASET. IMAGENET, VISIONFM AND RETFOUND ARE FULLY FINETUNED. THE RESULTS ARE REPORTED OVER 4-FOLDS",
+            "table2": "LINEAR EVALUATION OF GA CONVERSION PREDICTION WITHIN A 12 MONTHS TIME WINDOW ON THE PINNACLE DATASET. THE MODELS ARE PRETRAINED WITH THE HARBOR DATASET. THE RESULTS ARE REPORTED OVER 5-FOLDS"
+        },
+        "question_gen": "Visualize AUROC, PRAUC, and BACC for all models in Table 2. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: model names. Y-axis: metric values. Add a legend, title, and axis labels. Respond only with the code.",
+        "question_comp": "Based on Table 2 and the grouped bar chart, which model shows the most balanced performance across AUROC, PRAUC, and BACC, meaning none of the three metrics is noticeably lower than the others? Respond only with the model.",
+        "question": "Based on Table 2, which model shows the most balanced performance across AUROC, PRAUC, and BACC, meaning none of the three metrics is noticeably lower than the others? Respond only with the model.",
+        "question_type": "reasoning",
+        "answer": "STAMP",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23441v1\\table1.jpg",
+            "table2": "2512.23441v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "LINEAR EVALUATION OF WET-AMD CONVERSION PREDICTION ON PRETRAINED MODELS WITHIN TWO TIME-WINDOWS: 6 AND 12 MONTHS ON THE HARBOR DATASET. IMAGENET, VISIONFM AND RETFOUND ARE FULLY FINETUNED. THE RESULTS ARE REPORTED OVER 4-FOLDS",
+            "table2": "LINEAR EVALUATION OF GA CONVERSION PREDICTION WITHIN A 12 MONTHS TIME WINDOW ON THE PINNACLE DATASET. THE MODELS ARE PRETRAINED WITH THE HARBOR DATASET. THE RESULTS ARE REPORTED OVER 5-FOLDS"
+        },
+        "question_gen": "Visualize AUROC, PRAUC, and BACC for all models in Table 2. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: model names. Y-axis: metric values. Add a legend, title, and axis labels. Respond only with the code.",
+        "question_comp": "Based on Table 2 and the grouped bar chart, which model shows the most balanced performance across AUROC, PRAUC, and BACC, meaning none of the metrics is significantly lower than the others? Respond only with the model.",
+        "question": "Based on Table 2, which model shows the most balanced performance across AUROC, PRAUC, and BACC, meaning none of the metrics is significantly lower than the others? Respond only with the model.",
+        "question_type": "reasoning",
+        "answer": "STAMP",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 23,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23441v1\\table1.jpg",
+            "table2": "2512.23441v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "LINEAR EVALUATION OF WET-AMD CONVERSION PREDICTION ON PRETRAINED MODELS WITHIN TWO TIME-WINDOWS: 6 AND 12 MONTHS ON THE HARBOR DATASET. IMAGENET, VISIONFM AND RETFOUND ARE FULLY FINETUNED. THE RESULTS ARE REPORTED OVER 4-FOLDS",
+            "table2": "LINEAR EVALUATION OF GA CONVERSION PREDICTION WITHIN A 12 MONTHS TIME WINDOW ON THE PINNACLE DATASET. THE MODELS ARE PRETRAINED WITH THE HARBOR DATASET. THE RESULTS ARE REPORTED OVER 5-FOLDS"
+        },
+        "question_gen": "Visualize AUROC, PRAUC, and BACC for all models in Table 2. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: model names. Y-axis: metric values. Add a legend, title, and axis labels. Respond only with the code.",
+        "question_comp": "Based on Table 2 and the grouped bar chart, which metric shows the largest variation across different models? Respond only with the metric.",
+        "question": "Based on Table 2, which metric shows the largest variation across different models? Respond only with the metric.",
+        "question_type": "reasoning",
+        "answer": "PRAUC",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 24,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23441v1\\table1.jpg",
+            "table2": "2512.23441v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "LINEAR EVALUATION OF WET-AMD CONVERSION PREDICTION ON PRETRAINED MODELS WITHIN TWO TIME-WINDOWS: 6 AND 12 MONTHS ON THE HARBOR DATASET. IMAGENET, VISIONFM AND RETFOUND ARE FULLY FINETUNED. THE RESULTS ARE REPORTED OVER 4-FOLDS",
+            "table2": "LINEAR EVALUATION OF GA CONVERSION PREDICTION WITHIN A 12 MONTHS TIME WINDOW ON THE PINNACLE DATASET. THE MODELS ARE PRETRAINED WITH THE HARBOR DATASET. THE RESULTS ARE REPORTED OVER 5-FOLDS"
+        },
+        "question_gen": "Visualize AUROC, PRAUC, and BACC for all models in Table 2. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: model names. Y-axis: metric values. Add a legend, title, and axis labels. Respond only with the code.",
+        "question_comp": "Based on Table 2 and the grouped bar chart, which model appears closest to STAMP in overall performance across the three metrics? Respond only with the model.",
+        "question": "Based on Table 2, which model appears closest to STAMP in overall performance across the three metrics? Respond only with the model",
+        "question_type": "reasoning",
+        "answer": "SiamMAE",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 25,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23489v1\\table1.jpg",
+            "table2": "2512.23489v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Results of ablation studies.",
+            "table2": "Discrimination metrics across baselines. All values are in [0, 1]."
+        },
+        "question_gen": "Visualize the AUC-ROC and AUC-PR values of all methods in Table 2 (excluding Random). Plot requirements: Use Python with matplotlib. Create a grouped horizontal bar chart. Y-axis: method names. X-axis: metric values. Each method should have two bars, corresponding to AUC-ROC and AUC-PR. Include a legend distinguishing AUC-ROC and AUC-PR. Add a title and axis labels. Respond only with the code",
+        "question_comp": "Based on Table 2 and the grouped horizontal bar chart, which method performs best on both AUC-ROC and AUC-PR? Respond only with the  method.",
+        "question": "Based on Table 2, which method performs best on both AUC-ROC and AUC-PR? Respond only with the method",
+        "question_type": "reasoning",
+        "answer": "Ours",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23489v1\\table1.jpg",
+            "table2": "2512.23489v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Results of ablation studies.",
+            "table2": "Discrimination metrics across baselines. All values are in [0, 1]."
+        },
+        "question_gen": "Visualize the AUC-ROC and AUC-PR values of all methods in Table 2 (excluding Random). Plot requirements: Use Python with matplotlib. Create a grouped horizontal bar chart. Y-axis: method names. X-axis: metric values. Each method should have two bars, corresponding to AUC-ROC and AUC-PR. Include a legend distinguishing AUC-ROC and AUC-PR. Add a title and axis labels. Respond only with the code",
+        "question_comp": "Based on Table 2 and the grouped horizontal bar chart, which method ranks second in AUC-PR? Respond only with the method.",
+        "question": "Based on Table 2, which method ranks second in AUC-PR? Respond only with the method.",
+        "question_type": "reasoning",
+        "answer": "SSFF",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23489v1\\table1.jpg",
+            "table2": "2512.23489v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Results of ablation studies.",
+            "table2": "Discrimination metrics across baselines. All values are in [0, 1]."
+        },
+        "question_gen": "Visualize the AUC-ROC and AUC-PR values of all methods in Table 2 (excluding Random). Plot requirements: Use Python with matplotlib. Create a grouped horizontal bar chart. Y-axis: method names. X-axis: metric values. Each method should have two bars, corresponding to AUC-ROC and AUC-PR. Include a legend distinguishing AUC-ROC and AUC-PR. Add a title and axis labels. Respond only with the code",
+        "question_comp": "Based on Table 2 and the grouped horizontal bar chart, which method ranks second in AUC-ROC? Respond only with the method.",
+        "question": "Based on Table 2, which method ranks second in AUC-ROC? Respond only with the metric",
+        "question_type": "reasoning",
+        "answer": "GNN-RAG",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23541v1\\table1.jpg",
+            "table2": "2512.23541v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of Performance on Robotwin 2.0 Simulation Benchmark. Act2Goal outperforms baselines in all Easy-mode tasks and 3 Hard-mode tasks, showing superior generalization.",
+            "table2": "Comparison of Performance on Real-World Manipulation Tasks. Act2Goal demonstrates remarkable performance across all real-world tasks, significantly outperforming all baseline methods. The robust performance in OOD settings strongly validates its superior generalization ability. All results are obtained without any online autonomous improvement, using only offline imitation learning."
+        },
+        "question_gen": "Visualize the success rates of Act2Goal under ID and OOD settings in Table 2. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: task names, Y-axis: success rates. Legend: ID vs OOD. Add a title and axis labels. Respond only with the code.",
+        "question_comp": "Based on Table 2 and the grouped bar chart, which task shows the smallest performance drop from ID to OOD for Act2Goal? Respond only  with th task.",
+        "question": "Based on Table 2, which task shows the smallest performance drop from ID to OOD for Act2Goal? Respond only with the task.",
+        "question_type": "reasoning",
+        "answer": "Whiteboard Word Writing",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 29,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23541v1\\table1.jpg",
+            "table2": "2512.23541v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of Performance on Robotwin 2.0 Simulation Benchmark. Act2Goal outperforms baselines in all Easy-mode tasks and 3 Hard-mode tasks, showing superior generalization.",
+            "table2": "Comparison of Performance on Real-World Manipulation Tasks. Act2Goal demonstrates remarkable performance across all real-world tasks, significantly outperforming all baseline methods. The robust performance in OOD settings strongly validates its superior generalization ability. All results are obtained without any online autonomous improvement, using only offline imitation learning."
+        },
+        "question_gen": "Visualize the success rates of Act2Goal under ID and OOD settings in Table 2. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: task names, Y-axis: success rates. Legend: ID vs OOD. Add a title and axis labels. Respond only with the code.",
+        "question_comp": "Based on Table 2 and the grouped bar chart, which task shows the largest performance drop from ID to OOD for Act2Goal? Respond only with the task.",
+        "question": "Based on Table 2, which task shows the largest performance drop from ID to OOD for Act2Goal? Respond only with the task.",
+        "question_type": "reasoning",
+        "answer": "Dessert Plating",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 30,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23541v1\\table1.jpg",
+            "table2": "2512.23541v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of Performance on Robotwin 2.0 Simulation Benchmark. Act2Goal outperforms baselines in all Easy-mode tasks and 3 Hard-mode tasks, showing superior generalization.",
+            "table2": "Comparison of Performance on Real-World Manipulation Tasks. Act2Goal demonstrates remarkable performance across all real-world tasks, significantly outperforming all baseline methods. The robust performance in OOD settings strongly validates its superior generalization ability. All results are obtained without any online autonomous improvement, using only offline imitation learning."
+        },
+        "question_gen": "Visualize the success rates of Act2Goal under ID and OOD settings in Table 2. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: task names, Y-axis: success rates. Legend: ID vs OOD. Add a title and axis labels. Respond only with the code.",
+        "question_comp": "Based on Table 2 and the grouped bar chart, which task appears most difficult under the OOD setting for Act2Goal? Respond only with the task.",
+        "question": "Based on Table 2, which task appears most difficult under the OOD setting for Act2Goal? Respond only with the task.",
+        "question_type": "reasoning",
+        "answer": "Plug-In Operation",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 31,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23541v1\\table1.jpg",
+            "table2": "2512.23541v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of Performance on Robotwin 2.0 Simulation Benchmark. Act2Goal outperforms baselines in all Easy-mode tasks and 3 Hard-mode tasks, showing superior generalization.",
+            "table2": "Comparison of Performance on Real-World Manipulation Tasks. Act2Goal demonstrates remarkable performance across all real-world tasks, significantly outperforming all baseline methods. The robust performance in OOD settings strongly validates its superior generalization ability. All results are obtained without any online autonomous improvement, using only offline imitation learning."
+        },
+        "question_gen": "Visualize the success rates of Act2Goal under ID and OOD settings in Table 2. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: task names, Y-axis: success rates. Legend: ID vs OOD. Add a title and axis labels. Respond only with the code.",
+        "question_comp": "Based on Table 2 and the grouped bar chart, which task has the best overall performance considering both ID and OOD settings? Respond only with the task.",
+        "question": "Based on Table 2, which task has the best overall performance considering both ID and OOD settings? Respond only with the task.",
+        "question_type": "reasoning",
+        "answer": "Whiteboard Word Writing",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 32,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23684v1\\table1.jpg",
+            "table2": "2512.23684v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Decision-level outcome changes under prompt injection",
+            "table2": "Acceptance outcome transitions under prompt injection"
+        },
+        "question_gen": "Visualize Accept → Non-Accept and Accept → Strong Reject for all languages in Table 2. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: language names. Y-axis: transition probabilities. Add a legend, title, and axis labels. Respond only with the code.",
+        "question_comp": "Based on Table 2 and the grouped bar chart, which language shows the largest difference between Accept → Non-Accept and Accept → Strong Reject? Respond only with the language.",
+        "question": "Based on Table 2, which language shows the largest difference between Accept → Non-Accept and Accept → Strong Reject? Respond only with the Language",
+        "question_type": "reasoning",
+        "answer": "Chinese",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 33,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23684v1\\table1.jpg",
+            "table2": "2512.23684v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Decision-level outcome changes under prompt injection",
+            "table2": "Acceptance outcome transitions under prompt injection"
+        },
+        "question_gen": "Visualize Accept → Non-Accept and Accept → Strong Reject for all languages in Table 2. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: language names. Y-axis: transition probabilities. Add a legend, title, and axis labels. Respond only with the code.",
+        "question_comp": "Based on Table 2 and the grouped bar chart, for which language are Accept → Non-Accept and Accept → Strong Reject most similar? Respond only with the language.",
+        "question": "Based on Table 2, for which language are Accept → Non-Accept and Accept → Strong Reject most similar? Respond only with the language.",
+        "question_type": "reasoning",
+        "answer": "English",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 34,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23684v1\\table1.jpg",
+            "table2": "2512.23684v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Decision-level outcome changes under prompt injection",
+            "table2": "Acceptance outcome transitions under prompt injection"
+        },
+        "question_gen": "Visualize Accept → Non-Accept and Accept → Strong Reject for all languages in Table 2. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: language names. Y-axis: transition probabilities. Add a legend, title, and axis labels. Respond only with the code.",
+        "question_comp": "Based on Table 2 and the grouped bar chart, which language appears most balanced between Accept → Non-Accept and Accept → Strong Reject probabilities? Respond only with the language.",
+        "question": "Based on Table 2 and the grouped bar chart, which language appears most balanced between Accept → Non-Accept and Accept → Strong Reject probabilities? Respond only with the language. Respond only with the language.",
+        "question_type": "reasoning",
+        "answer": "English",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23852v1\\table1.jpg",
+            "table2": "2512.23852v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance of Trellis and baselines on language modeling and common-sense reasoning tasks.",
+            "table2": "Performance of Trellis and baselines with 1B parameters on S-NIAH task from RULER benchmark. The best results with highest accuracy are highlighted."
+        },
+        "question_gen": "Visualize the Overall Average accuracy of all models in Table 2. Plot requirements: Use Python with matplotlib. Create a horizontal bar chart. Y-axis: model names. X-axis: Average accuracy. Add a title and axis labels. Respond only with the code.",
+        "question_comp": "Based on Table 2 and the horizontal bar chart, which model ranks second in Average accuracy? Respond only with the model.",
+        "question": "Based on Table 2, which model ranks second in Average accuracy? Respond only with the model.",
+        "question_type": "reasoning",
+        "answer": "Gated DeltaNet",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23852v1\\table1.jpg",
+            "table2": "2512.23852v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance of Trellis and baselines on language modeling and common-sense reasoning tasks.",
+            "table2": "Performance of Trellis and baselines with 1B parameters on S-NIAH task from RULER benchmark. The best results with highest accuracy are highlighted."
+        },
+        "question_gen": "Visualize the Overall Average accuracy of all models in Table 2. Plot requirements: Use Python with matplotlib. Create a horizontal bar chart. Y-axis: model names. X-axis: Average accuracy. Add a title and axis labels. Respond only with the code.",
+        "question_comp": "Based on Table 2 and the horizontal bar chart, which model is in the middle when models are ranked by Average accuracy? Respond only with the model.",
+        "question": "Based on Table 2, which model is in the middle when models are ranked by Average accuracy? Respond only with the model.",
+        "question_type": "reasoning",
+        "answer": "TTT",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23852v1\\table1.jpg",
+            "table2": "2512.23852v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance of Trellis and baselines on language modeling and common-sense reasoning tasks.",
+            "table2": "Performance of Trellis and baselines with 1B parameters on S-NIAH task from RULER benchmark. The best results with highest accuracy are highlighted."
+        },
+        "question_gen": "Visualize the Overall Average accuracy of all models in Table 2. Plot requirements: Use Python with matplotlib. Create a horizontal bar chart. Y-axis: model names. X-axis: Average accuracy. Add a title and axis labels. Respond only with the code.",
+        "question_comp": "Based on Table 2 and the horizontal bar chart, which model appears closest in performance to the best-performing model? Respond only with the model.",
+        "question": "Based on Table 2, which model appears closest in performance to the best-performing model? Respond only with the model.",
+        "question_type": "reasoning",
+        "answer": "Gated DeltaNet",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 38,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23906v1\\table1.jpg",
+            "table2": "2512.23906v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Threshold accuracies on tile E32N34 for displacement–only inputs. Values are given in percent.",
+            "table2": "Single–step prediction performance on tile E32N34 with multimodal inputs (displacement + static kinematics + temporal encoding)."
+        },
+        "question_gen": "Visualize RMSE and MAE of all models in Table 2. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: model names. Y-axis: error values. Add a legend, title, and axis labels. Respond only with the code.",
+        "question_comp": "Based on Table 2 and the grouped bar chart, which model shows the best overall performance across both RMSE and MAE metrics? Respond only with the model.",
+        "question": "According to Table 2, which model achieves the best performance across all listed error metrics? Respond only with the model.",
+        "question_type": "reasoning",
+        "answer": "Transformer (ours, Multi)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 39,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23906v1\\table1.jpg",
+            "table2": "2512.23906v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Threshold accuracies on tile E32N34 for displacement–only inputs. Values are given in percent.",
+            "table2": "Single–step prediction performance on tile E32N34 with multimodal inputs (displacement + static kinematics + temporal encoding)."
+        },
+        "question_gen": "Visualize RMSE and MAE of all models in Table 2. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: model names. Y-axis: error values. Add a legend, title, and axis labels. Respond only with the code.",
+        "question_comp": "Identify the model whose RMSE is relatively high but whose MAE is not the highest, using both the table and the chart. Respond only with the model.",
+        "question": "From Table 2, which model includes an attention mechanism and how does its performance compare to the base CNN-LSTM model? Respond only with the model.",
+        "question_type": "reasoning",
+        "answer": "CNN-LSTM+Attn (Multi)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 40,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23906v1\\table1.jpg",
+            "table2": "2512.23906v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Threshold accuracies on tile E32N34 for displacement–only inputs. Values are given in percent.",
+            "table2": "Single–step prediction performance on tile E32N34 with multimodal inputs (displacement + static kinematics + temporal encoding)."
+        },
+        "question_gen": "Visualize RMSE and MAE of all models in Table 2. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: model names. Y-axis: error values. Add a legend, title, and axis labels. Respond only with the code.",
+        "question_comp": "According to the chart and Table 2, which model consistently performs worse than MM-STGCN but better than the CNN-LSTM model? Respond only with the model.",
+        "question": "Based on Table 2, which model represents the graph-based approach among the listed models? Respond only with the model.",
+        "question_type": "reasoning",
+        "answer": "CNN-LSTM+Attn (Multi)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24058v1\\table1.jpg",
+            "table2": "2512.24058v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Final Composite Reliability Score (CRS) ranking with normalized component scores.",
+            "table2": "Baseline calibration metrics averaged across five QA datasets. Lower values are better."
+        },
+        "question_gen": "Visualize Avg. NLL of all models in Table 2, sorted ascending. Plot requirements: Use Python with matplotlib. Create a horizontal bar chart. Y-axis: model names; X-axis: Avg. NLL. Add a title and axis labels. Respond only with the code.",
+        "question_comp": "Based on Table 2 and the horizontal bar chart, which model has the lowest Avg. NLL? Respond only with the model.",
+        "question": "Based on Table 2, which model has the lowest Avg. NLL? Respond only with the model.",
+        "question_type": "reasoning",
+        "answer": "Mistral-8x22B",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24058v1\\table1.jpg",
+            "table2": "2512.24058v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Final Composite Reliability Score (CRS) ranking with normalized component scores.",
+            "table2": "Baseline calibration metrics averaged across five QA datasets. Lower values are better."
+        },
+        "question_gen": "Visualize Avg. NLL of all models in Table 2, sorted ascending. Plot requirements: Use Python with matplotlib. Create a horizontal bar chart. Y-axis: model names; X-axis: Avg. NLL. Add a title and axis labels. Respond only with the code.",
+        "question_comp": "Based on Table 2 and the horizontal bar chart, which model has the highest Avg. NLL? Respond only with the model.",
+        "question": "Based on Table 2, which model has the highest Avg. NLL? Respond only with the model.",
+        "question_type": "reasoning",
+        "answer": "Falcon-7B",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 43,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24058v1\\table1.jpg",
+            "table2": "2512.24058v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Final Composite Reliability Score (CRS) ranking with normalized component scores.",
+            "table2": "Baseline calibration metrics averaged across five QA datasets. Lower values are better."
+        },
+        "question_gen": "Visualize Avg. NLL of all models in Table 2, sorted ascending. Plot requirements: Use Python with matplotlib. Create a horizontal bar chart. Y-axis: model names; X-axis: Avg. NLL. Add a title and axis labels. Respond only with the code.",
+        "question_comp": "Based on Table 2 and the horizontal bar chart, which model has the second lowest Avg. NLL? Respond only with the model.",
+        "question": "Based on Table 2, which model has the second lowest Avg. NLL? Respond only with the model.",
+        "question_type": "reasoning",
+        "answer": "DeepSeek R1 0528",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 44,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24058v1\\table1.jpg",
+            "table2": "2512.24058v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Final Composite Reliability Score (CRS) ranking with normalized component scores.",
+            "table2": "Baseline calibration metrics averaged across five QA datasets. Lower values are better."
+        },
+        "question_gen": "Visualize Avg. NLL of all models in Table 2, sorted ascending. Plot requirements: Use Python with matplotlib. Create a horizontal bar chart. Y-axis: model names; X-axis: Avg. NLL. Add a title and axis labels. Respond only with the code.",
+        "question_comp": "Based on Table 2 and the horizontal bar chart, list the three models with the highest Avg. NLL. Respond only with a list of model.",
+        "question": "Based on Table 2, list the three models with the highest Avg. NLL. Respond only with a list of mdoel.",
+        "question_type": "reasoning",
+        "answer": "Falcon-7B, LLaMA-3-7B, Mistral-7B",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 45,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24058v1\\table1.jpg",
+            "table2": "2512.24058v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Final Composite Reliability Score (CRS) ranking with normalized component scores.",
+            "table2": "Baseline calibration metrics averaged across five QA datasets. Lower values are better."
+        },
+        "question_gen": "Visualize Avg. NLL of all models in Table 2, sorted ascending. Plot requirements: Use Python with matplotlib. Create a horizontal bar chart. Y-axis: model names; X-axis: Avg. NLL. Add a title and axis labels. Respond only with the code.",
+        "question_comp": "Falcon-7B, LLaMA-3-7B, Mistral-7BBased on Table 2 and the horizontal bar chart, which model is directly above MiniMax-Text-01 when models are sorted by Avg. NLL? Respond only with the mdoel.",
+        "question": "Based on Table 2, which model is directly above MiniMax-Text-01 when models are sorted by Avg. NLL? Respond only with the model.",
+        "question_type": "reasoning",
+        "answer": "Llama 4 Scout",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 46,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24120v1\\table1.jpg",
+            "table2": "2512.24120v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Per-Dataset Performance (Mean Accuracy %) on 1-epoch. Asterisks denote significance vs. baseline: * p < 0.05, ** p < 0.01. Best per dataset in bold.",
+            "table2": "Statistical Significance Tests (per-dataset comparison vs. alt-nn1 baseline). Only results with p < 0.05 shown."
+        },
+        "question_gen": "Visualize the Mean Accuracy (%) of all alt-nn models (alt-nn1 to alt-nn5) across all datasets in Table 1. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: dataset names. Y-axis: Mean Accuracy (%). Each group contains five bars corresponding to alt-nn1 to alt-nn5. Add a legend, title, and axis labels. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which alt-nn model achieves the highest Mean Accuracy on MNIST? Respond only with the model.",
+        "question": "Based on Table 1, which alt-nn model achieves the highest Mean Accuracy on MNIST? Respond only with the model.",
+        "question_type": "reasoning",
+        "answer": "alt-nn3",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 47,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24120v1\\table1.jpg",
+            "table2": "2512.24120v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Per-Dataset Performance (Mean Accuracy %) on 1-epoch. Asterisks denote significance vs. baseline: * p < 0.05, ** p < 0.01. Best per dataset in bold.",
+            "table2": "Statistical Significance Tests (per-dataset comparison vs. alt-nn1 baseline). Only results with p < 0.05 shown."
+        },
+        "question_gen": "Visualize the Mean Accuracy (%) of all alt-nn models (alt-nn1 to alt-nn5) across all datasets in Table 1. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: dataset names. Y-axis: Mean Accuracy (%). Each group contains five bars corresponding to alt-nn1 to alt-nn5. Add a legend, title, and axis labels. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which alt-nn model performs best on CIFAR-100? Respond only with the model.",
+        "question": "Based on Table 1, which alt-nn model performs best on CIFAR-100? Respond only with the model.",
+        "question_type": "reasoning",
+        "answer": "alt-nn3",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 48,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24120v1\\table1.jpg",
+            "table2": "2512.24120v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Per-Dataset Performance (Mean Accuracy %) on 1-epoch. Asterisks denote significance vs. baseline: * p < 0.05, ** p < 0.01. Best per dataset in bold.",
+            "table2": "Statistical Significance Tests (per-dataset comparison vs. alt-nn1 baseline). Only results with p < 0.05 shown."
+        },
+        "question_gen": "Visualize the Mean Accuracy (%) of all alt-nn models (alt-nn1 to alt-nn5) across all datasets in Table 1. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: dataset names. Y-axis: Mean Accuracy (%). Each group contains five bars corresponding to alt-nn1 to alt-nn5. Add a legend, title, and axis labels. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which alt-nn model performs worst on ImageNette? Respond only with the model.",
+        "question": "Based on Table 1, which alt-nn model performs worst on ImageNette? Respond only with the model.",
+        "question_type": "reasoning",
+        "answer": "alt-nn5",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 49,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24120v1\\table1.jpg",
+            "table2": "2512.24120v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Per-Dataset Performance (Mean Accuracy %) on 1-epoch. Asterisks denote significance vs. baseline: * p < 0.05, ** p < 0.01. Best per dataset in bold.",
+            "table2": "Statistical Significance Tests (per-dataset comparison vs. alt-nn1 baseline). Only results with p < 0.05 shown."
+        },
+        "question_gen": "Visualize the Mean Accuracy (%) of all alt-nn models (alt-nn1 to alt-nn5) across all datasets in Table 1. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: dataset names. Y-axis: Mean Accuracy (%). Each group contains five bars corresponding to alt-nn1 to alt-nn5. Add a legend, title, and axis labels. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which alt-nn model performs best on the largest number of datasets? Respond only with the model.",
+        "question": "Based on Table 1, which alt-nn model performs best on the largest number of datasets? Respond only with the model.",
+        "question_type": "reasoning",
+        "answer": "alt-nn3",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 50,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24284v1\\table1.jpg",
+            "table2": "2512.24284v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "QUANTITATIVE COMPARISONS OF DIFFERENT METHODS IN SIMULATED ENVIRONMENTS ACROSS TWO TASKS",
+            "table2": "COMPARISON OF DIFFERENT METHODS IN TERMS OF AVERAGE NAVIGATION COMPLETION TIME WITH VARYING PEDESTRIAN DENSITIES"
+        },
+        "question_gen": "Visualize the AT of DRL-TH across different scenes for Task 1 and Task 2 in Table 1. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: scenes. Y-axis: AT values. Add legend, title, and axis labels. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which scene has the highest AT for Task 1 under DRL-TH? Respond only with the scene.",
+        "question": "Based on Table 1, which scene has the highest AT for Task 1 under DRL-TH? Respond onlt with the scene.",
+        "question_type": "reasoning",
+        "answer": "Town03",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 51,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24284v1\\table1.jpg",
+            "table2": "2512.24284v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "QUANTITATIVE COMPARISONS OF DIFFERENT METHODS IN SIMULATED ENVIRONMENTS ACROSS TWO TASKS",
+            "table2": "COMPARISON OF DIFFERENT METHODS IN TERMS OF AVERAGE NAVIGATION COMPLETION TIME WITH VARYING PEDESTRIAN DENSITIES"
+        },
+        "question_gen": "Visualize the AT of DRL-TH across different scenes for Task 1 and Task 2 in Table 1. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: scenes. Y-axis: AT values. Add legend, title, and axis labels. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which scene has the lowest AT for Task 1 under DRL-TH? Respond only with the scene.",
+        "question": "Based on Table 1, which scene has the lowest AT for Task 1 under DRL-TH? Respond only with the scene.",
+        "question_type": "reasoning",
+        "answer": "Town07",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 52,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24284v1\\table1.jpg",
+            "table2": "2512.24284v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "QUANTITATIVE COMPARISONS OF DIFFERENT METHODS IN SIMULATED ENVIRONMENTS ACROSS TWO TASKS",
+            "table2": "COMPARISON OF DIFFERENT METHODS IN TERMS OF AVERAGE NAVIGATION COMPLETION TIME WITH VARYING PEDESTRIAN DENSITIES"
+        },
+        "question_gen": "Visualize the AT of DRL-TH across different scenes for Task 1 and Task 2 in Table 1. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: scenes. Y-axis: AT values. Add legend, title, and axis labels. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, in which scene is the gap between Task 2 AT and Task 1 AT the largest? Respond only with the scene.",
+        "question": "Based on Table 1, in which scene is the gap between Task 2 AT and Task 1 AT the largest? Respond only with the scene.",
+        "question_type": "reasoning",
+        "answer": "Town03",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 53,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24323v1\\table1.jpg",
+            "table2": "2512.24323v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison (%) with state-of-the-art methods on VISOR. Best results are highlighted in bold, second-best in underline within the same backbone. ↑ indicates higher is better, ↓ indicates lower is better.",
+            "table2": "Comparison (%) with state-of-the-art methods on the novel subset of VISOR. Best results are in bold, second-best in underline. ↑ indicates higher is better, ↓ indicates lower is better."
+        },
+        "question_gen": "Visualize mIoU⁺ and cIoU⁺ of all methods in Table 2. Plot requirements: Use Python with matplotlib. Create a multi-line chart. X-axis: method names. Y-axis: metric values. One line for mIoU⁺ and one for cIoU⁺. Add legend, title, and axis labels. Respond only with the code.",
+        "question_comp": "Based on Table 2 and the line chart, which method has the lowest mIoU⁺? Respond only with the method.",
+        "question": "Based on Table 2, which method has the lowest mIoU⁺? Respond only with the method.",
+        "question_type": "reasoning",
+        "answer": "HOS",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 54,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24323v1\\table1.jpg",
+            "table2": "2512.24323v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison (%) with state-of-the-art methods on VISOR. Best results are highlighted in bold, second-best in underline within the same backbone. ↑ indicates higher is better, ↓ indicates lower is better.",
+            "table2": "Comparison (%) with state-of-the-art methods on the novel subset of VISOR. Best results are in bold, second-best in underline. ↑ indicates higher is better, ↓ indicates lower is better."
+        },
+        "question_gen": "Visualize mIoU⁺ and cIoU⁺ of all methods in Table 2. Plot requirements: Use Python with matplotlib. Create a multi-line chart. X-axis: method names. Y-axis: metric values. One line for mIoU⁺ and one for cIoU⁺. Add legend, title, and axis labels. Respond only with the code.",
+        "question_comp": "Based on Table 2 and the line chart, which method has the highest cIoU⁺? Respond only with the method.",
+        "question": "Based on Table 2 and the line chart, which method has the highest cIoU⁺? Respond only with the method.",
+        "question_type": "reasoning",
+        "answer": "Ours",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 55,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.17363v1\\chart1.jpg",
+            "table1": "2512.17363v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Cumulative growth of TEE projects by domain (2011-2025).",
+            "table1": "Distribution of TEE Projects by Application Domain"
+        },
+        "question_gen": "Visualize the percentage distribution of application domains in Table 1. Plot requirements: Use Python with matplotlib. Create a pie chart. Label each slice with domain name and percentage. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the pie chart, which application domain has the largest percentage? Respond only with the domain.",
+        "question": "Based on Table 1, which application domain has the largest percentage? Respond only with the domain.",
+        "question_type": "reasoning",
+        "answer": "IoT Device Security",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 56,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.17363v1\\chart1.jpg",
+            "table1": "2512.17363v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Cumulative growth of TEE projects by domain (2011-2025).",
+            "table1": "Distribution of TEE Projects by Application Domain"
+        },
+        "question_gen": "Visualize the percentage distribution of application domains in Table 1. Plot requirements: Use Python with matplotlib. Create a pie chart. Label each slice with domain name and percentage. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the pie chart, which application domain has the second largest percentage? Respond only with the domain.",
+        "question": "Based on Table 1, which application domain has the second largest percentage? Respond only with the domain.",
+        "question_type": "reasoning",
+        "answer": "Privacy-Preserving Computing",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 57,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.21635v2\\chart1.jpg",
+            "table1": "2512.21635v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparative analysis of model indicators across scientific fields under SCP",
+            "table1": "Creativity and Hallucination Performance of Six LLMs Under Diverse Prompt Strategies, with CoT and RAG Constructed on the SCP Baseline. Bold values indicate the best-performing model–strategy pairs. “P” denotes the applied prompt strategy."
+        },
+        "question_gen": "Use Python with matplotlib. Create a grouped bar chart. X-axis: model names. Y-axis: percentage. Legend: IH and DH. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which model has the highest IH percentage? Respond only with the model.",
+        "question": "Based on Table 1, which model has the highest IH percentage? Respond only with the model.",
+        "question_type": "reasoning",
+        "answer": "deepseek-r1",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 58,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.21635v2\\chart1.jpg",
+            "table1": "2512.21635v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparative analysis of model indicators across scientific fields under SCP",
+            "table1": "Creativity and Hallucination Performance of Six LLMs Under Diverse Prompt Strategies, with CoT and RAG Constructed on the SCP Baseline. Bold values indicate the best-performing model–strategy pairs. “P” denotes the applied prompt strategy."
+        },
+        "question_gen": "Use Python with matplotlib. Create a grouped bar chart. X-axis: model names. Y-axis: percentage. Legend: IH and DH. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which model has the highest DH percentage? Respond only with the model.",
+        "question": "Based on Table 1, which model has the highest DH percentage? Respond only with the model.",
+        "question_type": "reasoning",
+        "answer": "qwen2.5-14b",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 59,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.21635v2\\chart1.jpg",
+            "table1": "2512.21635v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparative analysis of model indicators across scientific fields under SCP",
+            "table1": "Creativity and Hallucination Performance of Six LLMs Under Diverse Prompt Strategies, with CoT and RAG Constructed on the SCP Baseline. Bold values indicate the best-performing model–strategy pairs. “P” denotes the applied prompt strategy."
+        },
+        "question_gen": "Use Python with matplotlib. Create a grouped bar chart. X-axis: model names. Y-axis: percentage. Legend: IH and DH. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, list the two models with the highest IH percentages. Respond only with the models.",
+        "question": "Based on Table 1, list the two models with the highest IH percentages. Respond only with the models.",
+        "question_type": "reasoning",
+        "answer": "deepseek-r1,deepseek-v3",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 60,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.22416v1\\chart1.jpg",
+            "table1": "2512.22416v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Results of QA dataset-Starling-LM-7B-alpha",
+            "table1": "Results of QA dataset-Starling-LM-7B-alpha"
+        },
+        "question_gen": "Visualize TPR, TNR, and Accuracy of all methods in Table 1. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: method names. Y-axis: percentage. Add a legend and a title. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which method has the highest Accuracy? Respond only with the method.",
+        "question": "Based on Table 1, which method has the highest Accuracy? Respond only with the method.",
+        "question_type": "reasoning",
+        "answer": "HHEM (Non-Fabrication Checking) ",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 61,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.22416v1\\chart1.jpg",
+            "table1": "2512.22416v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Results of QA dataset-Starling-LM-7B-alpha",
+            "table1": "Results of QA dataset-Starling-LM-7B-alpha"
+        },
+        "question_gen": "Visualize TPR, TNR, and Accuracy of all methods in Table 1. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: method names. Y-axis: percentage. Add a legend and a title. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which method has the lowest TPR? Respond only with the method.",
+        "question": "Based on Table 1, which method has the lowest TPR? Respond only with the method.",
+        "question_type": "reasoning",
+        "answer": "Knowhalu (Unstructured) + HHEM",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 62,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.22416v1\\chart1.jpg",
+            "table1": "2512.22416v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Results of QA dataset-Starling-LM-7B-alpha",
+            "table1": "Results of QA dataset-Starling-LM-7B-alpha"
+        },
+        "question_gen": "Visualize TPR, TNR, and Accuracy of all methods in Table 1. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: method names. Y-axis: percentage. Add a legend and a title. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which method has the highest TPR? Respond only with the method.",
+        "question": "Based on Table 1, which method has the highest TPR? Respond only with the method.",
+        "question_type": "reasoning",
+        "answer": "HHEM (Non-Fabrication Checking)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 63,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.22627v1\\chart1.jpg",
+            "table1": "2512.22627v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The performance of our approach with different numbers of maximum correction rounds MCR = {1, 2, 3, 4, 5, 10} on the TMQA dataset.",
+            "table1": "Performance comparison of baselines and existing TSQA methods on benchmark datasets."
+        },
+        "question_gen": "Visualize the Accuracy of all methods in Table 1 for TMQA–MCQ and TMQA–T/F. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: method names. Y-axis: Accuracy. Add a legend and title. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which method achieves the highest Accuracy on TMQA–T/F? Respond only with the method.",
+        "question": "Based on Table 1, which method achieves the highest Accuracy on TMQA–T/F? Respond only with the method.",
+        "question_type": "reasoning",
+        "answer": "T3LLM",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 64,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.22627v1\\chart1.jpg",
+            "table1": "2512.22627v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The performance of our approach with different numbers of maximum correction rounds MCR = {1, 2, 3, 4, 5, 10} on the TMQA dataset.",
+            "table1": "Performance comparison of baselines and existing TSQA methods on benchmark datasets."
+        },
+        "question_gen": "Visualize the Accuracy of all methods in Table 1 for TMQA–MCQ and TMQA–T/F. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: method names. Y-axis: Accuracy. Add a legend and title. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which method has the lowest Accuracy on TMQA–MCQ? Respond only with the method.",
+        "question": "Based on Table 1, which method has the lowest Accuracy on TMQA–MCQ? Respond only with the method.",
+        "question_type": "reasoning",
+        "answer": "TSTxt",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 65,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.22627v1\\chart1.jpg",
+            "table1": "2512.22627v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The performance of our approach with different numbers of maximum correction rounds MCR = {1, 2, 3, 4, 5, 10} on the TMQA dataset.",
+            "table1": "Performance comparison of baselines and existing TSQA methods on benchmark datasets."
+        },
+        "question_gen": "Visualize the Accuracy of all methods in Table 1 for TMQA–MCQ and TMQA–T/F. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: method names. Y-axis: Accuracy. Add a legend and title. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which method shows the largest gap between TMQA–MCQ and TMQA–T/F Accuracy? Respond only with the method.",
+        "question": "Based on Table 1, which method shows the largest difference between TMQA–MCQ Accuracy and TMQA–T/F Accuracy? Respond only with the method.",
+        "question_type": "reasoning",
+        "answer": "TSTxt",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 66,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23213v1\\chart1.jpg",
+            "table1": "2512.23213v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "LLM performances (bottom: AlpacaEval).",
+            "table1": "Main results (%)"
+        },
+        "question_gen": "Visualize the scores of Single LLM methods in Table 1 across TriviaQA, GSM8K, MATH, and AlpacaEval. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: dataset names. Y-axis: score values. Legend: method names. Add a title. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which Single LLM method achieves the highest score on GSM8K? Respond only with the method.",
+        "question": "Based on Table 1, which Single LLM method achieves the highest score on GSM8K? Respond only with the method.",
+        "question_type": "reasoning",
+        "answer": "Qwen2.5-7B-Instruct",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 67,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23213v1\\chart1.jpg",
+            "table1": "2512.23213v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "LLM performances (bottom: AlpacaEval).",
+            "table1": "Main results (%)"
+        },
+        "question_gen": "Visualize the scores of Single LLM methods in Table 1 across TriviaQA, GSM8K, MATH, and AlpacaEval. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: dataset names. Y-axis: score values. Legend: method names. Add a title. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which Single LLM method achieves the highest score on TriviaQA? Respond only with the method.",
+        "question": "Based on Table 1, which Single LLM method achieves the highest score on TriviaQA? Respond only with th method.",
+        "question_type": "reasoning",
+        "answer": "Llama-3.1-8B-Instruct",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 68,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23213v1\\chart1.jpg",
+            "table1": "2512.23213v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "LLM performances (bottom: AlpacaEval).",
+            "table1": "Main results (%)"
+        },
+        "question_gen": "Visualize the scores of Single LLM methods in Table 1 across TriviaQA, GSM8K, MATH, and AlpacaEval. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: dataset names. Y-axis: score values. Legend: method names. Add a title. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, on which dataset does Mistral-7B-Instruct achieve the lowest score? Respond only with the dataset.",
+        "question": "Based on Table 1, on which dataset does Mistral-7B-Instruct achieve the lowest score? Respond only with the dataset.",
+        "question_type": "reasoning",
+        "answer": "AlpacaEval",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 69,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23213v1\\chart1.jpg",
+            "table1": "2512.23213v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "LLM performances (bottom: AlpacaEval).",
+            "table1": "Main results (%)"
+        },
+        "question_gen": "Visualize the scores of Single LLM methods in Table 1 across TriviaQA, GSM8K, MATH, and AlpacaEval. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: dataset names. Y-axis: score values. Legend: method names. Add a title. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which Single LLM method performs strongly across all datasets? Respond only with the method.",
+        "question": "Based on Table 1, which Single LLM method performs strongly across all datasets? Respond only with the method.",
+        "question_type": "reasoning",
+        "answer": "Qwen2.5-7B-Instruct",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 70,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23239v1\\chart1.jpg",
+            "table1": "2512.23239v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of generation performance (FID) across different pruning ratios on Git-10M.",
+            "table1": "Experimental results with different data pruning methods on Git-10M and USA-1m. We report results at a pruning ratio of 70%."
+        },
+        "question_gen": "Visualize the Generation FID of all methods under the Git-10M dataset in Table 1. Plot requirements: Use Python with matplotlib. Create a vertical bar chart. X-axis: method names. Y-axis: Generation FID. Add a title and axis labels. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the bar chart, which method has the highest Generation FID under the Git-10M dataset? Respond only with the method.",
+        "question": "Based on Table 1, which method has the highest Generation FID under the Git-10M dataset? Respond only with the method.",
+        "question_type": "reasoning",
+        "answer": "A^2-MAE",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 71,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23239v1\\chart1.jpg",
+            "table1": "2512.23239v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of generation performance (FID) across different pruning ratios on Git-10M.",
+            "table1": "Experimental results with different data pruning methods on Git-10M and USA-1m. We report results at a pruning ratio of 70%."
+        },
+        "question_gen": "Visualize the Generation FID of all methods under the Git-10M dataset in Table 1. Plot requirements: Use Python with matplotlib. Create a vertical bar chart. X-axis: method names. Y-axis: Generation FID. Add a title and axis labels. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the bar chart, list the two methods with the lowest Generation FID under Git-10M. Respond onlt with the methods.",
+        "question": "Based on Table 1, list the two methods with the lowest Generation FID under Git-10M. Respond only with the methods.",
+        "question_type": "reasoning",
+        "answer": "Ours,Dinov2",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 72,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23430v1\\chart1.jpg",
+            "table1": "2512.23430v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Ablation Study of C2PO. We report Accuracy/Agreement (bars, left axis) and aggregate Bias Score (line, right axis). The removal of Semantic Alignment (w/o SA), Causal Discovery (w/o CD), or Bias Suppression (w/o BS) consistently degrades fairness and utility.",
+            "table1": "Main Results. Comparison of stereotypical, structural, and OOD bias mitigation alongside general utility. The last column Avg reports the mean accuracy across all benchmarks. The symbol † indicates statistically significant improvement over the best baseline (p < 0.05)."
+        },
+        "question_gen": "Visualize the Avg Accuracy of all methods under the LLaMA-2-13B-Chat backbone in Table 1. Plot requirements: Use Python with matplotlib. Create a vertical bar chart. X-axis: method names. Y-axis: Avg Accuracy. Add a title and axis labels. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the bar chart, which method achieves the highest Avg Accuracy under the LLaMA-2-13B-Chat backbone? Respond only with the method.",
+        "question": "Based on Table 1, which method achieves the highest Avg Accuracy under the LLaMA-2-13B-Chat backbone? Respond only with the method.",
+        "question_type": "reasoning",
+        "answer": "C2PO (Ours)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 73,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23430v1\\chart1.jpg",
+            "table1": "2512.23430v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Ablation Study of C2PO. We report Accuracy/Agreement (bars, left axis) and aggregate Bias Score (line, right axis). The removal of Semantic Alignment (w/o SA), Causal Discovery (w/o CD), or Bias Suppression (w/o BS) consistently degrades fairness and utility.",
+            "table1": "Main Results. Comparison of stereotypical, structural, and OOD bias mitigation alongside general utility. The last column Avg reports the mean accuracy across all benchmarks. The symbol † indicates statistically significant improvement over the best baseline (p < 0.05)."
+        },
+        "question_gen": "Visualize the Avg Accuracy of all methods under the LLaMA-2-13B-Chat backbone in Table 1. Plot requirements: Use Python with matplotlib. Create a vertical bar chart. X-axis: method names. Y-axis: Avg Accuracy. Add a title and axis labels. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the bar chart, which method has the lowest Avg Accuracy under the LLaMA-2-13B-Chat backbone? Respond only with the method.",
+        "question": "Based on Table 1, which method has the lowest Avg Accuracy under the LLaMA-2-13B-Chat backbone? Respond only with the method.",
+        "question_type": "reasoning",
+        "answer": "DPO",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 74,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23430v1\\chart1.jpg",
+            "table1": "2512.23430v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Ablation Study of C2PO. We report Accuracy/Agreement (bars, left axis) and aggregate Bias Score (line, right axis). The removal of Semantic Alignment (w/o SA), Causal Discovery (w/o CD), or Bias Suppression (w/o BS) consistently degrades fairness and utility.",
+            "table1": "Main Results. Comparison of stereotypical, structural, and OOD bias mitigation alongside general utility. The last column Avg reports the mean accuracy across all benchmarks. The symbol † indicates statistically significant improvement over the best baseline (p < 0.05)."
+        },
+        "question_gen": "Visualize the Avg Accuracy of all methods under the LLaMA-2-13B-Chat backbone in Table 1. Plot requirements: Use Python with matplotlib. Create a vertical bar chart. X-axis: method names. Y-axis: Avg Accuracy. Add a title and axis labels. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the bar chart, which method achieves higher Avg Accuracy than CPO? Respond only with the method.",
+        "question": "Based on Table 1, which method achieves higher Avg Accuracy than CPO? Respond only with the method.",
+        "question_type": "reasoning",
+        "answer": "C2PO (Ours)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 75,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23518v1\\chart1.jpg",
+            "table1": "2512.23518v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "LLM answer accuracy under different types of prompt biases. The three x-axis conditions correspond to: ① correct vs. incorrect biases, ② positive vs. negative biases, and ③ negation-based positive vs. negative biases. Results show that rephrased prompts with biased expression substantially affect factual accuracy across models.",
+            "table1": "Accuracy (%) across three benchmarks: TruthfulQA (open-ended), MMLU (multiple-choice), and BoolQ (binary) under original, positively biased (+), and negatively biased (−) prompts. All denotes the percentage of items answered correctly under all three prompt variants. † MoLaCE without debate, ‡ MoLaCE + Debate indicates our proposed methods."
+        },
+        "question_gen": "Visualize the All Accuracy of Phi, Mistral, and LLaMA on MMLU from Table 1. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: models. Y-axis: All Accuracy. Add a legend for methods. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which method achieves the highest All Accuracy for Phi on MMLU? Respond only with the method.",
+        "question": "Based on Table 1, which method achieves the highest All Accuracy for Phi on MMLU? Respond only with the method.",
+        "question_type": "reasoning",
+        "answer": "MoLaCE + Debate",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 76,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23518v1\\chart1.jpg",
+            "table1": "2512.23518v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "LLM answer accuracy under different types of prompt biases. The three x-axis conditions correspond to: ① correct vs. incorrect biases, ② positive vs. negative biases, and ③ negation-based positive vs. negative biases. Results show that rephrased prompts with biased expression substantially affect factual accuracy across models.",
+            "table1": "Accuracy (%) across three benchmarks: TruthfulQA (open-ended), MMLU (multiple-choice), and BoolQ (binary) under original, positively biased (+), and negatively biased (−) prompts. All denotes the percentage of items answered correctly under all three prompt variants. † MoLaCE without debate, ‡ MoLaCE + Debate indicates our proposed methods."
+        },
+        "question_gen": "Visualize the All Accuracy of Phi, Mistral, and LLaMA on MMLU from Table 1. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: models. Y-axis: All Accuracy. Add a legend for methods. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which model achieves the highest All Accuracy under the Raw model setting on MMLU? Respond only with the model.",
+        "question": "Based on Table 1, which model achieves the highest All Accuracy under the Raw model setting on MMLU? Respond ony with the model.",
+        "question_type": "reasoning",
+        "answer": "LLaMA",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 77,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23518v1\\chart1.jpg",
+            "table1": "2512.23518v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "LLM answer accuracy under different types of prompt biases. The three x-axis conditions correspond to: ① correct vs. incorrect biases, ② positive vs. negative biases, and ③ negation-based positive vs. negative biases. Results show that rephrased prompts with biased expression substantially affect factual accuracy across models.",
+            "table1": "Accuracy (%) across three benchmarks: TruthfulQA (open-ended), MMLU (multiple-choice), and BoolQ (binary) under original, positively biased (+), and negatively biased (−) prompts. All denotes the percentage of items answered correctly under all three prompt variants. † MoLaCE without debate, ‡ MoLaCE + Debate indicates our proposed methods."
+        },
+        "question_gen": "Visualize the All Accuracy of Phi, Mistral, and LLaMA on MMLU from Table 1. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: models. Y-axis: All Accuracy. Add a legend for methods. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, on which model does Debate+ achieve the lowest All Accuracy on MMLU? Respond only with the model.",
+        "question": "Based on Table 1, on which model does Debate+ achieve the lowest All Accuracy on MMLU? Respond only with the model.",
+        "question_type": "reasoning",
+        "answer": "Mistral",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 78,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23518v1\\chart1.jpg",
+            "table1": "2512.23518v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "LLM answer accuracy under different types of prompt biases. The three x-axis conditions correspond to: ① correct vs. incorrect biases, ② positive vs. negative biases, and ③ negation-based positive vs. negative biases. Results show that rephrased prompts with biased expression substantially affect factual accuracy across models.",
+            "table1": "Accuracy (%) across three benchmarks: TruthfulQA (open-ended), MMLU (multiple-choice), and BoolQ (binary) under original, positively biased (+), and negatively biased (−) prompts. All denotes the percentage of items answered correctly under all three prompt variants. † MoLaCE without debate, ‡ MoLaCE + Debate indicates our proposed methods."
+        },
+        "question_gen": "Visualize the All Accuracy of Phi, Mistral, and LLaMA on MMLU from Table 1. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: models. Y-axis: All Accuracy. Add a legend for methods. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which method performs well across all models on MMLU? Respond only with the method.",
+        "question": "Based on Table 1, which method performs well across all models on MMLU? Respond only with the method.",
+        "question_type": "reasoning",
+        "answer": "MoLaCE + Debate",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 79,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23686v1\\chart1.jpg",
+            "table1": "2512.23686v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Top-5 entity types by domain. Each bar reports within-domain percentage for the five most frequent entity types in Finance, Medicine, Legal, and Technology. The concentration of domain-critical categories motivates entity-centric evaluation alongside conventional WER.",
+            "table1": "SER on ProfASR-Bench. Lower is better. Note the trade-off vs. WER: Qwen yields many perfect utterances (low SER) but a higher average edit rate (WER)."
+        },
+        "question_gen": "Visualize the SER (%) of all models across the four domains (Financial, Legal, Medical, Technical) in Table 1. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: domains. Y-axis: SER (%). Legend: model names. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which model has the highest SER (%) on the Medical domain? Respond only with the model.",
+        "question": "Based on Table 1, which model has the highest SER (%) on the Medical domain? Respond only with the model.",
+        "question_type": "reasoning",
+        "answer": "Whisper Tiny",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 80,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23686v1\\chart1.jpg",
+            "table1": "2512.23686v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Top-5 entity types by domain. Each bar reports within-domain percentage for the five most frequent entity types in Finance, Medicine, Legal, and Technology. The concentration of domain-critical categories motivates entity-centric evaluation alongside conventional WER.",
+            "table1": "SER on ProfASR-Bench. Lower is better. Note the trade-off vs. WER: Qwen yields many perfect utterances (low SER) but a higher average edit rate (WER)."
+        },
+        "question_gen": "Visualize the SER (%) of all models across the four domains (Financial, Legal, Medical, Technical) in Table 1. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: domains. Y-axis: SER (%). Legend: model names. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which model has the lowest SER (%) on the Technical domain? Respond only with the model.",
+        "question": "Based on Table 1, which model has the lowest SER (%) on the Technical domain? Respond only with the model.",
+        "question_type": "reasoning",
+        "answer": "Qwen 2.5 Omni 3B",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 81,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23686v1\\chart1.jpg",
+            "table1": "2512.23686v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Top-5 entity types by domain. Each bar reports within-domain percentage for the five most frequent entity types in Finance, Medicine, Legal, and Technology. The concentration of domain-critical categories motivates entity-centric evaluation alongside conventional WER.",
+            "table1": "SER on ProfASR-Bench. Lower is better. Note the trade-off vs. WER: Qwen yields many perfect utterances (low SER) but a higher average edit rate (WER)."
+        },
+        "question_gen": "Visualize the SER (%) of all models across the four domains (Financial, Legal, Medical, Technical) in Table 1. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: domains. Y-axis: SER (%). Legend: model names. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which model has the lowest SER (%) on the Financial domain? Respond only with the model.",
+        "question": "Based on Table 1, which model has the lowest SER (%) on the Financial domain? Respond only with the model.",
+        "question_type": "reasoning",
+        "answer": "Qwen 2.5 Omni 3B",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 82,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23809v1\\chart1.jpg",
+            "table1": "2512.23809v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Accuracy under poisoning: (a) label flipping, (b) gradient manipulation.",
+            "table1": "PERFORMANCE ON CLEAN DATA (MEAN ± STD OVER 5 RUNS)"
+        },
+        "question_gen": "Visualize the Accuracy (Acc %) of all methods on the three datasets in Table 1. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: datasets. Y-axis: Accuracy (%). Legend: method names. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which method achieves the highest Accuracy on the Edge-IIoTset dataset? Respond only with the method.",
+        "question": "Based on Table 1, which method achieves the highest Accuracy on the Edge-IIoTset dataset? Respond only with the method.",
+        "question_type": "reasoning",
+        "answer": "ZTA-FL",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 83,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23809v1\\chart1.jpg",
+            "table1": "2512.23809v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Accuracy under poisoning: (a) label flipping, (b) gradient manipulation.",
+            "table1": "PERFORMANCE ON CLEAN DATA (MEAN ± STD OVER 5 RUNS)"
+        },
+        "question_gen": "Visualize the Accuracy (Acc %) of all methods on the three datasets in Table 1. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: datasets. Y-axis: Accuracy (%). Legend: method names. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which method has the lowest Accuracy on the UNSW-NB15 dataset? Respond only with the method.",
+        "question": "Based on Table 1, which method has the lowest Accuracy on the UNSW-NB15 dataset? Respond only with the method.",
+        "question_type": "reasoning",
+        "answer": "Krum",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 84,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23809v1\\chart1.jpg",
+            "table1": "2512.23809v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Accuracy under poisoning: (a) label flipping, (b) gradient manipulation.",
+            "table1": "PERFORMANCE ON CLEAN DATA (MEAN ± STD OVER 5 RUNS)"
+        },
+        "question_gen": "Visualize the Accuracy (Acc %) of all methods on the three datasets in Table 1. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: datasets. Y-axis: Accuracy (%). Legend: method names. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which method achieves the highest Accuracy across all three datasets? Respond onlt with the method.",
+        "question": "Based on Table 1, which method achieves the highest Accuracy across all three datasets? Respond only with the method.",
+        "question_type": "reasoning",
+        "answer": "ZTA-FL",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 85,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23961v1\\chart1.jpg",
+            "table1": "2512.23961v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparisons of performance among 5 categories. Baseline in blue color, no KYC in orange color, basic KYC in green color, advanced KYC in red color and advanced KYC and circles in purple color respectively.",
+            "table1": "nDCG@1 Performances Among Comparison of Recommendation Systems."
+        },
+        "question_gen": "Visualize the nDCG@1 of all categories and methods in Table 1. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: categories. Y-axis: nDCG@1 values. Legend: method names. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which method achieves the highest nDCG@1 on the Ad category? Respond only with the method.",
+        "question": "Based on Table 1, which method achieves the highest nDCG@1 on the Ad category? Respond only with the method.",
+        "question_type": "reasoning",
+        "answer": "Ours (Adv. KYC + Circles)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 86,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23961v1\\chart1.jpg",
+            "table1": "2512.23961v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparisons of performance among 5 categories. Baseline in blue color, no KYC in orange color, basic KYC in green color, advanced KYC in red color and advanced KYC and circles in purple color respectively.",
+            "table1": "nDCG@1 Performances Among Comparison of Recommendation Systems."
+        },
+        "question_gen": "Visualize the nDCG@1 of all categories and methods in Table 1. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: categories. Y-axis: nDCG@1 values. Legend: method names. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which method has the lowest nDCG@1 on the Tech category? Respond only with the method.",
+        "question": "Based on Table 1, which method has the lowest nDCG@1 on the Tech category? Respond only with the method.",
+        "question_type": "reasoning",
+        "answer": "Baseline",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 87,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23961v1\\chart1.jpg",
+            "table1": "2512.23961v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparisons of performance among 5 categories. Baseline in blue color, no KYC in orange color, basic KYC in green color, advanced KYC in red color and advanced KYC and circles in purple color respectively.",
+            "table1": "nDCG@1 Performances Among Comparison of Recommendation Systems."
+        },
+        "question_gen": "Visualize the nDCG@1 of all categories and methods in Table 1. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: categories. Y-axis: nDCG@1 values. Legend: method names. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which method achieves the highest nDCG@1 on the Sharing category? Respond only with the method.",
+        "question": "Based on Table 1, which method achieves the highest nDCG@1 on the Sharing category? Respond only with the method.",
+        "question_type": "reasoning",
+        "answer": "Ours (Adv. KYC + Circles)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 88,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24794v1\\chart1.jpg",
+            "table1": "2512.24794v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "(a) rMSE and (b) DSSIM error metrics for each denoiser at various input samples per pixel (spp), averaged over the SBMC test set",
+            "table1": "Error metrics for each denoiser averaged over the SBMC test set ( bold indicates best result, italics indicates second best result)"
+        },
+        "question_gen": "Visualize the structural similarity error across sampling rates for multiple denoising models using Table 1. Plot the DSSIM values of Ours (Large), Ours (Orig.), and SBMC across all spp values (4, 8, 16, 32, 64, 128). Plot requirements: Use Python with matplotlib; Create a line chart; X-axis: spp, Y-axis: DSSIM; One curve per model with a legend; Add a title and axis labels; Respond only with the code.",
+        "question_comp": "Based on Table 1 and the line chart, which model consistently achieves the lowest DSSIM across all sampling rates? Respond only with the model.",
+        "question": "Based on Table 1, which model consistently achieves the lowest DSSIM across all sampling rates? Respond only with the model.",
+        "question_type": "reasoning",
+        "answer": "SBMC",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 89,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24794v1\\chart1.jpg",
+            "table1": "2512.24794v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "(a) rMSE and (b) DSSIM error metrics for each denoiser at various input samples per pixel (spp), averaged over the SBMC test set",
+            "table1": "Error metrics for each denoiser averaged over the SBMC test set ( bold indicates best result, italics indicates second best result)"
+        },
+        "question_gen": "Visualize the structural similarity error across sampling rates for multiple denoising models using Table 1. Plot the DSSIM values of Ours (Large), Ours (Orig.), and SBMC across all spp values (4, 8, 16, 32, 64, 128). Plot requirements: Use Python with matplotlib; Create a line chart; X-axis: spp, Y-axis: DSSIM; One curve per model with a legend; Add a title and axis labels; Respond only with the code.",
+        "question_comp": "Based on Table 1 and the line chart, which model shows the most noticeable decrease in DSSIM as spp increases? Respond only with the model.",
+        "question": "Based on Table 1, which model shows the most noticeable decrease in DSSIM as spp increases? Respond only with the model.",
+        "question_type": "reasoning",
+        "answer": "SBMC",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 90,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24794v1\\chart1.jpg",
+            "table1": "2512.24794v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "(a) rMSE and (b) DSSIM error metrics for each denoiser at various input samples per pixel (spp), averaged over the SBMC test set",
+            "table1": "Error metrics for each denoiser averaged over the SBMC test set ( bold indicates best result, italics indicates second best result)"
+        },
+        "question_gen": "Visualize the structural similarity error across sampling rates for multiple denoising models using Table 1. Plot the DSSIM values of Ours (Large), Ours (Orig.), and SBMC across all spp values (4, 8, 16, 32, 64, 128). Plot requirements: Use Python with matplotlib; Create a line chart; X-axis: spp, Y-axis: DSSIM; One curve per model with a legend; Add a title and axis labels; Respond only with the code.",
+        "question_comp": "Based on Table 1 and the line chart, which model has the lowest DSSIM at 4 spp? Respond only with the model.",
+        "question": "Based on Table 1, which model has the lowest DSSIM at 4 spp? Respond only with the model.",
+        "question_type": "reasoning",
+        "answer": "SBMC",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 91,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.25063v1\\chart1.jpg",
+            "table1": "2512.25063v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Semantic diversity on INFINITY-CHAT. B-Trans (solid) consistently yields higher embedding distances than baselines (hatched), confirming better output heterogeneity on creativity writing.",
+            "table1": "Performance on RLVR tasks using GRPO. B-Trans consistently outperforms the baseline, particularly on smaller models and harder datasets."
+        },
+        "question_gen": "Visualize the improvement in Average scores for all models in Table 1 by plotting a grouped bar chart comparing Base Model and B-Trans. Plot requirements: Use Python with matplotlib Create a grouped bar chart X-axis: model names (Qwen3-1.7B, Qwen3-8B, Qwen2.5-Math-7B, Llama3.1-8B) Two bars per model: Base Model Average B-Trans Average Y-axis: Average score Add a legend, title, and axis labels Do not specify colors Do not apply normalization or smoothing Respond only with the code.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which model has the highest Average score after applying B-Trans? Respond only with the model.",
+        "question": "Based on Table 1, which model has the highest Average score after applying B-Trans? Respond only with the model.",
+        "question_type": "reasoning",
+        "answer": "Qwen2.5-Math-7B",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 92,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.25063v1\\chart1.jpg",
+            "table1": "2512.25063v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Semantic diversity on INFINITY-CHAT. B-Trans (solid) consistently yields higher embedding distances than baselines (hatched), confirming better output heterogeneity on creativity writing.",
+            "table1": "Performance on RLVR tasks using GRPO. B-Trans consistently outperforms the baseline, particularly on smaller models and harder datasets."
+        },
+        "question_gen": "Visualize the improvement in Average scores for all models in Table 1 by plotting a grouped bar chart comparing Base Model and B-Trans. Plot requirements: Use Python with matplotlib Create a grouped bar chart X-axis: model names (Qwen3-1.7B, Qwen3-8B, Qwen2.5-Math-7B, Llama3.1-8B) Two bars per model: Base Model Average B-Trans Average Y-axis: Average score Add a legend, title, and axis labels Do not specify colors Do not apply normalization or smoothing Respond only with the code.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which base model has the lowest Average score? Respond only with the model.",
+        "question": "Based on Table 1, which base model has the lowest Average score? Respond only with the model.",
+        "question_type": "reasoning",
+        "answer": "Llama3.1-8B",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 93,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.25063v1\\chart1.jpg",
+            "table1": "2512.25063v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Semantic diversity on INFINITY-CHAT. B-Trans (solid) consistently yields higher embedding distances than baselines (hatched), confirming better output heterogeneity on creativity writing.",
+            "table1": "Performance on RLVR tasks using GRPO. B-Trans consistently outperforms the baseline, particularly on smaller models and harder datasets."
+        },
+        "question_gen": "Visualize the improvement in Average scores for all models in Table 1 by plotting a grouped bar chart comparing Base Model and B-Trans. Plot requirements: Use Python with matplotlib Create a grouped bar chart X-axis: model names (Qwen3-1.7B, Qwen3-8B, Qwen2.5-Math-7B, Llama3.1-8B) Two bars per model: Base Model Average B-Trans Average Y-axis: Average score Add a legend, title, and axis labels Do not specify colors Do not apply normalization or smoothing Respond only with the code.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which model shows the largest improvement after applying B-Trans? Respond only with the model.",
+        "question": "Based on Table 1, which model shows the largest improvement after applying B-Trans? Respond only with the model.",
+        "question_type": "reasoning",
+        "answer": "Qwen2.5-Math-7B",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 94,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.25063v1\\chart1.jpg",
+            "table1": "2512.25063v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Semantic diversity on INFINITY-CHAT. B-Trans (solid) consistently yields higher embedding distances than baselines (hatched), confirming better output heterogeneity on creativity writing.",
+            "table1": "Performance on RLVR tasks using GRPO. B-Trans consistently outperforms the baseline, particularly on smaller models and harder datasets."
+        },
+        "question_gen": "Visualize the improvement in Average scores for all models in Table 1 by plotting a grouped bar chart comparing Base Model and B-Trans. Plot requirements: Use Python with matplotlib Create a grouped bar chart X-axis: model names (Qwen3-1.7B, Qwen3-8B, Qwen2.5-Math-7B, Llama3.1-8B) Two bars per model: Base Model Average B-Trans Average Y-axis: Average score Add a legend, title, and axis labels Do not specify colors Do not apply normalization or smoothing Respond only with the code.",
+        "question_comp": "Based on Table 1 and the grouped bar chart, which model shows the smallest improvement after applying B-Trans? Respond only with the model.",
+        "question": "Based on Table 1, which model shows the smallest improvement after applying B-Trans? Respond only with the model.",
+        "question_type": "reasoning",
+        "answer": "Qwen3-8B",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 95,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1": "2508.09040v1\\table1.jpg",
+            "table2": "2508.09040v1\\table2.jpg",
+            "table3": "2508.09040v1\\table3.jpg"
+        },
+        "caption": {
+            "table1": "Root mean squared error (RMSE) and empirical coverage probabilities (ECP) (d = 6)",
+            "table2": "Root mean squared error (RMSE) and empirical coverage probabilities (ECP) (d = 8)",
+            "table3": "Root mean squared error (RMSE) and empirical coverage probabilities (ECP) (d = 10)"
+        },
+        "question_gen":"Using the RMSE values of T̂n in Table 2 (d = 8), construct a line chart showing how RMSE varies with ρ (from 0 to 0.9) under each sample size n = 300, 600, and 900. Plot three separate lines—one for each n—using matplotlib only. Provide executable Python code that generates this line chart. Respone only with the code.",
+        "question_comp": "Based on Table 2 and the line chart, which sample size generally achieves the lowest RMSE across all values of ρ? Respond with the numeric value of n.",
+        "question": "Based on Table 2 and the line chart, which sample size generally achieves the lowest RMSE across all values of ρ? Respond with the numeric value of n.",
+        "question_type": "reasoning",
+        "answer": 900,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 96,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1": "2508.09040v1\\table1.jpg",
+            "table2": "2508.09040v1\\table2.jpg",
+            "table3": "2508.09040v1\\table3.jpg"
+        },
+        "caption": {
+            "table1": "Root mean squared error (RMSE) and empirical coverage probabilities (ECP) (d = 6)",
+            "table2": "Root mean squared error (RMSE) and empirical coverage probabilities (ECP) (d = 8)",
+            "table3": "Root mean squared error (RMSE) and empirical coverage probabilities (ECP) (d = 10)"
+        },
+        "question_gen":"Using the RMSE values of T̂n in Table 2 (d = 8), construct a line chart showing how RMSE varies with ρ (from 0 to 0.9) under each sample size n = 300, 600, and 900. Plot three separate lines—one for each n—using matplotlib only. Provide executable Python code that generates this line chart. Respone only with the code.",
+        "question_comp": "Based on Table 2 and the line chart, which sample size shows the most stable RMSE trend across different values of ρ? Respond with the numeric value of n.",
+        "question": "Based on Table 2, which sample size shows the most stable RMSE trend across different values of ρ? Respond with the numeric value of n.",
+        "question_type": "reasoning",
+        "answer": 900,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 97,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1": "2508.09040v1\\table1.jpg",
+            "table2": "2508.09040v1\\table2.jpg",
+            "table3": "2508.09040v1\\table3.jpg"
+        },
+        "caption": {
+            "table1": "Root mean squared error (RMSE) and empirical coverage probabilities (ECP) (d = 6)",
+            "table2": "Root mean squared error (RMSE) and empirical coverage probabilities (ECP) (d = 8)",
+            "table3": "Root mean squared error (RMSE) and empirical coverage probabilities (ECP) (d = 10)"
+        },
+        "question_gen":"Using the RMSE values of T̂n in Table 2 (d = 8), construct a line chart showing how RMSE varies with ρ (from 0 to 0.9) under each sample size n = 300, 600, and 900. Plot three separate lines—one for each n—using matplotlib only. Provide executable Python code that generates this line chart. Respone only with the code.",
+        "question_comp": "Based on Table 2 and the line chart, when comparing different sample sizes, which sample size generally results in lower RMSE? Respond with the numeric value of n.",
+        "question": "Based on Table 2, when comparing different sample sizes, which sample size generally results in lower RMSE? Respond with the numeric value of n.",
+        "question_type": "reasoning",
+        "answer": 900,
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 98,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2510.18530v1\\table1.jpg",
+            "table2": "2510.18530v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "COMPARISON RESULTS (EER%) ON VOXCELEB1 TEST SET WITH NONSPEECH100 DATA AT VARIOUS SNRs",
+            "table2": "COMPARISON RESULTS (AVERAGE EER% ACROSS 5 SNR LEVELS) OF DIFFERENT SYSTEMS UNDER VARIOUS SYNTHETIC NOISE CONDITIONS."
+        },
+        "question_gen": "Visualize the EER (%) of all models across different SNR levels in Table 1. Plot requirements: Use Python with matplotlib. Create a line chart. X-axis: SNR levels. Y-axis: EER (%). One line per model. Add legend, title, and axis labels. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the line chart, which model generally achieves the lowest EER across different SNR levels? Respond only with the model.",
+        "question": "Based on Table 1, which model generally achieves the lowest EER across different SNR levels? Respond only with the model.",
+        "question_type": "reasoning",
+        "answer": "Proposed",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 99,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2510.18530v1\\table1.jpg",
+            "table2": "2510.18530v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "COMPARISON RESULTS (EER%) ON VOXCELEB1 TEST SET WITH NONSPEECH100 DATA AT VARIOUS SNRs",
+            "table2": "COMPARISON RESULTS (AVERAGE EER% ACROSS 5 SNR LEVELS) OF DIFFERENT SYSTEMS UNDER VARIOUS SYNTHETIC NOISE CONDITIONS."
+        },
+        "question_gen": "Visualize the EER (%) of all models across different SNR levels in Table 1. Plot requirements: Use Python with matplotlib. Create a line chart. X-axis: SNR levels. Y-axis: EER (%). One line per model. Add legend, title, and axis labels. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the line chart, which model performs best when SNR is low? Respond only with the model.",
+        "question": "Based on Table 1, which model performs best when SNR is low? Respond only with the model.",
+        "question_type": "reasoning",
+        "answer": "SEU-Net",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 100,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2510.18530v1\\table1.jpg",
+            "table2": "2510.18530v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "COMPARISON RESULTS (EER%) ON VOXCELEB1 TEST SET WITH NONSPEECH100 DATA AT VARIOUS SNRs",
+            "table2": "COMPARISON RESULTS (AVERAGE EER% ACROSS 5 SNR LEVELS) OF DIFFERENT SYSTEMS UNDER VARIOUS SYNTHETIC NOISE CONDITIONS."
+        },
+        "question_gen": "Visualize the EER (%) of all models across different SNR levels in Table 1. Plot requirements: Use Python with matplotlib. Create a line chart. X-axis: SNR levels. Y-axis: EER (%). One line per model. Add legend, title, and axis labels. Respond only with the code.",
+        "question_comp": "Based on Table 1 and the line chart, which model shows the most noticeable decrease in EER as SNR increases? Respond only with the model.",
+        "question": "Based on Table 1, which model shows the most noticeable decrease in EER as SNR increases? Respond only with the model.",
+        "question_type": "reasoning",
+        "answer": "baseline",
+        "answer_type": "text"
+    }
+]

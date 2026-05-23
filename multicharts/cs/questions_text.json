@@ -1,0 +1,975 @@
+[
+    {
+        "question_id": 1,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.19509v1\\chart1.jpg",
+            "chart2": "2512.19509v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Transfer learning performance on low-resource languages for code summarization, showing BLEU scores and improvement rates over the non-fine-tuned baseline.",
+            "chart2": "Transfer learning performance on low-resource languages for code search, showing accuracy and improvement rates over the non-fine-tuned baseline."
+        },
+        "text": "As illustrated in chart1, fine-tuning StarCoderBase-15.5B with Java and Python data significantly improves the task performance across all evaluated low-resource languages. The Java-SFT model (fine-tuned with Java data) achieves performance improvements of 5.68%∼19.83% in code summarization and 5.09%∼11.41% in code search across Kotlin, Haskell, Swift, and AppleScript. The Python-SFT model (fine-tuned with Python data) similarly enhances performance, with gains of 7.05%∼16.22% in code summarization and 4.89%∼17.61% in code search. These results confirm successful knowledge transfer from high-resource languages (Java and Python) to their low-resource counterparts.",
+        "question": "Identify the low-resource language whose Java-SFT improvement percentage equals the maximum improvement described for Java-SFT in code summarization. Then extract the Base BLEU score of that language from the chart. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 12.66,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 2,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.19509v1\\chart1.jpg",
+            "chart2": "2512.19509v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Transfer learning performance on low-resource languages for code summarization, showing BLEU scores and improvement rates over the non-fine-tuned baseline.",
+            "chart2": "Transfer learning performance on low-resource languages for code search, showing accuracy and improvement rates over the non-fine-tuned baseline."
+        },
+        "text": "As illustrated in chart1, fine-tuning StarCoderBase-15.5B with Java and Python data significantly improves the task performance across all evaluated low-resource languages. The Java-SFT model (fine-tuned with Java data) achieves performance improvements of 5.68%∼19.83% in code summarization and 5.09%∼11.41% in code search across Kotlin, Haskell, Swift, and AppleScript. The Python-SFT model (fine-tuned with Python data) similarly enhances performance, with gains of 7.05%∼16.22% in code summarization and 4.89%∼17.61% in code search. These results confirm successful knowledge transfer from high-resource languages (Java and Python) to their low-resource counterparts.",
+        "question": "Among the four low-resource languages, identify the language with the highest BLEU score after Python-SFT fine-tuning and report the score. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 16.51,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.19509v1\\chart1.jpg",
+            "chart2": "2512.19509v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Transfer learning performance on low-resource languages for code summarization, showing BLEU scores and improvement rates over the non-fine-tuned baseline.",
+            "chart2": "Transfer learning performance on low-resource languages for code search, showing accuracy and improvement rates over the non-fine-tuned baseline."
+        },
+        "text": "As illustrated in chart1, fine-tuning StarCoderBase-15.5B with Java and Python data significantly improves the task performance across all evaluated low-resource languages. The Java-SFT model (fine-tuned with Java data) achieves performance improvements of 5.68%∼19.83% in code summarization and 5.09%∼11.41% in code search across Kotlin, Haskell, Swift, and AppleScript. The Python-SFT model (fine-tuned with Python data) similarly enhances performance, with gains of 7.05%∼16.22% in code summarization and 4.89%∼17.61% in code search. These results confirm successful knowledge transfer from high-resource languages (Java and Python) to their low-resource counterparts.",
+        "question": "Identify the language whose Python-SFT improvement equals the lower bound of the improvement range described for code search. Extract its Base BLEU score from the chart. Respond only with a single numeric value",
+        "question_type": "reasoning",
+        "answer": 15.74,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.22738v1\\chart1.jpg",
+            "chart2": "2512.22738v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Heatmap of F1-scores showing the effect of different curated data ratios, indicating an optimal performance around 50%.",
+            "chart2": "Performance comparison between a homologous weak model (BioSelectTune-8B at 50%) and a domain-specific weak model (BioSelectTune with BioGPT) for data filtering, showing consistent superiority of the homologous model across datasets."
+        },
+        "text": "The results, presented in chart2, are decisive. Our primary method, using the in-family Qwen3-0.6B model, now significantly outperforms the variant filtered by BioGPT on all four datasets. The performance gap is substantial across the board, reaching a remarkable 11.1 F1 points on NCBI-Disease and 9.8 points on BC5CDR-Disease. Even on the BC2GM dataset, where performance was previously similar, our homologous filtering approach now holds a clear advantage of nearly 5 F1 points.",
+        "question": "Locate the dataset corresponding to the performance gap described as about 9.8 F1 points. From the chart, extract the F1-score of the lower-performing method on that dataset. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 75.96,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.22738v1\\chart1.jpg",
+            "chart2": "2512.22738v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Heatmap of F1-scores showing the effect of different curated data ratios, indicating an optimal performance around 50%.",
+            "chart2": "Performance comparison between a homologous weak model (BioSelectTune-8B at 50%) and a domain-specific weak model (BioSelectTune with BioGPT) for data filtering, showing consistent superiority of the homologous model across datasets."
+        },
+        "text": "The results, presented in chart2, are decisive. Our primary method, using the in-family Qwen3-0.6B model, now significantly outperforms the variant filtered by BioGPT on all four datasets. The performance gap is substantial across the board, reaching a remarkable 11.1 F1 points on NCBI-Disease and 9.8 points on BC5CDR-Disease. Even on the BC2GM dataset, where performance was previously similar, our homologous filtering approach now holds a clear advantage of nearly 5 F1 points.",
+        "question": "Identify the dataset associated with the ≈9.8 F1 gap described in the text. Compute the average F1-score of the two methods on that dataset using the chart. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 80.835,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 6,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.22738v1\\chart1.jpg",
+            "chart2": "2512.22738v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Heatmap of F1-scores showing the effect of different curated data ratios, indicating an optimal performance around 50%.",
+            "chart2": "Performance comparison between a homologous weak model (BioSelectTune-8B at 50%) and a domain-specific weak model (BioSelectTune with BioGPT) for data filtering, showing consistent superiority of the homologous model across datasets."
+        },
+        "text": "The results, presented in chart2, are decisive. Our primary method, using the in-family Qwen3-0.6B model, now significantly outperforms the variant filtered by BioGPT on all four datasets. The performance gap is substantial across the board, reaching a remarkable 11.1 F1 points on NCBI-Disease and 9.8 points on BC5CDR-Disease. Even on the BC2GM dataset, where performance was previously similar, our homologous filtering approach now holds a clear advantage of nearly 5 F1 points.",
+        "question": "Using the three gaps described in the text (≈11.1, ≈9.8, ≈5 F1 points), identify their corresponding datasets using the chart. Among those datasets, determine which dataset has the highest F1 score for the better-performing method. A. NCBI-Disease. B. BC5CDR-Chemical. C. BC5CDR-Disease. D. BC2GM.Respond only with a single letter.",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.22738v1\\chart1.jpg",
+            "chart2": "2512.22738v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Heatmap of F1-scores showing the effect of different curated data ratios, indicating an optimal performance around 50%.",
+            "chart2": "Performance comparison between a homologous weak model (BioSelectTune-8B at 50%) and a domain-specific weak model (BioSelectTune with BioGPT) for data filtering, showing consistent superiority of the homologous model across datasets."
+        },
+        "text": "The results, presented in chart2, are decisive. Our primary method, using the in-family Qwen3-0.6B model, now significantly outperforms the variant filtered by BioGPT on all four datasets. The performance gap is substantial across the board, reaching a remarkable 11.1 F1 points on NCBI-Disease and 9.8 points on BC5CDR-Disease. Even on the BC2GM dataset, where performance was previously similar, our homologous filtering approach now holds a clear advantage of nearly 5 F1 points.",
+        "question": "Using the datasets corresponding to the ≈11.1, ≈9.8, and ≈5 F1 gaps, compute the difference between the maximum and minimum F1-scores of the higher-performing method. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 6.85,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.22738v1\\chart1.jpg",
+            "chart2": "2512.22738v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Heatmap of F1-scores showing the effect of different curated data ratios, indicating an optimal performance around 50%.",
+            "chart2": "Performance comparison between a homologous weak model (BioSelectTune-8B at 50%) and a domain-specific weak model (BioSelectTune with BioGPT) for data filtering, showing consistent superiority of the homologous model across datasets."
+        },
+        "text": "The results, presented in chart2, are decisive. Our primary method, using the in-family Qwen3-0.6B model, now significantly outperforms the variant filtered by BioGPT on all four datasets. The performance gap is substantial across the board, reaching a remarkable 11.1 F1 points on NCBI-Disease and 9.8 points on BC5CDR-Disease. Even on the BC2GM dataset, where performance was previously similar, our homologous filtering approach now holds a clear advantage of nearly 5 F1 points.",
+        "question": "Among the datasets associated with the described performance gaps, identify the dataset where both methods have F1-scores below 85 in the chart. A. NCBI-Disease. B. BC5CDR-Disease. C. BC2GM. D. BC5CDR-Chemical. Respond only with a single letter.",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 9,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.22738v1\\chart1.jpg",
+            "chart2": "2512.22738v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Heatmap of F1-scores showing the effect of different curated data ratios, indicating an optimal performance around 50%.",
+            "chart2": "Performance comparison between a homologous weak model (BioSelectTune-8B at 50%) and a domain-specific weak model (BioSelectTune with BioGPT) for data filtering, showing consistent superiority of the homologous model across datasets."
+        },
+        "text": "The results, presented in chart2, are decisive. Our primary method, using the in-family Qwen3-0.6B model, now significantly outperforms the variant filtered by BioGPT on all four datasets. The performance gap is substantial across the board, reaching a remarkable 11.1 F1 points on NCBI-Disease and 9.8 points on BC5CDR-Disease. Even on the BC2GM dataset, where performance was previously similar, our homologous filtering approach now holds a clear advantage of nearly 5 F1 points.",
+        "question": "Using the datasets corresponding to the ≈11.1, ≈9.8, and ≈5 F1 gaps, compute the average F1-score of the lower-performing method using the chart. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 76.55,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.23565v2\\chart1.jpg",
+            "chart2": "2512.23565v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution of Question Types in the SF-QA Dataset. The dataset covers 6 balanced types of tasks, ranging from fundamental information extraction to advanced mechanistic reasoning and structural recognition.",
+            "chart2": "Comparative performance analysis of inference-time reasoning (“Think”) versus standard instruction-tuned (“Instruct”) models across diverse cognitive tasks. The visualization highlights the “reasoning leap” in complex mechanistic and synthetic tasks achieved by thinking models (red/green lines) compared to standard baselines (blue/yellow lines), while also illustrating the universal bottleneck in precise structure recognition."
+        },
+        "text": "Fact Extraction (37.2%, 568 Questions): This foundational category tests the model's ability to directly retrieve explicit textual or numerical information embedded within reaction schemes. Tasks include identifying reaction titles, extracting yield values, or reading reaction times and temperatures without requiring chemical interpretation. (e.g., “What is the title of this chemical reaction scheme?”) Reagent Roles & Functions (16.5%, 252 Questions): Moving beyond OCR, this type requires the model to understand the chemical semantics of the text labels. Models must distinguish between reagents, catalysts, solvents, and additives, and correctly identify their functional roles (e.g., “Which molecule acts as the oxidant in this transformation?”).",
+        "question": "Determine the number of questions in the category that requires identifying roles such as oxidants, catalysts, or solvents. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 252,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 11,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.23565v2\\chart1.jpg",
+            "chart2": "2512.23565v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution of Question Types in the SF-QA Dataset. The dataset covers 6 balanced types of tasks, ranging from fundamental information extraction to advanced mechanistic reasoning and structural recognition.",
+            "chart2": "Comparative performance analysis of inference-time reasoning (“Think”) versus standard instruction-tuned (“Instruct”) models across diverse cognitive tasks. The visualization highlights the “reasoning leap” in complex mechanistic and synthetic tasks achieved by thinking models (red/green lines) compared to standard baselines (blue/yellow lines), while also illustrating the universal bottleneck in precise structure recognition."
+        },
+        "text": "Fact Extraction (37.2%, 568 Questions): This foundational category tests the model's ability to directly retrieve explicit textual or numerical information embedded within reaction schemes. Tasks include identifying reaction titles, extracting yield values, or reading reaction times and temperatures without requiring chemical interpretation. (e.g., “What is the title of this chemical reaction scheme?”) Reagent Roles & Functions (16.5%, 252 Questions): Moving beyond OCR, this type requires the model to understand the chemical semantics of the text labels. Models must distinguish between reagents, catalysts, solvents, and additives, and correctly identify their functional roles (e.g., “Which molecule acts as the oxidant in this transformation?”).",
+        "question": "Identify the category that involves directly retrieving information such as reaction titles, reaction times, or temperatures, and report its percentage share in the chart. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 37.2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.23565v2\\chart1.jpg",
+            "chart2": "2512.23565v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution of Question Types in the SF-QA Dataset. The dataset covers 6 balanced types of tasks, ranging from fundamental information extraction to advanced mechanistic reasoning and structural recognition.",
+            "chart2": "Comparative performance analysis of inference-time reasoning (“Think”) versus standard instruction-tuned (“Instruct”) models across diverse cognitive tasks. The visualization highlights the “reasoning leap” in complex mechanistic and synthetic tasks achieved by thinking models (red/green lines) compared to standard baselines (blue/yellow lines), while also illustrating the universal bottleneck in precise structure recognition."
+        },
+        "text": "Fact Extraction (37.2%, 568 Questions): This foundational category tests the model's ability to directly retrieve explicit textual or numerical information embedded within reaction schemes. Tasks include identifying reaction titles, extracting yield values, or reading reaction times and temperatures without requiring chemical interpretation. (e.g., “What is the title of this chemical reaction scheme?”) Reagent Roles & Functions (16.5%, 252 Questions): Moving beyond OCR, this type requires the model to understand the chemical semantics of the text labels. Models must distinguish between reagents, catalysts, solvents, and additives, and correctly identify their functional roles (e.g., “Which molecule acts as the oxidant in this transformation?”).",
+        "question": "Using the category that involves identifying oxidants or catalysts, compute the ratio of its question count to the question count of “Fact Extraction”. Round the result to two decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.44,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.23565v2\\chart1.jpg",
+            "chart2": "2512.23565v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution of Question Types in the SF-QA Dataset. The dataset covers 6 balanced types of tasks, ranging from fundamental information extraction to advanced mechanistic reasoning and structural recognition.",
+            "chart2": "Comparative performance analysis of inference-time reasoning (“Think”) versus standard instruction-tuned (“Instruct”) models across diverse cognitive tasks. The visualization highlights the “reasoning leap” in complex mechanistic and synthetic tasks achieved by thinking models (red/green lines) compared to standard baselines (blue/yellow lines), while also illustrating the universal bottleneck in precise structure recognition."
+        },
+        "text": "Fact Extraction (37.2%, 568 Questions): This foundational category tests the model's ability to directly retrieve explicit textual or numerical information embedded within reaction schemes. Tasks include identifying reaction titles, extracting yield values, or reading reaction times and temperatures without requiring chemical interpretation. (e.g., “What is the title of this chemical reaction scheme?”) Reagent Roles & Functions (16.5%, 252 Questions): Moving beyond OCR, this type requires the model to understand the chemical semantics of the text labels. Models must distinguish between reagents, catalysts, solvents, and additives, and correctly identify their functional roles (e.g., “Which molecule acts as the oxidant in this transformation?”).",
+        "question": "Identify the categories whose question counts are lower than the category involving identification of oxidants or catalysts. A. Structure Recognition. B. Comparative Analysis & Reasoning. C. Global Understanding. D. Mechanism & Process. Respond only with a list of letters.",
+        "question_type": "reasoning",
+        "answer": "[A, B, C]",
+        "answer_type": "choice_list"
+    },
+
+    {
+        "question_id": 14,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.23565v2\\chart1.jpg",
+            "chart2": "2512.23565v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution of Question Types in the SF-QA Dataset. The dataset covers 6 balanced types of tasks, ranging from fundamental information extraction to advanced mechanistic reasoning and structural recognition.",
+            "chart2": "Comparative performance analysis of inference-time reasoning (“Think”) versus standard instruction-tuned (“Instruct”) models across diverse cognitive tasks. The visualization highlights the “reasoning leap” in complex mechanistic and synthetic tasks achieved by thinking models (red/green lines) compared to standard baselines (blue/yellow lines), while also illustrating the universal bottleneck in precise structure recognition."
+        },
+        "text": "Fact Extraction (37.2%, 568 Questions): This foundational category tests the model's ability to directly retrieve explicit textual or numerical information embedded within reaction schemes. Tasks include identifying reaction titles, extracting yield values, or reading reaction times and temperatures without requiring chemical interpretation. (e.g., “What is the title of this chemical reaction scheme?”) Reagent Roles & Functions (16.5%, 252 Questions): Moving beyond OCR, this type requires the model to understand the chemical semantics of the text labels. Models must distinguish between reagents, catalysts, solvents, and additives, and correctly identify their functional roles (e.g., “Which molecule acts as the oxidant in this transformation?”).",
+        "question": "If a question requires identifying the oxidant in a reaction and understanding the reaction process, which two categories is it most likely associated with? A. Fact Extraction. B. Reagent Roles & Functions. C. Mechanism & Process. D. Structure Recognition. Respond only with a list of letters.",
+        "question_type": "reasoning",
+        "answer": "[B, C]",
+        "answer_type": "choice_list"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.23565v2\\chart1.jpg",
+            "chart2": "2512.23565v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution of Question Types in the SF-QA Dataset. The dataset covers 6 balanced types of tasks, ranging from fundamental information extraction to advanced mechanistic reasoning and structural recognition.",
+            "chart2": "Comparative performance analysis of inference-time reasoning (“Think”) versus standard instruction-tuned (“Instruct”) models across diverse cognitive tasks. The visualization highlights the “reasoning leap” in complex mechanistic and synthetic tasks achieved by thinking models (red/green lines) compared to standard baselines (blue/yellow lines), while also illustrating the universal bottleneck in precise structure recognition."
+        },
+        "text": "Mechanism & Process (19.4%, 296 Questions): This category assesses the model’s grasp of the dynamic nature of chemical reactions. Questions focus on interpreting the reaction progression, including identifying key intermediates, tracing catalytic cycles, and understanding the sequence of mechanistic steps depicted in the scheme. (e.g., “Which of the following statements correctly describes the role of photocatalyst (PC) in the catalysis cycle?”) Comparative Analysis & Reasoning (14.2%, 216 Questions): These questions require the model to perform comparative evaluations or causal reasoning. Typical tasks include predicting how changes in substrates (e.g., electronic effects of substituents) influence reaction outcomes like yield or selectivity, often necessitating an analysis of provided scope tables. (e.g., “Compare the effects of different LED power and wavelength on the reaction yield.”)",
+        "question": "Compute the total number of questions that involve either interpreting reaction progression or performing comparative reasoning about reaction outcomes. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 512,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 16,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.23565v2\\chart1.jpg",
+            "chart2": "2512.23565v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution of Question Types in the SF-QA Dataset. The dataset covers 6 balanced types of tasks, ranging from fundamental information extraction to advanced mechanistic reasoning and structural recognition.",
+            "chart2": "Comparative performance analysis of inference-time reasoning (“Think”) versus standard instruction-tuned (“Instruct”) models across diverse cognitive tasks. The visualization highlights the “reasoning leap” in complex mechanistic and synthetic tasks achieved by thinking models (red/green lines) compared to standard baselines (blue/yellow lines), while also illustrating the universal bottleneck in precise structure recognition."
+        },
+        "text": "Mechanism & Process (19.4%, 296 Questions): This category assesses the model’s grasp of the dynamic nature of chemical reactions. Questions focus on interpreting the reaction progression, including identifying key intermediates, tracing catalytic cycles, and understanding the sequence of mechanistic steps depicted in the scheme. (e.g., “Which of the following statements correctly describes the role of photocatalyst (PC) in the catalysis cycle?”) Comparative Analysis & Reasoning (14.2%, 216 Questions): These questions require the model to perform comparative evaluations or causal reasoning. Typical tasks include predicting how changes in substrates (e.g., electronic effects of substituents) influence reaction outcomes like yield or selectivity, often necessitating an analysis of provided scope tables. (e.g., “Compare the effects of different LED power and wavelength on the reaction yield.”)",
+        "question": "Compute the combined percentage of questions that involve reaction mechanism understanding or comparative reasoning about reaction conditions. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 33.6,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.23565v2\\chart1.jpg",
+            "chart2": "2512.23565v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution of Question Types in the SF-QA Dataset. The dataset covers 6 balanced types of tasks, ranging from fundamental information extraction to advanced mechanistic reasoning and structural recognition.",
+            "chart2": "Comparative performance analysis of inference-time reasoning (“Think”) versus standard instruction-tuned (“Instruct”) models across diverse cognitive tasks. The visualization highlights the “reasoning leap” in complex mechanistic and synthetic tasks achieved by thinking models (red/green lines) compared to standard baselines (blue/yellow lines), while also illustrating the universal bottleneck in precise structure recognition."
+        },
+        "text": "Mechanism & Process (19.4%, 296 Questions): This category assesses the model’s grasp of the dynamic nature of chemical reactions. Questions focus on interpreting the reaction progression, including identifying key intermediates, tracing catalytic cycles, and understanding the sequence of mechanistic steps depicted in the scheme. (e.g., “Which of the following statements correctly describes the role of photocatalyst (PC) in the catalysis cycle?”) Comparative Analysis & Reasoning (14.2%, 216 Questions): These questions require the model to perform comparative evaluations or causal reasoning. Typical tasks include predicting how changes in substrates (e.g., electronic effects of substituents) influence reaction outcomes like yield or selectivity, often necessitating an analysis of provided scope tables. (e.g., “Compare the effects of different LED power and wavelength on the reaction yield.”)",
+        "question": "Identify all categories whose question counts are lower than the comparative reasoning category and report their counts. Respond only with a numeric list.",
+        "question_type": "reasoning",
+        "answer": [134, 59],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.23565v2\\chart1.jpg",
+            "chart2": "2512.23565v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution of Question Types in the SF-QA Dataset. The dataset covers 6 balanced types of tasks, ranging from fundamental information extraction to advanced mechanistic reasoning and structural recognition.",
+            "chart2": "Comparative performance analysis of inference-time reasoning (“Think”) versus standard instruction-tuned (“Instruct”) models across diverse cognitive tasks. The visualization highlights the “reasoning leap” in complex mechanistic and synthetic tasks achieved by thinking models (red/green lines) compared to standard baselines (blue/yellow lines), while also illustrating the universal bottleneck in precise structure recognition."
+        },
+        "text": "Mechanism & Process (19.4%, 296 Questions): This category assesses the model’s grasp of the dynamic nature of chemical reactions. Questions focus on interpreting the reaction progression, including identifying key intermediates, tracing catalytic cycles, and understanding the sequence of mechanistic steps depicted in the scheme. (e.g., “Which of the following statements correctly describes the role of photocatalyst (PC) in the catalysis cycle?”) Comparative Analysis & Reasoning (14.2%, 216 Questions): These questions require the model to perform comparative evaluations or causal reasoning. Typical tasks include predicting how changes in substrates (e.g., electronic effects of substituents) influence reaction outcomes like yield or selectivity, often necessitating an analysis of provided scope tables. (e.g., “Compare the effects of different LED power and wavelength on the reaction yield.”)",
+        "question": "If mechanism interpretation and comparative reasoning are grouped as advanced chemical reasoning tasks, compute their proportion among all questions. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 33.6,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.23565v2\\chart1.jpg",
+            "chart2": "2512.23565v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution of Question Types in the SF-QA Dataset. The dataset covers 6 balanced types of tasks, ranging from fundamental information extraction to advanced mechanistic reasoning and structural recognition.",
+            "chart2": "Comparative performance analysis of inference-time reasoning (“Think”) versus standard instruction-tuned (“Instruct”) models across diverse cognitive tasks. The visualization highlights the “reasoning leap” in complex mechanistic and synthetic tasks achieved by thinking models (red/green lines) compared to standard baselines (blue/yellow lines), while also illustrating the universal bottleneck in precise structure recognition."
+        },
+        "text": "Mechanism & Process (19.4%, 296 Questions): This category assesses the model’s grasp of the dynamic nature of chemical reactions. Questions focus on interpreting the reaction progression, including identifying key intermediates, tracing catalytic cycles, and understanding the sequence of mechanistic steps depicted in the scheme. (e.g., “Which of the following statements correctly describes the role of photocatalyst (PC) in the catalysis cycle?”) Comparative Analysis & Reasoning (14.2%, 216 Questions): These questions require the model to perform comparative evaluations or causal reasoning. Typical tasks include predicting how changes in substrates (e.g., electronic effects of substituents) influence reaction outcomes like yield or selectivity, often necessitating an analysis of provided scope tables. (e.g., “Compare the effects of different LED power and wavelength on the reaction yield.”)",
+        "question": "Identify the color of the category that focuses on interpreting reaction progression such as catalytic cycles and mechanistic steps. Respond only with the color name.",
+        "question_type": "perceptual",
+        "answer": "purple",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 20,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.23565v2\\chart1.jpg",
+            "chart2": "2512.23565v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution of Question Types in the SF-QA Dataset. The dataset covers 6 balanced types of tasks, ranging from fundamental information extraction to advanced mechanistic reasoning and structural recognition.",
+            "chart2": "Comparative performance analysis of inference-time reasoning (“Think”) versus standard instruction-tuned (“Instruct”) models across diverse cognitive tasks. The visualization highlights the “reasoning leap” in complex mechanistic and synthetic tasks achieved by thinking models (red/green lines) compared to standard baselines (blue/yellow lines), while also illustrating the universal bottleneck in precise structure recognition."
+        },
+        "text": "Mechanism & Process (19.4%, 296 Questions): This category assesses the model’s grasp of the dynamic nature of chemical reactions. Questions focus on interpreting the reaction progression, including identifying key intermediates, tracing catalytic cycles, and understanding the sequence of mechanistic steps depicted in the scheme. (e.g., “Which of the following statements correctly describes the role of photocatalyst (PC) in the catalysis cycle?”) Comparative Analysis & Reasoning (14.2%, 216 Questions): These questions require the model to perform comparative evaluations or causal reasoning. Typical tasks include predicting how changes in substrates (e.g., electronic effects of substituents) influence reaction outcomes like yield or selectivity, often necessitating an analysis of provided scope tables. (e.g., “Compare the effects of different LED power and wavelength on the reaction yield.”)",
+        "question": "Identify the color of the chart segment corresponding to the task that compares experimental variables such as LED power or substituent effects. Respond only with the color name.",
+        "question_type": "perceptual",
+        "answer": "pink",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 21,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.23565v2\\chart1.jpg",
+            "chart2": "2512.23565v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution of Question Types in the SF-QA Dataset. The dataset covers 6 balanced types of tasks, ranging from fundamental information extraction to advanced mechanistic reasoning and structural recognition.",
+            "chart2": "Comparative performance analysis of inference-time reasoning (“Think”) versus standard instruction-tuned (“Instruct”) models across diverse cognitive tasks. The visualization highlights the “reasoning leap” in complex mechanistic and synthetic tasks achieved by thinking models (red/green lines) compared to standard baselines (blue/yellow lines), while also illustrating the universal bottleneck in precise structure recognition."
+        },
+        "text": "Mechanism & Process (19.4%, 296 Questions): This category assesses the model’s grasp of the dynamic nature of chemical reactions. Questions focus on interpreting the reaction progression, including identifying key intermediates, tracing catalytic cycles, and understanding the sequence of mechanistic steps depicted in the scheme. (e.g., “Which of the following statements correctly describes the role of photocatalyst (PC) in the catalysis cycle?”) Comparative Analysis & Reasoning (14.2%, 216 Questions): These questions require the model to perform comparative evaluations or causal reasoning. Typical tasks include predicting how changes in substrates (e.g., electronic effects of substituents) influence reaction outcomes like yield or selectivity, often necessitating an analysis of provided scope tables. (e.g., “Compare the effects of different LED power and wavelength on the reaction yield.”)",
+        "question": "Identify the category name associated with questions that analyze the role of photocatalysts within catalytic cycles. Respond only with the category name.",
+        "question_type": "perceptual",
+        "answer": "Mechanism & Process",
+        "answer_type": "text"
+    },
+
+
+    {
+        "question_id": 22,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.23773v1\\chart1.jpg",
+            "chart2": "2512.23773v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Routing result of VAEs along time during the test phase. The x-axis represents the timestamp. The y-axis represents the proportion of different market dynamics.",
+            "chart2": "Risk-aware routing performance over time. The x-axis denotes the timestamp, and the y-axis shows the returns of FineFT and the subagents."
+        },
+        "text": "Chart2 is the performance comparison of the routing. It shows that FineFT is the best, while FineFT_wo_risk beats any other single agent. Agents for a bear market and pullback market are very similar, making a profit in July when the price dropped, while the sideways, rally, and bull market made profits from August to October when the price increased. The FineFT takes advantage of both sides and closes its position in a volatile dynamic, where market state representations are not met in the validation dataset to avoid potential loss.",
+        "question": "Based on the description of strategy behavior under different market phases and the trends in the chart, which strategies achieve positive returns during the July price-drop phase? A. Bear B. Pullback C. Sideways D. Bull Respond only with a list of letters.",
+        "question_type": "reasoning",
+        "answer": "[A, B]",
+        "answer_type": "choice_list"
+    },
+
+    {
+        "question_id": 23,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.23773v1\\chart1.jpg",
+            "chart2": "2512.23773v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Routing result of VAEs along time during the test phase. The x-axis represents the timestamp. The y-axis represents the proportion of different market dynamics.",
+            "chart2": "Risk-aware routing performance over time. The x-axis denotes the timestamp, and the y-axis shows the returns of FineFT and the subagents."
+        },
+        "text": "Chart2 is the performance comparison of the routing. It shows that FineFT is the best, while FineFT_wo_risk beats any other single agent. Agents for a bear market and pullback market are very similar, making a profit in July when the price dropped, while the sideways, rally, and bull market made profits from August to October when the price increased. The FineFT takes advantage of both sides and closes its position in a volatile dynamic, where market state representations are not met in the validation dataset to avoid potential loss.",
+        "question": "Considering the increasing-price phase (August–October) described in the text and the return trends in the chart, which strategies show an overall profitable trend during this period? A. Sideways B. Rally C. Bull D. Bear Respond only with a list of letters.",
+        "question_type": "reasoning",
+        "answer": "[A, B, C]",
+        "answer_type": "choice_list"
+    },
+
+    {
+        "question_id": 24,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.23773v1\\chart1.jpg",
+            "chart2": "2512.23773v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Routing result of VAEs along time during the test phase. The x-axis represents the timestamp. The y-axis represents the proportion of different market dynamics.",
+            "chart2": "Risk-aware routing performance over time. The x-axis denotes the timestamp, and the y-axis shows the returns of FineFT and the subagents."
+        },
+        "text": "Chart2 is the performance comparison of the routing. It shows that FineFT is the best, while FineFT_wo_risk beats any other single agent. Agents for a bear market and pullback market are very similar, making a profit in July when the price dropped, while the sideways, rally, and bull market made profits from August to October when the price increased. The FineFT takes advantage of both sides and closes its position in a volatile dynamic, where market state representations are not met in the validation dataset to avoid potential loss.",
+        "question": "Based on the chart trends and the strategy roles described for different market phases, which single-market strategy performs worst during the rising phase (August–October)? A. Bear B. Pullback C. Rally D. Bull Respond only with a single letter.",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+
+    {
+        "question_id": 25,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.23773v1\\chart1.jpg",
+            "chart2": "2512.23773v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Routing result of VAEs along time during the test phase. The x-axis represents the timestamp. The y-axis represents the proportion of different market dynamics.",
+            "chart2": "Risk-aware routing performance over time. The x-axis denotes the timestamp, and the y-axis shows the returns of FineFT and the subagents."
+        },
+        "text": "Chart2 is the performance comparison of the routing. It shows that FineFT is the best, while FineFT_wo_risk beats any other single agent. Agents for a bear market and pullback market are very similar, making a profit in July when the price dropped, while the sideways, rally, and bull market made profits from August to October when the price increased. The FineFT takes advantage of both sides and closes its position in a volatile dynamic, where market state representations are not met in the validation dataset to avoid potential loss.",
+        "question": "During the price-increase phase (August–October) mentioned in the text, which strategies show an overall upward trend over time in the chart? A. Sideways B. Rally C. Bull D. Bear E. Pullback Respond only with a list of letters.",
+        "question_type": "reasoning",
+        "answer": "[A, B, C]",
+        "answer_type": "choice_list"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.23773v1\\chart1.jpg",
+            "chart2": "2512.23773v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Routing result of VAEs along time during the test phase. The x-axis represents the timestamp. The y-axis represents the proportion of different market dynamics.",
+            "chart2": "Risk-aware routing performance over time. The x-axis denotes the timestamp, and the y-axis shows the returns of FineFT and the subagents."
+        },
+        "text": "Chart2 is the performance comparison of the routing. It shows that FineFT is the best, while FineFT_wo_risk beats any other single agent. Agents for a bear market and pullback market are very similar, making a profit in July when the price dropped, while the sideways, rally, and bull market made profits from August to October when the price increased. The FineFT takes advantage of both sides and closes its position in a volatile dynamic, where market state representations are not met in the validation dataset to avoid potential loss.",
+        "question": "During the rising phase (August–October), which curve shows a clear persistent upward trend representing a typical bull-market strategy behavior? A. Bull B. Bear C. Pullback D. FineFT_wo_risk Respond only with a single letter.",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.23835v1\\chart1.jpg",
+            "chart2": "2512.23835v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Top Bias Indicators for the bias-detector model.",
+            "chart2": "Top Bias Indicators for the bias-detector model."
+        },
+        "text": "For bias-detector, Top indicators include emotional and evaluative language: boasted, bloated, dubious, antisemitic, and skeptics. Many top words are negative descriptors (bloated, dubious) or explicit bias terms (antisemitic), suggesting the model relies heavily on loaded language and explicit bias markers. While for DARoBERTa-BABE-FT, top indicators emphasize dismissive and moral language: heartlessness, flippantly, lashed, antisemitic, and dubious. This model shows a stronger focus on dismissive language patterns (flippantly, heartlessness) and emotional descriptors compared to the original model. Some overlap exists (dubious, antisemitic, lashed), suggesting consensus on certain linguistic bias markers.",
+        "question": "The text states that some indicators belong to negative descriptors. From the chart, identify these words and report their SHAP values in the same order as displayed in the chart (from higher to lower). Respond only with a numeric list.",
+        "question_type": "perceptual",
+        "answer": [0.680, 0.593],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.23835v1\\chart1.jpg",
+            "chart2": "2512.23835v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Top Bias Indicators for the bias-detector model.",
+            "chart2": "Top Bias Indicators for the bias-detector model."
+        },
+        "text": "For bias-detector, Top indicators include emotional and evaluative language: boasted, bloated, dubious, antisemitic, and skeptics. Many top words are negative descriptors (bloated, dubious) or explicit bias terms (antisemitic), suggesting the model relies heavily on loaded language and explicit bias markers. While for DARoBERTa-BABE-FT, top indicators emphasize dismissive and moral language: heartlessness, flippantly, lashed, antisemitic, and dubious. This model shows a stronger focus on dismissive language patterns (flippantly, heartlessness) and emotional descriptors compared to the original model. Some overlap exists (dubious, antisemitic, lashed), suggesting consensus on certain linguistic bias markers.",
+        "question": "The text mentions that some indicators represent emotional or evaluative language. Identify these words in the chart and report their labels. Respond only with a list of text strings.",
+        "question_type": "perceptual",
+        "answer": "[boasted, bloated, dubious, skeptics]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 29,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.23835v1\\chart1.jpg",
+            "chart2": "2512.23835v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Top Bias Indicators for the bias-detector model.",
+            "chart2": "Top Bias Indicators for the bias-detector model."
+        },
+        "text": "For bias-detector, Top indicators include emotional and evaluative language: boasted, bloated, dubious, antisemitic, and skeptics. Many top words are negative descriptors (bloated, dubious) or explicit bias terms (antisemitic), suggesting the model relies heavily on loaded language and explicit bias markers. While for DARoBERTa-BABE-FT, top indicators emphasize dismissive and moral language: heartlessness, flippantly, lashed, antisemitic, and dubious. This model shows a stronger focus on dismissive language patterns (flippantly, heartlessness) and emotional descriptors compared to the original model. Some overlap exists (dubious, antisemitic, lashed), suggesting consensus on certain linguistic bias markers.",
+        "question": "Identify the indicator that belongs to emotional or evaluative language according to the text and also has the highest SHAP value in the chart. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.745,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 30,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.23835v1\\chart1.jpg",
+            "chart2": "2512.23835v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Top Bias Indicators for the bias-detector model.",
+            "chart2": "Top Bias Indicators for the bias-detector model."
+        },
+        "text": "For bias-detector, Top indicators include emotional and evaluative language: boasted, bloated, dubious, antisemitic, and skeptics. Many top words are negative descriptors (bloated, dubious) or explicit bias terms (antisemitic), suggesting the model relies heavily on loaded language and explicit bias markers. While for DARoBERTa-BABE-FT, top indicators emphasize dismissive and moral language: heartlessness, flippantly, lashed, antisemitic, and dubious. This model shows a stronger focus on dismissive language patterns (flippantly, heartlessness) and emotional descriptors compared to the original model. Some overlap exists (dubious, antisemitic, lashed), suggesting consensus on certain linguistic bias markers.",
+        "question": "The text mentions that some indicators overlap between the two models. Count how many of these overlapping words appear in the Top-10 indicators in the chart. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 30,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.23835v1\\chart1.jpg",
+            "chart2": "2512.23835v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Top Bias Indicators for the bias-detector model.",
+            "chart2": "Top Bias Indicators for the bias-detector model."
+        },
+        "text": "For bias-detector, Top indicators include emotional and evaluative language: boasted, bloated, dubious, antisemitic, and skeptics. Many top words are negative descriptors (bloated, dubious) or explicit bias terms (antisemitic), suggesting the model relies heavily on loaded language and explicit bias markers. While for DARoBERTa-BABE-FT, top indicators emphasize dismissive and moral language: heartlessness, flippantly, lashed, antisemitic, and dubious. This model shows a stronger focus on dismissive language patterns (flippantly, heartlessness) and emotional descriptors compared to the original model. Some overlap exists (dubious, antisemitic, lashed), suggesting consensus on certain linguistic bias markers.",
+        "question": "Compute the difference between the SHAP values of the negative descriptors mentioned in the text that appear in the chart. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.087,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 31,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.23835v1\\chart1.jpg",
+            "chart2": "2512.23835v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Top Bias Indicators for the bias-detector model.",
+            "chart2": "Top Bias Indicators for the bias-detector model."
+        },
+        "text": "For bias-detector, Top indicators include emotional and evaluative language: boasted, bloated, dubious, antisemitic, and skeptics. Many top words are negative descriptors (bloated, dubious) or explicit bias terms (antisemitic), suggesting the model relies heavily on loaded language and explicit bias markers. While for DARoBERTa-BABE-FT, top indicators emphasize dismissive and moral language: heartlessness, flippantly, lashed, antisemitic, and dubious. This model shows a stronger focus on dismissive language patterns (flippantly, heartlessness) and emotional descriptors compared to the original model. Some overlap exists (dubious, antisemitic, lashed), suggesting consensus on certain linguistic bias markers.",
+        "question": "Compute the difference between the highest and lowest SHAP values among indicators described as emotional/evaluative language in the text. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.171,
+        "answer_type": "numeric"
+    }, 
+
+    {
+        "question_id": 32,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.23994v1\\chart1.jpg",
+            "chart2": "2512.23994v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Audio-physics distribution of PhyAVBench.",
+            "chart2": "Scenario distribution of PhyAVBench across different scenario types."
+        },
+        "text": "Audio Physics Coverage. PhyAVBench spans 6 major audiophysics dimensions, each comprising 3 or 4 subcategories, resulting in a total of 50 fine-grained test points. These test points range from common acoustic phenomena, such as reverberation and collision sound, to more complex effects, including vortex shedding and Helmholtz resonance, forming a comprehensive evaluation matrix.",
+        "question": "Count the number of audiophysics dimensions from the center of the chart, and combine it with the total number of test points stated in the text to compute the average number of test points per dimension. Round the result to two decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 8.33,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 34,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.23994v1\\chart1.jpg",
+            "chart2": "2512.23994v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Audio-physics distribution of PhyAVBench.",
+            "chart2": "Scenario distribution of PhyAVBench across different scenario types."
+        },
+        "text": "PhyAVBench is designed to systematically evaluate the physics grounding capability of T2AV models. It comprises 1,000 groups of human-refined prompts and real-world groundtruth videos, featuring controlled physical factors, paired comparisons, and real-world recordings, enabling fine-grained assessment of models’ physical consistency beyond surfacelevel realism. Most T2AV tasks in PhyAVBench demand a deep understanding of the physical laws governing acoustic conditions. Chart2 illustrates the data distribution of PhyAVBench across major and sub audio-physics dimensions as well as diverse audible scenarios.",
+        "question": "Using the six audio-physics dimensions shown in the chart together with the total number of prompt–video pairs described in the text, compute the average number of test pairs per dimension. Round the result to two decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 166.67,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.23994v1\\chart1.jpg",
+            "chart2": "2512.23994v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Audio-physics distribution of PhyAVBench.",
+            "chart2": "Scenario distribution of PhyAVBench across different scenario types."
+        },
+        "text": "PhyAVBench is designed to systematically evaluate the physics grounding capability of T2AV models. It comprises 1,000 groups of human-refined prompts and real-world groundtruth videos, featuring controlled physical factors, paired comparisons, and real-world recordings, enabling fine-grained assessment of models’ physical consistency beyond surfacelevel realism. Most T2AV tasks in PhyAVBench demand a deep understanding of the physical laws governing acoustic conditions. Chart2 illustrates the data distribution of PhyAVBench across major and sub audio-physics dimensions as well as diverse audible scenarios.",
+        "question": "Using the SFX (red) counts across all dimensions shown in the chart and the total number of prompt–video pairs described in the text, compute the percentage of SFX scenarios in the entire benchmark. Round the result to one decimal place. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 47.0,
+        "answer_type": ""
+    },
+
+    {
+        "question_id": 36,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.23994v1\\chart1.jpg",
+            "chart2": "2512.23994v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Audio-physics distribution of PhyAVBench.",
+            "chart2": "Scenario distribution of PhyAVBench across different scenario types."
+        },
+        "text": "PhyAVBench is designed to systematically evaluate the physics grounding capability of T2AV models. It comprises 1,000 groups of human-refined prompts and real-world groundtruth videos, featuring controlled physical factors, paired comparisons, and real-world recordings, enabling fine-grained assessment of models’ physical consistency beyond surfacelevel realism. Most T2AV tasks in PhyAVBench demand a deep understanding of the physical laws governing acoustic conditions. Chart2 illustrates the data distribution of PhyAVBench across major and sub audio-physics dimensions as well as diverse audible scenarios.",
+        "question": "Using the total number of test pairs in the Fluid & Aero dimension shown in the chart and the total number of prompt–video pairs described in the text, compute the percentage of Fluid & Aero in the entire benchmark. Round the result to one decimal place. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 15,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.24391v1\\chart1.jpg",
+            "chart2": "2512.24391v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Whisker boxplots of reconstruction error for the seven BiGAN model variants used in the ablation study in Stage 1. Each boxplot illustrates the IQR ranges between 1st quartile (Q1) and the 3rd quartile (Q3) and extends upto the Lower (LL) and Upper Limits (UL).",
+            "chart2": "Graph illustrating the performance of FAST-IDS (Stage 1) with respect to other SOTA baselines in terms of recall percentages."
+        },
+        "text": "To further analyze the BiGAN variants’ behaviour, we plotted the whisker boxplot in Chart1. The distributions are based on IQR ranges, highlighting the variability of each model’s reconstruction error. The BiGAN WGAN(5E 4G 4D) [M5] variant with broader reconstruction error, showcase poor performance, while model BiGAN WGAN GP(5E 4G 4D) [M1], with tighter distributions and compact IQR, illustrate superiority in input reconstruction and anomaly detection. But as the plot becomes more narrower, the the model also struggles to detect anomaly (BiGAN WGAN GP(4E 4G 4D) [M4]) and normal data (BiGAN BCE(5E 4G 4D) [M6]).",
+        "question": "The text states that BiGAN WGAN GP(5E 4G 4D) has tighter distributions and superior reconstruction performance. From the chart, extract the Q3 value labeled above the model corresponding to this variant. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 3.19,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 38,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.24391v1\\chart1.jpg",
+            "chart2": "2512.24391v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Whisker boxplots of reconstruction error for the seven BiGAN model variants used in the ablation study in Stage 1. Each boxplot illustrates the IQR ranges between 1st quartile (Q1) and the 3rd quartile (Q3) and extends upto the Lower (LL) and Upper Limits (UL).",
+            "chart2": "Graph illustrating the performance of FAST-IDS (Stage 1) with respect to other SOTA baselines in terms of recall percentages."
+        },
+        "text": "To further analyze the BiGAN variants’ behaviour, we plotted the whisker boxplot in Chart1. The distributions are based on IQR ranges, highlighting the variability of each model’s reconstruction error. The BiGAN WGAN(5E 4G 4D) [M5] variant with broader reconstruction error, showcase poor performance, while model BiGAN WGAN GP(5E 4G 4D) [M1], with tighter distributions and compact IQR, illustrate superiority in input reconstruction and anomaly detection. But as the plot becomes more narrower, the the model also struggles to detect anomaly (BiGAN WGAN GP(4E 4G 4D) [M4]) and normal data (BiGAN BCE(5E 4G 4D) [M6]).",
+        "question": "The text states that BiGAN WGAN GP(4E 4G 4D) has a narrow reconstruction error distribution. From the chart, extract the Q3 value labeled above its corresponding model. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 1.97,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 39,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.24391v1\\chart1.jpg",
+            "chart2": "2512.24391v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Whisker boxplots of reconstruction error for the seven BiGAN model variants used in the ablation study in Stage 1. Each boxplot illustrates the IQR ranges between 1st quartile (Q1) and the 3rd quartile (Q3) and extends upto the Lower (LL) and Upper Limits (UL).",
+            "chart2": "Graph illustrating the performance of FAST-IDS (Stage 1) with respect to other SOTA baselines in terms of recall percentages."
+        },
+        "text": "To further analyze the BiGAN variants’ behaviour, we plotted the whisker boxplot in Chart1. The distributions are based on IQR ranges, highlighting the variability of each model’s reconstruction error. The BiGAN WGAN(5E 4G 4D) [M5] variant with broader reconstruction error, showcase poor performance, while model BiGAN WGAN GP(5E 4G 4D) [M1], with tighter distributions and compact IQR, illustrate superiority in input reconstruction and anomaly detection. But as the plot becomes more narrower, the the model also struggles to detect anomaly (BiGAN WGAN GP(4E 4G 4D) [M4]) and normal data (BiGAN BCE(5E 4G 4D) [M6]).",
+        "question": "The text states that BiGAN WGAN GP(5E 4G 4D) performs better while BiGAN WGAN(5E 4G 4D) has a broader distribution. Compute the difference between their Q3 values in the chart. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.17,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 40,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.24391v1\\chart1.jpg",
+            "chart2": "2512.24391v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Whisker boxplots of reconstruction error for the seven BiGAN model variants used in the ablation study in Stage 1. Each boxplot illustrates the IQR ranges between 1st quartile (Q1) and the 3rd quartile (Q3) and extends upto the Lower (LL) and Upper Limits (UL).",
+            "chart2": "Graph illustrating the performance of FAST-IDS (Stage 1) with respect to other SOTA baselines in terms of recall percentages."
+        },
+        "text": "To further analyze the BiGAN variants’ behaviour, we plotted the whisker boxplot in Chart1. The distributions are based on IQR ranges, highlighting the variability of each model’s reconstruction error. The BiGAN WGAN(5E 4G 4D) [M5] variant with broader reconstruction error, showcase poor performance, while model BiGAN WGAN GP(5E 4G 4D) [M1], with tighter distributions and compact IQR, illustrate superiority in input reconstruction and anomaly detection. But as the plot becomes more narrower, the the model also struggles to detect anomaly (BiGAN WGAN GP(4E 4G 4D) [M4]) and normal data (BiGAN BCE(5E 4G 4D) [M6]).",
+        "question": "The text describes BiGAN WGAN GP(4E 4G 4D) and BiGAN BCE(5E 4G 4D) as having narrow distributions. Compute the average Q3 value of these two variants using the chart. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 1.815,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.24391v1\\chart1.jpg",
+            "chart2": "2512.24391v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Whisker boxplots of reconstruction error for the seven BiGAN model variants used in the ablation study in Stage 1. Each boxplot illustrates the IQR ranges between 1st quartile (Q1) and the 3rd quartile (Q3) and extends upto the Lower (LL) and Upper Limits (UL).",
+            "chart2": "Graph illustrating the performance of FAST-IDS (Stage 1) with respect to other SOTA baselines in terms of recall percentages."
+        },
+        "text": "An extensive comparison with baseline models [11, 32, 40, 41] are illustrated in Chart2. Our model demonstrates superior overall performance compared to the SOTA, with a recall percentage of 92.785%. Compared to Random Forest utilized in [40], LSTM in [32], Federated Learning with KNN utilized in [41], and GAN with LSTM utilized in [11], our model achieved a relative improvement of 30.25%, clearly demonstrating the superiority of FAST-IDS in detecting anomalous behaviour. This relative improvement is due to the integration of BiGAN with WGAN features, which stabilized training of the model. Unlike traditional models such as KNN and Random Forest, which provided limited representation learning and standard GAN prone to model collapse, our model succeeded in capturing both temporal and spatial structures in the data.",
+        "question": "The text mentions that some methods belong to the category of traditional models. Locate these models in the chart and extract the Recall values labeled above their bars. Respond only with a list of numeric values.",
+        "question_type": "perceptual",
+        "answer": [85.60, 50.00],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.24391v1\\chart1.jpg",
+            "chart2": "2512.24391v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Whisker boxplots of reconstruction error for the seven BiGAN model variants used in the ablation study in Stage 1. Each boxplot illustrates the IQR ranges between 1st quartile (Q1) and the 3rd quartile (Q3) and extends upto the Lower (LL) and Upper Limits (UL).",
+            "chart2": "Graph illustrating the performance of FAST-IDS (Stage 1) with respect to other SOTA baselines in terms of recall percentages."
+        },
+        "text": "An extensive comparison with baseline models [11, 32, 40, 41] are illustrated in Chart2. Our model demonstrates superior overall performance compared to the SOTA, with a recall percentage of 92.785%. Compared to Random Forest utilized in [40], LSTM in [32], Federated Learning with KNN utilized in [41], and GAN with LSTM utilized in [11], our model achieved a relative improvement of 30.25%, clearly demonstrating the superiority of FAST-IDS in detecting anomalous behaviour. This relative improvement is due to the integration of BiGAN with WGAN features, which stabilized training of the model. Unlike traditional models such as KNN and Random Forest, which provided limited representation learning and standard GAN prone to model collapse, our model succeeded in capturing both temporal and spatial structures in the data.",
+        "question": "The text notes that traditional models have limited representation learning ability. From the chart, extract the maximum Recall value among the bars corresponding to these traditional models. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 85.60,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 43,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.24391v1\\chart1.jpg",
+            "chart2": "2512.24391v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Whisker boxplots of reconstruction error for the seven BiGAN model variants used in the ablation study in Stage 1. Each boxplot illustrates the IQR ranges between 1st quartile (Q1) and the 3rd quartile (Q3) and extends upto the Lower (LL) and Upper Limits (UL).",
+            "chart2": "Graph illustrating the performance of FAST-IDS (Stage 1) with respect to other SOTA baselines in terms of recall percentages."
+        },
+        "text": "An extensive comparison with baseline models [11, 32, 40, 41] are illustrated in Chart2. Our model demonstrates superior overall performance compared to the SOTA, with a recall percentage of 92.785%. Compared to Random Forest utilized in [40], LSTM in [32], Federated Learning with KNN utilized in [41], and GAN with LSTM utilized in [11], our model achieved a relative improvement of 30.25%, clearly demonstrating the superiority of FAST-IDS in detecting anomalous behaviour. This relative improvement is due to the integration of BiGAN with WGAN features, which stabilized training of the model. Unlike traditional models such as KNN and Random Forest, which provided limited representation learning and standard GAN prone to model collapse, our model succeeded in capturing both temporal and spatial structures in the data.",
+        "question": "The text states that a group of traditional models have limited representation learning capability. Using the Recall values shown in the chart, compute the average Recall of these traditional models. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 67.8,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 44,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.24470v1\\chart1.jpg",
+            "chart2": "2512.24470v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Model awareness vs latency, showing only the pareto frontier.",
+            "chart2": "Awareness leaderboard, only showing the per-provider pareto frontier."
+        },
+        "text": "OpenAI models show overall best performance: gpt-5-high shows the highest mean awareness (0.866 ± 0.063) at 59.2 ± 4.0 s, while strong sub-10 s alternatives, gpt-4.1 (0.830 ± 0.063 at 5.69 ± 0.22 s) and gpt-5-minimal (0.833 ± 0.071 at 7.07 ± 0.47 s), provide most of the performance at much lower latency (Table 3). Incremental gains beyond ∼30 s are within CI (like gpt-5-medium at 0.866 ± 0.062 at 30.0 ± 1.9 s vs. gpt-5-high). The best non-OpenAI frontier points are gemini-2.5-flash (0.768 ± 0.087 at 15.6 ± 1.1 s) and gemini-robotics-er-1.5 think=12288 (0.704 ± 0.112 at 14.3 ± 0.6 s), while Anthropic’s fastest frontier point is claude-sonnet-4 (0.507±0.139 at 4.53± 0.11 s). The best models mostly span from ∼5–7 s at ∼0.83 awareness to ∼60 s at ∼0.87 awareness score.",
+        "question": "The text refers to the OpenAI model with the highest latency. Locate it in the chart and extract its latency value. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 59.2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 45,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.24470v1\\chart1.jpg",
+            "chart2": "2512.24470v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Model awareness vs latency, showing only the pareto frontier.",
+            "chart2": "Awareness leaderboard, only showing the per-provider pareto frontier."
+        },
+        "text": "OpenAI models show overall best performance: gpt-5-high shows the highest mean awareness (0.866 ± 0.063) at 59.2 ± 4.0 s, while strong sub-10 s alternatives, gpt-4.1 (0.830 ± 0.063 at 5.69 ± 0.22 s) and gpt-5-minimal (0.833 ± 0.071 at 7.07 ± 0.47 s), provide most of the performance at much lower latency (Table 3). Incremental gains beyond ∼30 s are within CI (like gpt-5-medium at 0.866 ± 0.062 at 30.0 ± 1.9 s vs. gpt-5-high). The best non-OpenAI frontier points are gemini-2.5-flash (0.768 ± 0.087 at 15.6 ± 1.1 s) and gemini-robotics-er-1.5 think=12288 (0.704 ± 0.112 at 14.3 ± 0.6 s), while Anthropic’s fastest frontier point is claude-sonnet-4 (0.507±0.139 at 4.53± 0.11 s). The best models mostly span from ∼5–7 s at ∼0.83 awareness to ∼60 s at ∼0.87 awareness score.",
+        "question": "The text mentions that gpt-5-high has about 59 seconds latency. Using the chart, compute the difference between this latency and the fastest model’s latency. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 54.67,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 46,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.24470v1\\chart1.jpg",
+            "chart2": "2512.24470v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Model awareness vs latency, showing only the pareto frontier.",
+            "chart2": "Awareness leaderboard, only showing the per-provider pareto frontier."
+        },
+        "text": "OpenAI models show overall best performance: gpt-5-high shows the highest mean awareness (0.866 ± 0.063) at 59.2 ± 4.0 s, while strong sub-10 s alternatives, gpt-4.1 (0.830 ± 0.063 at 5.69 ± 0.22 s) and gpt-5-minimal (0.833 ± 0.071 at 7.07 ± 0.47 s), provide most of the performance at much lower latency (Table 3). Incremental gains beyond ∼30 s are within CI (like gpt-5-medium at 0.866 ± 0.062 at 30.0 ± 1.9 s vs. gpt-5-high). The best non-OpenAI frontier points are gemini-2.5-flash (0.768 ± 0.087 at 15.6 ± 1.1 s) and gemini-robotics-er-1.5 think=12288 (0.704 ± 0.112 at 14.3 ± 0.6 s), while Anthropic’s fastest frontier point is claude-sonnet-4 (0.507±0.139 at 4.53± 0.11 s). The best models mostly span from ∼5–7 s at ∼0.83 awareness to ∼60 s at ∼0.87 awareness score.",
+        "question": "Compute the average Mean Awareness of the Gemini models. The text states that the Gemini models include gemini-2.5-flash and gemini-robotics-er-1.5 think=12288. Use the awareness values labeled in the chart to compute their average. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.736,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 47,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.24470v1\\chart1.jpg",
+            "chart2": "2512.24470v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Model awareness vs latency, showing only the pareto frontier.",
+            "chart2": "Awareness leaderboard, only showing the per-provider pareto frontier."
+        },
+        "text": "OpenAI models show overall best performance: gpt-5-high shows the highest mean awareness (0.866 ± 0.063) at 59.2 ± 4.0 s, while strong sub-10 s alternatives, gpt-4.1 (0.830 ± 0.063 at 5.69 ± 0.22 s) and gpt-5-minimal (0.833 ± 0.071 at 7.07 ± 0.47 s), provide most of the performance at much lower latency (Table 3). Incremental gains beyond ∼30 s are within CI (like gpt-5-medium at 0.866 ± 0.062 at 30.0 ± 1.9 s vs. gpt-5-high). The best non-OpenAI frontier points are gemini-2.5-flash (0.768 ± 0.087 at 15.6 ± 1.1 s) and gemini-robotics-er-1.5 think=12288 (0.704 ± 0.112 at 14.3 ± 0.6 s), while Anthropic’s fastest frontier point is claude-sonnet-4 (0.507±0.139 at 4.53± 0.11 s). The best models mostly span from ∼5–7 s at ∼0.83 awareness to ∼60 s at ∼0.87 awareness score.",
+        "question": "The text identifies gemini-2.5-flash as one of the best non-OpenAI frontier models. From the chart, extract the awareness value labeled for this model. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.768,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 48,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.24470v1\\chart1.jpg",
+            "chart2": "2512.24470v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Model awareness vs latency, showing only the pareto frontier.",
+            "chart2": "Awareness leaderboard, only showing the per-provider pareto frontier."
+        },
+        "text": "OpenAI models show overall best performance: gpt-5-high shows the highest mean awareness (0.866 ± 0.063) at 59.2 ± 4.0 s, while strong sub-10 s alternatives, gpt-4.1 (0.830 ± 0.063 at 5.69 ± 0.22 s) and gpt-5-minimal (0.833 ± 0.071 at 7.07 ± 0.47 s), provide most of the performance at much lower latency (Table 3). Incremental gains beyond ∼30 s are within CI (like gpt-5-medium at 0.866 ± 0.062 at 30.0 ± 1.9 s vs. gpt-5-high). The best non-OpenAI frontier points are gemini-2.5-flash (0.768 ± 0.087 at 15.6 ± 1.1 s) and gemini-robotics-er-1.5 think=12288 (0.704 ± 0.112 at 14.3 ± 0.6 s), while Anthropic’s fastest frontier point is claude-sonnet-4 (0.507±0.139 at 4.53± 0.11 s). The best models mostly span from ∼5–7 s at ∼0.83 awareness to ∼60 s at ∼0.87 awareness score.",
+        "question": "The text mentions a Gemini robotics model. Locate this model in the chart and extract the latency value associated with it. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 14.3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 49,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.24470v1\\chart1.jpg",
+            "chart2": "2512.24470v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Model awareness vs latency, showing only the pareto frontier.",
+            "chart2": "Awareness leaderboard, only showing the per-provider pareto frontier."
+        },
+        "text": "OpenAI models show overall best performance: gpt-5-high shows the highest mean awareness (0.866 ± 0.063) at 59.2 ± 4.0 s, while strong sub-10 s alternatives, gpt-4.1 (0.830 ± 0.063 at 5.69 ± 0.22 s) and gpt-5-minimal (0.833 ± 0.071 at 7.07 ± 0.47 s), provide most of the performance at much lower latency (Table 3). Incremental gains beyond ∼30 s are within CI (like gpt-5-medium at 0.866 ± 0.062 at 30.0 ± 1.9 s vs. gpt-5-high). The best non-OpenAI frontier points are gemini-2.5-flash (0.768 ± 0.087 at 15.6 ± 1.1 s) and gemini-robotics-er-1.5 think=12288 (0.704 ± 0.112 at 14.3 ± 0.6 s), while Anthropic’s fastest frontier point is claude-sonnet-4 (0.507±0.139 at 4.53± 0.11 s). The best models mostly span from ∼5–7 s at ∼0.83 awareness to ∼60 s at ∼0.87 awareness score.",
+        "question": "The text mentions the model gpt-5-medium. From the chart, extract its awareness value. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.866,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 50,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.24985v1\\chart1.jpg",
+            "chart2": "2512.24985v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Room category distribution",
+            "chart2": "Question category distribution"
+        },
+        "text": "Our DarkEQA comprises 52 scenes selected from HM3DSem, yielding 3,911 frames at 1440 × 2560 resolution with ∼9.4K QA pairs. Fig. 5 shows that the dataset exhibits semantic class and room category distributions that are representative of typical residential environments. The semantic annotation covers 23 non-structural object classes, with the most prevalent being cabinet, bed, mirror, and table taking up about 53%. Room category distribution reflects the natural spatial composition of household scenes. The question distribution across the five question families shows moderate imbalance, with frequencies determined by the geometric and semantic constraints of our rule-based QA generation pipeline and subsequent validation through human sanity checks to ensure answer correctness.",
+        "question": "The text states that the dataset contains thousands of frames captured from residential scenes. Using the total frame count described in the text and the living room percentage shown in the chart, compute the number of frames corresponding to living rooms. Round the result to the nearest integer. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 1212,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 51,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.24985v1\\chart1.jpg",
+            "chart2": "2512.24985v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Room category distribution",
+            "chart2": "Question category distribution"
+        },
+        "text": "Our DarkEQA comprises 52 scenes selected from HM3DSem, yielding 3,911 frames at 1440 × 2560 resolution with ∼9.4K QA pairs. Fig. 5 shows that the dataset exhibits semantic class and room category distributions that are representative of typical residential environments. The semantic annotation covers 23 non-structural object classes, with the most prevalent being cabinet, bed, mirror, and table taking up about 53%. Room category distribution reflects the natural spatial composition of household scenes. The question distribution across the five question families shows moderate imbalance, with frequencies determined by the geometric and semantic constraints of our rule-based QA generation pipeline and subsequent validation through human sanity checks to ensure answer correctness.",
+        "question": "The text describes the total number of scenes included in the dataset. Assuming the scene distribution follows the room category proportions shown in the chart, compute the number of scenes corresponding to bathrooms. Round the result to the nearest integer. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 8,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 52,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.24985v1\\chart1.jpg",
+            "chart2": "2512.24985v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Room category distribution",
+            "chart2": "Question category distribution"
+        },
+        "text": "Our DarkEQA comprises 52 scenes selected from HM3DSem, yielding 3,911 frames at 1440 × 2560 resolution with ∼9.4K QA pairs. Fig. 5 shows that the dataset exhibits semantic class and room category distributions that are representative of typical residential environments. The semantic annotation covers 23 non-structural object classes, with the most prevalent being cabinet, bed, mirror, and table taking up about 53%. Room category distribution reflects the natural spatial composition of household scenes. The question distribution across the five question families shows moderate imbalance, with frequencies determined by the geometric and semantic constraints of our rule-based QA generation pipeline and subsequent validation through human sanity checks to ensure answer correctness.",
+        "question": "The text describes that the dataset is built from a fixed number of residential scenes. Assuming the scenes follow the room proportions shown in the chart, compute the approximate number of scenes corresponding to bedrooms. Round to the nearest integer. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 16,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 53,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.24985v1\\chart1.jpg",
+            "chart2": "2512.24985v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Room category distribution",
+            "chart2": "Question category distribution"
+        },
+        "text": "Our DarkEQA comprises 52 scenes selected from HM3DSem, yielding 3,911 frames at 1440 × 2560 resolution with ∼9.4K QA pairs. Fig. 5 shows that the dataset exhibits semantic class and room category distributions that are representative of typical residential environments. The semantic annotation covers 23 non-structural object classes, with the most prevalent being cabinet, bed, mirror, and table taking up about 53%. Room category distribution reflects the natural spatial composition of household scenes. The question distribution across the five question families shows moderate imbalance, with frequencies determined by the geometric and semantic constraints of our rule-based QA generation pipeline and subsequent validation through human sanity checks to ensure answer correctness.",
+        "question": "Using the proportions shown in the chart and the total QA pairs described in the text, compute how many more Object Recognition questions there are compared to Room-Type Recognition questions. Round to the nearest integer. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 3102,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 54,
+        "items": ["chart1","chart2", "text"],
+        "path": {
+            "chart1": "2512.24985v1\\chart1.jpg",
+            "chart2": "2512.24985v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Room category distribution",
+            "chart2": "Question category distribution"
+        },
+        "text": "Our DarkEQA comprises 52 scenes selected from HM3DSem, yielding 3,911 frames at 1440 × 2560 resolution with ∼9.4K QA pairs. Fig. 5 shows that the dataset exhibits semantic class and room category distributions that are representative of typical residential environments. The semantic annotation covers 23 non-structural object classes, with the most prevalent being cabinet, bed, mirror, and table taking up about 53%. Room category distribution reflects the natural spatial composition of household scenes. The question distribution across the five question families shows moderate imbalance, with frequencies determined by the geometric and semantic constraints of our rule-based QA generation pipeline and subsequent validation through human sanity checks to ensure answer correctness.",
+        "question": "Using the proportions shown in the chart and the total QA pairs described in the text, compute the difference in the number of questions between Object Attribute and Room Affordance Check. Round to the nearest integer. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 1222,
+        "answer_type": "numeric"
+    }
+]

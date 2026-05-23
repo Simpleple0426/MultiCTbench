@@ -1,0 +1,206 @@
+[
+    {
+        "question_id": 11,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.19055v1\\chart1.jpg",
+            "table1": "2510.19055v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "SOTA model comparison on the MUSE benchmark. Models shown with solid lines. Humans shown with dashed and dotted lines.",
+            "table1": "Overview of the 10 tasks in The MUSE Benchmark. All tasks contained 20 trials each"
+        },
+        "question":"What is the corresponding Technical Description in Table 1 for the “Mel. Shape” dimension shown in Chart 1? Respond only with the task name.",
+        "question_type": "perceptual",
+        "answer": "Identify the overall melodic shape.",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 14,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.21014v2\\chart1.jpg",
+            "table1": "2510.21014v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Average WER BIN distribution (percentage) for each mixture across dataset splits",
+            "table1": "Distribution of the data-set splits of the WHAMR! separated tracks. ASR generated with Whisper large-V3"
+        },
+        "question":"Which dataset split appearing in Chart 1 is also listed in Table 1? Respond with a list of dataset names.",
+        "question_type": "perceptual",
+        "answer": "[REAL-M Test, WHAMR Test, WHAMR Train]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 39,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.02088v1\\chart1.jpg",
+            "table1": "2512.02088v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Validation AUC and F1 across tested models. J1 multimodal configurations outperformed J0 and clinical baselines.",
+            "table1": "Summary of multimodal configurations (mean ± Standar across 8 folds). PCA dimension fixed at 12 components."
+        },
+        "question": "Count the number of model configurations that appear in both Table 1 and Chart 1. A configuration is counted only if its name appears exactly in both the table and the chart. Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 1,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 43,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.11121v1\\chart1.jpg",
+            "table1": "2512.11121v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Human preference study: REDS Deblur (top) and DPED-iPhone SR (bottom). LEGO is overwhelmingly preferred by human raters over these leading baselines, confirming its superior visual quality. Error bars show 95% CI.",
+            "table1": "Quantitative results for 2x SR adaptation (DIV2K → DPED-iPhone). LEGO adapts a LDM-SR model (pretrained with synthetic RealESRGAN degradation) to the DPED-iPhone dataset, improving out-of-distribution performance."
+        },
+        "question":"Which methods appear in Chart 1 but do not appear in Table 1? Respond with a list of method names.",
+        "question_type": "perceptual",
+        "answer": "[DeblurGAN-v2, Hi-Diff]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 45,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.12366v1\\chart1.jpg",
+            "table1": "2512.12366v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Scalability analysis of the proposed frameworks compared to baselines as the number of users increases. Subplots show (a) average reward, (b) average perceived PSNR, (c) average response time, and (d) average energy consumption. The results indicate that IPPG maintains near-optimal performance across different user scales, while CPPG and EA-Offloader exhibit higher variability and degradation in performance.",
+            "table1": "Average reward, video quality in terms of PSNR, response time (RT), energy consumption (EC) for 𝐾 = 3 users with weights 𝑤0 = 0.35, 𝑤1 = 0.85, and 𝑤2 = 0.15. Both CPPG and IPPG achieve near-optimal performance with no deadline violations, while EGreedy and EA-Offloader show larger variability, lower rewards, and higher violation rates."
+        },
+        "question":"Which method is reported in Table 1 but does not appear in Chart 1? Respond only with the method name.",
+        "question_type": "perceptual",
+        "answer": "EGreedy",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 54,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.12528v1\\chart1.jpg",
+            "table1": "2512.12528v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Domain-shift robustness. Bars show mean ROC-AUC across repeated runs; error bars indicate one standard deviation",
+            "table1": "ROC-AUC UNDER OPERATING-REGIME SHIFT (DOMAIN MISMATCH)"
+        },
+        "question":"Using Chart 1, report the ROC-AUC value corresponding to the green bar under Regime B (mild shift). Respond only with a single numeric value rounded to three decimals.",
+        "question_type": "perceptual",
+        "answer": 0.752,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.14570v1\\chart1.jpg",
+            "table1": "2510.14570v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Performance of Qwen-DisQA at different level.",
+            "table1": "Utterance-level PCC results of different systems. Models marked with “*” denote direct evaluation without finetuning, “†” indicates fine-tuning on pretrained encoder, and “‡” corresponds to LoRA fine-tuning on MLLM."
+        },
+        "question":"In Chart 1, focusing on the green heatmap that represents PCC values, identify the cell with the darkest green color. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.92,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.14664v1\\chart1.jpg",
+            "table1": "2510.14664v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Per-task statistics for four languages, showing the counts of audio items (light colors) and annotations (solid colors).",
+            "table1": "The data split across different tasks in the SpeechEval dataset."
+        },
+        "question":"In Chart 1, what is the number of English annotations for the Assessment task? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 10535,
+        "answer_type": "numeric"
+    },
+
+
+    {
+        "question_id": 32,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.09090v1\\chart1.jpg",
+            "table1": "2511.09090v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The comparison of inference time for different methods in generating soundtracks for 30-second videos.",
+            "table1": ": Comparison with existing methods. The best results are highlighted in bold, and the second-best are underlined"
+        },
+        "question":"Which metrics in Table 1 are marked with an upward arrow (↑)? Respond with a list of metric names.",
+        "question_type": "perceptual",
+        "answer": "[Den., Cov., IB]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.09605v3\\chart1.jpg",
+            "table1": "2511.09605v3\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Detailed results comparing slice-wise aggregation methods: long short-term memory (LSTM), medical slice transformer (MST), and TomoGraphView. Besides their original slicing strategy (2D-axial+), LSTM, and MST are also evaluated using omnidirectional volume slicing. All methods are evaluated across all six datasets using the Area Under the Receiver Operating Characteristic Curve (AUROC) on the left and Matthews correlation coefficient (MCC) on the right as performance metrics. Bars indicate the average performance across five folds.",
+            "table1": "Quantitative results comparing a long short-term memory (LSTM) approach, medical slice transformer (MST), and our TomoGraphView framework for slice-wise feature aggregation performance. Besides their original slicing strategy (2D-axial+), LSTM and MST are also evaluated using omnidirectional volume slicing. Methods are compared across different numbers of views and performance metrics, including the Area Under the Receiver Operating Characteristic Curve (AUROC) and the Matthews correlation coefficient (MCC). Results are presented as the average across all six datasets and five folds"
+        },
+        "question":"What color is used to represent TomoGraphView (ours) in Chart 1? Respond only with the color name.",
+        "question_type": "perceptual",
+        "answer": "orange",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 51,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.12366v1\\chart1.jpg",
+            "table1": "2512.12366v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Scalability analysis of the proposed frameworks compared to baselines as the number of users increases. Subplots show (a) average reward, (b) average perceived PSNR, (c) average response time, and (d) average energy consumption. The results indicate that IPPG maintains near-optimal performance across different user scales, while CPPG and EA-Offloader exhibit higher variability and degradation in performance.",
+            "table1": "Average reward, video quality in terms of PSNR, response time (RT), energy consumption (EC) for 𝐾 = 3 users with weights 𝑤0 = 0.35, 𝑤1 = 0.85, and 𝑤2 = 0.15. Both CPPG and IPPG achieve near-optimal performance with no deadline violations, while EGreedy and EA-Offloader show larger variability, lower rewards, and higher violation rates."
+        },
+        "question":"Which four performance metrics are represented by subplots (a)–(d) in Chart 1? Respond with a list of metric names in the order (a) to (d).",
+        "question_type": "perceptual",
+        "answer": "[Average reward, Average perceived PSNR, Average response time, Average energy consumption]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 81,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.12755v1\\chart1.jpg",
+            "table1": "2512.12755v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Composition of daily operation cost and revenue for the microgrids under different forecasting–optimization schemes",
+            "table1": "OPERATION COST BREAKDOWN AND NET COST FOR MICROGRIDS UNDER FOUR FORECASTING–OPTIMIZATION SCHEMES"
+        },
+        "question":"In Chart 1, what is the y-axis label text corresponding to the line plot (Net Cost) on the right-hand side? Respond only with the axis label text.",
+        "question_type": "perceptual",
+        "answer": "Net Cost ($)",
+        "answer_type": "text"
+    }
+]

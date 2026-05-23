@@ -1,0 +1,3002 @@
+[
+    {
+        "question_id": 1,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.21580v2\\table.jpg",
+            "chart": "2512.21580v2\\chart.jpg"
+        },
+        "question_chart": "According to the chart, identify all models whose GSM8K score is higher than their English Average, then calculate the average GSM8K score of these models. Round the result to one decimal place. Respond only with a single number.",
+        "question_table": "According to the table, identify all models whose GSM8K score is higher than their English Average, then calculate the average GSM8K score of these models. Use English Average rounded to one decimal place and round the final result to one decimal place. Respond only with a single number.",
+        "question_both": "According to the chart and the table, identify all models whose GSM8K score is higher than their English Average, then calculate their average GSM8K score. Round the result to one decimal place. Respond only with a single number.",
+        "question_type": "reasoning",
+        "answer": 62.0,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 2,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.21580v2\\table.jpg",
+            "chart": "2512.21580v2\\chart.jpg"
+        },
+        "question_chart": "According to the chart, calculate the difference between the highest GSM8K score and the lowest English Average score. Round the result to one decimal place. Respond only with a single number.",
+        "question_table": "According to the table, calculate the difference between the highest GSM8K score and the lowest English Average score. Use English Average rounded to one decimal place and round the result to one decimal place. Respond only with a single number.",
+        "question_both": "According to the chart and the table, calculate the difference between the highest GSM8K score and the lowest English Average score. Round the result to one decimal place. Respond only with a single number.",
+        "question_type": "reasoning",
+        "answer": 28.9,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.21580v2\\table.jpg",
+            "chart": "2512.21580v2\\chart.jpg"
+        },
+        "question_chart": "According to the chart, identify the only model whose English Average and GSM8K scores are both below 40. Respond only with the model name.",
+        "question_table": "According to the table, identify the only model whose English Average and GSM8K scores are both below 40, using English Average rounded to one decimal place. Respond only with the model name.",
+        "question_both": "According to the chart and the table, identify the only model whose English Average and GSM8K scores are both below 40. Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "EuroLM",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.21580v2\\table.jpg",
+            "chart": "2512.21580v2\\chart.jpg"
+        },
+        "question_chart": "According to the chart, identify the model whose English Average is higher than its GSM8K score by the largest margin. Respond only with the model name.",
+        "question_table": "According to the table, identify the model whose English Average is higher than its GSM8K score by the largest margin, using English Average rounded to one decimal place. Respond only with the model name.",
+        "question_both": "According to the chart and the table, identify the model whose English Average is higher than its GSM8K score by the largest margin. Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "EuroLM",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.21706v1\\table.jpg",
+            "chart": "2512.21706v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, compare the overall performance bars for High and Low, then use the table to compute the difference between the average Overall (Low) score and the average Overall (High) score. Respond only with one number rounded to three decimals.",
+        "question_table": "According to the table, average the four Overall (High) scores and the four Overall (Low) scores, then subtract the High average from the Low average. Respond only with one number rounded to three decimals.",
+        "question_both": "According to the chart and the table, quantify how much higher the mean of the four Overall (Low) metrics is than the mean of the four Overall (High) metrics. Respond only with one number rounded to three decimals.",
+        "question_type": "reasoning",
+        "answer": 0.143,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 6,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.21706v1\\table.jpg",
+            "chart": "2512.21706v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, look for classes with very high AUC bars but relatively low F1 bars, then verify the exact thresholds using the table. Respond only with a list of class names.",
+        "question_table": "According to the table, filter all High-level and Low-level classes where AUC ≥ 0.900 and F1 < 0.550. Respond only with a list of class names.",
+        "question_both": "According to the chart and the table, identify every class whose AUC is at least 0.900 while its F1 is below 0.550. Respond only with a list of class names.",
+        "question_type": "reasoning",
+        "answer": "Backchannel",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.21706v1\\table.jpg",
+            "chart": "2512.21706v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, rank the High-level Speech Acts classes by the height of their F1 bars from highest to lowest, then confirm the order using the table. Respond only with a list of class names.",
+        "question_table": "According to the table, rank the High-level Speech Acts classes by F1 score in descending order. Respond only with a list of class names.",
+        "question_both": "According to the chart and the table, order the High-level Speech Acts classes from highest F1 to lowest F1. Respond only with a list of class names.",
+        "question_type": "reasoning",
+        "answer": "[Constatives, Acknowledgments, Commissives, Directives]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.21706v1\\table.jpg",
+            "chart": "2512.21706v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, identify the class with the most visually pronounced pattern of high AUC but comparatively low F1, then verify it with exact values from the table. Respond only with the class name.",
+        "question_table": "According to the table, calculate AUC - F1 for all High-level and Low-level classes and select the maximum. Respond only with the class name.",
+        "question_both": "According to the chart and the table, determine which class has the largest AUC–F1 gap across all classes. Respond only with the class name.",
+        "question_type": "reasoning",
+        "answer": "Backchannel",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 9,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.21877v1\\table.jpg",
+            "chart": "2512.21877v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the highest CricBench (Spec) accuracy among all models? Respond only with a single number.",
+        "question_table": "According to the table, what is the highest CricBench (Spec) accuracy among all models? Respond only with a single number.",
+        "question_both": "According to the chart and the table, what is the highest CricBench (Spec) accuracy among all models? Respond only with a single number.",
+        "question_type": "reasoning",
+        "answer": 50.6,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.21877v1\\table.jpg",
+            "chart": "2512.21877v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, by how many percentage points does GPT-4o’s accuracy decrease from BIRD (Gen) to CricBench (Spec)? Respond only with a single number.",
+        "question_table": "According to the table, by how many percentage points does GPT-4o’s accuracy decrease from BIRD (Gen) to CricBench (Spec)? Respond only with a single number.",
+        "question_both": "According to the chart and the table, by how many percentage points does GPT-4o’s accuracy decrease from BIRD (Gen) to CricBench (Spec)? Respond only with a single number.",
+        "question_type": "reasoning",
+        "answer": 21.7,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 11,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.21877v1\\table.jpg",
+            "chart": "2512.21877v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, by how many percentage points is the average CricBench (Spec) accuracy of the first three models higher than that of the last three models? Round the result to one decimal place. Respond only with a single number.",
+        "question_table": "According to the table, by how many percentage points is the average CricBench (Spec) accuracy of the first three models higher than that of the last three models? Round the result to one decimal place. Respond only with a single number.",
+        "question_both": "According to the chart and the table, by how many percentage points is the average CricBench (Spec) accuracy of the first three models higher than that of the last three models? Round the result to one decimal place. Respond only with a single number.",
+        "question_type": "reasoning",
+        "answer": 40.2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.21877v1\\table.jpg",
+            "chart": "2512.21877v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which model ranks first on BIRD (Gen) but drops to third on CricBench (Spec)? Respond only with the model name.",
+        "question_table": "According to the table, which model ranks first on BIRD (Gen) but drops to third on CricBench (Spec)? Respond only with the model name.",
+        "question_both": "According to the chart and the table, which model ranks first on BIRD (Gen) but drops to third on CricBench (Spec)? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "GPT-4o",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.21877v1\\table.jpg",
+            "chart": "2512.21877v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, identify the models with the highest accuracy on BIRD (Gen) and CricBench (Spec), respectively. Respond only with a list of model names in the order [BIRD, CricBench].",
+        "question_table": "According to the table, identify the models with the highest accuracy on BIRD (Gen) and CricBench (Spec), respectively. Respond only with a list of model names in the order [BIRD, CricBench].",
+        "question_both": "According to the chart and the table, identify the models with the highest accuracy on BIRD (Gen) and CricBench (Spec), respectively. Respond only with a list of model names in the order [BIRD, CricBench].",
+        "question_type": "reasoning",
+        "answer": "[GPT-4o, DeepSeek R1]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 14,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.21877v1\\table.jpg",
+            "chart": "2512.21877v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which dataset shows a larger accuracy range across models? Respond only with the dataset name.",
+        "question_table": "According to the table, which dataset shows a larger accuracy range across models? Respond only with the dataset name.",
+        "question_both": "According to the chart and the table, which dataset shows a larger accuracy range across models? Respond only with the dataset name.",
+        "question_type": "reasoning",
+        "answer": "CricBench (Spec)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.22378v1\\table.jpg",
+            "chart": "2512.22378v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the MT-bench score of the FF method for Qwen2 7B? Respond only with a single number.",
+        "question_table": "According to the table, what is the MT-bench score of the FF method for Qwen2 7B? Respond only with a single number.",
+        "question_both": "According to the chart and the table, what is the MT-bench score of the FF method for Qwen2 7B? Respond only with a single number.",
+        "question_type": "reasoning",
+        "answer": 7.88,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 16,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.22378v1\\table.jpg",
+            "chart": "2512.22378v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, by how much is the MT-bench score of FF higher than LoRA for LLaMA3 8B? Respond only with a single number.",
+        "question_table": "According to the table, by how much is the MT-bench score of FF higher than LoRA for LLaMA3 8B? Respond only with a single number.",
+        "question_both": "According to the chart and the table, by how much is the MT-bench score of FF higher than LoRA for LLaMA3 8B? Respond only with a single number.",
+        "question_type": "reasoning",
+        "answer": 0.77,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.22378v1\\table.jpg",
+            "chart": "2512.22378v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the average MT-bench score of FAA(Ours) across the four models? Respond only with a single number rounded to three decimal places.",
+        "question_table": "According to the table, what is the average MT-bench score of FAA(Ours) across the four models? Respond only with a single number rounded to three decimal places.",
+        "question_both": "According to the chart and the table, what is the average MT-bench score of FAA(Ours) across the four models? Respond only with a single number rounded to three decimal places.",
+        "question_type": "reasoning",
+        "answer": 7.215,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.22378v1\\table.jpg",
+            "chart": "2512.22378v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which method achieves the highest MT-bench score for Deepseek R1-1.5B? Respond only with the method name.",
+        "question_table": "According to the table, which method achieves the highest MT-bench score for Deepseek R1-1.5B? Respond only with the method name.",
+        "question_both": "According to the chart and the table, which method achieves the highest MT-bench score for Deepseek R1-1.5B? Respond only with the method name.",
+        "question_type": "reasoning",
+        "answer":"LoRA" ,
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.22378v1\\table.jpg",
+            "chart": "2512.22378v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which method has the lowest MT-bench score for Qwen2 7B? Respond only with the method name.",
+        "question_table": "According to the table, which method has the lowest MT-bench score for Qwen2 7B? Respond only with the method name.",
+        "question_both": "According to the chart and the table, which method has the lowest MT-bench score for Qwen2 7B? Respond only with the method name.",
+        "question_type": "reasoning",
+        "answer": "AdapterH",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 20,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.22378v1\\table.jpg",
+            "chart": "2512.22378v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which model shows the largest range of MT-bench scores across the five methods? Respond only with the model name.",
+        "question_table": "According to the table, which model shows the largest range of MT-bench scores across the five methods? Respond only with the model name.",
+        "question_both": "According to the chart and the table, which model shows the largest range of MT-bench scores across the five methods? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "LLaMA3 8B",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 21,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.22562v1\\table.jpg",
+            "chart": "2512.22562v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the score of GSM8K when w = 256? Respond only with a single number.",
+        "question_table": "According to the table, what is the score of GSM8K when w = 256? Respond only with a single number.",
+        "question_both": "According to the chart and the table, what is the score of GSM8K when w = 256? Respond only with a single number.",
+        "question_type": "reasoning",
+        "answer": 0.4632,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.22562v1\\table.jpg",
+            "chart": "2512.22562v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, how much higher is the MMLU score at w = 256 than Vanilla? Respond only with a single number.",
+        "question_table": "According to the table, how much higher is the MMLU score at w = 256 than Vanilla? Respond only with a single number.",
+        "question_both": "According to the chart and the table, how much higher is the MMLU score at w = 256 than Vanilla? Respond only with a single number.",
+        "question_type": "reasoning",
+        "answer": 0.0078,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 23,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.22562v1\\table.jpg",
+            "chart": "2512.22562v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, calculate the average score of w = 256 across the six datasets. Respond only with a single number rounded to 4 decimal places.",
+        "question_table": "According to the table, calculate the average score of w = 256 across the six datasets. Respond only with a single number rounded to 4 decimal places.",
+        "question_both": "According to the chart and the table, calculate the average score of w = 256 across the six datasets. Respond only with a single number rounded to 4 decimal places.",
+        "question_type": "reasoning",
+        "answer": 0.3986,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 24,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.22562v1\\table.jpg",
+            "chart": "2512.22562v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which datasets reach their highest score at w = 256? Respond only with a list of dataset names.",
+        "question_table": "According to the table, which datasets reach their highest score at w = 256? Respond only with a list of dataset names.",
+        "question_both": "According to the chart and the table, which datasets reach their highest score at w = 256? Respond only with a list of dataset names.",
+        "question_type": "reasoning",
+        "answer": "[MMLU, HellaSwag, GSM8K, MBPP]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 25,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.22562v1\\table.jpg",
+            "chart": "2512.22562v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which dataset has the largest range between its highest and lowest score? Respond only with the dataset name.",
+        "question_table": "According to the table, which dataset has the largest range between its highest and lowest score? Respond only with the dataset name.",
+        "question_both": "According to the chart and the table, which dataset has the largest range between its highest and lowest score? Respond only with the dataset name.",
+        "question_type": "reasoning",
+        "answer": "GSM8K",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.22562v1\\table.jpg",
+            "chart": "2512.22562v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, from w = 16 to w = 256, which datasets do not show a consistently increasing or non-decreasing pattern? Respond only with a list of dataset names.",
+        "question_table": "According to the table, from w = 16 to w = 256, which datasets do not show a consistently increasing or non-decreasing pattern? Respond only with a list of dataset names.",
+        "question_both": "According to the chart and the table, from w = 16 to w = 256, which datasets do not show a consistently increasing or non-decreasing pattern? Respond only with a list of dataset names.",
+        "question_type": "reasoning",
+        "answer": "[MBPP, News]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.22712v1\\table.jpg",
+            "chart": "2512.22712v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which model has the highest Accuracy in the LS language group? Respond only with the model name.",
+        "question_table": "According to the table, which model has the highest Accuracy in the LS language group? Respond only with the model name.",
+        "question_both": "According to the chart and the table, which model has the highest Accuracy in the LS language group? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "Qwen2.5-72B-Instruct",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.22712v1\\table.jpg",
+            "chart": "2512.22712v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the Accuracy difference between LS and LRL for Qwen3-32B-thinking? Respond only with a number rounded to 2 decimal places.",
+        "question_table": "According to the table, what is the Accuracy difference between LS and LRL for Qwen3-32B-thinking? Respond only with a number rounded to 2 decimal places.",
+        "question_both": "According to the chart and the table, what is the Accuracy difference between LS and LRL for Qwen3-32B-thinking? Respond only with a number rounded to 2 decimal places.",
+        "question_type": "reasoning",
+        "answer": 4.45,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 29,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.22712v1\\table.jpg",
+            "chart": "2512.22712v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the average Accuracy of Qwen2.5-72B-Instruct across LS, NLS, HRL, and LRL? Respond only with a number rounded to 2 decimal places.",
+        "question_table": "According to the table, what is the average Accuracy of Qwen2.5-72B-Instruct across LS, NLS, HRL, and LRL? Respond only with a number rounded to 2 decimal places.",
+        "question_both": "According to the chart and the table, what is the average Accuracy of Qwen2.5-72B-Instruct across LS, NLS, HRL, and LRL? Respond only with a number rounded to 2 decimal places.",
+        "question_type": "reasoning",
+        "answer": 83.86,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 30,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.22712v1\\table.jpg",
+            "chart": "2512.22712v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which model shows the largest Accuracy drop from LS to NLS? Respond only with the model name.",
+        "question_table": "According to the table, which model shows the largest Accuracy drop from LS to NLS? Respond only with the model name.",
+        "question_both": "According to the chart and the table, which model shows the largest Accuracy drop from LS to NLS? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "Qwen2.5-32B-Instruct",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 31,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.22712v1\\table.jpg",
+            "chart": "2512.22712v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, across all models, which language group has the highest average Accuracy? Respond only with the language group name.",
+        "question_table": "According to the table, across all models, which language group has the highest average Accuracy? Respond only with the language group name.",
+        "question_both": "According to the chart and the table, across all models, which language group has the highest average Accuracy? Respond only with the language group name.",
+        "question_type": "reasoning",
+        "answer": "LS",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 32,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.22712v1\\table.jpg",
+            "chart": "2512.22712v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, across all models, which language group has the highest average TIR? Respond only with the language group name.",
+        "question_table": "According to the table, across all models, which language group has the highest average TIR? Respond only with the language group name.",
+        "question_both": "According to the chart and the table, across all models, which language group has the highest average TIR? Respond only with the language group name.",
+        "question_type": "reasoning",
+        "answer": "LRL",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 33,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.22712v1\\table.jpg",
+            "chart": "2512.22712v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, across NLS, HRL, and LRL, which model simultaneously achieves the highest Accuracy and the lowest TIR? Respond only with the model name.",
+        "question_table": "According to the table, across NLS, HRL, and LRL, which model simultaneously achieves the highest Accuracy and the lowest TIR? Respond only with the model name.",
+        "question_both": "According to the chart and the table, across NLS, HRL, and LRL, which model simultaneously achieves the highest Accuracy and the lowest TIR? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "Qwen3-32B-thinking",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 34,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.22712v1\\table.jpg",
+            "chart": "2512.22712v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which model has the smallest Accuracy range across LS, NLS, HRL, and LRL? Respond only with the model name.",
+        "question_table": "According to the table, which model has the smallest Accuracy range across LS, NLS, HRL, and LRL? Respond only with the model name.",
+        "question_both": "According to the chart and the table, which model has the smallest Accuracy range across LS, NLS, HRL, and LRL? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "Llama-4-Scout-Instruct",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23147v1\\table.jpg",
+            "chart": "2512.23147v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the mAP of GRS (Ours) on the Pedestrian category? Respond only with a number.",
+        "question_table": "According to the table, what is the mAP of GRS (Ours) on the Pedestrian category? Respond only with a number.",
+        "question_both": "According to the chart and the table, what is the mAP of GRS (Ours) on the Pedestrian category? Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 43.62,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23147v1\\table.jpg",
+            "chart": "2512.23147v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, how much higher is GRS (Ours) than Baseline on the Cyclist category? Respond only with a number.",
+        "question_table": "According to the table, how much higher is GRS (Ours) than Baseline on the Cyclist category? Respond only with a number.",
+        "question_both": "According to the chart and the table, how much higher is GRS (Ours) than Baseline on the Cyclist category? Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 1.51,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23147v1\\table.jpg",
+            "chart": "2512.23147v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, calculate the average mAP of NoiseDet across Vehicle, Pedestrian, and Cyclist. Respond only with a number rounded to two decimal places.",
+        "question_table": "According to the table, calculate the average mAP of NoiseDet across Vehicle, Pedestrian, and Cyclist. Respond only with a number rounded to two decimal places.",
+        "question_both": "According to the chart and the table, calculate the average mAP of NoiseDet across Vehicle, Pedestrian, and Cyclist. Respond only with a number rounded to two decimal places.",
+        "question_type": "reasoning",
+        "answer": 61.10,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 38,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23147v1\\table.jpg",
+            "chart": "2512.23147v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the difference between the highest and lowest mAP values in the Vehicle category? Respond only with a number.",
+        "question_table": "According to the table, what is the difference between the highest and lowest mAP values in the Vehicle category? Respond only with a number.",
+        "question_both": "According to the chart and the table, what is the difference between the highest and lowest mAP values in the Vehicle category? Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 2.45,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 39,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23147v1\\table.jpg",
+            "chart": "2512.23147v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which category shows the largest mAP variation across different methods? Respond only with the category name.",
+        "question_table": "According to the table, which category shows the largest mAP variation across different methods? Respond only with the category name.",
+        "question_both": "According to the chart and the table, which category shows the largest mAP variation across different methods? Respond only with the category name.",
+        "question_type": "reasoning",
+        "answer": "Vehicle",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 40,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23147v1\\table.jpg",
+            "chart": "2512.23147v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which category shows the smallest mAP variation across different methods? Respond only with the category name.",
+        "question_table": "According to the table, which category shows the smallest mAP variation across different methods? Respond only with the category name.",
+        "question_both": "According to the chart and the table, which category shows the smallest mAP variation across different methods? Respond only with the category name.",
+        "question_type": "reasoning",
+        "answer": "Pedestrian",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23379v2\\table.jpg",
+            "chart": "2512.23379v2\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the FPS of SoulX-LiveTalk* on the Short dataset? Respond only with one number.",
+        "question_table": "According to the table, what is the FPS of SoulX-LiveTalk* on the Short dataset? Respond only with one number.",
+        "question_both": "According to the chart and the table, what is the FPS of SoulX-LiveTalk* on the Short dataset? Respond only with one number.",
+        "question_type": "reasoning",
+        "answer": 32.00,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23379v2\\table.jpg",
+            "chart": "2512.23379v2\\chart.jpg"
+        },
+        "question_chart": "According to the chart, how much higher is the FPS of SoulX-LiveTalk* than Ditto* on the Long dataset? Respond only with one number.",
+        "question_table": "According to the table, how much higher is the FPS of SoulX-LiveTalk* than Ditto* on the Long dataset? Respond only with one number.",
+        "question_both": "According to the chart and the table, how much higher is the FPS of SoulX-LiveTalk* than Ditto* on the Long dataset? Respond only with one number.",
+        "question_type": "reasoning",
+        "answer": 31.47,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 43,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23379v2\\table.jpg",
+            "chart": "2512.23379v2\\chart.jpg"
+        },
+        "question_chart": "According to the chart, how much does Ditto*'s FPS change from Short to Long? Respond only with one number.",
+        "question_table": "According to the table, how much does Ditto*'s FPS change from Short to Long? Respond only with one number.",
+        "question_both": "According to the chart and the table, how much does Ditto*'s FPS change from Short to Long? Respond only with one number.",
+        "question_type": "reasoning",
+        "answer": -21.27,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 44,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23379v2\\table.jpg",
+            "chart": "2512.23379v2\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which models keep exactly the same FPS from Short to Long? Respond only with a list of model names.",
+        "question_table": "According to the table, which models keep exactly the same FPS from Short to Long? Respond only with a list of model names.",
+        "question_both": "According to the chart and the table, which models keep exactly the same FPS from Short to Long? Respond only with a list of model names.",
+        "question_type": "reasoning",
+        "answer": "[LiveAvatar*, SoulX-LiveTalk*]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 45,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23379v2\\table.jpg",
+            "chart": "2512.23379v2\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which model shows the largest FPS decrease from Short to Long? Respond only with the model name.",
+        "question_table": "According to the table, which model shows the largest FPS decrease from Short to Long? Respond only with the model name.",
+        "question_both": "According to the chart and the table, which model shows the largest FPS decrease from Short to Long? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "Ditto*",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 46,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23379v2\\table.jpg",
+            "chart": "2512.23379v2\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which model ranks second in Subject-C on both the Short and Long datasets? Respond only with the model name.",
+        "question_table": "According to the table, which model ranks second in Subject-C on both the Short and Long datasets? Respond only with the model name.",
+        "question_both": "According to the chart and the table, which model ranks second in Subject-C on both the Short and Long datasets? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "SoulX-LiveTalk*",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 47,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23426v1\\table.jpg",
+            "chart": "2512.23426v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the final score of SANA on GenEval after applying DDSPO? Respond only with one number.",
+        "question_table": "According to the table, what is the GenEval score of SANA +DDSPO? Respond only with one number.",
+        "question_both": "According to the chart and the table, what is the final GenEval score of SANA after DDSPO is added? Respond only with one number.",
+        "question_type": "reasoning",
+        "answer": 0.7266,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 48,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23426v1\\table.jpg",
+            "chart": "2512.23426v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, how much DDSPO gain does SDXL obtain on T2I-Compbench? Respond only with one number.",
+        "question_table": "According to the table, calculate the improvement from SDXL to SDXL +DDSPO on T2I-Compbench. Respond only with one number.",
+        "question_both": "According to the chart and the table, what is the DDSPO gain for SDXL on T2I-Compbench? Respond only with one number.",
+        "question_type": "reasoning",
+        "answer": 0.0823,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 49,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23426v1\\table.jpg",
+            "chart": "2512.23426v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which model has the largest DDSPO gain on T2I-Compbench? Respond only with the model name.",
+        "question_table": "According to the table, which model shows the largest improvement after DDSPO on T2I-Compbench? Respond only with the model name.",
+        "question_both": "According to the chart and the table, which model obtains the largest DDSPO gain on T2I-Compbench? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "SDXL",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 50,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23426v1\\table.jpg",
+            "chart": "2512.23426v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which model achieves the highest final score after DDSPO on both benchmarks? Respond only with the model name.",
+        "question_table": "According to the table, which +DDSPO model has the highest score on both GenEval and T2I-Compbench? Respond only with the model name.",
+        "question_both": "According to the chart and the table, which model ranks first after DDSPO on both benchmarks? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "SANA",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 51,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23441v1\\table.jpg",
+            "chart": "2512.23441v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, by what percentage does STAMP improve over the average PRAUC of all non-STAMP models in the 6-month results? Round to 2 decimal places. Respond only with one number.",
+        "question_table": "According to the table, by what percentage does STAMP improve over the average 6-month PRAUC of all non-STAMP models? Round to 2 decimal places. Respond only with one number.",
+        "question_both": "According to the chart and the table, by what percentage does STAMP improve over the average 6-month PRAUC of all non-STAMP models? Round to 2 decimal places. Respond only with one number.",
+        "question_type": "reasoning",
+        "answer": 46.98,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 52,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23441v1\\table.jpg",
+            "chart": "2512.23441v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, among all non-STAMP models, which model has the highest simple average across AUROC, PRAUC, and BACC in the 6-month results? Respond only with the model name.",
+        "question_table": "According to the table, among all non-STAMP models, which model has the highest simple average across 6-month AUROC, PRAUC, and BACC? Respond only with the model name.",
+        "question_both": "According to the chart and the table, among all non-STAMP models, which model has the highest simple average across 6-month AUROC, PRAUC, and BACC? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "CropMAE",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 53,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23441v1\\table.jpg",
+            "chart": "2512.23441v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which model ranks first in AUROC, PRAUC, and BACC in the 6-month performance comparison? Respond only with the model name.",
+        "question_table": "According to the table, which model ranks first in all three 6-month metrics: AUROC, PRAUC, and BACC? Respond only with the model name.",
+        "question_both": "According to the chart and the table, which model ranks first in all three 6-month metrics: AUROC, PRAUC, and BACC? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "STAMP",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 54,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23441v1\\table.jpg",
+            "chart": "2512.23441v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which model has the lowest values across AUROC, PRAUC, and BACC in the 6-month results? Respond only with the model name.",
+        "question_table": "According to the table, which model has the lowest values across all three 6-month metrics: AUROC, PRAUC, and BACC? Respond only with the model name.",
+        "question_both": "According to the chart and the table, which model has the lowest values across all three 6-month metrics: AUROC, PRAUC, and BACC? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "RSP",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 55,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23441v1\\table.jpg",
+            "chart": "2512.23441v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, compared with the second-best model, in which metric does STAMP show the largest lead in the 6-month results? Respond only with the metric name.",
+        "question_table": "According to the table, compared with the second-best model, in which 6-month metric does STAMP show the largest lead? Respond only with the metric name.",
+        "question_both": "According to the chart and the table, compared with the second-best model, in which 6-month metric does STAMP show the largest lead? Respond only with the metric name.",
+        "question_type": "reasoning",
+        "answer": "PRAUC",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 56,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23441v1\\table.jpg",
+            "chart": "2512.23441v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, among non-STAMP models, which model ranks in the top three for both AUROC and PRAUC in the 6-month results? Respond only with the model name.",
+        "question_table": "According to the table, among non-STAMP models, which model ranks in the top three for both 6-month AUROC and 6-month PRAUC? Respond only with the model name.",
+        "question_both": "According to the chart and the table, among non-STAMP models, which model ranks in the top three for both 6-month AUROC and 6-month PRAUC? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "SiamMAE",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 57,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23453v1\\table.jpg",
+            "chart": "2512.23453v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what are the CHAIRs values of Ours for LLaVA-1.5 and InstructBLIP? Respond only with a list of two numbers in the order [LLaVA-1.5, InstructBLIP].",
+        "question_table": "According to the table, what are the CHAIRs values of Ours for LLaVA-1.5 and InstructBLIP? Respond only with a list of two numbers in the order [LLaVA-1.5, InstructBLIP].",
+        "question_both": "According to the chart and the table, what are the CHAIRs values of Ours for LLaVA-1.5 and InstructBLIP? Respond only with a list of two numbers in the order [LLaVA-1.5, InstructBLIP].",
+        "question_type": "reasoning",
+        "answer": [18.1, 23.2],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 58,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23453v1\\table.jpg",
+            "chart": "2512.23453v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, how much higher is the Recall of Ours than HALC for LLaVA-1.5 and InstructBLIP? Respond only with a list of two numbers in the order [LLaVA-1.5, InstructBLIP].",
+        "question_table": "According to the table, how much higher is the Recall of Ours than HALC for LLaVA-1.5 and InstructBLIP? Respond only with a list of two numbers in the order [LLaVA-1.5, InstructBLIP].",
+        "question_both": "According to the chart and the table, how much higher is the Recall of Ours than HALC for LLaVA-1.5 and InstructBLIP? Respond only with a list of two numbers in the order [LLaVA-1.5,",
+        "question_type": "reasoning",
+        "answer": [0.3, 4.7],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 59,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23453v1\\table.jpg",
+            "chart": "2512.23453v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which method simultaneously has the lowest CHAIRs and the highest Recall across both models? Respond only with the method name.",
+        "question_table": "According to the table, among Regular, HALC, DeFG, and Ours, which method simultaneously has the lowest CHAIRs and the highest Recall across both models? Respond only with the method name.",
+        "question_both": "According to the chart and the table, which method simultaneously has the lowest CHAIRs and the highest Recall across both models? Respond only with the method name.",
+        "question_type": "reasoning",
+        "answer": "Ours",
+        "answer_type": ""
+    },
+
+    {
+        "question_id": 60,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23453v1\\table.jpg",
+            "chart": "2512.23453v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which method shows the largest gap between LLaVA-1.5 and InstructBLIP in CHAIRs? Respond only with the method name.",
+        "question_table": "According to the table, among Regular, HALC, DeFG, and Ours, which method shows the largest gap between LLaVA-1.5 and InstructBLIP in CHAIRs? Respond only with the method name.",
+        "question_both": "According to the chart and the table, which method shows the largest gap between LLaVA-1.5 and InstructBLIP in CHAIRs? Respond only with the method name.",
+        "question_type": "reasoning",
+        "answer": "Regular",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 61,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23489v1\\table.jpg",
+            "chart": "2512.23489v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what are the AUC-PR and AUC-ROC scores of the Ours model? Respond only with a list of two numbers in the order [AUC-PR, AUC-ROC].",
+        "question_table": "According to the table, what are the AUC-PR and AUC-ROC scores of the Ours model? Respond only with a list of two numbers in the order [AUC-PR, AUC-ROC].",
+        "question_both": "According to the chart and the table, what are the AUC-PR and AUC-ROC scores of the Ours model? Respond only with a list of two numbers in the order [AUC-PR, AUC-ROC].",
+        "question_type": "reasoning",
+        "answer": [0.354, 0.591],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 62,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23489v1\\table.jpg",
+            "chart": "2512.23489v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, by how much does the AUC-PR score of Ours exceed that of Random? Respond only with one number.",
+        "question_table": "According to the table, by how much does the AUC-PR score of Ours exceed that of Random? Respond only with one number.",
+        "question_both": "According to the chart and the table, by how much does the AUC-PR score of Ours exceed that of Random? Respond only with one number.",
+        "question_type": "reasoning",
+        "answer": 0.113,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 63,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23489v1\\table.jpg",
+            "chart": "2512.23489v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, by how much does the AUC-ROC score of Ours exceed that of GNN-RAG? Respond only with one number.",
+        "question_table": "According to the table, by how much does the AUC-ROC score of Ours exceed that of GNN-RAG? Respond only with one number.",
+        "question_both": "According to the chart and the table, by how much does the AUC-ROC score of Ours exceed that of GNN-RAG? Respond only with one number.",
+        "question_type": "reasoning",
+        "answer": 0.017,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 64,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23489v1\\table.jpg",
+            "chart": "2512.23489v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which model achieves the highest AUC-PR score? Respond only with the model name.",
+        "question_table": "According to the table, which model achieves the highest AUC-PR score? Respond only with the model name.",
+        "question_both": "According to the chart and the table, which model achieves the highest AUC-PR score? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "Ours",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 65,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23489v1\\table.jpg",
+            "chart": "2512.23489v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, considering the overall bar heights of both AUC-PR and AUC-ROC, which model shows the weakest overall performance? Respond only with the model name.",
+        "question_table": "According to the table, considering both AUC-PR and AUC-ROC scores, which model shows the weakest overall performance? Respond only with the model name.",
+        "question_both": "According to the chart and the table, considering both AUC-PR and AUC-ROC scores, which model shows the weakest overall performance? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "Random",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 66,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23489v1\\table.jpg",
+            "chart": "2512.23489v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which model has the largest gap between AUC-ROC and AUC-PR? Respond only with the model name.",
+        "question_table": "According to the table, which model has the largest gap between AUC-ROC and AUC-PR? Respond only with the model name.",
+        "question_both": "According to the chart and the table, which model has the largest gap between AUC-ROC and AUC-PR? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "BERT Fusion",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 67,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23541v1\\table.jpg",
+            "chart": "2512.23541v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the Easy score of Act2Goal on the Pick Bottles task? Respond only with a number.",
+        "question_table": "According to the table, what is the Easy score of Act2Goal on the Pick Bottles task? Respond only with a number.",
+        "question_both": "According to the chart and the table, what is the Easy score of Act2Goal on the Pick Bottles task? Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 0.80,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 68,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23541v1\\table.jpg",
+            "chart": "2512.23541v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the average Easy score of Act2Goal across the four tasks? Respond only with a number rounded to three decimal places.",
+        "question_table": "According to the table, what is the average Easy score of Act2Goal across the four tasks? Respond only with a number rounded to three decimal places.",
+        "question_both": "According to the chart and the table, what is the average Easy score of Act2Goal across the four tasks? Respond only with a number rounded to three decimal places.",
+        "question_type": "reasoning",
+        "answer": 0.645,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 69,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23541v1\\table.jpg",
+            "chart": "2512.23541v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, in the Hard setting, on which task does Act2Goal have the largest advantage over π0.5-GC? Respond only with the task name.",
+        "question_table": "According to the table, in the Hard setting, on which task does Act2Goal have the largest advantage over π0.5-GC? Respond only with the task name.",
+        "question_both": "According to the chart and the table, in the Hard setting, on which task does Act2Goal have the largest advantage over π0.5-GC? Respond only with the task name.",
+        "question_type": "reasoning",
+        "answer": "Pick Bottles",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 70,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23541v1\\table.jpg",
+            "chart": "2512.23541v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, for Act2Goal, which task shows the largest gap between Easy and Hard scores? Respond only with the task name.",
+        "question_table": "According to the table, for Act2Goal, which task shows the largest gap between Easy and Hard scores? Respond only with the task name.",
+        "question_both": "According to the chart and the table, for Act2Goal, which task shows the largest gap between Easy and Hard scores? Respond only with the task name.",
+        "question_type": "reasoning",
+        "answer": "Place Cup",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 71,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23709v1\\table.jpg",
+            "chart": "2512.23709v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the PSNR value of RVRT among the four visualized methods? Respond only with a number.",
+        "question_table": "According to the table, what is the PSNR value of RVRT among the four visualized methods? Respond only with a number.",
+        "question_both": "According to the chart and the table, what is the PSNR value of RVRT among the four visualized methods? Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 32.701,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 72,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23709v1\\table.jpg",
+            "chart": "2512.23709v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, by how much is RVRT higher than BasicVSR++ in PSNR? Respond only with a number.",
+        "question_table": "According to the table, by how much is RVRT higher than BasicVSR++ in PSNR? Respond only with a number.",
+        "question_both": "According to the chart and the table, by how much is RVRT higher than BasicVSR++ in PSNR? Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 0.315,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 73,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23709v1\\table.jpg",
+            "chart": "2512.23709v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which method has both the highest PSNR and the lowest tOF among the four visualized methods? Respond only with the method name.",
+        "question_table": "According to the table, which method has both the highest PSNR and the lowest tOF among the four visualized methods? Respond only with the method name.",
+        "question_both": "According to the chart and the table, which method has both the highest PSNR and the lowest tOF among the four visualized methods? Respond only with the method name.",
+        "question_type": "reasoning",
+        "answer": "RVRT",
+        "answer_type":"text"
+    },
+
+    {
+        "question_id": 74,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23709v1\\table.jpg",
+            "chart": "2512.23709v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which method performs best on LPIPS but worst on both PSNR and tOF among the four visualized methods? Respond only with the method name.",
+        "question_table": "According to the table, which method performs best on LPIPS but worst on both PSNR and tOF among the four visualized methods? Respond only with the method name.",
+        "question_both": "According to the chart and the table, which method performs best on LPIPS but worst on both PSNR and tOF among the four visualized methods? Respond only with the method name.",
+        "question_type": "reasoning",
+        "answer": "Ours",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 75,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23906v1\\table.jpg",
+            "chart": "2512.23906v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the Acc@50% value of Linear + seasonal harmonic? Respond only with a number.",
+        "question_table": "According to the table, what is the Acc@50% value of Linear + seasonal harmonic? Respond only with a number.",
+        "question_both": "According to the chart and the table, what is the Acc@50% value of Linear + seasonal harmonic? Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 70.26,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 76,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23906v1\\table.jpg",
+            "chart": "2512.23906v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, how much higher is Linear + seasonal harmonic than CNN-LSTM on Acc@20%? Respond only with a number.",
+        "question_table": "According to the table, how much higher is Linear + seasonal harmonic than CNN-LSTM on Acc@20%? Respond only with a number.",
+        "question_both": "According to the chart and the table, how much higher is Linear + seasonal harmonic than CNN-LSTM on Acc@20%? Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 24.28,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 77,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23906v1\\table.jpg",
+            "chart": "2512.23906v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, by how much does CNN-LSTM+Attn improve from Acc@10% to Acc@50%? Respond only with a number.",
+        "question_table": "According to the table, by how much does CNN-LSTM+Attn improve from Acc@10% to Acc@50%? Respond only with a number.",
+        "question_both": "According to the chart and the table, by how much does CNN-LSTM+Attn improve from Acc@10% to Acc@50%? Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 39.38,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 78,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23906v1\\table.jpg",
+            "chart": "2512.23906v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the average accuracy of STGCN across Acc@10%, Acc@20%, and Acc@50%? Respond only with a number rounded to two decimal places.",
+        "question_table": "According to the table, what is the average accuracy of STGCN across Acc@10%, Acc@20%, and Acc@50%? Respond only with a number rounded to two decimal places.",
+        "question_both": "According to the chart and the table, what is the average accuracy of STGCN across Acc@10%, Acc@20%, and Acc@50%? Respond only with a number rounded to two decimal places.",
+        "question_type": "reasoning",
+        "answer": 42.34,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 79,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23906v1\\table.jpg",
+            "chart": "2512.23906v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which model has the lowest Acc@10% value? Respond only with the model name.",
+        "question_table": "According to the table, which model has the lowest Acc@10% value? Respond only with the model name.",
+        "question_both": "According to the chart and the table, which model has the lowest Acc@10% value? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "CNN-LSTM",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 80,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.23906v1\\table.jpg",
+            "chart": "2512.23906v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which model has the largest gap between Acc@10% and Acc@50%? Respond only with a list in the format [model, difference].",
+        "question_table": "According to the table, which model has the largest gap between Acc@10% and Acc@50%? Respond only with a list in the format [model, difference].",
+        "question_both": "According to the chart and the table, which model has the largest gap between Acc@10% and Acc@50%? Respond only with a list in the format [model, difference].",
+        "question_type": "reasoning",
+        "answer": "[Transformer (ours), 43.08]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 81,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.24013v1\\table.jpg",
+            "chart": "2512.24013v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the ACC(%) of Hilbert-VLM(Ours)? Respond only with a number.",
+        "question_table": "According to the table, what is the ACC(%) of Hilbert-VLM(Ours)? Respond only with a number.",
+        "question_both": "According to the chart and the table, what is the ACC(%) of Hilbert-VLM(Ours)? Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 78.85,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 82,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.24013v1\\table.jpg",
+            "chart": "2512.24013v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, how many percentage points higher is the Prec(%) of Hilbert-VLM(Ours) than that of Qwen 2.5-VL? Respond only with a number.",
+        "question_table": "According to the table, how many percentage points higher is the Prec(%) of Hilbert-VLM(Ours) than that of Qwen 2.5-VL? Respond only with a number.",
+        "question_both": "According to the chart and the table, how many percentage points higher is the Prec(%) of Hilbert-VLM(Ours) than that of Qwen 2.5-VL? Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 5.09,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 83,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.24013v1\\table.jpg",
+            "chart": "2512.24013v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, for MiniGPT-4o, what is the difference between the highest and lowest values among ACC(%), Recall(%), and Prec(%)? Respond only with a number.",
+        "question_table": "According to the table, for MiniGPT-4o, what is the difference between the highest and lowest values among ACC(%), Recall(%), and Prec(%)? Respond only with a number.",
+        "question_both": "According to the chart and the table, for MiniGPT-4o, what is the difference between the highest and lowest values among ACC(%), Recall(%), and Prec(%)? Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 19,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 84,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.24013v1\\table.jpg",
+            "chart": "2512.24013v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which model has the highest average value across ACC(%), Recall(%), and Prec(%)? Respond only with the model name.",
+        "question_table": "According to the table, which model has the highest average value across ACC(%), Recall(%), and Prec(%)? Respond only with the model name.",
+        "question_both": "According to the chart and the table, which model has the highest average value across ACC(%), Recall(%), and Prec(%)? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "Hilbert-VLM(Ours)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 85,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.24013v1\\table.jpg",
+            "chart": "2512.24013v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which model has the highest Recall(%)? Respond only with the model name.",
+        "question_table": "According to the table, which model has the highest Recall(%)? Respond only with the model name.",
+        "question_both": "According to the chart and the table, which model has the highest Recall(%)? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "MiniGPT-4o",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 86,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.24013v1\\table.jpg",
+            "chart": "2512.24013v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which model has the lowest ACC(%)? Respond only with the model name.",
+        "question_table": "According to the table, which model has the lowest ACC(%)? Respond only with the model name.",
+        "question_both": "According to the chart and the table, which model has the lowest ACC(%)? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "R2Gen",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 87,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.24013v1\\table.jpg",
+            "chart": "2512.24013v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which model has Recall(%) higher than both its own ACC(%) and Prec(%)? Respond only with the model name.",
+        "question_table": "According to the table, which model has Recall(%) higher than both its own ACC(%) and Prec(%)? Respond only with the model name.",
+        "question_both": "According to the chart and the table, which model has Recall(%) higher than both its own ACC(%) and Prec(%)? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "MiniGPT-4o",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 88,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.24013v1\\table.jpg",
+            "chart": "2512.24013v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which model has the largest internal gap among ACC(%), Recall(%), and Prec(%)? Respond only with the model name.",
+        "question_table": "According to the table, which model has the largest internal gap among ACC(%), Recall(%), and Prec(%)? Respond only with the model name.",
+        "question_both": "According to the chart and the table, which model has the largest internal gap among ACC(%), Recall(%), and Prec(%)? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "MiniGPT-4o",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 89,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.24058v1\\table.jpg",
+            "chart": "2512.24058v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the Avg. ECE of Mistral-8x22B? Respond only with a number.",
+        "question_table": "According to the table, what is the Avg. ECE of Mistral-8x22B? Respond only with a number.",
+        "question_both": "According to the chart and the table, what is the Avg. ECE of Mistral-8x22B? Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 0.031,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 90,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.24058v1\\table.jpg",
+            "chart": "2512.24058v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the difference in Avg. NLL between Falcon-7B and Mistral-8x22B? Respond only with a number.",
+        "question_table": "According to the table, what is the difference in Avg. NLL between Falcon-7B and Mistral-8x22B? Respond only with a number.",
+        "question_both": "According to the chart and the table, what is the difference in Avg. NLL between Falcon-7B and Mistral-8x22B? Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 0.234,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 91,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.24058v1\\table.jpg",
+            "chart": "2512.24058v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which model has the highest value on all three metrics? Respond only with the model name.",
+        "question_table": "According to the table, which model has the highest value on all three metrics? Respond only with the model name.",
+        "question_both": "According to the chart and the table, which model has the highest value on all three metrics? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "Falcon-7B",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 92,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.24058v1\\table.jpg",
+            "chart": "2512.24058v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, when moving from left to right, which model shows a decrease in Avg. NLL compared with the previous model? Respond only with the model name.",
+        "question_table": "According to the table, when moving from left to right, which model shows a decrease in Avg. NLL compared with the previous model? Respond only with the model name.",
+        "question_both": "According to the chart and the table, when moving from left to right, which model shows a decrease in Avg. NLL compared with the previous model? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "MiniMax-Text-01",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 93,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.24284v1\\table.jpg",
+            "chart": "2512.24284v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the value of DRL-TH (Ours) at normalized pedestrian density = 0.5? Respond only with a number.",
+        "question_table": "According to the table, what is the value of DRL-TH (Ours) at normalized pedestrian density = 0.5? Respond only with a number.",
+        "question_both": "According to the chart and the table, what is the value of DRL-TH (Ours) at normalized pedestrian density = 0.5? Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 19.1,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 94,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.24284v1\\table.jpg",
+            "chart": "2512.24284v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, how much does the value of MMRL [13] increase from density = 0 to density = 0.5? Respond only with a number.",
+        "question_table": "According to the table, how much does the value of MMRL [13] increase from density = 0 to density = 0.5? Respond only with a number.",
+        "question_both": "According to the chart and the table, how much does the value of MMRL [13] increase from density = 0 to density = 0.5? Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 4.2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 95,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.24284v1\\table.jpg",
+            "chart": "2512.24284v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the average difference between ALVO [20] and DRL-TH (Ours) across all density levels? Round to two decimal places. Respond only with a number.",
+        "question_table": "According to the table, what is the average difference between ALVO [20] and DRL-TH (Ours) across all density levels? Round to two decimal places. Respond only with a number.",
+        "question_both": "According to the chart and the table, what is the average difference between ALVO [20] and DRL-TH (Ours) across all density levels? Round to two decimal places. Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 0.65,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 96,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.24284v1\\table.jpg",
+            "chart": "2512.24284v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which method consistently has the lowest value across all density levels? Respond only with the method name.",
+        "question_table": "According to the table, which method consistently has the lowest value across all density levels? Respond only with the method name.",
+        "question_both": "According to the chart and the table, which method consistently has the lowest value across all density levels? Respond only with the method name.",
+        "question_type": "reasoning",
+        "answer": "DRL-TH (Ours)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 97,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.24284v1\\table.jpg",
+            "chart": "2512.24284v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which method shows the largest total increase from density = 0 to density = 0.5? Respond only with the method name.",
+        "question_table": "According to the table, which method shows the largest total increase from density = 0 to density = 0.5? Respond only with the method name.",
+        "question_both": "According to the chart and the table, which method shows the largest total increase from density = 0 to density = 0.5? Respond only with the method name.",
+        "question_type": "reasoning",
+        "answer": "RGL [16]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 98,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.24284v1\\table.jpg",
+            "chart": "2512.24284v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which method has the smallest total increase from density = 0 to density = 0.5, indicating the flattest trend? Respond only with the method name.",
+        "question_table": "According to the table, which method has the smallest total increase from density = 0 to density = 0.5, indicating the flattest trend? Respond only with the method name.",
+        "question_both": "According to the chart and the table, which method has the smallest total increase from density = 0 to density = 0.5, indicating the flattest trend? Respond only with the method name.",
+        "question_type": "reasoning",
+        "answer": "DRL-TH (Ours)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 99,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.24551v1\\table.jpg",
+            "chart": "2512.24551v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, how much higher is PhyGDPO (Ours) than Open-Sora on Mechanics? Respond only with a number.",
+        "question_table": "According to the table, how much higher is PhyGDPO (Ours) than Open-Sora on Mechanics? Respond only with a number.",
+        "question_both": "According to the chart and the table, how much higher is PhyGDPO (Ours) than Open-Sora on Mechanics? Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 0.12,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 100,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.24551v1\\table.jpg",
+            "chart": "2512.24551v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, in which category does PhyGDPO (Ours) improve the most over Open-Sora? Respond only with the category name.",
+        "question_table": "According to the table, in which category does PhyGDPO (Ours) improve the most over Open-Sora? Respond only with the category name.",
+        "question_both": "According to the chart and the table, in which category does PhyGDPO (Ours) improve the most over Open-Sora? Respond only with the category name.",
+        "question_type": "reasoning",
+        "answer": "Thermal",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 101,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.24551v1\\table.jpg",
+            "chart": "2512.24551v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, in which category does PhyT2V achieve its highest score? Respond only with the category name.",
+        "question_table": "According to the table, in which category does PhyT2V achieve its highest score? Respond only with the category name.",
+        "question_both": "According to the chart and the table, in which category does PhyT2V achieve its highest score? Respond only with the category name.",
+        "question_type": "reasoning",
+        "answer": "Optics",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 102,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.24551v1\\table.jpg",
+            "chart": "2512.24551v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which method-category combination has the lowest score among all shown bars? Respond only with a list.",
+        "question_table": "According to the table, which method-category combination has the lowest score among the four selected methods and four categories? Respond only with a list.",
+        "question_both": "According to the chart and the table, which method-category combination has the lowest score among the four selected methods and four categories? Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": "[Open-Sora, Material]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 103,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.24551v1\\table.jpg",
+            "chart": "2512.24551v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which method has the largest score range across the four categories? Respond only with the method name.",
+        "question_table": "According to the table, which method has the largest score range across the four categories? Respond only with the method name.",
+        "question_both": "According to the chart and the table, which method has the largest score range across the four categories? Respond only with the method name.",
+        "question_type": "reasoning",
+        "answer": "[Open-Sora, VideoDPO, PhyGDPO (Ours)]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 104,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.24551v1\\table.jpg",
+            "chart": "2512.24551v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which category shows the largest spread among the four methods? Respond only with the category name.",
+        "question_table": "According to the table, which category shows the largest spread among the four selected methods? Respond only with the category name.",
+        "question_both": "According to the chart and the table, which category shows the largest spread among the four selected methods? Respond only with the category name.",
+        "question_type": "reasoning",
+        "answer": "Material",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 105,
+        "items": ["table", "chart"],
+        "path": {
+            "table": "2508.09040v1\\table.jpg",
+            "chart": "2508.09040v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the RMSE of Tn when rho = 0.7 and n = 300? Respond only with a number.",
+        "question_table": "According to the table, what is the RMSE of Tn when rho = 0.7 and n = 300? Respond only with a number.",
+        "question_both": "According to the chart and the table, what is the RMSE of Tn when rho = 0.7 and n = 300? Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 0.0826,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 106,
+        "items": ["table", "chart"],
+        "path": {
+            "table": "2508.09040v1\\table.jpg",
+            "chart": "2508.09040v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, by how much is the RMSE of Tn higher than that of Tn-bc when rho = 0.9 and n = 300? Respond only with a number.",
+        "question_table": "According to the table, by how much is the RMSE of Tn higher than that of Tn-bc when rho = 0.9 and n = 300? Respond only with a number.",
+        "question_both": "According to the chart and the table, by how much is the RMSE of Tn higher than that of Tn-bc when rho = 0.9 and n = 300? Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 0.0596,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 107,
+        "items": ["table", "chart"],
+        "path": {
+            "table": "2508.09040v1\\table.jpg",
+            "chart": "2508.09040v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, when n = 300, at which rho does Tn-bc reach its lowest RMSE? Respond only with a number.",
+        "question_table": "According to the table, when n = 300, at which rho does Tn-bc reach its lowest RMSE? Respond only with a number.",
+        "question_both": "According to the chart and the table, when n = 300, at which rho does Tn-bc reach its lowest RMSE? Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 0.9,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 108,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2509.17225v1\\table.jpg",
+            "chart": "2509.17225v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the average of the off-diagonal values in the LCB row? Respond only with a number rounded to 4 decimal places.",
+        "question_table": "According to the table, what is the average of the off-diagonal values in the LCB row? Respond only with a number rounded to 4 decimal places.",
+        "question_both": "According to the chart and the table, what is the average of the off-diagonal values in the LCB row? Respond only with a number rounded to 4 decimal places.",
+        "question_type": "reasoning",
+        "answer": 0.7376,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 109,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2509.17225v1\\table.jpg",
+            "chart": "2509.17225v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, how many off-diagonal cells have values greater than or equal to 0.7? Respond only with a number.",
+        "question_table": "According to the table, how many off-diagonal cells have values greater than or equal to 0.7? Respond only with a number.",
+        "question_both": "According to the chart and the table, how many off-diagonal cells have values greater than or equal to 0.7? Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 7,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 110,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2509.17225v1\\table.jpg",
+            "chart": "2509.17225v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which row has the warmest overall off-diagonal pattern? Respond only with the row name.",
+        "question_table": "According to the table, which row has the highest average off-diagonal value? Respond only with the row name.",
+        "question_both": "According to the chart and the table, which row has the highest overall off-diagonal level? Respond only with the row name.",
+        "question_type": "reasoning",
+        "answer": "LCB",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 111,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2509.17225v1\\table.jpg",
+            "chart": "2509.17225v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which column has the coolest overall off-diagonal pattern? Respond only with the column name.",
+        "question_table": "According to the table, which column has the lowest average off-diagonal value? Respond only with the column name.",
+        "question_both": "According to the chart and the table, which column has the lowest overall off-diagonal level? Respond only with the column name.",
+        "question_type": "reasoning",
+        "answer": "LCC",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 112,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2509.17225v1\\table.jpg",
+            "chart": "2509.17225v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which row shows the strongest contrast between warm and cool off-diagonal cells? Respond only with the row name.",
+        "question_table": "According to the table, which row has the largest spread among its off-diagonal values? Respond only with the row name.",
+        "question_both": "According to the chart and the table, which row shows the largest off-diagonal variation? Respond only with the row name.",
+        "question_type": "reasoning",
+        "answer": "SCS",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 113,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2509.17225v1\\table.jpg",
+            "chart": "2509.17225v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which row contains the most warm off-diagonal cells above 0.6? Respond only with the row name.",
+        "question_table": "According to the table, which row has the largest number of off-diagonal values above 0.6? Respond only with the row name.",
+        "question_both": "According to the chart and the table, which row has the most off-diagonal values above 0.6? Respond only with the row name.",
+        "question_type": "reasoning",
+        "answer": "LCB",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 114,
+        "items": ["table", "chart"],
+        "path": {
+            "table": "2509.18857v1\\table.jpg",
+            "chart": "2509.18857v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the difference in root MSE between rdrobust and rdbinary when N = 50? Respond only with one number.",
+        "question_table": "According to the table, what is the difference in root MSE between rdrobust and rdbinary when N = 50? Respond only with one number.",
+        "question_both": "According to the chart and the table, what is the difference in root MSE between rdrobust and rdbinary when N = 50? Respond only with one number.",
+        "question_type": "reasoning",
+        "answer": 0.314,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 115,
+        "items": ["table", "chart"],
+        "path": {
+            "table": "2509.18857v1\\table.jpg",
+            "chart": "2509.18857v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, by how much does the root MSE of gauss decrease from N = 50 to N = 500? Respond only with one number.",
+        "question_table": "According to the table, by how much does the root MSE of gauss decrease from N = 50 to N = 500? Respond only with one number.",
+        "question_both": "According to the chart and the table, by how much does the root MSE of gauss decrease from N = 50 to N = 500? Respond only with one number.",
+        "question_type": "reasoning",
+        "answer": 0.153,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 116,
+        "items": ["table", "chart"],
+        "path": {
+            "table": "2509.18857v1\\table.jpg",
+            "chart": "2509.18857v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the root MSE of rd.mnl when N = 100? Respond only with one number.",
+        "question_table": "According to the table, what is the root MSE of rd.mnl when N = 100? Respond only with one number.",
+        "question_both": "According to the chart and the table, what is the root MSE of rd.mnl when N = 100? Respond only with one number.",
+        "question_type": "reasoning",
+        "answer": 0.284,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 117,
+        "items": ["table", "chart"],
+        "path": {
+            "table": "2509.18857v1\\table.jpg",
+            "chart": "2509.18857v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which method has the lowest root MSE when N = 50? Respond only with the method name.",
+        "question_table": "According to the table, which method has the lowest root MSE when N = 50? Respond only with the method name.",
+        "question_both": "According to the chart and the table, which method has the lowest root MSE when N = 50? Respond only with the method name.",
+        "question_type": "reasoning",
+        "answer": "rdbinary",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 118,
+        "items": ["table", "chart"],
+        "path": {
+            "table": "2509.18857v1\\table.jpg",
+            "chart": "2509.18857v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what common trend do the root MSE values of all four methods show as N increases from 50 to 500? Respond only with one phrase.",
+        "question_table": "According to the table, what common trend do the root MSE values of all four methods show as N increases from 50 to 500? Respond only with one phrase.",
+        "question_both": "According to the chart and the table, what common trend do the root MSE values of all four methods show as N increases from 50 to 500? Respond only with one phrase.",
+        "question_type": "reasoning",
+        "answer": "decreasing",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 119,
+        "items": ["table", "chart"],
+        "path": {
+            "table": "2509.18857v1\\table.jpg",
+            "chart": "2509.18857v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which method shows the largest decrease in root MSE from N = 50 to N = 500? Respond only with the method name.",
+        "question_table": "According to the table, which method shows the largest decrease in root MSE from N = 50 to N = 500? Respond only with the method name.",
+        "question_both": "According to the chart and the table, which method shows the largest decrease in root MSE from N = 50 to N = 500? Respond only with the method name.",
+        "question_type": "reasoning",
+        "answer": "rdrobust",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 120,
+        "items": ["table", "chart"],
+        "path": {
+            "table": "2509.18857v1\\table.jpg",
+            "chart": "2509.18857v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which method consistently has the highest root MSE across all three N values? Respond only with the method name.",
+        "question_table": "According to the table, which method consistently has the highest root MSE across all three N values? Respond only with the method name.",
+        "question_both": "According to the chart and the table, which method consistently has the highest root MSE across all three N values? Respond only with the method name.",
+        "question_type": "reasoning",
+        "answer": "rdrobust",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 121,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2511.22834v1\\table.jpg",
+            "chart": "2511.22834v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the difference between the highest and lowest Choice Accuracy of SD-LEX across LEX, SEP, and COMP? Respond only with one number.",
+        "question_table": "According to the table, what is the difference between the highest and lowest Choice Accuracy of SD-LEX across LEX, SEP, and COMP? Respond only with one number.",
+        "question_both": "According to the chart and the table, what is the difference between the highest and lowest Choice Accuracy of SD-LEX across LEX, SEP, and COMP? Respond only with one number.",
+        "question_type": "reasoning",
+        "answer": 27.62,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 122,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2511.22834v1\\table.jpg",
+            "chart": "2511.22834v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, in the COMP category, how many percentage points higher is SD-CHOICE than ACCURACY? Respond only with one number.",
+        "question_table": "According to the table, in the COMP category, how many percentage points higher is SD-CHOICE than ACCURACY? Respond only with one number.",
+        "question_both": "According to the chart and the table, in the COMP category, how many percentage points higher is SD-CHOICE than ACCURACY? Respond only with one number.",
+        "question_type": "reasoning",
+        "answer": 5.08,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 123,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2511.22834v1\\table.jpg",
+            "chart": "2511.22834v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which treatments show a continuous decrease in Choice Accuracy from LEX to SEP to COMP? Respond only with a list of treatment names.",
+        "question_table": "According to the table, which treatments show a continuous decrease in Choice Accuracy from LEX to SEP to COMP? Respond only with a list of treatment names.",
+        "question_both": "According to the chart and the table, which treatments show a continuous decrease in Choice Accuracy from LEX to SEP to COMP? Respond only with a list of treatment names.",
+        "question_type": "reasoning",
+        "answer": "[SD-WEIGHT, SD-LEX, SD-CHOICE]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 124,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2511.22834v1\\table.jpg",
+            "chart": "2511.22834v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which treatment has the lowest Choice Accuracy in each category: LEX, SEP, and COMP? Respond only with a list of treatment names in the order [LEX, SEP, COMP].",
+        "question_table": "According to the table, which treatment has the lowest Choice Accuracy in each category: LEX, SEP, and COMP? Respond only with a list of treatment names in the order [LEX, SEP, COMP].",
+        "question_both": "According to the chart and the table, which treatment has the lowest Choice Accuracy in each category: LEX, SEP, and COMP? Respond only with a list of treatment names in the order [LEX, SEP, COMP].",
+        "question_type": "reasoning",
+        "answer": "[SD-WEIGHT, SD-LEX, SD-LEX]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 125,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2511.22834v1\\table.jpg",
+            "chart": "2511.22834v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, among LEX, SEP, and COMP, which category has the highest average Choice Accuracy across all five treatments? Respond only with the category name.",
+        "question_table": "According to the table, among LEX, SEP, and COMP, which category has the highest average Choice Accuracy across all five treatments? Respond only with the category name.",
+        "question_both": "According to the chart and the table, among LEX, SEP, and COMP, which category has the highest average Choice Accuracy across all five treatments? Respond only with the category name.",
+        "question_type": "reasoning",
+        "answer": "LEX",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 126,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2511.22834v1\\table.jpg",
+            "chart": "2511.22834v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, among LEX, SEP, and COMP, which category has the largest gap between the highest and lowest Choice Accuracy? Respond only with the category name.",
+        "question_table": "According to the table, among LEX, SEP, and COMP, which category has the largest gap between the highest and lowest Choice Accuracy? Respond only with the category name.",
+        "question_both": "According to the chart and the table, among LEX, SEP, and COMP, which category has the largest gap between the highest and lowest Choice Accuracy? Respond only with the category name.",
+        "question_type": "reasoning",
+        "answer": "SEP",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 127,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2510.15227v1\\table.jpg",
+            "chart": "2510.15227v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, how much higher is SID ACC than SED ACC at BEST-RQ Layer 10? Respond only with one number.",
+        "question_table": "According to the table, how much higher is SID ACC than SED ACC at BEST-RQ Layer 10? Respond only with one number.",
+        "question_both": "According to the chart and the table, how much higher is SID ACC than SED ACC at BEST-RQ Layer 10? Respond only with one number.", 
+        "question_type": "reasoning",
+        "answer": 0.149,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 128,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2510.15227v1\\table.jpg",
+            "chart": "2510.15227v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the difference between the maximum and minimum SID ACC values across all BEST-RQ layers? Respond only with one number.",
+        "question_table": "According to the table, what is the difference between the maximum and minimum SID ACC values across all BEST-RQ layers? Respond only with one number.",
+        "question_both": "According to the chart and the table, what is the difference between the maximum and minimum SID ACC values across all BEST-RQ layers? Respond only with one number.", 
+        "question_type": "reasoning",
+        "answer": 0.679,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 129,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2510.15227v1\\table.jpg",
+            "chart": "2510.15227v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which ACC metric shows the clearest continuous downward trend after Layer 6? Respond only with the metric name.",
+        "question_table": "According to the table, which ACC metric shows the clearest continuous downward trend after Layer 6? Respond only with the metric name.",
+        "question_both": "According to the chart and the table, which ACC metric shows the clearest continuous downward trend after Layer 6? Respond only with the metric name.", 
+        "question_type": "reasoning",
+        "answer": "SID ACC",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 130,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2510.15227v1\\table.jpg",
+            "chart": "2510.15227v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which ACC metric has the smallest variation across all layers? Respond only with the metric name.",
+        "question_table": "According to the table, which ACC metric has the smallest variation across all layers? Respond only with the metric name.",
+        "question_both": "According to the chart and the table, which ACC metric has the smallest variation across all layers? Respond only with the metric name.", 
+        "question_type": "reasoning",
+        "answer": "SED ACC",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 131,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2510.15227v1\\table.jpg",
+            "chart": "2510.15227v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which ACC metric remains the highest from Layer 14 to Layer 26-last? Respond only with the metric name.",
+        "question_table": "According to the table, which ACC metric remains the highest from Layer 14 to Layer 26-last? Respond only with the metric name.",
+        "question_both": "According to the chart and the table, which ACC metric remains the highest from Layer 14 to Layer 26-last? Respond only with the metric name.", 
+        "question_type": "reasoning",
+        "answer": "ER ACC",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 132,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2510.18530v1\\table.jpg",
+            "chart": "2510.18530v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the value of Proposed when SNR = 10? Respond only with one number.",
+        "question_table": "According to the table, what is the value of Proposed when SNR = 10? Respond only with one number.",
+        "question_both": "According to the chart and the table, what is the value of Proposed when SNR = 10? Respond only with one number.",
+        "question_type": "reasoning",
+        "answer": 2.98,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 133,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2510.18530v1\\table.jpg",
+            "chart": "2510.18530v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, how much higher is Baseline than Proposed when SNR = 0? Respond only with one number.",
+        "question_table": "According to the table, how much higher is Baseline than Proposed when SNR = 0? Respond only with one number.",
+        "question_both": "According to the chart and the table, how much higher is Baseline than Proposed when SNR = 0? Respond only with one number.",
+        "question_type": "reasoning",
+        "answer": 3.32,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 134,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2510.18530v1\\table.jpg",
+            "chart": "2510.18530v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, how much does Baseline decrease from SNR = 0 to SNR = 20? Respond only with one number.",
+        "question_table": "According to the table, how much does Baseline decrease from SNR = 0 to SNR = 20? Respond only with one number.",
+        "question_both": "According to the chart and the table, how much does Baseline decrease from SNR = 0 to SNR = 20? Respond only with one number.",
+        "question_type": "reasoning",
+        "answer": 7.81,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 135,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2510.18530v1\\table.jpg",
+            "chart": "2510.18530v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which model has the lowest average value across all SNR levels? Respond only with the model name.",
+        "question_table": "According to the table, which model has the lowest average value? Respond only with the model name.",
+        "question_both": "According to the chart and the table, which model has the lowest average value across all SNR levels? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "Proposed",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 136,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2511.10245v1\\table.jpg",
+            "chart": "2511.10245v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what are the scores of LSB, DFT, and Hybrid at QF=50? Respond only with a list of numbers.",
+        "question_table": "According to the table, what are the scores of LSB, DFT, and Hybrid at QF=50? Respond only with a list of numbers.",
+        "question_both": "According to the chart and the table, what are the scores of LSB, DFT, and Hybrid at QF=50? Respond only with a list of numbers.",
+        "question_type": "reasoning",
+        "answer": [0.11, 0.91, 0.97],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 137,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2511.10245v1\\table.jpg",
+            "chart": "2511.10245v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, how much does the LSB score decrease from QF=90 to QF=20? Respond only with a number.",
+        "question_table": "According to the table, how much does the LSB score decrease from QF=90 to QF=20? Respond only with a number.",
+        "question_both": "According to the chart and the table, how much does the LSB score decrease from QF=90 to QF=20? Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 0.81,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 138,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2511.10245v1\\table.jpg",
+            "chart": "2511.10245v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, at which QF setting is the score gap between Hybrid and LSB the largest? Respond only with the QF label.",
+        "question_table": "According to the table, at which QF setting is the score gap between Hybrid and LSB the largest? Respond only with the QF label.",
+        "question_both": "According to the chart and the table, at which QF setting is the score gap between Hybrid and LSB the largest? Respond only with the QF label.",
+        "question_type": "reasoning",
+        "answer": "QF=30",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 139,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2511.10245v1\\table.jpg",
+            "chart": "2511.10245v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which method shows the most obvious overall score decline from QF=90 to QF=20? Respond only with the method name.",
+        "question_table": "According to the table, which method shows the most obvious overall score decline from QF=90 to QF=20? Respond only with the method name.",
+        "question_both": "According to the chart and the table, which method shows the most obvious overall score decline from QF=90 to QF=20? Respond only with the method name.",
+        "question_type": "reasoning",
+        "answer": "LSB",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 140,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2511.10245v1\\table.jpg",
+            "chart": "2511.10245v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which method consistently has the highest or tied-highest score as QF decreases? Respond only with the method name.",
+        "question_table": "According to the table, which method consistently has the highest or tied-highest score as QF decreases? Respond only with the method name.",
+        "question_both": "According to the chart and the table, which method consistently has the highest or tied-highest score as QF decreases? Respond only with the method name.",
+        "question_type": "reasoning",
+        "answer": "Hybrid",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 141,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2511.10245v1\\table.jpg",
+            "chart": "2511.10245v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which method has scores below 0.05 at both QF=30 and QF=20? Respond only with the method name.",
+        "question_table": "According to the table, which method has scores below 0.05 at both QF=30 and QF=20? Respond only with the method name.",
+        "question_both": "According to the chart and the table, which method has scores below 0.05 at both QF=30 and QF=20? Respond only with the method name.",
+        "question_type": "reasoning",
+        "answer": "LSB",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 142,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.01537v1\\table.jpg",
+            "chart": "2512.01537v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the AM score of Q2D2? Respond only with a number.",
+        "question_table": "According to the table, what is the AM score of Q2D2? Respond only with a number.",
+        "question_both": "According to the chart and the table, what is the AM score of Q2D2? Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 0.709,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 143,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.01537v1\\table.jpg",
+            "chart": "2512.01537v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the difference between the highest and lowest scores of WavTokenizer across the four metrics? Respond only with a number.",
+        "question_table": "According to the table, what is the difference between the highest and lowest scores of WavTokenizer across the four metrics? Respond only with a number.",
+        "question_both": "According to the chart and the table, what is the difference between the highest and lowest scores of WavTokenizer across the four metrics? Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 0.6155,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 144,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.01537v1\\table.jpg",
+            "chart": "2512.01537v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which model has the smallest score range across the four metrics? Respond only with the model name.",
+        "question_table": "According to the table, which model has the smallest score range across the four metrics? Respond only with the model name.",
+        "question_both": "According to the chart and the table, which model has the smallest score range across the four metrics? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "Encodec",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 145,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.01537v1\\table.jpg",
+            "chart": "2512.01537v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which metric shows the largest score gap among the four models? Respond only with the metric name.",
+        "question_table": "According to the table, which metric shows the largest score gap among the four selected models? Respond only with the metric name.",
+        "question_both": "According to the chart and the table, which metric shows the largest score gap among the four selected models? Respond only with the metric name.",
+        "question_type": "reasoning",
+        "answer": "AM",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 146,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.01537v1\\table.jpg",
+            "chart": "2512.01537v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which model has the highest average score across the four metrics? Respond only with the model name.",
+        "question_table": "According to the table, which model has the highest average score across the four metrics? Respond only with the model name.",
+        "question_both": "According to the chart and the table, which model has the highest average score across the four metrics? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "Q2D2",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 147,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.01537v1\\table.jpg",
+            "chart": "2512.01537v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, on which metric do all four models have their lowest scores? Respond only with the metric name.",
+        "question_table": "According to the table, on which metric do all four selected models have their lowest scores? Respond only with the metric name.",
+        "question_both": "According to the chart and the table, on which metric do all four selected models have their lowest scores? Respond only with the metric name.",
+        "question_type": "reasoning",
+        "answer": "SLURP",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 148,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.05996v1\\table.jpg",
+            "chart": "2512.05996v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which method has the highest Foreground score among the four shown methods? Respond only with the method name.",
+        "question_table": "According to the table, which method has the highest Foreground score among the four shown methods? Respond only with the method name.",
+        "question_both": "According to the chart and the table, which method has the highest Foreground score among the four shown methods? Respond only with the method name.",
+        "question_type": "reasoning",
+        "answer": "FishDetector-R1 3B",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 149,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.05996v1\\table.jpg",
+            "chart": "2512.05996v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which method has the highest Background score among the four shown methods? Respond only with the method name.",
+        "question_table": "According to the table, which method has the highest Background score among the four shown methods? Respond only with the method name.",
+        "question_both": "According to the chart and the table, which method has the highest Background score among the four shown methods? Respond only with the method name.",
+        "question_type": "reasoning",
+        "answer": "FishDetector-R1 3B",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 150,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.05996v1\\table.jpg",
+            "chart": "2512.05996v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which metric varies the least across the four shown methods? Respond only with the metric name.",
+        "question_table": "According to the table, which metric varies the least across the four shown methods? Respond only with the metric name.",
+        "question_both": "According to the chart and the table, which metric varies the least across the four shown methods? Respond only with the metric name.",
+        "question_type": "reasoning",
+        "answer": "Background",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 151,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.05996v1\\table.jpg",
+            "chart": "2512.05996v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which shown method has Foreground below 50 and also the lowest mIoU? Respond only with the method name.",
+        "question_table": "According to the table, which shown method has Foreground below 50 and also the lowest mIoU? Respond only with the method name",
+        "question_both": "According to the chart and the table, which shown method has Foreground below 50 and also the lowest mIoU? Respond only with the method name.",
+        "question_type": "reasoning",
+        "answer": "FishDetector-Base 7B",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 152,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.05996v1\\table.jpg",
+            "chart": "2512.05996v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, how much higher is the mIoU of FishDetector-R1 3B than that of LangSAM? Respond only with one number rounded to two decimals.",
+        "question_table": "According to the table, how much higher is the mIoU of FishDetector-R1 3B than that of LangSAM? Respond only with one number rounded to two decimals.",
+        "question_both": "According to the chart and the table, how much higher is the mIoU of FishDetector-R1 3B than that of LangSAM? Respond only with one number rounded to two decimals.",
+        "question_type": "reasoning",
+        "answer": 2.57,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 153,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.05996v1\\table.jpg",
+            "chart": "2512.05996v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, how much higher is the Background score than the Foreground score for FishDetector-R1 7B? Respond only with one number rounded to two decimals.",
+        "question_table": "According to the table, how much higher is the Background score than the Foreground score for FishDetector-R1 7B? Respond only with one number rounded to two decimals.",
+        "question_both": "According to the chart and the table, how much higher is the Background score than the Foreground score for FishDetector-R1 7B? Respond only with one number rounded to two decimals.",
+        "question_type": "reasoning",
+        "answer": 28.05,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 154,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.06099v1\\table.jpg",
+            "chart": "2512.06099v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the difference in ROC-AUC between LightGBM and Logistic Regression? Respond only with one number.",
+        "question_table": "According to the table, what is the difference in ROC-AUC between LightGBM and Logistic Regression? Respond only with one number.",
+        "question_both": "According to the chart and the table, what is the difference in ROC-AUC between LightGBM and Logistic Regression? Respond only with one number.",
+        "question_type": "reasoning",
+        "answer": 0.327,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 155,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.06099v1\\table.jpg",
+            "chart": "2512.06099v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which model has the largest gap between its highest and lowest values among Accuracy, Recall, and ROC-AUC? Respond only with the model name.",
+        "question_table": "According to the table, which model has the largest gap between its highest and lowest values among Accuracy, Recall, and ROC-AUC? Respond only with the model name.",
+        "question_both": "According to the chart and the table, which model has the largest gap between its highest and lowest values among Accuracy, Recall, and ROC-AUC? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "Logistic Regression",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 156,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.06099v1\\table.jpg",
+            "chart": "2512.06099v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which visualized model has a Recall value that is clearly higher than both its own Accuracy and ROC-AUC? Respond only with the model name.",
+        "question_table": "According to the table, which visualized model has a Recall value that is clearly higher than both its own Accuracy and ROC-AUC? Respond only with the model name.",
+        "question_both": "According to the chart and the table, which visualized model has a Recall value that is clearly higher than both its own Accuracy and ROC-AUC? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "Logistic Regression",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 157,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.06099v1\\table.jpg",
+            "chart": "2512.06099v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, from LightGBM to Logistic Regression, which metric shows the largest decrease among Accuracy, Recall, and ROC-AUC? Respond only with the metric name.",
+        "question_table": "According to the table, from LightGBM to Logistic Regression, which metric shows the largest decrease among Accuracy, Recall, and ROC-AUC? Respond only with the metric name.",
+        "question_both": "According to the chart and the table, from LightGBM to Logistic Regression, which metric shows the largest decrease among Accuracy, Recall, and ROC-AUC? Respond only with the metric name.",
+        "question_type": "reasoning",
+        "answer": "ROC-AUC",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 158,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.06099v1\\table.jpg",
+            "chart": "2512.06099v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, among all Accuracy, Recall, and ROC-AUC values for the four visualized models, which model and metric correspond to the highest value? Respond only with a list containing the model name and metric name.",
+        "question_table": "According to the table, among all Accuracy, Recall, and ROC-AUC values for the four visualized models, which model and metric correspond to the highest value? Respond only with a list containing the model name and metric name.",
+        "question_both": "According to the chart and the table, among all Accuracy, Recall, and ROC-AUC values for the four visualized models, which model and metric correspond to the highest value? Respond only with a list containing the model name and metric name.",
+        "question_type": "reasoning",
+        "answer": "[LightGBM, ROC-AUC]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 159,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.06725v1\\table.jpg",
+            "chart": "2512.06725v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which model has the highest mean accuracy? Respond only with the model name.",
+        "question_table": "According to the table, which model has the highest mean accuracy? Respond only with the model name.",
+        "question_both": "According to the chart and the table, which model has the highest mean accuracy? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "ESNNet",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 160,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.06725v1\\table.jpg",
+            "chart": "2512.06725v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which model has the lowest mean accuracy? Respond only with the model name.",
+        "question_table": "According to the table, which model has the lowest mean accuracy? Respond only with the model name.",
+        "question_both": "According to the chart and the table, which model has the lowest mean accuracy? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "DeepConvNet",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 161,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.06725v1\\table.jpg",
+            "chart": "2512.06725v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, how many percentage points higher is ESNNet's mean accuracy than EEGNet's? Respond only with one number.",
+        "question_table": "According to the table, how many percentage points higher is ESNNet's mean accuracy than EEGNet's? Respond only with one number.",
+        "question_both": "According to the chart and the table, how many percentage points higher is ESNNet's mean accuracy than EEGNet's? Respond only with one number.",
+        "question_type": "reasoning",
+        "answer": 0.9,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 162,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.06725v1\\table.jpg",
+            "chart": "2512.06725v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which model has the smallest standard deviation, as indicated by the shortest error bar? Respond only with the model name.",
+        "question_table": "According to the table, which model has the smallest standard deviation? Respond only with the model name.",
+        "question_both": "According to the chart and the table, which model has the smallest standard deviation? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "ESNNet",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 163,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.06725v1\\table.jpg",
+            "chart": "2512.06725v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which model appears clearly lower than the others in mean accuracy? Respond only with the model name.",
+        "question_table": "According to the table, which model has the lowest mean accuracy compared with the others? Respond only with the model name.",
+        "question_both": "According to the chart and the table, which model appears clearly lower than the others in mean accuracy? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "DeepConvNet",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 164,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.06725v1\\table.jpg",
+            "chart": "2512.06725v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, if choosing the model with both higher mean accuracy and smaller error bar, which model is the best choice? Respond only with the model name.",
+        "question_table": "According to the table, if choosing the model with both higher mean accuracy and smaller standard deviation, which model is the best choice? Respond only with the model name.",
+        "question_both": "According to the chart and the table, if choosing the model with both higher mean accuracy and smaller standard deviation, which model is the best choice? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "ESNNet",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 165,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.07568v1\\table.jpg",
+            "chart": "2512.07568v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the AUC score of DSRSD-Net (Ours) in T1 Next-step performance? Respond only with one numeric value.",
+        "question_table": "According to the table, what is the AUC score of DSRSD-Net (Ours) in T1 Next-step performance? Respond only with one numeric value.",
+        "question_both": "According to the chart and the table, what is the AUC score of DSRSD-Net (Ours) in T1 Next-step performance? Respond only with one numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.842,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 166,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.07568v1\\table.jpg",
+            "chart": "2512.07568v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, by how much is the ACC score of DSRSD-Net (Ours) higher than that of MM-late? Respond only with one numeric value.",
+        "question_table": "According to the table, by how much is the ACC score of DSRSD-Net (Ours) higher than that of MM-late? Respond only with one numeric value.",
+        "question_both": "According to the chart and the table, by how much is the ACC score of DSRSD-Net (Ours) higher than that of MM-late? Respond only with one numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.014,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 167,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.07568v1\\table.jpg",
+            "chart": "2512.07568v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what are the improvements from LR to DSRSD-Net (Ours) in AUC, ACC, and F1? Respond only with a numeric list in the order [AUC, ACC, F1].",
+        "question_table": "According to the table, what are the improvements from LR to DSRSD-Net (Ours) in AUC, ACC, and F1? Respond only with a numeric list in the order [AUC, ACC, F1].",
+        "question_both": "According to the chart and the table, what are the improvements from LR to DSRSD-Net (Ours) in AUC, ACC, and F1? Respond only with a numeric list in the order [AUC, ACC, F1].",
+        "question_type": "reasoning",
+        "answer": [0.099, 0.076, 0.077],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 168,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.07568v1\\table.jpg",
+            "chart": "2512.07568v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the difference between the highest and lowest F1 scores across all models? Respond only with one numeric value.",
+        "question_table": "According to the table, what is the difference between the highest and lowest F1 scores across all models? Respond only with one numeric value.",
+        "question_both": "According to the chart and the table, what is the difference between the highest and lowest F1 scores across all models? Respond only with one numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.077,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 169,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.07568v1\\table.jpg",
+            "chart": "2512.07568v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which model shows a decrease in AUC, ACC, and F1 compared with the immediately previous model? Respond only with the model name.",
+        "question_table": "According to the table, which model shows a decrease in AUC, ACC, and F1 compared with the immediately previous model? Respond only with the model name.",
+        "question_both": "According to the chart and the table, which model shows a decrease in AUC, ACC, and F1 compared with the immediately previous model? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "MM-coattn",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 170,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.07568v1\\table.jpg",
+            "chart": "2512.07568v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, from LR up to which model do AUC, ACC, and F1 all increase step by step? Respond only with the model name.",
+        "question_table": "According to the table, from LR up to which model do AUC, ACC, and F1 all increase step by step? Respond only with the model name.",
+        "question_both": "According to the chart and the table, from LR up to which model do AUC, ACC, and F1 all increase step by step? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "MM-late",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 171,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.08197v1\\table.jpg",
+            "chart": "2512.08197v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what are the Accuracy and ROC-AUC scores of XGBoost? Respond only with a list of two numbers in the order [Accuracy, ROC-AUC].",
+        "question_table": "According to the table, what are the Accuracy and ROC-AUC scores of XGBoost? Respond only with a list of two numbers in the order [Accuracy, ROC-AUC].",
+       "question_both": "According to the chart and the table, what are the Accuracy and ROC-AUC scores of XGBoost? Respond only with a list of two numbers in the order [Accuracy, ROC-AUC].", 
+        "question_type": "reasoning",
+        "answer": [0.869, 0.865],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 172,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.08197v1\\table.jpg",
+            "chart": "2512.08197v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, by how much does Our model's Accuracy exceed Logistic Regression's Accuracy? Respond only with one number.",
+        "question_table": "According to the table, by how much does Our model's Accuracy exceed Logistic Regression's Accuracy? Respond only with one number.",
+       "question_both": "According to the chart and the table, by how much does Our model's Accuracy exceed Logistic Regression's Accuracy? Respond only with one number.", 
+        "question_type": "reasoning",
+        "answer": 0.089,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 173,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.08197v1\\table.jpg",
+            "chart": "2512.08197v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the difference between Decision Tree's Accuracy and ROC-AUC? Respond only with one number.",
+        "question_table": "According to the table, what is the difference between Decision Tree's Accuracy and ROC-AUC? Respond only with one number.",
+       "question_both": "According to the chart and the table, what is the difference between Decision Tree's Accuracy and ROC-AUC? Respond only with one number.", 
+        "question_type": "reasoning",
+        "answer": 0.033,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 174,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.08197v1\\table.jpg",
+            "chart": "2512.08197v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the difference between the highest and lowest ROC-AUC scores among all models? Respond only with one number.",
+        "question_table": "According to the table, what is the difference between the highest and lowest ROC-AUC scores among all models? Respond only with one number.",
+       "question_both": "According to the chart and the table, what is the difference between the highest and lowest ROC-AUC scores among all models? Respond only with one number.", 
+        "question_type": "reasoning",
+        "answer": 0.104,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 175,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.08197v1\\table.jpg",
+            "chart": "2512.08197v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the overall trend of Accuracy from Logistic Regression to Our model? Respond only with one phrase from [increasing, decreasing, fluctuating].",
+        "question_table": "According to the table, what is the overall trend of Accuracy from Logistic Regression to Our model? Respond only with one phrase from [increasing, decreasing, fluctuating].",
+       "question_both": "According to the chart and the table, what is the overall trend of Accuracy from Logistic Regression to Our model? Respond only with one phrase from [increasing, decreasing, fluctuating].", 
+        "question_type": "reasoning",
+        "answer": "increasing",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 176,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.08197v1\\table.jpg",
+            "chart": "2512.08197v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which three models have the highest ROC-AUC scores, ranked from highest to third-highest? Respond only with a list of model names.",
+        "question_table": "According to the table, which three models have the highest ROC-AUC scores, ranked from highest to third-highest? Respond only with a list of model names.",
+       "question_both": "According to the chart and the table, which three models have the highest ROC-AUC scores, ranked from highest to third-highest? Respond only with a list of model names.", 
+        "question_type": "reasoning",
+        "answer": "[Our model, XGBoost, Random Forest]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 177,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.08197v1\\table.jpg",
+            "chart": "2512.08197v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which model has the smallest gap between its Accuracy bar and ROC-AUC bar? Respond only with the model name.",
+        "question_table": "According to the table, which model has the smallest difference between Accuracy and ROC-AUC? Respond only with the model name.",
+       "question_both": "According to the chart and the table, which model has the most similar Accuracy and ROC-AUC scores? Respond only with the model name.", 
+        "question_type": "reasoning",
+        "answer": "XGBoost",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 178,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.08197v1\\table.jpg",
+            "chart": "2512.08197v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which models have both Accuracy and ROC-AUC above 0.85? Respond only with a list of model names.",
+        "question_table": "According to the table, which models have both Accuracy and ROC-AUC above 0.85? Respond only with a list of model names.",
+       "question_both": "According to the chart and the table, which models have both Accuracy and ROC-AUC above 0.85? Respond only with a list of model names.", 
+        "question_type": "reasoning",
+        "answer": "[Random Forest, XGBoost, Our model]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 179,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.08608v1\\table.jpg",
+            "chart": "2512.08608v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the difference between RadioUnet and RME-GAN at Seq=15? Respond only with a number.",
+        "question_table": "According to the table, what is the difference between RadioUnet and RME-GAN at Seq=15? Respond only with a number.",
+        "question_both": "According to the chart and the table, what is the difference between RadioUnet and RME-GAN at Seq=15? Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 8.259,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 180,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.08608v1\\table.jpg",
+            "chart": "2512.08608v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, how much does RadioDiff decrease from Seq=2 to Seq=20? Respond only with a number.",
+        "question_table": "According to the table, how much does RadioDiff decrease from Seq=2 to Seq=20? Respond only with a number.",
+        "question_both": "According to the chart and the table, how much does RadioDiff decrease from Seq=2 to Seq=20? Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 86.465,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 181,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.08608v1\\table.jpg",
+            "chart": "2512.08608v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which method shows the largest decrease from Seq=2 to Seq=20? Respond only with the method name.",
+        "question_table": "According to the table, which method shows the largest decrease from Seq=2 to Seq=20? Respond only with the method name.",
+        "question_both": "According to the chart and the table, which method shows the largest decrease from Seq=2 to Seq=20? Respond only with the method name.",
+        "question_type": "reasoning",
+        "answer": "RadioDiff-k²",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 182,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.08608v1\\table.jpg",
+            "chart": "2512.08608v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which method consistently has the lowest value across all sequence lengths? Respond only with the method name.",
+        "question_table": "According to the table, which method consistently has the lowest value across all sequence lengths? Respond only with the method name.",
+        "question_both": "According to the chart and the table, which method consistently has the lowest value across all sequence lengths? Respond only with the method name.",
+        "question_type": "reasoning",
+        "answer": "IRT4 (GT)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 183,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.08608v1\\table.jpg",
+            "chart": "2512.08608v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, starting from which earliest sequence length are all methods below 50? Respond only with a number.",
+        "question_table": "According to the table, starting from which earliest sequence length are all methods below 50? Respond only with a number.",
+        "question_both": "According to the chart and the table, starting from which earliest sequence length are all methods below 50? Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 10,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 184,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.08608v1\\table.jpg",
+            "chart": "2512.08608v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which two methods have the closest values at Seq=8? Respond only with a list of method names.",
+        "question_table": "According to the table, which two methods have the closest values at Seq=8? Respond only with a list of method names.",
+        "question_both": "According to the chart and the table, which two methods have the closest values at Seq=8? Respond only with a list of method names.",
+        "question_type": "reasoning",
+        "answer": "[RadioUnet, RME-GAN]",
+        "answer_type": "text"
+    },
+
+
+    {
+        "question_id": 185,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.09425v1\\table.jpg",
+            "chart": "2512.09425v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the HFEN value of Ours among the four shown methods? Respond only with one number.",
+        "question_table": "According to the table, what is the HFEN value of Ours among the charted methods? Respond only with one number.",
+        "question_both": "According to the chart and the table, what is the HFEN value of Ours? Respond only with one number.",
+        "question_type": "reasoning",
+        "answer": 0.362,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 186,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.09425v1\\table.jpg",
+            "chart": "2512.09425v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, how much higher is QSMnet's NRMSE than Ours' NRMSE? Respond only with one number.",
+        "question_table": "According to the table, how much higher is QSMnet's NRMSE than Ours' NRMSE among the charted methods? Respond only with one number.",
+        "question_both": "According to the chart and the table, how much higher is QSMnet's NRMSE than Ours' NRMSE? Respond only with one number.",
+        "question_type": "reasoning",
+        "answer": 0.370,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 187,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.09425v1\\table.jpg",
+            "chart": "2512.09425v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the difference between the highest and lowest SSIM values among the four shown methods? Respond only with one number.",
+        "question_table": "According to the table, what is the difference between the highest and lowest SSIM values among the charted methods? Respond only with one number.",
+        "question_both": "According to the chart and the table, what is the difference between the highest and lowest SSIM values among the four shown methods? Respond only with one number.",
+        "question_type": "reasoning",
+        "answer": 0.133,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 188,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.09425v1\\table.jpg",
+            "chart": "2512.09425v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which method has the closest HFEN and NRMSE values among the four shown methods? Respond only with the method name.",
+        "question_table": "According to the table, which charted method has the smallest absolute difference between HFEN and NRMSE? Respond only with the method name.",
+        "question_both": "According to the chart and the table, which method has the closest HFEN and NRMSE values? Respond only with the method name.",
+        "question_type": "reasoning",
+        "answer": "MoDL-QSM",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 189,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.09425v1\\table.jpg",
+            "chart": "2512.09425v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which method has the highest NRMSE among the four shown methods? Respond only with the method name.",
+        "question_table": "According to the table, which charted method has the highest NRMSE? Respond only with the method name.",
+        "question_both": "According to the chart and the table, which method has the highest NRMSE among the four shown methods? Respond only with the method name.",
+        "question_type": "reasoning",
+        "answer": "QSMnet",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 190,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.09425v1\\table.jpg",
+            "chart": "2512.09425v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, moving from left to right, which method causes HFEN to drop after QSMnet before rising again at MoDL-QSM? Respond only with the method name.",
+        "question_table": "According to the table, among the charted methods in the same left-to-right order, which method has a lower HFEN than QSMnet but is followed by a higher HFEN at MoDL-QSM? Respond only with the method name.",
+        "question_both": "According to the chart and the table, which method forms the local dip in HFEN between QSMnet and MoDL-QSM? Respond only with the method name.",
+        "question_type": "reasoning",
+        "answer": "DIAM-CNN",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 191,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.12236v1\\table.jpg",
+            "chart": "2512.12236v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what is the PSNR of CTO (ours) under the 72-view setting? Respond only with one number.",
+        "question_table": "According to the table, what is the PSNR of CTO (ours) under the 72-view setting? Respond only with one number.",
+        "question_both": "According to the chart and the table, what is the PSNR of CTO (ours) under the 72-view setting? Respond only with one number.",
+        "question_type": "reasoning",
+        "answer": 40.83,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 192,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.12236v1\\table.jpg",
+            "chart": "2512.12236v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, calculate how much higher the PSNR of CTO (ours) is than Unrolled CNN [1] under 18-view, 36-view, and 72-view. Respond only with a list of three numbers in the order [18-view, 36-view, 72-view].",
+        "question_table": "According to the table, calculate how much higher the PSNR of CTO (ours) is than Unrolled CNN [1] under 18-view, 36-view, and 72-view. Respond only with a list of three numbers in the order [18-view, 36-view, 72-view].",
+        "question_both": "According to the chart and the table, calculate how much higher the PSNR of CTO (ours) is than Unrolled CNN [1] under 18-view, 36-view, and 72-view. Respond only with a list of three numbers in the order [18-view, 36-view, 72-view].",
+        "question_type": "reasoning",
+        "answer": [3.45, 4.15, 5.01],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 193,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.12236v1\\table.jpg",
+            "chart": "2512.12236v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, how much does the PSNR of DPS [29] increase from 18-view to 72-view? Respond only with one number.",
+        "question_table": "According to the table, how much does the PSNR of DPS [29] increase from 18-view to 72-view? Respond only with one number.",
+        "question_both": "According to the chart and the table, how much does the PSNR of DPS [29] increase from 18-view to 72-view? Respond only with one number.",
+        "question_type": "reasoning",
+        "answer": 5.58,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 194,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.12236v1\\table.jpg",
+            "chart": "2512.12236v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which method and view setting correspond to the highest PSNR among all shown values? Respond only with a list in the format [method, view].",
+        "question_table": "According to the table, which method and view setting correspond to the highest PSNR among all shown values? Respond only with a list in the format [method, view].",
+        "question_both": "According to the chart and the table, which method and view setting correspond to the highest PSNR among all shown values? Respond only with a list in the format [method, view].",
+        "question_type": "reasoning",
+        "answer": "[CTO (ours), 72-view]",
+        "answer_type": "text"
+    },
+
+        {
+        "question_id": 195,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.12236v1\\table.jpg",
+            "chart": "2512.12236v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which method shows the largest PSNR increase from 18-view to 72-view? Respond only with the method name.",
+        "question_table": "According to the table, which method shows the largest PSNR increase from 18-view to 72-view? Respond only with the method name.",
+        "question_both": "According to the chart and the table, which method shows the largest PSNR increase from 18-view to 72-view? Respond only with the method name.",
+        "question_type": "reasoning",
+        "answer": "DPS [29]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 196,
+        "items": ["table","chart"],
+        "path": {
+            "table": "2512.12236v1\\table.jpg",
+            "chart": "2512.12236v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which method shows the smallest PSNR change from 18-view to 72-view? Respond only with the method name.",
+        "question_table": "According to the table, which method shows the smallest PSNR change from 18-view to 72-view? Respond only with the method name.",
+        "question_both": "According to the chart and the table, which method shows the smallest PSNR change from 18-view to 72-view? Respond only with the method name.",
+        "question_type": "reasoning",
+        "answer": "FBP [7]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 197,
+        "items": ["table", "chart"],
+        "path": {
+            "table": "2507.18417v1\\table.jpg",
+            "chart": "2507.18417v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, by how much does FinDPO (Ours) outperform FinSFT on NWGI? Respond only with one number rounded to three decimals.",
+        "question_table": "According to the table, by how much does FinDPO (Ours) outperform FinSFT on NWGI? Respond only with one number rounded to three decimals.",
+        "question_both": "According to the chart and the table, by how much does FinDPO (Ours) outperform FinSFT on NWGI? Respond only with one number rounded to three decimals.",
+        "question_type": "reasoning",
+        "answer": 0.125,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 198,
+        "items": ["table", "chart"],
+        "path": {
+            "table": "2507.18417v1\\table.jpg",
+            "chart": "2507.18417v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which model has the largest gap between its TFNS and NWGI scores? Respond only with the model name.",
+        "question_table": "According to the table, which model has the largest gap between its TFNS and NWGI scores? Respond only with the model name.",
+        "question_both": "According to the chart and the table, which model has the largest gap between its TFNS and NWGI scores? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "FinLlama",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 199,
+        "items": ["table", "chart"],
+        "path": {
+            "table": "2507.18417v1\\table.jpg",
+            "chart": "2507.18417v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, what overall pattern does the NWGI score show from HIV-4 to FinDPO (Ours)? Respond only with one phrase: increasing, decreasing, or fluctuating upward.",
+        "question_table": "According to the table, what overall pattern does the NWGI score show from HIV-4 to FinDPO (Ours)? Respond only with one phrase: increasing, decreasing, or fluctuating upward.",
+        "question_both": "According to the chart and the table, what overall pattern does the NWGI score show from HIV-4 to FinDPO (Ours)? Respond only with one phrase: increasing, decreasing, or fluctuating upward.",
+        "question_type": "reasoning",
+        "answer": "fluctuating upward",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 200,
+        "items": ["table", "chart"],
+        "path": {
+            "table": "2507.18417v1\\table.jpg",
+            "chart": "2507.18417v1\\chart.jpg"
+        },
+        "question_chart": "According to the chart, which model has the closest TFNS and NWGI scores? Respond only with the model name.",
+        "question_table": "According to the table, which model has the closest TFNS and NWGI scores? Respond only with the model name.",
+        "question_both": "According to the chart and the table, which model has the closest TFNS and NWGI scores? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "HIV-4",
+        "answer_type": "text"
+    }
+]

@@ -1,0 +1,1429 @@
+[
+    {
+        "question_id": 1,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2508.19609v1\\chart1.jpg",
+            "table1": "2508.19609v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Point and Quantile Outputs During Training",
+            "table1": "Ablation study results on MSE and MAE metrics. Lower is better."
+        },
+        "question":"How many model-output–related curves are shown in the legend of chart1 (excluding the Ground Truth curve)? Respond only with a number.",
+        "question_type": "perceptual",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 2,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2508.19609v1\\chart1.jpg",
+            "table1": "2508.19609v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Point and Quantile Outputs During Training",
+            "table1": "Ablation study results on MSE and MAE metrics. Lower is better."
+        },
+        "question":"In chart1, the predicted curves (including the Forecast and all Quantile curves), excluding the Ground Truth curve, begin to appear at approximately which x-axis interval? A. [120, 125], B. [125, 130], C. [130, 135], D.[135, 140]. Respond only with a letter.",
+        "question_type": "perceptual",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2508.19609v1\\chart1.jpg",
+            "table1": "2508.19609v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Point and Quantile Outputs During Training",
+            "table1": "Ablation study results on MSE and MAE metrics. Lower is better."
+        },
+        "question":"According to the degradation percentages in table 1, which component causes the largest performance drop when removed? Also compute its MSE difference and MAE difference. Answer format: [num1, num2]. Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": [0.0158, 0.0220],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2508.21192v1\\chart1.jpg",
+            "table1": "2508.21192v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "SPY and a scaled SSD strategy including SPY and options, out-of-sample performance",
+            "table1": "Out-of-sample statistics comparing the SPY ETF with a scaled SSD strategy including SPY and options"
+        },
+        "question":"In chart1, the maximum value on the y-axis exceeds which of the following? A. 2.0 B. 2.5 C. 3.0 D. 3.5 Respond only with the letter.",
+        "question_type": "perceptual",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2509.05676v2\\chart1.jpg",
+            "table1": "2509.05676v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Cost of different hedging strategies",
+            "table1": "Mean and standard deviation of the distribution of the hedging cost for a portfolio of 1000 pure endowment policies (top panel), Term Insurance policies (middle panel), and Endowment Insurance policies (bottom panel) under no hedging, static hedging, and continuous hedging."
+        },
+        "question":"In the Term Insurance subplot of chart1, around which integer is the blue distribution located? Respond with a integer.",
+        "question_type": "perceptual",
+        "answer": 2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 6,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2509.05676v2\\chart1.jpg",
+            "table1": "2509.05676v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Cost of different hedging strategies",
+            "table1": "Mean and standard deviation of the distribution of the hedging cost for a portfolio of 1000 pure endowment policies (top panel), Term Insurance policies (middle panel), and Endowment Insurance policies (bottom panel) under no hedging, static hedging, and continuous hedging."
+        },
+        "question":"In chart1, each subplot has a different x-axis range. Identify the interval of x-values that is included in all three subplots’ x-axes. Respond in the format [a, b]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": [0, 4],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2509.10802v1\\chart1.jpg",
+            "table1": "2509.10802v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Ablation experiment comparison",
+            "table1": "Ablation experiment results"
+        },
+        "question":"In chart1, which color is used for the AUC bars? Respond only with the color.",
+        "question_type": "perceptual",
+        "answer": "green",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2509.11928v3\\chart1.jpg",
+            "table1": "2509.11928v3\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Monthly averaged RMSE (in BPS) over time, stratified by maturity. Each subplot compares VolNP-SP (blue) and VolNP-Base (orange).",
+            "table1": "Overall and stratified performance comparison. Short-, mid-, and long-term correspond to maturities of 0–3 months, 3–12 months, and >12 months, respectively. RMSE and MAE are in basis points (BPS). Best result in each category is in bold."
+        },
+        "question":"In chart1, what are the line color and line style used to represent VolNP-SP? Respond in the format: [color, style], where style refers to whether the line is solid or dashed.",
+        "question_type": "perceptual",
+        "answer": "[blue, dashed]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 9,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2510.00205v1\\chart1.jpg",
+            "table1": "2510.00205v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Jensen-Shannon Divergence Between Regime-Specific TF-IDF Distributions",
+            "table1": "Mean squared error (MSE) of models across economic regimes. Lower is better. Bold indicates the best-performing model per regime."
+        },
+        "question":"In chart1, what is the numerical value of the darkest cell in the heatmap? Respond only with a single number.",
+        "question_type": "perceptual",
+        "answer": 0.24,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2510.00205v1\\chart1.jpg",
+            "table1": "2510.00205v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Jensen-Shannon Divergence Between Regime-Specific TF-IDF Distributions",
+            "table1": "Mean squared error (MSE) of models across economic regimes. Lower is better. Bold indicates the best-performing model per regime."
+        },
+        "question":"Using the heatmap shown in chart1， extract the JS divergence matrix and represent it as a labeled 2D list (list of lists). The 2D list must follow this structure: The first row must contain the column labels:[JS, pre-covid, covid, post-covid, ratehike]. Each subsequent row must begin with the corresponding row label (for example, pre-covid), followed by the JS divergence values for that row. The output should be a 5×5 labeled 2D list. Respond only with a list.",
+        "question_type": "chart to table",
+        "answer": [["JS", "pre-covid", "covid", "post-covid", "ratehike"],
+                ["pre-covid", 0.00, 0.2, 0.18, 0.13],
+                ["covid", 0.2, 0.00, 0.19, 0.24],
+                ["post-covid", 0.18, 0.19, 0.00, 0.22],
+                ["ratehike", 0.13, 0.24, 0.22, 0.00]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 11,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2510.07099v1\\chart1.jpg",
+            "table1": "2510.07099v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Cumulative return trajectories of the proposed DARL and baseline models",
+            "table1": "Performance indicators of the Proposed DARL approach and Benchmarks for entire trading period"
+        },
+        "question":"In chart1, what is the color of the HyBird GA curve? Respond only with the color.",
+        "question_type": "perceptual",
+        "answer": "purple",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2510.07099v1\\chart1.jpg",
+            "table1": "2510.07099v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Cumulative return trajectories of the proposed DARL and baseline models",
+            "table1": "Performance indicators of the Proposed DARL approach and Benchmarks for entire trading period"
+        },
+        "question":"In chart1, during the period from January 2025 to May 2025, which strategy curve shows the most pronounced decline? Respond only with the curve.",
+        "question_type": "reasoning",
+        "answer": "OLMAR",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2510.10807v3\\chart1.jpg",
+            "table1": "2510.10807v3\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Ablations—performance and diagnostic metrics across variants (OOS 2020–2025).",
+            "table1": "Ablations (OOS 2020–2025; annualized; net 10 bps). Higher is better except Vol, MaxDD."
+        },
+        "question":"In chart1, what is the color of the bar representing MaxDD? Respond only with the color.",
+        "question_type": "perceptual",
+        "answer": "Orange",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 14,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2510.10807v3\\chart1.jpg",
+            "table1": "2510.10807v3\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Ablations—performance and diagnostic metrics across variants (OOS 2020–2025).",
+            "table1": "Ablations (OOS 2020–2025; annualized; net 10 bps). Higher is better except Vol, MaxDD."
+        },
+        "question":"In the Ablations — Performance subplot of chart, which color bars correspond to the left y-axis? Response only with the color.",
+        "question_type": "perceptual",
+        "answer": "yellow",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2510.10807v3\\chart1.jpg",
+            "table1": "2510.10807v3\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Ablations—performance and diagnostic metrics across variants (OOS 2020–2025).",
+            "table1": "Ablations (OOS 2020–2025; annualized; net 10 bps). Higher is better except Vol, MaxDD."
+        },
+        "question":"Using the data from table1, create a bar chart that visualizes the Return% values across all models. Use the Python matplotlib library to generate the plot and provide complete executable code. Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "bar_chart",
+            "data": [[10.3, 9.8, 10.1, 9.7, 9.9]],
+            "operation": null,
+            "title": "Return % across Different Models",
+            "xlabel": "Model",
+            "ylabel": "Return %",
+            "legend": null,
+            "tick": {
+                "xticklabels": ["MARCD (base)", "Uncond. diffusion", "No CVaR term", "λ=0.0", "λ=1.0"], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 16,
+        "items": ["chart1", "chart2", "table1"],
+        "path": {
+            "chart1": "2511.01869v1\\chart1.jpg",
+            "chart2": "2511.01869v1\\chart2.jpg",
+            "table1": "2511.01869v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Directional accuracy of sentiment tools across the four models relative to bond returns. —— FinBERT",
+            "chart2": "Directional accuracy of sentiment tools across the four models relative to bond returns. —— BondBERT",
+            "table1": "Average LSTM results for the models across all bonds."
+        },
+        "question":"In the bondBERT directional-accuracy bar chart, what is the baseline level indicated by the red dashed line? Respond with the numerical value only, without the percent sign.",
+        "question_type": "perceptual",
+        "answer": 50,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["chart1", "chart2", "table1"],
+        "path": {
+            "chart1": "2511.01869v1\\chart1.jpg",
+            "chart2": "2511.01869v1\\chart2.jpg",
+            "table1": "2511.01869v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Directional accuracy of sentiment tools across the four models relative to bond returns. —— FinBERT",
+            "chart2": "Directional accuracy of sentiment tools across the four models relative to bond returns. —— BondBERT",
+            "table1": "Average LSTM results for the models across all bonds."
+        },
+        "question":"Using Table1, compute the range of the Normalised RMSE across the four models (maximum value minus minimum value). Return a positive number only.",
+        "question_type": "reasoning",
+        "answer": 0.0021,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["chart1", "chart2", "table1"],
+        "path": {
+            "chart1": "2511.01869v1\\chart1.jpg",
+            "chart2": "2511.01869v1\\chart2.jpg",
+            "table1": "2511.01869v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Directional accuracy of sentiment tools across the four models relative to bond returns. —— FinBERT",
+            "chart2": "Directional accuracy of sentiment tools across the four models relative to bond returns. —— BondBERT",
+            "table1": "Average LSTM results for the models across all bonds."
+        },
+        "question": "Extract the accuracy values (without %) for the five sentiment topics from the finBERT chart and organize them into a 2D list in the following format: [[Topic, Accuracy], [Uk Bond Market, x], …]. Respond with the 2D list only.",
+        "question_type": "chart to table",
+        "answer": [["Topic", "Accuracy"],
+        ["Uk Bond Market", 56.52],
+        ["Uk Inflation", 51.92],
+        ["Uk Monetary Policy", 50.94],
+        ["Uk Economic Outlook", 49.07],
+        ["Uk Interest Rates", 49.07]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.20678v1\\chart1.jpg",
+            "table1": "2511.20678v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Normalized portfolio values for SAC, DDPG, and MPT across BTC, ETH, LTC, and DOGE, compared with Bitcoin during the test period.",
+            "table1": "Performance comparison of DDPG, SAC, and MPT on the test dataset."
+        },
+        "question":"Using Table 1, compute the absolute difference in Sharpe Ratio between SAC and MPT, and return a positive number. Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 0.040546,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 20,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2512.03107v1\\chart1.jpg",
+            "table1": "2512.03107v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Coefficient comparison between GPT-3.5-turbo (real log probabilities) and Claude-3-Haiku (estimated). Blue bars show GPT coefficients; orange bars show Claude coefficients. Red percentages indicate what fraction of the GPT magnitude is retained. Coefficients collapse by 90–96% when real log probabilities are unavailable, and ΔL flips sign, confirming that ECLIPSE is logprob-native.",
+            "table1": "Coefficient comparison between GPT-3.5-turbo (real log probabilities) and Claude-3-Haiku (estimated). The ratio column shows what fraction of the GPT coefficient magnitude is retained. Coefficients collapse dramatically when log probabilities are unavailable."
+        },
+        "question": "In chart1, what color is used for the Claude bars? Respond only with the color.",
+        "question_type": "perceptual",
+        "answer": "Orange",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 21,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2503.19767v1\\chart1.jpg",
+            "table1": "2503.19767v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution of average (over 404 stocks) percent forecast improvements of four top-performing models: CSR-A (top left), HAR-S (top right), CSR-S (bottom left), and ALA-S (bottom right).",
+            "table1": "Pairwise MCS analysis of the performance of competing models"
+        },
+        "question":"In chart1, which subplot has the widest horizontal axis range? Please provide the numerical range in the format, [left,right]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": [-20, 60],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2503.19767v1\\chart1.jpg",
+            "table1": "2503.19767v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution of average (over 404 stocks) percent forecast improvements of four top-performing models: CSR-A (top left), HAR-S (top right), CSR-S (bottom left), and ALA-S (bottom right).",
+            "table1": "Pairwise MCS analysis of the performance of competing models"
+        },
+        "question":"In table1, excluding the HAR model itself, how many HAR variants are listed? Please provide the numerical count. Respond only with a number.",
+        "question_type": "perceptual",
+        "answer": 2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 23,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2504.15316v1\\chart1.jpg",
+            "table1": "2504.15316v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "China’s Digital Financial Inclusion Development Index by Region and Province in 2020",
+            "table1": "Heterogeneity Analysis of DFI by Province (2020)"
+        },
+        "question":"Using the table1, count the number of provinces in the Central and Western regions. Respond with a list in the form: [num1, num2]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": [8, 9],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 24,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2504.15316v1\\chart1.jpg",
+            "table1": "2504.15316v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "China’s Digital Financial Inclusion Development Index by Region and Province in 2020",
+            "table1": "Heterogeneity Analysis of DFI by Province (2020)"
+        },
+        "question":"Using the table1, compute the average DFI2020 values for the Central and Western regions, rounding each to two decimal places. Respond in the form: [mean_center, mean_western]. Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": [333.20, 322.46],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 25,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2504.15316v1\\chart1.jpg",
+            "table1": "2504.15316v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "China’s Digital Financial Inclusion Development Index by Region and Province in 2020",
+            "table1": "Heterogeneity Analysis of DFI by Province (2020)"
+        },
+        "question":"Using the chart1 as a reference, plot a bar chart of the Central region’s DFI2020 values from the table1 using Python’s matplotlib library. Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "bar_chart",
+            "data": [[358.64, 350.16, 340.81, 340.61, 332.03, 325.73, 309.39, 308.26]],
+            "operation": null,
+            "title": "DFI2020 Values for Central Region",
+            "xlabel": "Province",
+            "ylabel": "DFI2020",
+            "legend": null,
+            "tick": {
+                "xticklabels": ["Hubei", "Anhui", "Henan", "Jiangxi", "Hunan", "Shanxi", "Inner Mongolia", "Jilin"], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2506.05137v1\\chart1.jpg",
+            "table1": "2506.05137v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Pricing Performances of the Competing Models across Different Moneyness and Maturitie —— Out-of-Sample: All Maturities",
+            "table1": "Overall Pricing Performance of Synthetic Options Generated from the Heston Mode"
+        },
+        "question":"In the chart1, what are the color and line style used for the NJSDE curve? Please provide both the color and the line style in a list, [color, style]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": "[red, dash-dot]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2506.05137v1\\chart1.jpg",
+            "table1": "2506.05137v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Pricing Performances of the Competing Models across Different Moneyness and Maturitie —— Out-of-Sample: All Maturities",
+            "table1": "Overall Pricing Performance of Synthetic Options Generated from the Heston Mode"
+        },
+        "question":"According to the Table 1, how many models are included in the table? Respond only with the number of models.",
+        "question_type": "perceptual",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2506.05137v1\\chart1.jpg",
+            "table1": "2506.05137v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Pricing Performances of the Competing Models across Different Moneyness and Maturitie —— Out-of-Sample: All Maturities",
+            "table1": "Overall Pricing Performance of Synthetic Options Generated from the Heston Mode"
+        },
+        "question":"Using the Out-of-sample MAE values from Table 1, create a bar chart where the x-axis lists the five models (BS, Heston, ANN, NSDE, NJSDE) and the y-axis shows their corresponding MAE values. Use the Python matplotlib library to generate the chart. Respond only with the Python code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "bar_chart",
+            "data": [[0.6077, 0.4710, 0.6430, 0.2409, 0.2519]],
+            "operation": null,
+            "title": "Out-of-sample MAE Values for Different Models",
+            "xlabel": "Models",
+            "ylabel": "MAE",
+            "legend": null,
+            "tick": {
+                "xticklabels": ["BS", "Heston", "ANN", "NSDE", "NJSDE"], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    
+    {
+        "question_id": 29,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2508.11651v1\\chart1.jpg",
+            "table1": "2508.11651v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Top 10 tokenized RWA assets by market capitalization.",
+            "table1": "Monthly On-Chain Activity of RWA Tokens across all available blockchain networks (sourced from RWA.xyz, mid-2025)"
+        },
+        "question":"Based on chart1, how many distinct asset classes appear in the parentheses following the token names? Respond only with a number.",
+        "question_type": "perceptual",
+        "answer": 2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 30,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2508.11651v1\\chart1.jpg",
+            "table1": "2508.11651v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Top 10 tokenized RWA assets by market capitalization.",
+            "table1": "Monthly On-Chain Activity of RWA Tokens across all available blockchain networks (sourced from RWA.xyz, mid-2025)"
+        },
+        "question":"Using chart1, extract the Market Cap and the number of Holders for each token, and present the results in a 2-dimensional table with the following fixed format: Row labels: Token names appearing in the chart (in the same order as in Figure 2). Column labels: Market Cap（a number）, Holders. Make sure the final answer is provided strictly in the table layout below: [[Token, Market Cap, Holders], [BUIDL, , ]....]. Respond only with the completed table.",
+        "question_type": "chart to table",
+        "answer": [["Token", "Market Cap", "Holders"],
+            ["BUIDL", 2420.2, 85],
+            ["PAXG", 942.0, 69164],
+            ["XAUT", 820.7, 9407],
+            ["BENJI", 706.2, 890],
+            ["OUSG", 701.9, 75],
+            ["USDY", 654.4, 15460],
+            ["WTGXX", 482.3, 559],
+            ["JTRSY", 408.3, 6],
+            ["USTB", 406.5, 70],
+            ["USYC", 259.4, 41]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 31,
+        "items": ["chart1", "chart2", "chart3","table1"],
+        "path": {
+            "chart1": "2509.07987v1\\chart1.jpg",
+            "chart2": "2509.07987v1\\chart2.jpg",
+            "chart3": "2509.07987v1\\chart3.jpg",
+            "table1": "2509.07987v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Performance comparison with 3 baselines",
+            "chart2": "Performance comparison with 3 baselines",
+            "chart3": "Performance comparison with 3 baselines",
+            "table1": "Performance comparison with baseline on data set."
+        },
+        "question":"What is the color of the Transformer-DDQN curve in the chart? Respond only with the color name.",
+        "question_type": "perceptual",
+        "answer": "Black",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 32,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2508.04344v1\\chart1.jpg",
+            "table1": "2508.04344v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "PnL across ξ (Xi) values for γ = 0.5. The performative and theta-enhanced performative strategies achieve higher PnL and lower variance than the A&S baseline, while also surpassing the symmetric quoting strategy once ξ reaches moderate levels.",
+            "table1": "Performance metrics across all strategies for different 𝜉 values; 𝛾 = 0.5."
+        },
+        "question":"Which curve in the chart1 uses the “×” marker, and what is its color? Respond only with the color.",
+        "question_type": "perceptual",
+        "answer": "green",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 33,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2508.15237v1\\chart1.jpg",
+            "table1": "2508.15237v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Accuracy of approximations obtained from (Left:) SDE (22) and (Right:) PDE (26) for option prices at different moneyness levels. The analysis considers three cases: ATM (x = 110 = K), ITM (x = 95 < K), and OTM (x = 115 > K).",
+            "table1": "The approximation errors corresponding to Figure 2 for different truncation levels and volatility processes"
+        },
+        "question":"In the chart1, what marker symbol is used for the ATM curve? Respond only with the  marker symbol, like triangle.",
+        "question_type": "perceptual",
+        "answer": "circle",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 34,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2508.15237v1\\chart1.jpg",
+            "table1": "2508.15237v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Accuracy of approximations obtained from (Left:) SDE (22) and (Right:) PDE (26) for option prices at different moneyness levels. The analysis considers three cases: ATM (x = 110 = K), ITM (x = 95 < K), and OTM (x = 115 > K).",
+            "table1": "The approximation errors corresponding to Figure 2 for different truncation levels and volatility processes"
+        },
+        "question":"In the SDE section of the mGBM table, compute the absolute change in the ATM error from N=2 to N=3. Provide the specific value without using scientific notation. Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 0.0943,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2508.16595v1\\chart1.jpg",
+            "table1": "2508.16595v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The distribution of the gap between derivative payoff and different hedging strategies for a derivative payoff of the form (St2 − St1) + in model-based and model-free hedging approaches.",
+            "table1": "Summary Statistics for different hedging strategies for a derivative payoff of the form (St2 − St1)+ using either model-based or model-free hedging approaches."
+        },
+        "question":"In chart1, which model has the green-colored box? Respond only with the model name.",
+        "question_type": "perceptual",
+        "answer": "Heston",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2508.16595v1\\chart1.jpg",
+            "table1": "2508.16595v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The distribution of the gap between derivative payoff and different hedging strategies for a derivative payoff of the form (St2 − St1) + in model-based and model-free hedging approaches.",
+            "table1": "Summary Statistics for different hedging strategies for a derivative payoff of the form (St2 − St1)+ using either model-based or model-free hedging approaches."
+        },
+        "question":"Based on the chart1, which model has the payoff gap distribution most shifted toward negative values (i.e., the lowest median)? Respond with the model name only.",
+        "question_type": "reasoning",
+        "answer": "Sub-Hedging",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.05820v1\\chart1.jpg",
+            "table1": "2509.05820v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Autocorrelation Functions for SPY and BTC using EWMA-rBergomi Model",
+            "table1": "Jensen-Shannon Distances Across Asset Classes and Models"
+        },
+        "question":"What type of chart is used to visualize the volatility autocorrelation for SPY and BTC? Respond only with the chart type.",
+        "question_type": "perceptual",
+        "answer": "Line chart",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 38,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.05820v1\\chart1.jpg",
+            "table1": "2509.05820v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Autocorrelation Functions for SPY and BTC using EWMA-rBergomi Model",
+            "table1": "Jensen-Shannon Distances Across Asset Classes and Models"
+        },
+        "question":"Using the EWMA-rBergomi values from Table 1 for all assets (SPY, BTC, META, ETH, OIL), plot a bar chart with asset names on the x-axis and their distances on the y-axis. Use Python matplotlib and label each bar with its exact value. Respond only with executable Python code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "bar_chart",
+            "data": [[0.0655, 0.0707, 0.2211, 0.3354, 0.3282, 0.3934, 0.0346, 0.3294]],
+            "operation": null,
+            "title": "EWMA-rBergomi Values for Assets",
+            "xlabel": "Assets",
+            "ylabel": "EWMA-rBergomi Value",
+            "legend": null,
+            "tick": {
+                "xticklabels": ["SPY", "VOO", "GS", "META", "BTC", "ETH", "GLD", "OIL"], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 39,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.05820v1\\chart1.jpg",
+            "table1": "2509.05820v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Autocorrelation Functions for SPY and BTC using EWMA-rBergomi Model",
+            "table1": "Jensen-Shannon Distances Across Asset Classes and Models"
+        },
+        "question":"Using Table 1, sort the assets by their EWMA-rBergomi values in descending order and return the top three asset names. Respond only with a list in the form: [asset1, asset2, asset3].",
+        "question_type": "reasoning",
+        "answer": "[ETH, META, OIL]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 40,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.10728v3\\chart1.jpg",
+            "table1": "2510.10728v3\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Ablations on T1 (𝑑=100): signature depth 𝑚, RDE width 𝑝, window 𝐾, and Malliavin.",
+            "table1": "Ablations on T1 (𝑑=100). Change one knob at a time; others at default (𝑚=3, 𝑝=128, 𝐾=12, CVaR tilt 𝑞=0.95, 𝜂=1.5)."
+        },
+        "question":"In the chart, what is the y-axis label corresponding to the dashed line with square markers? Respond only with the exact y-axis label text.",
+        "question_type": "perceptual",
+        "answer": "Time per epoch (s)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["chart1", "chart2", "table1"],
+        "path": {
+            "chart1": "2511.07571v1\\chart1.jpg",
+            "chart2": "2511.07571v1\\chart2.jpg",
+            "table1": "2511.07571v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": ":Distributional Comparison for Key IV Slices. —— ATM 1-Day distribution histogram plot of real data and generated data.",
+            "chart2": ":Distributional Comparison for Key IV Slices. —— ATM 1-Month distribution histogram plot of real data and generated data.",
+            "table1": "Comparison of Statistical Moments for Key IV Slices (Test Set)"
+        },
+        "question":"Using Table 1, identify all slices where the Diffusion mean is greater than the Real Data mean. Return the result as a list (e.g., [ATM 1-Day, …]). Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": "OTM 1-Week, OTM 3-Month]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2507.09916v3\\chart1.jpg",
+            "table1": "2507.09916v3\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Agent performance in one testing scenario",
+            "table1": "Testing result of the final output"
+        },
+        "question":"Which of the three curves in chart1 is drawn using a green dashed line? Respond only with the label of curve.",
+        "question_type": "perceptual",
+        "answer": "Markowitz",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 43,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2507.20957v4\\chart1.jpg",
+            "table1": "2507.20957v4\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Size bias scores for each evaluated LLM across four market-capitalization quantiles (Q1: largest, Q4: smallest). Bias scores consistently decline as company size decreases.",
+            "table1": ": Independent-samples t-test results for the score gap between each model’s highest- and lowest-scoring quantiles."
+        },
+        "question":"In chart1, on the colorbar, what numerical value is the color closest to “Sell” associated with, and what numerical value is the color closest to “Buy” associated with? Respond in the format: [num1, num2]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": [-1.0, 1.0],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 44,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2507.20957v4\\chart1.jpg",
+            "table1": "2507.20957v4\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Size bias scores for each evaluated LLM across four market-capitalization quantiles (Q1: largest, Q4: smallest). Bias scores consistently decline as company size decreases.",
+            "table1": ": Independent-samples t-test results for the score gap between each model’s highest- and lowest-scoring quantiles."
+        },
+        "question":"From chart1, identify all models that do not satisfy the pattern “Q1 is the maximum value and Q4 is the minimum value.” Return the model names as a list, e.g. [A, B]. Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": "[Llama4-Scout, Mistral-Small-24B]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 45,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.12129v1\\chart1.jpg",
+            "table1": "2511.12129v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "This figure shows Portfolio Value starts with 1 million.",
+            "table1": "IN SAMPLE DATA RESULT: 1995-2007"
+        },
+        "question":"In the chart1, what is the final portfolio value of the Mean-Variance curve at the end of the time series? Respond with the numerical value only, in millions (M).",
+        "question_type": "perceptual",
+        "answer": 10.9917,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 46,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.12129v1\\chart1.jpg",
+            "table1": "2511.12129v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "This figure shows Portfolio Value starts with 1 million.",
+            "table1": "IN SAMPLE DATA RESULT: 1995-2007"
+        },
+        "question":"Using the values in the table, compute the absolute difference between the Annualized Returns of the Equally Weighted and Min-Variance strategies. Respond with a positive number only, without the percent sign. ",
+        "question_type": "reasoning",
+        "answer": 2.83,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 47,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.12129v1\\chart1.jpg",
+            "table1": "2511.12129v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "This figure shows Portfolio Value starts with 1 million.",
+            "table1": "IN SAMPLE DATA RESULT: 1995-2007"
+        },
+        "question":"In the chart1, what is the final portfolio value of the orange curve at the end of the time series? Respond with the numerical value only, in millions (M).",
+        "question_type": "perceptual",
+        "answer": 22.1383,
+        "answer_type": "numeric"
+    },
+
+        {
+        "question_id": 48,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2412.11257v3\\chart1.jpg",
+            "table1": "2412.11257v3\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Ambulance diversion policies evaluation",
+            "table1": "MSE and MAE for mortality evaluation at various τ ."
+        },
+        "question":"Based on the chart, determine which method (MC or PEMC) exhibits a more dispersed distribution across all threshold values. Respond with the method name only.",
+        "question_type": "reasoning",
+        "answer": "MC",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 49,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2503.03306v3\\chart1.jpg",
+            "table1": "2503.03306v3\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Loss distribution for different models with the parameters in Table 1. The horizontal axis is capped at 40 to make the visualization clearer",
+            "table1": "Parameters used for the model comparison. The table lists the marginal default probability, the proportion of default risk attributed to contagion, the infectivity parameter, the correlation of latent variables, the mixing parameter in the mixed model, and the number of assets in the portfolio. All parameters are assumed to be identical across names."
+        },
+        "question":"According to the table, identify which of the four models (CON, OFG, COND, MIX) has no missing values in any parameter column. Respond with the model name only.",
+        "question_type": "perceptual",
+        "answer": "MIX",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 50,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2503.03306v3\\chart1.jpg",
+            "table1": "2503.03306v3\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Loss distribution for different models with the parameters in Table 1. The horizontal axis is capped at 40 to make the visualization clearer",
+            "table1": "Parameters used for the model comparison. The table lists the marginal default probability, the proportion of default risk attributed to contagion, the infectivity parameter, the correlation of latent variables, the mixing parameter in the mixed model, and the number of assets in the portfolio. All parameters are assumed to be identical across names."
+        },
+        "question":"Using the chart, determine which model exhibits the thickest right tail. Respond with the model name only.",
+        "question_type": "reasoning",
+        "answer": "CON",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 51,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2508.19006v1\\chart1.jpg",
+            "table1": "2508.19006v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Annualized Sharpe ratio and Sortino ratio for Equal-weighted. —— Annualized Sharpe ratio comparison",
+            "table1": "Equal-weighted portfolio performance. ‘Ann’ is the notation for annualization, while ‘SR’ and ‘SO’ are short for Sharpe ratio and Sortino ratio respectively. The notation of ‘Std’ means standard deviation, and ‘BHV’ means buy-and-hold strategy in value-weighted portfolios. The values in the parentheses indicate negative values. ‘Ann Return’ and ‘Max Drawdown’ can be transformed to a percentage presentation by multiplying by 100."
+        },
+        "question":"How many distinct strategies are included in table1? Respond only with the number.",
+        "question_type": "perceptual",
+        "answer": 10,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 52,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2508.19006v1\\chart1.jpg",
+            "table1": "2508.19006v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Annualized Sharpe ratio and Sortino ratio for Equal-weighted. —— Annualized Sharpe ratio comparison",
+            "table1": "Equal-weighted portfolio performance. ‘Ann’ is the notation for annualization, while ‘SR’ and ‘SO’ are short for Sharpe ratio and Sortino ratio respectively. The notation of ‘Std’ means standard deviation, and ‘BHV’ means buy-and-hold strategy in value-weighted portfolios. The values in the parentheses indicate negative values. ‘Ann Return’ and ‘Max Drawdown’ can be transformed to a percentage presentation by multiplying by 100."
+        },
+        "question":"Using the table1, compute the range of the annualized Sharpe Ratio (Ann SR) for the self_att strategy across the three periods (1911, 2112, 2212), defined as the maximum value minus the minimum value. Respond only with a positive number.",
+        "question_type": "reasoning",
+        "answer": 0.2515,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 53,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2507.08065v1\\chart1.jpg",
+            "table1": "2507.08065v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Systemic Risk Analysis. Left panel shows absolute values of individual risk components. Right panel displays the percentage contribution of each component to the overall Systemic Risk Index. Correlation risk emerges as the dominant factor (50.3%), followed by concentration risk (27.7%) and network risk (20.4%).",
+            "table1": "Systemic Risk Decomposition"
+        },
+        "question":"Using the pie chart, list the four risk categories in descending order of slice area. Respond only with the risk category names ordered from largest to smallest. Respond only with a list, [risk1, risk2, risk3, risk4]",
+        "question_type": "reasoning",
+        "answer": "[Correlation Risk, Concentration Risk, Network Risk, Volatility Risk]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 54,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2507.08065v1\\chart1.jpg",
+            "table1": "2507.08065v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Systemic Risk Analysis. Left panel shows absolute values of individual risk components. Right panel displays the percentage contribution of each component to the overall Systemic Risk Index. Correlation risk emerges as the dominant factor (50.3%), followed by concentration risk (27.7%) and network risk (20.4%).",
+            "table1": "Systemic Risk Decomposition"
+        },
+        "question":"Identify the chart types included in chart1. List all chart types in the order they appear and respond only with the list.",
+        "question_type": "perceptual",
+        "answer": "[bar chart, pie chart]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 55,
+        "items": ["chart1", "chart2", "table1"],
+        "path": {
+            "chart1": "2507.23496v1\\chart1.jpg",
+            "chart2": "2507.23496v1\\chart2.jpg",
+            "table1": "2507.23496v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Averaged optimal portfolio weights grouped by risk categories",
+            "chart2": "Averaged optimal portfolio weights grouped by risk categories",
+            "table1": "Averaged optimal portfolio weights"
+        },
+        "question":"Using chart1, extract the weights of the three ESG risk categories (High, Medium, Low) and organize them into a 2D list in the following format: [[Category,Weight],[High,x],[Medium,y],[Low,z]].Report the weights without percent signs. Respond only with the 2D list.",
+        "question_type": "chart to table",
+        "answer": [["Category","Weight"],["High",20],["Medium",62],["Low",18]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 56,
+        "items": ["chart1", "chart2", "table1"],
+        "path": {
+            "chart1": "2507.23496v1\\chart1.jpg",
+            "chart2": "2507.23496v1\\chart2.jpg",
+            "table1": "2507.23496v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Averaged optimal portfolio weights grouped by risk categories",
+            "chart2": "Averaged optimal portfolio weights grouped by risk categories",
+            "table1": "Averaged optimal portfolio weights"
+        },
+        "question":"Based on the chart2, count how many stocks fall under the Medium risk category. Respond only with the number.",
+        "question_type": "perceptual",
+        "answer": 7,
+        "answer_type": "numeric"
+    },
+
+
+
+    {
+        "question_id": 57,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.01041v1\\chart1.jpg",
+            "table1": "2509.01041v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Relative CRPS improvement versus the best baseline for the one–day (1D) horizon.",
+            "table1": "Core predictive metrics for the one–day (1D) horizon. The relative improvements are reported relative to the best baseline (excluding NeuralLevy); positive values denote better performance."
+        },
+        "question":"According to Table 1, identify which model performs better than the best baseline. Respond with the model name only.",
+        "question_type": "reasoning",
+        "answer": "NeuralLevy",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 58,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.03260v1\\chart1.jpg",
+            "table1": "2509.03260v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Ablation Study Results",
+            "table1": "ABLATION STUDY RESULTS"
+        },
+        "question":"According to Table 1, how many composite model settings (i.e., settings explicitly formed by combining multiple base components) are included? Respond with the number only.",
+        "question_type": "perceptual",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 59,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.03260v1\\chart1.jpg",
+            "table1": "2509.03260v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Ablation Study Results",
+            "table1": "ABLATION STUDY RESULTS"
+        },
+        "question":"Using the values in the chart, identify the model that shows the largest PR-AUC drop relative to Full HyPV-LEAD, and compute the magnitude of this drop (as a positive number). Respond only with the numerical value.",
+        "question_type": "reasoning",
+        "answer": 0.0343,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 60,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.03260v1\\chart1.jpg",
+            "table1": "2509.03260v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Ablation Study Results",
+            "table1": "ABLATION STUDY RESULTS"
+        },
+        "question":"Using the values in the chart, identify the two bars whose PR-AUC values are closest to each other, and compute the absolute difference between them. Respond only with the numerical value.",
+        "question_type": "reasoning",
+        "answer": 0.0009,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 61,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.10802v1\\chart1.jpg",
+            "table1": "2509.10802v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Ablation experiment comparison",
+            "table1": "Ablation experiment results"
+        },
+        "question":"What color is used for the AUC bars in the chart1? Respond only with the color.",
+        "question_type": "perceptual",
+        "answer": "green",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 62,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.10802v1\\chart1.jpg",
+            "table1": "2509.10802v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Ablation experiment comparison",
+            "table1": "Ablation experiment results"
+        },
+        "question":"Using table 1, count how many bolded values appear under each model and identify the model with the greatest number of bolded values. Respond with the model name only.",
+        "question_type": "perceptual",
+        "answer": "EMDLOT",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 63,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.22206v1\\chart1.jpg",
+            "table1": "2510.22206v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Plot showing the three different distributions found by the RL trading agent for each objective function. The plot also shows the aggregate volume over 1 minute periods in red. The lunch period is shown as a shaded region.",
+            "table1": "Comparison of risk, impact, and slippage across execution strategies. Based on a sell meta-order size of 5000, executed over 1000 orders. Distribution parameters are optimised by an RL agent over 50 episodes; values in the table are averaged over 10 Monte Carlo runs from the test data. Distance refers to the Euclidean distance from the efficient frontier."
+        },
+        "question":"What metric is represented on the y-axis for the red line in chart1? Respond only with the metric.",
+        "question_type": "perceptual",
+        "answer": "Executed Volume",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 64,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.22206v1\\chart1.jpg",
+            "table1": "2510.22206v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Plot showing the three different distributions found by the RL trading agent for each objective function. The plot also shows the aggregate volume over 1 minute periods in red. The lunch period is shown as a shaded region.",
+            "table1": "Comparison of risk, impact, and slippage across execution strategies. Based on a sell meta-order size of 5000, executed over 1000 orders. Distribution parameters are optimised by an RL agent over 50 episodes; values in the table are averaged over 10 Monte Carlo runs from the test data. Distance refers to the Euclidean distance from the efficient frontier."
+        },
+        "question":"In the chart1, the gray shaded region represents the lunch break. Identify the exact x-axis range of this shaded area and return it in the format [left, right].",
+        "question_type": "perceptual",
+        "answer": "[12:00, 13:00]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 65,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.22206v1\\chart1.jpg",
+            "table1": "2510.22206v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Plot showing the three different distributions found by the RL trading agent for each objective function. The plot also shows the aggregate volume over 1 minute periods in red. The lunch period is shown as a shaded region.",
+            "table1": "Comparison of risk, impact, and slippage across execution strategies. Based on a sell meta-order size of 5000, executed over 1000 orders. Distribution parameters are optimised by an RL agent over 50 episodes; values in the table are averaged over 10 Monte Carlo runs from the test data. Distance refers to the Euclidean distance from the efficient frontier."
+        },
+        "question":"Using table1, compare the Slippage values of the three strategies under the Slippage loss and compute the difference between the maximum and minimum values. Respond only with a positive number.",
+        "question_type": "reasoning",
+        "answer": 11.47,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 66,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2508.18592v1\\chart1.jpg",
+            "table1": "2508.18592v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Strategy returns of three machine learning algorithms",
+            "table1": "Backtest results of three machine learning algorithms"
+        },
+        "question":"What is the color of the Ridge strategy curve in the line chart? Respond only with the color name.",
+        "question_type": "perceptual",
+        "answer": "Blue",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 67,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2508.18592v1\\chart1.jpg",
+            "table1": "2508.18592v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Strategy returns of three machine learning algorithms",
+            "table1": "Backtest results of three machine learning algorithms"
+        },
+        "question":"How many strategies are shown in the legend of the line chart? Respond with the numerical value only.",
+        "question_type": "perceptual",
+        "answer": 4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 68,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.00697v1\\chart1.jpg",
+            "table1": "2509.00697v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Summary of Minimum, Maximum, and Mode Returns for Nifty 50 Across Investment Horizons (1990–2024).",
+            "table1": "Minimum, Maximum, and Mode CAGR of Nifty 50 Across Multi-Year Holding Periods (1990–2024)"
+        },
+        "question":"In the “Minimum Return vs Holding Period” bar chart, which holding period corresponds to the lightest-colored bar? Respond only with a number.",
+        "question_type": "perceptual",
+        "answer": 12,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 69,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.00697v1\\chart1.jpg",
+            "table1": "2509.00697v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Summary of Minimum, Maximum, and Mode Returns for Nifty 50 Across Investment Horizons (1990–2024).",
+            "table1": "Minimum, Maximum, and Mode CAGR of Nifty 50 Across Multi-Year Holding Periods (1990–2024)"
+        },
+        "question":"Using the table, compute the range of the Max CAGR from 1 to 12 years (i.e., the maximum value minus the minimum value). Return a positive number only.",
+        "question_type": "reasoning",
+        "answer": 291.90,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 70,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.24151v1\\chart1.jpg",
+            "table1": "2509.24151v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Error Metrics of Movie Rating Forecasting (normalized by unweighted average)",
+            "table1": "Summary of Results on Toy Datasets."
+        },
+        "question":"How many distinct metrics are included in the table1? Respond only with a number.",
+        "question_type": "perceptual",
+        "answer": 6,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 71,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.24151v1\\chart1.jpg",
+            "table1": "2509.24151v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Error Metrics of Movie Rating Forecasting (normalized by unweighted average)",
+            "table1": "Summary of Results on Toy Datasets."
+        },
+        "question":"In chart1, what does the green bar under RMSE represent? Respond with the corresponding metric name.",
+        "question_type": "perceptual",
+        "answer": "Basket Similarity",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 72,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2505.17388v1\\chart1.jpg",
+            "table1": "2505.17388v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Correlation coefficients between metrics and corresponding price changes within the windows",
+            "table1": "Correlation coefficients between metrics and corresponding price changes within the windows"
+        },
+        "question":"What is the color of the OFI curve in chart1? Respond only with the color. ",
+        "question_type": "perceptual",
+        "answer": "blue",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 73,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.21337v1\\chart1.jpg",
+            "table1": "2509.21337v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Cross-Market Revenue of a 10MW/10MWh BESS from 2019 until 2023",
+            "table1": "CROSS-MARKET BESS REVENUE FROM 2019 UNTIL 2023."
+        },
+        "question":"In chart1, how many revenue categories appear in the legend, and what are their names? List all category names in the order they appear from top to bottom, and respond in the format: [category1, category2, category3]. Output only the list.",
+        "question_type": "perceptual",
+        "answer": "[DAA Rev, IDA Rev, IDC Rev]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 74,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.21337v1\\chart1.jpg",
+            "table1": "2509.21337v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Cross-Market Revenue of a 10MW/10MWh BESS from 2019 until 2023",
+            "table1": "CROSS-MARKET BESS REVENUE FROM 2019 UNTIL 2023."
+        },
+        "question":"Using chart1, compute the year-over-year (YoY) increases in IDC Rev for 2019–2023 (i.e., IDC Rev of the current year minus that of the previous year). Identify the year with the largest YoY increase and report the corresponding increase value. Respond only with the number.",
+        "question_type": "reasoning",
+        "answer": 277,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 75,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.21337v1\\chart1.jpg",
+            "table1": "2509.21337v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Cross-Market Revenue of a 10MW/10MWh BESS from 2019 until 2023",
+            "table1": "CROSS-MARKET BESS REVENUE FROM 2019 UNTIL 2023."
+        },
+        "question":"Using chart1, extract the exact revenue values of the three categories (DAA Rev, IDA Rev, IDC Rev) for each year from 2019 to 2023. Organize the results into a 2D list with column label in the following format: [[Year,DAA,IDA,IDC],[2019,x,x,x],[2020,x,x,x],[2021,x,x,x],[2022,x,x,x],[2023,x,x,x]]. Output only the 2D list with numerical values.",
+        "question_type": "chart to table",
+        "answer": [["Year","DAA","IDA","IDC"],
+        [2019,116.4,80.5,127.4],
+        [2020,129.1,142.6,157.7],
+        [2021,312.5,198,250],
+        [2022,751.9,328.3,527],
+        [2023,392.5,258,362.4]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 76,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.12120v1\\chart1.jpg",
+            "table1": "2511.12120v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Performance during the stock market crash in the first quarter of 2020.",
+            "table1": "PERFORMANCE EVALUATION COMPARISON."
+        },
+        "question":"In chart1, how many strategy (model) curves are displayed? Count only the solid lines that represent investment strategies or models, excluding the Turbulence Index (red dashed line). Respond with the numerical value only.",
+        "question_type": "perceptual",
+        "answer": 6,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 77,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.12120v1\\chart1.jpg",
+            "table1": "2511.12120v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Performance during the stock market crash in the first quarter of 2020.",
+            "table1": "PERFORMANCE EVALUATION COMPARISON."
+        },
+        "question":"According to chart1, which strategy curve experiences the largest decline during the period from February 20 to March 20? Respond with the strategy name only.",
+        "question_type": "reasoning",
+        "answer": "DDPG",
+        "answer_type": "text"
+    }
+]

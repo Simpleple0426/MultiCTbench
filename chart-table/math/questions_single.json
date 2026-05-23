@@ -1,0 +1,775 @@
+[
+    {
+        "question_id": 1,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.18593v1\\chart1.jpg",
+            "table1": "2511.18593v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Results: Standard Diffusion (Red) fails. Weighted Diffusion (Green) recovers the topology.",
+            "table1": "Barbell Graph (ρ = 0.50). Standard diffusion fails to capture the bridge. Our Weighted method recovers the performance of the optimal Spectral Oracle."
+        },
+        "question": "Compute the difference in mean Spectral Error between Random Sampling and Weighted Diffusion (Ours) in Table 1 (Random − Weighted). Round to two decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.31,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 2,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.18593v1\\chart1.jpg",
+            "table1": "2511.18593v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Results: Standard Diffusion (Red) fails. Weighted Diffusion (Green) recovers the topology.",
+            "table1": "Barbell Graph (ρ = 0.50). Standard diffusion fails to capture the bridge. Our Weighted method recovers the performance of the optimal Spectral Oracle."
+        },
+        "question": "From Chart 1, extract the Connectivity percentages of the four methods and organize them into the following 2D table with the header row: [ [Method, Connectivity], [Random, x], [Standard, x], [Weighted, x], [Spectral, x] ] Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Method", "Connectivity"],
+            ["Random", 46.0],
+            ["Standard", 0.0],
+            ["Weighted", 89.6],
+            ["Spectral", 88.2]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.03288v1\\chart1.jpg",
+            "table1": "2512.03288v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Convergence of Error Rate. The relative error (Coefficient of Variation) between the signal model count and the theoretical density decays as O(L −1/2 ). This vanishing error rate is the signature of a deterministic system stabilizing as the energy scale increases.",
+            "table1": "Direct verification of Theorem 4.10. The normalized error decays with exponent α ≈ 1.67, exceeding the proven bound α = 1."
+        },
+        "question": "What asymptotic complexity notation appears in the title of Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "O(1)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.10087v1\\chart1.jpg",
+            "table1": "2512.10087v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Scaling of Beta distribution parameters with vertex count n. Left: α grows approximately as 4.25n. Center: β grows as 1.78n. Right: Mean normalized volume stabilizes near 0.69 ≈ ln 2.",
+            "table1": "Beta distribution fit parameters for normalized volume V/Vmax."
+        },
+        "question": "Using the linear fit shown in Chart 1, estimate β at n = 9. Round to two decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 8.62,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.10087v1\\chart1.jpg",
+            "table1": "2512.10087v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Scaling of Beta distribution parameters with vertex count n. Left: α grows approximately as 4.25n. Center: β grows as 1.78n. Right: Mean normalized volume stabilizes near 0.69 ≈ ln 2.",
+            "table1": "Beta distribution fit parameters for normalized volume V/Vmax."
+        },
+        "question": "Visualize the Mean values in Table 1 as a line chart. Plot requirements: Use Python with matplotlib X-axis: n Y-axis: Mean Add a horizontal reference line at y = 0.69 Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "line_chart",
+            "data": [[0.659, 0.623, 0.667, 0.685, 0.696, 0.692]],
+            "operation": null,
+            "title": "Mean Values Visualization",
+            "xlabel": "n",
+            "ylabel": "Mean",
+            "legend": true,
+            "tick": {
+                "xticklabels": [5, 6, 7, 8, 10, 12],
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": true,
+                "marker": true,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 6,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.10401v1\\chart1.jpg",
+            "table1": "2512.10401v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Average running times of diffusion resampling and OT",
+            "table1": "The errors of loss function, filtering (scaled by 10−1 ), and parameter estimation (scaled by 10−1 ) for Section 4.2. Divergent NaN results are explained in Appendix H"
+        },
+        "question": "What line style is used for OT (ε = 0.1) in the left subplot of Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "dashed",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.12276v1\\chart1.jpg",
+            "table1": "2512.12276v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "RMSE values for MF-EnKF with the Neural Network (NN) surrogate versus a MF-EnKF with a low resolution surrogate. The number of surrogate runs is fixed at NU = 20.",
+            "table1": "Prediction accuracy for the low-resolution surrogates of dimension r = 120 (m120), r = 240 (m240) and r = 480 (m480), and the ML surrogate (denoted by NN) at different lead times. In bold the minimum RMSE is highlighted."
+        },
+        "question": "What is the RMSE value of m120 at Nx=2 in Chart 1? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.7,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.12276v1\\chart1.jpg",
+            "table1": "2512.12276v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "RMSE values for MF-EnKF with the Neural Network (NN) surrogate versus a MF-EnKF with a low resolution surrogate. The number of surrogate runs is fixed at NU = 20.",
+            "table1": "Prediction accuracy for the low-resolution surrogates of dimension r = 120 (m120), r = 240 (m240) and r = 480 (m480), and the ML surrogate (denoted by NN) at different lead times. In bold the minimum RMSE is highlighted."
+        },
+        "question": "Compute the average RMSE of NN across all Nx values in Chart 1. Respond only with a single numeric value. Round to three decimals.",
+        "question_type": "reasoning",
+        "answer": 0.474,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 9,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.12388v1\\chart1.jpg",
+            "table1": "2512.12388v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Effects of Parameter Variationson R0",
+            "table1": "Sensitivity Analysis for the model (5)"
+        },
+        "question": "Compute the sum of the sensitivity indices of all parameters in Table 1 that have a positive effect on R0. Respond only with a single numeric value. Round to four decimal places.",
+        "question_type": "reasoning",
+        "answer": 1.1812,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.14590v1\\chart1.jpg",
+            "table1": "2512.14590v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "A log-log plot of the relative max error of the operator images against the average edge length ℎ for a collection of spheres. 𝐹 denotes the discretized boundary-to-far field map",
+            "table1": "Averaged runtimes for 16 simultaneous operator evaluations in seconds with wave number 𝜅 = π. For the evaluation of the far field operator 𝐹, the discretized version of (4) is solved and (5) is evaluated at 2562 evaluation points on S 2 . The relatively long evaluation time for the far field of “Spot” can be explained by bad conditioning of the operator equation (4). The mesh “Spot” is shown in Table 3."
+        },
+        "question": "Compute the growth factor of apply 𝓥 runtime from Sphere (40560) to Sphere (81920). Round to two decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 3.69,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 11,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.15421v2\\chart1.jpg",
+            "table1": "2512.15421v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Median first-step contraction ρ0 versus dimension n (logarithmic horizontal axis). Contraction occurs for every dimension and every trial, while its magnitude strengthens monotonically with n. The shaded region denotes the interquartile range, which decreases sharply for large n, indicating increasing stability of contraction strength.",
+            "table1": "Representative median first-step contraction ratios ρ0 showing strengthening with dimension."
+        },
+        "question": "Compute the difference in Median ρ₀ between n = 3 and n = 2000 in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.63,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.16179v1\\chart1.jpg",
+            "table1": "2512.16179v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "FTLE growth examples for ref002. Examples of ensemble-averaged growth curves and their MAE-optimal linear fits. Blue markers show the empirical profile as a function of tau, while the solid lines indicate the selected short horizon fit (one or two line model). The red marker at tau = 0 denotes the initial ensemble deviation, plotted for completeness but excluded from the slope estimation.",
+            "table1": "Micro-ensemble data used for FTLE estimation at two reference times. Each table lists the short-time offset τ , the geometric mean distance dgeo(τ ), and its logarithm log(dgeo(τ ))."
+        },
+        "question": "Compute the increase in d_geo for Dataset B from τ = 0.10 to τ = 0.30. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.532674,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.16179v1\\chart1.jpg",
+            "table1": "2512.16179v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "FTLE growth examples for ref002. Examples of ensemble-averaged growth curves and their MAE-optimal linear fits. Blue markers show the empirical profile as a function of tau, while the solid lines indicate the selected short horizon fit (one or two line model). The red marker at tau = 0 denotes the initial ensemble deviation, plotted for completeness but excluded from the slope estimation.",
+            "table1": "Micro-ensemble data used for FTLE estimation at two reference times. Each table lists the short-time offset τ , the geometric mean distance dgeo(τ ), and its logarithm log(dgeo(τ ))."
+        },
+        "question": "Visualize the variation of d_geo with respect to τ for Dataset A and Dataset B in Table 1. Plot requirements: Use Python with matplotlib. Create a line plot. Use a logarithmic scale on the y-axis. Plot Dataset A and Dataset B on the same figure. Distinguish the two datasets using different colors or line styles. Add a legend, title, and axis labels. Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "line_chart",
+            "data": [
+                [0.05276, 0.07796, 0.14745, 0.26399, 0.41710, 0.57560, 0.70218, 0.80995, 0.92923, 1.09388, 1.30538, 1.52870, 1.71986],
+                [0.05306, 0.09704, 0.15603, 0.23977, 0.37264, 0.53597, 0.68870, 0.80944, 0.91219, 1.03182, 1.20018, 1.42178, 1.66225]
+            ],
+            "operation": "log",
+            "title": "Variation of d_geo with respect to τ",
+            "xlabel": "t",
+            "ylabel": "log(d_geo)",
+            "legend": true,
+            "tick": {
+                "xticklabels":  [0.00, 0.05, 0.10, 0.15, 0.20, 0.25, 0.30, 0.35, 0.40, 0.45, 0.50, 0.55, 0.60],
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": true,
+                "marker": true,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 14,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.16346v1\\chart1.jpg",
+            "table1": "2512.16346v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": ". Example 3: 1-D slices along the line y = π of the solutions from Figure 4.3 together with the reference solution.",
+            "table1": "L1-errors and experimental convergence rates for u and b3 computed by the LCD-PCCU and PCCU schemes"
+        },
+        "question": "Compute the difference between the maximum and minimum convergence rates for b₃ under the PCCU Scheme. Respond only with a single numeric value. Round to two decimal places.",
+        "question_type": "reasoning",
+        "answer": 0.43,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.16363v1\\chart1.jpg",
+            "table1": "2512.16363v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Performance of different methods for mean inference under the over-identified gθ. The nominal miscoverage level is α = 0.1. EPI (Basis), the proposed basis-expansion estimator; EPI (CF), the proposed cross-fitted estimator; RePPI, the recalibrated prediction-powered inference; PDC, the prediction decorrelated estimator; PPI, the prediction-powered inference; Sup (EL), the empirical likelihood-based supervised estimator; Sup (Mean), the sample mean supervised estimator",
+            "table1": "Performance of different methods in the linear regression problem. The nominal significance level is α = 0.1."
+        },
+        "question": "Which method has the smallest variance in Size (C = 1) across ρ in Table 1? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Sup",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 16,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.16363v1\\chart1.jpg",
+            "table1": "2512.16363v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Performance of different methods for mean inference under the over-identified gθ. The nominal miscoverage level is α = 0.1. EPI (Basis), the proposed basis-expansion estimator; EPI (CF), the proposed cross-fitted estimator; RePPI, the recalibrated prediction-powered inference; PDC, the prediction decorrelated estimator; PPI, the prediction-powered inference; Sup (EL), the empirical likelihood-based supervised estimator; Sup (Mean), the sample mean supervised estimator",
+            "table1": "Performance of different methods in the linear regression problem. The nominal significance level is α = 0.1."
+        },
+        "question": "Visualize how Power (C = 1.1) varies with ρ for all methods in Table 1. Plot requirements: Use Python with matplotlib. Create a multi-line plot. X-axis: ρ. Y-axis: Power (C = 1.1). Each line represents one method. Include a legend, title, and axis labels. Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "line_chart",
+            "data": [
+                [0.584, 0.584, 0.583, 0.578, 0.573],  
+                [0.546, 0.567, 0.569, 0.542, 0.522], 
+                [0.537, 0.532, 0.519, 0.509, 0.520],  
+                [0.543, 0.527, 0.487, 0.396, 0.257],  
+                [0.469, 0.456, 0.410, 0.300, 0.162],  
+                [0.201, 0.201, 0.201, 0.201, 0.201]
+            ],
+            "operation": null,
+            "title": "Visualization of Power (C = 1.1) vs. ρ for All Methods",
+            "xlabel": "ρ",
+            "ylabel": "Power (C = 1.1)",
+            "legend": true,
+            "tick": {
+                "xticklabels": ["0.1", "0.5", "1", "2", "5"], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": true,
+                "marker": true,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.17203v1\\chart1.jpg",
+            "table1": "2512.17203v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Convergence study on the torus dynamics. The RMSE’s are evaluated on the 32000 test trajectories. The markers and shades show the mean and min-max bounds of RMSE’s, respectively. Consistently over all the ambient dimensions, DM exhibits a faster convergence rate than the RBF.",
+            "table1": "Statistics of the valid prediction time (VPT) for Lorenz-63 dynamics."
+        },
+        "question": "As ambient dimension increases, how does the convergence order of DM change? A. Increases B. Decreases C. Remains approximately stable D. Becomes undefined Respond only with a single letter.",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.17273v1\\chart1.jpg",
+            "table1": "2512.17273v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Performance of the proposed MINPO method on the inverse formulation of Experiment I (Exp. 3.1). The top row shows the performance of MINPO (KAN) across all tested values of κ. The bottom row compares MINPO with A-PIKAN for κ = 0.3. In all cases, the KAN architecture is selected so that the number of available training samples Nres is approximately equal to the total number of trainable parameters |θ|, ensuring a balanced and fair comparison across methods.",
+            "table1": "Results for Experiment I (Exp. 3.1) in inverse mode showing the relative errors of u and the memory term for different values of κ. For cKAN models, a three-layer network with 15 neurons per layer and polynomial degree 3 is used, while MLP models use a three-layer network with 30 neurons per layer and the tanh activation function. All models are trained with 2000 residual points and 10 measurement data using 10,000 Adam iterations followed by L-BFGS optimization. MINPO accurately identifies both the unknown field and the memory parameter κ, while A-PIKAN and A-PINN show reduced accuracy in recovering the inverse solution."
+        },
+        "question": "What line style is used to represent A-PIKAN in the bottom row of Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "dashed",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.18059v1\\chart1.jpg",
+            "table1": "2512.18059v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Random sketching for the problem (37) in dimension d = 4.",
+            "table1": "Hyperparameters for each sketching size s."
+        },
+        "question": "What marker shape is used to represent s = 30 in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "triangle",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 20,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.18208v1\\chart1.jpg",
+            "table1": "2512.18208v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Relative error log₁₀(‖u_num − u_ex‖ / ‖u_ex‖) versus the panel threshold ε_pan in the SGN scheme for different geometries, including droplet, triangle, and L-shaped domains.",
+            "table1": "Baseline comparison between UM and SGN"
+        },
+        "question": "What color is used to represent the Triangle domain in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "orange",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 21,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.18587v1\\chart1.jpg",
+            "table1": "2512.18587v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Real networks (oracle/simplex diagnostic): mean test log-loss by dataset (lower is better). This panel visualizes the span-vs-simplex mechanism on real networks: BPS LS can dramatically outperform convex mixing/selection when the convex hull is too restrictive.",
+            "table1": "S2 learning curve (mean ± s.e. over R = 10 replicates per n). Test log-loss decreases with n and variability shrinks. BPS LS retains a stable advantage at every n, consistent with a persistent approximation gap plus a shrinking estimation term."
+        },
+        "question": "Visualize the LogLoss values of all three models in Table 1 as a function of n. Plot requirements: Use Python with matplotlib. Create a multi-line plot. X-axis: n. Y-axis: LogLoss. Each line represents one model. Include a legend, title, and axis labels. Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "line_chart",
+            "data": [
+                [0.6953, 0.6897, 0.6866, 0.6879],
+                [0.8203, 0.8233, 0.8215, 0.8168],
+                [0.8190, 0.8233, 0.8215, 0.8168]
+            ],
+            "operation": null,
+            "title": "LogLoss of Models as a Function of n",
+            "xlabel": "n",
+            "ylabel": "LogLoss",
+            "legend": true,
+            "tick": {
+                "xticklabels": [200, 400, 800, 1200],
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": true,
+                "marker": true,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.18587v1\\chart1.jpg",
+            "table1": "2512.18587v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Real networks (oracle/simplex diagnostic): mean test log-loss by dataset (lower is better). This panel visualizes the span-vs-simplex mechanism on real networks: BPS LS can dramatically outperform convex mixing/selection when the convex hull is too restrictive.",
+            "table1": "S2 learning curve (mean ± s.e. over R = 10 replicates per n). Test log-loss decreases with n and variability shrinks. BPS LS retains a stable advantage at every n, consistent with a persistent approximation gap plus a shrinking estimation term."
+        },
+        "question": "Is the bar color used for BPS_Simplex in Chart 1 light or dark? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "light",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 23,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.18819v1\\chart1.jpg",
+            "table1": "2512.18819v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Total carbon accounts over the experimental horizon.",
+            "table1": "Generation resource carbon accounts and total power production over the experimental horizon."
+        },
+        "question": "Compute the proportion of Nuclear Dispatch relative to total Dispatch in Table 1. Respond only with a single numeric value rounded to three decimals.",
+        "question_type": "reasoning",
+        "answer": 0.104,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 24,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.18819v1\\chart1.jpg",
+            "table1": "2512.18819v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Total carbon accounts over the experimental horizon.",
+            "table1": "Generation resource carbon accounts and total power production over the experimental horizon."
+        },
+        "question": "Compute the proportion of fossil fuel (Coal + Gas) Carbon Account relative to the total absolute Carbon Account in Table 1. Respond only with a single numeric value rounded to three decimals.",
+        "question_type": "reasoning",
+        "answer": 0.042,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 25,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.19015v1\\chart1.jpg",
+            "table1": "2512.19015v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The evolution of Eˆm for the initial data (61), (62) (left), and for the initial data (63), (64) (right).",
+            "table1": "Numerical estimates for lower and upper bounds on ac."
+        },
+        "question": "Which J values appear in the legend of Chart 1? Respond only with a list of integers.",
+        "question_type": "perceptual",
+        "answer": [1024, 4096, 16384, 65536],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.19465v2\\chart1.jpg",
+            "table1": "2512.19465v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Normalized misinformation (IM) versus the number of edges added per new node (m) in Barabasi–Albert networks with n = 5000 nodes and a delta-distributed true state. Misinformation initially decreases monotonically with increasing m, reflecting the well-known role of hubs in enhancing robustness and stabilizing information flow in scale-free structures. Beyond an intermediate threshold, however, misinformation increases again, indicating a regime in which hub-driven fluctuations accumulate and propagate through the network. In the extremely sparse limit (small m), Barabasi–Albert networks outperform random and small-world networks of comparable density, owing to their highly connected hubs, which act as efficient integrators and provide redundant communication pathways. Shaded regions show the regimes occupied by real-world scale-free networks and their corresponding misinformation levels, based on the comparable connectivity estimates reported in Table 1.",
+            "table1": "Representative biological scale-free networks with example hubs, functional roles relevant to misinformation suppression, and their characteristic degree-distribution exponents γ and approximate Barab´asi–Albert parameter m (⟨k⟩ ≈ 2m). Neuronal ranges vary due to differences in connectome resolution, parcellation, and thresholding across datasets [70–73]."
+        },
+        "question": "What is the maximum γ range width among systems in Table 1? Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.19647v1\\chart1.jpg",
+            "table1": "2512.19647v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Numerical errors for the stochastic Schrödinger equation with a nonlocal nonlinearity and multiplicative noise.",
+            "table1": "Expected and numerical rates of convergence for the linear stochastic Schrödinger equation."
+        },
+        "question": "In Table 1, compute for each method the increase in numerical rate from “all step sizes” to “step sizes 2⁻⁵ to 2⁻⁷” (later − former). Which methods achieve the maximum increase? Respond only with a list of strings.",
+        "question_type": "reasoning",
+        "answer": "[EXM, CNM]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.19994v1\\chart1.jpg",
+            "table1": "2512.19994v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Runtime vs Problem Size: SQP (left) and IP (right) variants, applied directly to problem (5) vs MLR framework.",
+            "table1": "Algorithm Runtimes and Objective Values Across Problem Sizes"
+        },
+        "question": "Visualize the Runtime (s) versus Number of Turbines for all methods in Table 1. Plot requirements: Use Python with matplotlib. Create a multi-line plot. X-axis: Number of Turbines. Y-axis: Runtime (s). Each line represents one method. Include a legend, title, and axis labels. Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "line_chart",
+            "data": [
+                [3719, 10147, 29288, 57565, null, null],
+                [1225, 4315, 15363, 52469, 109790, null],
+                [3404, 4780, 7414, 14795, 27837, 55954],
+                [364, 569, 933, 1873, 3353, 6976]
+            ],
+            "operation": null,
+            "title": "Runtime vs Number of Turbines",
+            "xlabel": "Number of Turbines",
+            "ylabel": "Runtime (s)",
+            "legend": true,
+            "tick": {
+                "xticklabels": [25, 36, 49, 64, 81, 100], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": true,
+                "marker": true,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 29,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.20019v1\\chart1.jpg",
+            "table1": "2512.20019v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Partial-effect matrix (standardized slopes). Each column varies one knob; each row is a summary statistic. Values quantify cross-effects under mean-degree calibration.",
+            "table1": "Standardized one-at-a-time effects (SD(stat) per SD(knob); extracted from chart1). Bold highlights the intended primary knob for each statistic (diagonal), not necessarily the largest effect."
+        },
+        "question": "How many distinct statistics are shown on the y-axis of Chart 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 30,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.20019v1\\chart1.jpg",
+            "table1": "2512.20019v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Partial-effect matrix (standardized slopes). Each column varies one knob; each row is a summary statistic. Values quantify cross-effects under mean-degree calibration.",
+            "table1": "Standardized one-at-a-time effects (SD(stat) per SD(knob); extracted from chart1). Bold highlights the intended primary knob for each statistic (diagonal), not necessarily the largest effect."
+        },
+        "question": "From Chart 1, extract all statistics under the alpha knob and organize them into a 2D table: [[Statistic, alpha], ...] Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Statistic", "alpha"],
+            ["mean_deg", 0.08],
+            ["deg_q99", -0.91],
+            ["clustering", 0.99],
+            ["assort", 0.91],
+            ["alpha_hat", 0.95]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 31,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.20058v1\\chart1.jpg",
+            "table1": "2512.20058v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Impact of the output subspace dimension Kout on model performance for the high-frequency case k^2 = 10. Increasing the embedding dimension effectively mitigates errors caused by spectral crossing at the boundary of the range of interest.",
+            "table1": "Ablation study and baseline comparison. DEN denotes the proposed model using the POD(Y) basis and low-rank banded mixing. DEN-BFR uses banded mixing without a low-rank constraint. DEN-Dense applies global mixing without banded or low-rank constraints. DEN-Diag removes cross-mode mixing and uses diagonal-only interactions. DEN-XY uses a joint POD basis of inputs and outputs, equivalent to PODNO with mixing. DEN-Lap uses graph Laplacian eigenfunctions as the basis, equivalent to G-FuNK with mixing. PODNO and G-FuNK are standard baselines without mixing mechanisms. FNO denotes the standard Fourier Neural Operator with interpolation."
+        },
+        "question": "What marker shape is used in the ReL1 subplot of Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "square",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 32,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.20058v1\\chart1.jpg",
+            "table1": "2512.20058v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Impact of the output subspace dimension Kout on model performance for the high-frequency case k^2 = 10. Increasing the embedding dimension effectively mitigates errors caused by spectral crossing at the boundary of the range of interest.",
+            "table1": "Ablation study and baseline comparison. DEN denotes the proposed model using the POD(Y) basis and low-rank banded mixing. DEN-BFR uses banded mixing without a low-rank constraint. DEN-Dense applies global mixing without banded or low-rank constraints. DEN-Diag removes cross-mode mixing and uses diagonal-only interactions. DEN-XY uses a joint POD basis of inputs and outputs, equivalent to PODNO with mixing. DEN-Lap uses graph Laplacian eigenfunctions as the basis, equivalent to G-FuNK with mixing. PODNO and G-FuNK are standard baselines without mixing mechanisms. FNO denotes the standard Fourier Neural Operator with interpolation."
+        },
+        "question":"At K_out = 24 in Chart 1, which metric has the smallest value? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "RelL1",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 33,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.20247v1\\chart1.jpg",
+            "table1": "2512.20247v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Ornstein–Uhlenbeck process. The figure shows the mean empirical L-infinity error of 30 realizations of the stochastic Koopman approximation as a function of the fill distance. The plots compare constant and adaptive choices of training sample size and regularization parameter. Error bars indicate the standard deviation over the realizations.",
+            "table1": "Adaptive parameters. The table lists the values of fill distance, regularization parameter, and number of training samples used in the adaptive setting for the stochastic Koopman approximation experiments."
+        },
+        "question": "What marker shape is used for the Matérn kernel in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "circle",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 34,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.20268v1\\chart1.jpg",
+            "table1": "2512.20268v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Histogram of priors and posteriors of log hydraulic conductivity for the M = 23 and M = 100 sensor configurations, along with the true values (red)",
+            "table1": "EKI performance versus ensemble size J for two sensor layouts"
+        },
+        "question": "What color is used to represent the prior distribution in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "gray",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.20268v1\\chart1.jpg",
+            "table1": "2512.20268v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Histogram of priors and posteriors of log hydraulic conductivity for the M = 23 and M = 100 sensor configurations, along with the true values (red)",
+            "table1": "EKI performance versus ensemble size J for two sensor layouts"
+        },
+        "question": "Under M = 100 sensors, how many minutes does Time increase when J increases from 500 to 1000? Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 17.12,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.20268v1\\chart1.jpg",
+            "table1": "2512.20268v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Histogram of priors and posteriors of log hydraulic conductivity for the M = 23 and M = 100 sensor configurations, along with the true values (red)",
+            "table1": "EKI performance versus ensemble size J for two sensor layouts"
+        },
+        "question": "Visualize #G evals versus J for both M = 23 and M = 100 configurations from Table 1. Plot requirements: Use Python with matplotlib. Create a multi-line plot. X-axis: J. Y-axis: #G evals. Include a legend, title, and axis labels. Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "line_chart",
+            "data": [
+                [4500, 11000, 60000],
+                [6500, 16000, 80000]
+            ],
+            "operation": null,
+            "title": "#G evals vs J for M = 100 and M = 23 sensors",
+            "xlabel": "J",
+            "ylabel": "#G evals",
+            "legend": true,
+            "tick": {
+                "xticklabels": ["500", "1000", "5000"], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": true,
+                "marker": true,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.20914v1\\chart1.jpg",
+            "table1": "2512.20914v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Scatterplot comparing the best target MSE achieved by the barycentric method (horizontal axis) and Anchor regression (vertical axis) across all valid source–target covariance pairs. The dashed diagonal marks the line MSEbar = MSEanc. Most points lie above this line, indicating that the barycentric reduction yields lower target error more frequently",
+            "table1": "Number of wins per method (target MSE)."
+        },
+        "question": "What color is the dashed reference line in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "red",
+        "answer_type": "text"
+    }
+]

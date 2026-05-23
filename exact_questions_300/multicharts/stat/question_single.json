@@ -1,0 +1,224 @@
+[
+    {
+        "question_id": 39,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.17071v2\\chart1.jpg",
+            "chart2": "2511.17071v2\\chart2.jpg",
+            "chart3": "2511.17071v2\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Six subplots of density versus max depth (m). Panels (a,c,e) show Parametric, Nonparametric, and Unimodal models with histograms and three colored curves (shallow, mid, deep). Panels (b,d,f) show the corresponding tail views with the x-axis restricted to higher depths.",
+            "chart2": "Four density plots versus observations with many thin simulated curves and a thick black curve in each panel. Panels are titled (a) Skew normal - t, (b) Normal, (c) Nonparametric, and (d) Unimodal.",
+            "chart3": "Horizontal boxplots of AUC for four methods: Skew normal - t, Normal, Nonparametric, and Unimodal. The x-axis ranges from about 0.970 to 1.000 and includes a vertical dashed reference line."
+        },
+        "question": "In chart3, which method has the highest median AUC (the black median line positioned furthest to the right)? A. Skew normal - t. B. Normal. C. Nonparametric. D. Unimodal. Respond only with the choice.",
+        "question_type": "reasoning",
+        "answer": "D",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["chart1", "chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2511.15075v1\\chart1.jpg",
+            "chart2": "2511.15075v1\\chart2.jpg",
+            "chart3": "2511.15075v1\\chart3.jpg",
+            "chart4": "2511.15075v1\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "90% upper conformal prediction intervals for continued smoking are given by the black dashed lines. 90% upper prediction intervals for quitting smoking are given by the blue line.",
+            "chart2": "90% upper conformal prediction intervals for continued smoking are given by the black dashed lines. 90% upper prediction intervals for quitting smoking are given by the blue line.",
+            "chart3": "Average dose-response curve and 95% confidence interval. Points are randomly selected participant’s observed total medical expenditure.",
+            "chart4": "Histogram of Total Medical Expenditure by Median Age."
+        },
+        "question":"Based on the overlapping histograms and density curves in chart4, which age group generally incurs higher total medical expenditure? Respond only with Above Med or Below Med.",
+        "question_type": "reasoning",
+        "answer": "Above Med",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["chart1", "chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2511.15075v1\\chart1.jpg",
+            "chart2": "2511.15075v1\\chart2.jpg",
+            "chart3": "2511.15075v1\\chart3.jpg",
+            "chart4": "2511.15075v1\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "90% upper conformal prediction intervals for continued smoking are given by the black dashed lines. 90% upper prediction intervals for quitting smoking are given by the blue line.",
+            "chart2": "90% upper conformal prediction intervals for continued smoking are given by the black dashed lines. 90% upper prediction intervals for quitting smoking are given by the blue line.",
+            "chart3": "Average dose-response curve and 95% confidence interval. Points are randomly selected participant’s observed total medical expenditure.",
+            "chart4": "Histogram of Total Medical Expenditure by Median Age."
+        },
+        "question":"Which group exhibits greater variability in total medical expenditure across the observed range? Respond only with Above Med or Below Med.",
+        "question_type": "reasoning",
+        "answer": "Above Med",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 9,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.15446v1\\chart1.jpg",
+            "chart2": "2511.15446v1\\chart2.jpg",
+            "chart3": "2511.15446v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "modified empirical Lorenz curve",
+            "chart2": "modified CAP",
+            "chart3": "boxplots of the individual risk contributions"
+        },
+        "question": "In chart2, what does the shaded pink region represent? A. The area under the orange curve. B. The difference between the orange and red curves. C. The area between the red curve and the diagonal dashed line. D. The total area of the plot. Respond only with the choice.",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 87,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.12981v1\\chart1.jpg",
+            "chart2": "2512.12981v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Layer-wise compression patterns learned by CoDeQ for ResNet-18 on ImageNet. Layer-wise compression for a ResNet-18 model with MP. Negative y-axis shows bit-width (descending) and positive y-axis shows sparsity (ascending).",
+            "chart2": "Layer-wise compression patterns learned by CoDeQ for ResNet-18 on ImageNet. Layer-wise compression for a ResNet-18 model with fixed 4-bit weights. Negative y-axis shows bit-width (descending) and positive y-axis shows sparsity (ascending)."
+        },
+        "question": "Does Chart 1 contain layers that simultaneously have sparsity above 0.9 and bit-width no greater than 3 bits? Respond only with a single integer (count).",
+        "question_type": "reasoning",
+        "answer": 2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 88,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.17131v1\\chart1.jpg",
+            "chart2": "2512.17131v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Final validation loss of AdamW, single-worker DiLoCo, and GPA on LLaMA-160M across different effective numbers of inner steps.",
+            "chart2": "Training speedup of single-worker DiLoCo and GPA, measured by the reduction in steps needed to reach AdamW’s final validation loss, across different effective numbers of inner steps."
+        },
+        "question": "At which inner step does GPA-AdamW achieve its lowest validation loss in Chart 1? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 32,
+        "answer_type": "numeric"
+    },
+    {
+        "question_id": 10,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.15896v1\\chart1.jpg",
+            "chart2": "2511.15896v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Approximation errors for selected variables in three estimators across all settings.",
+            "chart2": "Learned weights from cross-balancing, with variables selected using cross-validated Lasso. The left panel shows the empirical distributions of the weights for three dictionaries. The middle and right panels display pairwise comparisons of individual weights estimated with each dictionary."
+        },
+        "question": "In chart1, in Setting 1 under Outcome approximation error, which variable selection method shows the highest error?A. lm. B. aic. C. lasso. Respond only with the choice.",
+        "question_type": "perceptual",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.15929v1\\chart1.jpg",
+            "chart2": "2511.15929v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Percent bias (top row) and coverage (bottom row) for three parameters (Intercept: β₀, A–X: β₁, Z: β₂) across increasing percent censored, comparing multiple estimators.",
+            "chart2": "Efficiency ratios comparing standard errors across estimators, shown as Mean SE (left column) and Empirical SD (right column) for three parameters over increasing sample sizes."
+        },
+        "question": "In chart1, which parameter’s coverage drops most sharply at the highest percent censored? A. Intercept: β₀. B. A–X: β₁. C. Z: β₂. Respond only with the choice.",
+        "question_type": "perceptual",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.16954v1\\chart1.jpg",
+            "chart2": "2511.16954v1\\chart2.jpg",
+            "chart3": "2511.16954v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Two boxplots comparing PDS under different distance metrics. Subplot (a) shows PDS distributions for ℓ₁, ℓ₂, cosine, and sign-based cosine, with average values annotated. Subplot (b) shows PDS distributions for ℓ₁ and ℓ₂ under norm-matched settings, with average values annotated.",
+            "chart2": "Three subplots analyzing normalization effects. The left subplot plots ℓ₂ norm of perturbation effects under median normalization versus per-10k normalization. The middle subplot plots ℓ₁ norm under median normalization versus per-10k normalization. The right subplot shows boxplots of effect similarity comparing cosine and sign-based cosine, with average values annotated.",
+            "chart3": "A line plot showing the effect of scaling factor c on mean PDS for ℓ₁-based and ℓ₂-based metrics, with both curves plotted across increasing scaling factors."
+        },
+        "question": "In chart2, what is the annotated average effect similarity value for the cosine metric? Respond only with the number.",
+        "question_type": "perceptual",
+        "answer": 0.96,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.17071v2\\chart1.jpg",
+            "chart2": "2511.17071v2\\chart2.jpg",
+            "chart3": "2511.17071v2\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Six subplots of density versus max depth (m). Panels (a,c,e) show Parametric, Nonparametric, and Unimodal models with histograms and three colored curves (shallow, mid, deep). Panels (b,d,f) show the corresponding tail views with the x-axis restricted to higher depths.",
+            "chart2": "Four density plots versus observations with many thin simulated curves and a thick black curve in each panel. Panels are titled (a) Skew normal - t, (b) Normal, (c) Nonparametric, and (d) Unimodal.",
+            "chart3": "Horizontal boxplots of AUC for four methods: Skew normal - t, Normal, Nonparametric, and Unimodal. The x-axis ranges from about 0.970 to 1.000 and includes a vertical dashed reference line."
+        },
+        "question": "In chart1, how many subplots have titles ending with \"- tail\"? Respond only with the number.",
+        "question_type": "perceptual",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.17148v1\\chart1.jpg",
+            "chart2": "2511.17148v1\\chart2.jpg",
+            "chart3": "2511.17148v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "A 2×2 grid of line charts for June, July, August, and September showing daily max temperature (°C) versus day of month. Each panel has two lines: a black line for 2012–2021 and a red line for 2022.",
+            "chart2": "A 2×2 grid of line charts for June, July, August, and September showing ozone versus day of month. Each panel has two lines: a black line for 2012–2021 and a red line for 2022.",
+            "chart3": "A choropleth-style map with regions shaded in varying intensities of red, with visible administrative boundaries; no colorbar is shown."
+        },
+        "question": "In chart2, what is the y-axis label? Respond only with the label text.",
+        "question_type": "perceptual",
+        "answer": "Ozone",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.17148v1\\chart1.jpg",
+            "chart2": "2511.17148v1\\chart2.jpg",
+            "chart3": "2511.17148v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "A 2×2 grid of line charts for June, July, August, and September showing daily max temperature (°C) versus day of month. Each panel has two lines: a black line for 2012–2021 and a red line for 2022.",
+            "chart2": "A 2×2 grid of line charts for June, July, August, and September showing ozone versus day of month. Each panel has two lines: a black line for 2012–2021 and a red line for 2022.",
+            "chart3": "A choropleth-style map with regions shaded in varying intensities of red, with visible administrative boundaries; no colorbar is shown."
+        },
+        "question": "In chart1, in the September panel at the end of the month, is the red (2022) line below the black (2012–2021) line at day 10? Respond only with yes or no.",
+        "question_type": "perceptual",
+        "answer": "no",
+        "answer_type": "text"
+    }
+]

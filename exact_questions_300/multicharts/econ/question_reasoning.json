@@ -1,0 +1,215 @@
+[
+    {
+        "question_id": 53,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.01565v1\\chart1.jpg",
+            "chart2": "2511.01565v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Sentiment score by treatment and all genders.",
+            "chart2": "Response engagement index by treatment and all genders."
+        },
+        "question": "Which treatment condition shows the smallest gender difference in both sentiment (Chart 1) and engagement (Chart 2)? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Thanks in Advance",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2509.04928v1\\chart1.jpg",
+            "chart2": "2509.04928v1\\chart2.jpg",
+            "chart3": "2509.04928v1\\chart3.jpg"
+        },
+
+        "caption": {
+            "chart1": "Joint forecast performance. - Full evaluation sample from 1992Q1 to 2023Q4",
+            "chart2": "Joint forecast performance. - Pre-COVID evaluation sample from 1992Q1 to 2019Q4",
+            "chart3": "Joint forecast performance. - Pre-GFC evaluation sample from 1992Q1 to 2007Q4"
+        },
+        "question":"Consider the pre-COVID panel (chart2) and the pre-GFC panel (chart3). Focusing only on the GjpgM-A (SV) model, compare its values across the three forecast horizons (one-quarter ahead, one-year ahead, two-year ahead). Which horizon shows the most stable performance across the two panels (i.e., the smallest change in values between the panels)? A. One-quarter ahead B. One-year ahead C. Two-year ahead. Respond only with the choice！",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+
+    {
+        "question_id": 27,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.01551v1\\chart1.jpg",
+            "chart2": "2510.01551v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Temperature histograms —— Temperature",
+            "chart2": "Temperature histograms —— Number of Days"
+        },
+        "question":"If the temperature distribution shifts to the right (i.e., a higher share of hot days), which of the following changes are most likely to occur? Select all that apply. Respond with a list such as [A, B]. A. The peak of chart1 increases. B. The high-temperature bars in chart2 increase. C. The low-temperature bars in chart1 increase. D. The low-temperature bars in chart2 decrease. Respond only with the list.",
+        "question_type": "reasoning",
+        "answer": "[B,D]",
+        "answer_type": "choice_list"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2508.10663v2\\chart1.jpg",
+            "chart2": "2508.10663v2\\chart2.jpg",
+            "chart3": "2508.10663v2\\chart3.jpg"
+        },
+
+        "caption": {
+            "chart1": "Values of GC based on household wealth for the United States, China, Canada, and the United Kingdom from 2000 to 2023",
+            "chart2": "Wealth shares held by the top 1% (left) and top 10% (right) in the United States, China, Canada, and the United Kingdom from 2000 to 2023.",
+            "chart3": "Values of GC10 based on household wealth for the United States, China, Canada, and the United Kingdom from 2000 to 2023"
+        },
+        "question":"Chart2 (top-share) shows that China’s top 1% wealth share is higher than that of Canada and the UK, while Chart1 shows their GC₂ values are very similar. What limitation of GC₂ does this illustrate? A. Underestimation of lower-wealth groups B. Insensitivity to upper-tail concentration C. Excessive sensitivity to changes in the mean D. Inability to compare across years。 Respond only with the option.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.16734v1\\chart1.jpg",
+            "chart2": "2509.16734v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Multigenerational correlations in different models —— A latent factor model",
+            "chart2": "Multigenerational correlations in different models —— A model with multiplicity"
+        },
+        "question":"In chart1 and chart2, one curve exhibits a trend that is clearly different from the others. Identify the model and the specific curve. Respond only in the format: [model, curve]. mode: [A latent factor model , A model with multiplicity]. curve:[Observed, Iterated, Latent, Share: Endowment 1]",
+        "question_type": "reasoning",
+        "answer": "[A model with multiplicity, Share: Endowment 1]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 64,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.05659v1\\chart1.jpg",
+            "chart2": "2512.05659v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Job roles grouped into exposure clusters",
+            "chart2": "Number of tasks by automation category"
+        },
+        "question": "The leftmost exposure cluster in Chart 1 corresponds to which dominant task level in Chart 2? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "very low",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 47,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.01211v3\\chart1.jpg",
+            "chart2": "2511.01211v3\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Feature importance (mean absolute SHAP) for predicting log citations.",
+            "chart2": "Feature importance (mean absolute SHAP) for predicting disruption."
+        },
+        "question": "Compared to textual features, how do non-textual features perform in Chart 2? A. Stronger B. Comparable C. Weaker Respond only with a single letter.",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.08199v1\\chart1.jpg",
+            "chart2": "2510.08199v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Industrial production trajectory within the geographical scope of the model, EU27 (without Cyprus and Malta), UK, Switzerland, Norway, Albania, Bosnia and Herzegovina, Montenegro, North Macedonia, Serbia, and Kosovo, for the five industrial goods considered in the study, in the Continued Decline, Stabilization, and Reindustrialization scenarios. Note that methanol production data exhibit an irregular trend, which may be attributable to inconsistencies or gaps in reporting rather than to underlying structural changes in the sector.",
+            "chart2": "Prices of industrial goods, average across European countries and time steps, for different scenarios. Dotted lines for methanol and plastics represent a price when no carbon price on End Of Life (EOL) emissions is applied."
+        },
+        "question":"In chart2, among the panels that include a gray area, which product’s price under the Stabilization scenario in 2050 does not fall within the gray region? Respond only with the title of panel.",
+        "question_type": "reasoning",
+        "answer": "Steel",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 60,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.05659v1\\chart1.jpg",
+            "chart2": "2512.05659v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Job roles grouped into exposure clusters",
+            "chart2": "Number of tasks by automation category"
+        },
+        "question": "For the Low automation category in Chart 2, which task level shows the most noticeable change between Low std and High std? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "High",
+        "answer_type": "text"
+    },
+
+
+    {
+        "question_id": 49,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.02931v1\\chart1.jpg",
+            "chart2": "2511.02931v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Deals announced by Google in the form of acquisitions and investments, 2010–2024",
+            "chart2": "Google’s investments by affiliate firm, 2010–2024"
+        },
+        "question": "What is the length (in years) of the longest continuous increasing trend in Investments in Chart 1? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 13,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["chart1","chart2", "chart3"],
+        "path": {
+            "chart1": "2509.16450v1\\chart1.jpg",
+            "chart2": "2509.16450v1\\chart2.jpg",
+            "chart3": "2509.16450v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Number of function calls and the number of coalitions generated by the PA algorithm as the number of agents increases in the constructed data exchange instance.",
+            "chart2": "Running time of the PA algorithm as a function of the number of agents, distinguishing between Phase I and Phase II (PA) in the constructed data exchange instance.",
+            "chart3": "Total number of iterations required by the PA algorithm as the number of agents increases in the constructed data exchange instance."
+        },
+        "question": "Which statement best describes the growth of function calls in Chart 1? A. Proportional to agent count B. Faster than proportional C. Independent of agent count Respond only with a single letter.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 57,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.18582v1\\chart1.jpg",
+            "chart2": "2511.18582v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Feedback Preference",
+            "chart2": "Self-reported Importance of Signals."
+        },
+        "question": "In Chart 2, which signal has the highest mean value under the “Tasks involving AI” condition? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Confidence in own Judgment",
+        "answer_type": "text"
+    }
+]

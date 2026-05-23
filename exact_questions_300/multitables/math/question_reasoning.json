@@ -1,0 +1,205 @@
+[
+    {
+        "question_id": 21,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.17473v2\\table1.jpg",
+            "table2": "2512.17473v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance comparison of ADMM and WLRA on the CBCL dataset for matrix completion.",
+            "table2": "Relative reconstruction error ‖X_clean − X_recon‖_F / ‖X_clean‖_F for different nonlinearities and loss functions."
+        },
+        "question": "Compute the difference between the average relative error (%) in Table 2 and the average RMSE_test of ADMM across all missing ratios in Table 1 multiplied by 100 (Table 2 minus Table 1×100). Respond only with a single numeric value rounded to two decimal places.",
+        "question_type": "reasoning",
+        "answer": 7.67,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 24,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.18584v1\\table1.jpg",
+            "table2": "2512.18584v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Simulation: out-of-sample MSE and horizon effects. Panel A reports one-step-ahead MSE averaged over nodes and forecast origins. Panel B reports multi-step MSE for horizons h ∈ {1, 2, 4, 8} using rolling origins; the final columns report ∆MSE = MSE(full) − MSE(no-net) and a paired block-bootstrap 95% CI over forecast origins.",
+            "table2": "GDP: multi-step forecast performance with standard baselines (short holdout; 8 origins). Rolling-origin forecasts for h ∈ {1, 2, 4, 8}. Entries are averaged across countries and forecast origins. Scale: raw macro units (growth-rate scale), hence MSE on the order of 10⁻⁴."
+        },
+        "question": "Compute the difference between MSE(full) at h = 1 in Table 1 (Panel B) and the MSE of SSNR (Net-TVP) at h = 1 in Table 2. Round the result to four decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.2489,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.11768v1\\table1.jpg",
+            "table2": "2511.11768v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Yale Coat of Arms denoising results: SNR (dB)",
+            "table2": "Minnesota Road Network denoising results: SNR (dB)"
+        },
+        "question": "Compute the average SNR of Oversampled in Table 1 and Table 2, then compute the difference (Table 2 minus Table 1). Respond only with a single numeric value rounded to two decimal places.",
+        "question_type": "reasoning",
+        "answer": -0.41,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.16111v1\\table1.jpg",
+            "table2": "2511.16111v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Image denoising results on Set12 dataset.",
+            "table2": "Point cloud denoising results on Microsoft Voxelized dataset."
+        },
+        "question": "Compute the average PSNR of the II-AGFRFT_raw method at σ = 40 across Table 1 (Parrot) and Table 2 (David9). Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 42.19,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.08256v1\\table1.jpg",
+            "table2": "2512.08256v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of different methods for solving the equation(7) with different ε values",
+            "table2": "L2-errors of the WPIQNN method for Equation(7) with different ε."
+        },
+        "question": "Across both Table 1 and Table 2, at which ε does WPIQNN achieve its minimum L2-error? Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.20748v1\\table1.jpg",
+            "table2": "2512.20748v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Control performance comparison for target attitude following test case",
+            "table2": "Control performance comparison for waypoint following test case"
+        },
+        "question": "For Heading angle, compute how much the Average tracking of SMC decreases from Table 1 to Table 2 (Table 1 minus Table 2). Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 5.7452,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 11,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.09002v1\\table1.jpg",
+            "table2": "2512.09002v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Separation of the zeros in asymptotic intervals for different values of q.",
+            "table2": "Illustration of approximating zeros within the intervals determined by the approximating zeros of a related function."
+        },
+        "question": "In Table 2, compute the average of Approx rk values for q=0.5 from k=1 to k=4. Respond only with a single numeric value rounded to four decimal places.",
+        "question_type": "reasoning",
+        "answer": 14.8461,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.10467v2\\table1.jpg",
+            "table2": "2512.10467v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "The target FDPs are 6% for Case 1 and 7.5% for Case 2",
+            "table2": "Comparision between Algorithm 1 and the moving-window method"
+        },
+        "question": "In Table 1 (Case 1), compute the difference between FDP max and FDP average for the B-Y method at n = 450. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 1.01,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.17301v1\\table1.jpg",
+            "table2": "2512.17301v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Effect of Wages on Work Hours: Mroz (1987) Data",
+            "table2": "Effect of Protestantism on Literacy: Becker and Woessmann (2009) Data"
+        },
+        "question": "Compute the coefficient of variation (standard error divided by estimate) for the IV estimate in Table 1. Respond only with a single numeric value rounded to three decimals.",
+        "question_type": "reasoning",
+        "answer": 0.311,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.16111v1\\table1.jpg",
+            "table2": "2511.16111v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Image denoising results on Set12 dataset.",
+            "table2": "Point cloud denoising results on Microsoft Voxelized dataset."
+        },
+        "question": "In Table 1, compute the PSNR decrease of the GFRFT method on Peppers from σ = 20 to σ = 40. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 4.232,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.18592v1\\table1.jpg",
+            "table2": "2512.18592v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "AUC (mean (sd)) under strict dyad holdout (degree ordering).",
+            "table2": "Mean held-out log-likelihood (mean (sd); higher is better) under strict dyad holdout (degree ordering)."
+        },
+        "question": "In Table 1, compute the arithmetic mean of AUC values across all models for the Enron dataset. Respond only with a single numeric value rounded to three decimals.",
+        "question_type": "reasoning",
+        "answer": 0.768,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.18817v1\\table1.jpg",
+            "table2": "2512.18817v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Groups of order at most 64 with prestructures",
+            "table2": "Non-monolithic groups of order 96 with prestructures"
+        },
+        "question": "Compute the average number of prestructures for groups of order 64 with zero diagonal double Kodaira structures in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 35840,
+        "answer_type": "numeric"
+    }
+]

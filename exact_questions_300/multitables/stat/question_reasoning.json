@@ -1,0 +1,209 @@
+[
+    {
+        "question_id": 1,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1": "2511.19305v1/table1.jpg",
+            "table2": "2511.19305v1/table2.jpg",
+            "table3": "2511.19305v1/table3.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports co-authorship network characteristics (N, %, average degree, average betweenness, density) across categories of field, role, and location.",
+            "table2": "Table 2 reports the frequency of leaders by field, role, and location across periphery and core clusters.",
+            "table3": "Table 3 reports the frequency of regional leaders by field and role across periphery and core clusters."
+        },
+        "question": "Comparing Table 2 and Table 3, which table has the larger Total Core count? Respond only with the choice. A. Table 2 B. Table 3",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["table1", "table2", "table3"],
+        "path": {
+            "table1": "2511.19574v1/table1.jpg",
+            "table2": "2511.19574v1/table2.jpg",
+            "table3": "2511.19574v1/table3.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports screening performance metrics (PPR, sensitivity, specificity, PPV, and NPV) for different ACE score thresholds on the BRFSS 2022 dataset, including a replicable higher-risk subgroup.",
+            "table2": "Table 2 reports corner combinations under frequency coding for the full sample, with each row representing a corner configuration and each column representing a binary or categorical ACE indicator.",
+            "table3": "Table 3 reports corner combinations under frequency coding for the replicable high-risk subgroup, using the same ACE indicator columns as Table 2."
+        },
+        "question": "Comparing Table 2 and Table 3, which table contains more corners with ACESWEAR equal to 2? Respond only with the choice. A. Table 2 B. Table 3 C. Both tables have the same number of corners with ACESWEAR equal to 2",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.19672v1/table1.jpg",
+            "table2": "2511.19672v1/table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports the five highest Ps values among pitchers for each pitch category (Fastball, Breaking Ball, Offspeed) in the 2021 regular season.",
+            "table2": "Table 2 reports the five highest DS values among batters for each pitch category (Fastball, Breaking Ball, Offspeed) in the 2024 regular season."
+        },
+        "question": "Comparing Table 1 and Table 2, which pitch category has the highest top-ranked metric value when considering Ps in Table 1 and DS in Table 2? Respond only with the choice. A. Fastball B. Breaking Ball C. Offspeed",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.07786v2\\table1.jpg",
+            "table2": "2511.07786v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports 1-Wasserstein distances of different dynamics interpolation algorithms across three datasets (Cite, EB, Multi) using a 5-dimensional PCA representation.",
+            "table2": "Table 2 reports leave-one-timepoint-out 1-Wasserstein distances for different algorithms under 50- and 100-dimensional representations on Cite and Multi datasets."
+        },
+        "question": "For the TFSB algorithm, compare its performance on the Multi dataset between Table 1 and Table 2 (50-dimensional representation). Which table reports the smaller 1-Wasserstein distance? Respond only with the choice. A. Table 1 B. Table 2",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 44,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.12257v1\\table1.jpg",
+            "table2": "2511.12257v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Table 1 reports denoising performance with mean and standard deviation for PSNR, SSIM, and LPIPS under different noise levels.",
+            "table2": "Table 2 reports PET reconstruction performance of different methods measured by PSNR, SSIM, and LPIPS."
+        },
+        "question": "Which method appears in both tables and achieves the lowest LPIPS value in the PET reconstruction experiment? Respond only with the choice. A. TV-PIDAL B. TV-SPA C. RED-RPnP-ULA D. RED-HRLwSGS",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 66,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.17473v2\\table1.jpg",
+            "table2": "2512.17473v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Relative reconstruction error with respect to the clean ground truth for different noise levels and models.",
+            "table2": "Relative reconstruction error for different nonlinearities and loss functions."
+        },
+        "question": "Which option correctly compares the average error of ReLU + ℓ1 in Table 1 with MinMax + KL in Table 2? A. ReLU + ℓ1 is smaller B. MinMax + KL is smaller C. Equal Respond only with a single letter.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 62,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.12797v1\\table1.jpg",
+            "table2": "2512.12797v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Velocity–model metrics (mean±std) for synthetic datasets. Bold indicates best (lower is better except for Pearson r).",
+            "table2": "Data–domain metrics (mean±std) for synthetic datasets. Bold is best (lower is better except Trace corr)."
+        },
+        "question": "In Table 1, what is the absolute reduction in RMSE from SVGD to Ours for the Overthrust dataset? Respond only with a single numeric value rounded to three decimals.",
+        "question_type": "reasoning",
+        "answer": 205.238,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 63,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.13069v1\\table1.jpg",
+            "table2": "2512.13069v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance indicators of the model applied to the Airfoils database for different LF/HF dimension ratios. They include MAE, RMSE, and R², which have been computed using the test and complementary test datasets.",
+            "table2": "Coverage metrics obtained with the MSCP method on the Airfoils database for several LF/HF dimensionality ratios. The table reports two types of coverage: (1) Nominal coverage (fraction of full curves contained within the prediction band), and (2) Pointwise coverage (average per-coordinate coverage). The Band Width + Std column corresponds to the mean of the calibrated prediction band, where the standard deviation refers to the variability of the band width. Results are provided for both the Normalized L2 norm and the Linf norm scoring functions."
+        },
+        "question": "Compute the average L∞ Nominal coverage for the Complementary Test across all LF/HF Dim values in Table 2. Round to three decimals. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.931,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 66,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.16626v1\\table1.jpg",
+            "table2": "2512.16626v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Pairwise preference comparisons between the responses of Qwen2.5-0.5B, RLOO, Nash-MD-PG, and StackelbergGDA algorithms. Each cell represents the preference model’s average score for the row algorithm over the column algorithm.",
+            "table2": "Inference-time refinement using different models for the initial response (Leader) and the improvement (Follower). Each cell represents the preference model’s average score for the Follower’s responses over the Leader’s responses."
+        },
+        "question": "Compute the average preference score of the StackelbergGDA-Follower row in Table 1 (excluding the diagonal). Round to three decimals. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.664,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 70,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.20305v1\\table1.jpg",
+            "table2": "2512.20305v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance Comparison of AFT, DeepAFT, and KAN-AFT Models on the Linear Synthetic Data. Metrics include Concordance Index (C-index) and Mean Squared Error (MSE) on both the training and testing sets.",
+            "table2": "Performance Comparison of AFT, DeepAFT, and KAN-AFT Models on the Non Linear Synthetic Data. Metrics include Concordance Index (C-index) and Mean Squared Error (MSE) on both the training and testing sets."
+        },
+        "question": "In Table 1, compute the average Train C-index of all KAN-AFT models. Round to 4 decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.8669,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 71,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.20762v1\\table1.jpg",
+            "table2": "2512.20762v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Best F1 score obtained by different implementations of DDGroup in the example from Fig. 1. By using the CRS, it is possible to tune DDGroup to find the correct subgroup. Even with the best possible hyperparameter tuning, the other versions that do not take advantage of the EPE and CRS cannot recover R*.",
+            "table2": "Comparison of methods on F1, Test EPE, and Test C-index. DDGroup (DG) obtains the best performance in terms of recovering R*. The other methods generally have worse performance, though they all perform better than the baseline (non-subgroup) approach, with the exception of the survival tree and PRIM."
+        },
+        "question": "Which method in Table 1 has the largest standard deviation in F1?  Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "DG-PL",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 74,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.22150v1\\table1.jpg",
+            "table2": "2512.22150v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Quantitative results on synthetic physics environments (Pendulum & Flow). Mean ± std over 10 seeds. LANCA consistently achieves the lowest structural errors (SHD, SID) across both environments and good latent factor alignment (MMI) on the complex Flow dataset.",
+            "table2": "Results on the photorealistic CANDLE dataset. Mean ± std over 10 seeds. LANCA achieves the best IRS and UC, verifying its ability to separate causal factors from the background scene confounders."
+        },
+        "question": "Compute the difference between MMI and MIG for CausalVAE (Sup) under the Flow environment in Table 1. Respond only with a single numeric value rounded to three decimals.",
+        "question_type": "reasoning",
+        "answer": 1.451,
+        "answer_type": "numeric"
+    }
+]

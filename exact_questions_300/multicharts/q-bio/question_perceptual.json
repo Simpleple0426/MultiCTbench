@@ -1,0 +1,213 @@
+[
+    {
+        "question_id": 8,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.02259v1\\chart1.jpg",
+            "chart2": "2510.02259v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "This panel shows the fraction of attention from position tokens that is allocated to other position tokens versus global tokens (such as charge and spin). In the first nine layers, position tokens predominantly attend to other position tokens, while in later layers the attention shifts toward global tokens.",
+            "chart2": "This panel plots the attention scores of position tokens as a function of interatomic distance, averaged across validation examples in OMol25. Each point represents the mean attention score within an interatomic distance quantile. Attention in the first nine layers shows a strong inverse relationship with distance, whereas in later layers position tokens increase their attention to global tokens while still allocating some attention to distant atoms."
+        },
+        "question": "Identify the chart types used in Chart 1 and Chart 2, and report them as a list in order, [type1, type2]. The first element should correspond to Chart 1, and the second element to Chart 2. Respond only with the list.",
+        "question_type": "perceptual",
+        "answer": "[bar chart, Line chart]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2509.11354v5\\chart1.jpg",
+            "chart2": "2509.11354v5\\chart2.jpg",
+            "chart3": "2509.11354v5\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution and dispersion of morphometric parameter (Aspect ratio) across 37 cytometric samples. Histograms show the distribution of cell morphology features, while boxplots depict variation and outlier behavior.",
+            "chart2": "Distribution and dispersion of morphometric parameter (Aspect ratio) across 37 cytometric samples. Histograms show the distribution of cell morphology features, while boxplots depict variation and outlier behavior.",
+            "chart3": "Distribution and dispersion of morphometric parameter (Aspect ratio) across 37 cytometric samples. Histograms show the distribution of cell morphology features, while boxplots depict variation and outlier behavior."
+        },
+        "question": "Count the number of outliers in the boxplots of Chart 1, Chart 2, and Chart 3, respectively, and return the results as a list in the order [Chart 1, Chart 2, Chart 3]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": [1, 1, 4],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 16,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2509.19536v1\\chart1.jpg",
+            "chart2": "2509.19536v1\\chart2.jpg",
+            "chart3": "2509.19536v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Individual SHAP results for each treatment scenario. Bar colors (dark to light) follow the Sobol sensitivity ranking, with darker bars indicating more influential parameters, highlighting their relative contributions to the model output.",
+            "chart2": "Combined SHAP results. Averages were taken across all treatments.",
+            "chart3": "Parameter importance for 50% CD4 treatment: Sobol ST indices (left) and SHAP values (right), normalized to each side’s largest bar. Sobol ST indices were similar across treatments, so 1:1 CD4:CD8 treatment is shown as a representative."
+        },
+        "question": "Are the legends in Chart 1 and Chart 2 the same? If yes, specify what the darkest-colored bar represents; if not, respond with no. Respond only with the label or no.",
+        "question_type": "perceptual",
+        "answer": "N",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 33,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.13954v1\\chart1.jpg",
+            "chart2": "2511.13954v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Ablation study for binary classification on the DREAMER dataset (Arousal dimension). Impact of inter-cortical attention.",
+            "chart2": "Ablation study for binary classification on the DREAMER dataset (Arousal dimension). Impact of training and regularization components including ADASYN, SMOTE with label smoothing, weight decay, and dropout."
+        },
+        "question": "Count the number of RBTransformer variant models shown in Chart 1 and Chart 2, respectively (including the full model and all ablated variants). Report the result in the format: [count_Chart(a), count_Chart(b)] Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": [2, 6],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 43,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.17016v1\\chart1.jpg",
+            "chart2": "2510.17016v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Changes in the species selection risk due to the Ambush movement strategy in terms of the Attack trigger. The outcomes were averaged from sets of 100 simulations, starting from different initial conditions in lattices with 500² grid sites, running until 5000 generations. The error bars show the standard deviation. The colours follow the scheme in Fig. 1. The cognitive factor is β = 1, while the interaction parameters are set to s = r = m = 1/3.",
+            "chart2": "hanges in the species densities due to the Ambush movement strategy in terms of the Attack trigger. The outcomes were averaged from sets of 100 simulations, starting from different initial conditions in lattices with 500² grid sites, running until 5000 generations. The error bars show the standard deviation. The colours follow the scheme in Fig. 1. The cognitive factor is β = 1, while the interaction parameters are set to s = r = m = 1/3."
+        },
+        "question": "In Chart 1 and Chart 2, how many species indices are labeled in the legend of each chart? Count the number of species shown in each legend and return the result as a list in the following order: [number of species in Chart 1, number of species in Chart 2]. Respond only with the list.",
+        "question_type": "perceptual",
+        "answer": [5, 6],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 24,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.25884v2\\chart1.jpg",
+            "chart2": "2509.25884v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Data distribution of sample numbers in human data",
+            "chart2": "Data distribution of sample numbers in mouse data"
+        },
+        "question": "Calculate the total sample count in Chart 1 and Chart 2 by summing the sample counts of all tissue types in each chart. Report the result as a list [Chart 1, Chart 2], using only the values shown in the charts. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": [52117, 27115],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 1,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.12976v1\\chart1.jpg",
+            "chart2": "2509.12976v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Accuracy percentage computed for each method. *: Methods with very low scores, due to technical problems that will be explained in Discussion",
+            "chart2": "Balanced accuracy percentage computed for each method. *: Methods with very low scores, due to technical problems that will be explained in Discussion"
+        },
+        "question": "In Chart 2, which Method Type has the largest number of methods? Report the method type and the corresponding count in this format, [method type, number]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": "[Deep Learning, 12]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2502.04065v2\\chart1.jpg",
+            "chart2": "2502.04065v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Correlation matrix showing the influence of multiple factors on decomposition performance, with symbols indicating the statistical significance of the correlations.",
+            "chart2": "Classification accuracy based on pulse-to-noise ratio and silhouette score for distinguishing detectable and non-detectable motor neuron spike trains, with results normalized by ground-truth sources (row normalization) and by predicted motor unit sources (column normalization)."
+        },
+        "question": "Based on Chart 2, under the PNR criterion, what proportion of samples with the true class “Detectable (D)” are correctly classified as D? Respond only with the number without %.",
+        "question_type": "perceptual",
+        "answer": 57.8,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2502.04065v2\\chart1.jpg",
+            "chart2": "2502.04065v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Correlation matrix showing the influence of multiple factors on decomposition performance, with symbols indicating the statistical significance of the correlations.",
+            "chart2": "Classification accuracy based on pulse-to-noise ratio and silhouette score for distinguishing detectable and non-detectable motor neuron spike trains, with results normalized by ground-truth sources (row normalization) and by predicted motor unit sources (column normalization)."
+        },
+        "question": "Which visual encoding is used in Chart 1 to represent the magnitude of the correlation coefficients? A. Marker size. B. Color intensity. C. Line thickness. D. Shape variation. Respond only with a letter.",
+        "question_type": "perceptual",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2509.19536v1\\chart1.jpg",
+            "chart2": "2509.19536v1\\chart2.jpg",
+            "chart3": "2509.19536v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Individual SHAP results for each treatment scenario. Bar colors (dark to light) follow the Sobol sensitivity ranking, with darker bars indicating more influential parameters, highlighting their relative contributions to the model output.",
+            "chart2": "Combined SHAP results. Averages were taken across all treatments.",
+            "chart3": "Parameter importance for 50% CD4 treatment: Sobol ST indices (left) and SHAP values (right), normalized to each side’s largest bar. Sobol ST indices were similar across treatments, so 1:1 CD4:CD8 treatment is shown as a representative."
+        },
+        "question": "How many features’ overall SHAP importances are displayed in Chart 2? Respond only with the the exact number.",
+        "question_type": "perceptual",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 49,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.03897v1\\chart1.jpg",
+            "chart2": "2511.03897v1\\chart2.jpg",
+            "chart3": "2511.03897v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Age distribution of the New Mexico synthetic population by race. Note the final bracket in each age distribution represents individuals aged 90+.",
+            "chart2": "Age distribution of the New Mexico synthetic population by ethnicity. Note the final bracket in each age distribution represents individuals aged 90+.",
+            "chart3": "Age distribution of the New Mexico synthetic population by adjusted household income. Note the final bracket in each age distribution represents individuals aged 90+."
+        },
+        "question": "In Chart 1, different bar colors are used to distinguish between White and Non-White populations. What colors correspond to White and Non-White, respectively? Return the answer in the following format: [colorforWhite,colorforNon−White]. Respond only with list.",
+        "question_type": "perceptual",
+        "answer": "[blue,orange]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 63,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2309.06965v1\\chart1.jpg",
+            "chart2": "2309.06965v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Statistical summary for [K⁺]ₒ = 25 mM (n = 12), using gNBL. Values are expressed as mean ± standard deviation.",
+            "chart2": "Statistical summary for [K⁺]ₒ = 25 mM (n = 12), using gNBL. Values are expressed as mean ± standard deviation."
+        },
+        "question": "In Chart 1, what color represents the bars corresponding to gNBL? Respond only with the color.",
+        "question_type": "perceptual",
+        "answer": "red",
+        "answer_type": "text"
+    }
+]

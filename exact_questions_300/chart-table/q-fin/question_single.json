@@ -1,0 +1,243 @@
+[
+    {
+        "question_id": 29,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2508.04344v1\\chart1.jpg",
+            "table1": "2508.04344v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "PnL across ξ (Xi) values for γ = 0.5. The performative and theta-enhanced performative strategies achieve higher PnL and lower variance than the A&S baseline, while also surpassing the symmetric quoting strategy once ξ reaches moderate levels.",
+            "table1": "Performance metrics across all strategies for different 𝜉 values; 𝛾 = 0.5."
+        },
+        "question":"Using the strategy that is consistently lowest in the chart1, compute its average Profit across all ξ values in the table (ignoring standard deviations), rounded to one decimal place. Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 61.2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2512.03107v1\\chart1.jpg",
+            "table1": "2512.03107v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Coefficient comparison between GPT-3.5-turbo (real log probabilities) and Claude-3-Haiku (estimated). Blue bars show GPT coefficients; orange bars show Claude coefficients. Red percentages indicate what fraction of the GPT magnitude is retained. Coefficients collapse by 90–96% when real log probabilities are unavailable, and ΔL flips sign, confirming that ECLIPSE is logprob-native.",
+            "table1": "Coefficient comparison between GPT-3.5-turbo (real log probabilities) and Claude-3-Haiku (estimated). The ratio column shows what fraction of the GPT coefficient magnitude is retained. Coefficients collapse dramatically when log probabilities are unavailable."
+        },
+        "question":"Using both the chart and Table 1, identify the feature whose Claude coefficient differs the most from the GPT-3.5 coefficient in absolute value. Then compute this absolute difference using the values in the table. Respond only with the numerical value.",
+        "question_type": "reasoning",
+        "answer": 1.674,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 77,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.12120v1\\chart1.jpg",
+            "table1": "2511.12120v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Performance during the stock market crash in the first quarter of 2020.",
+            "table1": "PERFORMANCE EVALUATION COMPARISON."
+        },
+        "question":"According to chart1, which strategy curve experiences the largest decline during the period from February 20 to March 20? Respond with the strategy name only.",
+        "question_type": "reasoning",
+        "answer": "DDPG",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["chart1", "chart2", "table1"],
+        "path": {
+            "chart1": "2511.07571v1\\chart1.jpg",
+            "chart2": "2511.07571v1\\chart2.jpg",
+            "table1": "2511.07571v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": ":Distributional Comparison for Key IV Slices. —— ATM 1-Day distribution histogram plot of real data and generated data.",
+            "chart2": ":Distributional Comparison for Key IV Slices. —— ATM 1-Month distribution histogram plot of real data and generated data.",
+            "table1": "Comparison of Statistical Moments for Key IV Slices (Test Set)"
+        },
+        "question":"Using Table 1, identify all slices where the Diffusion mean is greater than the Real Data mean. Return the result as a list (e.g., [ATM 1-Day, …]). Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": "OTM 1-Week, OTM 3-Month]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["chart1", "chart2", "table1"],
+        "path": {
+            "chart1": "2511.01869v1\\chart1.jpg",
+            "chart2": "2511.01869v1\\chart2.jpg",
+            "table1": "2511.01869v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Directional accuracy of sentiment tools across the four models relative to bond returns. —— FinBERT",
+            "chart2": "Directional accuracy of sentiment tools across the four models relative to bond returns. —— BondBERT",
+            "table1": "Average LSTM results for the models across all bonds."
+        },
+        "question":"Using Table1, compute the range of the Normalised RMSE across the four models (maximum value minus minimum value). Return a positive number only.",
+        "question_type": "reasoning",
+        "answer": 0.0021,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 34,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2508.15237v1\\chart1.jpg",
+            "table1": "2508.15237v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Accuracy of approximations obtained from (Left:) SDE (22) and (Right:) PDE (26) for option prices at different moneyness levels. The analysis considers three cases: ATM (x = 110 = K), ITM (x = 95 < K), and OTM (x = 115 > K).",
+            "table1": "The approximation errors corresponding to Figure 2 for different truncation levels and volatility processes"
+        },
+        "question":"In the SDE section of the mGBM table, compute the absolute change in the ATM error from N=2 to N=3. Provide the specific value without using scientific notation. Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 0.0943,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 60,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.03260v1\\chart1.jpg",
+            "table1": "2509.03260v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Ablation Study Results",
+            "table1": "ABLATION STUDY RESULTS"
+        },
+        "question":"Using the values in the chart, identify the two bars whose PR-AUC values are closest to each other, and compute the absolute difference between them. Respond only with the numerical value.",
+        "question_type": "reasoning",
+        "answer": 0.0009,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 39,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.05820v1\\chart1.jpg",
+            "table1": "2509.05820v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Autocorrelation Functions for SPY and BTC using EWMA-rBergomi Model",
+            "table1": "Jensen-Shannon Distances Across Asset Classes and Models"
+        },
+        "question":"Using Table 1, sort the assets by their EWMA-rBergomi values in descending order and return the top three asset names. Respond only with a list in the form: [asset1, asset2, asset3].",
+        "question_type": "reasoning",
+        "answer": "[ETH, META, OIL]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2509.10802v1\\chart1.jpg",
+            "table1": "2509.10802v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Ablation experiment comparison",
+            "table1": "Ablation experiment results"
+        },
+        "question":"In chart1, which color is used for the AUC bars? Respond only with the color.",
+        "question_type": "perceptual",
+        "answer": "green",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 11,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2510.07099v1\\chart1.jpg",
+            "table1": "2510.07099v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Cumulative return trajectories of the proposed DARL and baseline models",
+            "table1": "Performance indicators of the Proposed DARL approach and Benchmarks for entire trading period"
+        },
+        "question":"In chart1, what is the color of the HyBird GA curve? Respond only with the color.",
+        "question_type": "perceptual",
+        "answer": "purple",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2510.10807v3\\chart1.jpg",
+            "table1": "2510.10807v3\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Ablations—performance and diagnostic metrics across variants (OOS 2020–2025).",
+            "table1": "Ablations (OOS 2020–2025; annualized; net 10 bps). Higher is better except Vol, MaxDD."
+        },
+        "question":"In chart1, what is the color of the bar representing MaxDD? Respond only with the color.",
+        "question_type": "perceptual",
+        "answer": "Orange",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 63,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.22206v1\\chart1.jpg",
+            "table1": "2510.22206v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Plot showing the three different distributions found by the RL trading agent for each objective function. The plot also shows the aggregate volume over 1 minute periods in red. The lunch period is shown as a shaded region.",
+            "table1": "Comparison of risk, impact, and slippage across execution strategies. Based on a sell meta-order size of 5000, executed over 1000 orders. Distribution parameters are optimised by an RL agent over 50 episodes; values in the table are averaged over 10 Monte Carlo runs from the test data. Distance refers to the Euclidean distance from the efficient frontier."
+        },
+        "question":"What metric is represented on the y-axis for the red line in chart1? Respond only with the metric.",
+        "question_type": "perceptual",
+        "answer": "Executed Volume",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 70,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.24151v1\\chart1.jpg",
+            "table1": "2509.24151v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Error Metrics of Movie Rating Forecasting (normalized by unweighted average)",
+            "table1": "Summary of Results on Toy Datasets."
+        },
+        "question":"How many distinct metrics are included in the table1? Respond only with a number.",
+        "question_type": "perceptual",
+        "answer": 6,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 71,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.24151v1\\chart1.jpg",
+            "table1": "2509.24151v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Error Metrics of Movie Rating Forecasting (normalized by unweighted average)",
+            "table1": "Summary of Results on Toy Datasets."
+        },
+        "question":"In chart1, what does the green bar under RMSE represent? Respond with the corresponding metric name.",
+        "question_type": "perceptual",
+        "answer": "Basket Similarity",
+        "answer_type": "text"
+    }
+]

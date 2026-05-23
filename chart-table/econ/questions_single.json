@@ -1,0 +1,767 @@
+[
+    {
+        "question_id": 1,
+        "items": ["table1", "chart1", "chart2"],
+        "path": {
+            "table1": "2511.16932v1\\table1.jpg",
+            "chart1": "2511.16932v1\\chart1.jpg",
+            "chart2": "2511.16932v1\\chart2.jpg"
+        },
+
+        "caption": {
+            "table1": "Comparison of government expenditures under different strategies.",
+            "chart1": "Allocation of government expenditures by component under various vaccination strategies.",
+            "chart2": "Comparison of policy expenditures on cost components during disease progression."
+        },
+        "question":"Using only the values in table, check whether the ordering of the three cost categories (policy cost, healthcare cost, and economic cost) within each strategy follows the same ranking pattern across all four strategies. If the within-strategy cost ranking is identical for all strategies, list that ranking from highest to lowest， e.g. Healthcare, Economi, Policy. If the rankings differ across strategies, respond with “no.” Output only the required answer.",
+        "question_type": "reasoning",
+        "answer": "Economic, Healthcare, Policy",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 2,
+        "items": ["table1", "chart1"],
+        "path": {
+            "table1": "2511.14133v1\\table1.jpg",
+            "chart1": "2511.14133v1\\chart1.jpg"
+        },
+
+        "caption": {
+            "table1": "Sup-norm error summary for Cox and Aalen DGPs. Reported are mean ± standard deviation across simulations.",
+            "chart1": "SSC sup-norm errors across sample sizes. Distribution of sup-norm estimation errors for SSC under Cox and Aalen DGPs over 20 simulations each. Errors decrease rapidly with increasing sample size K, and variability contracts accordingly"
+        },
+        "question":"Under the Aalen DGP, which sample size K exhibits the widest error distribution in the boxplot? Respond only with the value of K.",
+        "question_type": "perceptual",
+        "answer": 300,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["table1", "chart1"],
+        "path": {
+            "table1": "2511.14133v1\\table1.jpg",
+            "chart1": "2511.14133v1\\chart1.jpg"
+        },
+
+        "caption": {
+            "table1": "Sup-norm error summary for Cox and Aalen DGPs. Reported are mean ± standard deviation across simulations.",
+            "chart1": "SSC sup-norm errors across sample sizes. Distribution of sup-norm estimation errors for SSC under Cox and Aalen DGPs over 20 simulations each. Errors decrease rapidly with increasing sample size K, and variability contracts accordingly"
+        },
+        "question":"Under the Cox DGP, count the number of outliers(points outside the whiskers) for each sample size K. Provide three numbers in order corresponding to K=100, K=300, and K=700. Respond only with [num1, num2, num3].",
+        "question_type": "perceptual",
+        "answer": [2, 3, 4],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["table1", "chart1", "chart2"],
+        "path": {
+            "table1": "2511.04935v1\\table1.jpg",
+            "chart1": "2511.04935v1\\chart1.jpg",
+            "chart2": "2511.04935v1\\chart2.jpg"
+        },
+
+        "caption": {
+            "table1": "Word Count Statistics by Dataset",
+            "chart1": "Mean Number of Words in Filings Over Time",
+            "chart2": "Median Number of Words in Filings Over Time"
+        },
+        "question":"Which dataset’s series shows a continuously increasing trend from 2001 to 2009 in the chart1?A. All Filings B. Only 10-Q and 10-K filings C. Extracted Filings (MD&A, Risk Factors, Market Risk) D. None. Respond only with the choice.",
+        "question_type": "reasoning",
+        "answer": "D",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["table1", "chart1", "chart2"],
+        "path": {
+            "table1": "2511.04935v1\\table1.jpg",
+            "chart1": "2511.04935v1\\chart1.jpg",
+            "chart2": "2511.04935v1\\chart2.jpg"
+        },
+
+        "caption": {
+            "table1": "Word Count Statistics by Dataset",
+            "chart1": "Mean Number of Words in Filings Over Time",
+            "chart2": "Median Number of Words in Filings Over Time"
+        },
+        "question":"For the “Final Dataset (no multiple filings)” series in chart2, which of the following time periods show a continuously increasing trend? Select all that apply. Respond only with the choice, such as [A, B] A. 1995–2000 B. 2001–2004 C. 2005–2008 D. 2010–2013",
+        "question_type": "reasoning",
+        "answer": "[B, D]",
+        "answer_type": "choice_list"
+    },
+
+    {
+        "question_id": 6,
+        "items": ["table1", "chart1"],
+        "path": {
+            "table1": "2510.24781v1\\table1.jpg",
+            "chart1": "2510.24781v1\\chart1.jpg"
+        },
+
+        "caption": {
+            "table1": "Supply Chain Network Summary Statistics",
+            "chart1": "Supply Chain Network Evolution Over Time"
+        },
+        "question":"Based on chart1, identify the maximum value of the average edge weight shown in the chart. Respond with the numerical value only.",
+        "question_type": "perceptual",
+        "answer": 284,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["table1", "chart1", "chart2"],
+        "path": {
+            "table1": "2510.16886v1\\table1.jpg",
+            "chart1": "2510.16886v1\\chart1.jpg",
+            "chart2": "2510.16886v1\\chart2.jpg"
+
+        },
+
+        "caption": {
+            "table1": "Estimation times (in seconds) for LMDC’s synthetic datasets.",
+            "chart1": "Estimation times (in seconds) for LMDC’s synthetic data, comparing NFXP and ECP. Each dataset is identified by the number of alternatives (#alt) and the corresponding [L,U] range.",
+            "chart2": "Estimation times (in seconds) for LMDC’s synthetic data as a function of the number of parameters."
+        },
+        "question":"In chart2, when the number of parameters increases from 20 to 100, which method’s estimation-time curve remains nearly flat? Respond only with the method.",
+        "question_type": "perceptual",
+        "answer": "ECP",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["table1", "chart1", "chart2"],
+        "path": {
+            "table1": "2510.16886v1\\table1.jpg",
+            "chart1": "2510.16886v1\\chart1.jpg",
+            "chart2": "2510.16886v1\\chart2.jpg"
+
+        },
+
+        "caption": {
+            "table1": "Estimation times (in seconds) for LMDC’s synthetic datasets.",
+            "chart1": "Estimation times (in seconds) for LMDC’s synthetic data, comparing NFXP and ECP. Each dataset is identified by the number of alternatives (#alt) and the corresponding [L,U] range.",
+            "chart2": "Estimation times (in seconds) for LMDC’s synthetic data as a function of the number of parameters."
+        },
+        "question":"Assume that the system’s computational budget requires the estimation method to run within 1 second. Based on table 1, which alt–[L,U] combinations cannot use NFXP? Provide all combinations in the format: alt = X, [L,U] = [a,b]，alt = X, [L,U] = [a,b]...",
+        "question_type": "reasoning",
+        "answer": "alt = 30, [L,U] = [0,20], alt = 50, [L,U] = [0,20], alt = 50, [L,U] = [0,30]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 9,
+        "items": ["table1", "chart1", "chart2"],
+        "path": {
+            "table1": "2510.16886v1\\table1.jpg",
+            "chart1": "2510.16886v1\\chart1.jpg",
+            "chart2": "2510.16886v1\\chart2.jpg"
+
+        },
+
+        "caption": {
+            "table1": "Estimation times (in seconds) for LMDC’s synthetic datasets.",
+            "chart1": "Estimation times (in seconds) for LMDC’s synthetic data, comparing NFXP and ECP. Each dataset is identified by the number of alternatives (#alt) and the corresponding [L,U] range.",
+            "chart2": "Estimation times (in seconds) for LMDC’s synthetic data as a function of the number of parameters."
+        },
+        "question":"Using the data from Table 1, first compute the average estimation time for each value of alt by averaging over all corresponding [L,U] configurations. Then plot a line chart showing how the average estimation time varies with alt for both methods (NFXP and ECP). The two lines should appear in the same figure, with different colors or line styles. Respond with executable Python code using the matplotlib library only.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "line_chart",
+            "data": [
+                [[0.09], [0.08, 0.10], [0.19, 0.30], [0.57, 0.99], [1.58, 3.97]],
+                [[0.02], [0.03, 0.03], [0.11, 0.10], [0.17, 0.29], [0.34, 0.92]]
+            ],
+            "operation": "mean",
+            "title": "Average Estimation Time vs alt (Table 1)",
+            "xlabel": "alt",
+            "ylabel": "Average Estimation Time (s)",
+            "legend": true,
+            "tick": {
+                "xticklabels": ["5", "10", "20", "30", "50"], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": true,
+                "marker": true,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["table1", "chart1"],
+        "path": {
+            "table1": "2510.12289v2\\table1.jpg",
+            "chart1": "2510.12289v2\\chart1.jpg"
+
+        },
+
+        "caption": {
+            "table1": "Prediction Errors by Distance (Pooled 2019-2021)",
+            "chart1": "Mean Absolute Prediction Errors by Distance (Averaged 2019–2021). Nonparametric methods (blue) outperform parametric exponential decay (red) at near-source (10 km) and long-range (100 km) distances. At intermediate distances (50 km), both methods perform similarly, suggesting exponential decay provides adequate approximation in the mid-range."
+        },
+        "question":"Based on chart1, what is the general shape of the Parametric curve? A. Monotonically decreasing B. Monotonically increasing C. Decreasing first and then increasing D. Increasing first and then decreasing. Respond only with the option.",
+        "question_type": "perceptual",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 11,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2509.11501v1\\chart1.jpg",
+            "table1": "2509.11501v1\\table1.jpg"
+        },
+        "caption": {
+            "table1": "Event-Study Difference-in-Differences: Wage Effects",
+            "chart1": "Event Study: Impact of Hurricane Harvey on Construction Sector Wages"
+        },
+        "question":"Using the chart1, check whether the coefficients for quarters 5–9 all fall within the interval [0.03, 0.07]. If yes, respond only with yes; if not, respond with the quarter number(s) outside the interval, Respond only with the number.",
+        "question_type": "reasoning",
+        "answer": "8",
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2509.11501v1\\chart1.jpg",
+            "table1": "2509.11501v1\\table1.jpg"
+        },
+        "caption": {
+            "table1": "Event-Study Difference-in-Differences: Wage Effects",
+            "chart1": "Event Study: Impact of Hurricane Harvey on Construction Sector Wages"
+        },
+        "question":"Using the coefficient values in Table 1, compute the following two increases: The increase from quarter 1 → quarter 2. The increase from quarter 2 → quarter 3. Respond in the format: [increase1, increase2]. Respond only with the list.",
+        "question_type": "reasoning",
+        "answer": "[0.0518, -0.0135]",
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["chart1", "chart2", "chart3", "table1"],
+        "path": {
+            "chart1": "2509.16655v1\\chart1.jpg",
+            "chart2": "2509.16655v1\\chart2.jpg",
+            "chart3": "2509.16655v1\\chart3.jpg",
+            "table1": "2509.16655v1\\table1.jpg"
+        },
+        "caption": {
+            "table1": "Changes in probability of high-value type categories for each bug type variable. Rows with a p-value < 0.05 are in bold.",
+            "chart1": "Distributions of tier, severity, and merit for all bugs received in the treated program before and after the reward change in July, 2024. —— Tier",
+            "chart2": "Distributions of tier, severity, and merit for all bugs received in the treated program before and after the reward change in July, 2024. —— Severity",
+            "chart3": "Distributions of tier, severity, and merit for all bugs received in the treated program before and after the reward change in July, 2024. —— Merit"
+        },
+        "question":"According to chart2(Severity panel), what is the proportion of “Medium” before the reward change? Respond only with number.",
+        "question_type": "perceptual",
+        "answer": 0.69,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 14,
+        "items": ["chart1", "chart2", "chart3", "table1"],
+        "path": {
+            "chart1": "2509.16655v1\\chart1.jpg",
+            "chart2": "2509.16655v1\\chart2.jpg",
+            "chart3": "2509.16655v1\\chart3.jpg",
+            "table1": "2509.16655v1\\table1.jpg"
+        },
+        "caption": {
+            "table1": "Changes in probability of high-value type categories for each bug type variable. Rows with a p-value < 0.05 are in bold.",
+            "chart1": "Distributions of tier, severity, and merit for all bugs received in the treated program before and after the reward change in July, 2024. —— Tier",
+            "chart2": "Distributions of tier, severity, and merit for all bugs received in the treated program before and after the reward change in July, 2024. —— Severity",
+            "chart3": "Distributions of tier, severity, and merit for all bugs received in the treated program before and after the reward change in July, 2024. —— Merit"
+        },
+        "question":"According to table1, how many type variables have p-values less than 0.05? Respond only with a number.",
+        "question_type": "perceptual",
+        "answer": 2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["chart1", "chart2", "chart3", "table1"],
+        "path": {
+            "chart1": "2509.16655v1\\chart1.jpg",
+            "chart2": "2509.16655v1\\chart2.jpg",
+            "chart3": "2509.16655v1\\chart3.jpg",
+            "table1": "2509.16655v1\\table1.jpg"
+        },
+        "caption": {
+            "table1": "Changes in probability of high-value type categories for each bug type variable. Rows with a p-value < 0.05 are in bold.",
+            "chart1": "Distributions of tier, severity, and merit for all bugs received in the treated program before and after the reward change in July, 2024. —— Tier",
+            "chart2": "Distributions of tier, severity, and merit for all bugs received in the treated program before and after the reward change in July, 2024. —— Severity",
+            "chart3": "Distributions of tier, severity, and merit for all bugs received in the treated program before and after the reward change in July, 2024. —— Merit"
+        },
+        "question":"Based on chart1, extract the proportions for all Tier categories—Tier 0, Tier 1, Tier 2, Tier 3, and None—under both the “Before” and “After” conditions. Format your output as a two-dimensional list: [ [Tier, Before, After], [Tier 0, b0, a0], [Tier 1, b1, a1], [Tier 2, b2, a2], [Tier 3, b3, a3], [None, b4, a4] ] (1) The first row must contain the column labels. (2) All proportions must be floats rounded to two decimal places. Respond only with the two-dimensional list.",
+        "question_type": "chart to table",
+        "answer": [
+                ["Tier", "Before", "After"],
+                ["Tier 0", 0.01, 0.07],
+                ["Tier 1", 0.05, 0.10],
+                ["Tier 2", 0.29, 0.14],
+                ["Tier 3", 0.16, 0.20],
+                ["None", 0.49, 0.49]
+                ],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 16,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2510.16021v2\\chart1.jpg",
+            "table1": "2510.16021v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Profit uplift relative to spot-only, mean trade counts, and 5% CVaR across the evaluated scenarios. Error bars denote 95% confidence intervals.",
+            "table1": "Out-of-sample comparison for the feature-driven RL policy (FDRL). Profits and CVaR are in thousands of euros; 95% CIs correspond to half-widths across five seeds."
+        },
+        "question": "State what the vertical axis of the orange line in the upper panel of chart1 represents. Output only the quantity represented by the vertical axis, without any additional explanatory text.",
+        "question_type": "perceptual",
+        "answer": "Trades per month (mean)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2510.16021v2\\chart1.jpg",
+            "table1": "2510.16021v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Profit uplift relative to spot-only, mean trade counts, and 5% CVaR across the evaluated scenarios. Error bars denote 95% confidence intervals.",
+            "table1": "Out-of-sample comparison for the feature-driven RL policy (FDRL). Profits and CVaR are in thousands of euros; 95% CIs correspond to half-widths across five seeds."
+        },
+        "question": "Identify the chart types used in chart1. Choose only from the following list: [bar chart, line chart, scatter plot, area chart, histogram, box plot, donut chart, pie chart, stacked bar chart, heatmap, ribbon chart, step chart, density plot, violin plot] Output a list of chart types ordered by frequency of appearance (most frequent first). Example: [bar chart, scatter plot].",
+        "question_type": "perceptual",
+        "answer": "[bar chart, line chart]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.12272v1\\chart1.jpg",
+            "table1": "2510.12272v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "MARL-BC scaling performance and runtime versus number of agents.",
+            "table1": "Hyperparameters for PPO, SAC, TD3, and DDPG."
+        },
+        "question": "Which algorithms use a replay buffer according to Table 1? Respond only with a list of letters. A. PPO. B. SAC. C. TD3. D. DDPG.",
+        "question_type": "perceptual",
+        "answer": "[B, C, D]",
+        "answer_type": "choice_list"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.12289v2\\chart1.jpg",
+            "table1": "2510.12289v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Spatial decay of NO₂ concentrations around coal power plants from 2019 to 2021, comparing parametric exponential and nonparametric kernel regression estimates, with MAE reported.",
+            "table1": "Prediction Accuracy: Parametric vs Nonparametric"
+        },
+        "question": "Which year shows the smallest gap between Parametric and Nonparametric curves in the 20–50 km range in Chart 1? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": 2021,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 20,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.00080v1\\chart1.jpg",
+            "table1": "2511.00080v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution of area types among Bottom 30% low-uptake ZIPs. Rural ZIPs dominate the fragile tail even after adjusting thresholds within areas, reinforcing the need for rural-specific thresholds and interventions.",
+            "table1": "Sample Totals and Prevalence (P2 and P1)"
+        },
+        "question": "Compute the average Eligible (P2) across Urban, Rural, and Mixed areas in Table 1. Round to the nearest integer. Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 1603,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 21,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.00080v1\\chart1.jpg",
+            "table1": "2511.00080v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution of area types among Bottom 30% low-uptake ZIPs. Rural ZIPs dominate the fragile tail even after adjusting thresholds within areas, reinforcing the need for rural-specific thresholds and interventions.",
+            "table1": "Sample Totals and Prevalence (P2 and P1)"
+        },
+        "question": "From Chart 1, extract ZIP counts and percentages for each area type and organize them into the following table with a header row: [[Area_Type, ZIP_Count, Percentage], …] Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Area_Type", "ZIP_Count", "Percentage"], 
+        ["Urban", 45, 8.8], 
+        ["Rural", 380, 74.7], 
+        ["Mixed", 9, 1.8], 
+        ["Unknown", 75, 14.7]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.01597v1\\chart1.jpg",
+            "table1": "2511.01597v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Mean second-order belief by presentation form with 95% CI",
+            "table1": "Frequency of categories in which sellers justified their choices"
+        },
+        "question": "Compute the average percentage of the “Other” category across the four presentation forms (excluding All) in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 15.85,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 23,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.01597v1\\chart1.jpg",
+            "table1": "2511.01597v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Mean second-order belief by presentation form with 95% CI",
+            "table1": "Frequency of categories in which sellers justified their choices"
+        },
+        "question": "Visualize the “Perceived Value” percentages of all presentation forms in Table 1. Plot requirements: Use Python with matplotlib Create a vertical bar chart X-axis: presentation forms Y-axis: percentage values Add a title and axis labels Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "bar_chart",
+            "data": [[23.2, 59.4, 65.1, 65.4]],
+            "operation": null,
+            "title": "Perceived Value by Presentation Form",
+            "xlabel": "Presentation Forms",
+            "ylabel": "Perceived Value (%)",
+            "legend": null,
+            "tick": {
+                "xticklabels": ["Transparent", "Sample", "Censoring", "Sample_Censoring"], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 24,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.02458v1\\chart1.jpg",
+            "table1": "2511.02458v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Figure 3: Comparison of AI persona-based and human forecasts for current-year horizon across four ECB-SPF variables (2013–2025): HICP inflation. Gray shaded regions indicate out-of-sample evaluation period. AI-generated median forecasts often, but not always, match human forecasts; this occurs both in the in-sample and out-of-sample surveys.",
+            "table1": "Forecast accuracy (MAE) comparing AI persona-based forecasts (median of 2,368 personas) versus human SPF medians across 50 ECB-SPF rounds (2013–2025). In-sample: 2013–2023, out-of-sample: 2024–2025. Bold indicates better performance. All errors in percentage points."
+        },
+        "question": "According to Table 1, which year separates the in-sample and out-of-sample periods? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 2023,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 25,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.07280v3\\chart1.jpg",
+            "table1": "2511.07280v3\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Consumption Decomposition Across Different RecSys Algorithms",
+            "table1": "Engagement and Diversity under Counterfactual RecSys Algorithms"
+        },
+        "question": "From Chart 1, extract the Bj, Ej, and Rj fractions for each model and organize them into the following 2D table with the header row: [[Model, Bj, Ej, Rj], …] Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Model", "Bj", "Ej", "Rj"],
+            ["Current", 51.3, 6.8, 41.9],
+            ["Matrix Factorization", 33.0, 29.3, 37.7],
+            ["Random", 0.0, 99.7, 0.0]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.13865v1\\chart1.jpg",
+            "table1": "2511.13865v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Total Time Savings Holding Accuracy Constant",
+            "table1": "Accuracy Gains Across Experimental Tasks"
+        },
+        "question": "What is the column index of “Effect Size” in Table 1 (counting from left, starting at 1)? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.15123v1\\chart1.jpg",
+            "table1": "2511.15123v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Cumulative abnormal pre-addition returns. Average cumulative abnormal returns around index inclusion announcements, measured in event time and normalized to zero 100 trading days before the announcement. Different line styles represent alternative abnormal return definitions (market, CAPM, FF3F, PSM, and synthetic control).",
+            "table1": "Announcement-Day Treatment Effects of Index Inclusion. Average announcement-day effects of index inclusion by decade, estimated using multiple methods (Diff-in-Means, Market, CAPM, FF3F, and synthetic control)."
+        },
+        "question": "Which estimation method shows the lowest CAR level after event day 0 in Chart 1? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Gsynth",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.16187v1\\chart1.jpg",
+            "table1": "2511.16187v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Years of initial wages",
+            "table1": "Instrument: Initial wage"
+        },
+        "question": "Which line style represents Men in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "dotted",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 29,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.20812v1\\chart1.jpg",
+            "table1": "2511.20812v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution of maximum bid prices without and with treatment, i.e., active AMP screening in 2019.",
+            "table1": "Market-level regressions. Overall, adjustments to avoid conduct thresholds range between -1 and -2 $/MWh in both markets."
+        },
+        "question": "What type of chart is used in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "Violin plot",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 30,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.21802v1\\chart1.jpg",
+            "table1": "2511.21802v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "MultiChallenge accuracy comparison for OpenAI models. The task requires integrating complex information across multi-turn conversations; GPT-4.1-nano shows notably weaker multi-step reasoning performance.",
+            "table1": "Average Auction Rounds Before Acceptance"
+        },
+        "question": "From Chart 1, extract all “mini” models and their accuracy values and organize them into a 2D table with a header row: [[Model, Accuracy], …] Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Model", "Accuracy"],
+            ["OpenAI o3-mini (high)", 40],
+            ["GPT-4.1 mini", 36],
+            ["GPT-4.1 nano", 15],
+            ["GPT-4o mini", 20]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 31,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.21802v1\\chart1.jpg",
+            "table1": "2511.21802v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "MultiChallenge accuracy comparison for OpenAI models. The task requires integrating complex information across multi-turn conversations; GPT-4.1-nano shows notably weaker multi-step reasoning performance.",
+            "table1": "Average Auction Rounds Before Acceptance"
+        },
+        "question": "Visualize the values of all models in Table 1 across different numbers of drivers. Plot requirements: Use Python with matplotlib. Create a line chart. X-axis: Number of Drivers. Y-axis: Average Auction Rounds Before Acceptance. One line per model. Add a legend, title, and axis labels. Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "line_chart",
+            "data": [
+                [3.00, 4.95, 4.95, 4.95, 3.00, 4.65, 3.05],
+                [10.00, 3.35, 2.88, 3.23, 3.30, 3.08, 3.05],
+                [10.00, 7.30, 6.00, 5.00, 3.05, 3.08, 3.05]
+            ],
+            "operation": null,
+            "title": "Average Auction Rounds Before Acceptance vs Number of Drivers",
+            "xlabel": "Number of Drivers",
+            "ylabel": "Number of DriversAverage Auction Rounds Before Acceptance",
+            "legend": true,
+            "tick": {
+                "xticklabels": [1, 2, 3, 4, 5, 6, 7], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": true,
+                "marker": true,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 32,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.00243v1\\chart1.jpg",
+            "table1": "2512.00243v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Historical trends (2001–2021) of key investment, financial, production, and reserve variables for major offshore oil firms.",
+            "table1": "Descriptive Statistics for Top-Ten Offshore Investors (2001–2021)"
+        },
+        "question": "How many individual firms (excluding “Total”) are listed in Table 1?  Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 9,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 33,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.04035v2\\chart1.jpg",
+            "table1": "2512.04035v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Average expert opinions.",
+            "table1": "Determination of the utility or cost criterion for each column in the initial decision matrix."
+        },
+        "question": "How many IR indicators are labeled as “Min” in Table 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 34,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.08472v1\\chart1.jpg",
+            "table1": "2512.08472v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Plots of mean values of girls’ (red) and boys’ (blue) responses in the pre-test (T1) to the self-efficacy item and summarized for items related to one of the three dimensions of interest. The colored area illustrates standard deviation.",
+            "table1": "Questionnaire reliability statistics"
+        },
+        "question": "Which color represents boys in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "blue",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.12255v1\\chart1.jpg",
+            "table1": "2512.12255v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Predictive densities for newly issued NFC loans, estimated via a 6-component finite mixture model (selected by BIC) holding all controls at their mean and varying the NIU from its 25th to 75th quantile. Source: AnaCredit and author’s computation.",
+            "table1": "Quantile Interest Rates by Placebo Scenario (25th vs 75th)"
+        },
+        "question": "What is the q75 interest rate under the 25th placebo scenario in Table 1? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 3.130395,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.17444v1\\chart1.jpg",
+            "table1": "2512.17444v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Ablation results showing average penalty, HHI index, and league ranking for different hyperparameter configurations in the EoM and CM + Cfd environments.",
+            "table1": "Hyperparameter settings for the ablation study."
+        },
+        "question": "How many evaluation dimensions are included in the radar chart of Chart 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 6,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.17508v1\\chart1.jpg",
+            "table1": "2512.17508v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Electricity and hydrogen generation capacities installed in four investment scenarios in Denmark (DK), Spain (ES) and France (FR).",
+            "table1": "Overview of varying assumptions for investment scenarios"
+        },
+        "question": "How many distinct generation or storage technologies are listed in the legend of Chart 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 14,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 38,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.19569v1\\chart1.jpg",
+            "table1": "2512.19569v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "AI technological proximity to the U.S. and China.",
+            "table1": "RCA index - Top 15 countries by AI patents and E.U"
+        },
+        "question": "Which country appears in the first row of the “N. AI patents” column in Table 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": 16,
+        "answer_type": "numeric"
+    }
+]

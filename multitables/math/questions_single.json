@@ -1,0 +1,784 @@
+[
+    {
+        "question_id": 1,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.08500v1\\table1.jpg",
+            "table2": "2511.08500v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "EXTERNAL BENCHMARK RETENTION (% OF BASELINE). FULL CPT CAUSES SEVERE DEGRADATION ESPECIALLY IN MATHEMATICAL REASONING AND INSTRUCTION FOLLOWING. SPEAR-MM SIGNIFICANTLY MITIGATES FORGETTING.",
+            "table2": "FINANCIAL DOMAIN PERFORMANCE (PERCENTAGE POINT IMPROVEMENT OVER BASE MODEL). CLOSEQA AND OPENQA MEASURED BY ACCURACY (%). SUMMARIZATION MEASURED BY ROUGEGM5 (GEOMETRIC MEAN OF ROUGE-1/2/3/4/L)."
+        },
+        "question": "Compute the average Summarization improvement (0-shot and 1-shot) for SPEAR-MM (Conservative) in Table 2. Respond only with a single numeric value rounded to one decimal place.",
+        "question_type": "reasoning",
+        "answer": 27.4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 2,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.11768v1\\table1.jpg",
+            "table2": "2511.11768v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Yale Coat of Arms denoising results: SNR (dB)",
+            "table2": "Minnesota Road Network denoising results: SNR (dB)"
+        },
+        "question": "Compute the SNR decrease of Critically sampled from σ = 1/8 to σ = 1 in Table 2. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 15.24,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.11768v1\\table1.jpg",
+            "table2": "2511.11768v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Yale Coat of Arms denoising results: SNR (dB)",
+            "table2": "Minnesota Road Network denoising results: SNR (dB)"
+        },
+        "question": "Visualize the SNR (dB) of all methods across different σ values in Table 1. Plot requirements: Use Python with matplotlib. Create a line plot. X-axis: σ values. Y-axis: SNR (dB). Each line represents one method. Include markers, a legend, a title, and axis labels. Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "line_chart",
+            "data": [
+                [17.90, 11.88, 5.86, -0.16],
+                [15.23, 12.39, 9.04, 5.02],
+                [14.40, 12.31, 8.44, 4.48],
+                [14.49, 12.68, 9.27, 5.71],
+                [19.92, 15.83, 11.16, 6.36]
+            ],
+            "operation": null,
+            "title": "SNR vs σ for Different Methods",
+            "xlabel": "σ",
+            "ylabel": "SNR (dB)",
+            "legend": true,
+            "tick": {
+                "xticklabels": ["1/8", "1/4", "1/2", "1"], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": true,
+                "marker": true,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.16111v1\\table1.jpg",
+            "table2": "2511.16111v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Image denoising results on Set12 dataset.",
+            "table2": "Point cloud denoising results on Microsoft Voxelized dataset."
+        },
+        "question": "In Table 1, compute the PSNR decrease of the GFRFT method on Peppers from σ = 20 to σ = 40. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 4.232,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.16111v1\\table1.jpg",
+            "table2": "2511.16111v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Image denoising results on Set12 dataset.",
+            "table2": "Point cloud denoising results on Microsoft Voxelized dataset."
+        },
+        "question": "In Table 2, compute the average PSNR of the II-AGFRFT_raw method on David9 across all σ values. Round to two decimal places and respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 40.41,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 6,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.21768v1\\table1.jpg",
+            "table2": "2511.21768v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "CPU Cycle Count",
+            "table2": "Agent Memory Usage"
+        },
+        "question": "Compute the percentage decrease from Avg Before to Avg After for Request in Table 2. Respond only with a single numeric value rounded to two decimal places.",
+        "question_type": "reasoning",
+        "answer": 8.55,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.05645v1\\table1.jpg",
+            "table2": "2512.05645v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "The numbers bd from (3.7) for small d, and the lower estimate (3.8).",
+            "table2": "Estimates for bd for larger d. Note that (3.8), which is asymptotically equal to (3.9), gives a better approximation than (3.9)."
+        },
+        "question": "In Table 1, what is the value of bd at d = 6? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.902,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.05645v1\\table1.jpg",
+            "table2": "2512.05645v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "The numbers bd from (3.7) for small d, and the lower estimate (3.8).",
+            "table2": "Estimates for bd for larger d. Note that (3.8), which is asymptotically equal to (3.9), gives a better approximation than (3.9)."
+        },
+        "question": "Compute the average of all Asymptotics values in Table 2. Respond only with a single numeric value rounded to three decimal places.",
+        "question_type": "reasoning",
+        "answer": 0.251,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 9,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.05645v1\\table1.jpg",
+            "table2": "2512.05645v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "The numbers bd from (3.7) for small d, and the lower estimate (3.8).",
+            "table2": "Estimates for bd for larger d. Note that (3.8), which is asymptotically equal to (3.9), gives a better approximation than (3.9)."
+        },
+        "question": "Visualize how all parameters in Table 2 vary with d. Plot requirements: Use Python with matplotlib. Create a multi-line plot. X-axis: d values. Y-axis: estimate values. Each line represents one parameter in Table 2 (Lower estimate, Upper estimate, Asymptotics). Include a legend, a title, and axis labels. Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "line_chart",
+            "data": [
+                [50, 100, 150, 200, 300, 400, 500],
+                [0.415, 0.262, 0.191, 0.150, 0.105, 0.081, 0.066],
+                [0.510, 0.295, 0.210, 0.161, 0.111, 0.084, 0.068],
+                [0.710, 0.355, 0.236, 0.177, 0.118, 0.088, 0.071]
+            ],
+            "operation": null,
+            "title": "Estimates vs d",
+            "xlabel": "d",
+            "ylabel": "Estimate value",
+            "legend": true,
+            "tick": {
+                "xticklabels": [50, 100, 150, 200, 300, 400, 500], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": true,
+                "marker": true,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.08256v1\\table1.jpg",
+            "table2": "2512.08256v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of different methods for solving the equation(7) with different ε values",
+            "table2": "L2-errors of the WPIQNN method for Equation(7) with different ε."
+        },
+        "question": "In Table 2, when ε decreases from 0.14 to 0.13, compute the relative change in L2-error defined as (old − new) / old. Respond only with a single numeric value rounded to three decimals.",
+        "question_type": "reasoning",
+        "answer": 0.575,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 11,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.09002v1\\table1.jpg",
+            "table2": "2512.09002v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Separation of the zeros in asymptotic intervals for different values of q.",
+            "table2": "Illustration of approximating zeros within the intervals determined by the approximating zeros of a related function."
+        },
+        "question": "In Table 2, compute the average of Approx rk values for q=0.5 from k=1 to k=4. Respond only with a single numeric value rounded to four decimal places.",
+        "question_type": "reasoning",
+        "answer": 14.8461,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.10467v2\\table1.jpg",
+            "table2": "2512.10467v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "The target FDPs are 6% for Case 1 and 7.5% for Case 2",
+            "table2": "Comparision between Algorithm 1 and the moving-window method"
+        },
+        "question": "In Table 1, what is the average FNP for Case 2 using the B-H method with n = 600? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.64,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.10467v2\\table1.jpg",
+            "table2": "2512.10467v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "The target FDPs are 6% for Case 1 and 7.5% for Case 2",
+            "table2": "Comparision between Algorithm 1 and the moving-window method"
+        },
+        "question": "In Table 1 (Case 1), compute the difference between FDP max and FDP average for the B-Y method at n = 450. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 1.01,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 14,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.15381v1\\table1.jpg",
+            "table2": "2512.15381v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "The average run-time for different algorithms.",
+            "table2": "Results of the GPFHDP-AIF algorithm on vehicle dynamics."
+        },
+        "question": "In Table 2, what is the Tracking Task Error when N = 10 and γ = 0? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 91.33,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.16327v1\\table1.jpg",
+            "table2": "2512.16327v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Exact values for b2(5, 2, 2; s) and upper bounds for b2(5, 2, 2; s, 1).",
+            "table2": "Bounds for b3(5, 2, 2; s)"
+        },
+        "question": "In Table 1, what is the maximum increase in b₂(5,2,2; s) between two consecutive s values? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 27,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 16,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.16359v1\\table1.jpg",
+            "table2": "2512.16359v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Errors measured in the L1-norm and EOC for Example 2.1 using exact evolution with CFL = 0.5 at t = 0.1.",
+            "table2": "Errors measured in the L1-norm and EOC for Example 2.1 using exact evolution with CFL = 0.5 at t = 1."
+        },
+        "question": "In Table 1, what is the EOC of p at resolution 128 × 128? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 2.976,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.17211v1\\table1.jpg",
+            "table2": "2512.17211v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Example 4.4.",
+            "table2": "Example 4.5, with h = 0.005, m = 4."
+        },
+        "question": "In Table 1, how many data rows are there excluding the header? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 10,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.17301v1\\table1.jpg",
+            "table2": "2512.17301v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Effect of Wages on Work Hours: Mroz (1987) Data",
+            "table2": "Effect of Protestantism on Literacy: Becker and Woessmann (2009) Data"
+        },
+        "question": "What is the lower bound of the 95% confidence interval for the SIV estimate in Table 1? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 1338,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.17301v1\\table1.jpg",
+            "table2": "2512.17301v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Effect of Wages on Work Hours: Mroz (1987) Data",
+            "table2": "Effect of Protestantism on Literacy: Becker and Woessmann (2009) Data"
+        },
+        "question": "Compute the coefficient of variation (standard error divided by estimate) for the IV estimate in Table 1. Respond only with a single numeric value rounded to three decimals.",
+        "question_type": "reasoning",
+        "answer": 0.311,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 20,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.17473v2\\table1.jpg",
+            "table2": "2512.17473v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance comparison of ADMM and WLRA on the CBCL dataset for matrix completion.",
+            "table2": "Relative reconstruction error ‖X_clean − X_recon‖_F / ‖X_clean‖_F for different nonlinearities and loss functions."
+        },
+        "question": "In Table 1, compute the difference between the maximum and minimum RMSE_test values of WLRA. Respond only with a single numeric value rounded to four decimal places.",
+        "question_type": "reasoning",
+        "answer": 0.0022,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 21,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.17473v2\\table1.jpg",
+            "table2": "2512.17473v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance comparison of ADMM and WLRA on the CBCL dataset for matrix completion.",
+            "table2": "Relative reconstruction error ‖X_clean − X_recon‖_F / ‖X_clean‖_F for different nonlinearities and loss functions."
+        },
+        "question": "Visualize the RMSE_test of ADMM and WLRA across different missing ratios in Table 1. Plot requirements: Use Python with matplotlib. Create a line plot. X-axis: Missing ratio (%). Y-axis: RMSE_test. Each line represents one method. Include markers, a legend, a title, and axis labels. Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "line_chart",
+            "data": [
+                [0, 5, 10, 20, 50, 80],
+                [0.1023, 0.1024, 0.1023, 0.1025, 0.1036, 0.1089],
+                [0.1459, 0.1460, 0.1454, 0.1457, 0.1464, 0.1476]
+            ],
+            "operation": null,
+            "title": "RMSE_test vs Missing Ratio",
+            "xlabel": "Missing Ratio (%)",
+            "ylabel": "RMSE_test",
+            "legend": true,
+            "tick": {
+                "xticklabels": [0, 5, 10, 20, 50, 80], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": true,
+                "marker": true,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.18169v1\\table1.jpg",
+            "table2": "2512.18169v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Verification of Exact APD Identity for Squared Natural Square (d = n, r = 2)",
+            "table2": "Verification of Exact APD Identity for Squared Skew-Diagonal Grid (d = 1, r = 2)"
+        },
+        "question": "Compute the average of log₁₀(APD_{m1}(f)) across all rows in Table 2. Respond only with a single numeric value rounded to two decimals.",
+        "question_type": "reasoning",
+        "answer": 12.44,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 23,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.18377v1\\table1.jpg",
+            "table2": "2512.18377v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Absolute error (order of convergence) for the Bernoulli problem",
+            "table2": "Error (order of convergence) for the first component of the solution for B5"
+        },
+        "question": "In Table 1, which method has an order of convergence closest to 7 at its smallest reported k? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "BDF6",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 24,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.18584v1\\table1.jpg",
+            "table2": "2512.18584v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Simulation: out-of-sample MSE and horizon effects. Panel A reports one-step-ahead MSE averaged over nodes and forecast origins. Panel B reports multi-step MSE for horizons h ∈ {1, 2, 4, 8} using rolling origins; the final columns report ∆MSE = MSE(full) − MSE(no-net) and a paired block-bootstrap 95% CI over forecast origins.",
+            "table2": "GDP: multi-step forecast performance with standard baselines (short holdout; 8 origins). Rolling-origin forecasts for h ∈ {1, 2, 4, 8}. Entries are averaged across countries and forecast origins. Scale: raw macro units (growth-rate scale), hence MSE on the order of 10⁻⁴."
+        },
+        "question": "Visualize the MAE of all methods across different horizons h in Table 2. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: forecast horizon h. Y-axis: MAE. Each group contains bars for all methods. Include a legend, title, and axis labels. Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "grouped_bar_chart",
+            "data": [
+                [1, 2, 4, 8],
+                [0.00735, 0.00701, 0.00690, 0.00789],
+                [0.00698, 0.00681, 0.00687, 0.00714],
+                [0.00686, 0.00682, 0.00702, 0.00705],
+                [0.00770, 0.00697, 0.00657, 0.00649]
+            ],
+            "operation": null,
+            "title": "MAE Across Forecast Horizons",
+            "xlabel": "Forecast horizon h",
+            "ylabel": "MAE",
+            "legend": true,
+            "tick": {
+                "xticklabels": ["1", "2", "4", "8"], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 25,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.18592v1\\table1.jpg",
+            "table2": "2512.18592v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "AUC (mean (sd)) under strict dyad holdout (degree ordering).",
+            "table2": "Mean held-out log-likelihood (mean (sd); higher is better) under strict dyad holdout (degree ordering)."
+        },
+        "question": "In Table 1, compute the difference between the mean AUC of WL-ERG and DC-SBM on the facebook dataset. Respond only with a single numeric value rounded to three decimals.",
+        "question_type": "reasoning",
+        "answer": 0.309,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.18592v1\\table1.jpg",
+            "table2": "2512.18592v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "AUC (mean (sd)) under strict dyad holdout (degree ordering).",
+            "table2": "Mean held-out log-likelihood (mean (sd); higher is better) under strict dyad holdout (degree ordering)."
+        },
+        "question": "In Table 1, compute the arithmetic mean of AUC values across all models for the Enron dataset. Respond only with a single numeric value rounded to three decimals.",
+        "question_type": "reasoning",
+        "answer": 0.768,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.18817v1\\table1.jpg",
+            "table2": "2512.18817v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Groups of order at most 64 with prestructures",
+            "table2": "Non-monolithic groups of order 96 with prestructures"
+        },
+        "question": "Compute the average number of prestructures for groups of order 64 with zero diagonal double Kodaira structures in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 35840,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.18955v1\\table1.jpg",
+            "table2": "2512.18955v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "L2 errors and computational speed–up for the finite difference and spectral reduced solvers.",
+            "table2": "L2 errors and speed-up for the spectral reduced solver with oscillatory diffusion coefficient."
+        },
+        "question": "In Table 1, compute the average increase in Speed-up for each doubling of 𝑁 𝑥. Respond only with a single numeric value rounded to three decimals.",
+        "question_type": "reasoning",
+        "answer": 0.625,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 29,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.18955v1\\table1.jpg",
+            "table2": "2512.18955v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "L2 errors and computational speed–up for the finite difference and spectral reduced solvers.",
+            "table2": "L2 errors and speed-up for the spectral reduced solver with oscillatory diffusion coefficient."
+        },
+        "question": "Compute the arithmetic mean of the Speed-up values in Table 1. Respond only with a single numeric value rounded to three decimals.",
+        "question_type": "reasoning",
+        "answer": 3.701,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 30,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.19196v1\\table1.jpg",
+            "table2": "2512.19196v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Results for one-dimensional test problem.",
+            "table2": "Results for two-dimensional unimodal test problem"
+        },
+        "question": "Compute the average Time per Epoch (s) across all methods in Table 2. Respond only with a single numeric value rounded to two decimals.",
+        "question_type": "reasoning",
+        "answer": 10.73,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 31,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.19428v1\\table1.jpg",
+            "table2": "2512.19428v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Wikitext-2: 6-layer models with block size 128 and two different multi-scale window schedules. The GrassmannLM trails the TransformerLM by about 10–15% in validation perplexity but remains in the same overall regime.",
+            "table2": "Wikitext-2: 12-layer models with block size 256 and repeated multi-scale windows (1, 1, 2, 2, 4, 4, 8, 8, 12, 12, 16, 16) over depth. The GrassmannLM is again within roughly 10% of the TransformerLM."
+        },
+        "question": "In Table 1, compute how much higher the average validation perplexity of GrassmannLM is compared to TransformerLM. Respond only with a single numeric value rounded to one decimal place.",
+        "question_type": "reasoning",
+        "answer": 28.0,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 32,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.19440v1\\table1.jpg",
+            "table2": "2512.19440v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Average testing accuracy and the average percentage of data points involved in the model’s sparse representation (% data points) achieved by KLR-1ord, KLR-2ord, and S-KLR. KLR-1ord corresponds to the method proposed in [15]. The standard deviation of the average testing accuracy is reported in parentheses.",
+            "table2": "Average training time required by S-KLR-1ord and S-KLR-2ord for all the 12 datasets"
+        },
+        "question": "For the banknote dataset in Table 1, compute the reduction in the ratio of selected data points when using S-KLR instead of KLR-1ord. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.838,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 33,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.19647v1\\table1.jpg",
+            "table2": "2512.19647v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Expected and numerical rates of convergence for the linear stochastic Schr¨odinger equation.",
+            "table2": "Expected and numerical rates of convergence for the stochastic Schr¨odinger equation with a nonlocal nonlinearity"
+        },
+        "question": "Compute the average Numerical Rate (all step sizes) across all methods in Table 1. Round to two decimal places and respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.67,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 34,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.20748v1\\table1.jpg",
+            "table2": "2512.20748v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Control performance comparison for target attitude following test case",
+            "table2": "Control performance comparison for waypoint following test case"
+        },
+        "question": "In Table 1, compute the sum of Average control effort across all methods for Depth. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.4494,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.20748v1\\table1.jpg",
+            "table2": "2512.20748v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Control performance comparison for target attitude following test case",
+            "table2": "Control performance comparison for waypoint following test case"
+        },
+        "question": "Visualize the four performance metrics of the FxTPPC method under Depth, Pitch angle, and Heading angle in Table 1. Plot requirements: Use Python with matplotlib. Create a vertical bar chart. X-axis: metric names. Y-axis: metric values. Different colors represent different control variables. Include a title and axis labels. Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "grouped_bar_chart",
+            "data": [
+                [0.2273, 0.1203, 0.0793, 1.3595e-05],
+                [0.0579, 0.0449, 0.0597, 3.9991e-06],
+                [0.2732, 0.1966, 2.7979, 0.0256]
+            ],
+            "operation": null,
+            "title": "FxTPPC Performance Metrics under Different Control Variables",
+            "xlabel": "Performance Metrics",
+            "ylabel": "Metric Value",
+            "legend": true,
+            "tick": {
+                "xticklabels": ["Transient", "Average tracking", "Average control effort", "Degree of control chattering"],
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.20762v1\\table1.jpg",
+            "table2": "2512.20762v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of methods on F1, Test EPE, and Test C-index. DDGroup (DG) obtains the best performance in terms of recovering R∗ . The other methods generally have worse performance, though they all perform better than the baseline (non-subgroup) approach with the exception of the survival tree and PRIM.",
+            "table2": "Results on the NASA engine RUL dataset. The best EPE and C-index values are highlighted in green, as well as the methods which achieve perfect precision. The highest recall among those methods with perfect precision (Cox tree) is also highlighted in green. The Cox tree excels in terms of most metrics for this dataset. Several methods are able to discover subgroups which agree with the known ground truth operating conditions and which reveal qualitatively different behavior from the overall dataset."
+        },
+        "question": "Compute the average Test EPE across all methods in Table 1. Respond only with a single numeric value rounded to three decimals.",
+        "question_type": "reasoning",
+        "answer": 0.553,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.20844v1\\table1.jpg",
+            "table2": "2512.20844v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Number of MINRES and GMRES iterations required to reach convergence for the preconditioned systems, with λ = 1 and 10⁴, and time steps Δt = 10⁻³ and 10⁻⁶.",
+            "table2": "Number of MINRES and GMRES iterations required to reach convergence for the preconditioned systems, with λ = 1 and 10⁴, and time steps Δt = 10⁻³ and 10⁻⁶."
+        },
+        "question": "In Table 1, what is the number of iterations for GMRES under Scenario I with Δt = 10⁻³, λ = 10⁴, and N = 3680? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 16,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 38,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.21164v1\\table1.jpg",
+            "table2": "2512.21164v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Runtime in seconds and estimated memory usage in GiB for the two-dimensional convection–diffusion–reaction equation using GADI in FP64, FP32, and BF16 formats, GMRES in FP32, and cuDSS in FP64. We report results for increasing grid sizes including 960, 2560, 4096, 8192, and 10000, where the system dimension equals the square of the grid size. All methods achieve a very small relative residual. A missing entry indicated by a dash means either non-convergence within the iteration limit or exhaustion of device memory.",
+            "table2": "Same as Table 2 but for the three-dimensional convection–diffusion equation. We report problems for grid sizes including 180, 256, 320, 360, 400, 450, and 512, where the system dimension equals the cube of the grid size. All methods achieve a very small relative residual."
+        },
+        "question": "In Table 2, what is the runtime (in seconds) of GADI using FP32 at grid size 360? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 23.9,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 39,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.21319v1\\table1.jpg",
+            "table2": "2512.21319v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Mean finite-element loss and mean finite-element error, computed over 100 parameter samples, together with the wall-clock time required to assemble the weight matrix and to solve the partial differential equation using a direct solver, for diffusion and linear elasticity problems with different mesh sizes, finite-element spaces, and numbers of degrees of freedom.",
+            "table2": "Comparison of the mean and standard deviation of the relative errors and of the residual loss for three neural networks on three different problems, based on 500 test samples."
+        },
+        "question": "In Table 2, under the Darcy Flow problem, compute the average residual loss across all three models. Respond only with a single numeric value rounded to three decimals.",
+        "question_type": "reasoning",
+        "answer": 2.572,
+        "answer_type": "numeric"
+    }
+]

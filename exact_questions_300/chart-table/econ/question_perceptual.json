@@ -1,0 +1,215 @@
+[
+    {
+        "question_id": 10,
+        "items": ["table1", "chart1", "chart2"],
+        "path": {
+            "table1": "2511.04935v1\\table1.jpg",
+            "chart1": "2511.04935v1\\chart1.jpg",
+            "chart2": "2511.04935v1\\chart2.jpg"
+        },
+
+        "caption": {
+            "table1": "Word Count Statistics by Dataset",
+            "chart1": "Mean Number of Words in Filings Over Time",
+            "chart2": "Median Number of Words in Filings Over Time"
+        },
+        "question":"In chart1 and chart2, determine whether the blue series in both charts represents the same dataset. Respond only with yes or no.",
+        "question_type": "perceptual",
+        "answer": "no",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2509.11501v1\\chart1.jpg",
+            "table1": "2509.11501v1\\table1.jpg"
+        },
+        "caption": {
+            "table1": "Event-Study Difference-in-Differences: Wage Effects",
+            "chart1": "Event Study: Impact of Hurricane Harvey on Construction Sector Wages"
+        },
+        "question":"Using chart1 and the coefficient values reported in table1, determine the approximate plotted value of the event-time coefficient at quarter 3 (three quarters after Hurricane Harvey). Respond with the numeric value only.",
+        "question_type": "perceptual",
+        "answer": 0.059,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 31,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.07280v3\\chart1.jpg",
+            "table1": "2511.07280v3\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Consumption Decomposition Across Different RecSys Algorithms",
+            "table1": "Engagement and Diversity under Counterfactual RecSys Algorithms"
+        },
+        "question": "How many models that appear in Chart 1 also have a reported Δ Engagement value in Table 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 38,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.00243v1\\chart1.jpg",
+            "table1": "2512.00243v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Historical trends (2001–2021) of key investment, financial, production, and reserve variables for major offshore oil firms.",
+            "table1": "Descriptive Statistics for Top-Ten Offshore Investors (2001–2021)"
+        },
+        "question": "Which metric in Table 1 is most directly comparable in unit to daily_prod in Chart 1?  Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "Production (MBOE/d)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.12255v1\\chart1.jpg",
+            "table1": "2512.12255v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Predictive densities for newly issued NFC loans, estimated via a 6-component finite mixture model (selected by BIC) holding all controls at their mean and varying the NIU from its 25th to 75th quantile. Source: AnaCredit and author’s computation.",
+            "table1": "Quantile Interest Rates by Placebo Scenario (25th vs 75th)"
+        },
+        "question": "Which placebo scenario rows in Table 1 correspond to the two curves shown in Chart 1? Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[25th, 75th]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.17444v1\\chart1.jpg",
+            "table1": "2512.17444v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Ablation results showing average penalty, HHI index, and league ranking for different hyperparameter configurations in the EoM and CM + Cfd environments.",
+            "table1": "Hyperparameter settings for the ablation study."
+        },
+        "question": "How many bar entries in Chart 1 correspond to configurations with batch size 35328 in Table 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["table1", "chart1"],
+        "path": {
+            "table1": "2511.14133v1\\table1.jpg",
+            "chart1": "2511.14133v1\\chart1.jpg"
+        },
+
+        "caption": {
+            "table1": "Sup-norm error summary for Cox and Aalen DGPs. Reported are mean ± standard deviation across simulations.",
+            "chart1": "SSC sup-norm errors across sample sizes. Distribution of sup-norm estimation errors for SSC under Cox and Aalen DGPs over 20 simulations each. Errors decrease rapidly with increasing sample size K, and variability contracts accordingly"
+        },
+        "question":"Under the Cox DGP, count the number of outliers(points outside the whiskers) for each sample size K. Provide three numbers in order corresponding to K=100, K=300, and K=700. Respond only with [num1, num2, num3].",
+        "question_type": "perceptual",
+        "answer": [2, 3, 4],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["table1", "chart1", "chart2"],
+        "path": {
+            "table1": "2510.16886v1\\table1.jpg",
+            "chart1": "2510.16886v1\\chart1.jpg",
+            "chart2": "2510.16886v1\\chart2.jpg"
+
+        },
+
+        "caption": {
+            "table1": "Estimation times (in seconds) for LMDC’s synthetic datasets.",
+            "chart1": "Estimation times (in seconds) for LMDC’s synthetic data, comparing NFXP and ECP. Each dataset is identified by the number of alternatives (#alt) and the corresponding [L,U] range.",
+            "chart2": "Estimation times (in seconds) for LMDC’s synthetic data as a function of the number of parameters."
+        },
+        "question":"In chart2, when the number of parameters increases from 20 to 100, which method’s estimation-time curve remains nearly flat? Respond only with the method.",
+        "question_type": "perceptual",
+        "answer": "ECP",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["table1", "chart1"],
+        "path": {
+            "table1": "2510.12289v2\\table1.jpg",
+            "chart1": "2510.12289v2\\chart1.jpg"
+
+        },
+
+        "caption": {
+            "table1": "Prediction Errors by Distance (Pooled 2019-2021)",
+            "chart1": "Mean Absolute Prediction Errors by Distance (Averaged 2019–2021). Nonparametric methods (blue) outperform parametric exponential decay (red) at near-source (10 km) and long-range (100 km) distances. At intermediate distances (50 km), both methods perform similarly, suggesting exponential decay provides adequate approximation in the mid-range."
+        },
+        "question":"Based on chart1, what is the general shape of the Parametric curve? A. Monotonically decreasing B. Monotonically increasing C. Decreasing first and then increasing D. Increasing first and then decreasing. Respond only with the option.",
+        "question_type": "perceptual",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.16187v1\\chart1.jpg",
+            "table1": "2511.16187v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Years of initial wages",
+            "table1": "Instrument: Initial wage"
+        },
+        "question": "Which line style represents Men in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "dotted",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.17444v1\\chart1.jpg",
+            "table1": "2512.17444v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Ablation results showing average penalty, HHI index, and league ranking for different hyperparameter configurations in the EoM and CM + Cfd environments.",
+            "table1": "Hyperparameter settings for the ablation study."
+        },
+        "question": "How many evaluation dimensions are included in the radar chart of Chart 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 6,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.17508v1\\chart1.jpg",
+            "table1": "2512.17508v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Electricity and hydrogen generation capacities installed in four investment scenarios in Denmark (DK), Spain (ES) and France (FR).",
+            "table1": "Overview of varying assumptions for investment scenarios"
+        },
+        "question": "How many distinct generation or storage technologies are listed in the legend of Chart 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 14,
+        "answer_type": "numeric"
+    }
+]

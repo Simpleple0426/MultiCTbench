@@ -1,0 +1,206 @@
+[
+    {
+        "question_id": 4,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.09037v1\\table1.jpg",
+            "table2": "2511.09037v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "The stress integrated over the soundboard for 8′ strings attached to either the outer or inner wall shows no significant difference in soundboard tension. In contrast, other configurations exhibit the highest soundboard stress when the strings are attached to the 4′ hitch pin rail.",
+            "table2": "Stress (N/m²) integrated over different soundboard parts when 8′ strings are attached to the outer or inner wall. The magnitude of stress in each part roughly corresponds to the size of that part."
+        },
+        "question": "Which row in Table 2 corresponds to the configuration with stress = 1530 in Table 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "8′ outer wall",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 14,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.21091v1\\table1.jpg",
+            "table2": "2511.21091v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Principal Component Loading Matrix",
+            "table2": "Derived Regression Coefficients for Original SDG Variables"
+        },
+        "question": "What are the PC3 loading value of SDG8 in Table 1 and the regression coefficient of SDG8 in Table 2? Respond only with a list of two numeric values.",
+        "question_type": "perceptual",
+        "answer": [0.511, 1.1403],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 21,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.11172v1\\table1.jpg",
+            "table2": "2512.11172v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "S-factor (S(E)) and cross-section (σ(E)) data of 3He(3He,2p)4He fusion reaction",
+            "table2": "S-factor (S(E)) and cross-section (σ(E)) data of 6Li(3He,d)7Be fusion reaction"
+        },
+        "question": "What is the common unit used for the energy column in both tables? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "KeV",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.19073v1\\table1.jpg",
+            "table2": "2512.19073v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Evaluated chi-squared per degree of freedom for the dijet cross section in individual and global y* bins, based on NNLO theoretical predictions using multiple PDF sets (CT18, NNPDF3.1, NNPDF4.0, MSHT2020, and ATLASpdf21T3), including electroweak and non-perturbative corrections applied to the unfolded data.",
+            "table2": "Evaluated chi-squared per degree of freedom for the dijet cross section in individual and global y_boost bins, based on NNLO theoretical predictions using multiple PDF sets (CT18, NNPDF3.1, NNPDF4.0, MSHT2020, and ATLASpdf21T3), including electroweak and non-perturbative corrections applied to the unfolded data."
+        },
+        "question": "Extract the χ²/ndf values for ATLASpdf21T3 in the 1.5–2.0 bins from Table 1 (y*) and Table 2 (y_boost). Respond only with a list of two values.",
+        "question_type": "perceptual",
+        "answer": "[63/36, 35/26]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 38,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.19839v1\\table1.jpg",
+            "table2": "2512.19839v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Parameter estimation fitting the lattice propagator data. The parameter c1 has dimensions of inverse mass squared, while c2 has dimensions of inverse mass to the fourth power, where M is a mass scale.",
+            "table2": "Parameter estimation fitting the lattice propagator data. The parameter c1 has dimensions of inverse mass squared, c2 has dimensions of inverse mass to the fourth power, and c3 has dimensions of inverse mass to the sixth power, where M is a mass scale."
+        },
+        "question": "Which β values appear in both Table 1 and Table 2? Respond only with a list of numeric values.",
+        "question_type": "perceptual",
+        "answer": [6.0, 6.2],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 40,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.19913v1\\table1.jpg",
+            "table2": "2512.19913v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "SMEFT Results – Chi-squared Scores",
+            "table2": "SMEFT Results – Ds2 Values"
+        },
+        "question": "For the MLP ← L_REVERT model, extract the values of the 4th Muon pT from Table 1 and Table 2. Respond only with a list of two numeric values in the order [Table 1, Table 2].",
+        "question_type": "perceptual",
+        "answer": [1.08, 0.0033],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.15346v1\\table1.jpg",
+            "table2": "2511.15346v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Calculated hyperfine constant values for both the ground and excited states of doubly ionized thorium using the DHF, RCCSD, and RCCSDT methods. Corrections from basis set extension, Breit interaction, vacuum polarization, and Bohr–Weisskopf effects are included. The final results are compared with previous calculations. By combining the calculated hyperfine constants with experimental data, the nuclear magnetic dipole moment of thorium is extracted. A weighted average value is recommended and compared with values reported in the literature.",
+            "table2": "Calculated electric quadrupole hyperfine constants for the ground and excited states of doubly ionized thorium using the same computational methods as in the previous table. A weighted average value of the nuclear electric quadrupole moment is derived by combining the calculated constants with experimental measurements. The resulting values show agreement with some studies but differ significantly from others."
+        },
+        "question": "What is the basis set correction value for the 6D₃/₂ state in Table 2? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 2.1,
+        "answer_type": "numeric"
+    },
+
+
+    {
+        "question_id": 16,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.00018v1\\table1.jpg",
+            "table2": "2512.00018v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "FIXED PARAMETERS",
+            "table2": "URGENCY AND SERVICE SETTINGS"
+        },
+        "question": "What is the value of diffHZ in Table 1? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.05,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.01592v1\\table1.jpg",
+            "table2": "2512.01592v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "The extracted values of the QGP temperature (in MeV) for different centrality regions of Au–Au collisions at 54.4 GeV, compared between using charm decayed di-electron spectra with different model setups.",
+            "table2": "The extracted values of the QGP temperature (in MeV) for different centrality regions of Ru–Ru and Zr–Zr collisions at 200 GeV, compared between using heavy quark decayed dielectron spectra with different model setups."
+        },
+        "question": "In Table 2, what is the central QGP temperature for the 10–40% centrality region under the med.+frag. setup (with background subtraction)? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 351,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 24,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.14447v1\\table1.jpg",
+            "table2": "2512.14447v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Number of pairs per-shell for 12C.",
+            "table2": "Number of pairs per-shell for 40Ca, 48Ca, and 54Fe."
+        },
+        "question": "How many pair types are reported as columns in Table 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 25,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.14690v2\\table1.jpg",
+            "table2": "2512.14690v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "ECAL energy resolution and threshold, applied to photons. Global cut: |η| ≤ 3.5.",
+            "table2": "HCAL energy resolution and threshold, applied to neutral hadrons. Global cut: |η| ≤ 3.5."
+        },
+        "question": "In Table 2, what is the energy threshold (in MeV) for the Forward region? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 500,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.19887v1\\table1.jpg",
+            "table2": "2512.19887v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Systematic error summary with significant error sources. “Total” includes all errors added in quadrature, and “Total uncorrelated” excludes the energy scale error.",
+            "table2": "Expected number of unoscillated MC signal events, fit number of signal events, and their ratio in each energy and MSG bin. Measurements are given as measurement ± statistical ± systematic error. Systematic errors are only calculated for the 0-1 MSG bins, and only if a signal is observed. When aggregating across all MSG bins, bins are weighted by their statistical error. When aggregating across the datasets, datasets are weighted by their total error."
+        },
+        "question": "In Table 2, for the SLE 34-hit dataset with Eₖᵢₙ = 2.99–3.49 MeV and MSG = 0–0.35, what is the central Obs./Exp. value? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.37,
+        "answer_type": "numeric"
+    }
+]

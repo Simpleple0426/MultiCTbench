@@ -1,0 +1,220 @@
+[
+    {
+        "question_id": 2,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2509.22954v1\\chart1.jpg",
+            "chart2": "2509.22954v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Mutual information between income and neighborhoods over time for select large Metropolitan Areas.",
+            "chart2": "Mutual information between income and neighborhoods across cities over time. The middle line shows the median across cities, boxes show the inter-quartile range (between the first and third quartiles), outliers are shown as points, and shaded areas show the shape of the distribution."
+        },
+        "question": "Identify the chart types used in Chart 1 and Chart 2, and report them in the order [Chart 1, Chart 2]. Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[bar chart, violin plot]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.05058v1\\chart1.jpg",
+            "chart2": "2511.05058v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Estimate for the K-meson correlator. The results are obtained by an extrapolation to zero using data with r = 0 and 1 for each m + 1.",
+            "chart2": "Same as Fig. 15 for Ds. The extrapolations are performed using data with r = 1 and 2."
+        },
+        "question": "What visual encoding is consistently used to represent uncertainty in both charts? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "vertical error bars",
+        "answer_type": "text"
+    },
+
+
+    {
+        "question_id": 16,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.11381v1\\chart1.jpg",
+            "chart2": "2512.11381v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Light yield of eight COSINE-100 crystal detectors measured in three configurations: original COSINE-100 (Y2L), COSINE-100 Upgrade in the ground laboratory, and COSINE-100 Upgrade at Yemilab.",
+            "chart2": "Energy resolution at 59.5 keV of eight COSINE-100 crystal detectors measured in three configurations: original COSINE-100 (Y2L), COSINE-100 Upgrade in the ground laboratory, and COSINE-100 Upgrade at Yemilab."
+        },
+        "question": "What is the Crystal ID range shared by both charts? Respond only with a list of two integers.",
+        "question_type": "perceptual",
+        "answer": [1, 8],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 31,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.18053v1\\chart1.jpg",
+            "chart2": "2512.18053v1\\chart2.jpg",
+            "chart3": "2512.18053v1\\chart3.jpg",
+            "chart4": "2512.18053v1\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "Measurement of the CP-averaged angular observable Sc2 as a function of q², compared with Standard Model predictions.",
+            "chart2": "Measurement of the forward–backward asymmetry AFB as a function of q², compared with Standard Model predictions.",
+            "chart3": "Measurement of the angular observable P′5 as a function of q², compared with Standard Model predictions.",
+            "chart4": "Measurement of the differential branching fraction as a function of q², compared with Standard Model predictions."
+        },
+        "question": "Which charts show experimental data points distributed on both sides of y=0? Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[Chart 2, Chart 3]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.19042v1\\chart1.jpg",
+            "chart2": "2512.19042v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Correlation heatmap for a sample of 132 bulgeless galaxies, showing the Pearson linear correlation coefficients among the variables γ_d, χ_red², and L_3.6.",
+            "chart2": "Correlation heatmap for the same sample of 132 bulgeless galaxies, showing the Spearman rank correlation coefficients among the variables γ_d, χ_red², and L_3.6."
+        },
+        "question": "Do Chart 1 and Chart 2 use the same set of variables? List them. Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[γ_d, χ²_red, L_3.6]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 46,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.20616v1\\chart1.jpg",
+            "chart2": "2512.20616v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Exclusion levels of the standard cosmological model relative to various dynamical dark energy models, obtained from joint constraints using CMB, PantheonPlus, and DESI data.",
+            "chart2": "Exclusion levels of the standard cosmological model relative to various dynamical dark energy models, obtained from joint constraints using CMB, DES-Y5, and DESI data."
+        },
+        "question": "Extract the exclusion significances (in σ) of the Flipped RVM model from Chart 1 and Chart 2, in that order. Respond only with a list of numeric values.",
+        "question_type": "perceptual",
+        "answer": [1.93, 3.07],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["chart1","chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2511.03593v2\\chart1.jpg",
+            "chart2": "2511.03593v2\\chart2.jpg",
+            "chart3": "2511.03593v2\\chart3.jpg",
+            "chart4": "2511.03593v2\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "Tikhonov Regularization: Reconstruction result of Toy model I obtained using Tikhonov regularization.",
+            "chart2": "Backus–Gilbert: Reconstruction result of Toy model I obtained using the Backus–Gilbert method.",
+            "chart3": "Bayesian Approach: Reconstruction result of Toy model I obtained using the Bayesian approach.",
+            "chart4": "ANN: Reconstruction result of Toy model I obtained using an artificial neural network (ANN)."
+        },
+        "question": "In Chart 2, what line style is used to represent the true function? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "dashed",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 9,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2511.21082v2\\chart1.jpg",
+            "chart2": "2511.21082v2\\chart2.jpg",
+            "chart3": "2511.21082v2\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Normalized total effective resistance as a function of disorder strength for HuPPI and PoPPI networks constructed from Gabriel, Delaunay, Delaunay-centroidal, and Voronoi graphs. Networks are generated from 15×15 lattices, and lower values indicate better connectivity.",
+            "chart2": "Normalized total effective resistance versus network size for HuPPI and PoPPI networks based on different geometric graph constructions. HuPPI networks are generated from hyperuniform point patterns with fixed disorder strength.",
+            "chart3": "Random-walk mixing time as a function of disorder strength for HuPPI networks and PoPPI networks constructed from various geometric graphs. PoPPI networks are independent of disorder strength."
+        },
+        "question": "What is the approximate numeric range of the y-axis in Chart 2? Respond only with a list of two numeric values.",
+        "question_type": "perceptual",
+        "answer": [0.05, 0.95],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.16980v1\\chart1.jpg",
+            "chart2": "2512.16980v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Experimental measurements from BNL and FNAL compared with the world average, including combined statistical and systematic uncertainties.",
+            "chart2": "Final relatively balanced systematic uncertainties at FNAL, showing the individual contributions to the total uncertainty."
+        },
+        "question": "What does the vertical gray band represent in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "world average uncertainty band",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 45,
+        "items": ["chart1","chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2512.20199v1\\chart1.jpg",
+            "chart2": "2512.20199v1\\chart2.jpg",
+            "chart3": "2512.20199v1\\chart3.jpg",
+            "chart4": "2512.20199v1\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "Empirical frequency distribution of the 10 lowest-energy solutions obtained from sampled simulated quantum annealing runs for Diabetes Mellitus, showing the relative occurrence of matched combinations versus predicted candidate combinations.",
+            "chart2": "Empirical frequency distribution of the 10 lowest-energy solutions obtained from sampled simulated quantum annealing runs for Rheumatoid Arthritis, distinguishing matched solutions from predicted candidate combinations.",
+            "chart3": "Empirical frequency distribution of the 10 lowest-energy solutions obtained from sampled simulated quantum annealing runs for Asthma, illustrating the frequencies of matched and predicted solution ranks.",
+            "chart4": "Empirical frequency distribution of the 10 lowest-energy solutions obtained from sampled simulated quantum annealing runs for Brain Neoplasms, comparing the occurrence of matched solutions against predicted candidate solutions."
+        },
+        "question": "In Chart 1, identify the solution rank at which Prediction first appears. Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 4,
+        "answer_type": "numeric"
+    },
+    
+    {
+        "question_id": 47,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.20223v1\\chart1.jpg",
+            "chart2": "2512.20223v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Critical bare mass versus computational cost for the Wilson kernel, comparing the KL and Chebyshev methods.",
+            "chart2": "Critical bare mass versus computational cost for the Brillouin kernel, comparing the KL and Chebyshev methods."
+        },
+        "question": "Does Chart 1 include an inset plot? If so, indicate whether its y-axis uses a linear or logarithmic scale. Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "Yes, logarithmic",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 51,
+        "items": ["chart1","chart2"],
+        "path": {
+            "chart1": "2512.21313v1\\chart1.jpg",
+            "chart2": "2512.21313v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Cumulative distribution of n(λ) after the quench from the state |Ψ₀⟩ in the rule-54 chain. The plot shows n(λ) versus log(λm/λ), where different symbols correspond to different times. A step-like behavior is observed at λ = λm.",
+            "chart2": "Cumulative distribution of n(λ) after the Néel quench in the XX chain. As in the left panel, a step-like form is observed, which is attributed to purely linear behavior in the relevant moments."
+        },
+        "question": "What visual encoding is used in Chart 1 to distinguish different time parameters? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "Different marker shapes and colors",
+        "answer_type": "text"
+    }
+]

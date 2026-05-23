@@ -1,0 +1,209 @@
+[
+    {
+        "question_id": 55,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2508.18592v1\\chart1.jpg",
+            "table1": "2508.18592v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Strategy returns of three machine learning algorithms",
+            "table1": "Backtest results of three machine learning algorithms"
+        },
+        "question":"Using the line chart, read the strategy returns on 2021-09-30 and identify the pair of strategies with the smallest absolute difference in returns. Then, using the table, compute the absolute difference in their Sharpe values and report the result as a positive number without the precent sign. Respond with the numerical value only.",
+        "question_type": "reasoning",
+        "answer": 7.91,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 31,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2508.15237v1\\chart1.jpg",
+            "table1": "2508.15237v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Accuracy of approximations obtained from (Left:) SDE (22) and (Right:) PDE (26) for option prices at different moneyness levels. The analysis considers three cases: ATM (x = 110 = K), ITM (x = 95 < K), and OTM (x = 115 > K).",
+            "table1": "The approximation errors corresponding to Figure 2 for different truncation levels and volatility processes"
+        },
+        "question":"In the right chart, when the truncation order increases from 1 to 2, which curve shows the fastest decrease in error? Using the OU section of the PDE error data in Table 1, compute the difference between the errors at truncation orders 1 and 2, and provide the specific value without using scientific notation. Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 0.7811,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2510.04092v1\\chart1.jpg",
+            "table1": "2510.04092v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Plot of the empirical distribution of the TEM and BEM solutions",
+            "table1": "Empirical distribution of the TEM and BEM solutions"
+        },
+        "question":"Using chart, identify which method appears more dispersed, and confirm your answer with table 1? Respond only with the method.",
+        "question_type": "reasoning",
+        "answer": "TEM",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 63,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.12120v1\\chart1.jpg",
+            "table1": "2511.12120v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Performance during the stock market crash in the first quarter of 2020.",
+            "table1": "PERFORMANCE EVALUATION COMPARISON."
+        },
+        "question":"According to chart1, during the later period from April to early May, which strategy curve consistently remains at the bottom? Using the table1, retrieve the Sharpe Ratio of that strategy and respond with the numerical value only.",
+        "question_type": "reasoning",
+        "answer": 0.47,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 29,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2508.04344v1\\chart1.jpg",
+            "table1": "2508.04344v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "PnL across ξ (Xi) values for γ = 0.5. The performative and theta-enhanced performative strategies achieve higher PnL and lower variance than the A&S baseline, while also surpassing the symmetric quoting strategy once ξ reaches moderate levels.",
+            "table1": "Performance metrics across all strategies for different 𝜉 values; 𝛾 = 0.5."
+        },
+        "question":"Using the strategy that is consistently lowest in the chart1, compute its average Profit across all ξ values in the table (ignoring standard deviations), rounded to one decimal place. Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 61.2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2512.03107v1\\chart1.jpg",
+            "table1": "2512.03107v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Coefficient comparison between GPT-3.5-turbo (real log probabilities) and Claude-3-Haiku (estimated). Blue bars show GPT coefficients; orange bars show Claude coefficients. Red percentages indicate what fraction of the GPT magnitude is retained. Coefficients collapse by 90–96% when real log probabilities are unavailable, and ΔL flips sign, confirming that ECLIPSE is logprob-native.",
+            "table1": "Coefficient comparison between GPT-3.5-turbo (real log probabilities) and Claude-3-Haiku (estimated). The ratio column shows what fraction of the GPT coefficient magnitude is retained. Coefficients collapse dramatically when log probabilities are unavailable."
+        },
+        "question":"Using both the chart and Table 1, identify the feature whose Claude coefficient differs the most from the GPT-3.5 coefficient in absolute value. Then compute this absolute difference using the values in the table. Respond only with the numerical value.",
+        "question_type": "reasoning",
+        "answer": 1.674,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 77,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.12120v1\\chart1.jpg",
+            "table1": "2511.12120v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Performance during the stock market crash in the first quarter of 2020.",
+            "table1": "PERFORMANCE EVALUATION COMPARISON."
+        },
+        "question":"According to chart1, which strategy curve experiences the largest decline during the period from February 20 to March 20? Respond with the strategy name only.",
+        "question_type": "reasoning",
+        "answer": "DDPG",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["chart1", "chart2", "table1"],
+        "path": {
+            "chart1": "2511.07571v1\\chart1.jpg",
+            "chart2": "2511.07571v1\\chart2.jpg",
+            "table1": "2511.07571v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": ":Distributional Comparison for Key IV Slices. —— ATM 1-Day distribution histogram plot of real data and generated data.",
+            "chart2": ":Distributional Comparison for Key IV Slices. —— ATM 1-Month distribution histogram plot of real data and generated data.",
+            "table1": "Comparison of Statistical Moments for Key IV Slices (Test Set)"
+        },
+        "question":"Using Table 1, identify all slices where the Diffusion mean is greater than the Real Data mean. Return the result as a list (e.g., [ATM 1-Day, …]). Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": "OTM 1-Week, OTM 3-Month]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["chart1", "chart2", "table1"],
+        "path": {
+            "chart1": "2511.01869v1\\chart1.jpg",
+            "chart2": "2511.01869v1\\chart2.jpg",
+            "table1": "2511.01869v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Directional accuracy of sentiment tools across the four models relative to bond returns. —— FinBERT",
+            "chart2": "Directional accuracy of sentiment tools across the four models relative to bond returns. —— BondBERT",
+            "table1": "Average LSTM results for the models across all bonds."
+        },
+        "question":"Using Table1, compute the range of the Normalised RMSE across the four models (maximum value minus minimum value). Return a positive number only.",
+        "question_type": "reasoning",
+        "answer": 0.0021,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 34,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2508.15237v1\\chart1.jpg",
+            "table1": "2508.15237v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Accuracy of approximations obtained from (Left:) SDE (22) and (Right:) PDE (26) for option prices at different moneyness levels. The analysis considers three cases: ATM (x = 110 = K), ITM (x = 95 < K), and OTM (x = 115 > K).",
+            "table1": "The approximation errors corresponding to Figure 2 for different truncation levels and volatility processes"
+        },
+        "question":"In the SDE section of the mGBM table, compute the absolute change in the ATM error from N=2 to N=3. Provide the specific value without using scientific notation. Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 0.0943,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 60,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.03260v1\\chart1.jpg",
+            "table1": "2509.03260v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Ablation Study Results",
+            "table1": "ABLATION STUDY RESULTS"
+        },
+        "question":"Using the values in the chart, identify the two bars whose PR-AUC values are closest to each other, and compute the absolute difference between them. Respond only with the numerical value.",
+        "question_type": "reasoning",
+        "answer": 0.0009,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 39,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2509.05820v1\\chart1.jpg",
+            "table1": "2509.05820v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Autocorrelation Functions for SPY and BTC using EWMA-rBergomi Model",
+            "table1": "Jensen-Shannon Distances Across Asset Classes and Models"
+        },
+        "question":"Using Table 1, sort the assets by their EWMA-rBergomi values in descending order and return the top three asset names. Respond only with a list in the form: [asset1, asset2, asset3].",
+        "question_type": "reasoning",
+        "answer": "[ETH, META, OIL]",
+        "answer_type": "text"
+    }
+]

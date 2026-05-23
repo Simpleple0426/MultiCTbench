@@ -1,0 +1,201 @@
+[
+    {
+        "question_id": 22,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.01597v1\\chart1.jpg",
+            "table1": "2511.01597v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Mean second-order belief by presentation form with 95% CI",
+            "table1": "Frequency of categories in which sellers justified their choices"
+        },
+        "question": "Compute the average percentage of the “Other” category across the four presentation forms (excluding All) in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 15.85,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 1,
+        "items": ["table1", "chart1", "chart2"],
+        "path": {
+            "table1": "2511.16932v1\\table1.jpg",
+            "chart1": "2511.16932v1\\chart1.jpg",
+            "chart2": "2511.16932v1\\chart2.jpg"
+        },
+
+        "caption": {
+            "table1": "Comparison of government expenditures under different strategies.",
+            "chart1": "Allocation of government expenditures by component under various vaccination strategies.",
+            "chart2": "Comparison of policy expenditures on cost components during disease progression."
+        },
+        "question":"Using only the values in table, check whether the ordering of the three cost categories (policy cost, healthcare cost, and economic cost) within each strategy follows the same ranking pattern across all four strategies. If the within-strategy cost ranking is identical for all strategies, list that ranking from highest to lowest， e.g. Healthcare, Economi, Policy. If the rankings differ across strategies, respond with “no.” Output only the required answer.",
+        "question_type": "reasoning",
+        "answer": "Economic, Healthcare, Policy",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["table1", "chart1", "chart2"],
+        "path": {
+            "table1": "2510.16886v1\\table1.jpg",
+            "chart1": "2510.16886v1\\chart1.jpg",
+            "chart2": "2510.16886v1\\chart2.jpg"
+
+        },
+
+        "caption": {
+            "table1": "Estimation times (in seconds) for LMDC’s synthetic datasets.",
+            "chart1": "Estimation times (in seconds) for LMDC’s synthetic data, comparing NFXP and ECP. Each dataset is identified by the number of alternatives (#alt) and the corresponding [L,U] range.",
+            "chart2": "Estimation times (in seconds) for LMDC’s synthetic data as a function of the number of parameters."
+        },
+        "question":"Assume that the system’s computational budget requires the estimation method to run within 1 second. Based on table 1, which alt–[L,U] combinations cannot use NFXP? Provide all combinations in the format: alt = X, [L,U] = [a,b]，alt = X, [L,U] = [a,b]...",
+        "question_type": "reasoning",
+        "answer": "alt = 30, [L,U] = [0,20], alt = 50, [L,U] = [0,20], alt = 50, [L,U] = [0,30]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2509.11501v1\\chart1.jpg",
+            "table1": "2509.11501v1\\table1.jpg"
+        },
+        "caption": {
+            "table1": "Event-Study Difference-in-Differences: Wage Effects",
+            "chart1": "Event Study: Impact of Hurricane Harvey on Construction Sector Wages"
+        },
+        "question":"Using the coefficient values in Table 1, compute the following two increases: The increase from quarter 1 → quarter 2. The increase from quarter 2 → quarter 3. Respond in the format: [increase1, increase2]. Respond only with the list.",
+        "question_type": "reasoning",
+        "answer": "[0.0518, -0.0135]",
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.12289v2\\chart1.jpg",
+            "table1": "2510.12289v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Spatial decay of NO₂ concentrations around coal power plants from 2019 to 2021, comparing parametric exponential and nonparametric kernel regression estimates, with MAE reported.",
+            "table1": "Prediction Accuracy: Parametric vs Nonparametric"
+        },
+        "question": "Which year shows the smallest gap between Parametric and Nonparametric curves in the 20–50 km range in Chart 1? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": 2021,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 11,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2509.11501v1\\chart1.jpg",
+            "table1": "2509.11501v1\\table1.jpg"
+        },
+        "caption": {
+            "table1": "Event-Study Difference-in-Differences: Wage Effects",
+            "chart1": "Event Study: Impact of Hurricane Harvey on Construction Sector Wages"
+        },
+        "question":"Using the chart1, check whether the coefficients for quarters 5–9 all fall within the interval [0.03, 0.07]. If yes, respond only with yes; if not, respond with the quarter number(s) outside the interval, Respond only with the number.",
+        "question_type": "reasoning",
+        "answer": "8",
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["table1", "chart1", "chart2"],
+        "path": {
+            "table1": "2510.16886v1\\table1.jpg",
+            "chart1": "2510.16886v1\\chart1.jpg",
+            "chart2": "2510.16886v1\\chart2.jpg"
+
+        },
+
+        "caption": {
+            "table1": "Estimation times (in seconds) for LMDC’s synthetic datasets.",
+            "chart1": "Estimation times (in seconds) for LMDC’s synthetic data, comparing NFXP and ECP. Each dataset is identified by the number of alternatives (#alt) and the corresponding [L,U] range.",
+            "chart2": "Estimation times (in seconds) for LMDC’s synthetic data as a function of the number of parameters."
+        },
+        "question":"In chart2, when the number of parameters increases from 20 to 100, which method’s estimation-time curve remains nearly flat? Respond only with the method.",
+        "question_type": "perceptual",
+        "answer": "ECP",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["table1", "chart1"],
+        "path": {
+            "table1": "2510.12289v2\\table1.jpg",
+            "chart1": "2510.12289v2\\chart1.jpg"
+
+        },
+
+        "caption": {
+            "table1": "Prediction Errors by Distance (Pooled 2019-2021)",
+            "chart1": "Mean Absolute Prediction Errors by Distance (Averaged 2019–2021). Nonparametric methods (blue) outperform parametric exponential decay (red) at near-source (10 km) and long-range (100 km) distances. At intermediate distances (50 km), both methods perform similarly, suggesting exponential decay provides adequate approximation in the mid-range."
+        },
+        "question":"Based on chart1, what is the general shape of the Parametric curve? A. Monotonically decreasing B. Monotonically increasing C. Decreasing first and then increasing D. Increasing first and then decreasing. Respond only with the option.",
+        "question_type": "perceptual",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.16187v1\\chart1.jpg",
+            "table1": "2511.16187v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Years of initial wages",
+            "table1": "Instrument: Initial wage"
+        },
+        "question": "Which line style represents Men in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "dotted",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.17444v1\\chart1.jpg",
+            "table1": "2512.17444v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Ablation results showing average penalty, HHI index, and league ranking for different hyperparameter configurations in the EoM and CM + Cfd environments.",
+            "table1": "Hyperparameter settings for the ablation study."
+        },
+        "question": "How many evaluation dimensions are included in the radar chart of Chart 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 6,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.17508v1\\chart1.jpg",
+            "table1": "2512.17508v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Electricity and hydrogen generation capacities installed in four investment scenarios in Denmark (DK), Spain (ES) and France (FR).",
+            "table1": "Overview of varying assumptions for investment scenarios"
+        },
+        "question": "How many distinct generation or storage technologies are listed in the legend of Chart 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 14,
+        "answer_type": "numeric"
+    }
+]

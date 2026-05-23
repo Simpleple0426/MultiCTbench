@@ -1,0 +1,1282 @@
+[
+    {
+        "question_id": 1,
+        "items": ["chart1", "chart2", "table1", "table3"],
+        "path": {
+            "chart1": "2511.19039v1\\chart1.jpg",
+            "chart2": "2511.19039v1\\chart2.jpg",
+            "table1": "2511.19039v1\\table1.jpg",
+            "table2": "2511.19039v1\\table2.jpg"
+        },
+        "caption": {
+            "chart1": "Boxplots of log risk ratio error under three RR calculation methods (Mean Prediction, PPI, PPI with Propensity Score Weighting) for Pre-Industrial and SSP5-8.5 End-of-Century conditions.",
+            "chart2": "Estimated risk ratios across extreme fire days for Pre-Industrial and SSP5-8.5 End-of-Century scenarios, with uncertainty ranges shown by horizontal lines.",
+            "table1": "Aggregate risk ratio estimates comparing Pre-Industrial vs Present-Day and Present-Day vs SSP5-8.5 End-of-Century for five machine learning methods.",
+            "table2": "Regret metrics including AUC, Brier Skill Score, and Mean Calibration Error for Pre-Industrial and SSP5-8.5 End-of-Century conditions."
+        },
+        "question": "Based on chart2 and table1, which machine learning method shows the largest increase in estimated risk ratio when moving toward SSP5-8.5 End-of-Century conditions? A. LightGBM B. Random Forest C. XGBoost D. Elastic Net Respond only with the choice.",
+        "question_type": "reasoning",
+        "answer": "D",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 2,
+        "items": ["chart1", "chart2", "table1", "table3"],
+        "path": {
+            "chart1": "2511.19039v1\\chart1.jpg",
+            "chart2": "2511.19039v1\\chart2.jpg",
+            "table1": "2511.19039v1\\table1.jpg",
+            "table2": "2511.19039v1\\table2.jpg"
+        },
+        "caption": {
+            "chart1": "Boxplots of log risk ratio error under three RR calculation methods (Mean Prediction, PPI, PPI with Propensity Score Weighting) for Pre-Industrial and SSP5-8.5 End-of-Century conditions.",
+            "chart2": "Estimated risk ratios across extreme fire days for Pre-Industrial and SSP5-8.5 End-of-Century scenarios, with uncertainty ranges shown by horizontal lines.",
+            "table1": "Aggregate risk ratio estimates comparing Pre-Industrial vs Present-Day and Present-Day vs SSP5-8.5 End-of-Century for five machine learning methods.",
+            "table2": "Regret metrics including AUC, Brier Skill Score, and Mean Calibration Error for Pre-Industrial and SSP5-8.5 End-of-Century conditions."
+        },
+        "question": "From chart3, extract the AUC values for all five machine learning methods and organize them into a two-dimensional list with columns [Method, AUC]. Respond only with the two-dimensional list.",
+        "question_type": "chart to table",
+        "answer": [
+            ["Method", "AUC"],
+            ["Elastic Net", 0.87],
+            ["LightGBM", 0.89],
+            ["Logistic Regression", 0.88],
+            ["Random Forest", 0.88],
+            ["XGBoost", 0.86]
+        ],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.19075v1\\chart1.jpg",
+            "table1": "2511.19075v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Line chart of Label Transfer Accuracy versus Iteration for four λ settings (+inf, 1.3, 1.5, 1.0).",
+            "table1": "Table of Label Transfer Accuracy (LTA) for different λ values under Subsampled scGEM and Full scGEM."
+        },
+        "question": "Based on chart1 and table1 together, which lambda setting both converges to the highest accuracy curve and achieves the highest LTA under full scGEM? Answer only with the λ value.",
+        "question_type": "reasoning",
+        "answer": 1.3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.19075v1\\chart1.jpg",
+            "table1": "2511.19075v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Line chart of Label Transfer Accuracy versus Iteration for four λ settings (+inf, 1.3, 1.5, 1.0).",
+            "table1": "Table of Label Transfer Accuracy (LTA) for different λ values under Subsampled scGEM and Full scGEM."
+        },
+        "question": "Using chart1 to identify the lowest final accuracy curve and table1 to verify, which lambda value shows the weakest overall performance under full scGEM? A. +inf B. 1.0 C. 1.3 D. 1.5 Respond only with the choice.",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["chart1", "chart2", "table1", "table2"],
+        "path": {
+            "chart1": "2511.19305v1\\chart1.jpg",
+            "chart2": "2511.19305v1\\chart2.jpg",
+            "table1": "2511.19305v1\\table1.jpg",
+            "table2": "2511.19305v1\\table2.jpg"
+        },
+        "caption": {
+            "chart1": "Scatter plots of estimation error versus balanced accuracy under three core–periphery configurations (5/15, 10/10, 15/5), colored by detected minus actual core count.",
+            "chart2": "The 10 core, 10 peripheral panel from chart1: estimation error versus balanced accuracy with the same color encoding.",
+            "table1": "Co-authorship network characteristics by field, role, and location: N, percentage, average degree, average betweenness, and density.",
+            "table2": "Counts of leaders in periphery and core clusters by field, role, and location."
+        },
+        "question": "Based on chart1 and table2, which core–periphery configuration best matches the idea of having more leaders in the core than in the periphery?\nA. 5 core, 15 peripheral\nB. 10 core, 10 peripheral\nC. 15 core, 5 peripheral\nD. None of the above",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 6,
+        "items": ["chart1", "table1", "table2"],
+        "path": {
+            "chart1": "2511.19672v1\\chart1.jpg",
+            "chart2": "2511.19672v1\\table1.jpg",
+            "table1": "2511.19672v1\\table2.jpg"
+        },
+        "caption": {
+            "chart1": "Overlaid density plot of swinging probability for fastball, breaking ball, and offspeed pitch categories.",
+            "table1": "Top five pitchers with the highest Ps values for each pitch category in the 2024 regular season.",
+            "table2": "Top five batters with the highest DS values for each pitch category in the 2024 regular season."
+        },
+        "question": "The pitch category with the highest Ps value in table1 corresponds to which density curve in chart1? Answer only with the name of pitch category.",
+        "question_type": "reasoning",
+        "answer": "offspeed",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["chart1", "table1", "table2"],
+        "path": {
+            "chart1": "2511.19672v1\\chart1.jpg",
+            "chart2": "2511.19672v1\\table1.jpg",
+            "table1": "2511.19672v1\\table2.jpg"
+        },
+        "caption": {
+            "chart1": "Overlaid density plot of swinging probability for fastball, breaking ball, and offspeed pitch categories.",
+            "table1": "Top five pitchers with the highest Ps values for each pitch category in the 2024 regular season.",
+            "table2": "Top five batters with the highest DS values for each pitch category in the 2024 regular season."
+        },
+        "question": "Which pitch category appears in both table1 and table2 as having the highest values and also shows the right-shifted density in chart1? Answer only with the name of pitch category.",
+        "question_type": "reasoning",
+        "answer": "Offspeed",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["chart1", "table1", "table2"],
+        "path": {
+            "chart1": "2511.19672v1\\chart1.jpg",
+            "chart2": "2511.19672v1\\table1.jpg",
+            "table1": "2511.19672v1\\table2.jpg"
+        },
+        "caption": {
+            "chart1": "Overlaid density plot of swinging probability for fastball, breaking ball, and offspeed pitch categories.",
+            "table1": "Top five pitchers with the highest Ps values for each pitch category in the 2024 regular season.",
+            "table2": "Top five batters with the highest DS values for each pitch category in the 2024 regular season."
+        },
+        "question": "Using table2, create a bar chart comparing the highest DS value for each pitch category (Fastball, Breaking Ball, Offspeed). The x-axis should represent pitch category and the y-axis should represent DS. Use Python and matplotlib. Provide only the Python code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "bar_chart",
+            "data": [[0.146, 0.199, 0.239]],
+            "operation": null,
+            "title": "Comparison of Highest DS Values by Pitch Category",
+            "xlabel": "Pitch Category",
+            "ylabel": "DS Value",
+            "legend": null,
+            "tick": {
+                "xticklabels": ["Fastball", "Breaking Ball", "Offspeed"], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 9,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.19796v1\\chart1.jpg",
+            "chart2": "2511.19796v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Grid of bar charts showing R² values for ARMA, Vec-FM, and CP-FM models across multiple macroeconomic variables and countries.",
+            "table1": "Data transformations and variable definitions for macroeconomic indicators used in the analysis."
+        },
+        "question": "According to chart1, identify which variable shows the most significant improvement in R² across all countries, then in table1, find and state the specific mnemonic applied to that variable. Answer only with the name.",
+        "question_type": "reasoning",
+        "answer": "CPGREN",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["chart1", "table1", "table2"],
+        "path": {
+            "chart1": "2511.20183v1\\chart1.jpg",
+            "table1": "2511.20183v1\\table1.jpg",
+            "table2": "2511.20183v1\\table2.jpg"
+        },
+        "caption": {
+            "chart1": "Calibration curves (CICPα and PICPα) for MF-GP, HF-only-GP, and LF models, with ideal target shown as a dashed line.",
+            "table1": "Mean CICPα values for MF-GP, HF-only-GP, and MF-PCE models at different target α levels.",
+            "table2": "Mean PICPα values for MF-GP, HF-only-GP, and MF-PCE models at different target α levels."
+        },
+        "question": "The model that achieves the highest mean CICP value at α = 0.95 in table1 corresponds to which curve in chart1? A. MF B. HF only C. LF Respond only with the choice.",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 11,
+        "items": ["chart1", "table1", "table2"],
+        "path": {
+            "chart1": "2511.20183v1\\chart1.jpg",
+            "table1": "2511.20183v1\\table1.jpg",
+            "table2": "2511.20183v1\\table2.jpg"
+        },
+        "caption": {
+            "chart1": "Calibration curves (CICPα and PICPα) for MF-GP, HF-only-GP, and LF models, with ideal target shown as a dashed line.",
+            "table1": "Mean CICPα values for MF-GP, HF-only-GP, and MF-PCE models at different target α levels.",
+            "table2": "Mean PICPα values for MF-GP, HF-only-GP, and MF-PCE models at different target α levels."
+        },
+        "question": "Which model shows better calibration consistency by having both higher CICP values in table1 and a blue dashed curve in chart1? A. HF-only B. MF C. LF Respond only with the choice.",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.20616v1\\chart1.jpg",
+            "table1": "2511.20616v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Baseline hazard rates for readmission risk (A) and mortality risk (B) as functions of years from initial surgery, with 95% uncertainty intervals.",
+            "table1": "Posterior means and 95% credible intervals of covariate effects on readmission and mortality risks, reported as hazard ratios."
+        },
+        "question": "In chart1, identify which panel reaches its peak at approximately 5.0, then in table1, which covariate has highest mean hazard ratio under the corresponding risk column? Answer only with the covariate name.",
+        "question_type": "reasoning",
+        "answer": "Current",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.20819v1\\chart1.jpg",
+            "table1": "2511.20819v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Sensitivity as a function of dispersion parameter k for different epidemic sizes (20, 50, 100, 200) and ΔR₀ values (0.5, 1, 1.5).",
+            "table1": "Linear regression results for the mean scaled entropy (H) model, including predictors such as epidemic size (ε), reproduction number (R), and dispersion (k)."
+        },
+        "question": "In chart1, at k = 0.3, under ΔR₀ = 1.5, which epidemic size panel (20, 50, 100, 200) has the highest sensitivity? Then, in table1, what is the estimated coefficient for that epidemic size ε?",
+        "question_type": "reasoning",
+        "answer": 0.147,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 14,
+        "items": ["chart1", "chart2", "table1"],
+        "path": {
+          "chart1": "2511.21221v1\\chart1.jpg",
+          "chart2": "2511.21221v1\\chart2.jpg",
+          "table1": "2511.21221v1\\table1.jpg"
+        },
+        "caption": {
+          "chart1": "Line chart showing SSR versus ρ for five strategies (TL, TL_equal, Non-transfer, Pool, TLc), highlighting relative performance stability of TL and Non-transfer across ρ.",
+          "chart2": "Line chart showing SSR versus ρ for the same five strategies as chart1, confirming similar relative rankings across strategies.",
+          "table1": "Table reporting investment effects of five portfolio strategies (TL, TL_equal, Non-transfer, Pool) across six target markets: Real Estate, Financial, Construction, Furniture, Manufacturing, and Marketing. Values are numeric performance measures for each strategy-market pair."
+        },
+        "question": "Using chart1, identify which strategy among {TL, TL_equal, Non-transfer, Pool} has the highest SSR at ρ = 10. Then, from table1, report this strategy’s investment effect in the Real Estate market. Respond with the number only.",
+        "question_type": "reasoning",
+        "answer": -0.004,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["chart1", "chart2", "table1"],
+        "path": {
+          "chart1": "2511.21221v1\\chart1.jpg",
+          "chart2": "2511.21221v1\\chart2.jpg",
+          "table1": "2511.21221v1\\table1.jpg"
+        },
+        "caption": {
+          "chart1": "Line chart showing SSR versus ρ for five strategies (TL, TL_equal, Non-transfer, Pool, TLc), highlighting relative performance stability of TL and Non-transfer across ρ.",
+          "chart2": "Line chart showing SSR versus ρ for the same five strategies as chart1, confirming similar relative rankings across strategies.",
+          "table1": "Table reporting investment effects of five portfolio strategies (TL, TL_equal, Non-transfer, Pool) across six target markets: Real Estate, Financial, Construction, Furniture, Manufacturing, and Marketing. Values are numeric performance measures for each strategy-market pair."
+        },
+        "question": "From chart1, determine which strategy among {TL, TL_equal, Non-transfer, Pool} shows the largest drop in SSR from ρ = 1 to ρ = 10. Then, using table1, state whether this strategy’s investment effect in the Furniture market is positive or negative. Respond only with “positive” or “negative”.",
+        "question_type": "reasoning",
+        "answer": "negative",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 16,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.21938v1\\chart1.jpg",
+            "table1": "2511.21938v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Horizontal interval plot showing estimated social network sizes for multiple population subgroups across three governorates (Amman, Jerash, Tafilah). Each panel corresponds to a governorate, the x-axis shows estimated size, and colored intervals represent two estimation methods.",
+            "table1": "Table reporting the mean (with 2.5% and 97.5% quantiles in parentheses) of posterior mean social network sizes for Jordanians (general population) and migrant domestic workers (MDW) by governorate."
+        },
+        "question": "From the chart, identify the governorate where the MDW-related population groups generally have the smallest estimated sizes. Then, using table1, report the mean MDW social network size for that governorate.",
+        "question_type": "reasoning",
+        "answer": 80,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.21938v1\\chart1.jpg",
+            "table1": "2511.21938v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Horizontal interval plot showing estimated social network sizes for multiple population subgroups across three governorates (Amman, Jerash, Tafilah). Each panel corresponds to a governorate, the x-axis shows estimated size, and colored intervals represent two estimation methods.",
+            "table1": "Table reporting the mean (with 2.5% and 97.5% quantiles in parentheses) of posterior mean social network sizes for Jordanians (general population) and migrant domestic workers (MDW) by governorate."
+        },
+        "question": "Based on the chart, which governorate shows the largest overall estimated sizes for general population groups? Using table1, determine whether this governorate also has the highest mean General Population network size among all listed governorates. A. yes B. no Respond only with the choice.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.22430v1\\chart1.jpg",
+            "table1": "2511.22430v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Grouped boxplots of RMSE values for six filter types (EKF, Penalized EKF, Lie–Trotter PF, Strang PF, Penalized Lie–Trotter PF, Penalized Strang PF) evaluated at four time steps (1 min, 3 min, 5 min, 20 min). The y-axis shows RMSE.",
+            "table1": "Table reporting average maximum error and average RMSE (in km) for different filters and time steps h = 1, 3, 5, 20 minutes. The smallest value in each row is highlighted in bold."
+        },
+        "question": "From the chart, identify which filter has the highest RMSE at the 5 min time step. Then, using table1, report the average RMSE value (km) for that filter at h = 5 min. Answer only with the number.",
+        "question_type": "reasoning",
+        "answer": 0.205,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.22430v1\\chart1.jpg",
+            "table1": "2511.22430v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Grouped boxplots of RMSE values for six filter types (EKF, Penalized EKF, Lie–Trotter PF, Strang PF, Penalized Lie–Trotter PF, Penalized Strang PF) evaluated at four time steps (1 min, 3 min, 5 min, 20 min). The y-axis shows RMSE.",
+            "table1": "Table reporting average maximum error and average RMSE (in km) for different filters and time steps h = 1, 3, 5, 20 minutes. The smallest value in each row is highlighted in bold."
+        },
+        "question": "From the table, identify which filter has the lowest average max error(km) at h = 20 min. Then, using the chart, what is the rank of this filter's RMSE at the 5 min time step compared to the other filters (1 = lowest RMSE, 6 = highest RMSE)? Answer only with the rank number.",
+        "question_type": "reasoning",
+        "answer": 1,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 20,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.22550v1\\chart1.jpg",
+            "table1": "2511.22550v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Spatial PM10 concentration maps produced by different machine learning and interpolation models over the same area.",
+            "table1": "Performance summary table listing RMSE, COR, BIAS, and MAE for each model under multiple scenarios."
+        },
+        "question": "Using table1, determine which model has the highest COR under the Interpolation scenario with low cost sensors. Then, check the chart and state whether this model shows stronger spatial contrast (larger color variation) than IDW. A. yes B. no C. Not sure Respond only with the choice.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 21,
+        "items": ["chart1", "chart2", "table1"],
+        "path": {
+            "chart1": "2512.00100v1\\chart1.jpg",
+            "chart2": "2512.00100v1\\chart2.jpg",
+            "table1": "2512.00100v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Time series of infection fatality rate (IFR) over time for Massachusetts, California, Minnesota, Texas, and a Baseline curve. The x-axis shows dates from 2020 to early 2023, and the y-axis shows IFR values.",
+            "chart2": "Time series of infection fatality rate (IFR) over time for the same states and baseline as chart1, using the same axes, scale, and legend.",
+            "table1": "Table reporting state-specific performance metrics (MSE and MAE) comparing Baseline and Mechanism models for Massachusetts, Arizona, and New York."
+        },
+        "question": "From the chart, identify the state whose IFR value is the lowest during 2021-09 to 2022-01. Then, using table1, report the MAE value of the Mechanism model for that state. Answer only with the number.",
+        "question_type": "reasoning",
+        "answer": 0.85,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["chart1", "chart2", "table1"],
+        "path": {
+            "chart1": "2512.00100v1\\chart1.jpg",
+            "chart2": "2512.00100v1\\chart2.jpg",
+            "table1": "2512.00100v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Time series of infection fatality rate (IFR) over time for Massachusetts, California, Minnesota, Texas, and a Baseline curve. The x-axis shows dates from 2020 to early 2023, and the y-axis shows IFR values.",
+            "chart2": "Time series of infection fatality rate (IFR) over time for the same states and baseline as chart1, using the same axes, scale, and legend.",
+            "table1": "Table reporting state-specific performance metrics (MSE and MAE) comparing Baseline and Mechanism models for Massachusetts, Arizona, and New York."
+        },
+        "question": "How many states are shown both in the charts and in the table? Answer only with the number.",
+        "question_type": "reasoning",
+        "answer": 1,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 23,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2512.02092v1\\chart1.jpg",
+            "table1": "2512.02092v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Stacked area chart showing quarterly weight shares of forecasting models (LASSO, Ridge, Elastic Net, PCR, PLSR, GRU) from 2017 Q1 to 2023 Q2. The y-axis represents normalized weight share summing to 1.",
+            "table1": "Table reporting relative RMSFE values of multiple forecasting models across different sub-periods (Overall, Pre-COVID, COVID, Post-COVID, Excluding COVID), benchmarked against Random Walk, AR(3), and Dynamic Factor Model."
+        },
+        "question": "From table1, identify the penalized linear model with the lowest RMSFE relative to Random Walk during the COVID period. Then, based on the chart, determine whether this model’s weight share increases, decreases, or remains approximately stable from 2019 Q4 to 2020 Q2. A. increases B. decreases C. remains approximately stable Respond only with the choice.",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 24,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2512.02092v1\\chart1.jpg",
+            "table1": "2512.02092v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Stacked area chart showing quarterly weight shares of forecasting models (LASSO, Ridge, Elastic Net, PCR, PLSR, GRU) from 2017 Q1 to 2023 Q2. The y-axis represents normalized weight share summing to 1.",
+            "table1": "Table reporting relative RMSFE values of multiple forecasting models across different sub-periods (Overall, Pre-COVID, COVID, Post-COVID, Excluding COVID), benchmarked against Random Walk, AR(3), and Dynamic Factor Model."
+        },
+        "question": "Using table1, select the penalized linear model with the best Overall performance relative to the Dynamic Factor Model. Then, according to the chart, rank this model’s weight share among all models in 2017 Q4 from highest to lowest. Respond with the rank number only (1 = highest).",
+        "question_type": "reasoning",
+        "answer": 1,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 25,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2512.02203v1\\chart1.jpg",
+            "table1": "2512.02203v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Four-panel figure comparing PPML, PPML debiased, and Polyads across increasing sample sizes n (×10^5). Panels show (from left to right): error when converged, 95% confidence interval coverage, running time (seconds), and convergence rate, with a dashed target line where applicable.",
+            "table1": "Table reporting random effects meta-analysis estimates with 95% confidence intervals for parameters β_d, β_sc, and β_ss under different subsample proportions (2%, 3%, 4%) and methods (PPML, PPML debiased, Polyads)."
+        },
+        "question": "From table1, identify the method with the smallest absolute β_sc (×10^2) estimate at the 4% subsample proportion. Then, in the chart, what's the representing color for this method? A. blue B. orange C. green Respond only with the choice.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2512.02203v1\\chart1.jpg",
+            "table1": "2512.02203v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Four-panel figure comparing PPML, PPML debiased, and Polyads across increasing sample sizes n (×10^5). Panels show (from left to right): error when converged, 95% confidence interval coverage, running time (seconds), and convergence rate, with a dashed target line where applicable.",
+            "table1": "Table reporting random effects meta-analysis estimates with 95% confidence intervals for parameters β_d, β_sc, and β_ss under different subsample proportions (2%, 3%, 4%) and methods (PPML, PPML debiased, Polyads)."
+        },
+        "question": "Using table1, select the method whose β_ss (×10^2) estimate is closest to zero at the 3% subsample proportion. Then, according to the chart, rank this method’s convergence rate at n = 2 × 10^5 among all methods (1 = highest).",
+        "question_type": "reasoning",
+        "answer": 2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.05842v1\\chart1.jpg",
+            "table1": "2511.05842v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Kernel density estimates of estimated values for four methods (FCE, DCE, C-learning, Avg C-learning). The x-axis shows estimated value and the y-axis shows density.",
+            "table1": "Table reporting correct classification rates with standard deviations for DCE, FCE, Avg C-learning, Initial, and Full C-learning across multiple scenarios, sample sizes N, and labeled sample sizes n."
+        },
+        "question": "From the chart, identify the method whose estimated value distribution is most concentrated around 0.4. Then, using table1, report the correct classification rate of this method in Scenario c when N = 3000 and n = 200.",
+        "question_type": "reasoning",
+        "answer": 0.951,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.05842v1\\chart1.jpg",
+            "table1": "2511.05842v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Kernel density estimates of estimated values for four methods (FCE, DCE, C-learning, Avg C-learning). The x-axis shows estimated value and the y-axis shows density.",
+            "table1": "Table reporting correct classification rates with standard deviations for DCE, FCE, Avg C-learning, Initial, and Full C-learning across multiple scenarios, sample sizes N, and labeled sample sizes n."
+        },
+        "question": "Using table1, determine which method achieves the highest correct classification rate in Scenario d when N = 5000 and n = 500. Then, based on the chart, identify which curve among the four methods has the narrowest spread. Answer with a list of the method names as shown in the legend. e.g., ['Method1', 'Method2']",
+        "question_type": "reasoning",
+        "answer": ["FCE", "FCE"],
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 29,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.06351v1\\chart1.jpg",
+            "table1": "2511.06351v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Grid of scatter plots showing performance of three flow types (spline, spline_two_layers, coupling) across five models (quadratic, MG1, SLCP, SEIR, GM). The top row reports epsilon values on a log scale, and the bottom row reports loss values.",
+            "table1": "Table reporting final epsilon values for different models as a function of the number of mixture components (from 3 to 10 and automatic). Best results in each row are highlighted."
+        },
+        "question": "From table1, identify the model whose best (lowest) epsilon value occurs at 10 mixture components. Then, using the chart, determine which flow type yields the lowest loss for this model. Answer the type name in the chart.",
+        "question_type": "reasoning",
+        "answer": "coupling",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 30,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.06351v1\\chart1.jpg",
+            "table1": "2511.06351v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Grid of scatter plots showing performance of three flow types (spline, spline_two_layers, coupling) across five models (quadratic, MG1, SLCP, SEIR, GM). The top row reports epsilon values on a log scale, and the bottom row reports loss values.",
+            "table1": "Table reporting final epsilon values for different models as a function of the number of mixture components (from 3 to 10 and automatic). Best results in each row are highlighted."
+        },
+        "question": "Using table1, select the model with the smallest epsilon value at 8 mixture components. Then, based on the chart, rank this model’s epsilon under the spline flow among the three flows (1 = lowest). Answer with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 2,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 31,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.10048v1\\chart1.jpg",
+            "table1": "2511.10048v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Grid of scatter plots showing performance of three flow types (spline, spline_two_layers, coupling) across five models (quadratic, MG1, SLCP, SEIR, GM). The top row reports epsilon values on a log scale, and the bottom row reports loss values.",
+            "table1": "Table reporting final epsilon values for different models as a function of the number of mixture components (from 3 to 10 and automatic). Best results in each row are highlighted."
+        },
+        "question": "From the chart under the MOOEN criterion, identify the dataset where the Mean method has the lowest imputation risk. Then, using table1, report the MOORT value of the Mean method on that dataset under the Mask setting. Answer with a single numeric value only.",
+        "question_type": "reasoning",
+        "answer": 7,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 32,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.10048v1\\chart1.jpg",
+            "table1": "2511.10048v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Grid of scatter plots showing performance of three flow types (spline, spline_two_layers, coupling) across five models (quadratic, MG1, SLCP, SEIR, GM). The top row reports epsilon values on a log scale, and the bottom row reports loss values.",
+            "table1": "Table reporting final epsilon values for different models as a function of the number of mixture components (from 3 to 10 and automatic). Best results in each row are highlighted."
+        },
+        "question": "Using table1, identify the method with the lowest MOO value on the yacht dataset under the Mask setting. Then, based on the chart under MOORT, determine which of the following best describes this method’s imputation risk on the yacht dataset.\nRespond only with the choice.\nA. Below 0.1\nB. Between 0.1 and 0.2\nC. Above 0.2",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 33,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.11318v1\\chart1.jpg",
+            "table1": "2511.11318v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Line plot showing the L2 norm of the Riemannian gradient versus iterations for Dual-Newton methods with different α values (α = 1, 0.5, 0, -0.5, -1). The y-axis is on a logarithmic scale.",
+            "table1": "Table reporting total runtime, number of iterations, and average per-iteration time for each optimization method in Experiment 1, for N = 4 and N = 8. The stopping criterion is when the Riemannian gradient norm is less than 10^-6."
+        },
+        "question": "From the chart, identify the Dual-Newton variant that converges in the fewest iterations. Then, using table1, report the total runtime of this method for N = 4. Answer with a single numeric value from the table.",
+        "question_type": "reasoning",
+        "answer": 0.001,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 34,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.11318v1\\chart1.jpg",
+            "table1": "2511.11318v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Line plot showing the L2 norm of the Riemannian gradient versus iterations for Dual-Newton methods with different α values (α = 1, 0.5, 0, -0.5, -1). The y-axis is on a logarithmic scale.",
+            "table1": "Table reporting total runtime, number of iterations, and average per-iteration time for each optimization method in Experiment 1, for N = 4 and N = 8. The stopping criterion is when the Riemannian gradient norm is less than 10^-6."
+        },
+        "question": "Using table1, identify the Dual-Newton variant with the largest number of iterations for N = 8. Then, based on the chart, rank this variant’s convergence speed among the five Dual-Newton variants at iteration 3(1 = fastest). Answer with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.12257v1\\chart1.jpg",
+            "table1": "2511.12257v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Line plot of autocorrelation function (ACF) versus lag index for five methods: TV-SPA, RED-RPnP-ULA, BSD-RPnP-ULA, RED-HRLwSGS, and BSD-HRLwSGS. The x-axis is lag (0–100) and the y-axis is ACF.",
+            "table1": "Table reporting denoising experiment results with mean and standard deviation for PSNR (dB), SSIM, and LPIPS for multiple methods including TV-SPA, RED-RPnP-ULA, BSD-RPnP-ULA, RED-HRLwSGS, and BSD-HRLwSGS."
+        },
+        "question": "Which method both exhibits the slowest autocorrelation decay in chart1 and achieves the highest SSIM value in table1? Answer the exact method's name shown in the chart's legend.",
+        "question_type": "reasoning",
+        "answer": "BSD-HRLwSGS",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.12257v1\\chart1.jpg",
+            "table1": "2511.12257v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Line plot of autocorrelation function (ACF) versus lag index for five methods: TV-SPA, RED-RPnP-ULA, BSD-RPnP-ULA, RED-HRLwSGS, and BSD-HRLwSGS. The x-axis is lag (0–100) and the y-axis is ACF.",
+            "table1": "Table reporting denoising experiment results with mean and standard deviation for PSNR (dB), SSIM, and LPIPS for multiple methods including TV-SPA, RED-RPnP-ULA, BSD-RPnP-ULA, RED-HRLwSGS, and BSD-HRLwSGS."
+        },
+        "question": "Based on table1, the method with the highest PSNR also corresponds in chart1 to which autocorrelation behavior?\nA. Slow decay with high ACF at large lags\nB. Fast decay reaching near zero ACF\nC. Oscillatory ACF behavior\nRespond only with the choice.",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.12343v1\\chart1.jpg",
+            "table1": "2511.12343v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Line plot of autocorrelation function (ACF) versus lag index for five methods: TV-SPA, RED-RPnP-ULA, BSD-RPnP-ULA, RED-HRLwSGS, and BSD-HRLwSGS. The x-axis is lag (0–100) and the y-axis is ACF.",
+            "table1": "Table reporting denoising experiment results with mean and standard deviation for PSNR (dB), SSIM, and LPIPS for multiple methods including TV-SPA, RED-RPnP-ULA, BSD-RPnP-ULA, RED-HRLwSGS, and BSD-HRLwSGS."
+        },
+        "question": "From chart1, identify the method with the lowest accuracy trajectory overall. Then, using table1, report this method’s Coverage (%) for parameter β1 when r = 1. Answer with a single numeric value from the table.",
+        "question_type": "reasoning",
+        "answer": 3.8,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 38,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.12343v1\\chart1.jpg",
+            "table1": "2511.12343v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Line plot of autocorrelation function (ACF) versus lag index for five methods: TV-SPA, RED-RPnP-ULA, BSD-RPnP-ULA, RED-HRLwSGS, and BSD-HRLwSGS. The x-axis is lag (0–100) and the y-axis is ACF.",
+            "table1": "Table reporting denoising experiment results with mean and standard deviation for PSNR (dB), SSIM, and LPIPS for multiple methods including TV-SPA, RED-RPnP-ULA, BSD-RPnP-ULA, RED-HRLwSGS, and BSD-HRLwSGS."
+        },
+        "question": "Consider only PLMIc and PLMI. First, using table1, determine which method has the smaller Median Absolute Diff. (×100) for parameter β0 when r = 5. Second, using chart1, determine which of the two methods has the higher accuracy at the rightmost MCMC iteration shown. Respond only with the choice.\nA. PLMIc, PLMIc\nB. PLMIc, PLMI\nC. PLMI, PLMIc\nD. PLMI, PLMI",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 39,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.13296v4\\chart1.jpg",
+            "table1": "2511.13296v4\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Line plot of speed-up factor versus sample size (1K–50K) for four settings of Dr (3, 5, 7, 10), each represented by a colored line.",
+            "table1": "Table reporting estimated scalability rates for EM-1, EM-2, and CIRLS algorithms under different values of p (5, 10, 15, 20) and Dr (3, 5, 7, 10)."
+        },
+        "question": "First, identify from chart1 which Dr setting achieves the highest observed speed-up factor. Then, using table1, report the CIRLS scalability rate for this Dr when p = 5.",
+        "question_type": "reasoning",
+        "answer": 0.93,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 40,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.13296v4\\chart1.jpg",
+            "table1": "2511.13296v4\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Line plot of speed-up factor versus sample size (1K–50K) for four settings of Dr (3, 5, 7, 10), each represented by a colored line.",
+            "table1": "Table reporting estimated scalability rates for EM-1, EM-2, and CIRLS algorithms under different values of p (5, 10, 15, 20) and Dr (3, 5, 7, 10)."
+        },
+        "question": "Using table1, determine which Dr value gives the highest CIRLS scalability rate when p = 10. Then, based on chart1, determine whether this Dr setting shows higher or lower speed-up at large sample sizes (40K–50K) compared to Dr = 3. Respond only with the choice.\nA. Dr = 5, higher\nB. Dr = 5, lower\nC. Dr = 7, higher\nD. Dr = 7, lower",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.14294v1\\chart1.jpg",
+            "table1": "2511.14294v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Stacked bar charts showing first-order sensitivity index contributions of different factors (type, compl, adju, period, extmc, intmc, migr, interactions) for direct and indirect outcomes across three cities (Zweibrücken, Kaiserslautern, Mainz), under inclusion and exclusion of low complexity.",
+            "table1": "Table summarizing maximum and median first-order sensitivity indices by factor in 2040, reported separately for inclusion and exclusion of low complexity."
+        },
+        "question": "From chart1, identify the factor that visually dominates the direct outcomes when low complexity is included. Then, using table1, report the median sensitivity index of this factor under inclusion of low complexity. Answer only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.464,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.14294v1\\chart1.jpg",
+            "table1": "2511.14294v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Stacked bar charts showing first-order sensitivity index contributions of different factors (type, compl, adju, period, extmc, intmc, migr, interactions) for direct and indirect outcomes across three cities (Zweibrücken, Kaiserslautern, Mainz), under inclusion and exclusion of low complexity.",
+            "table1": "Table summarizing maximum and median first-order sensitivity indices by factor in 2040, reported separately for inclusion and exclusion of low complexity."
+        },
+        "question": "Using table1, determine which factor has the highest maximum sensitivity index when low complexity is excluded. Then, based on chart1, identify where this factor appears most prominently. Respond only with the choice.\nA. migr, indirect outcomes\nB. migr, direct outcomes\nC. interactions, indirect outcomes\nD. interactions, direct outcomes",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 43,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.14509v1\\chart1.jpg",
+            "table1": "2511.14509v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Boxplots of estimated parameter values (μ, k, α, σ) for three methods (Likelihood, EM, inlabru). Dashed horizontal lines indicate the true parameter values.",
+            "table1": "Table reporting MAE (mean ± SD) for parameters μ, k, α, and β, along with average computation time for Likelihood, EM, and inlabru methods."
+        },
+        "question": "From chart1, identify which method’s median estimate of α is closest to the true value. Then, using table1, report the MAE mean of this method for α. Answer with single numeric value from the table.",
+        "question_type": "reasoning",
+        "answer": 0.142,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 44,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.14509v1\\chart1.jpg",
+            "table1": "2511.14509v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Boxplots of estimated parameter values (μ, k, α, σ) for three methods (Likelihood, EM, inlabru). Dashed horizontal lines indicate the true parameter values.",
+            "table1": "Table reporting MAE (mean ± SD) for parameters μ, k, α, and β, along with average computation time for Likelihood, EM, and inlabru methods."
+        },
+        "question": "Using table1, determine which method has the lowest MAE for parameter k. Then, based on chart1, determine whether this method’s median estimate of k lies above or below the true value. Respond only with the choice.\nA. Likelihood, above\nB. Likelihood, below\nC. EM, above\nD. EM, below",
+        "question_type": "reasoning",
+        "answer": "D",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 45,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.14784v1\\chart1.jpg",
+            "table1": "2511.14784v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Line plot of ARI versus noise percentage (0–20%) on the Brain dataset for seven clustering algorithms: COMET, KM, MKM, CC, RCC, RConv, and RBKM.",
+            "table1": "Table reporting AMI values for COMET, CC, RCC, RConv, KM, MKM, and RBKM across multiple benchmark datasets."
+        },
+        "question": "From chart1, identify the algorithm with the best overall ARI performance under noise. Then, using table1, report this algorithm’s AMI value on the Wine dataset. Answer with a single numeric value from the table.",
+        "question_type": "reasoning",
+        "answer": 0.685,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 46,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.14784v1\\chart1.jpg",
+            "table1": "2511.14784v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Line plot of ARI versus noise percentage (0–20%) on the Brain dataset for seven clustering algorithms: COMET, KM, MKM, CC, RCC, RConv, and RBKM.",
+            "table1": "Table reporting AMI values for COMET, CC, RCC, RConv, KM, MKM, and RBKM across multiple benchmark datasets."
+        },
+        "question": "Using table1, determine which algorithm has the highest AMI on the Zoo dataset. Then, based on chart1, determine whether this algorithm’s ARI at 20% noise is above or below 0.6. Respond only with the choice.\nA. COMET, above\nB. COMET, below\nC. RCC, above\nD. RCC, below",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 47,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.15942v1\\chart1.jpg",
+            "table1": "2511.15942v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Mean Absolute Error (MAE) comparison of Classic, Robust1, and Robust2 methods across different outer indices.",
+            "table1": "Table reporting AMI values for COMET, CC, RCC, RConv, KM, MKM, and RBKM across multiple benchmark datasets."
+        },
+        "question": "Using table1, identify which method has lower RMSE at m = 5 and η = 0.3. Then, based on chart1, determine whether this method’s MAE at outer index 5 is lower or higher than 3. Respond only with the choice.\nA. Classic, lower than 3\nB. Classic, higher than 3\nC. Robust, lower than 3\nD. Robust, higher than 3",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 48,
+        "items": ["chart1", "table1"],
+        "path": {
+            "chart1": "2511.15942v1\\chart1.jpg",
+            "table1": "2511.15942v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Mean Absolute Error (MAE) comparison of Classic, Robust1, and Robust2 methods across different outer indices.",
+            "table1": "Table reporting AMI values for COMET, CC, RCC, RConv, KM, MKM, and RBKM across multiple benchmark datasets."
+        },
+        "question": "Using chart1, determine which method has the smallest MAE at outer index 7. Then, using table1, check whether this method also has lower MAE than the Classic method when m = 2 and η = 0.1. Respond only with the choice.\nA. Robust1, yes\nB. Robust1, no\nC. Robust2, yes\nD. Robust2, no",
+        "question_type": "reasoning",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 49,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.09076v1\\chart1.jpg",
+            "table1": "2512.09076v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Bar charts of MAE and RMSE values summarize and contrast forecasting accuracy across all tested models.",
+            "table1": "Quantitative comparison of training, validation, and test results using MAE, RMSE, and R² for both PM2.5 and PM10 targets."
+        },
+        "question": "What exact RMSE value in Table 1 corresponds to the smallest RMSE shown in Chart 1? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 4.6,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 50,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.09275v1\\chart1.jpg",
+            "table1": "2512.09275v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Mean Attacked Generalization Gap vs. Context Length (t) under a fixed PGD attack (ε = 0.02).",
+            "table1": "Generalization Gap Comparison across Different Context Lengths t."
+        },
+        "question": "Using Chart 1’s flattening trend after t ≥ 20, compute the average RoPE Generalization Gap at t = 20, 25, and 30 from Table 1. Respond only with a single numeric value rounded to four decimals.",
+        "question_type": "reasoning",
+        "answer": 0.8415,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 51,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.09275v1\\chart1.jpg",
+            "table1": "2512.09275v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Mean Attacked Generalization Gap vs. Context Length (t) under a fixed PGD attack (ε = 0.02).",
+            "table1": "Generalization Gap Comparison across Different Context Lengths t."
+        },
+        "question": "Based on Chart 1’s convergence at medium t, determine from Table 1 the context length where the difference between the maximum and minimum Gap across methods is smallest. Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 25,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 52,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.09912v1\\chart1.jpg",
+            "table1": "2512.09912v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Relative improvement over lasso across simulation settings.",
+            "table1": "Mean relative improvement (%) over lasso across four simulation settings."
+        },
+        "question": "Considering both boxplot width in Chart 1 and standard errors in Table 1, which setting shows the highest uncertainty? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Setting 3",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 53,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.10445v1\\chart1.jpg",
+            "table1": "2512.10445v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Maximum MSE across environments on test data, averaged over 100 repetitions with 95% confidence intervals. MaxRM-RF and magging perform similarly and outperform group DRO and RF.",
+            "table1": "Comparison of random forest–based methods in terms of maximum MSE, pooled MSE, and runtime across training environments."
+        },
+        "question": "Which model in Chart 1 is closest to RF in performance, and what is their Maximum MSE difference according to Table 1? Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 8.13,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 54,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.11448v1\\chart1.jpg",
+            "table1": "2512.11448v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The performance metrics (ARI, NMI) vs bandwidth (σ) plots for different values of curvature (c) for our proposed HypeGBMS for two real-world datasets: (a) Zoo, (b) Phishing URL, respectively.",
+            "table1": "Clustering performance comparison with runtime on Phishing dataset(for 1k and 5k samples)."
+        },
+        "question": "Do Chart 1 and Table 1 include multiple datasets? Choose the correct option and respond only with a single letter. A. Both B. Only Chart 1 C. Only Table 1 D. Neither",
+        "question_type": "perceptual",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+
+    {
+        "question_id": 55,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.11448v1\\chart1.jpg",
+            "table1": "2512.11448v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The performance metrics (ARI, NMI) vs bandwidth (σ) plots for different values of curvature (c) for our proposed HypeGBMS for two real-world datasets: (a) Zoo, (b) Phishing URL, respectively.",
+            "table1": "Clustering performance comparison with runtime on Phishing dataset(for 1k and 5k samples)."
+        },
+        "question": "If the optimal ARI in Chart 1 for the Phishing dataset is treated as an upper bound, which method in Table 1 (N = 1k) is closest to this bound? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "HypeGBMS (Ours)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 56,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.11526v1\\chart1.jpg",
+            "table1": "2512.11526v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Effect of λCL on MAE (left) and MSE (right) under anomalous conditions for input-only and input-to-output scenarios.",
+            "table1": "Forecasting performance on the Cash Demand dataset. MAE, MSE, and SMAPE (mean over 3 seeds). Δ shows relative improvement (%) of +Co-TSFA over baseline (negative = better). Red indicates equal or improved performance."
+        },
+        "question": "Which model in Table 1 has an Input+Output MAE closest to the Input→Output MAE at λ_CL = 0.5 in Chart 1? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Informer",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 57,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.11779v1\\chart1.jpg",
+            "table1": "2512.11779v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Illustration of the estimation of ERT for different classifiers as a number of sampled data available. physiochemical_protein dataset.",
+            "table1": "ERT recovered by different methods, relative to the highest value among all methods and number of samples, averaged over all number of test samples and datasets. Experiments are repeated 10 times, and the index number is the standard deviation across those 10 experiments."
+        },
+        "question": "For the classifier that always stays below 0.02 in Chart 1, report its L1-ERT value from Table 1. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 38.3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 58,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.12046v1\\chart1.jpg",
+            "table1": "2512.12046v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Learning curves for the humanoidmaze experiments. All agents are trained for 10^6 steps using 10 seeds and evaluated every 10^5 steps. For each seed, evaluations are conducted as in Table 1. Plots show the average success and standard deviation across seeds.",
+            "table1": "Summary of the comparison on non-regular environments. All agents are trained for 10^6 steps using 10 seeds and evaluated every 10^5 steps. For each seed, evaluations are conducted as in Table 1 and we report the best evaluation. Results within 95% of the best value are written in bold."
+        },
+        "question": "Which algorithm converges quickly in Chart 1 but does not achieve the best final result in Table 1? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "HIQL",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 59,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.12341v1\\chart1.jpg",
+            "table1": "2512.12341v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Active learning with different datasets using the epistemic uncertainty component to query new instances, where (a) is based on the MNIST dataset, (b) TISSUEMNIST, and (c) BLOODMNIST, respectively. Results are averaged over three runs.",
+            "table1": "OoD detection with CIFAR-10 as in-Distribution data based on epistemic uncertainty. The mean and standard deviation of the AUROC over three runs are reported. Best results are highlighted in bold."
+        },
+        "question": "How many subplots are shown in Chart 1, and how many datasets are listed in Table 1? Respond only with a list in the format [Chart, Table].",
+        "question_type": "perceptual",
+        "answer": [3, 3],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 60,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.12341v1\\chart1.jpg",
+            "table1": "2512.12341v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Active learning with different datasets using the epistemic uncertainty component to query new instances, where (a) is based on the MNIST dataset, (b) TISSUEMNIST, and (c) BLOODMNIST, respectively. Results are averaged over three runs.",
+            "table1": "OoD detection with CIFAR-10 as in-Distribution data based on epistemic uncertainty. The mean and standard deviation of the AUROC over three runs are reported. Best results are highlighted in bold."
+        },
+        "question": "From Chart 1, zero-one loss appears to be the lowest at convergence. Using this metric, take the minimum zero-one loss for each dataset in Table 1 and compute their average. Round to 3 decimals. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.706,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 61,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.12574v1\\chart1.jpg",
+            "table1": "2512.12574v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Illustration of prediction accuracy (MSE) on the Nanotube, CSImage, and Corrosion datasets. RLGP, highlighted in red, consistently delivers the best performance (lower is better).",
+            "table1": "Relative increase (%) in error (MSE and CRPS) of the competing methods, using RLGP as the baseline. Positive values indicate the competitor had a higher error, thus demonstrating a performance advantage for RLGP."
+        },
+        "question": "Which datasets shown in Chart 1 also report CRPS in Table 1? Respond only with a list of strings.",
+        "question_type": "perceptual",
+        "answer": "[Nanotube, CSImage, Corrosion, Cancer]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 62,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.16105v1\\chart1.jpg",
+            "table1": "2512.16105v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of BayesSum and MC in estimating the normalization constant for maximum likelihood inference of CMP model. BayesSum uses N = 10 samples while MC uses N = 30 samples.",
+            "table1": "Comparison of empirical convergence rate of different methods. For each method, we report the estimated α > 0 such that the integration error scales as O(n^−α). Larger values indicate faster convergence."
+        },
+        "question": "Considering both the distribution fit in Chart 1 and the α values in Table 1, which method demonstrates superior efficiency and accuracy? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "BayesSum",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 63,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.17659v1\\chart1.jpg",
+            "table1": "2512.17659v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Final Pareto fronts for each method on the logP–TPSA benchmark (best trial per method). Each point is a non-dominated molecule sampled during optimization. Our method (green) identifies a broader frontier, particularly at high-logP / low-TPSA trade-offs.",
+            "table1": "Final hypervolume values across 5 independent optimization runs for each method on the multi-objective (logP–TPSA) benchmark problem."
+        },
+        "question": "Which method dominates the high-logP region in Chart 1, and what is its rank in average hypervolume in Table 1? Respond only with a list [Method, Rank].",
+        "question_type": "reasoning",
+        "answer": "[Ours (GA/BGNN), 1]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 64,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.18720v1\\chart1.jpg",
+            "table1": "2512.18720v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of the algorithms’ performance across different numbers of selected features.",
+            "table1": "Description of the datasets"
+        },
+        "question": "For the dataset shown in the third subplot of Chart 1, what is its feature dimensionality according to Table 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 2420,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 65,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.19373v1\\chart1.jpg",
+            "table1": "2512.19373v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Root mean square error (RMSE) of the random Fourier feature model as the number of resampling iterations increases.",
+            "table1": "Comparison of training and test RMSE for different models on the California Housing dataset."
+        },
+        "question": "Which model name listed in Table 1 corresponds to the model illustrated in Chart 1? Respond only with a single string.",
+        "question_type": "perceptual",
+        "answer": "RFF model",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 66,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.20007v1\\chart1.jpg",
+            "table1": "2512.20007v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Power curve of SKSD goodness-of-fit tests for kernel exponential family. The red dashed line indicates the test level.",
+            "table1": "SKSD test power for various values of θ₂ and null model rank p."
+        },
+        "question": "At θ₂ = 3.0, which p value in Table 1 has power closest to the rejection rate shown in Chart 1? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 1,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 67,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.22999v1\\chart1.jpg",
+            "table1": "2512.22999v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Validation SSIM (↑) and NRMSE (↓) versus number of measurements for CoDiff and our methods. Shaded regions show interquartile ranges.",
+            "table1": "SSIM (↑) and posterior NRMSE (↓) at T = 6 on the MNIST validation set under different noise levels σ."
+        },
+        "question": "Considering both Chart 1 and Table 1, is the top-SSIM method at measurement = 6 consistent across them? If so, name the method. Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Ours (FM)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 68,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.23596v1\\chart1.jpg",
+            "table1": "2512.23596v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Box Plot of Out-of-Sample R2 of ATOMS and Fixed-Window Baselines for 17 Industry Portfolios.",
+            "table1": "Out-of-Sample R2 Averages Across Industries by Time Period"
+        },
+        "question": "Count the number of distinct methods shown in Chart 1 and Table 1, respectively. Respond only with a list of two integers, where the first value corresponds to Chart 1 and the second value corresponds to Table 1.",
+        "question_type": "perceptual",
+        "answer": [5, 4],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 69,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.24497v1\\chart1.jpg",
+            "table1": "2512.24497v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Box Plot of Out-of-Sample R2 of ATOMS and Fixed-Window Baselines for 17 Industry Portfolios.",
+            "table1": "Out-of-Sample R2 Averages Across Industries by Time Period"
+        },
+        "question": "If Table 1 shows higher average R2 while Chart 1 shows wider boxes, what does this imply? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "Higher mean but lower stability",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 70,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2601.00377v1\\chart1.jpg",
+            "table1": "2601.00377v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "MSE versus number of training samples of different methods for the CCD.",
+            "table1": "MSE of different methods for CCD with eight variables."
+        },
+        "question": "Which variable shows the most pronounced method separation with increasing sample size in Chart 1, and does this variable also show a large MSE range (max − min) in Table 1? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "CO2",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 71,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2601.00461v1\\chart1.jpg",
+            "table1": "2601.00461v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of the choice of random graph models.",
+            "table1": "Ablation over number of users n (final cumulative regret; mean±SE)."
+        },
+        "question": "Which algorithm in Table 1 least aligns with the smooth growth behavior observed in Chart 1? Respond only with a single string.",
+        "question_type": "reasoning",
+        "answer": "GP-UCB",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 72,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2601.00781v1\\chart1.jpg",
+            "table1": "2601.00781v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Categorical VAE training curves for the configuration with L = 48, K = 2.",
+            "table1": "Average runtime per training epoch for the Categorical VAE experiment with L = 48, K = 2. We report the mean and standard deviation over epochs (in seconds)."
+        },
+        "question": "For the sampler with the lowest final loss in Chart 1, what is its mean time per epoch in Table 1? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 6.15,
+        "answer_type": "numeric"
+    }
+]

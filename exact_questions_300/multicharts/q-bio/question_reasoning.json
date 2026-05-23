@@ -1,0 +1,213 @@
+[
+    {
+        "question_id": 2,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.12976v1\\chart1.jpg",
+            "chart2": "2509.12976v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Accuracy percentage computed for each method. *: Methods with very low scores, due to technical problems that will be explained in Discussion",
+            "chart2": "Balanced accuracy percentage computed for each method. *: Methods with very low scores, due to technical problems that will be explained in Discussion"
+        },
+        "question": "Count the number of methods that simultaneously satisfy both conditions: an Accuracy of at least 80% in Chart 1 and a Balanced Accuracy of at least 80% in Chart 2. Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 46,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2511.03897v1\\chart1.jpg",
+            "chart2": "2511.03897v1\\chart2.jpg",
+            "chart3": "2511.03897v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Age distribution of the New Mexico synthetic population by race. Note the final bracket in each age distribution represents individuals aged 90+.",
+            "chart2": "Age distribution of the New Mexico synthetic population by ethnicity. Note the final bracket in each age distribution represents individuals aged 90+.",
+            "chart3": "Age distribution of the New Mexico synthetic population by adjusted household income. Note the final bracket in each age distribution represents individuals aged 90+."
+        },
+        "question": "Considering Chart 1, Chart 2, and Chart 3 together, among the population aged 60 and above, which dimension (Race, Ethnicity, or Income) exhibits a distribution that is closest to being dominated by a single group? A. Race B. Ethnicity C. Income D. The three are similar in degree. Respond only with a letter.",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 30,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2507.09173v1\\chart1.jpg",
+            "chart2": "2507.09173v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Performance of MolecBioNet and its variants on the Ryu’s dataset.",
+            "chart2": "Performance of MolecBioNet and its variants on the DrugBank dataset."
+        },
+        "question": "Across the two datasets , which evaluation metric exhibits the largest overall variation across all model variants? A. ACC. B. F1. C. PR-AUC. D. Cohen’s κ. Respond only with a letter.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 51,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2511.17652v1\\chart1.jpg",
+            "chart2": "2511.17652v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Comparisons for the PathMMU VQA question set with different training data. The metric is accuracy.",
+            "chart2": "Ablation studies of using different models as verifiers."
+        },
+        "question": "In Chart 2, for each dataset, compute the performance improvement of o4-mini relative to Raw (o4-mini − Raw). Then determine which dataset shows the largest improvement. (Single choice) A. PubMed B. SocialPath C. EduContent D. PathCLS E. Atlas. Respond only with a letter.",
+        "question_type": "reasoning",
+        "answer": "B",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 25,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2509.25884v2\\chart1.jpg",
+            "chart2": "2509.25884v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Data distribution of sample numbers in human data",
+            "chart2": "Data distribution of sample numbers in mouse data"
+        },
+        "question": "Compare the liver tissue proportions in Chart 1 and Chart 2.Compute how much higher the liver proportion is in the human data than in the mouse data, and report the result as a number without the percent sign. Respond only with the number.",
+        "question_type": "reasoning",
+        "answer": 9.8,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 59,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2308.15162v1\\chart1.jpg",
+            "chart2": "2308.15162v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Average (typical) cluster size as a function of the normalized parameter, comparing anchored and diffusing clusters under different values of the control parameter. Results from rate-equation calculations are shown together with numerical solutions from two theoretical approximations to assess their consistency.",
+            "chart2": "Relative mass fraction of anchored domains as a function of the normalized parameter for different values of the control parameter. Predictions from rate-equation theory are compared with numerical results from two alternative theoretical descriptions to evaluate how well the theories capture the redistribution of mass into anchored domains."
+        },
+        "question": "As the normalized parameter increases, which of the following descriptions best reflects the common conclusion of Chart 1 and Chart 2? A. The size of anchored clusters decreases, while the mass fraction of anchored domains increases. B. The size of anchored clusters increases, while the mass fraction of anchored domains decreases. C. Both remain unchanged. D. The two change in different directions. Respond only with a letter.",
+        "question_type": "reasoning",
+        "answer": "A",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 6,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2510.02259v1\\chart1.jpg",
+            "chart2": "2510.02259v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "This panel shows the fraction of attention from position tokens that is allocated to other position tokens versus global tokens (such as charge and spin). In the first nine layers, position tokens predominantly attend to other position tokens, while in later layers the attention shifts toward global tokens.",
+            "chart2": "This panel plots the attention scores of position tokens as a function of interatomic distance, averaged across validation examples in OMol25. Each point represents the mean attention score within an interatomic distance quantile. Attention in the first nine layers shows a strong inverse relationship with distance, whereas in later layers position tokens increase their attention to global tokens while still allocating some attention to distant atoms."
+        },
+        "question": "Based on Chart 2, which layer group (First 9 Layers or Other Layers) has attention scores more concentrated at smaller interatomic distances? Respond only with the layer group.",
+        "question_type": "reasoning",
+        "answer": "First 9 Layers",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 60,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2512.00283v2\\chart1.jpg",
+            "chart3": "2512.00283v2\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Performance of different training strategies on DNA. Each cell shows the mean performance ± standard deviation across all architectures.",
+            "chart2": "Performance of different training strategies on DNA. Each bar shows the percentage of the total 360 architectures that chose that training strategy to yield the best performance. More results on Protein could be found in Appendix A.6.8."
+        },
+        "question": "In Chart 2, which task shows the largest gap among the proportions of the three training strategies selected as the “Best Strategy”? Compute the difference between the maximum and minimum proportions for each task, and report the task with the largest difference. Return the answer as: [task, difference]. Respond only with the list.",
+        "question_type": "reasoning",
+        "answer": "[CPD-all, 38.9]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 68,
+        "items": ["chart1", "chart2", "chart3"],
+        "path": {
+            "chart1": "2506.01995v1\\chart1.jpg",
+            "chart2": "2506.01995v1\\chart2.jpg",
+            "chart3": "2506.01995v1\\chart3.jpg"
+        },
+        "caption": {
+            "chart1": "Overlap between blood and spleen bulk repertoires for mouse 2 at day 67.",
+            "chart2": "Comparison of the overlap between bulk and single-cell sequences from the same tissue and day (D67), including mouse 1 spleen (bulk vs. single cell), mouse 2 spleen and blood (bulk vs. single cell), and mouse 3 spleen (bulk vs. single cell).",
+            "chart3": "Overlap between SPR-validated binding and non-binding sequences versus sequences sorted as antigen-positive and non-positive (data from all mice)."
+        },
+        "question": "In Chart 2, which sample (specified by mouse and tissue) shows the lowest overlap proportion between Single-cell and Bulk sequences? For the selected sample, report both the sample name and the overlap proportion (calculated as overlap ÷ Bulk, rounded to four decimal places). Choose from the following options: A. Mouse 1 Spleen (D67) B. Mouse 2 Spleen (D67) C. Mouse 2 Blood (D67) D. Mouse 3 Spleen (D67) Respond in the following format: [Sample, Proportion]. Respond only with the list.",
+        "question_type": "reasoning",
+        "answer": "[Mouse 2 Blood (D67), 0.0033]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 25,
+        "items": ["chart1", "chart2", "chart3", "chart4"],
+        "path": {
+            "chart1": "2509.18207v1\\chart1.jpg",
+            "chart2": "2509.18207v1\\chart2.jpg",
+            "chart3": "2509.18207v1\\chart3.jpg",
+            "chart4": "2509.18207v1\\chart4.jpg"
+        },
+        "caption": {
+            "chart1": "Generated DNA sequence quality measured by Sequence Identity (the higher the better).",
+            "chart2": "Generated DNA sequence quality measured by Degeneracy Score (the lower the better).",
+            "chart3": "Ablation studies of Entropy Guidance, Adaptive δ with EMA, Alignment and Normalization loss, and the watermark model. We perform 3-time generations for each model and show the standard deviation.",
+            "chart4": "Applying DNAMark to different DNA language models and measuring the watermark detection F1 score."
+        },
+        "question": "In chart 1, compared to No Watermark, which watermark method exhibits the largest decrease in Sequence Identity? Respond only with the method name.",
+        "question_type": "reasoning",
+        "answer": "KGW-2",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 51,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2512.03866v1\\chart1.jpg",
+            "chart2": "2512.03866v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Predicted contact matrix of different agent type categories (high care resident, low care resident, medium care resident, staff shift 1, staff shift 2 and staff shift 3) per person per day for contact radii of 1.5 metres. The matrix was used a generalised linear model with a Poisson distribution to provide an adjusted estimation of contact rates.",
+            "chart2": "Predicted contact matrix of different agent type categories (high care resident, low care resident, medium care resident, staff shift 1, staff shift 2 and staff shift 3) per person per day for contact radii of 3 metres The matrix was used a generalised linear model with a Poisson distribution to provide an adjusted estimation of contact rates."
+        },
+        "question": "In Chart 1, what is the average number of contacts between Resident Low Care and the three Staff Shifts (Shift 1, Shift 2, and Shift 3)? Round the result to one decimal place. Respond only with a number.",
+        "question_type": "reasoning",
+        "answer": 27.4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 57,
+        "items": ["chart1", "chart2"],
+        "path": {
+            "chart1": "2512.00137v1\\chart1.jpg",
+            "chart2": "2512.00137v1\\chart2.jpg"
+        },
+        "caption": {
+            "chart1": "Distribution of adverse drug reactions (ADRs) in the dataset across nine macro-physiological categories, including CNS_Psych, CV_Heme, MSK_Skin, Endo_Metab_Repro, GI_Hepatic, Immune_Infection, Respiratory, Renal_Urinary, and Systemic_Procedural_Other. The pie chart illustrates the relative proportion of ADRs associated with each physiological system, providing the category definition used for subsequent stratified performance analyses.",
+            "chart2": "Distribution of adverse drug reactions (ADRs) across macro-physiological categories in the cross-dataset validation setting, based on the DrugBank test set. The pie chart shows the relative proportions of ADRs in each category (e.g., CV_Heme, CNS_Psych, MSK_Skin, GI_Hepatic, Immune_Infection, Respiratory, Endo_Metab_Repro, and Systemic_Procedural_Other), characterizing the label composition of the unseen dataset used to evaluate model generalizability."
+        },
+        "question": "Based on Chart 2, how many ADR categories have proportions ≤10% and >10%, respectively? Return the result as a list, [number with ≤10%, number with >10%]. Respond only with a list.",
+        "question_type": "reasoning",
+        "answer": [5, 3],
+        "answer_type": "numeric_list"
+    }
+]

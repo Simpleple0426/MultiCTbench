@@ -1,0 +1,211 @@
+[
+    {
+        "question_id": 35,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.16760v1\\table1.jpg",
+            "table2": "2511.16760v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "New supervision tool validation",
+            "table2": "New supervision tool validation"
+        },
+        "question": "Compute the change in x for the Correlation method from Table 1 to Table 2. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.82,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 20,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2509.20634v1\\table1.jpg",
+            "table2": "2509.20634v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Peer Effects in Class Probabilities (Female)",
+            "table2": "Peer Effects in Class Probabilities (Male)"
+        },
+        "question":"Using Table 1 (Female) and Table 2 (Male), compute the range (maximum minus minimum) of the three coefficients in the Rule Violations ALR column within the Sender Profiles panel for each table. Which table has the larger range? Return the larger numerical range only.",
+        "question_type": "reasoning",
+        "answer": 2.277,
+        "answer_type": "numeric"
+    },
+
+
+    {
+        "question_id": 10,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.03236v1\\table1.jpg",
+            "table2": "2511.03236v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance metrics for four methods on two datasets with treatment assignment probabilities correlated with covariates.",
+            "table2": "Performance metrics for four methods on two datasets with treatment assignment probabilities all equal to 0.5."
+        },
+        "question":"In the Statehood dataset, compare two treatment assignment settings—one where the treatment probability depends on covariates, and another where every unit receives treatment with probability 0.5. Which method shows the smallest change in Bias between these two settings? Respond only with the method.",
+        "question_type": "reasoning",
+        "answer": "LOORA-HT",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 25,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2509.15090v1\\table1.jpg",
+            "table2": "2509.15090v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Synthetic Utility Table 1",
+            "table2": "Synthetic Utility Table 2"
+        },
+        "question": "Identify the (State, Policy) combination with the largest increase in Alice value from Table 1 to Table 2. Respond only with a list of two strings in the order [State, Policy].",
+        "question_type": "reasoning",
+        "answer": "[S1, A]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.22834v1\\table1.jpg",
+            "table2": "2511.22834v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Experimental Design",
+            "table2": "Summary Table: Reporting Accuracy"
+        },
+        "question": "Compute the average Overall Choice Accuracy in Table 2 for treatments that use Serial Dictatorship in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 51.15,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.03236v1\\table1.jpg",
+            "table2": "2510.03236v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Model performance for 5-day forecasts during each time period. Divide MSE values by 1,000,000. Performance is compared based on MSE values.",
+            "table2": "Model performance for 10-day forecasts during each time period. Divide MSE values by 1,000,000. Performance is compared based on MSE values."
+        },
+        "question":"Using only the Dual-Recursive results from Table 1 (5-day forecasting) and Table 2 (10-day forecasting), compare the models with the lowest MSE across the Pre-COVID, COVID, and Post-COVID periods. Determine whether the model achieving the lowest MSE is the same for both the 5-day and 10-day forecasts. If they are consistent across all three periods, list the model names in order (Pre → COVID → Post), such as [model1, model2, model3]. If not consistent, return only “no.”",
+        "question_type": "reasoning",
+        "answer": "[Coeff. Clustering, Dist. Clustering, Coeff. Clustering]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 24,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2510.24344v1\\table1.jpg",
+            "table2": "2510.24344v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Voter Turnout in the U.S. Elections by President",
+            "table2": "Voter Turnout in Iran Elections by President"
+        },
+        "question": "Compute the average voter participation rate during S. M. Khatami’s presidency in Table 2. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 73.345,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.13860v1\\table1.jpg",
+            "table2": "2511.13860v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Agent Effect on Performance Metrics",
+            "table2": "Comparison of Email Processing Times"
+        },
+        "question": "Compute the average Factor Increase across all counterfactual scenarios in Table 1. Round to two decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 4.03,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 29,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2511.22834v1\\table1.jpg",
+            "table2": "2511.22834v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Experimental Design",
+            "table2": "Summary Table: Reporting Accuracy"
+        },
+        "question": "Compute the average of the four Kendall Distance values for SD-WEIGHT in Table 2. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.42,
+        "answer_type": "numeric"
+    },
+
+
+    {
+        "question_id": 33,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.15296v1\\table1.jpg",
+            "table2": "2512.15296v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Parameters for Strong/Weak economies.",
+            "table2": "Parameter configurations for baseline and extreme scenarios."
+        },
+        "question": "Compute the absolute difference in g₀ between the Strong and Weak economies in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.025,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.22917v1\\table1.jpg",
+            "table2": "2512.22917v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Price Increase Leadership by Type",
+            "table2": "Markup Patterns Across Price Tiers"
+        },
+        "question": "Compute the simple average of the quantity-weighted average markups for Salcobrand across all three tiers. Round to three decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.137,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["table1", "table2", "table3", "table4"],
+        "path": {
+            "table1": "2509.18857v1\\table1.jpg",
+            "table2": "2509.18857v1\\table2.jpg",
+            "table3": "2509.18857v1\\table3.jpg",
+            "table4": "2509.18857v1\\table4.jpg"
+        },
+        "caption": {
+            "table1": "Simulation: point estimates (Lee)",
+            "table2": "Simulation: point estimates N=100",
+            "table3": "Simulation Results. DGP = Lee",
+            "table4": "Simulation Results. N = 100"
+        },
+        "question":"In Table 3, compute the coverage variability for each method by taking the difference between the maximum and minimum coverage values across the three sample sizes (N = 50, N = 100, N = 500). Based on this variability measure, identify the method whose coverage is the least stable as the sample size changes. Respond with the method name only.",
+        "question_type": "reasoning",
+        "answer": "rdrobust",
+        "answer_type": "text"
+    }
+]

@@ -1,0 +1,204 @@
+[
+    {
+        "question_id": 12,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.24732v1\\table1.jpg",
+            "table2": "2510.24732v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Noise-Focused discretization outperforms other schemes for frame-based protein models. Effect of discretization types on designability and scRMSD for FoldFlow-OT and QFlow shows superior performance of Noise-Focused approaches, which are better tailored to the inference dynamics near the early stages where trajectory curvature is most significant.",
+            "table2": "ReFlow provides greater benefits for multimodal distributions. Comparison of model pairs finetuned on model samples (scrambled coupling) versus ReFlow under identical settings shows that while ReFlow training significantly increased QFlow designability at low NFE, no benefits were observed for FoldFlow-OT, potentially due to differences in data distribution multimodality."
+        },
+        "question":"Based on the explicit direction indicators (arrows) shown in Table 1 and Table 2, which evaluation metric is explicitly marked as “higher is better”? Respond only with the metric name!",
+        "question_type": "perceptual",
+        "answer": "Designability",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2502.09775v3\\table1.jpg",
+            "table2": "2502.09775v3\\table2.jpg"
+        },
+        "caption": {
+            "table1": "More evaluation and ablation of CellFlux.MoA classification. On the BBBC021 dataset, a classifier is trained to predict the drug’s mode of action (MoA) from cell morphology images, and the accuracy/F1 of generated images is evaluated. CellFlux achieves significantly higher accuracy/F1 than other methods, closely aligning with ground-truth images and effectively reflecting the biological effects of perturbations.",
+            "table2": "More evaluation and ablation of CellFlux. Out-of-distribution generalization. CellFlux maintains strong performance when generating cell morphology images for novel chemical compounds not seen during training on BBBC021."
+        },
+        "question":"Which generative methods appear in both Table 1and Table 2? List the method names, excluding Groundtruth Perturbed Image. The answer should be a list, [method1, method2, method3]. Respond only with a list!",
+        "question_type": "perceptual",
+        "answer": "[PhenDiff, IMPA, CellFlux]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 25,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.21706v1\\table1.jpg",
+            "table2": "2507.21706v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Dataset Composition for Fine-Tuning",
+            "table2": "Fine-Tuning Results on DataSet 1 and DataSet 2"
+        },
+        "question":"Based on Table 1and Table 2, which model is fine-tuned using training data that includes both SNV and Non-SNV variants?A. Zero-shot.B. EnTao-GPMFast.C. EnTao-GPMPro.D. Cannot be determined. Respond only with a letter.",
+        "question_type": "perceptual",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+    {
+        "question_id": 33,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2512.03286v1\\table1.jpg",
+            "table2": "2512.03286v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance comparison of cell type annotation methods on dataset SAHR",
+            "table2": "Performance comparison of cell type annotation methods on dataset HLCA"
+        },
+        "question":"Count the number of models (Methods) reported in Table 1 and Table 2, respectively. Return the result as a list in the order: [number of models in Table 1, number of models in Table 2]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": [10, 9],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 51,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2511.03692v1\\table1.jpg",
+            "table2": "2511.03692v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Empirical statistics of simulated datasets used in training phase. The ILS level is measured by AD%, which is the percentage of missing branches between true gene trees and the species tree. Bootstraps column indicates whether bootstrap support values were available or not on estimated gene trees.",
+            "table2": "Empirical statistics of simulated datasets used in testing phase. The ILS level is measured by AD%, which is the percentage of missing branches between true gene trees and the species tree. Bootstraps column indicates whether bootstrap support values were available or not on estimated gene trees."
+        },
+        "question":"How many datasets are included in the training phase (Table 1) and the testing phase (Table 2), respectively? Report the numbers in this format: [training phase dataset count, testing phase dataset count]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": [3, 11],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 64,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2506.19106v1\\table1.jpg",
+            "table2": "2506.19106v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Frachet inception distance (FID) for skin, kidney and colon tissue samples. Color-normalized WSIs, generated by the eight methods and the original WSIs were compared using FID, a metric that uses high-level features extracted through the bottleneck layer of models like InceptionV3. Bold digits represent the best performing method.",
+            "table2": "Structural similarity index measure (SSIM) for skin, kidney and colon tissue samples. Color-normalized WSIs, generated by the eight methods, were compared against the original WSIs to test the (tissue) structural preservation of the methods, using structural similarity index measure (SSIM). Bold digits represent the best performing method."
+        },
+        "question":"Based on Table 1 and Table 2: Identify the evaluation metric used in each table; Report the metrics using their abbreviated names. Return the answer in table order as a list in the following format: [metric1, metric2]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer":  [134.57, 0.995],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 40,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2505.01146v3\\table1.jpg",
+            "table2": "2505.01146v3\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Recent biomedical RAG studies based on knowledge graphs",
+            "table2": "Multimodal Biomedical RAG Systems"
+        },
+        "question":"In Table 2, determine whether at least two models share the exact same task description. If yes, count how many such model pairs exist (each pair consists of two models with identical task descriptions). If no such case exists, return 0. Respond only with a number.",
+        "question_type": "perceptual",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2505.01146v3\\table1.jpg",
+            "table2": "2505.01146v3\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Recent biomedical RAG studies based on knowledge graphs",
+            "table2": "Multimodal Biomedical RAG Systems"
+        },
+        "question":"Based on Table 2, count the number of models published in 2023, 2024, and 2025, respectively. Return the result as a list of three values in the order [2023, 2024, 2025]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": [1, 7, 3],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2506.04132v1\\table1.jpg",
+            "table2": "2506.04132v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Classification Performance with Valid Emotional Labels",
+            "table2": "Classification Performance with Shuffled Labels (Control)"
+        },
+        "question":"In Table 1, identify all emotion categories whose F1-Score equals 0.00. Respond with a list of emotion categories, [emo1, emo2,...]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": "[Disgusted, Fearful, Surprised]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 44,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2510.01618v1\\table1.jpg",
+            "table2": "2510.01618v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "CONCEPT PREDICTION QUALITY ACROSS FIVE CBM VARIANTS.",
+            "table2": "FAITHFULNESS COMPARISON ACROSS CBM VARIANTS."
+        },
+        "question":"In Table 2, how many Necessity metrics are reported in total, and which concepts do they correspond to? Respond only with a list, [concept1, concept, ...].",
+        "question_type": "perceptual",
+        "answer": "[GC, CpG, CCC]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 16,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2503.20880v2\\table1.jpg",
+            "table2": "2503.20880v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance comparison of BioX-CPath against SOTA methods on the RA and Sjogren datasets. We report accuracy, AUC, and average precision (AP) with standard error shown in parentheses. The best results for each metric are shown in bold, with the second best underlined.",
+            "table2": "Ablation on model components shown on the Sjogren dataset."
+        },
+        "question":"In the RA dataset section of Table 1, what are the AUC value and its standard error for BioX-CPath?Return the answer as a list: [AUC,standarderror]. Respond only with a list!",
+        "question_type": "perceptual",
+        "answer": [0.96, 0.007],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 24,
+        "items": ["table1", "table2"],
+        "path": {
+            "table1": "2507.21706v1\\table1.jpg",
+            "table2": "2507.21706v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Dataset Composition for Fine-Tuning",
+            "table2": "Fine-Tuning Results on DataSet 1 and DataSet 2"
+        },
+        "question":"In Table 1, how many different datasets are included as training data sources for Dataset 2? Respond only with a number!",
+        "question_type": "perceptual",
+        "answer": 3,
+        "answer_type": "numeric"
+    }
+]

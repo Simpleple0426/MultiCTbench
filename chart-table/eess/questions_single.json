@@ -1,0 +1,1549 @@
+[
+    {
+        "question_id": 1,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.14411v1\\chart1.jpg",
+            "table1": "2510.14411v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Per-Category Accuracy and Modality Weight at the Decision Layer. The bar chart represents the unimodal prediction accuracy of each modality across categories, while the line chart illustrates the average L1-norm of decision-layer weights for each modality in different categories.",
+            "table1": "Mean values of Weights (×10^−2 ) and Logits across modalities on the CREMAD and Kinetic-Sounds datasets."
+        },
+        "question":"Which datasets are reported in Table 1? Respond with a list of dataset names.",
+        "question_type": "perceptual",
+        "answer": "[CREMAD, Kinetic-Sounds]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 2,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.14411v1\\chart1.jpg",
+            "table1": "2510.14411v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Per-Category Accuracy and Modality Weight at the Decision Layer. The bar chart represents the unimodal prediction accuracy of each modality across categories, while the line chart illustrates the average L1-norm of decision-layer weights for each modality in different categories.",
+            "table1": "Mean values of Weights (×10^−2 ) and Logits across modalities on the CREMAD and Kinetic-Sounds datasets."
+        },
+        "question":"Compute the arithmetic mean of Audio Accuracy across all categories in Chart 1. Round to two decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 46.86,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 3,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.14570v1\\chart1.jpg",
+            "table1": "2510.14570v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Performance of Qwen-DisQA at different level.",
+            "table1": "Utterance-level PCC results of different systems. Models marked with “*” denote direct evaluation without finetuning, “†” indicates fine-tuning on pretrained encoder, and “‡” corresponds to LoRA fine-tuning on MLLM."
+        },
+        "question":"In Chart 1, focusing on the green heatmap that represents PCC values, identify the cell with the darkest green color. Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 0.92,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 4,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.14570v1\\chart1.jpg",
+            "table1": "2510.14570v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Performance of Qwen-DisQA at different level.",
+            "table1": "Utterance-level PCC results of different systems. Models marked with “*” denote direct evaluation without finetuning, “†” indicates fine-tuning on pretrained encoder, and “‡” corresponds to LoRA fine-tuning on MLLM."
+        },
+        "question":"From Chart 1, extract the values of Expert-Utterance and Expert-System across all five dimensions and organize them into the following 2D table with a header row: [[Dimension, Utterance, System], …] Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Dimension","Utterance","System"],
+            ["CE",0.71,0.38],
+            ["CU",0.71,0.52],
+            ["PC",0.29,0.12],
+            ["PQ",0.96,0.41],
+            ["TA",1.14,0.32]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 5,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.14664v1\\chart1.jpg",
+            "table1": "2510.14664v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Per-task statistics for four languages, showing the counts of audio items (light colors) and annotations (solid colors).",
+            "table1": "The data split across different tasks in the SpeechEval dataset."
+        },
+        "question":"In Chart 1, what is the number of English annotations for the Assessment task? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 10535,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 6,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.14664v1\\chart1.jpg",
+            "table1": "2510.14664v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Per-task statistics for four languages, showing the counts of audio items (light colors) and annotations (solid colors).",
+            "table1": "The data split across different tasks in the SpeechEval dataset."
+        },
+        "question":"From Chart 1, extract the audio annotation counts for the four tasks (Assessment, Comparison, Suggestion, Detection) under the four languages (English, French, Japanese, Chinese), and organize the results into the following 2D table with a header row: [ [Task, English, French, Japanese, Chinese], ... ].",
+        "question_type": "chart to table",
+        "answer": [["Task", "English", "French", "Japanese", "Chinese"],
+            ["Assessment", 10535, 5522, 8118, 10491],
+            ["Comparison", 7219, 5374, 6546, 8487],
+            ["Suggestion", 10428, 5473, 7986, 10368],
+            ["Detection", 9351, 5813, 7420, 9623]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 7,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.15364v1\\chart1.jpg",
+            "table1": "2510.15364v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Subjective scores for different codecs. Error bars denote the standard deviation.",
+            "table1": "Objective evaluation of LDCodec at 6kbps, compared with Opus, DAC official and FunCodec."
+        },
+        "question":"Compute the difference between the maximum and minimum MOS values in Chart 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 1.38,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 8,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.15364v1\\chart1.jpg",
+            "table1": "2510.15364v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Subjective scores for different codecs. Error bars denote the standard deviation.",
+            "table1": "Objective evaluation of LDCodec at 6kbps, compared with Opus, DAC official and FunCodec."
+        },
+        "question": "From Chart 1, extract the codec name, bitrate, and MOS value for each bar and organize them into the following table with the header row: [[Codec, Bitrate_kbps, MOS], …] Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Codec", "Bitrate_kbps", "MOS"],
+            ["FunCodec", 6, 2.94],
+            ["DACLite", 6, 4.14],
+            ["LDCodec", 6, 4.24],
+            ["Opus", 9, 2.86],
+            ["Opus", 12, 4.10]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 9,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.15409v1\\chart1.jpg",
+            "table1": "2510.15409v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "SDR vs. data cleaning ratio for unified unlearning via OpenUnmix on the Mixed23 dataset.",
+            "table1": "SDR results for EffectsDB (EDB), designed to test generalization to unseen audio effects."
+        },
+        "question":"What marker shape is used for the “Mean” curve in Chart 1? Respond only with the marker description as text.",
+        "question_type": "perceptual",
+        "answer": "x-shaped marker",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 10,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.15409v1\\chart1.jpg",
+            "table1": "2510.15409v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "SDR vs. data cleaning ratio for unified unlearning via OpenUnmix on the Mixed23 dataset.",
+            "table1": "SDR results for EffectsDB (EDB), designed to test generalization to unseen audio effects."
+        },
+        "question":"In Chart 1, compute the increase in Mean SDR from 30% to 90% remaining data. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.35,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 11,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.18308v1\\chart1.jpg",
+            "table1": "2510.18308v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "t-SNE visualizations of the age embedding for speech generated using a fix prompt",
+            "table1": "Distribution of Training Data by Speaking Style"
+        },
+        "question":"Compute the proportion of Adult in the Age category based on Count values in Table 1. Round to three decimal places and respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.772,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 12,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.18308v1\\chart1.jpg",
+            "table1": "2510.18308v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "t-SNE visualizations of the age embedding for speech generated using a fix prompt",
+            "table1": "Distribution of Training Data by Speaking Style"
+        },
+        "question":"Which speaking style in Chart 1 exhibits more compact gender clusters? Respond only with the style name.",
+        "question_type": "reasoning",
+        "answer": "Emotion",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 13,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.18724v1\\chart1.jpg",
+            "table1": "2510.18724v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Breakdown of insertion (I), deletion (D), and substitution (S) error counts on Arzen. We compare the baseline fine-tuned model (FT) with our WL1.5, separately for embedded and matrix words.",
+            "table1": "ASCEND-fnetuningresultsinMixedErrorRate (MER)andPIER.UnadaptedWhisper(Whisper),standard CEfne-tuned(FT),ourproposedweightedversions(WL).OutsidebracketstheMERisreported(hallucination-free MERreportedinbrackets).Wereportcross-corpusresults onSEAMEtestdata."
+        },
+        "question":"In Chart 1, compute the proportion of substitution (S) errors in the total errors of Embedded (WL1.5). Round to three decimal places and respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.571,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 14,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.18724v1\\chart1.jpg",
+            "table1": "2510.18724v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Breakdown of insertion (I), deletion (D), and substitution (S) error counts on Arzen. We compare the baseline fine-tuned model (FT) with our WL1.5, separately for embedded and matrix words.",
+            "table1": "ASCEND-fnetuningresultsinMixedErrorRate (MER)andPIER.UnadaptedWhisper(Whisper),standard CEfne-tuned(FT),ourproposedweightedversions(WL).OutsidebracketstheMERisreported(hallucination-free MERreportedinbrackets).Wereportcross-corpusresults onSEAMEtestdata."
+        },
+        "question":"From Chart 1, extract the error counts of all models under the three error types (I, D, S) and organize them into the following 2D table with a header row: [ [Model, I, D, S], ... ]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Model", "I", "D", "S"],
+            ["Embedded (FT)", 86, 235, 437],
+            ["Embedded (WL1.5)", 82, 222, 405],
+            ["Matrix (FT)", 307, 1203, 3444],
+            ["Matrix (WL1.5)", 368, 1209, 3347]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 15,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.19055v1\\chart1.jpg",
+            "table1": "2510.19055v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "SOTA model comparison on the MUSE benchmark. Models shown with solid lines. Humans shown with dashed and dotted lines.",
+            "table1": "Overview of the 10 tasks in The MUSE Benchmark. All tasks contained 20 trials each"
+        },
+        "question":"On which task dimension is the performance gap between Humans and Musicians the smallest in Chart 1? Respond only with the task name.",
+        "question_type": "reasoning",
+        "answer": "Rhythm Match",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 16,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.19127v1\\chart1.jpg",
+            "table1": "2510.19127v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Temporal softmax traces (notes). Curves show the probe probability of the ground-truth note across timesteps for different schedules (linear/exp rise/decay, log. increase, sine). We choose the probe on the best performing layer (37) as our representative probe.",
+            "table1": "Metrics on time-dependent controlled generations"
+        },
+        "question":"What color represents the “Sine Wave” schedule in Chart 1? Respond only with the color name.",
+        "question_type": "perceptual",
+        "answer": "blue",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 17,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.19127v1\\chart1.jpg",
+            "table1": "2510.19127v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Temporal softmax traces (notes). Curves show the probe probability of the ground-truth note across timesteps for different schedules (linear/exp rise/decay, log. increase, sine). We choose the probe on the best performing layer (37) as our representative probe.",
+            "table1": "Metrics on time-dependent controlled generations"
+        },
+        "question":"In which timestep range does the Logistic Increase curve start accelerating noticeably in Chart 1? Choose one: A. 0–200 B. 200–400 C. 400–600 D. 600–800 Respond only with the letter.",
+        "question_type": "reasoning",
+        "answer": "D",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.20853v1\\chart1.jpg",
+            "table1": "2510.20853v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "LOSO Performance when the target subject’s data is either included or excluded",
+            "table1": "Performance of PiMT and baselines on DailySense. Classification results are in F1-score, and gaze tracking performance is in angular error. Best results are highlighted in bold."
+        },
+        "question":"Does Table 1 visually highlight the best results, and if so, how? Respond only with the highlighting method.",
+        "question_type": "perceptual",
+        "answer": "blod",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 19,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.21014v2\\chart1.jpg",
+            "table1": "2510.21014v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Average WER BIN distribution (percentage) for each mixture across dataset splits",
+            "table1": "Distribution of the data-set splits of the WHAMR! separated tracks. ASR generated with Whisper large-V3"
+        },
+        "question":"At WER bin center 0.45, what is the annotated percentage value for WHAMR Test in Chart 1? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 8.6,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 20,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.21014v2\\chart1.jpg",
+            "table1": "2510.21014v2\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Average WER BIN distribution (percentage) for each mixture across dataset splits",
+            "table1": "Distribution of the data-set splits of the WHAMR! separated tracks. ASR generated with Whisper large-V3"
+        },
+        "question":"From Chart 1, extract the percentages of all three datasets (WHAMR Train, WHAMR Test, REAL-M Test) for WER bins ≤ 0.45 and organize them into the following 2D table with a header row: [ [WER_bin, WHAMR_Train, WHAMR_Test, REAL-M_Test], … ]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["WER_bin", "WHAMR_Train", "WHAMR_Test", "REAL-M_Test"],
+            [0.05, 10.0, 14.4, 13.0],
+            [0.15, 10.0, 9.5, 8.0],
+            [0.25, 10.0, 9.1, 10.6],
+            [0.35, 10.0, 7.9, 9.7],
+            [0.45, 10.0, 8.6, 5.6]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 21,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.21317v1\\chart1.jpg",
+            "table1": "2510.21317v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Estimated distributions of SpeechLM-based metrics on gibberish, clean and noisy (-5dB SNR) data. For UTMOSv2 and DistillMOS, higher values are better. For all others, lower is better.",
+            "table1": "Correlations with PER on noisy LRS3 + CHiME data at varying SNRs, and on lip-to-speech data, generated by LipDiffuser from silent videos."
+        },
+        "question":"What is the PCC difference between the best and worst SpeechLM-based models under the Lip-to-speech setting in Table 1? Respond with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.327,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 22,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.22455v1\\chart1.jpg",
+            "table1": "2510.22455v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Model accuracy across modalities and prompting strategies. Error bars indicate standard deviation and significance is based on Welch’s t-tests carried out with SciPy. Figure 1A shows the collapsed (Shot and Prompting Method) mean accuracy (%) for Gemini 2.5 Flash, Gemini 2.5 Pro, and Qwen 2.5-Omni across Audio (dark grey) and Symbolic (MIDI) (light grey) inputs. Both Gemini models performed significantly better on MIDI, and Qwen showed a similar trend. Figure 1B shows the collapsed (Model and Prompting Method) overall model accuracy by task (Syncopation, Transposition, Chord Quality) under Zeroshot (dark grey) and Fewshot (light grey) prompting. No significant effects of Shot were exhibited.",
+            "table1": "Accuracy of multimodal LLMs on three music perception tasks: syncopation scoring, transposition detection, and chord quality identification. Results are reported for audio and MIDI inputs under three prompting strategies (Standalone, CoT, LogicLM) and zero-shot (ZS) vs few-shot (FS) conditions. Bold highlights best performance per task/shot/modality (underlined shows second best). A systematic gap between modalities is seen: MIDI inputs generally lead to higher accuracies and clearer prompting effects compared to audio. The bottom row represents chance performance"
+        },
+        "question":"Under MIDI-ZS-Standalone in Table 1, compute the arithmetic mean accuracy of Gemini 2.5 Flash across the three tasks and round to two decimals (respond with a single number).",
+        "question_type": "reasoning",
+        "answer": 78.07,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 23,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.24497v1\\chart1.jpg",
+            "table1": "2510.24497v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "SIR performance of MWNG, DMAs, ACC, and BeamFusion methods across different interference angles from 90◦ to 180◦",
+            "table1": "Performance comparison under different reverberation conditions with moving interference."
+        },
+        "question":"How many distinct method curves are plotted in Chart 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 7,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 24,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2510.24497v1\\chart1.jpg",
+            "table1": "2510.24497v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "SIR performance of MWNG, DMAs, ACC, and BeamFusion methods across different interference angles from 90◦ to 180◦",
+            "table1": "Performance comparison under different reverberation conditions with moving interference."
+        },
+        "question":"What marker shape is used for the BeamFusion curve in Chart 1? Respond only with the marker description.",
+        "question_type": "perceptual",
+        "answer": "star",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 25,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.14793v1\\chart1.jpg",
+            "table1": "2511.14793v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Compression ratio and reduction percentage achieved by OBHS for various audio types.",
+            "table1": "OBHS COMPRESSION PERFORMANCE ON DIFFERENT AUDIO TYPES"
+        },
+        "question":"What is the Ratio (%) value labeled for Pink Noise in Chart 1? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 57.40,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.14793v1\\chart1.jpg",
+            "table1": "2511.14793v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Compression ratio and reduction percentage achieved by OBHS for various audio types.",
+            "table1": "OBHS COMPRESSION PERFORMANCE ON DIFFERENT AUDIO TYPES"
+        },
+        "question": "From Chart 1, extract the Ratio (%) and Reduction (%) values for all audio types and organize them into the following table with a header row: [[Audio_Type, Ratio, Reduction], …] Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Audio_Type", "Ratio", "Reduction"],
+            ["Silence", 6.40, 93.60],
+            ["Pink Noise", 57.40, 42.60],
+            ["Tone (1 KHz)", 57.90, 42.10],
+            ["Real Audio", 75.90, 24.10]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 27,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.21247v1\\chart1.jpg",
+            "table1": "2511.21247v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Time played by every instrument in The Spheres dataset.",
+            "table1": "SIGNAL-TO-DISTORTION RATIO (SDR) OF EVERY INSTRUMENT IN THE STEREO MIX, THE MAIN AND AMB MICROPHONES, AND IN THEIR SECTION MICROPHONE."
+        },
+        "question":"By how many minutes does the total string-instrument duration exceed woodwind duration for Mozart in Chart 1? Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 49,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 28,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.08006v1\\chart1.jpg",
+            "table1": "2512.08006v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Overall average MOS across all seven utterances for each TTS system and natural speech, highlighting the improved naturalness of the enhanced Piper system",
+            "table1": "Per-utterance MOS (mean ± std) for each source. “Order” shows the presentation order (1–5) of the sources for that utterance (randomized per utterance)."
+        },
+        "question":"From Chart 1, extract the average MOS values of all systems and organize them into the following 2D table with a header row: [[System, Avg_MOS], …] Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["System", "Avg_MOS"],
+            ["Glow", 1.30],
+            ["Matcha", 2.54],
+            ["Piper (Base)", 2.41],
+            ["Piper + LCA G2P (Ours)", 3.14],
+            ["Natural Speech", 4.21]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 29,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.09713v1\\chart1.jpg",
+            "table1": "2512.09713v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Impact of speech probability ps on model performance measured by AUC. Highest AUC occurs at ps = 80%.",
+            "table1": "Accuracy and standard deviation σ for MoisesDB, averaged across genres for models trained with ps = 80% and ps = 100%."
+        },
+        "question":"Which model shows the largest AUC variation across ps values in Chart 1? Respond only with the model name.",
+        "question_type": "reasoning",
+        "answer": "ResNet50",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 30,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.07560v1\\chart1.jpg",
+            "table1": "2511.07560v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "A Comprehensive performance comparison between the Baseline and EvoPS across all five feature backbones. The top row of plots details the number of training patches, illustrating the significant reduction achieved by EvoPS. The bottom row presents the corresponding Test F1-scores for each cohort. Each column is dedicated to a specific deep learning model, from left to right: KimiaNet, DenseNet, Phikon V2, Virchow2, and UNI2H.",
+            "table1": "Number of Patches per WSI for Baseline vs. EvoPS. Note the two different baseline patch sets for KimiaNet/DenseNet vs. the three foundation models."
+        },
+        "question":"From Chart 1, report the number of training patches used by EvoPS for the Pulmonary cohort under the KimiaNet model. Respond only with a single integer",
+        "question_type": "perceptual",
+        "answer": 3557,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 31,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.07560v1\\chart1.jpg",
+            "table1": "2511.07560v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "A Comprehensive performance comparison between the Baseline and EvoPS across all five feature backbones. The top row of plots details the number of training patches, illustrating the significant reduction achieved by EvoPS. The bottom row presents the corresponding Test F1-scores for each cohort. Each column is dedicated to a specific deep learning model, from left to right: KimiaNet, DenseNet, Phikon V2, Virchow2, and UNI2H.",
+            "table1": "Number of Patches per WSI for Baseline vs. EvoPS. Note the two different baseline patch sets for KimiaNet/DenseNet vs. the three foundation models."
+        },
+        "question":"From Chart 1, extract the EvoPS patch counts and the corresponding EvoPS Test F1 scores of KimiaNet across all cohorts and organize them into the following 2D table with a header row:[[Cohort,EvoPS_Patches,EvoPS_F1],…].Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [[ "Cohort", "EvoPS_Patches", "EvoPS_F1" ],
+            [ "Gastro", 1397, 77.2 ],
+            [ "Liver", 766, 89.3 ],
+            [ "Mesenchymal", 343, 91.2 ],
+            [ "Pulmonary", 3557, 86.5 ]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 32,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.09090v1\\chart1.jpg",
+            "table1": "2511.09090v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The comparison of inference time for different methods in generating soundtracks for 30-second videos.",
+            "table1": ": Comparison with existing methods. The best results are highlighted in bold, and the second-best are underlined"
+        },
+        "question":"Which metrics in Table 1 are marked with an upward arrow (↑)? Respond with a list of metric names.",
+        "question_type": "perceptual",
+        "answer": "[Den., Cov., IB]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 33,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.09090v1\\chart1.jpg",
+            "table1": "2511.09090v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The comparison of inference time for different methods in generating soundtracks for 30-second videos.",
+            "table1": ": Comparison with existing methods. The best results are highlighted in bold, and the second-best are underlined"
+        },
+        "question":"Compute the arithmetic mean of the inference times of all models in Chart 1. Respond only with a single numeric value rounded to two decimals.",
+        "question_type": "reasoning",
+        "answer": 62.46,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 34,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.09090v1\\chart1.jpg",
+            "table1": "2511.09090v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "The comparison of inference time for different methods in generating soundtracks for 30-second videos.",
+            "table1": ": Comparison with existing methods. The best results are highlighted in bold, and the second-best are underlined"
+        },
+        "question":"From Chart 1, extract the mean inference times and the corresponding standard deviations of all models and organize them into the following 2D table with a header row: [[Model,Mean_Inference_Time,Std_Inference_Time],…]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Model", "Mean_Inference_Time", "Std_Inference_Time"],
+            ["Diff-V2M", 48.98, 1.81],
+            ["VidMuse", 124.66, 3.70],
+            ["GVMGen", 84.76, 8.97],
+            ["MuMu-LLAMA", 52.55, 3.96],
+            ["Video2Music", 25.66, 1.51],
+            ["CMT", 38.12, 11.46]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 35,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.09597v1\\chart1.jpg",
+            "table1": "2511.09597v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Impact of cloud cover on temporal input performance gain. The plot shows the gain in F1 Score (∆F1) when using multiple images instead of one, under varying cloud conditions. For clarity, only ViT and Swin backbones are shown, but trends are consistent across configurations (see Appendix)",
+            "table1": "Impact of temporal information on segmentation performance. Shifting from a single LR input to a temporal LR input shows consistent positive gain in F1 score."
+        },
+        "question":"Under Output Upsampling in Chart 1, how many backbones have ∆F1 ≥ 0.25 under With Clouds? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 36,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.09597v1\\chart1.jpg",
+            "table1": "2511.09597v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Impact of cloud cover on temporal input performance gain. The plot shows the gain in F1 Score (∆F1) when using multiple images instead of one, under varying cloud conditions. For clarity, only ViT and Swin backbones are shown, but trends are consistent across configurations (see Appendix)",
+            "table1": "Impact of temporal information on segmentation performance. Shifting from a single LR input to a temporal LR input shows consistent positive gain in F1 score."
+        },
+        "question":"Using the data of SuperRivolution (Ours) in Table 1, compute the F1 Score improvement (Temporal LR − Single LR) for Input Upsampling, Output Upsampling, and Super-resolution, and visualize the results. Plot requirements: Use Python with matplotlib; Create a grouped bar chart; X-axis: strategy names; Y-axis: F1 Score improvement; Add a title, axis labels, and a legend. Respond only with the Python code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "bar_chart",
+            "data": [
+                [79.2, 79.4, 80.5],
+                [71.7, 73.2, 53.9]
+            ],
+            "operation": "subtraction",
+            "title": "F1 Score Improvement (Temporal LR − Single LR)",
+            "xlabel": "Strategy",
+            "ylabel": "F1 Score Improvement",
+            "legend": true,
+            "tick": {
+                "xticklabels": ["Input Upsampling", "Output Upsampling", "Super-resolution"], 
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 37,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.09605v3\\chart1.jpg",
+            "table1": "2511.09605v3\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Detailed results comparing slice-wise aggregation methods: long short-term memory (LSTM), medical slice transformer (MST), and TomoGraphView. Besides their original slicing strategy (2D-axial+), LSTM, and MST are also evaluated using omnidirectional volume slicing. All methods are evaluated across all six datasets using the Area Under the Receiver Operating Characteristic Curve (AUROC) on the left and Matthews correlation coefficient (MCC) on the right as performance metrics. Bars indicate the average performance across five folds.",
+            "table1": "Quantitative results comparing a long short-term memory (LSTM) approach, medical slice transformer (MST), and our TomoGraphView framework for slice-wise feature aggregation performance. Besides their original slicing strategy (2D-axial+), LSTM and MST are also evaluated using omnidirectional volume slicing. Methods are compared across different numbers of views and performance metrics, including the Area Under the Receiver Operating Characteristic Curve (AUROC) and the Matthews correlation coefficient (MCC). Results are presented as the average across all six datasets and five folds"
+        },
+        "question":"What color is used to represent TomoGraphView (ours) in Chart 1? Respond only with the color name.",
+        "question_type": "perceptual",
+        "answer": "orange",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 38,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.09605v3\\chart1.jpg",
+            "table1": "2511.09605v3\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Detailed results comparing slice-wise aggregation methods: long short-term memory (LSTM), medical slice transformer (MST), and TomoGraphView. Besides their original slicing strategy (2D-axial+), LSTM, and MST are also evaluated using omnidirectional volume slicing. All methods are evaluated across all six datasets using the Area Under the Receiver Operating Characteristic Curve (AUROC) on the left and Matthews correlation coefficient (MCC) on the right as performance metrics. Bars indicate the average performance across five folds.",
+            "table1": "Quantitative results comparing a long short-term memory (LSTM) approach, medical slice transformer (MST), and our TomoGraphView framework for slice-wise feature aggregation performance. Besides their original slicing strategy (2D-axial+), LSTM and MST are also evaluated using omnidirectional volume slicing. Methods are compared across different numbers of views and performance metrics, including the Area Under the Receiver Operating Characteristic Curve (AUROC) and the Matthews correlation coefficient (MCC). Results are presented as the average across all six datasets and five folds"
+        },
+        "question":"In Chart 1, compute the AUROC improvement on the Brain dataset from LSTM (2D-axial+) to MST (Omnidirectional). Respond only with a single numeric value rounded to three decimals.",
+        "question_type": "reasoning",
+        "answer": 0.070,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 39,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.11311v1\\chart1.jpg",
+            "table1": "2511.11311v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Segmentation DSC in the BOHN FCD and ISLES 2022 datasets for each modality and pre-training method",
+            "table1": "Segmentation DSC with respect to % of training data used in the ATLAS v2 dataset."
+        },
+        "question":"How many modalities are visualized in the ISLES 2022 subplot of Chart 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 40,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.11311v1\\chart1.jpg",
+            "table1": "2511.11311v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Segmentation DSC in the BOHN FCD and ISLES 2022 datasets for each modality and pre-training method",
+            "table1": "Segmentation DSC with respect to % of training data used in the ATLAS v2 dataset."
+        },
+        "question":"From Chart 1 (ISLES 2022), extract the DSC values of ADC, DWI, and FLAIR for each method and organize them into the following 2D table with a header row: [[Method, ADC_DSC, DWI_DSC, FLAIR_DSC], …]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Method","ADC_DSC","DWI_DSC","FLAIR_DSC"],
+                ["From Scratch",0.461,0.725,0.536],
+                ["CL",0.449,0.750,0.500],
+                ["MCL",0.448,0.728,0.521],
+                ["CL + MIM",0.497,0.755,0.566],
+                ["MCL + MIM",0.472,0.742,0.535]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 41,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.15771v1\\chart1.jpg",
+            "table1": "2511.15771v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Impact of ViT backbone on UniUltra-L with different architectures and pre-trained weights.",
+            "table1": "COMPARISON OF DIFFERENT PROMPT METHODS ON INTERNAL VALIDATION DATASETS."
+        },
+        "question":"In Table 1, what is the Dice value of DDTI under the “No prompt” method? Respond only with a single numeric value.",
+        "question_type": "perceptual",
+        "answer": 83.49,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 42,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.15771v1\\chart1.jpg",
+            "table1": "2511.15771v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Impact of ViT backbone on UniUltra-L with different architectures and pre-trained weights.",
+            "table1": "COMPARISON OF DIFFERENT PROMPT METHODS ON INTERNAL VALIDATION DATASETS."
+        },
+        "question":"From Chart 1, extract the Dice values of all bars (i.e., all datasets) under each backbone and organize them into the following 2D table with a header row: [[Backbone,BUSI_Dice,DDTI_Dice,TN3K_Dice,UDIAT_Dice],…]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Backbone", "BUSI_Dice", "DDTI_Dice", "TN3K_Dice", "UDIAT_Dice"],
+            ["SAM-L", 93.19, 93.40, 93.45, 92.93],
+            ["SAM-H", 93.54, 93.98, 94.46, 93.81],
+            ["SAM2-B", 93.34, 93.29, 93.93, 93.50],
+            ["SAM2-L", 93.81, 94.20, 94.50, 94.15],
+            ["DinoV3-L", 93.72, 93.85, 94.25, 93.65]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 43,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2511.16955v1\\chart1.jpg",
+            "table1": "2511.16955v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Training curves towards HPSv2.1",
+            "table1": "Various approaches optimized toward HPSv2.1."
+        },
+        "question":"Which method in Chart 1 exhibits the largest fluctuation during training? Respond only with the method name.",
+        "question_type": "reasoning",
+        "answer": "MixGRPO",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 44,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.02088v1\\chart1.jpg",
+            "table1": "2512.02088v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Validation AUC and F1 across tested models. J1 multimodal configurations outperformed J0 and clinical baselines.",
+            "table1": "Summary of multimodal configurations (mean ± Standar across 8 folds). PCA dimension fixed at 12 components."
+        },
+        "question":"Compute the arithmetic mean of Val Acc across all configurations in Table 1. Respond only with a single numeric value rounded to three decimals.",
+        "question_type": "reasoning",
+        "answer": 0.787,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 45,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.04019v1\\chart1.jpg",
+            "table1": "2512.04019v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Rate–distortion curves on the UVG and HEVC-B datasets.",
+            "table1": "BD-rate results with the UVG and HEVC (Class B) datasets. The baseline codec in each column is used as the anchor."
+        },
+        "question":"In the UVG subplot, which method maintains the highest PSNR across all Bpp values? Respond only with the method name.",
+        "question_type": "reasoning",
+        "answer": "x265 (veryslow)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 46,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.04019v1\\chart1.jpg",
+            "table1": "2512.04019v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Rate–distortion curves on the UVG and HEVC-B datasets.",
+            "table1": "BD-rate results with the UVG and HEVC (Class B) datasets. The baseline codec in each column is used as the anchor."
+        },
+        "question":"In the HEVC-B subplot, how many data points have Bpp values greater than 0.15? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 47,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.08257v1\\chart1.jpg",
+            "table1": "2512.08257v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Receiver Operating Characteristic (ROC) curve demonstrating the classification performance of the proposed GSM-DL model for SUDEP and stroke risk prediction.",
+            "table1": "Performance Comparison for SUDEP Prediction"
+        },
+        "question":"Which model in Table 1 has the largest difference between Precision and Recall, and what is that difference? Respond with a list: [model_name, numeric_difference].",
+        "question_type": "reasoning",
+        "answer": "[Random Forest (RF), 0.06]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 48,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.08257v1\\chart1.jpg",
+            "table1": "2512.08257v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Receiver Operating Characteristic (ROC) curve demonstrating the classification performance of the proposed GSM-DL model for SUDEP and stroke risk prediction.",
+            "table1": "Performance Comparison for SUDEP Prediction"
+        },
+        "question":"In the SUDEP Prediction subplot of Chart 1, within the FPR range [0, 0.1], which method achieves the largest cumulative increase in TPR? Respond only with the method name.",
+        "question_type": "reasoning",
+        "answer": "Full GSM-DL",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 49,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.11121v1\\chart1.jpg",
+            "table1": "2512.11121v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Human preference study: REDS Deblur (top) and DPED-iPhone SR (bottom). LEGO is overwhelmingly preferred by human raters over these leading baselines, confirming its superior visual quality. Error bars show 95% CI.",
+            "table1": "Quantitative results for 2x SR adaptation (DIV2K → DPED-iPhone). LEGO adapts a LDM-SR model (pretrained with synthetic RealESRGAN degradation) to the DPED-iPhone dataset, improving out-of-distribution performance."
+        },
+        "question":"How many methods are shown in the REDS Deblur section of Chart 1? How many methods are shown in the DPED-iPhone SR section of Chart 1? Respond only with a list, [num1, num2].",
+        "question_type": "perceptual",
+        "answer": [4, 3],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 50,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.11121v1\\chart1.jpg",
+            "table1": "2512.11121v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Human preference study: REDS Deblur (top) and DPED-iPhone SR (bottom). LEGO is overwhelmingly preferred by human raters over these leading baselines, confirming its superior visual quality. Error bars show 95% CI.",
+            "table1": "Quantitative results for 2x SR adaptation (DIV2K → DPED-iPhone). LEGO adapts a LDM-SR model (pretrained with synthetic RealESRGAN degradation) to the DPED-iPhone dataset, improving out-of-distribution performance."
+        },
+        "question":"From Chart 1, extract all user preference win rates and organize them into the following 2D table with a header row: [[Scenario, Method, Win_Rate], …] Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["REDS Deblur", "DeblurGAN-v2", 93.4],
+            ["REDS Deblur", "DA-CLIP", 91.0],
+            ["REDS Deblur", "Hi-Diff", 74.8],
+            ["REDS Deblur", "w/o LEGO", 86.3],
+            ["DPED-iPhone SR", "StableSR", 85.5],
+            ["DPED-iPhone SR", "SeeSR", 59.0],
+            ["DPED-iPhone SR", "w/o LEGO", 88.1]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 51,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.12366v1\\chart1.jpg",
+            "table1": "2512.12366v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Scalability analysis of the proposed frameworks compared to baselines as the number of users increases. Subplots show (a) average reward, (b) average perceived PSNR, (c) average response time, and (d) average energy consumption. The results indicate that IPPG maintains near-optimal performance across different user scales, while CPPG and EA-Offloader exhibit higher variability and degradation in performance.",
+            "table1": "Average reward, video quality in terms of PSNR, response time (RT), energy consumption (EC) for 𝐾 = 3 users with weights 𝑤0 = 0.35, 𝑤1 = 0.85, and 𝑤2 = 0.15. Both CPPG and IPPG achieve near-optimal performance with no deadline violations, while EGreedy and EA-Offloader show larger variability, lower rewards, and higher violation rates."
+        },
+        "question":"Which four performance metrics are represented by subplots (a)–(d) in Chart 1? Respond with a list of metric names in the order (a) to (d).",
+        "question_type": "perceptual",
+        "answer": "[Average reward, Average perceived PSNR, Average response time, Average energy consumption]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 52,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.12366v1\\chart1.jpg",
+            "table1": "2512.12366v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Scalability analysis of the proposed frameworks compared to baselines as the number of users increases. Subplots show (a) average reward, (b) average perceived PSNR, (c) average response time, and (d) average energy consumption. The results indicate that IPPG maintains near-optimal performance across different user scales, while CPPG and EA-Offloader exhibit higher variability and degradation in performance.",
+            "table1": "Average reward, video quality in terms of PSNR, response time (RT), energy consumption (EC) for 𝐾 = 3 users with weights 𝑤0 = 0.35, 𝑤1 = 0.85, and 𝑤2 = 0.15. Both CPPG and IPPG achieve near-optimal performance with no deadline violations, while EGreedy and EA-Offloader show larger variability, lower rewards, and higher violation rates."
+        },
+        "question":"In Chart 1(b), compute the range (max − min) of PSNR for EA-Offloader across all user counts. Respond only with a single numeric value rounded to one decimal.",
+        "question_type": "reasoning",
+        "answer": 26.0,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 53,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.12736v1\\chart1.jpg",
+            "table1": "2512.12736v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of model performance on the original and augmented datasets across RMSE, MAE, R^2, and overall percentage improvement.",
+            "table1": "MODEL PERFORMANCE ON AUGMENTED DATASET (N = 2,700)"
+        },
+        "question":"How many models show the same improvement direction (both positive or both negative) for RMSE and MAE in Chart 1? Respond only with a single integer",
+        "question_type": "reasoning",
+        "answer": 6,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 54,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.15262v1\\chart1.jpg",
+            "table1": "2512.15262v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Rate-Distortion (RD) performance comparison. AVCC is benchmarked against VVC and state-of-the-art GFVC methods using three different perceptual metrics: (a) 1-DISTS, (b) 1-LPIPS, and (c) 200-FID. Our method consistently achieves superior reconstruction quality (higher scores) at similar bitrates across all metrics.",
+            "table1": "Video channel BD-Rate savings (%) of AVCC compared to other GFVC methods. Results are standardized to 256×256 resolution."
+        },
+        "question":"In Chart 1, how many distinct methods are involved in each of the three subplots (a) 1-DISTS, (b) 1-LPIPS, and (c) 200-FID? Report the method counts in the order of the subplots [(a), (b), (c)]. Respond only with a list.",
+        "question_type": "perceptual",
+        "answer": [6, 5, 6],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 55,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.07053v1\\chart1.jpg",
+            "table1": "2512.07053v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Average random access delay versus the number of active users. Random access delay is defined as the time elapsed from a user’s initia access attempt to a successful random access. The total number of available preambles is 104.",
+            "table1": "SUMMARY OF RANDOM ACCESS PERFORMANCE METRICS UNDER DIFFERENT USER DENS ITIES."
+        },
+        "question":"Which scheme achieves “Very High” in at least two performance metrics under low density in Table 1? Respond only with the scheme name.",
+        "question_type": "reasoning",
+        "answer": "Proposed",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 56,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.09524v1\\chart1.jpg",
+            "table1": "2512.09524v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Roadmap of architectural optimization.",
+            "table1": "Results of the basic architecture study and subsequent analyses. v1 and v2 refer to the two hybrid methods discussed above. The ratio shown in the middle of the table (e.g., 4:1) indicates the proportion of CNN to Transformer layers in each hybrid model. The best results are in bold and the second best are underlined."
+        },
+        "question":"How many distinct model architectures are compared in the “Basic Architecture Study” section of Chart 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 9,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 57,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.09524v1\\chart1.jpg",
+            "table1": "2512.09524v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Roadmap of architectural optimization.",
+            "table1": "Results of the basic architecture study and subsequent analyses. v1 and v2 refer to the two hybrid methods discussed above. The ratio shown in the middle of the table (e.g., 4:1) indicates the proportion of CNN to Transformer layers in each hybrid model. The best results are in bold and the second best are underlined."
+        },
+        "question":"Visualize the Accuracy and F1 scores of Transformer, PatchTST, and iTransformer on the ThingsEEG dataset from Table 1. Plot requirements: Use Python with matplotlib. Create a grouped bar chart. X-axis: model names. Y-axis: metric values. Add legend, title, and axis labels. Respond only with the code.",
+        "question_type": "table to chart",
+        "answer": {
+            "chart_type": "grouped_bar_chart",
+            "data": [
+                [0.085, 0.060, 0.097],  
+                [0.042, 0.051, 0.085]
+            ],  
+            "operation": null,
+            "title": "Accuracy and F1 Scores of Models on ThingsEEG Dataset",
+            "xlabel": "Models",
+            "ylabel": "Metric Values",
+            "legend": true,
+            "tick": {
+                "xticklabels": ["Transformer", "PatchTST", "iTransformer"],
+                "yticklabels": null
+            },
+            "style": {
+                "color": true,
+                "linestyle": null,
+                "marker": null,
+                "figsize": true,
+                "fontsize": true
+            }
+        },
+        "answer_type": "code"
+    },
+
+    {
+        "question_id": 58,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.09524v1\\chart1.jpg",
+            "table1": "2512.09524v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Roadmap of architectural optimization.",
+            "table1": "Results of the basic architecture study and subsequent analyses. v1 and v2 refer to the two hybrid methods discussed above. The ratio shown in the middle of the table (e.g., 4:1) indicates the proportion of CNN to Transformer layers in each hybrid model. The best results are in bold and the second best are underlined."
+        },
+        "question":"From the Basic Architecture Study section of Chart 1, extract the Accuracy values of all models and organize them into the following 2D table with header row: [[Model, Accuracy], …] Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Model", "Accuracy"],
+            ["Transformer", 36.5],
+            ["PatchTST", 34.0],
+            ["iTransformer", 31.2],
+            ["GRU", 21.4],
+            ["CNN-1D", 45.7],
+            ["CNN-2D", 49.8],
+            ["CNN-GRU", 44.1],
+            ["CNN-Trans v1", 41.2],
+            ["CNN-Trans v2", 39.8]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 59,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.09786v1\\chart1.jpg",
+            "table1": "2512.09786v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "RAM Usage in kB: Vanilla vs. TinyDej´ aVu`.",
+            "table1": "Pilot Study: RAM usage and compute latency of WaveNet among different strategies, with 10000 generation outputs. In this case, the computation behaviors of FastWaveNet and TinyDej´ aVu are equal."
+        },
+        "question":"What is the Preheat status of WaveNet under the Vanilla strategy in Table 1? Respond only with the exact text.",
+        "question_type": "perceptual",
+        "answer": "OOM",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 60,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.09786v1\\chart1.jpg",
+            "table1": "2512.09786v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "RAM Usage in kB: Vanilla vs. TinyDej´ aVu`.",
+            "table1": "Pilot Study: RAM usage and compute latency of WaveNet among different strategies, with 10000 generation outputs. In this case, the computation behaviors of FastWaveNet and TinyDej´ aVu are equal."
+        },
+        "question":"According to Table 1, how much RAM usage (in kB) is reduced when moving from Vanilla WaveNet to TinyDéjàVu? Respond only with a numeric value.",
+        "question_type": "reasoning",
+        "answer": 182641.4,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 61,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.09786v1\\chart1.jpg",
+            "table1": "2512.09786v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "RAM Usage in kB: Vanilla vs. TinyDej´ aVu`.",
+            "table1": "Pilot Study: RAM usage and compute latency of WaveNet among different strategies, with 10000 generation outputs. In this case, the computation behaviors of FastWaveNet and TinyDej´ aVu are equal."
+        },
+        "question":"From Chart 1, extract the Vanilla RAM usage (in kB) of all models and organize them into the following 2D table with a header row: [[Model, Vanilla_RAM_kB], …]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Model", "Vanilla_RAM_kB"],
+            ["TC-TFM", 6143.74],
+            ["TC-CNN", 1535.94],
+            ["TEMPONet", 76.93],
+            ["ResTCN", 231.60],
+            ["CET-S", 47.65]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 62,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.12528v1\\chart1.jpg",
+            "table1": "2512.12528v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Domain-shift robustness. Bars show mean ROC-AUC across repeated runs; error bars indicate one standard deviation",
+            "table1": "ROC-AUC UNDER OPERATING-REGIME SHIFT (DOMAIN MISMATCH)"
+        },
+        "question":"According to the title of Table 1, what type of experimental variation is being evaluated? Respond only with the text phrase.",
+        "question_type": "perceptual",
+        "answer": "operating-regime shift (domain mismatch)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 63,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.12528v1\\chart1.jpg",
+            "table1": "2512.12528v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Domain-shift robustness. Bars show mean ROC-AUC across repeated runs; error bars indicate one standard deviation",
+            "table1": "ROC-AUC UNDER OPERATING-REGIME SHIFT (DOMAIN MISMATCH)"
+        },
+        "question":"Using table1, compute the average ROC-AUC of WPT-only across all four regimes. Respond only with a single numeric value rounded to three decimals",
+        "question_type": "reasoning",
+        "answer": 0.757,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 64,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.14426v1\\chart1.jpg",
+            "table1": "2512.14426v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Results of the evaluation for three different measurement settings, each averaged over 500 Monte Carlo runs. Black bars indicate time steps during which the object turned. Moderate measurement data",
+            "table1": "Mean error squared GWD for all trackers on 500 Monte Carlo runs of each of the three scenarios. Batch-based methods are separated in their own section"
+        },
+        "question":"What do the black bars in Chart 1 indicate? Choose one option and respond only with the letter. A. Sensor failure B. Target acceleration C. Target turning D. Missing measurements",
+        "question_type": "perceptual",
+        "answer": "C",
+        "answer_type": "choice"
+    },
+
+    {
+        "question_id": 65,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.14426v1\\chart1.jpg",
+            "table1": "2512.14426v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Results of the evaluation for three different measurement settings, each averaged over 500 Monte Carlo runs. Black bars indicate time steps during which the object turned. Moderate measurement data",
+            "table1": "Mean error squared GWD for all trackers on 500 Monte Carlo runs of each of the three scenarios. Batch-based methods are separated in their own section"
+        },
+        "question":"In Chart 1, at which trajectory step does MEM-QKF first exceed 2.0 m²? Respond only with a single integer.",
+        "question_type": "reasoning",
+        "answer": 23,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 66,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.15385v1\\chart1.jpg",
+            "table1": "2512.15385v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Impact of individual relay outages on fault localization accuracy. Bars show MAE relative to the baseline; error bars indicate the std. dev. across five-fold CV.",
+            "table1": "Impact of downsampling on FC and FL."
+        },
+        "question":"What does the upward arrow next to F1 in Table 1 indicate? Respond only with the meaning.",
+        "question_type": "perceptual",
+        "answer": "Higher is better",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 67,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.15385v1\\chart1.jpg",
+            "table1": "2512.15385v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Impact of individual relay outages on fault localization accuracy. Bars show MAE relative to the baseline; error bars indicate the std. dev. across five-fold CV.",
+            "table1": "Impact of downsampling on FC and FL."
+        },
+        "question":"At which downsampling factor does MAE first exceed 8 in Table 1? Respond only with the factor label.",
+        "question_type": "reasoning",
+        "answer": "x 16",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 68,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.15385v1\\chart1.jpg",
+            "table1": "2512.15385v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Impact of individual relay outages on fault localization accuracy. Bars show MAE relative to the baseline; error bars indicate the std. dev. across five-fold CV.",
+            "table1": "Impact of downsampling on FC and FL."
+        },
+        "question":"From Chart 1, extract the MAE values of all conditions and organize them into the following 2D table with a header row: [[Condition, MAE], …] Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Condition", "MAE"],
+            ["No Sparsity", 7.80],
+            ["Relay Failure 1", 10.66],
+            ["Relay Failure 2", 9.30],
+            ["Relay Failure 3", 7.78],
+            ["Relay Failure 4", 7.78],
+            ["Relay Failure 5", 7.78],
+            ["Relay Failure 6", 7.67],
+            ["Relay Failure 7", 9.31],
+            ["Relay Failure 8", 8.90]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 69,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.16315v1\\chart1.jpg",
+            "table1": "2512.16315v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "NMSE performance versus SNR in FDD systems.",
+            "table1": "AVERAGE RMSE AND MAE PERFORMANCE IN FDD SYSTEMS."
+        },
+        "question":"In the RMSE row of Table 1, which model has the bolded value? Respond only with the model name.",
+        "question_type": "perceptual",
+        "answer": "CP-Mamba",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 70,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.05686v1\\chart1.jpg",
+            "table1": "2512.05686v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "A success rate comparison of LA-RL, Hybrid-Driving, DiLu, and GRAD across various scenario configurations.",
+            "table1": "Comparison of Avg. Dri. Time and Ctr. Effi."
+        },
+        "question":"From Chart 1, extract the success rate of LA-RL under the lane-4-density-2 scenario. Respond only with a numeric value (without percentage).",
+        "question_type": "perceptual",
+        "answer": 97.5,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 71,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.05686v1\\chart1.jpg",
+            "table1": "2512.05686v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "A success rate comparison of LA-RL, Hybrid-Driving, DiLu, and GRAD across various scenario configurations.",
+            "table1": "Comparison of Avg. Dri. Time and Ctr. Effi."
+        },
+        "question":"From Chart 1, extract the success rates of all four methods (GRAD, DiLu, Hybrid-Driving, and LA-RL) under all scenarios, and organize them into the following 2D table with a header row: [[Scenario,GRAD,DiLu,Hybrid-Driving,LA-RL],…]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Scenario","GRAD","DiLu","Hybrid-Driving","LA-RL"],
+            ["lane-4-density-2",69.0,70.0,80.0,97.5],
+            ["lane-5-density-2.5",47.0,65.0,72.5,92.5],
+            ["lane-5-density-3",10.0,35.0,45.0,80.0]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 72,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.06287v1\\chart1.jpg",
+            "table1": "2512.06287v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Prediction errors in various SoH conditions.",
+            "table1": "Performance metrics on test set"
+        },
+        "question":"From Chart 1, extract the MAPE value of the Analytical Model under the “Degraded (80–85)” SoH condition. Respond only with a numeric value.",
+        "question_type": "perceptual",
+        "answer": 1.6,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 73,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.06287v1\\chart1.jpg",
+            "table1": "2512.06287v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Prediction errors in various SoH conditions.",
+            "table1": "Performance metrics on test set"
+        },
+        "question":"From Chart 1, extract the MAPE values of all models (Linear Model, Analytical Model, and RL Model (Best)) under all SoH conditions and organize them into the following 2D table with a header row: [ [SoH, Linear_MAPE, Analytical_MAPE, RL_MAPE], … ] Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["SoH", "Linear_MAPE", "Analytical_MAPE", "RL_MAPE"],
+            ["New (95–100)", 3.0, 1.8, 16.4],
+            ["Good (90–95)", 2.8, 1.8, 16.6],
+            ["Fair (85–90)", 2.8, 1.7, 15.1],
+            ["Degraded (80–85)", 2.9, 1.6, 16.0],
+            ["Poor (70–80)", 2.7, 1.9, 14.5]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 74,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.06600v1\\chart1.jpg",
+            "table1": "2512.06600v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "(top) Total profit comparison between models across different reward levels; (bottom) profit variance comparison at selected reward levels.",
+            "table1": "Optimal profit, learned stopping-time, and average stopping–reward by model and reward level"
+        },
+        "question":"In Chart 1, what color is used to represent the DQN model? Respond only with the color name.",
+        "question_type": "perceptual",
+        "answer": "orange",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 75,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.07219v1\\chart1.jpg",
+            "table1": "2512.07219v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Proportions of cooperative AVs and HDVs across active and passive roles.",
+            "table1": "Estimated rationality parameters (λr,t) for the full QRE model"
+        },
+        "question":"How many interaction types are reported for the Active role in Table 1? Respond only with a single integer.",
+        "question_type": "perceptual",
+        "answer": 3,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 76,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.07219v1\\chart1.jpg",
+            "table1": "2512.07219v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Proportions of cooperative AVs and HDVs across active and passive roles.",
+            "table1": "Estimated rationality parameters (λr,t) for the full QRE model"
+        },
+        "question":"From Chart 1, extract cooperation proportions（without %） for all role–vehicle combinations and organize them into a 2D table with header row: [[Role, Vehicle, Cooperation], …]. Respond only with the table.",
+        "question_type": "chart to table",
+        "answer": [["Role", "Vehicle", "Cooperation"],
+            ["Active", "AV", 0.69],
+            ["Active", "HDV", 0.579],
+            ["Passive", "AV", 0.331],
+            ["Passive", "HDV", 0.261]],
+        "answer_type": "table_list"
+    },
+
+    {
+        "question_id": 77,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.09372v1\\chart1.jpg",
+            "table1": "2512.09372v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of failure rates across different methods when (a) fth = 0.5 or (b) recall = 0.5.",
+            "table1": "THE AP OF DIFFERENT ALGORITHMS UNDER A LIMITED NUMBER OF TESTS"
+        },
+        "question":"Do subfigures (a) and (b) in Chart 1 use the same y-axis range? If so, report the range. Respond only with a list in the format [min, max].",
+        "question_type": "perceptual",
+        "answer": [0, 0.8],
+        "answer_type": "numeric_list"
+    },
+
+    {
+        "question_id": 78,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.09372v1\\chart1.jpg",
+            "table1": "2512.09372v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison of failure rates across different methods when (a) fth = 0.5 or (b) recall = 0.5.",
+            "table1": "THE AP OF DIFFERENT ALGORITHMS UNDER A LIMITED NUMBER OF TESTS"
+        },
+        "question":"Identify the algorithm–environment pair whose AP value is closest to 0.2 in Table 1. Respond only with a list [Algorithm, Environment].",
+        "question_type": "reasoning",
+        "answer": "[IRTtest-R, BipedalWalker]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 79,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.12427v1\\chart1.jpg",
+            "table1": "2512.12427v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison between UNIQUE, the standard MPC formulation, and the phases MPC formulation regarding the online computation time and the tracking error (position). The tracking error is significantly reduced by UNIQUE, with online computation time either unchanged or slightly reduced.",
+            "table1": "TRACKING COST IN REAL-WORLD EXPERIMENTS."
+        },
+        "question":"What color represents the UNIQUE method in Chart 1? Respond only with the color name.",
+        "question_type": "perceptual",
+        "answer": "Green",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 80,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.12427v1\\chart1.jpg",
+            "table1": "2512.12427v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Comparison between UNIQUE, the standard MPC formulation, and the phases MPC formulation regarding the online computation time and the tracking error (position). The tracking error is significantly reduced by UNIQUE, with online computation time either unchanged or slightly reduced.",
+            "table1": "TRACKING COST IN REAL-WORLD EXPERIMENTS."
+        },
+        "question":"What marker shape is used to indicate the maximum (Max) values in Chart 1? Respond only with the marker name.",
+        "question_type": "perceptual",
+        "answer": "Triangle",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 81,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.12755v1\\chart1.jpg",
+            "table1": "2512.12755v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Composition of daily operation cost and revenue for the microgrids under different forecasting–optimization schemes",
+            "table1": "OPERATION COST BREAKDOWN AND NET COST FOR MICROGRIDS UNDER FOUR FORECASTING–OPTIMIZATION SCHEMES"
+        },
+        "question":"In Chart 1, what is the y-axis label text corresponding to the line plot (Net Cost) on the right-hand side? Respond only with the axis label text.",
+        "question_type": "perceptual",
+        "answer": "Net Cost ($)",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 82,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.12755v1\\chart1.jpg",
+            "table1": "2512.12755v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Composition of daily operation cost and revenue for the microgrids under different forecasting–optimization schemes",
+            "table1": "OPERATION COST BREAKDOWN AND NET COST FOR MICROGRIDS UNDER FOUR FORECASTING–OPTIMIZATION SCHEMES"
+        },
+        "question":"For the 69-bus system, compare DeepAR + TSRO and MED + TSRO. For each cost or revenue component, compute its change ratio relative to DeepAR + TSRO. Based on Chart 1 and Table 1, identify the single component with the largest change ratio and report both the component name and its change ratio. Respond with a list in the format: [Component, Change_Ratio] Round the change ratio to three decimal places.",
+        "question_type": "reasoning",
+        "answer": "[Curtailment, 0.067]",
+        "answer_type": "text"
+    },
+
+    {
+        "question_id": 83,
+        "items": ["chart1","table1"],
+        "path": {
+            "chart1": "2512.12794v1\\chart1.jpg",
+            "table1": "2512.12794v1\\table1.jpg"
+        },
+        "caption": {
+            "chart1": "Zero-shot anomaly detection performance under different value-block designs. All configurations share the same role, context, and three-sigma decision rule; only the numeric representation in the value block is changed.",
+            "table1": "Performance of LLM-Based Methods for AD Under Different Prompting Paradigms"
+        },
+        "question":"What color represents Recall in Chart 1? Respond only with the color name.",
+        "question_type": "perceptual",
+        "answer": "purple",
+        "answer_type": "text"
+    }
+]

@@ -1,0 +1,222 @@
+[
+    {
+        "question_id": 16,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.22562v1\\table1.jpg",
+            "table2": "2512.22562v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance comparison of the proposed All-or-here Attention across various window sizes. “Vanilla” denotes the OLMo-2-0425-1B-SFT model using full attention.",
+            "table2": "Average Full Attention usage of the proposed All-or-here Attention across various window sizes."
+        },
+        "question": "Compute the difference between the average task score of w = 128 and Vanilla using Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.00157,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 14,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.22442v1\\table1.jpg",
+            "table2": "2512.22442v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Ablation on MMU-RAGent Standard Validation Set",
+            "table2": "Performance on Test2025 (Future Events > Feb 2025)"
+        },
+        "question": "Compute the average DeBERTaScore (F1) of RAG w/ Filters (URL + Chunk) across Table 1 and Table 2. Round to four decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.6776,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 76,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24120v1\\table1.jpg",
+            "table2": "2512.24120v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Per-Dataset Performance (Mean Accuracy %) on 1-epoch. Asterisks denote significance vs. baseline: * p < 0.05, ** p < 0.01. Best per dataset in bold.",
+            "table2": "Statistical Significance Tests (per-dataset comparison vs. alt-nn1 baseline). Only results with p < 0.05 shown."
+        },
+        "question": "Compute the average Mean Accuracy (%) of alt-nn1 in Table 1 across datasets with negative Δ in Table 2. Respond only with a single numeric value rounded to two decimal places.",
+        "question_type": "reasoning",
+        "answer": 59.8,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 80,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24284v1\\table1.jpg",
+            "table2": "2512.24284v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "QUANTITATIVE COMPARISONS OF DIFFERENT METHODS IN SIMULATED ENVIRONMENTS ACROSS TWO TASKS",
+            "table2": "COMPARISON OF DIFFERENT METHODS IN TERMS OF AVERAGE NAVIGATION COMPLETION TIME WITH VARYING PEDESTRIAN DENSITIES"
+        },
+        "question": "Compute the difference between the average Task 1 AT of DRL-TH across all scenes in Table 1 and the average value of DRL-TH in Table 2. Round the result to three decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 71.061,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 85,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24651v1\\table1.jpg",
+            "table2": "2512.24651v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Metrics on test data with 12 agents.",
+            "table2": "Metrics on test data with 3 agents (1 adult, 1 bicycle, 1 child)."
+        },
+        "question": "Compute the relative change rate of CR for EB-CADRL from Table 1 to Table 2: (Table 2 − Table 1) / Table 1. Round to three decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": -7.34,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 23,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23232v1\\table1.jpg",
+            "table2": "2512.23232v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Quantitative evaluation (PSNR, LPIPS) of various methods at NFE 100 and 50 for solving linear inverse problems.",
+            "table2": "Quantitative evaluation (PSNR, LPIPS) of various methods at NFE 100 and 50 for solving non-linear inverse problems."
+        },
+        "question": "Compute the overall average LPIPS of SGPS (ours) across Table 1 and Table 2 at NFE ≈ 50. Round to three decimal places. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.207,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 65,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23852v1\\table1.jpg",
+            "table2": "2512.23852v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Performance of Trellis and baselines on language modeling and common-sense reasoning tasks.",
+            "table2": "Performance of Trellis and baselines with 1B parameters on S-NIAH task from RULER benchmark. The best results with highest accuracy are highlighted."
+        },
+        "question": "Compute the average accuracy of TTT on PIQA, Hella, and Wino in Table 1. Respond only with a single numeric value rounded to two decimal places.",
+        "question_type": "reasoning",
+        "answer": 52.71,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 48,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23453v1\\table1.jpg",
+            "table2": "2512.23453v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Results on CHAIR benchmark. We limit the maximum number of new tokens to 64. Lower CHAIRs, CHAIRi and higher recall and length indicate better performance. The best results in each setting are bolded, and the second-best are underlined.",
+            "table2": "Results on MME-Hallucination and MMBench benchmark. We present the average MME scores along with their standard deviations over three random seeds for each subset. Additionally, the final column reports the overall accuracy of each method on the MMBench benchmark. Higher values denote better performance. The best results are highlighted in bold, while the second-best are marked with underlining."
+        },
+        "question": "Compute the average of Existence, Count, Position, and Color scores of Ours in Table 2. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 158.505,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 56,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23667v2\\table1.jpg",
+            "table2": "2512.23667v2\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Single-view intrinsic decomposition results on HyperSim.",
+            "table2": "Single-view depth estimation results."
+        },
+        "question": "Compute the difference between Albedo PSNR and Shading PSNR of IDT (Ours) in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 4.53,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 18,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.22712v1\\table1.jpg",
+            "table2": "2512.22712v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Accuracy (Acc, ↑) and Trace Inconsistency Rate (TIR, ↓) across languages and models. LS = Latin script, NLS = Not Latin script, HRL = Higher-resourced language, LRL = Lower-resourced language. For each model, the highest Accuracy and lowest TIR among individual languages are highlighted in bold.",
+            "table2": "Trace Inconsistency Rate (TIR, ↓) across languages and models, when the model’s final answer was wrong. For each model, the lowest TIR is bolded."
+        },
+        "question": "Compute the difference between the maximum and minimum TIR across six languages for Llama-3.3-70B-Instruct in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 8.91,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 26,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23234v1\\table1.jpg",
+            "table2": "2512.23234v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of detection performance between the proposed method and mainstream models on the IIG dataset.",
+            "table2": "Comparison of detection performance between the proposed method and mainstream models on the LangGas dataset."
+        },
+        "question": "Compute the average AP of all YOLO-series models in Table 1. Round to one decimal place. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 25.6,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 53,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.23541v1\\table1.jpg",
+            "table2": "2512.23541v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "Comparison of Performance on Robotwin 2.0 Simulation Benchmark. Act2Goal outperforms baselines in all Easy-mode tasks and 3 Hard-mode tasks, showing superior generalization.",
+            "table2": "Comparison of Performance on Real-World Manipulation Tasks. Act2Goal demonstrates remarkable performance across all real-world tasks, significantly outperforming all baseline methods. The robust performance in OOD settings strongly validates its superior generalization ability. All results are obtained without any online autonomous improvement, using only offline imitation learning."
+        },
+        "question": "Compute the difference between the maximum and minimum DP-GC success rates under the Easy setting in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 0.15,
+        "answer_type": "numeric"
+    },
+
+    {
+        "question_id": 73,
+        "items": ["table1","table2"],
+        "path": {
+            "table1": "2512.24013v1\\table1.jpg",
+            "table2": "2512.24013v1\\table2.jpg"
+        },
+        "caption": {
+            "table1": "COMPARISON OF SEGMENTATION METHODS ON BRAIN LESION DATASETS. OUR MODEL, HILBERTMED-SAM, ACHIEVES NEW SOTA PERFORMANCE",
+            "table2": "COMPARISON OF END-TO-END DIAGNOSTIC CLASSIFICATION METHODS. OUR FULL HILBERT-VLM FRAMEWORK DEMONSTRATES CLEAR SUPERIORITY."
+        },
+        "question": "Compute the difference between the maximum and minimum FCD2023 Dice values in Table 1. Respond only with a single numeric value.",
+        "question_type": "reasoning",
+        "answer": 68.42,
+        "answer_type": "numeric"
+    }
+]
