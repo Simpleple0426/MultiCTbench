@@ -1,77 +1,5 @@
 [
     {
-        "question_id": 1,
-        "items": ["chart1","table1", "text"],
-        "path": {
-            "chart1": "2508.08438v1\\chart1.jpg",
-            "table1": "2508.08438v1\\table1.jpg"
-        },
-        "caption": {
-            "chart1": "Normalized performance of TTFT between SGLang (global-sharing) and Cache-Partition (isolated-per-user).",
-            "table1": "Intra-session and inter-session KV-cache reuse rates across different datasets."
-        },
-        "text": "Our motivation experiments, as shown in Figure 1, reveal that the Cache-Partition(per-user isolation) increases Time-to-FirstToken (TTFT) by 2.3% to 8.9% for LLaMA-2-13B [7] and by 8.3% to 38.9% for LLaMA-2-70B [8] across three different datasets.",
-        "question": "Using the TTFT increase range described in the text for LLaMA-2-70B, compute the difference between the maximum and minimum increase. Respond only with a single numeric value.",
-        "question_type": "reasoning",
-        "answer": 30.6,
-        "answer_type": "numeric"
-    },
-
-    {
-        "question_id": 2,
-        "items": ["chart1","table1", "text"],
-        "path": {
-            "chart1": "2508.08438v1\\chart1.jpg",
-            "table1": "2508.08438v1\\table1.jpg"
-        },
-        "caption": {
-            "chart1": "Normalized performance of TTFT between SGLang (global-sharing) and Cache-Partition (isolated-per-user).",
-            "table1": "Intra-session and inter-session KV-cache reuse rates across different datasets."
-        },
-        "text": "Our motivation experiments, as shown in Figure 1, reveal that the Cache-Partition(per-user isolation) increases Time-to-FirstToken (TTFT) by 2.3% to 8.9% for LLaMA-2-13B [7] and by 8.3% to 38.9% for LLaMA-2-70B [8] across three different datasets.",
-        "question": "Using the increase range described in the text, compute the maximum TTFT increase for LLaMA-2-70B. Respond only with a single numeric value.",
-        "question_type": "perceptual",
-        "answer": 38.9,
-        "answer_type": "numeric"
-    },
-
-    {
-        "question_id": 3,
-        "items": ["chart1","table1", "text"],
-        "path": {
-            "chart1": "2508.08438v1\\chart1.jpg",
-            "table1": "2508.08438v1\\table1.jpg"
-        },
-        "caption": {
-            "chart1": "Normalized performance of TTFT between SGLang (global-sharing) and Cache-Partition (isolated-per-user).",
-            "table1": "Intra-session and inter-session KV-cache reuse rates across different datasets."
-        },
-        "text": "Our motivation experiments, as shown in Figure 1, reveal that the Cache-Partition(per-user isolation) increases Time-to-FirstToken (TTFT) by 2.3% to 8.9% for LLaMA-2-13B [7] and by 8.3% to 38.9% for LLaMA-2-70B [8] across three different datasets.",
-        "question": "According to the increase range described in the text, compute the minimum TTFT increase for LLaMA-2-70B. Respond only with a single numeric value.",
-        "question_type": "perceptual",
-        "answer": 8.3,
-        "answer_type": "numeric"
-    },
-
-    {
-        "question_id": 4,
-        "items": ["chart1","table1", "text"],
-        "path": {
-            "chart1": "2508.08438v1\\chart1.jpg",
-            "table1": "2508.08438v1\\table1.jpg"
-        },
-        "caption": {
-            "chart1": "Normalized performance of TTFT between SGLang (global-sharing) and Cache-Partition (isolated-per-user).",
-            "table1": "Intra-session and inter-session KV-cache reuse rates across different datasets."
-        },
-        "text": "Our motivation experiments, as shown in Figure 1, reveal that the Cache-Partition(per-user isolation) increases Time-to-FirstToken (TTFT) by 2.3% to 8.9% for LLaMA-2-13B [7] and by 8.3% to 38.9% for LLaMA-2-70B [8] across three different datasets.",
-        "question": "Using the increase ranges described in the text, compute the difference between the largest TTFT increase and the smallest TTFT increase across both models. Respond only with a single numeric value.",
-        "question_type": "reasoning",
-        "answer": 36.6,
-        "answer_type": "numeric"
-    },
-
-    {
         "question_id": 5,
         "items": ["chart1","table1", "text"],
         "path": {
@@ -252,24 +180,6 @@
     },
 
     {
-        "question_id": 15,
-        "items": ["chart1","table1", "text"],
-        "path": {
-            "chart1": "2510.04607v1\\chart1.jpg",
-            "table1": "2510.04607v1\\table1.jpg"
-        },
-        "caption": {
-            "chart1": "Performance evaluation. —— Success rate.",
-            "table1": "Results across interfaces and models."
-        },
-        "text": "With GPT-5-mini, GOI yields an absolute +25.9% success gain (2.5× over GUI-only) and 38% fewer steps; average time is comparable (171s baseline vs 167s GOI) because we report only successful runs, and GUI-only primarily succeeds on shorter/easier cases. Table 3 shows the overall results.",
-        "question": "Using the text and the success-rate values of the corresponding configurations in the table, compute this improvement and express the result in decimal form. Respond only with a single numeric value.",
-        "question_type": "reasoning",
-        "answer": 0.259,
-        "answer_type": "numeric"
-    },
-
-    {
         "question_id": 16,
         "items": ["chart1","table1", "text"],
         "path": {
@@ -288,78 +198,6 @@
     },
 
     {
-        "question_id": 17,
-        "items": ["chart1","table1", "text"],
-        "path": {
-            "chart1": "2510.04607v1\\chart1.jpg",
-            "table1": "2510.04607v1\\table1.jpg"
-        },
-        "caption": {
-            "chart1": "Performance evaluation. —— Success rate.",
-            "table1": "Results across interfaces and models."
-        },
-        "text": "In the core setting, GOI yields substantial improvements over the baseline: raising success from 44.4% to 74.1% (1.67×), cutting steps from 8.16 to 4.61 (−43.5%), and reducing completion time by 39%. Under minimal reasoning, success improves from 23.5% to 40.7%, steps drop from 8.42 to 5.52, and time declines from 251s to 140s.",
-        "question": "In the core setting, using the text and the success-rate values shown in the table, compute the improvement factor relative to the baseline. Round the result to two decimal places. Respond only with a single numeric value.",
-        "question_type": "reasoning",
-        "answer": 1.67,
-        "answer_type": "numeric"
-    },
-
-    {
-        "question_id": 18,
-        "items": ["chart1","table1", "text"],
-        "path": {
-            "chart1": "2510.04607v1\\chart1.jpg",
-            "table1": "2510.04607v1\\table1.jpg"
-        },
-        "caption": {
-            "chart1": "Performance evaluation. —— Success rate.",
-            "table1": "Results across interfaces and models."
-        },
-        "text": "In the core setting, GOI yields substantial improvements over the baseline: raising success from 44.4% to 74.1% (1.67×), cutting steps from 8.16 to 4.61 (−43.5%), and reducing completion time by 39%. Under minimal reasoning, success improves from 23.5% to 40.7%, steps drop from 8.42 to 5.52, and time declines from 251s to 140s.",
-        "question": "In the core setting, using the text and the Steps values shown in the table, compute the relative reduction ratio in Steps and express the result in decimal form rounded to two decimal places. Respond only with a single numeric value.",
-        "question_type": "reasoning",
-        "answer": 0.43,
-        "answer_type": "numeric"
-    },
-
-    {
-        "question_id": 19,
-        "items": ["chart1","table1", "text"],
-        "path": {
-            "chart1": "2510.04607v1\\chart1.jpg",
-            "table1": "2510.04607v1\\table1.jpg"
-        },
-        "caption": {
-            "chart1": "Performance evaluation. —— Success rate.",
-            "table1": "Results across interfaces and models."
-        },
-        "text": "In the core setting, GOI yields substantial improvements over the baseline: raising success from 44.4% to 74.1% (1.67×), cutting steps from 8.16 to 4.61 (−43.5%), and reducing completion time by 39%. Under minimal reasoning, success improves from 23.5% to 40.7%, steps drop from 8.42 to 5.52, and time declines from 251s to 140s.",
-        "question": "In the core setting, using the text and the time values shown in the table, compute the relative reduction ratio in completion time and express the result in decimal form rounded to two decimal places. Respond only with a single numeric value.",
-        "question_type": "reasoning",
-        "answer": 0.39,
-        "answer_type": "numeric"
-    },
-
-    {
-        "question_id": 20,
-        "items": ["chart1","table1", "text"],
-        "path": {
-            "chart1": "2510.15755v1\\chart1.jpg",
-            "table1": "2510.15755v1\\table1.jpg"
-        },
-        "caption": {
-            "chart1": "Task preemption effectiveness. FCFS shows the worst case when tasks are deployed in the x-axis order, which lets low-priority tasks occupy FPGAs.",
-            "table1": "Execution time and priority in each scenario."
-        },
-        "text": "Chart1 shows the behavior of the different policies in the Short-HP scenario, where PRE_MG is most effective for high-priority tasks, reducing 16.7% of their average execution time compared to NO_PRE. In the case of non-preemptive policies (FCFS and NO_PRE), we observe that high-priority tasks (b_rw, mem_rw, sys_ar) take longer execution time because they have to wait for the completion of low-priority tasks when all three FPGAs are in use.",
-        "question": "The text states that in the Short-HP scenario, PRE_MG reduces the average execution time of high-priority tasks (b_rw, mem_rw, sys_ar) compared to NO_PRE. Using the bars in chart1, estimate the approximate percentage reduction in average execution time achieved by PRE_MG relative to NO_PRE for these tasks. A. 5%–10%. B. 10%–15%. C. 15%–20%. D. 20%–30%. Respond only with the letter corresponding to the correct option.",
-        "question_type": "reasoning",
-        "answer": "C",
-        "answer_type": "choice"
-    },
-
-    {
         "question_id": 21,
         "items": ["chart1","table1", "text"],
         "path": {
@@ -375,60 +213,6 @@
         "question_type": "perceptual",
         "answer": 4,
         "answer_type": "numeric"
-    },
-
-    {
-        "question_id": 22,
-        "items": ["chart1","table1", "text"],
-        "path": {
-            "chart1": "2510.15755v1\\chart1.jpg",
-            "table1": "2510.15755v1\\table1.jpg"
-        },
-        "caption": {
-            "chart1": "Task preemption effectiveness. FCFS shows the worst case when tasks are deployed in the x-axis order, which lets low-priority tasks occupy FPGAs.",
-            "table1": "Execution time and priority in each scenario."
-        },
-        "text": "Chart1 shows the behavior of the different policies in the Short-HP scenario, where PRE_MG is most effective for high-priority tasks, reducing 16.7% of their average execution time compared to NO_PRE. In the case of non-preemptive policies (FCFS and NO_PRE), we observe that high-priority tasks (b_rw, mem_rw, sys_ar) take longer execution time because they have to wait for the completion of low-priority tasks when all three FPGAs are in use.",
-        "question": "Using the high-priority task names given in the text, count how many x-axis categories in the Short-HP scenario correspond to these tasks. Respond only with a single numeric value.",
-        "question_type": "perceptual",
-        "answer": 3,
-        "answer_type": "numeric"
-    },
-
-    {
-        "question_id": 23,
-        "items": ["chart1","table1", "text"],
-        "path": {
-            "chart1": "2510.15755v1\\chart1.jpg",
-            "table1": "2510.15755v1\\table1.jpg"
-        },
-        "caption": {
-            "chart1": "Task preemption effectiveness. FCFS shows the worst case when tasks are deployed in the x-axis order, which lets low-priority tasks occupy FPGAs.",
-            "table1": "Execution time and priority in each scenario."
-        },
-        "text": "Chart1 shows the behavior of the different policies in the Short-HP scenario, where PRE_MG is most effective for high-priority tasks, reducing 16.7% of their average execution time compared to NO_PRE. In the case of non-preemptive policies (FCFS and NO_PRE), we observe that high-priority tasks (b_rw, mem_rw, sys_ar) take longer execution time because they have to wait for the completion of low-priority tasks when all three FPGAs are in use.",
-        "question": "The text explains that high-priority tasks experience waiting under non-preemptive policies. Using the Short-HP chart, count how many high-priority tasks have longer execution time under FCFS than under PRE_EV. Respond only with a single numeric value.",
-        "question_type": "reasoning",
-        "answer": 3,
-        "answer_type": "numeric"
-    },
-
-    {
-        "question_id": 24,
-        "items": ["chart1","table1", "text"],
-        "path": {
-            "chart1": "2510.15755v1\\chart1.jpg",
-            "table1": "2510.15755v1\\table1.jpg"
-        },
-        "caption": {
-            "chart1": "Task preemption effectiveness. FCFS shows the worst case when tasks are deployed in the x-axis order, which lets low-priority tasks occupy FPGAs.",
-            "table1": "Execution time and priority in each scenario."
-        },
-        "text": "Chart1 shows the Long-HP scenario, where PRE_EV is most effective for high-priority tasks: 2.2% faster than NO_PRE. PRE_MG is less effective because evicted low-priority tasks are sometimes migrated before high-priority tasks arrive, slightly delaying their deployment.",
-        "question": "The text states that in the Long-HP scenario, PRE_EV is the most effective policy for high-priority tasks (b_rw, mem_rw, sys_ar). Using the bars in chart1, estimate the approximate percentage reduction in average execution time achieved by PRE_EV relative to NO_PRE across these tasks. A. 0%–1%. B. 1%–3%. C. 3%–6%. D. 6%–10%. Respond only with the letter corresponding to the correct option.",
-        "question_type": "reasoning",
-        "answer": "B",
-        "answer_type": "choice"
     },
 
     {
@@ -828,42 +612,6 @@
     },
 
     {
-        "question_id": 47,
-        "items": ["chart1","table1", "text"],
-        "path": {
-            "chart1": "2512.03279v1\\chart1.jpg",
-            "table1": "2512.03279v1\\table1.jpg"
-        },
-        "caption": {
-            "chart1": "YCSB. CacheLib uses the default parameters from CacheBench with 4GB DRAM cache. All the workloads are Zipfian (θ = 0.8) with 1KB values and 16-byte keys running under 256 threads with 20M records. The cache throughput is normalized to the throughput of the default (striping) system and the number above each bar is P99 latency in microseconds. Workload E is excluded due to CacheLib’s lack of support for range queries.",
-            "table1": "Average and P99 GET Latency (ms) of Production Workloads."
-        },
-        "text": "Table1 shows that Cerberus reduces average latency by 14% and P99 latency by 19% on average compared to the best-performing baseline. Striping performs worst on workloads A and B due to bottlenecks from the slower device, while Orthus performs worst on log-heavy workloads C and D.",
-        "question": "The text states that one method reduces average latency compared with the best-performing baseline. For each Avg latency row, first identify the lowest latency among the baseline methods as the best baseline. Then compute the reduction ratio of the method relative to this baseline. Finally, average these reduction ratios across all Avg latency rows and express the result in decimal form. Round the result to two decimal places. Respond only with a single numeric value.",
-        "question_type": "reasoning",
-        "answer": 0.14,
-        "answer_type": "numeric"
-    },
-
-    {
-        "question_id": 48,
-        "items": ["chart1","table1", "text"],
-        "path": {
-            "chart1": "2512.03279v1\\chart1.jpg",
-            "table1": "2512.03279v1\\table1.jpg"
-        },
-        "caption": {
-            "chart1": "YCSB. CacheLib uses the default parameters from CacheBench with 4GB DRAM cache. All the workloads are Zipfian (θ = 0.8) with 1KB values and 16-byte keys running under 256 threads with 20M records. The cache throughput is normalized to the throughput of the default (striping) system and the number above each bar is P99 latency in microseconds. Workload E is excluded due to CacheLib’s lack of support for range queries.",
-            "table1": "Average and P99 GET Latency (ms) of Production Workloads."
-        },
-        "text": "Table1 shows that Cerberus reduces average latency by 14% and P99 latency by 19% on average compared to the best-performing baseline. Striping performs worst on workloads A and B due to bottlenecks from the slower device, while Orthus performs worst on log-heavy workloads C and D.",
-        "question": "The text states that one method reduces P99 latency compared with the best-performing baseline. For each P99 latency row, first identify the lowest latency among the baseline methods as the best baseline. Then compute the reduction ratio of the method relative to this baseline. Finally, average these reduction ratios across all P99 latency rows and express the result in decimal form. Round the result to two decimal places. Respond only with a single numeric value.",
-        "question_type": "reasoning",
-        "answer": 0.19,
-        "answer_type": "numeric"
-    },
-
-    {
         "question_id": 49,
         "items": ["chart1","table1", "text"],
         "path": {
@@ -936,42 +684,6 @@
     },
 
     {
-        "question_id": 53,
-        "items": ["chart1","table1", "text"],
-        "path": {
-            "chart1": "2512.19758v1\\chart1.jpg",
-            "table1": "2512.19758v1\\table1.jpg"
-        },
-        "caption": {
-            "chart1": "Pie charts depicting the distribution of distance values for bugs identified as CVE-2016-9827, binutils-2.29, and CVE-2017-11728. Each pie chart illustrates the proportion of the top three distances relative to the total distances observed for each bug.",
-            "table1": "The content describes the distances between different Bug IDs and the proportion of these distances that occur most frequently relative to the total number of distances. Specifically, “Top 1” represents the proportion of occurrences for the most frequent distance, “Top 2” for the second most frequent distance, and “Top 3” for the third most frequent distance. “Top 1–3” denotes the combined proportion of occurrences for the three most frequent distances."
-        },
-        "text": "For instance, as depicted in Chart1, in the analysis of the swftophp project pertaining to CVE-2016-9827, the most frequent distance value was 10, comprising 55.56% of all recorded distances. Additionally, the top three most prevalent distances accounted for 73.54% of the data, while the remaining 55 distance values constituted only 26.46%. Similar patterns were observed in the binutils- 2.29 project, where the most common distance was 30, accounting for 19.95% of the distance data, and the top three distances summed up to 34.01% of the total. These findings underscore a significant skew in the distribution of distance values across most projects, indicating a marked unevenness that could potentially impact the effectiveness of DGF in pinpointing vulnerabilities.",
-        "question": "Using the text and Chart1, determine the total proportion of the top three most frequent distance values in the CVE-2016-9827 project. Express the result in decimal form and round it to three decimal places. Respond only with a single numeric value.",
-        "question_type": "reasoning",
-        "answer": 0.735,
-        "answer_type": "numeric"
-    },
-
-    {
-        "question_id": 54,
-        "items": ["chart1","table1", "text"],
-        "path": {
-            "chart1": "2512.19758v1\\chart1.jpg",
-            "table1": "2512.19758v1\\table1.jpg"
-        },
-        "caption": {
-            "chart1": "Pie charts depicting the distribution of distance values for bugs identified as CVE-2016-9827, binutils-2.29, and CVE-2017-11728. Each pie chart illustrates the proportion of the top three distances relative to the total distances observed for each bug.",
-            "table1": "The content describes the distances between different Bug IDs and the proportion of these distances that occur most frequently relative to the total number of distances. Specifically, “Top 1” represents the proportion of occurrences for the most frequent distance, “Top 2” for the second most frequent distance, and “Top 3” for the third most frequent distance. “Top 1–3” denotes the combined proportion of occurrences for the three most frequent distances."
-        },
-        "text": "For instance, as depicted in Chart1, in the analysis of the swftophp project pertaining to CVE-2016-9827, the most frequent distance value was 10, comprising 55.56% of all recorded distances. Additionally, the top three most prevalent distances accounted for 73.54% of the data, while the remaining 55 distance values constituted only 26.46%. Similar patterns were observed in the binutils- 2.29 project, where the most common distance was 30, accounting for 19.95% of the distance data, and the top three distances summed up to 34.01% of the total. These findings underscore a significant skew in the distribution of distance values across most projects, indicating a marked unevenness that could potentially impact the effectiveness of DGF in pinpointing vulnerabilities.",
-        "question": "Using the text and Chart1, determine the total proportion of the top three most frequent distance values in the binutils-2.29 project. Express the result in decimal form and round it to three decimal places. Respond only with a single numeric value.",
-        "question_type": "reasoning",
-        "answer": 0.340,
-        "answer_type": "numeric"
-    },
-
-    {
         "question_id": 55,
         "items": ["chart1","table1", "text"],
         "path": {
@@ -987,60 +699,6 @@
         "question_type": "perceptual",
         "answer": "blue",
         "answer_type": "text"
-    },
-
-    {
-        "question_id": 56,
-        "items": ["chart1","table1", "text"],
-        "path": {
-            "chart1": "2512.19758v1\\chart1.jpg",
-            "table1": "2512.19758v1\\table1.jpg"
-        },
-        "caption": {
-            "chart1": "Pie charts depicting the distribution of distance values for bugs identified as CVE-2016-9827, binutils-2.29, and CVE-2017-11728. Each pie chart illustrates the proportion of the top three distances relative to the total distances observed for each bug.",
-            "table1": "The content describes the distances between different Bug IDs and the proportion of these distances that occur most frequently relative to the total number of distances. Specifically, “Top 1” represents the proportion of occurrences for the most frequent distance, “Top 2” for the second most frequent distance, and “Top 3” for the third most frequent distance. “Top 1–3” denotes the combined proportion of occurrences for the three most frequent distances."
-        },
-        "text": "For instance, as depicted in Chart1, in the analysis of the swftophp project pertaining to CVE-2016-9827, the most frequent distance value was 10, comprising 55.56% of all recorded distances. Additionally, the top three most prevalent distances accounted for 73.54% of the data, while the remaining 55 distance values constituted only 26.46%. Similar patterns were observed in the binutils- 2.29 project, where the most common distance was 30, accounting for 19.95% of the distance data, and the top three distances summed up to 34.01% of the total. These findings underscore a significant skew in the distribution of distance values across most projects, indicating a marked unevenness that could potentially impact the effectiveness of DGF in pinpointing vulnerabilities.",
-        "question": "The text states that in the CVE-2016-9827 (swftophp project), the most frequent distance value is 10. Determine the proportion of this distance and express the result in decimal form rounded to four decimal places. Respond only with a single numeric value.",
-        "question_type": "perceptual",
-        "answer": 0.5556,
-        "answer_type": "numeric"
-    },
-
-    {
-        "question_id": 57,
-        "items": ["chart1","table1", "text"],
-        "path": {
-            "chart1": "2512.21028v1\\chart1.jpg",
-            "table1": "2512.21028v1\\table1.jpg"
-        },
-        "caption": {
-            "chart1": "New passing (solid) and failing (transparent) tests across models and prompting strategies compared to the baseline.",
-            "table1": "Pass@1 and Pass@5 results for different prompting strategies across models"
-        },
-        "text": "As shown in Chart1, all prompting strategies substantially expand the set of solved tests by 35% − 55%. With FT, models achieve between +213 and +230 new passes, while FT+DNU reaches a comparable range of +211 to +227, again confirming that models benefit from visible tests even under explicit restriction. Partial test strategies (PT and PT+DNU) yield smaller but still consistent gains, adding +175 to +193 new passes across models.",
-        "question": "The text states that the FT+DNU strategy produces new passes within a specific range. Using Chart1, identify the model with the highest number of new passes under FT+DNU and report the value. Respond only with a single numeric value.",
-        "question_type": "perceptual",
-        "answer": 227,
-        "answer_type": "numeric"
-    },
-
-    {
-        "question_id": 58,
-        "items": ["chart1","table1", "text"],
-        "path": {
-            "chart1": "2512.21028v1\\chart1.jpg",
-            "table1": "2512.21028v1\\table1.jpg"
-        },
-        "caption": {
-            "chart1": "New passing (solid) and failing (transparent) tests across models and prompting strategies compared to the baseline.",
-            "table1": "Pass@1 and Pass@5 results for different prompting strategies across models"
-        },
-        "text": "As shown in Chart1, all prompting strategies substantially expand the set of solved tests by 35% − 55%. With FT, models achieve between +213 and +230 new passes, while FT+DNU reaches a comparable range of +211 to +227, again confirming that models benefit from visible tests even under explicit restriction. Partial test strategies (PT and PT+DNU) yield smaller but still consistent gains, adding +175 to +193 new passes across models.",
-        "question": "The text states that the FT strategy yields new passes within a certain range. Using Chart1, identify the model with the lowest number of new passes under FT and report the value. Respond only with a single numeric value.",
-        "question_type": "perceptual",
-        "answer": 213,
-        "answer_type": "numeric"
     },
 
     {
@@ -1061,59 +719,6 @@
         "answer_type": "text"
     },
 
-    {
-        "question_id": 60,
-        "items": ["chart1","table1", "text"],
-        "path": {
-            "chart1": "2512.21028v1\\chart1.jpg",
-            "table1": "2512.21028v1\\table1.jpg"
-        },
-        "caption": {
-            "chart1": "New passing (solid) and failing (transparent) tests across models and prompting strategies compared to the baseline.",
-            "table1": "Pass@1 and Pass@5 results for different prompting strategies across models"
-        },
-        "text": "As shown in Chart1, all prompting strategies substantially expand the set of solved tests by 35% − 55%. With FT, models achieve between +213 and +230 new passes, while FT+DNU reaches a comparable range of +211 to +227, again confirming that models benefit from visible tests even under explicit restriction. Partial test strategies (PT and PT+DNU) yield smaller but still consistent gains, adding +175 to +193 new passes across models.",
-        "question": "The text states that the FT strategy produces a range of new passes across models. Using Chart1, compute the difference between the maximum and minimum number of new passes under the FT strategy across all models. Respond only with a single numeric value.",
-        "question_type": "reasoning",
-        "answer": 17,
-        "answer_type": "numeric"
-    },
-
-    {
-        "question_id": 61,
-        "items": ["chart1","table1", "text"],
-        "path": {
-            "chart1": "2512.21352v1\\chart1.jpg",
-            "table1": "2512.21352v1\\table1.jpg"
-        },
-        "caption": {
-            "chart1": "Performance comparison against published baselines. Our multi-agent framework achieves 74.7% success on WebShop, outperforming single-agent GPT-3 (50.1%) and RL agents (29.0%), and exceeding human-level range (60–70%). OWASP Juice Shop results (82.0%) demonstrate strong security testing capability.",
-            "table1": "Baseline Comparison Against Published Results"
-        },
-        "text": "Table1 present our results against published benchmarks. Our multi-agent framework achieves 74.7% success on WebShop Easy Task 001, significantly outperforming the published GPT-3 baseline of 50.1% [9] (+24.6 percentage points) and substantially exceeding the RL agent baseline of 29.0% (+45.7pp). This places our system’s performance above the human-level range reported in the WebShop paper (60–70%), suggesting that multi-agent consensus with vision effectively handles real-world e-commerce scenarios.",
-        "question": "Compute the improvement in WebShop Success of the Our Multi-Agent framework compared with the RL Agent. Express the result in decimal form and round it to three decimal places. Respond only with a single numeric value.",
-        "question_type": "reasoning",
-        "answer": 0.457,
-        "answer_type": "numeric"
-    },
-
-    {
-        "question_id": 62,
-        "items": ["chart1","table1", "text"],
-        "path": {
-            "chart1": "2512.21352v1\\chart1.jpg",
-            "table1": "2512.21352v1\\table1.jpg"
-        },
-        "caption": {
-            "chart1": "Performance comparison against published baselines. Our multi-agent framework achieves 74.7% success on WebShop, outperforming single-agent GPT-3 (50.1%) and RL agents (29.0%), and exceeding human-level range (60–70%). OWASP Juice Shop results (82.0%) demonstrate strong security testing capability.",
-            "table1": "Baseline Comparison Against Published Results"
-        },
-        "text": "Table1 present our results against published benchmarks. Our multi-agent framework achieves 74.7% success on WebShop Easy Task 001, significantly outperforming the published GPT-3 baseline of 50.1% [9] (+24.6 percentage points) and substantially exceeding the RL agent baseline of 29.0% (+45.7pp). This places our system’s performance above the human-level range reported in the WebShop paper (60–70%), suggesting that multi-agent consensus with vision effectively handles real-world e-commerce scenarios.",
-        "question": "One system is described as achieving performance above the human-level range . Based on the description, identify this system. Respond only with a single text value.",
-        "question_type": "perceptual",
-        "answer": "Our Multi-Agent framework",
-        "answer_type": "text"
-    },
 
     {
         "question_id": 63,
@@ -1151,41 +756,6 @@
         "answer_type": "text"
     },
 
-    {
-        "question_id": 65,
-        "items": ["chart1","table1", "text"],
-        "path": {
-            "chart1": "2512.21635v2\\chart1.jpg",
-            "table1": "2512.21635v2\\table1.jpg"
-        },
-        "caption": {
-            "chart1": "Comparative analysis of model indicators across scientific fields under SCP",
-            "table1": "Creativity and Hallucination Performance of Six LLMs Under Diverse Prompt Strategies, with CoT and RAG Constructed on the SCP Baseline. Bold values indicate the best-performing model–strategy pairs. “P” denotes the applied prompt strategy."
-        },
-        "text": "Chart1 visualizes the results for Intelligent IFS (IIFS, 𝑤1 = 0.9) applied in scenarios emphasizing intelligent hallucinations, Balanced IFS (BIFS, 𝑤1 = 0.6) used in balanced creativity and fidelity contexts, and Robust IFS (RIFS, 𝑤1 = 0.1) utilized in scenarios requiring high accuracy. In the first two metrics IIFS and BIFS deepseek r1 achieves higher scores demonstrating strong performance in creativity driven scenarios. However in accuracy focused environments as measured by RIFS this model is less suitable due to challenges in maintaining precision.",
-        "question": "The text states that the metric with 𝑤₁ = 0.6 is used in scenarios balancing creativity and fidelity. Using the legend in Chart1, identify the color of the bars corresponding to this metric. Respond only with a single text value.",
-        "question_type": "perceptual",
-        "answer": "blue",
-        "answer_type": "text"
-    },
-
-    {
-        "question_id": 66,
-        "items": ["chart1","table1", "text"],
-        "path": {
-            "chart1": "2512.21635v2\\chart1.jpg",
-            "table1": "2512.21635v2\\table1.jpg"
-        },
-        "caption": {
-            "chart1": "Comparative analysis of model indicators across scientific fields under SCP",
-            "table1": "Creativity and Hallucination Performance of Six LLMs Under Diverse Prompt Strategies, with CoT and RAG Constructed on the SCP Baseline. Bold values indicate the best-performing model–strategy pairs. “P” denotes the applied prompt strategy."
-        },
-        "text": "Chart1 visualizes the results for Intelligent IFS (IIFS, 𝑤1 = 0.9) applied in scenarios emphasizing intelligent hallucinations, Balanced IFS (BIFS, 𝑤1 = 0.6) used in balanced creativity and fidelity contexts, and Robust IFS (RIFS, 𝑤1 = 0.1) utilized in scenarios requiring high accuracy. In the first two metrics IIFS and BIFS deepseek r1 achieves higher scores demonstrating strong performance in creativity driven scenarios. However in accuracy focused environments as measured by RIFS this model is less suitable due to challenges in maintaining precision.",
-        "question": "The text states that the metric with 𝑤₁ = 0.6 is used in scenarios balancing creativity and fidelity. Using Chart1, identify the model with the highest score under this metric. Respond only with a single text value.",
-        "question_type": "reasoning",
-        "answer": "deepseek-r1",
-        "answer_type": "text"
-    },
 
     {
         "question_id": 67,
@@ -1274,42 +844,6 @@
         "question": "For the error category evaluated using clear meaning-preservation criteria, compute the average IAA score across all three systems. Round the result to three decimal places. Respond only with a single numeric value.",
         "question_type": "reasoning",
         "answer": 0.571,
-        "answer_type": "numeric"
-    },
-
-    {
-        "question_id": 72,
-        "items": ["chart1","table1", "text"],
-        "path": {
-            "chart1": "2512.22631v1\\chart1.jpg",
-            "table1": "2512.22631v1\\table1.jpg"
-        },
-        "caption": {
-            "chart1": "Overall performance: (a) Average across scales showing 3B collapse and recovery; (b) 14B peak performance demonstrating GRPO’s faithfulness advantages.",
-            "table1": "Performance comparison across methods and scales. Highest values are highlighted with bold."
-        },
-        "text": "Chart 1 shows average scores across scales. Both methods exhibit dramatic performance drops at 3B compared to 1.5B: GRPO greedy accuracy falls from 0.250 to 0.055 (−78%), DPO falls from 0.315 to 0.165 (−48%). This suggests 3B represents a critical capacity threshold where uniform hyperparameters become suboptimal. Possible explanations: (1) capacity mismatch requiring different LoRA rank/alpha ratios; (2) learning rate (5e-6) inappropriate for 3B scale causing instability; (3) Qwen2.5-3B architectural differences interacting poorly with training approaches. The dramatic recovery at 7B (GRPO: 0.720, DPO: 0.435) indicates this is hyperparameter sensitivity rather than fundamental limitation.",
-        "question": "Using Chart1, extract the average score of DPO at the 7B model size. Respond only with a single numeric value.",
-        "question_type": "perceptual",
-        "answer": 0.435,
-        "answer_type": "numeric"
-    },
-
-    {
-        "question_id": 73,
-        "items": ["chart1","table1", "text"],
-        "path": {
-            "chart1": "2512.22631v1\\chart1.jpg",
-            "table1": "2512.22631v1\\table1.jpg"
-        },
-        "caption": {
-            "chart1": "Overall performance: (a) Average across scales showing 3B collapse and recovery; (b) 14B peak performance demonstrating GRPO’s faithfulness advantages.",
-            "table1": "Performance comparison across methods and scales. Highest values are highlighted with bold."
-        },
-        "text": "Chart 1 shows average scores across scales. Both methods exhibit dramatic performance drops at 3B compared to 1.5B: GRPO greedy accuracy falls from 0.250 to 0.055 (−78%), DPO falls from 0.315 to 0.165 (−48%). This suggests 3B represents a critical capacity threshold where uniform hyperparameters become suboptimal. Possible explanations: (1) capacity mismatch requiring different LoRA rank/alpha ratios; (2) learning rate (5e-6) inappropriate for 3B scale causing instability; (3) Qwen2.5-3B architectural differences interacting poorly with training approaches. The dramatic recovery at 7B (GRPO: 0.720, DPO: 0.435) indicates this is hyperparameter sensitivity rather than fundamental limitation.",
-        "question": "The text states that 3B represents a critical capacity threshold. Using Chart (a), compute the drop in GRPO average score from 1.5B to 3B. Respond only with a single numeric value.",
-        "question_type": "reasoning",
-        "answer": 0.195,
         "answer_type": "numeric"
     },
 
@@ -1494,96 +1028,6 @@
     },
 
     {
-        "question_id": 84,
-        "items": ["chart1","table1", "text"],
-        "path": {
-            "chart1": "2512.23367v1\\chart1.jpg",
-            "table1": "2512.23367v1\\table1.jpg"
-        },
-        "caption": {
-            "chart1": "Average token count on HumanEval and MBPP for openPangu-Embedded-1B/7B (FP16 vs. INT8) under three CoT modes. Quantization scarcely changes output length; the 7B model consistently generates shorter traces than the 1B model, indicating more concise reasoning as scale increases.",
-            "table1": "openPangu-Embedded model accuracy on HumanEval and MBPP under different CoT modes and quantization schemes."
-        },
-        "text": "Table 1 reports the accuracy on HumanEval and MBPP for openPangu-Embedded models under the no think, auto think, and slow think modes, with FP16 and INT8 quantization. For the 7B model, INT8 matches or exceeds the performance of FP16 across all settings. In no think, the scores are similar (HumanEval: 85.37 vs 85.37; MBPP: 77.04 vs 78.21). In auto think, INT8 improves by 2.44 on HumanEval and 3.11 on MBPP. Under slow think, INT8 achieves 95.73 on HumanEval and 79.77 on MBPP, compared to FP16’s 95.12 and 77.43, respectively.",
-        "question": "For the 7B model under the auto think mode, INT8 achieves a higher score than FP16 on the MBPP benchmark. Using Table 1, compute the improvement in the MBPP score when switching from FP16 to INT8. Round the result to two decimal places. Respond only with a single numeric value.",
-        "question_type": "reasoning",
-        "answer": 3.11,
-        "answer_type": "numeric"
-    },
-
-    {
-        "question_id": 85,
-        "items": ["chart1","table1", "text"],
-        "path": {
-            "chart1": "2512.23592v1\\chart1.jpg",
-            "table1": "2512.23592v1\\table1.jpg"
-        },
-        "caption": {
-            "chart1": "Effect of training set size on FGVQA accuracy (%).",
-            "table1": "SFT vs. RL. We tune Qwen2.5-VL 3B on a subset of TWIN with SFT and RL. We report total accuracy (%) on FGVQA."
-        },
-        "text": "Chart1 shows the impact of data scale for TWIN. We train a Qwen2.5-VL-Instruct 3B model with M = {5K, 50K, 250K, 561K} image pairs and plot accuracy on FGVQA. We sample M with the same proportions of positive/negative pairs and real/generated images as our full dataset. Performance improves consistently across all datasets from 5K to 561K samples (e.g. 48.5% to 67.3% on TWIN and 44.2% to 61.8% on ILIAS), reinforcing our decision to collect TWIN at scale. Notably, scale also improves performance on domains not represented in TWIN: INQUIRE improves from 53.3% to 73.7% and CUB from 62.2% to 75.1% as training data scales from 5K to 561K.",
-        "question": "Using the x-axis values in Chart1 and the text, determine the largest training sample scale used in the experiment. Respond only with a single text value.",
-        "question_type": "perceptual",
-        "answer": "561K",
-        "answer_type": "text"
-    },
-
-    {
-        "question_id": 86,
-        "items": ["chart1","table1", "text"],
-        "path": {
-            "chart1": "2512.23592v1\\chart1.jpg",
-            "table1": "2512.23592v1\\table1.jpg"
-        },
-        "caption": {
-            "chart1": "Effect of training set size on FGVQA accuracy (%).",
-            "table1": "SFT vs. RL. We tune Qwen2.5-VL 3B on a subset of TWIN with SFT and RL. We report total accuracy (%) on FGVQA."
-        },
-        "text": "Chart1 shows the impact of data scale for TWIN. We train a Qwen2.5-VL-Instruct 3B model with M = {5K, 50K, 250K, 561K} image pairs and plot accuracy on FGVQA. We sample M with the same proportions of positive/negative pairs and real/generated images as our full dataset. Performance improves consistently across all datasets from 5K to 561K samples (e.g. 48.5% to 67.3% on TWIN and 44.2% to 61.8% on ILIAS), reinforcing our decision to collect TWIN at scale. Notably, scale also improves performance on domains not represented in TWIN: INQUIRE improves from 53.3% to 73.7% and CUB from 62.2% to 75.1% as training data scales from 5K to 561K.",
-        "question": "The text states that INQUIRE improves from 53.3% to 73.7% as training data scales from 5K to 561K. Using Chart1 and the text, compute the increase in accuracy. Respond only with a single numeric value.",
-        "question_type": "reasoning",
-        "answer": "20.4",
-        "answer_type": "numeric"
-    },
-
-    {
-        "question_id": 87,
-        "items": ["chart1","table1", "text"],
-        "path": {
-            "chart1": "2512.23592v1\\chart1.jpg",
-            "table1": "2512.23592v1\\table1.jpg"
-        },
-        "caption": {
-            "chart1": "Effect of training set size on FGVQA accuracy (%).",
-            "table1": "SFT vs. RL. We tune Qwen2.5-VL 3B on a subset of TWIN with SFT and RL. We report total accuracy (%) on FGVQA."
-        },
-        "text": "Chart1 shows the impact of data scale for TWIN. We train a Qwen2.5-VL-Instruct 3B model with M = {5K, 50K, 250K, 561K} image pairs and plot accuracy on FGVQA. We sample M with the same proportions of positive/negative pairs and real/generated images as our full dataset. Performance improves consistently across all datasets from 5K to 561K samples (e.g. 48.5% to 67.3% on TWIN and 44.2% to 61.8% on ILIAS), reinforcing our decision to collect TWIN at scale. Notably, scale also improves performance on domains not represented in TWIN: INQUIRE improves from 53.3% to 73.7% and CUB from 62.2% to 75.1% as training data scales from 5K to 561K.",
-        "question": "Using Chart1 and the text, compute the total accuracy increase for CUB from 5K to 561K. Respond only with a single numeric value.",
-        "question_type": "reasoning",
-        "answer": 12.9,
-        "answer_type": "numeric"
-    },
-
-    {
-        "question_id": 88,
-        "items": ["chart1","table1", "text"],
-        "path": {
-            "chart1": "2512.23592v1\\chart1.jpg",
-            "table1": "2512.23592v1\\table1.jpg"
-        },
-        "caption": {
-            "chart1": "Effect of training set size on FGVQA accuracy (%).",
-            "table1": "SFT vs. RL. We tune Qwen2.5-VL 3B on a subset of TWIN with SFT and RL. We report total accuracy (%) on FGVQA."
-        },
-        "text": "Chart1 shows the impact of data scale for TWIN. We train a Qwen2.5-VL-Instruct 3B model with M = {5K, 50K, 250K, 561K} image pairs and plot accuracy on FGVQA. We sample M with the same proportions of positive/negative pairs and real/generated images as our full dataset. Performance improves consistently across all datasets from 5K to 561K samples (e.g. 48.5% to 67.3% on TWIN and 44.2% to 61.8% on ILIAS), reinforcing our decision to collect TWIN at scale. Notably, scale also improves performance on domains not represented in TWIN: INQUIRE improves from 53.3% to 73.7% and CUB from 62.2% to 75.1% as training data scales from 5K to 561K.",
-        "question": "The text states that performance increases as training scale grows. Using Chart1, determine the highest accuracy value among all datasets at the largest training scale (561K). Respond only with a single numeric value.",
-        "question_type": "reasoning",
-        "answer": 75.1,
-        "answer_type": "numeric"
-    },
-
-    {
         "question_id": 89,
         "items": ["chart1","table1", "text"],
         "path": {
@@ -1652,24 +1096,6 @@
         "question": "The text states that Peg-in-Hole requires high precision alignment. Using Chart1, identify the color of the simulated-data sector corresponding to this task. A. Dark blue B. Light blue C. Orange D. Light orange Respond only with the letter.",
         "question_type": "perceptual",
         "answer": "A",
-        "answer_type": "choice"
-    },
-
-    {
-        "question_id": 93,
-        "items": ["chart1","table1", "text"],
-        "path": {
-            "chart1": "2512.23864v1\\chart1.jpg",
-            "table1": "2512.23864v1\\table1.jpg"
-        },
-        "caption": {
-            "chart1": "The dataset consists of 80% simulated demonstrations and 20% real-world demonstrations, each containing four task categories: Peg-in-Hole, USB Insert, Gear Assembly, and Tool Stabilization. Blue segments represent simulated data, while orange segments denote real-world data.",
-            "table1": "Task Success Rates (%) in Real-world (100 trials). Results are reported as mean ± standard deviation over 3 runs."
-        },
-        "text": "1) Peg-in-Hole: A classic robotics task requiring high precision. The port is partially occluded, forcing the policy to rely on tactile feedback for the final alignment. 2) USB Insertion: Inserting a USB-A plug into a port. This task has extremely tight tolerances (submillimeters) that are ambiguous from vision alone. 3) Gear Assembly: Sliding a small gear onto a shaft. This requires aligning the gear’s hole with the shaft, a task that easily failed due to misalignment. 4) Tool Stabilization: The agent grips a cube and uses one of its vertices to support a thin vertical cylinder on the tabletop, maintaining the cylinder in a stable upright pose under small disturbances. We constructed a hybrid dataset consists of approximately 80% simulated demonstrations and 20% real-world demonstrations across four task categories, as illustrated in Chart1.",
-        "question": "Using Chart1, identify the color of the real-world data sector corresponding to the task described as maintaining object stability under disturbances. A. Dark orange B. Light orange C. Dark blue D. Gray Respond only with the letter.",
-        "question_type": "perceptual",
-        "answer": "B",
         "answer_type": "choice"
     },
 

@@ -162,42 +162,6 @@
     },
 
     {
-        "question_id": 10,
-        "items": ["chart1","chart2", "text"],
-        "path": {
-            "chart1": "2512.23565v2\\chart1.jpg",
-            "chart2": "2512.23565v2\\chart2.jpg"
-        },
-        "caption": {
-            "chart1": "Distribution of Question Types in the SF-QA Dataset. The dataset covers 6 balanced types of tasks, ranging from fundamental information extraction to advanced mechanistic reasoning and structural recognition.",
-            "chart2": "Comparative performance analysis of inference-time reasoning (“Think”) versus standard instruction-tuned (“Instruct”) models across diverse cognitive tasks. The visualization highlights the “reasoning leap” in complex mechanistic and synthetic tasks achieved by thinking models (red/green lines) compared to standard baselines (blue/yellow lines), while also illustrating the universal bottleneck in precise structure recognition."
-        },
-        "text": "Fact Extraction (37.2%, 568 Questions): This foundational category tests the model's ability to directly retrieve explicit textual or numerical information embedded within reaction schemes. Tasks include identifying reaction titles, extracting yield values, or reading reaction times and temperatures without requiring chemical interpretation. (e.g., “What is the title of this chemical reaction scheme?”) Reagent Roles & Functions (16.5%, 252 Questions): Moving beyond OCR, this type requires the model to understand the chemical semantics of the text labels. Models must distinguish between reagents, catalysts, solvents, and additives, and correctly identify their functional roles (e.g., “Which molecule acts as the oxidant in this transformation?”).",
-        "question": "Determine the number of questions in the category that requires identifying roles such as oxidants, catalysts, or solvents. Respond only with a single numeric value.",
-        "question_type": "perceptual",
-        "answer": 252,
-        "answer_type": "numeric"
-    },
-
-    {
-        "question_id": 11,
-        "items": ["chart1","chart2", "text"],
-        "path": {
-            "chart1": "2512.23565v2\\chart1.jpg",
-            "chart2": "2512.23565v2\\chart2.jpg"
-        },
-        "caption": {
-            "chart1": "Distribution of Question Types in the SF-QA Dataset. The dataset covers 6 balanced types of tasks, ranging from fundamental information extraction to advanced mechanistic reasoning and structural recognition.",
-            "chart2": "Comparative performance analysis of inference-time reasoning (“Think”) versus standard instruction-tuned (“Instruct”) models across diverse cognitive tasks. The visualization highlights the “reasoning leap” in complex mechanistic and synthetic tasks achieved by thinking models (red/green lines) compared to standard baselines (blue/yellow lines), while also illustrating the universal bottleneck in precise structure recognition."
-        },
-        "text": "Fact Extraction (37.2%, 568 Questions): This foundational category tests the model's ability to directly retrieve explicit textual or numerical information embedded within reaction schemes. Tasks include identifying reaction titles, extracting yield values, or reading reaction times and temperatures without requiring chemical interpretation. (e.g., “What is the title of this chemical reaction scheme?”) Reagent Roles & Functions (16.5%, 252 Questions): Moving beyond OCR, this type requires the model to understand the chemical semantics of the text labels. Models must distinguish between reagents, catalysts, solvents, and additives, and correctly identify their functional roles (e.g., “Which molecule acts as the oxidant in this transformation?”).",
-        "question": "Identify the category that involves directly retrieving information such as reaction titles, reaction times, or temperatures, and report its percentage share in the chart. Respond only with a single numeric value.",
-        "question_type": "perceptual",
-        "answer": 37.2,
-        "answer_type": "numeric"
-    },
-
-    {
         "question_id": 12,
         "items": ["chart1","chart2", "text"],
         "path": {
@@ -249,42 +213,6 @@
         "question_type": "reasoning",
         "answer": "[B, C]",
         "answer_type": "choice_list"
-    },
-
-    {
-        "question_id": 15,
-        "items": ["chart1","chart2", "text"],
-        "path": {
-            "chart1": "2512.23565v2\\chart1.jpg",
-            "chart2": "2512.23565v2\\chart2.jpg"
-        },
-        "caption": {
-            "chart1": "Distribution of Question Types in the SF-QA Dataset. The dataset covers 6 balanced types of tasks, ranging from fundamental information extraction to advanced mechanistic reasoning and structural recognition.",
-            "chart2": "Comparative performance analysis of inference-time reasoning (“Think”) versus standard instruction-tuned (“Instruct”) models across diverse cognitive tasks. The visualization highlights the “reasoning leap” in complex mechanistic and synthetic tasks achieved by thinking models (red/green lines) compared to standard baselines (blue/yellow lines), while also illustrating the universal bottleneck in precise structure recognition."
-        },
-        "text": "Mechanism & Process (19.4%, 296 Questions): This category assesses the model’s grasp of the dynamic nature of chemical reactions. Questions focus on interpreting the reaction progression, including identifying key intermediates, tracing catalytic cycles, and understanding the sequence of mechanistic steps depicted in the scheme. (e.g., “Which of the following statements correctly describes the role of photocatalyst (PC) in the catalysis cycle?”) Comparative Analysis & Reasoning (14.2%, 216 Questions): These questions require the model to perform comparative evaluations or causal reasoning. Typical tasks include predicting how changes in substrates (e.g., electronic effects of substituents) influence reaction outcomes like yield or selectivity, often necessitating an analysis of provided scope tables. (e.g., “Compare the effects of different LED power and wavelength on the reaction yield.”)",
-        "question": "Compute the total number of questions that involve either interpreting reaction progression or performing comparative reasoning about reaction outcomes. Respond only with a single numeric value.",
-        "question_type": "reasoning",
-        "answer": 512,
-        "answer_type": "numeric"
-    },
-
-    {
-        "question_id": 16,
-        "items": ["chart1","chart2", "text"],
-        "path": {
-            "chart1": "2512.23565v2\\chart1.jpg",
-            "chart2": "2512.23565v2\\chart2.jpg"
-        },
-        "caption": {
-            "chart1": "Distribution of Question Types in the SF-QA Dataset. The dataset covers 6 balanced types of tasks, ranging from fundamental information extraction to advanced mechanistic reasoning and structural recognition.",
-            "chart2": "Comparative performance analysis of inference-time reasoning (“Think”) versus standard instruction-tuned (“Instruct”) models across diverse cognitive tasks. The visualization highlights the “reasoning leap” in complex mechanistic and synthetic tasks achieved by thinking models (red/green lines) compared to standard baselines (blue/yellow lines), while also illustrating the universal bottleneck in precise structure recognition."
-        },
-        "text": "Mechanism & Process (19.4%, 296 Questions): This category assesses the model’s grasp of the dynamic nature of chemical reactions. Questions focus on interpreting the reaction progression, including identifying key intermediates, tracing catalytic cycles, and understanding the sequence of mechanistic steps depicted in the scheme. (e.g., “Which of the following statements correctly describes the role of photocatalyst (PC) in the catalysis cycle?”) Comparative Analysis & Reasoning (14.2%, 216 Questions): These questions require the model to perform comparative evaluations or causal reasoning. Typical tasks include predicting how changes in substrates (e.g., electronic effects of substituents) influence reaction outcomes like yield or selectivity, often necessitating an analysis of provided scope tables. (e.g., “Compare the effects of different LED power and wavelength on the reaction yield.”)",
-        "question": "Compute the combined percentage of questions that involve reaction mechanism understanding or comparative reasoning about reaction conditions. Respond only with a single numeric value.",
-        "question_type": "reasoning",
-        "answer": 33.6,
-        "answer_type": "numeric"
     },
 
     {
@@ -412,24 +340,6 @@
         "question_type": "reasoning",
         "answer": "[A, B, C]",
         "answer_type": "choice_list"
-    },
-
-    {
-        "question_id": 24,
-        "items": ["chart1","chart2", "text"],
-        "path": {
-            "chart1": "2512.23773v1\\chart1.jpg",
-            "chart2": "2512.23773v1\\chart2.jpg"
-        },
-        "caption": {
-            "chart1": "Routing result of VAEs along time during the test phase. The x-axis represents the timestamp. The y-axis represents the proportion of different market dynamics.",
-            "chart2": "Risk-aware routing performance over time. The x-axis denotes the timestamp, and the y-axis shows the returns of FineFT and the subagents."
-        },
-        "text": "Chart2 is the performance comparison of the routing. It shows that FineFT is the best, while FineFT_wo_risk beats any other single agent. Agents for a bear market and pullback market are very similar, making a profit in July when the price dropped, while the sideways, rally, and bull market made profits from August to October when the price increased. The FineFT takes advantage of both sides and closes its position in a volatile dynamic, where market state representations are not met in the validation dataset to avoid potential loss.",
-        "question": "Based on the chart trends and the strategy roles described for different market phases, which single-market strategy performs worst during the rising phase (August–October)? A. Bear B. Pullback C. Rally D. Bull Respond only with a single letter.",
-        "question_type": "reasoning",
-        "answer": "A",
-        "answer_type": "choice"
     },
 
 
@@ -576,42 +486,6 @@
         "answer": 0.171,
         "answer_type": "numeric"
     }, 
-
-    {
-        "question_id": 32,
-        "items": ["chart1","chart2", "text"],
-        "path": {
-            "chart1": "2512.23994v1\\chart1.jpg",
-            "chart2": "2512.23994v1\\chart2.jpg"
-        },
-        "caption": {
-            "chart1": "Audio-physics distribution of PhyAVBench.",
-            "chart2": "Scenario distribution of PhyAVBench across different scenario types."
-        },
-        "text": "Audio Physics Coverage. PhyAVBench spans 6 major audiophysics dimensions, each comprising 3 or 4 subcategories, resulting in a total of 50 fine-grained test points. These test points range from common acoustic phenomena, such as reverberation and collision sound, to more complex effects, including vortex shedding and Helmholtz resonance, forming a comprehensive evaluation matrix.",
-        "question": "Count the number of audiophysics dimensions from the center of the chart, and combine it with the total number of test points stated in the text to compute the average number of test points per dimension. Round the result to two decimal places. Respond only with a single numeric value.",
-        "question_type": "reasoning",
-        "answer": 8.33,
-        "answer_type": "numeric"
-    },
-
-    {
-        "question_id": 34,
-        "items": ["chart1","chart2", "text"],
-        "path": {
-            "chart1": "2512.23994v1\\chart1.jpg",
-            "chart2": "2512.23994v1\\chart2.jpg"
-        },
-        "caption": {
-            "chart1": "Audio-physics distribution of PhyAVBench.",
-            "chart2": "Scenario distribution of PhyAVBench across different scenario types."
-        },
-        "text": "PhyAVBench is designed to systematically evaluate the physics grounding capability of T2AV models. It comprises 1,000 groups of human-refined prompts and real-world groundtruth videos, featuring controlled physical factors, paired comparisons, and real-world recordings, enabling fine-grained assessment of models’ physical consistency beyond surfacelevel realism. Most T2AV tasks in PhyAVBench demand a deep understanding of the physical laws governing acoustic conditions. Chart2 illustrates the data distribution of PhyAVBench across major and sub audio-physics dimensions as well as diverse audible scenarios.",
-        "question": "Using the six audio-physics dimensions shown in the chart together with the total number of prompt–video pairs described in the text, compute the average number of test pairs per dimension. Round the result to two decimal places. Respond only with a single numeric value.",
-        "question_type": "reasoning",
-        "answer": 166.67,
-        "answer_type": "numeric"
-    },
 
     {
         "question_id": 35,
@@ -790,96 +664,6 @@
         "question": "The text refers to the OpenAI model with the highest latency. Locate it in the chart and extract its latency value. Respond only with a single numeric value.",
         "question_type": "perceptual",
         "answer": 59.2,
-        "answer_type": "numeric"
-    },
-
-    {
-        "question_id": 45,
-        "items": ["chart1","chart2", "text"],
-        "path": {
-            "chart1": "2512.24470v1\\chart1.jpg",
-            "chart2": "2512.24470v1\\chart2.jpg"
-        },
-        "caption": {
-            "chart1": "Model awareness vs latency, showing only the pareto frontier.",
-            "chart2": "Awareness leaderboard, only showing the per-provider pareto frontier."
-        },
-        "text": "OpenAI models show overall best performance: gpt-5-high shows the highest mean awareness (0.866 ± 0.063) at 59.2 ± 4.0 s, while strong sub-10 s alternatives, gpt-4.1 (0.830 ± 0.063 at 5.69 ± 0.22 s) and gpt-5-minimal (0.833 ± 0.071 at 7.07 ± 0.47 s), provide most of the performance at much lower latency (Table 3). Incremental gains beyond ∼30 s are within CI (like gpt-5-medium at 0.866 ± 0.062 at 30.0 ± 1.9 s vs. gpt-5-high). The best non-OpenAI frontier points are gemini-2.5-flash (0.768 ± 0.087 at 15.6 ± 1.1 s) and gemini-robotics-er-1.5 think=12288 (0.704 ± 0.112 at 14.3 ± 0.6 s), while Anthropic’s fastest frontier point is claude-sonnet-4 (0.507±0.139 at 4.53± 0.11 s). The best models mostly span from ∼5–7 s at ∼0.83 awareness to ∼60 s at ∼0.87 awareness score.",
-        "question": "The text mentions that gpt-5-high has about 59 seconds latency. Using the chart, compute the difference between this latency and the fastest model’s latency. Respond only with a single numeric value.",
-        "question_type": "reasoning",
-        "answer": 54.67,
-        "answer_type": "numeric"
-    },
-
-    {
-        "question_id": 46,
-        "items": ["chart1","chart2", "text"],
-        "path": {
-            "chart1": "2512.24470v1\\chart1.jpg",
-            "chart2": "2512.24470v1\\chart2.jpg"
-        },
-        "caption": {
-            "chart1": "Model awareness vs latency, showing only the pareto frontier.",
-            "chart2": "Awareness leaderboard, only showing the per-provider pareto frontier."
-        },
-        "text": "OpenAI models show overall best performance: gpt-5-high shows the highest mean awareness (0.866 ± 0.063) at 59.2 ± 4.0 s, while strong sub-10 s alternatives, gpt-4.1 (0.830 ± 0.063 at 5.69 ± 0.22 s) and gpt-5-minimal (0.833 ± 0.071 at 7.07 ± 0.47 s), provide most of the performance at much lower latency (Table 3). Incremental gains beyond ∼30 s are within CI (like gpt-5-medium at 0.866 ± 0.062 at 30.0 ± 1.9 s vs. gpt-5-high). The best non-OpenAI frontier points are gemini-2.5-flash (0.768 ± 0.087 at 15.6 ± 1.1 s) and gemini-robotics-er-1.5 think=12288 (0.704 ± 0.112 at 14.3 ± 0.6 s), while Anthropic’s fastest frontier point is claude-sonnet-4 (0.507±0.139 at 4.53± 0.11 s). The best models mostly span from ∼5–7 s at ∼0.83 awareness to ∼60 s at ∼0.87 awareness score.",
-        "question": "Compute the average Mean Awareness of the Gemini models. The text states that the Gemini models include gemini-2.5-flash and gemini-robotics-er-1.5 think=12288. Use the awareness values labeled in the chart to compute their average. Respond only with a single numeric value.",
-        "question_type": "reasoning",
-        "answer": 0.736,
-        "answer_type": "numeric"
-    },
-
-    {
-        "question_id": 47,
-        "items": ["chart1","chart2", "text"],
-        "path": {
-            "chart1": "2512.24470v1\\chart1.jpg",
-            "chart2": "2512.24470v1\\chart2.jpg"
-        },
-        "caption": {
-            "chart1": "Model awareness vs latency, showing only the pareto frontier.",
-            "chart2": "Awareness leaderboard, only showing the per-provider pareto frontier."
-        },
-        "text": "OpenAI models show overall best performance: gpt-5-high shows the highest mean awareness (0.866 ± 0.063) at 59.2 ± 4.0 s, while strong sub-10 s alternatives, gpt-4.1 (0.830 ± 0.063 at 5.69 ± 0.22 s) and gpt-5-minimal (0.833 ± 0.071 at 7.07 ± 0.47 s), provide most of the performance at much lower latency (Table 3). Incremental gains beyond ∼30 s are within CI (like gpt-5-medium at 0.866 ± 0.062 at 30.0 ± 1.9 s vs. gpt-5-high). The best non-OpenAI frontier points are gemini-2.5-flash (0.768 ± 0.087 at 15.6 ± 1.1 s) and gemini-robotics-er-1.5 think=12288 (0.704 ± 0.112 at 14.3 ± 0.6 s), while Anthropic’s fastest frontier point is claude-sonnet-4 (0.507±0.139 at 4.53± 0.11 s). The best models mostly span from ∼5–7 s at ∼0.83 awareness to ∼60 s at ∼0.87 awareness score.",
-        "question": "The text identifies gemini-2.5-flash as one of the best non-OpenAI frontier models. From the chart, extract the awareness value labeled for this model. Respond only with a single numeric value.",
-        "question_type": "perceptual",
-        "answer": 0.768,
-        "answer_type": "numeric"
-    },
-
-    {
-        "question_id": 48,
-        "items": ["chart1","chart2", "text"],
-        "path": {
-            "chart1": "2512.24470v1\\chart1.jpg",
-            "chart2": "2512.24470v1\\chart2.jpg"
-        },
-        "caption": {
-            "chart1": "Model awareness vs latency, showing only the pareto frontier.",
-            "chart2": "Awareness leaderboard, only showing the per-provider pareto frontier."
-        },
-        "text": "OpenAI models show overall best performance: gpt-5-high shows the highest mean awareness (0.866 ± 0.063) at 59.2 ± 4.0 s, while strong sub-10 s alternatives, gpt-4.1 (0.830 ± 0.063 at 5.69 ± 0.22 s) and gpt-5-minimal (0.833 ± 0.071 at 7.07 ± 0.47 s), provide most of the performance at much lower latency (Table 3). Incremental gains beyond ∼30 s are within CI (like gpt-5-medium at 0.866 ± 0.062 at 30.0 ± 1.9 s vs. gpt-5-high). The best non-OpenAI frontier points are gemini-2.5-flash (0.768 ± 0.087 at 15.6 ± 1.1 s) and gemini-robotics-er-1.5 think=12288 (0.704 ± 0.112 at 14.3 ± 0.6 s), while Anthropic’s fastest frontier point is claude-sonnet-4 (0.507±0.139 at 4.53± 0.11 s). The best models mostly span from ∼5–7 s at ∼0.83 awareness to ∼60 s at ∼0.87 awareness score.",
-        "question": "The text mentions a Gemini robotics model. Locate this model in the chart and extract the latency value associated with it. Respond only with a single numeric value.",
-        "question_type": "perceptual",
-        "answer": 14.3,
-        "answer_type": "numeric"
-    },
-
-    {
-        "question_id": 49,
-        "items": ["chart1","chart2", "text"],
-        "path": {
-            "chart1": "2512.24470v1\\chart1.jpg",
-            "chart2": "2512.24470v1\\chart2.jpg"
-        },
-        "caption": {
-            "chart1": "Model awareness vs latency, showing only the pareto frontier.",
-            "chart2": "Awareness leaderboard, only showing the per-provider pareto frontier."
-        },
-        "text": "OpenAI models show overall best performance: gpt-5-high shows the highest mean awareness (0.866 ± 0.063) at 59.2 ± 4.0 s, while strong sub-10 s alternatives, gpt-4.1 (0.830 ± 0.063 at 5.69 ± 0.22 s) and gpt-5-minimal (0.833 ± 0.071 at 7.07 ± 0.47 s), provide most of the performance at much lower latency (Table 3). Incremental gains beyond ∼30 s are within CI (like gpt-5-medium at 0.866 ± 0.062 at 30.0 ± 1.9 s vs. gpt-5-high). The best non-OpenAI frontier points are gemini-2.5-flash (0.768 ± 0.087 at 15.6 ± 1.1 s) and gemini-robotics-er-1.5 think=12288 (0.704 ± 0.112 at 14.3 ± 0.6 s), while Anthropic’s fastest frontier point is claude-sonnet-4 (0.507±0.139 at 4.53± 0.11 s). The best models mostly span from ∼5–7 s at ∼0.83 awareness to ∼60 s at ∼0.87 awareness score.",
-        "question": "The text mentions the model gpt-5-medium. From the chart, extract its awareness value. Respond only with a single numeric value.",
-        "question_type": "perceptual",
-        "answer": 0.866,
         "answer_type": "numeric"
     },
 
