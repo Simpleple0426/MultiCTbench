@@ -95,7 +95,7 @@ client = OpenAI(
     api_key="YOUR_API_KEY",
 )
 
-model = "gpt-5.5"
+model = "gpt-5.4"
 ```
 
 For the official OpenAI API, keep `base_url` commented out. For OpenAI-compatible third-party services, uncomment `base_url` and replace both `base_url` and `model` with the corresponding service configuration.
