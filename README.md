@@ -16,13 +16,13 @@ In addition to the main benchmark, the project includes supplementary evaluation
 
 ```text
 MultiCTbench/
-├── chart-table/             # Chart-table setting
-├── multicharts/             # Multi-chart setting
-├── multitables/             # Multi-table setting
-├── table_and_chart/         # Chart-table complementarity experiments
-├── und_gen/                     # Understanding-generation interaction experiments
-├── exact_questions_300/     # Quick-evaluation subset
-├── evaluation_openai*.ipynb # OpenAI-style evaluation notebooks
+├── chart-table/
+├── multicharts/
+├── multitables/
+├── table_and_chart/
+├── und_gen/
+├── exact_questions_300/
+├── evaluation_openai*.ipynb
 └── README.md
 ```
 
@@ -93,7 +93,6 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key="YOUR_API_KEY",
-    # base_url="YOUR_BASE_URL",  # Optional: only needed for OpenAI-compatible third-party services
 )
 
 model = "gpt-5.5"
@@ -121,6 +120,7 @@ The repository provides several notebooks for different evaluation settings:
 | `evaluation_openai_chart_table.ipynb` | Evaluation with both chart and table inputs. |
 | `evaluation_openai_text.ipynb` | Evaluation with chart/table images and textual context from the source paper. |
 | `evaluation_openai_text_wo.ipynb` | Evaluation without textual context. |
+| `evaluation_openai_text_only.ipynb` | Evaluation only with textual context. |
 | `evaluation_openai_reason.ipynb` | Evaluation with explicit reasoning guidance. |
 | `evaluation_openai_noreference.ipynb` | Evaluation after replacing explicit references such as `Chart 1` or `Table 1` with generic references. |
 | `evaluation_openai_noimage.ipynb` | Evaluation without chart/table image inputs. |
@@ -146,7 +146,6 @@ The notebooks implement automatic evaluation for common answer types:
 - `code`: Checks code executability, chart type, data values, required operations, and readability.
 
 Raw model outputs are first normalized by an answer-extraction LLM into the `answer: ...` format, and then passed to the corresponding evaluation function.
-
 
 
 
